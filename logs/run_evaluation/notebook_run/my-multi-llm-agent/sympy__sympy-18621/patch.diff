@@ -1,0 +1,17 @@
+```diff
+--- a/sympy/matrices/expressions/blockmatrix.py
++++ b/sympy/matrices/expressions/blockmatrix.py
+@@ -245,7 +245,10 @@
+         col_block = col // col_block_size
+ 
+         if row_block >= self.rows or col_block >= self.cols:
+-            return self.zero
++            if self.rows == 1 and self.cols == 1 and isinstance(self.blocks, One):
++                return self.blocks * self.blocks[0, 0]._entry(i, j)
++            else:
++                return self.zero
+ 
+         return self.blocks[row_block, col_block][i, j]
+ 
+
+```

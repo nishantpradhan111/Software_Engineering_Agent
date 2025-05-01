@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/printing/pretty/pretty.py
++++ b/sympy/printing/pretty/pretty.py
+@@ -1369,7 +1369,7 @@
+ 
+         if len(terms) == 0:
+             return pform(0, binding=binding)
+-        first = pform(terms[0])
++        first = pform(terms[0], binding=binding)
+         pretty_terms = [first]
+         for term in terms[1:]:
+             pretty_terms.append(pform(' + ', binding=binding) + pform(term, binding=binding))
+
+```

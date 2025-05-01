@@ -1,0 +1,9 @@
+```diff
+--- a/.pylintrc
++++ b/.pylintrc
+@@ -1,2 +1,2 @@
+-function-rgx=[\p{Han}a-z_][\p{Han}a-z0-9_]{2,30}$
++function-rgx=[\u4e00-\u9fff_a-z][\u4e00-\u9fff_a-z0-9]{2,30}$
+```
+
+The issue is that Pylint's regex engine doesn't support the Unicode property escape `\p{Han}`.  The fix is to replace `\p{Han}` with the equivalent Unicode range `\u4e00-\u9fff`, which covers the majority of commonly used Han characters.  This range represents the Basic Multilingual Plane (BMP) portion of the Han script. While not perfectly equivalent to `\p{Han}`, it's a practical solution for most use cases.  If truly comprehensive Han character matching is required, a more advanced regex engine outside of Pylint's configuration would be necessary.

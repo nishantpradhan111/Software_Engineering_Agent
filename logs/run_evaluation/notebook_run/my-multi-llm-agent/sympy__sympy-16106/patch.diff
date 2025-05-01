@@ -1,0 +1,22 @@
+```diff
+--- a/sympy/printing/mathml.py
++++ b/sympy/printing/mathml.py
+@@ -356,9 +356,12 @@
+         return x
+ 
+     def _print_Basic(self, e):
+-        x = self.dom.createElement(self.mathml_tag(e))
+-        for arg in e:
+-            x.appendChild(self._print(arg))
++        from sympy.tensor.indexed import Indexed
++        if isinstance(e, Indexed):
++            x = self._print_Indexed(e)
++        else:
++            x = self.dom.createElement(self.mathml_tag(e))
++            for arg in e.args:
++                x.appendChild(self._print(arg))
+         return x
+ 
+     def _print_Symbol(self, e):
+
+```

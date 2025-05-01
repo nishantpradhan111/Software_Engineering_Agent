@@ -1,0 +1,21 @@
+```diff
+--- a/django/contrib/admin/templatetags/admin_modify.py
++++ b/django/contrib/admin/templatetags/admin_modify.py
+@@ -100,6 +100,7 @@
+     return {
+         "show_delete_link": (
+             not is_popup and context["has_delete_permission"] and context["deletable"]
++
+         ),
+         "show_save_as_new": (
+             not is_popup
+@@ -107,6 +108,7 @@
+             and context.get("has_add_permission", True)
+             and context["has_change_permission"]
+             and context["change"]
++
+             and context["save_as"]
+         ),
+         "show_save": not is_popup and context["has_change_permission"],
+
+```

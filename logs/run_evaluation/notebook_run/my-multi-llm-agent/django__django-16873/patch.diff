@@ -1,0 +1,32 @@
+```diff
+--- a/django/template/defaultfilters.py
++++ b/django/template/defaultfilters.py
+@@ -703,7 +703,7 @@
+     if value is None:
+         return ''
+     if not hasattr(value, '__iter__'):
+-        return value
++        return str(value)
+     try:
+         separator = str(arg)
+     except UnicodeDecodeError:
+@@ -711,7 +711,10 @@
+             separator = force_text(arg)
+     joined_values = []
+     autoescape_off = context.autoescape and not getattr(value, 'is_safe', False)
+-    for val in value:
++    for i, val in enumerate(value):
+         if autoescape_off:
+             joined_values.append(force_text(val))
++        else:
++            if not getattr(val, 'is_safe', False) and i > 0:
++                val = escape(val)
++            joined_values.append(force_text(val))
+         if not autoescape_off:
+-            joined_values.append(escape(val))
+-    return mark_safe(separator.join(joined_values))
++            if i > 0:
++                separator = escape(separator)
++    return mark_safe(force_text(separator).join(joined_values))
+
+```

@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/parsing/latex.py
++++ b/sympy/parsing/latex.py
+@@ -571,7 +571,7 @@
+                     if len(m[1]) > 1:
+                         # \frac{a}{bc}
+                         if len(m[2]) > 1:
+-                            return Mul(parse_latex(m[1]), Pow(parse_latex(m[2]), -1))
++                            return Mul(parse_latex(m[1]), Pow(parse_latex("{" + m[2] + "}"), -1))
+                         else:
+                             return Mul(parse_latex(m[1]), Pow(parse_latex(m[2]), -1))
+                     else:
+
+```

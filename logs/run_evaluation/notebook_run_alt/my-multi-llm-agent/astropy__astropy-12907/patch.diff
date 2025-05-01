@@ -1,0 +1,32 @@
+```diff
+--- a/astropy/modeling/separable.py
++++ b/astropy/modeling/separable.py
+@@ -73,7 +73,7 @@
+     for i in range(n_inputs):
+         for j in range(n_inputs):
+             if i != j:
+-                separable[i, j] = _is_separable(model, i, j)
++                separable[i, j] = _is_separable(model, i, j, n_inputs)
+ 
+     return separable
+ 
+@@ -94,12 +94,15 @@
+         return False
+ 
+ 
+-def _is_separable(model, i, j):
++def _is_separable(model, i, j, n_inputs):
+     """
+     Check if a model is separable between inputs ``i`` and ``j``.
+     """
+ 
+-    n_inputs = model.n_inputs
++    # For nested compound models, the inputs to the inner model are offset
++    # by the number of inputs in the outer model.
++    if isinstance(model, CompoundModel):
++        i, j = i % n_inputs, j % n_inputs
+ 
+     inputs = np.zeros(n_inputs)
+     inputs[i] = 1
+
+```

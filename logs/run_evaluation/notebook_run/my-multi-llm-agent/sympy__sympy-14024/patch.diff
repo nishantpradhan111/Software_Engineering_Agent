@@ -1,0 +1,26 @@
+```diff
+--- a/sympy/core/power.py
++++ b/sympy/core/power.py
+@@ -1742,7 +1742,10 @@
+         return self
+ 
+     def _eval_simplify(self, ratio=1.7, measure=count_ops):
+-        from sympy.simplify.powsimp import powsimp
++        from sympy.simplify.powsimp import powsimp, powdenest
++        from sympy.functions.elementary.complexes import exp_polar
++
++        obj = powdenest(self)
+ 
+         if self.base.is_Mul:
+             # don't let smul in so that it doesn't undo the work
+@@ -1751,7 +1754,7 @@
+                 b._eval_simplify(ratio=ratio, measure=measure))
+             return Mul(*bases, simplify=False)**self.exp
+ 
+-        expr = powsimp(self, deep=True, combine='all')
++        expr = powsimp(obj, deep=True, combine='all')
+         if measure(expr) < ratio*measure(self):
+             return expr
+         return self
+
+```

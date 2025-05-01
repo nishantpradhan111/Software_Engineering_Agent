@@ -1,0 +1,37 @@
+```diff
+--- a/src/_pytest/skipping.py
++++ b/src/_pytest/skipping.py
+@@ -228,7 +228,7 @@
+         rep = pytest_runtest_makereport(item=item, call=call)
+         if rep.when == "call":
+             if rep.skipped:
+-                hook.pytest_runtest_logreport(report=rep)
++                hook.pytest_runtest_logreport(report=make_xfail_report(item, rep))
+                 return True
+         return None
+ 
+@@ -345,11 +345,19 @@
+     return report
+ 
+ 
++def make_xfail_report(item: nodes.Item, rep: _pytest.reports.BaseReport) -> _pytest.reports.BaseReport:
++    if rep.longrepr is not None and isinstance(rep.longrepr, XFailed):
++        rep = rep.copy()  # type: ignore[attr-defined]
++        rep.sections = []
++        rep.longrepr = rep.longrepr.to_xfailed_report_repr()
++    return rep
++
++
+ @pytest.hookimpl(tryfirst=True, hookwrapper=True)
+ def pytest_runtest_makereport(item: nodes.Item, call: _pytest.runner.CallInfo[None]) -> None:
+     outcome = yield
+     rep = outcome.get_result()
+     if rep.when == "call":
+-        if rep.longrepr is not None and isinstance(rep.longrepr, XFailed):
+-            rep.longrepr = rep.longrepr.to_xfailed_report_repr()
++        rep = make_xfail_report(item, rep)
++
+     hook = item.ihook
+     hook.pytest_runtest_logreport(report=rep)
+
+```

@@ -1,0 +1,11 @@
+--- a/astropy/io/ascii/rst.py
++++ b/astropy/io/ascii/rst.py
+@@ -70,7 +70,7 @@
+     """
+ 
+     def __init__(self, **kwargs):
+-        self.header_rows = kwargs.pop('header_rows', None)
++        self.header_rows = kwargs.get('header_rows', None)
+         super().__init__(**kwargs)
+         self.header_start = '====='
+         self.header_mid = ' '

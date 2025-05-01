@@ -1,0 +1,15 @@
+```diff
+--- a/django/db/models/query.py
++++ b/django/db/models/query.py
+@@ -1727,7 +1727,8 @@
+         if fields is not None:
+             opts = self.model._meta
+             only_load = {opts.pk.name}
+-            only_load.update(self._parse_field_names(fields))
++            fields = self._parse_field_names(fields)
++            only_load.update(fields)
+             self._select_related_is_added = False
+             self.query.deferred_loading = (opts.concrete_fields, only_load)
+         return self
+
+```

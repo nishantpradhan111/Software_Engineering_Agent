@@ -1,0 +1,23 @@
+```diff
+--- a/pmxbot/tests/unit/test_commands.py
++++ b/pmxbot/tests/unit/test_commands.py
+@@ -27,6 +27,7 @@
+ from pmxbot.core import initialize
+ from pmxbot import core
+ from pmxbot import logging
++import sys
+ 
+ try:
+     from unittest import mock
+@@ -61,6 +62,9 @@
+     def setup_class(cls):
+         path = os.path.dirname(os.path.abspath(__file__))
+         configfile = os.path.join(path, 'testconf.yaml')
++        # Ensure that pmxbot.logging is the same module used by core
++        sys.modules['pmxbot.logging'] = logging
++
+         config = pmxbot.dictlib.ConfigDict.from_yaml(configfile)
+         cls.bot = core.initialize(config)
+         logging.Logger.store.message("logged", "testrunner", "some text")
+
+```

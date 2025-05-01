@@ -1,0 +1,16 @@
+```diff
+--- a/sympy/core/expr.py
++++ b/sympy/core/expr.py
+@@ -1023,6 +1023,10 @@
+         # until we land on a value.
+         if not rv:
+             rv = self._eval_is_zero()
++            if rv is None and self.has(cosh, acosh):
++                # handle cosh(acosh(x)) == x and the like
++                rv = self.rewrite(exp).is_zero
++
+         if rv is None:
+             from sympy.simplify.simplify import simplify
+             rv = simplify(self).is_zero
+
+```

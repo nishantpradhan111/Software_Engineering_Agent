@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/printing/mathematica.py
++++ b/sympy/printing/mathematica.py
+@@ -149,7 +149,7 @@
+         # see https://reference.wolfram.com/language/tutorial/StringRepresentationOfBoxes.html
+         return self._print(expr.base) + "^(" + self._print(expr.exp) + ")"
+ 
+-    def _print_Max(self, expr):
++    def _print_Max(self, e):
+         return "Max[%s]" % ", ".join(sorted([self._print(a) for a in expr.args]))
+ 
+     def _print_Min(self, expr):
+
+```

@@ -1,0 +1,34 @@
+```diff
+--- a/sympy/utilities/codegen.py
++++ b/sympy/utilities/codegen.py
+@@ -1133,15 +1133,15 @@
+                 self.write(result, '\n')
+ 
+     def _get_expression_indices(self, expr, assign_to=None):
+-        from sympy.matrices import MatrixSymbol
++        from sympy.matrices import MatrixSymbol, MatrixBase
+         from sympy import Indexed, Symbol
+         # Check if expr is a Matrix, vector or scalar
+         if isinstance(expr, MatrixSymbol):
+             rows, cols = expr.shape
+-            for i in range(rows):
+-                for j in range(cols):
++            for i in range(expr.rows):
++                for j in range(expr.cols):
+                     if assign_to:
+-                        self.write(assign_to, '[', i, ',', j, '] = ', expr[i, j])
++                        self.write(assign_to, '[', i, ' + ', j, '*', expr.rows, '] = ', expr[i, j])
+                     else:
+                         yield expr[i, j]
+                     self.write(';\n')
+@@ -1151,7 +1151,7 @@
+             for i in range(rows):
+                 if assign_to:
+                     self.write(assign_to, '[', i, '] = ', expr[i])
+-                else:
++                elif not isinstance(expr, MatrixBase): # For general MatrixBase, we don't assume it can be accessed by indexing
+                     yield expr[i]
+                 self.write(';\n')
+         elif isinstance(expr, Symbol):
+
+```

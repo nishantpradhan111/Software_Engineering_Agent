@@ -1,0 +1,25 @@
+```diff
+--- a/sympy/matrices/expressions/blockmatrix.py
++++ b/sympy/matrices/expressions/blockmatrix.py
+@@ -533,12 +533,16 @@
+         if row < self.blocks.shape[0] and col < self.blocks.shape[1]:
+             block = self.blocks[row, col]
+             if block:
+-                return block[i - r, j - c]
++                return self._block_element(block, i - r, j - c)
+ 
+     def as_explicit(self):
+         return Matrix(self._mat)
+ 
++    def _block_element(self, block, i, j):
++        if isinstance(block, MatrixSymbol):
++            return block[i, j]
++        else:
++            return block[i, j]
++
+     def _entry(self, i, j, **kwargs):
+-        if isinstance(self.blocks[0, 0], MatrixSymbol):
+-            return self[i, j]
+         return self._mat[i, j]
+
+```

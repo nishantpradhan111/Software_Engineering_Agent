@@ -1,0 +1,14 @@
+```diff
+--- a/django/forms/models.py
++++ b/django/forms/models.py
+@@ -1170,7 +1170,7 @@
+ 	# actually use any of ChoiceField's implementation.
+ 	default_error_messages = {
+ 		'invalid_choice': _('Select a valid choice. That choice is not one of'
+-							' the available choices.'),
++							' the available choices. %(value)s'),
+ 	}
+ 
+ 	def __init__(self, queryset, *, empty_label="---------", cache_choices=False,
+
+```

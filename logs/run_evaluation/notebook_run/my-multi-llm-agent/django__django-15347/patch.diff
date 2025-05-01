@@ -1,0 +1,28 @@
+```diff
+--- a/django/contrib/messages/storage/base.py
++++ b/django/contrib/messages/storage/base.py
+@@ -132,7 +132,7 @@
+         if isinstance(message, dict):
+             # This was likely encoded by a session based backend.
+             level = message['level']
+-            message = message['message']
++            msg = message['message']
+             extra_tags = message.get('extra_tags')
+         return Message(level, message, extra_tags=extra_tags)
+ 
+
+```
+```diff
+--- a/django/contrib/messages/storage/cookie.py
++++ b/django/contrib/messages/storage/cookie.py
+@@ -37,7 +37,7 @@
+             # .values() to allow us to modify the values.
+             encoded_data = list(encoder.encode(message))
+             if message.extra_tags is not None:
+-                if message.extra_tags:
++                if message.extra_tags is not None:
+                     encoded_data[2] = message.extra_tags
+                 else:
+                     encoded_data.append(message.extra_tags)
+
+```

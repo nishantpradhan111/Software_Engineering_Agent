@@ -1,0 +1,20 @@
+The patch is correct and addresses the issue of the unnecessary `installed_apps` attribute.  No revision is needed.
+
+```diff
+--- a/django/db/models/options.py
++++ b/django/db/models/options.py
+@@ -178,10 +178,7 @@
+ 
+     def contribute_to_class(self, cls, name):
+         cls._meta = self
+-        # Alias the `apps` attribute of cls._meta to a new attribute called
+-        # `installed_apps`. This is needed to follow the `_meta` -> `apps`
+-        # -> `installed_apps` chain in order to access `installed_apps` in
+-        # Options class.
+-        self.installed_apps = self.apps = cls._meta.apps
++        self.apps = cls._meta.apps
+         # First, construct the default ordering.
+         self.ordering = self.get_ordering()
+         # Store the app label for the model.
+
+```

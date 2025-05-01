@@ -1,0 +1,16 @@
+```diff
+--- a/django/contrib/auth/management/commands/migrate.py
++++ b/django/contrib/auth/management/commands/migrate.py
+@@ -250,7 +250,9 @@
+                     )
+                 autodetector = MigrationAutodetector(
+                     executor.loader.project_state(),
+-                    ProjectState.from_apps(apps),
++                    ProjectState.from_apps(
++                        apps, allow_notes=getattr(self, 'notes', False)
++                    ),
+                 )
+                 changes = autodetector.changes(
+                     graph=executor.loader.graph,
+
+```

@@ -1,0 +1,85 @@
+```diff
+--- a/sklearn/neighbors/_nca.py
++++ b/sklearn/neighbors/_nca.py
+@@ -17,6 +17,7 @@
+ from ..utils.validation import check_is_fitted, check_array, check_X_y
+ from ..utils._param_validation import Interval, StrOptions
+ from ..utils import is_scalar_nan
++from ..utils._param_validation import validate_params
+ 
+ 
+ class NeighborhoodComponentsAnalysis(TransformerMixin, BaseEstimator):
+@@ -44,20 +45,21 @@
+     Examples
+     --------
+     >>> from sklearn.neighbors import NeighborhoodComponentsAnalysis
+-    >>> from sklearn.neighbors import KNeighborsClassifier
++    >>> from sklearn.pipeline import make_pipeline
++    >>> from sklearn.datasets import load_iris
++    >>> from sklearn.model_selection import train_test_split
+     >>> from sklearn.datasets import load_iris
+     >>> from sklearn.model_selection import train_test_split
+     >>> X, y = load_iris(return_X_y=True)
+     >>> X_train, X_test, y_train, y_test = train_test_split(X, y)
+-    >>> nca = NeighborhoodComponentsAnalysis(random_state=42)
+-    >>> nca.fit(X_train, y_train)
+-    NeighborhoodComponentsAnalysis(...)
+-    >>> knn = KNeighborsClassifier(n_neighbors=3)
+-    >>> knn.fit(nca.transform(X_train), y_train)
+-    KNeighborsClassifier(...)
+-    >>> knn.score(nca.transform(X_test), y_test)
+-    0.97...
++    >>> nca = make_pipeline(
++    ...     NeighborhoodComponentsAnalysis(random_state=42),
++    ...     KNeighborsClassifier(n_neighbors=3)
++    ... )
++    >>> nca.fit(X_train, y_train)
++    Pipeline(...)
++    >>> nca.score(X_test, y_test)
++    ...
+ 
+     See also
+     --------
+@@ -65,6 +67,20 @@
+ 
+     """
+ 
++    _parameter_constraints: dict = {
++        "n_components": [Interval(numbers.Integral, 1, None, closed="left"), None],
++        "init": [StrOptions({"auto", "random", "pca"}), "array-like"],
++        "warm_start": ["boolean"],
++        "max_iter": [Interval(numbers.Integral, 1, None, closed="left")],
++        "tol": [numbers.Real, None],
++        "random_state": ["random_state"],
++        "n_jobs": [numbers.Integral, None],
++        "callback": [callable, None],
++        "verbose": ["verbose"],
++    }
++
++    @_validate_params
+     def __init__(
+         self,
+         n_components=None,
+@@ -85,21 +101,6 @@
+ 
+         self.n_iter_ = 0
+ 
+-    def _check_params(self):
+-        if self.init is not None and self.init != "auto" and self.init != "pca":
+-            if not isinstance(self.init, np.ndarray):
+-                raise ValueError(
+-                    "init must be an array or 'auto' or 'pca', got %s" % self.init
+-                )
+-            elif self.init.shape != (self.n_features_in_, self.n_components):
+-                raise ValueError(
+-                    "Transformation matrix `init` passed must have shape "
+-                    "(%d,%d). " "Got %s" % (self.n_features_in_, self.n_components, self.init.shape)
+-                )
+-        elif self.init is None:
+-            self.init = "auto"
+-
+     def fit(self, X, y):
+         """Fit the model according to the given training data.
+ 
+
+```

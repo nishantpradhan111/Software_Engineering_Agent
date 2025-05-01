@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/fields/related_descriptors.py
++++ b/django/db/models/fields/related_descriptors.py
+@@ -946,7 +946,7 @@
+         if not self.field.remote_field.multiple:
+             qs = qs.filter(**{rm_field.name: self.instance})
+ 
+-        return qs.get(self.field.get_reverse_related_filter(self.instance))
++        return qs.filter(self.field.get_reverse_related_filter(self.instance)).get()
+ 
+     def __set__(self, instance, value):
+         """
+
+```

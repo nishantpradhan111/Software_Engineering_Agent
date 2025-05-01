@@ -1,0 +1,14 @@
+```diff
+--- a/astropy/io/ascii/qdp.py
++++ b/astropy/io/ascii/qdp.py
+@@ -174,7 +174,7 @@
+             # data table or a header parameter definition.
+             if len(words) > 0:
+                 command = words[0]
+-                if command not in COMMANDS:
++                if command.upper() not in COMMANDS:
+                     raise ValueError(f'Unrecognized QDP line: {line}')
+ 
+                 if command == 'READ':
+
+```

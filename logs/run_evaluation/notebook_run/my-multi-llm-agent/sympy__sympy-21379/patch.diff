@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/core/function.py
++++ b/sympy/core/function.py
+@@ -1304,6 +1304,8 @@
+             return self
+ 
+         if arg.is_Piecewise:
++            if arg.args[0].expr.is_polynomial(gens) and all(c.is_polynomial(gens) for a, c in arg.args[1:]):
++                return self.func(arg.func(*[(e.subs(syms), c.subs(syms)) for e, c in arg.args]).evalf(0))
+             return self.func(arg.subs(syms)).evalf(0)
+ 
+         if arg.is_Add or arg.is_Mul or arg.is_Pow:
+
+```

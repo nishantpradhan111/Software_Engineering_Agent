@@ -1,0 +1,23 @@
+```diff
+--- a/django/db/migrations/operations/models.py
++++ b/django/db/migrations/operations/models.py
+@@ -132,6 +132,16 @@
+                 new_fields = {
+                     name: field for name, field in model_state.fields
+                 }
++                # Remove any index_together if they're now covered by indexes
++                new_index_together = list(model_state.options.get("index_together", []))
++                for index in model_state.options.get("indexes", []):
++                    if index.fields in new_index_together:
++                        new_index_together.remove(index.fields)
++                if new_index_together != model_state.options.get("index_together", []):
++                    model_state.options["index_together"] = new_index_together
++                    changed = True
++                elif "index_together" in model_state.options:
++                    del model_state.options["index_together"]
++                    changed = True
+                 for name, field in new_fields.items():
+                     changed = self._alter_field(
+                         model_state, name, field, old_fields.get(name), preserve_default=preserve_default,
+
+```

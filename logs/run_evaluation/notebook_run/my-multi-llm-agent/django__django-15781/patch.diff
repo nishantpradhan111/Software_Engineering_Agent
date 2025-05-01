@@ -1,0 +1,14 @@
+```diff
+--- a/django/core/management/commands/help.py
++++ b/django/core/management/commands/help.py
+@@ -68,7 +68,7 @@
+         if self.prog_name:
+             prog_name = '%s %s' % (self.prog_name, subcommand)
+         formatter = HelpFormatter(prog=prog_name, max_help_position=24, width=self.terminal_width)
+-        formatter.add_text(cmd.__doc__)
++        formatter.add_text(dedent(cmd.__doc__))
+         # Include the command name in the output.
+         formatter.add_usage(cmd.usage, cmd._actions, [], '')
+         return formatter.format_help()
+
+```

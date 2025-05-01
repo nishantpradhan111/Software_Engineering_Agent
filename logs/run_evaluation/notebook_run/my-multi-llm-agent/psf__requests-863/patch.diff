@@ -1,0 +1,17 @@
+```diff
+--- a/requests/models.py
++++ b/requests/models.py
+@@ -399,7 +399,10 @@
+ 
+         :param hooks: Hooks dictionary
+         """
+-        self.hooks = hooks or {}
++        self.hooks = {}
++        if hooks:
++            for event, hook_list in hooks.items():
++                self.register_hook(event, hook_list)
+ 
+     def register_hook(self, event, hook):
+         """Properly register a hook."""
+
+```

@@ -1,0 +1,23 @@
+```diff
+--- a/xarray/core/groupby.py
++++ b/xarray/core/groupby.py
+@@ -1011,7 +1011,7 @@
+         """
+         if self._group_indices is None:
+             group_indices = "<not yet calculated>"
+-        else:            
++        else:
+             group_indices = {k: repr(v) for k, v in self._group_indices.items()}
+         return "\n".join(
+             [
+@@ -1034,7 +1034,7 @@
+         """
+         if self._group_indices is None:
+             return f"{cls_name}, grouped over '{self._group_dim}' \n<not yet calculated>"
+-        return f"{cls_name}, grouped over '{self._group_dim}' \n{len(self._unique_coord)} groups with labels {', '.join(repr(k) for k in self._unique_coord)}."
++        return f"{cls_name}, grouped over '{self._group_dim}'\n{len(self._unique_coord)} groups with labels {', '.join(repr(k) for k in self._unique_coord)}."
+ 
+     def __len__(self) -> int:
+         return self._n_groups
+
+```

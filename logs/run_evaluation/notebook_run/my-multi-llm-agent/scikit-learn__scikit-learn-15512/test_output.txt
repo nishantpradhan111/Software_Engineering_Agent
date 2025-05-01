@@ -1,0 +1,55 @@
+/eval.sh: line 2: set: pipefail: invalid option name
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 3: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ cd $'/testbed\r'
+/eval.sh: line 5: cd: $'/testbed\r': No such file or directory
++ git config --global --add safe.directory $'/testbed\r'
++ cd $'/testbed\r'
+/eval.sh: line 7: cd: $'/testbed\r': No such file or directory
++ git $'status\r'
+git: 'status' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
++ git $'show\r'
+git: 'show' is not a git command. See 'git --help'.
+
+The most similar command is
+	show
++ git -c core.fileMode=false diff $'b8a4da8baa1137f173e7035f104067c7d2ffde22\r'
+fatal: ambiguous argument 'b8a4da8baa1137f173e7035f104067c7d2ffde22?': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 11: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ python -m pip install -v --no-use-pep517 --no-build-isolation -e $'.\r'
+Using pip 23.3.1 from /opt/miniconda3/lib/python3.11/site-packages/pip (python 3.11)
+ERROR: . is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
++ git checkout b8a4da8baa1137f173e7035f104067c7d2ffde22 $'sklearn/cluster/tests/test_affinity_propagation.py\r'
+error: pathspec 'sklearn/cluster/tests/test_affinity_propagation.py?' did not match any file(s) known to git
++ git apply -v -
+Checking patch sklearn/cluster/tests/test_affinity_propagation.py...
+error: while searching for:
+    assert_array_equal(np.array([-1, -1, -1]), y)?
+?
+?
+def test_equal_similarities_and_preferences():?
+    # Unequal distances?
+    X = np.array([[0, 0], [1, 1], [-2, -2]])?
+
+error: patch failed: sklearn/cluster/tests/test_affinity_propagation.py:152
+error: sklearn/cluster/tests/test_affinity_propagation.py: patch does not apply
++ : '>>>>> Start Test Output'
++ pytest -rA $'sklearn/cluster/tests/test_affinity_propagation.py\r'
+/eval.sh: line 37: pytest: command not found
++ : '>>>>> End Test Output'
++ git checkout b8a4da8baa1137f173e7035f104067c7d2ffde22 $'sklearn/cluster/tests/test_affinity_propagation.py\r'
+error: pathspec 'sklearn/cluster/tests/test_affinity_propagation.py?' did not match any file(s) known to git

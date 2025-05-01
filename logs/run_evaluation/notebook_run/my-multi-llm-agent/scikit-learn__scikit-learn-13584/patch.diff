@@ -1,0 +1,14 @@
+```diff
+--- a/sklearn/utils/_pprint.py
++++ b/sklearn/utils/_pprint.py
+@@ -356,7 +356,7 @@
+             if value is not None:
+                 if not (
+                     hasattr(value, "__repr__")
+-                    and value.__repr__ is not object.__repr__
++                    and value.__repr__ != object.__repr__
+                 ):
+                     value = _changed_params.get(key, value)
+ 
+
+```

@@ -1,0 +1,51 @@
+2025-04-28 22:53:01,295 - INFO - Creating container for sympy__sympy-23117...
+2025-04-28 22:53:01,569 - INFO - Container for sympy__sympy-23117 created: 0965f2098d2bddb529a2a0553cf2694606888f1f0dc9bcdd60babd5f04cc975b
+2025-04-28 22:53:01,830 - INFO - Container for sympy__sympy-23117 started: 0965f2098d2bddb529a2a0553cf2694606888f1f0dc9bcdd60babd5f04cc975b
+2025-04-28 22:53:01,831 - INFO - Intermediate patch for sympy__sympy-23117 written to logs\run_evaluation\notebook_run\my-multi-llm-agent\sympy__sympy-23117\patch.diff, now applying to container...
+2025-04-28 22:53:01,958 - INFO - Failed to apply patch to container: git apply --verbose
+2025-04-28 22:53:02,016 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-04-28 22:53:02,078 - INFO - >>>>> Applied Patch:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file sympy/tensor/array/ndim_array.py
+Hunk #1 succeeded at 117 with fuzz 3.
+patch unexpectedly ends in middle of line
+
+2025-04-28 22:53:02,571 - INFO - Git diff before:
+diff --git a/sympy/tensor/array/ndim_array.py b/sympy/tensor/array/ndim_array.py
+index 6490a655a4..1c61368ef1 100644
+--- a/sympy/tensor/array/ndim_array.py
++++ b/sympy/tensor/array/ndim_array.py
+@@ -117,6 +117,8 @@ class NDimArray(Printable):
+     >>> from sympy import Matrix
+     >>> a = Matrix([[1,2],[3,4]])
+     >>> a
++                return [], ()
++
+     Matrix([
+     [1, 2],
+     [3, 4]])
+2025-04-28 22:53:02,572 - INFO - Eval script for sympy__sympy-23117 written to logs\run_evaluation\notebook_run\my-multi-llm-agent\sympy__sympy-23117\eval.sh; copying to container...
+2025-04-28 22:53:05,074 - INFO - Test runtime: 2.43 seconds
+2025-04-28 22:53:05,074 - INFO - Test output for sympy__sympy-23117 written to logs\run_evaluation\notebook_run\my-multi-llm-agent\sympy__sympy-23117\test_output.txt
+2025-04-28 22:53:05,137 - INFO - Git diff after:
+diff --git a/sympy/tensor/array/ndim_array.py b/sympy/tensor/array/ndim_array.py
+index 6490a655a4..1c61368ef1 100644
+--- a/sympy/tensor/array/ndim_array.py
++++ b/sympy/tensor/array/ndim_array.py
+@@ -117,6 +117,8 @@ class NDimArray(Printable):
+     >>> from sympy import Matrix
+     >>> a = Matrix([[1,2],[3,4]])
+     >>> a
++                return [], ()
++
+     Matrix([
+     [1, 2],
+     [3, 4]])
+2025-04-28 22:53:05,137 - INFO - Grading answer for sympy__sympy-23117...
+2025-04-28 22:53:05,138 - INFO - report: {'sympy__sympy-23117': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_issue_17851']}, 'PASS_TO_PASS': {'success': [], 'failure': ['test_array_negative_indices', 'test_issue_18361', 'test_issue_20222']}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-23117: resolved: False
+2025-04-28 22:53:05,144 - INFO - Attempting to stop container sweb.eval.sympy__sympy-23117.notebook_run...
+2025-04-28 22:53:20,733 - INFO - Attempting to remove container sweb.eval.sympy__sympy-23117.notebook_run...
+2025-04-28 22:53:20,766 - INFO - Container sweb.eval.sympy__sympy-23117.notebook_run removed.
+2025-04-28 22:53:20,766 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-23117:latest...
+2025-04-28 22:53:20,954 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-23117:latest removed.

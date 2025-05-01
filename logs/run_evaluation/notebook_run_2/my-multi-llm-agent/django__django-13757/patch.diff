@@ -1,0 +1,55 @@
+```diff
+--- a/django/db/backends/mysql/operations.py
++++ b/django/db/backends/mysql/operations.py
+@@ -574,12 +574,11 @@
+         if lookup.value:
+             return "JSON_CONTAINS_PATH(%s, 'one', '%s')" % (key_sql, path), key_params
+         else:
+-            # Unlike other databases, on Oracle, SQLite, and MySQL a JSONPath lookup with
++            # Unlike other databases, on Oracle, SQLite, and MariaDB a JSONPath lookup with
+             # a key that doesn't exist results in JSON null instead of an empty
+             # result set, so check if the result is null.
+-            sql, params = json_path(self, lookup, path)
+             if self.connection.mysql_is_mariadb:
+-                return "JSON_VALUE(%s, '%s') IS NULL" % (key_sql, path), key_params
++                return "JSON_VALUE(%s, '$.%s') IS NULL" % (key_sql, lookup.key), key_params
+             return "JSON_EXTRACT(%s, '%s') IS NULL" % (key_sql, path), params
+ 
+
+```
+
+```diff
+--- a/django/db/backends/oracle/operations.py
++++ b/django/db/backends/oracle/operations.py
+@@ -459,7 +459,7 @@
+             # a key that doesn't exist results in JSON null instead of an empty
+             # result set, so check if the result is null. Cast to varchar2 to
+             # avoid comparing JSON values with different types.
+-            return "JSON_VALUE(%s, '$.%s' RETURNING VARCHAR2(100)) IS NULL" % (key_sql, lookup.key), key_params
++            return "JSON_VALUE(%s, '$.%s' RETURNING VARCHAR2(4000)) IS NULL" % (key_sql, lookup.key), key_params
+ 
+ 
+ class SQLCompiler(compiler.SQLCompiler):
+
+```
+
+```diff
+--- a/django/db/backends/sqlite3/operations.py
++++ b/django/db/backends/sqlite3/operations.py
+@@ -462,11 +462,12 @@
+     def JSONField_lookup(self, lookup, json_path=None):
+         key_sql, key_params = json_path(self, lookup, json_path)
+         if lookup.value:
+-            return "JSON_TYPE(%s, '$.%s') IS NOT NULL" % (key_sql, lookup.key), key_params
++            return "JSON_TYPE(%s, '%s') IS NOT NULL" % (key_sql, json_path), key_params
+         else:
+             # Unlike other databases, on Oracle, SQLite, and MariaDB a JSONPath lookup with
+             # a key that doesn't exist results in JSON null instead of an empty
+             # result set, so check if the result is null.
+-            return "JSON_TYPE(%s, '$.%s') IS NULL" % (key_sql, lookup.key), key_params
++            return "JSON_TYPE(%s, '%s') IS NULL" % (key_sql, json_path), key_params
+ 
+     def contains_lookup(self, lookup, field_internal_type):
+         # SQLite doesn't support JSON contains.
+
+```

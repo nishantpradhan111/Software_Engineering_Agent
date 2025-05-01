@@ -1,0 +1,28 @@
+```diff
+--- a/sympy/simplify/trigsimp.py
++++ b/sympy/simplify/trigsimp.py
+@@ -10,6 +10,7 @@
+ from sympy.functions.elementary.exponential import exp, exp_polar
+ from sympy.functions.elementary.hyperbolic import HyperbolicFunction
+ from sympy.functions.elementary.miscellaneous import sqrt
++from sympy.functions.elementary.trigonometric import sinc
+ from sympy.functions.elementary.trigonometric import (cos, cot, csc, sec, sin,
+                                                     tan, atan, atan2)
+ from sympy.polys.polytools import factor
+@@ -375,6 +376,14 @@
+                     do[i] = do[i].subs(t)
+ 
+     # Finaly simplify the result
++    # Convert exponential forms of sinc to sinc
++    for i, di in enumerate(do):
++        if isinstance(di, Mul):
++            for ai in di.args:
++                if ai.match(I*(-exp(I*x) + exp(-I*x))/(2*x)):
++                    do[i] = do[i].subs(ai, sinc(x))
++                if ai.match(I*(-exp(I*x) + exp(-I*x))/(2*k)):
++                    do[i] = do[i].subs(ai, sinc(k)*k/x)
+     return _trigsimp(sum(do), deep, recursive)
+ 
+ 
+
+```

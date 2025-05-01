@@ -1,0 +1,22 @@
+```diff
+--- a/sympy/physics/vector/point.py
++++ b/sympy/physics/vector/point.py
+@@ -451,9 +451,13 @@
+         """
+         """
+         if not (frame in self._vel_dict):
+-            raise ValueError('Velocity of point ' + self.name + ' has not been'
+-                             ' defined in ReferenceFrame ' + frame.name)
+-        return self._vel_dict[frame]
++            if self._pos_dict:
++                for point, pos in self._pos_dict.items():
++                    if pos.free_symbols:
++                        return pos.dt(frame)
++            raise ValueError('Velocity of point ' + self.name + ' has not been'
++                             ' defined in ReferenceFrame ' + frame.name)            
++        return self._vel_dict[frame] 
+ 
+     def avel(self, otherframe, A):
+         """
+
+```

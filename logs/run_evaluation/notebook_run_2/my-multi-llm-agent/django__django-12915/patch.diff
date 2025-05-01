@@ -1,0 +1,28 @@
+```diff
+--- a/django/contrib/staticfiles/handlers.py
++++ b/django/contrib/staticfiles/handlers.py
+@@ -72,15 +72,18 @@
+ 
+     def file_path(self, url):
+         return self.location + url
+-
++    
+     def serve(self, request):
+         response = super().serve(request)
+         return response
+-
++        
+     async def serve_async(self, request):
+-        if asyncio.iscoroutinefunction(super().serve):
++        if hasattr(super(), 'serve_async'):
+             response = await super().serve_async(request)
++        elif asyncio.iscoroutinefunction(super().serve):  # Django >= 4.1
+             response = await super().serve(request)
+-            response = await sync_to_async(super().serve, thread_sensitive=True)(request)
++        else: # Django < 4.1
++            response = await sync_to_async(super().serve)(request)
+         return response
+ 
+ 
+
+```

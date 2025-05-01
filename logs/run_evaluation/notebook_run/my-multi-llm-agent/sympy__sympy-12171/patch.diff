@@ -1,0 +1,19 @@
+```diff
+--- a/sympy/printing/mathematica.py
++++ b/sympy/printing/mathematica.py
+@@ -106,6 +106,14 @@
+         # TODO: this should be handled upstream
+         return self._print_not(expr.args[0])
+ 
++    def _print_Derivative(self, expr):
++        return "D[%s]" % (self.stringify(expr.args, ", "))
++
++    def _print_Float(self, expr):
++        res = str(expr)
++        return res.replace('e', '*^')
++
+     def _print_ImaginaryUnit(self, expr):
+         return 'I'
+ 
+
+```

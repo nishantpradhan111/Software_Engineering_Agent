@@ -1,0 +1,21 @@
+```diff
+--- a/django/dispatch/dispatcher.py
++++ b/django/dispatch/dispatcher.py
+@@ -211,13 +211,13 @@
+                 for receiver in receivers_to_catch_errors:
+                     try:
+                         receiver(signal=signal, sender=sender, **named)
+-                    except Exception:
++                    except Exception as err:
+                         if not hasattr(signal, '_exceptions'):
+                             signal._exceptions = []
+-                        signal._exceptions.append(sys.exc_info())
++                        signal._exceptions.append((type(err), err, err.__traceback__))
+                         logger.exception(
+-                            'Error calling %s in Signal.send_robust()', receiver.__qualname__
++                            'Error calling %s in Signal.send_robust() (%r)', receiver.__qualname__, err
+                         )
++
+ 
+```
+The original patch removed the exception instance from the log message and used `sys.exc_info()`.  While `sys.exc_info()` works, it's less clear than explicitly capturing the exception instance and including it in the log message, which provides more context.  This revised patch reverts to the original behavior of including the exception instance in the log message and storing the full exception tuple (type, value, traceback) as before.  This is the correct way to store exceptions for later processing and provides more detailed logging.

@@ -1,0 +1,22 @@
+```diff
+--- a/sympy/physics/units/systems/si.py
++++ b/sympy/physics/units/systems/si.py
+@@ -134,7 +134,14 @@
+         return factor, dim
+ 
+     dim = expr.dimension
+-    if not dim.is_dimensionless:
++    is_dimensionless = dim.is_dimensionless
++
++    # Special case for dimensionless exponents
++    if isinstance(expr, exp):
++        arg_dim = expr.exp.dimension
++        if arg_dim.is_dimensionless:
++            is_dimensionless = True
++
++    if not is_dimensionless:
+         raise ValueError("Dimension of {!r} is {}, but it should be Dimension(1)".format(expr, dim))
+     factor = expr
+     return factor, dim
+
+```

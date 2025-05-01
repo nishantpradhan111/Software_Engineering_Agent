@@ -1,0 +1,17 @@
+```diff
+--- a/requests/sessions.py
++++ b/requests/sessions.py
+@@ -325,7 +325,10 @@
+         """Sends prepared requests."""
+ 
+         method = builtin_str(method)
+-        method = method.upper()
++        if isinstance(method, bytes):
++            method = method.decode('ascii').upper()
++        else:
++            method = method.upper()
+ 
+         # TODO: Remove this specific case of url encoding in a subsequent
+         #       release.  See issues #1707 and #2807 for discussion.
+
+```

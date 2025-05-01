@@ -1,0 +1,18 @@
+```diff
+--- a/django/db/backends/postgresql/schema.py
++++ b/django/db/backends/postgresql/schema.py
+@@ -571,7 +571,10 @@
+         old_index_name = self._create_index_name(model, fields_group, suffix=old_suffix)
+         new_index_name = self._create_index_name(model, fields_group, suffix=new_suffix)
+         self.execute(self.sql_rename_index % {
+-            "old_index_name": self.quote_name(old_index_name),
++            "old_index_name": self.quote_name(
++                old_index_name
++                if self._index_name_exists(model._meta.db_table, old_index_name, [])
++                else new_index_name,
++            ),
+             "new_index_name": self.quote_name(new_index_name),
+         })
+ 
+
+```

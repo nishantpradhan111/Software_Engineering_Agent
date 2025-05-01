@@ -1,0 +1,15 @@
+```diff
+--- a/django/db/models/lookups.py
++++ b/django/db/models/lookups.py
+@@ -131,6 +131,9 @@ class IsNull(Lookup):
+         self.rhs = compiler.compile(self.rhs)
+         self.rhs_is_direct_value = self.rhs[1] is not None
+ 
++        if not isinstance(self.rhs[1], bool):
++            raise ValueError("The __isnull lookup only accepts boolean values.")
++
+     def as_sql(self, compiler, connection):
+         if self.rhs_is_direct_value:
+             sql, params = self.process_rhs(compiler, connection)
+
+```

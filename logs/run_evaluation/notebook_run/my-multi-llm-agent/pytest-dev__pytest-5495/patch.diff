@@ -1,0 +1,26 @@
+```diff
+--- a/testing/python/failure.py
++++ b/testing/python/failure.py
+@@ -1070,11 +1070,11 @@
+             if not diff:
+                 return
+ 
+-            extra_right = extra_left = ""
++            extra_right_items = extra_left_items = ""
+             if right_repr_lines and left_repr_lines:
+                 if len(right_repr_lines) > len(left_repr_lines):
+-                    extra_right = ", first extra item: %s" % (right_repr_lines[len(left_repr_lines)].strip())
++                    extra_right_items = ", first extra item: %r" % (right[len(left)])
+                 elif len(left_repr_lines) > len(right_repr_lines):
+-                    extra_left = ", first missing item: %s" % (left_repr_lines[len(right_repr_lines)].strip())
++                    extra_left_items = ", first missing item: %r" % (left[len(right)])
+ 
+-            expl = "\n  Right contains more items%s\n  Full diff:\n%s" % (extra_right, diff)
++            expl = "\n  Right contains more items%s\n  Full diff:\n%s" % (extra_right_items, diff)
+             if len(left_repr_lines) > len(right_repr_lines):
+-                expl = "\n  Left contains more items%s\n  Full diff:\n%s" % (extra_left, diff)
++                expl = "\n  Left contains more items%s\n  Full diff:\n%s" % (extra_left_items, diff)
+ 
+             return expl
+
+```

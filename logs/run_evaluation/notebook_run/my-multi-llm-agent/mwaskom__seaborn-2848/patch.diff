@@ -1,0 +1,18 @@
+```diff
+--- a/seaborn/axisgrid.py
++++ b/seaborn/axisgrid.py
+@@ -1372,6 +1372,12 @@
+         hue_order = categorical_order(data[hue], hue_order)
+ 
+         dropna = hue_order is None
++
++        # Filter out data not present in hue order. This used to implicitly
++        # happen in 0.11.0 and prior, but was lost due to changes in
++        # seaborn._core.unique_das.
++        if hue_order is not None:
++            data = data[data[hue].isin(hue_order)]
+ 
+         if dropna:
+             # Filter out missing data before doing heavy lifting
+
+```

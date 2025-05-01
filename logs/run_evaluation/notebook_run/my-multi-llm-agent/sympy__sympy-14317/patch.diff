@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/printing/latex.py
++++ b/sympy/printing/latex.py
+@@ -1041,7 +1041,7 @@
+             gens = ", ".join(map(latex, p.gens))
+             if len(p.gens) == 1:
+                 gens = '{}, {}'.format(gens, latex(p.gen))
+-            return r'\operatorname{Poly}{\left( %s, %s, domain=%s \right)}' % (latex(p.as_expr()), gens, latex(p.domain))
++            return r'\operatorname{Poly}{\left( %s, %s, domain=%s \right)}' % (latex(Poly(p.all_coeffs(), *p.gens)), gens, latex(p.domain))
+         else:
+             return latex(p.as_expr())
+ 
+
+```

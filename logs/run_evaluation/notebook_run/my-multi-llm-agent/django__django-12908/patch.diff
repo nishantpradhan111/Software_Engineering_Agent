@@ -1,0 +1,36 @@
+```diff
+--- a/tests/test_queries.py
++++ b/tests/test_queries.py
+@@ -1,5 +1,5 @@
+ from django.db.models import IntegerField, Value
+-from django.db.models.query import QuerySet
++from django.db.models.query import QuerySet, UnionQuerySet
+ 
+ from django_pg_upsert import Upsert
+ from siebox.core.tests import BaseTestCase
+@@ -140,10 +140,20 @@
+ 		qs1 = qs.filter(name='Dub').annotate(rank=Value(0, IntegerField()))
+ 		qs2 = qs.filter(name='Sam1').annotate(rank=Value(1, IntegerField()))
+ 		qs = qs1.union(qs2)
+-		qs = qs.order_by('name').distinct('name') # THIS DISTINCT DOESN'T WORK
++		qs = qs.order_by('name').distinct('name')
+ 		self.assertEqual(qs.count(), 2)
+-expected to get wrapped union
+-	SELECT DISTINCT ON (siebox_sample.name) * FROM (SELECT ... UNION SELECT ...) AS siebox_sample
++
++	def test_union_distinct_raises(self):
++		qs = Sample.objects.filter(user=self.user)
++		qs1 = qs.filter(name='Dub').annotate(rank=Value(0, IntegerField()))
++		qs2 = qs.filter(name='Sam1').annotate(rank=Value(1, IntegerField()))
++		qs = qs1.union(qs2)
++		with self.assertRaises(NotImplementedError) as e:
++			qs.distinct()
++		self.assertIn("Calling distinct() is not supported on a UnionQuerySet. "
++					  "Please apply distinct() to individual querysets before combining them.",
++					  str(e.exception))
++
+ 
+ 
+ 
+
+```

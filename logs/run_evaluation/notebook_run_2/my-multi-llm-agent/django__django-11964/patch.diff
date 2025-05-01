@@ -1,0 +1,24 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -1717,13 +1717,12 @@
+         # choices.
+         if self.choices and isinstance(value, self.choices_enum_class):
+             value = self.get_prep_value(value)
+-        elif self.choices and value is not None and not isinstance(value, (int, bool)):
+-            # If value is not an expected type (e.g., string, enum member),
+-            # call to_python to convert it (e.g., to integer). This ensures
+-            # consistent behavior with form submission where values are strings.
+-            # We exclude int and bool since to_python on these types returns the value itself.
++        elif self.choices and value is not None:
++            # If value is not an enum member, call to_python to convert it
++            # (e.g., to integer). This ensures consistent behavior with form
++            # submission where values are strings.
+             value = self.to_python(value)
+-        return super().get_db_prep_value(value, connection, prepared=False)
++        return super().get_db_prep_value(value, connection, prepared=prepared)
+ 
+     def get_db_prep_save(self, value, connection):
+         """
+
+```

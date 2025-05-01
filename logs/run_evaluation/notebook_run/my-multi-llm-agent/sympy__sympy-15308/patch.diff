@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/printing/latex.py
++++ b/sympy/printing/latex.py
+@@ -1331,7 +1331,7 @@
+             tex = r"\operatorname{Trace}"
+         else:
+             tex = r"\operatorname{tr}"
+-        return r"%s\left(%s\right)" % (tex, self._print(expr.args[0]))
++        return r"%s{\left(%s\right)}" % (tex, self._print(expr.args[0]))
+
+     def _print_transpose(self, expr):
+         mat = expr.args[0]
+
+```

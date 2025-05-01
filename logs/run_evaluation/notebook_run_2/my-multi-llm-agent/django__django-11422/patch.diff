@@ -1,0 +1,37 @@
+```diff
+--- a/django/utils/autoreload.py
++++ b/django/utils/autoreload.py
+@@ -123,7 +123,7 @@
+         'extra_files': [],
+         'mtimes': {},
+         'blacklist': set(EXTRA_FILES),
+-        'manage_py_path': sys.argv[0] if len(sys.argv) > 0 else None,
++        'manage_py_path': os.path.abspath(sys.argv[0]) if len(sys.argv) > 0 else None,
+     }
+ 
+ 
+@@ -188,6 +188,13 @@
+         return False
+ 
+ 
++def manage_py_path_is_valid(manage_py_path):
++    if not manage_py_path:
++        return False
++    if not os.path.exists(manage_py_path):
++        return False
++    return True
++
+ def code_changed():
+     global state
+ 
+@@ -203,7 +210,7 @@
+ 
+         found = []
+         manage_py_changed = False
+-        if state['manage_py_path'] and os.path.exists(state['manage_py_path']):
++        if manage_py_path_is_valid(state['manage_py_path']):
+             manage_py_changed = check_file(state['manage_py_path'], state['mtimes'])
+         for filename in state['extra_files']:
+             if not filename.startswith(DJANGO_AUTORELOAD_IGNORABLE_DIR):
+
+```

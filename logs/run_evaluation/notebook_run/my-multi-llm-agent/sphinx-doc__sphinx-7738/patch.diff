@@ -1,0 +1,14 @@
+```diff
+--- a/sphinx/ext/napoleon/docstring.py
++++ b/sphinx/ext/napoleon/docstring.py
+@@ -691,7 +691,7 @@
+                 # must be at the beginning of the line
+                 indent = ' ' * len(line) - len(line.lstrip())
+                 name = self._escape_args_and_kwargs(name)
+-                name = name.replace('_', '\\_')
++                name = name.replace('_', r'\_')  # avoid escaping literal underscores in attribute names
+                 field_body = self._format_field_body(name, lines)
+                 new_lines.append(f'{indent}:attribute:: {name}\n')
+                 new_lines.extend(field_body)
+
+```

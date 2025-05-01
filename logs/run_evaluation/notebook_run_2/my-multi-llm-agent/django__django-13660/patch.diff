@@ -1,0 +1,24 @@
+```diff
+--- a/django/core/management/commands/shell.py
++++ b/django/core/management/commands/shell.py
+@@ -83,17 +83,11 @@
+ 		# Execute the command and exit.
+ 		if options['command']:
+-			# Using globals() and locals() here would break the shell command in subtle ways.
+-			# Consider exec('import os', globals(), locals()). os is imported in the temporary
+-			# namespace but not in the shell's interactive namespace.
+-			exec(options['command'], globals())
++			exec(options['command'])
+ 			return
+ 		# Execute stdin if it has anything to read and exit.
+ 		# Not supported on Windows due to select.select() limitations.
+ 		if sys.platform != 'win32' and not sys.stdin.isatty() and select.select([sys.stdin], [], [], 0)[0]:
+-			# Same reasoning as above regarding globals() and locals().
+-			# exec(sys.stdin.read(), globals(), locals())
+-			exec(sys.stdin.read(), globals())
++			exec(sys.stdin.read())
+ 			return
+ 
+ 		# We want to honor both $PYTHONSTARTUP and .pythonrc.py, so follow system
+
+```

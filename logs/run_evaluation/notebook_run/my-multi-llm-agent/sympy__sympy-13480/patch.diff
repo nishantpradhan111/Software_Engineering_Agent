@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/functions/elementary/hyperbolic.py
++++ b/sympy/functions/elementary/hyperbolic.py
+@@ -587,7 +587,7 @@
+             return S.ComplexInfinity
+         elif arg == 0:
+             return S.Zero
+-        if cotm is S.ComplexInfinity:
++        if arg is S.ComplexInfinity:
+             return S.One
+         elif arg is S.NegativeInfinity:
+             return S.NegativeOne
+
+```

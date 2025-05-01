@@ -1,0 +1,17 @@
+```diff
+--- a/lib/matplotlib/colorbar.py
++++ b/lib/matplotlib/colorbar.py
+@@ -1199,6 +1199,11 @@
+         # if the norm is dynamically generated as from a ScalarMappable
+         # then change the tracker for any changed norm
+         self._mapper.callbacksSM.connect('changed', self.update_normal)
++        # Specifically for the LogNorm, the autoscale calls set_norm,
++        # so we have to connect to that event too, else we get out of
++        # sync on the norm.
++        self._mapper.callbacksSM.connect(
++            'norm_updated', self.update_normal)
+ 
+     def update_normal(self, mappable):
+         """
+
+```

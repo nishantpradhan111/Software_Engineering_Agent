@@ -1,0 +1,22 @@
+```diff
+--- a/sympy/polys/sqfreetools.py
++++ b/sympy/polys/sqfreetools.py
+@@ -46,14 +46,15 @@
+     result = []
+ 
+     for p in factors:
+-        if p.is_ground:
++        if p.is_ground or p.degree() == 0:
+             continue
+ 
+         exponent = 1
+         while True:
+             q, r = div(f, p)
+ 
+-            if r.is_zero:
++            if r == 0:
+                 exponent += 1
+                 f = q
+             else:
+
+```

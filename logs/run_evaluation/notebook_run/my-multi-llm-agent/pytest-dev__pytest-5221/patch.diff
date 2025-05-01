@@ -1,0 +1,14 @@
+```diff
+--- a/src/_pytest/fixtures.py
++++ b/src/_pytest/fixtures.py
+@@ -572,7 +572,7 @@
+                 "        %s" % argname,
+                 "    %s" % source,
+                 "    " + argname,
+-                "    %s" % fixturedefs[argname],
++                "    %s (%s)" % (fixturedefs[argname], fixturedefs[argname].scope),
+             ]
+             for argname in sorted(fixturedefs)
+         ]
+
+```

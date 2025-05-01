@@ -1,0 +1,57 @@
+```diff
+--- a/base/models.py
++++ b/base/models.py
+@@ -1,5 +1,7 @@
+ from django.db import models
+ 
++from django.apps import apps
++
+ class ModelName(models.Model):
+     field1 = models.CharField(max_length=255)
+     field2 = models.IntegerField()
++    class Meta:
++        db_table = apps.get_app_config('base').name.lower() + '_modelname'
+
+
+--- a/app2/models.py
++++ b/app2/models.py
+@@ -1,5 +1,7 @@
+ from django.db import models
+ 
++from django.apps import apps
++
+ class ModelName(models.Model):
+     field1 = models.CharField(max_length=255)
+     field2 = models.IntegerField()
++    class Meta:
++        db_table = apps.get_app_config('app2').name.lower() + '_modelname'
+
+```
+
+**Explanation:**
+
+The core issue is that Django, starting from 2.2, enforces unique `db_table` names across *all* apps, even if they use different databases.  The previous behavior allowed duplicate names if the databases were different, but this was changed for consistency and to avoid potential ambiguity.
+
+The provided patch addresses this by dynamically generating unique table names based on the app label. This ensures that even if two models have the same class name, their database table names will be different.  It uses `apps.get_app_config('app_name').name.lower()` which retrieves the lowercase name of the app (e.g., "base", "app2") and prepends it to the original table name (effectively namespacing the table).
+
+**How to apply the patch:**
+
+1.  Save the diff as a `.diff` file (e.g., `fix_table_names.diff`).
+2.  Navigate to your Django project's root directory in the terminal.
+3.  Apply the patch using the `patch` command: `patch -p1 < fix_table_names.diff`
+
+**Key improvements:**
+
+*   **Dynamic table naming:** Avoids hardcoding and makes the solution more robust for future apps.
+*   **Clear namespacing:**  The table names now clearly indicate which app they belong to, improving readability and maintainability.
+*   **Compatibility:** Works with Django 2.2+ while maintaining backwards compatibility (though the table names will change).
+
+
+This solution assumes that all conflicting models within different apps currently use the same `db_table` value (e.g., "table_name" in the issue description).  If you have different conflicting table names, you would need to adjust the `db_table` assignment in the `Meta` class accordingly for each model.  For example:
+
+```python
+class AnotherModel(models.Model):
+    # ... fields ...
+    class Meta:
+        db_table = apps.get_app_config('app2').name.lower() + '_anothermodel'  # Adjust the table name suffix
+```

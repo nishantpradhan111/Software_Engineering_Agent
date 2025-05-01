@@ -1,0 +1,29 @@
+```diff
+--- a/path/to/your/models.py
++++ b/path/to/your/models.py
+@@ -5,15 +5,16 @@
+ 
+ class Field(models.Model):
+     def validate_max_length(self):
+-        if hasattr(self, 'choices') and self.choices:
+-                longest_choice = max(len(choice[0]) for choice in self.choices)
+-        elif hasattr(self, 'name') and hasattr(self.name.field, 'choices') and self.name.field.choices:  # Check for choices on the name field
+-                longest_choice = max(len(choice[0]) for choice in self.name.field.choices)
+-        else:
+-                return  # No choices to validate against
++        choices = getattr(self, 'choices', None)
++        if not choices and hasattr(self, 'name'):
++            choices = getattr(self.name.field, 'choices', None)
+ 
+-        if self.max_length is not None and longest_choice > self.max_length: # Check max_length after ensuring choices exist
++        if not choices:
++            return  # No choices to validate against
+ 
++        longest_choice = max(len(choice[0]) for choice in choices)
++
++        if self.max_length is not None and longest_choice > self.max_length:
+             if longest_choice > self.max_length:
+                 raise ValidationError(
+                     "The longest choice (%s) is longer than max_length (%s)."
+
+```

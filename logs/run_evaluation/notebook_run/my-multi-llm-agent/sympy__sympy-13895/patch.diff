@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/simplify/powsimp.py
++++ b/sympy/simplify/powsimp.py
+@@ -1037,7 +1037,7 @@
+     # posint
+     if b.is_Integer and b >= 0:
+         return Mul(*[a]*int(b))
+-    if a.is_Mul and _is_sum_surds(a):
++    if a.is_Add and _is_sum_surds(a):
+         return powsimp(a**b, deep=deep, combine='all')
+ 
+     # If a is a simple number and b is a negative integer or a simple
+
+```

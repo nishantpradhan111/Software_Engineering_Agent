@@ -1,0 +1,24 @@
+```diff
+--- a/itertools.py
++++ b/itertools.py
+@@ -579,6 +579,7 @@
+     iterable = iter(iterable)
+     try:
+         seen = set()
++        n = len(iterable) if hasattr(iterable, '__len__') else None  # Store initial length
+         while True:
+             element = next(iterable)
+             if element not in seen:
+@@ -588,6 +589,10 @@
+     except StopIteration:
+         pass
+ 
++    if n is not None and len(iterable) != n:
++        raise RuntimeError("iterable changed size during iteration")
++
++
+ def zip_longest(*iterables, fillvalue=None):
+     """Return an iterator of tuples, where the i-th tuple contains the i-th element
+     from each of the argument sequences or iterables.
+
+```

@@ -1,0 +1,21 @@
+```diff
+--- a/django/db/migrations/operations/fields.py
++++ b/django/db/migrations/operations/fields.py
+@@ -358,8 +358,10 @@
+             (model_name == self.model_name and name == self.name)
+         )
+ 
+-    def references_field(self, model_name, name, app_label):
+-        return self.from_fields and any(
+-            "%s.%s" % (app_label, model_name.lower()) == from_field.lower() for from_field in self.from_fields
++    def references_field(self, model_name, name, app_label=None):
++        return (
++            self.from_fields and any(
++                from_field.lower() == "%s.%s" % (app_label, model_name.lower()) if app_label else from_field.lower() == model_name.lower()
++                for from_field in self.from_fields
++            )
+         )
+-
+-
+
+```

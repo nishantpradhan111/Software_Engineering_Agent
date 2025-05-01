@@ -1,0 +1,19 @@
+```diff
+--- a/my_django_app/apps.py
++++ b/my_django_app/apps.py
+@@ -6,11 +6,11 @@
+ 
+     def ready(self):
+         from django.db.models.signals import post_migrate
+-        post_migrate.connect(prevent_default_log_entry_creation, sender=self.get_model('LogEntry'), dispatch_uid="prevent_log_entry_creation")
++        from django.contrib.admin.models import LogEntry
++        post_migrate.disconnect(dispatch_uid='django.contrib.admin.migrations.0001_initial') # Disconnect the specific migration signal
++        post_migrate.connect(prevent_default_log_entry_creation, sender=LogEntry, dispatch_uid="prevent_log_entry_creation")
+ 
+ def prevent_default_log_entry_creation(sender, **kwargs):
+-    # Check if the signal is from LogEntry model within this app
+-    if sender.__name__ == 'LogEntry' and sender._meta.app_label == 'my_django_app':
++    if sender is LogEntry: # Check if the signal is from LogEntry model
+         return  # Prevent the creation of the default LogEntry object
+
+```

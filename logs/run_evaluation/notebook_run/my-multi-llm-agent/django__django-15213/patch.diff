@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -1169,7 +1169,7 @@
+         return self.compile(expression.children[0])
+ 
+     def compile_Q(self, Q, children):
+-        if not children:
++        if not children or not any(c for c in children if c[1]):  # No children or all children are empty
+             return self.compile(Q.connector == Q.OR)
+         conjunction = ' OR ' if Q.connector == Q.OR else ' AND '
+         return '(' + conjunction.join(children) + ')'
+
+```

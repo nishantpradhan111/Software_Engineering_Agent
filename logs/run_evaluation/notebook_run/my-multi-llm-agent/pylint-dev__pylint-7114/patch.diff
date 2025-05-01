@@ -1,0 +1,14 @@
+```diff
+--- a/astroid/modutils.py
++++ b/astroid/modutils.py
+@@ -145,6 +145,8 @@
+     Returns:
+         tuple: A tuple with ``(module name, module file path)``.
+     """
++    if directory == os.path.splitext(filepath)[0]:
++        return None
+     try:
+         return _module_name_from_modpath_from_namespace_package(directory, filepath)
+     except ValueError:
+
+```

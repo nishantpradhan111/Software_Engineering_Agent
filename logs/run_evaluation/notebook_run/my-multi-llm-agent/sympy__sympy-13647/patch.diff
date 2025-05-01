@@ -1,0 +1,18 @@
+```diff
+--- a/sympy/matrices/dense.py
++++ b/sympy/matrices/dense.py
+@@ -1230,10 +1230,10 @@
+         if isinstance(col, MatrixBase):
+             cols = col.cols
+         else:
+-            col = [col]
++            col = Matrix([col])
+             cols = 1
+         newmat = zeros(self.rows, self.cols + cols)
+-        newmat[:, :pos] = self[:, :pos]
++        newmat[:self.rows, :pos] = self[:, :pos]
+         newmat[:, pos:pos + cols] = col
+         newmat[:, pos + cols:] = self[:, pos:]
+         return newmat
+
+```

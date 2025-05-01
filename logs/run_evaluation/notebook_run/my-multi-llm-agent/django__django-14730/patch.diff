@@ -1,0 +1,18 @@
+```diff
+--- a/django/db/models/fields/related.py
++++ b/django/db/models/fields/related.py
+@@ -1138,6 +1138,12 @@
+         # unless `symmetrical=False`.
+         self.rel.related_name = related_name or (
+             self.opts.model_name + '_set' if self.many_to_many else self.opts.model_name
++        )
++        if self.symmetrical and self.rel.related_name:
++            raise ValueError(
++                'ManyToManyField with symmetrical=True cannot specify a related_name. '
++                f'Remove related_name on {self.name!r} field in {self.model!r} model.'
++            )
+         if self.rel.related_name == '+':
+             self.rel.related_name = '+'
+         if not self.rel.related_query_name:
+
+```

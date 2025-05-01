@@ -1,0 +1,28 @@
+```diff
+--- a/sklearn/metrics/cluster/_supervised.py
++++ b/sklearn/metrics/cluster/_supervised.py
+@@ -347,7 +347,8 @@
+     y : ndarray of shape (n_samples,), dtype=int
+         Labels assigned by the second clustering algorithm.
+ 
+-    average_method : str, default='arithmetic'
++    average_method : str, default='arithmetic'.
++        How to compute the normalizer in the denominator. Possible options are 'min', 'geometric', 'arithmetic', and 'max'.
+ 
+     Returns
+     -------
+@@ -372,6 +373,12 @@
+     y = check_array(y, ensure_2d=False, dtype=None)
+     check_consistent_length(labels_true, labels_pred)
+ 
++    if labels_true.dtype.kind == 'O' or labels_pred.dtype.kind == 'O':
++        labels_true = LabelEncoder().fit_transform(labels_true)
++        labels_pred = LabelEncoder().fit_transform(labels_pred)
++        warnings.warn(
++            "Labels with dtype object are not supported. Converting to numeric labels."
++        )
+     mutual_info = mutual_info_score(labels_true, labels_pred,
+                                     average_method=average_method)
+ 
+
+```

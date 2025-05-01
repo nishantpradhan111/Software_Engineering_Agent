@@ -1,0 +1,20 @@
+```diff
+--- a/tests/admin_views/test_multidb.py
++++ b/tests/admin_views/test_multidb.py
+@@ -38,13 +38,12 @@
+ 
+     @classmethod
+     def setUpTestData(cls):
+-        # Use the default database for test setup to avoid routing issues.
+-        using = 'default'
+         with override_settings(DATABASE_ROUTERS=[]):
+             User.objects.create_superuser(
+                 username='admin', password='something', email='test@test.org',
+-            )  # Create in default unless routers force otherwise
++                using='default',  # Explicitly create in default database
++            )
+         cls.john = User.objects.create_user(username='john', password='john')
+         cls.jane = User.objects.create_user(username='jane', password='jane')
+ 
+
+```

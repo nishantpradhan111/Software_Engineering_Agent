@@ -1,0 +1,26 @@
+```diff
+--- a/django/contrib/admin/utils.py
++++ b/django/contrib/admin/utils.py
+@@ -2,6 +2,7 @@
+ from django.contrib.admin.templatetags.admin_list import _boolean_icon
+ from django.db import models
+ from django.utils.encoding import force_str
++from django.db.models.fields.json import JSONField
+ from django.utils.html import format_html
+ from django.utils.safestring import mark_safe
+ 
+@@ -40,7 +41,11 @@
+             value = display_callback(value)
+         elif isinstance(field, models.JSONField):
+             if value is None:
+-                return None
++                return value
++            try:
++                value = field.prepare_value(value)
++            except field.InvalidJSONInput:
++                pass  # Allow invalid JSON to be displayed as is in the admin
+             return format_html('<pre>{}</pre>', json.dumps(value, ensure_ascii=False, indent=2))
+         elif isinstance(field, (models.DateField, models.DateTimeField)):
+             return formats.localize(value)
+
+```

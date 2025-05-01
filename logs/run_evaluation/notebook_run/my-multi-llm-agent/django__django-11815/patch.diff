@@ -1,0 +1,17 @@
+```diff
+--- a/django/db/migrations/writer.py
++++ b/django/db/migrations/writer.py
+@@ -255,7 +255,10 @@
+                 arg_string += self.serialize(value)
+             elif isinstance(value, (frozenset, set)):
+                 arg_string += '{' + ', '.join(map(self.serialize, value)) + '}'
+-            elif hasattr(value, 'deconstruct'):
++            elif isinstance(value, Enum):
++                arg_string += f"{value.__class__.__name__}['{value.name}']"
++
++            elif hasattr(value, 'deconstruct') and not isinstance(value, Enum):
+                 name, path, args, kwargs = value.deconstruct()
+                 if path:
+                     arg_string += f"{path}("
+
+```

@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/printing/pretty/pretty.py
++++ b/sympy/printing/pretty/pretty.py
+@@ -1000,7 +1000,7 @@
+             pform = printer._print(expr.base)
+             if expr.exp == -1:
+                 return pform**-1
+-            if expr.exp.is_Atom:
++            if isinstance(expr.exp, Atom):
+                 return pform**printer._print(expr.exp)
+             return prettyForm(*[pform, printer._print(expr.exp)], binding=prettyForm.POW)
+         elif isinstance(expr, (Integer, Rational)):
+
+```

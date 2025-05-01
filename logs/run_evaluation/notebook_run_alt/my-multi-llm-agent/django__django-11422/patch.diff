@@ -1,0 +1,19 @@
+```diff
+--- a/django/utils/autoreload.py
++++ b/django/utils/autoreload.py
+@@ -175,6 +175,13 @@
+         return extra_files
+ 
+     def run(self):
++        # Before starting, ensure that any changes to the main module haven't
++        # been missed.
++        if self.main_func:
++            self.tick()
++            if self.changed:
++                return
++
+         while True:
+             if not self.files:
+                 self.extra_files = self.extra_files or self.get_extra_files()
+
+```

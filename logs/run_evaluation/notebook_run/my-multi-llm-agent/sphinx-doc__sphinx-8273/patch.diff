@@ -1,0 +1,40 @@
+```diff
+--- a/sphinx/builders/manpage.py
++++ b/sphinx/builders/manpage.py
+@@ -125,13 +125,17 @@
+         # it and warn about it.
+         if not outfilename:
+             logger.warning(__('no title for manpage %r'), docnames[0])
+-            outfilename = docnames[0] + '.?'
++            outfilename = os.path.basename(docnames[0]) + '.?'
++        outfilename = os.path.basename(outfilename)  # remove directory components
+ 
+         outfilename = os.path.join(self.outdir, outfilename)
++        section = self.get_manpage_section(outdir, doctree)
++        outdir = os.path.join(outdir, "man" + section)
++        os.makedirs(outdir, exist_ok=True)
++        outfilename = os.path.join(outdir, outfilename)
+         ensuredir(os.path.dirname(outfilename))
+-        with open(outfilename, 'wb') as f:
++        with open(outfilename, 'w', encoding='utf-8') as f:  # Use text mode, utf-8 encoding
+             f.write(self.highlighter(source, lang='man', linenos=False))
+-
+         # copy the page to the right place
+         man_name = outfilename[:-4] + '.' + self.config.man_make_section_directory
+         ensuredir(os.path.dirname(man_name))
+@@ -140,6 +144,13 @@
+             logger.info('making %s', man_name, nonl=True)
+         copyfile(outfilename, man_name)
+ 
++    def get_manpage_section(self, outdir, doctree):
++        """Determine the man page section."""
++        section = self.config.man_make_section_directory
++        if not section:
++            section = '7'  # Default to section 7 if not specified
++        return section
++
+     def finish(self) -> None:
+         pass
+ 
+
+```

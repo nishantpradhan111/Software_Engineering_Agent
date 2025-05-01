@@ -1,0 +1,69 @@
+```diff
+--- a/django/db/models/query.py
++++ b/django/db/models/query.py
+@@ -1052,7 +1052,7 @@
+                 fields = [self.model._meta.pk]
+             returning_fields = self._returning_fields(fields) if fields else ()
+             update_conflicts_queries = self._chain.bulk_update_conflicts_queries(
+-                objs, fields, unique_fields=unique_fields, update_fields=update_fields,
++                objs, fields, unique_fields=unique_fields, update_fields=update_fields, returning_fields=returning_fields,
+             )
+             with transaction.atomic(using=self.db, savepoint=False):
+                 for query, params in update_conflicts_queries:
+@@ -1070,7 +1070,7 @@
+         else:
+             with transaction.atomic(using=self.db, savepoint=False):
+                 ids = self._batched_insert(
+-                    objs_with_pk_and_default_fields, fields, ignore_conflicts=ignore_conflicts
++                    objs_with_pk_and_default_fields, fields, ignore_conflicts=ignore_conflicts, returning_fields=returning_fields
+                 )
+                 if (
+                     fields is not None and
+@@ -1415,7 +1415,7 @@
+         return [obj.pk for obj in objs if obj.pk is not None]
+ 
+     def _batched_insert(
+-        self, objs, fields, batch_size=None, ignore_conflicts=False
++        self, objs, fields, batch_size=None, ignore_conflicts=False, returning_fields=None
+     ):
+         """
+         A helper method for bulk_insert() to insert the bulk one batch at a time.
+@@ -1438,6 +1438,7 @@
+             using=self.db,
+             ignore_conflicts=ignore_conflicts,
+             on_conflict_suffix=on_conflict_suffix,
++            returning_fields=returning_fields,
+         )
+         if (
+             fields is not None and
+@@ -1774,7 +1775,7 @@
+         return query, params
+ 
+     def _insert_query(
+-        self, objs, fields, returning_fields=None, raw=False, ignore_conflicts=False, on_conflict_suffix=None
++        self, objs, fields, returning_fields=None, raw=False, ignore_conflicts=False, on_conflict_suffix=None, returning_fields_sql=None,
+     ):
+         """
+         Construct an SQL insert query and parameters.
+@@ -1820,11 +1821,13 @@
+             sql += ' ON CONFLICT %s' % on_conflict_suffix
+ 
+         if returning_fields:
+-            if self.connection.features.can_return_columns_from_insert:
+-                returning_fields_sql = returning_clause(
+-                    self.connection.ops.quote_name(field.column) for field in returning_fields
+-                )
+-                sql += ' RETURNING %s' % returning_fields_sql
++            if returning_fields_sql is None:
++                if self.connection.features.can_return_columns_from_insert:
++                    returning_fields_sql = returning_clause(
++                        self.connection.ops.quote_name(field.column) for field in returning_fields
++                    )
++
++            if returning_fields_sql:
++                sql += ' RETURNING %s' % returning_fields_sql
+         return sql, params
+ 
+ 
+
+```

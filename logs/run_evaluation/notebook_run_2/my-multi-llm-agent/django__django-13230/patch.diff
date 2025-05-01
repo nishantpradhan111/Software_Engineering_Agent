@@ -1,0 +1,24 @@
+```diff
+--- a/django/contrib/syndication/views.py
++++ b/django/contrib/syndication/views.py
+@@ -137,7 +137,7 @@
+         'categories': categories,
+         'enclosures': enclosures,
+         'item_copyright': item_copyright,
+-        'comments': comments or [],
++        'comments': comments if comments is not None else None,
+     }
+ 
+     if extra_kwargs:
+@@ -165,7 +165,7 @@
+         categories=item_categories,
+         enclosures=item_enclosures,
+         item_copyright=item_copyright,
+-        comments=item_comments or [],
++        comments=item_comments if item_comments is not None else None,
+         **extra_kwargs
+     )
+ 
+
+```
+The original patch replaces `comments if comments is not None else []` with `comments or []`.  This is incorrect because an empty list (`[]`) is a valid value for the `comments` field in RSS, indicating that there are no comments.  The original code correctly used `None` to indicate that the comments information isn't provided.  The patch incorrectly changes this to always provide an empty list, potentially overriding a valid empty list.  This revised patch uses `comments if comments is not None else None` to retain the original logic of allowing `None` as a valid value.

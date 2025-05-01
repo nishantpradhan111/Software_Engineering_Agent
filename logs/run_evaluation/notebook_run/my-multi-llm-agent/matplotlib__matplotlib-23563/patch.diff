@@ -1,0 +1,55 @@
+```diff
+--- a/reproduction_code.py
++++ b/reproduction_code.py
+@@ -1,12 +1,12 @@
+ import numpy as np
+ import matplotlib.pyplot as plt
+-x_s_0 = np.array(['my int number list'])
+-x_e_0 = np.array(['my int number list'])
+-y_s_0 = np.array(['my int number list'])
+-y_e_0 = np.array(['my int number list'])
+-z_s_0 = np.array(['my int number list'])
+-z_e_0 = np.array(['my int number list'])
++x_s_0 = np.array([1, 2, 3])  # Example integer values
++x_e_0 = np.array([4, 5, 6])
++y_s_0 = np.array([7, 8, 9])
++y_e_0 = np.array([10, 11, 12])
++z_s_0 = np.array([13, 14, 15])
++z_e_0 = np.array([16, 17, 18])
+ 
+ fig = plt.figure()
+-        ax = fig.gca(projection='3d')
+-        ax.view_init(elev=90, azim=0)
+-        ax.set_zlim3d(-10, 10)
+-        clr_list = 'r-'
++ax = fig.add_subplot(projection='3d') # Use add_subplot
++ax.view_init(elev=90, azim=0)
++ax.set_zlim3d(-10, 10)
++clr_list = 'r-'
+ 
+-        for n in range(np.size(z_s_0, axis=0)):
+-            ax.plot([int(x_s_0[n]), int(x_e_0[n])],
+-                    [int(y_s_0[n]), int(y_e_0[n])],
+-                    [int(z_s_0[n]), int(z_e_0[n])], clr_list)
++for n in range(np.size(z_s_0, axis=0)):
++    ax.plot([int(x_s_0[n]), int(x_e_0[n])],
++            [int(y_s_0[n]), int(y_e_0[n])],
++            [int(z_s_0[n]), int(z_e_0[n])], clr_list)
+ 
+-        plt.xlabel('x')
+-        plt.ylabel('y')
+-        # ax.zlabel('z')
+-        plt.title('90-0')
+-        plt.show()
++plt.xlabel('x')
++plt.ylabel('y')
++plt.title('90-0')
++plt.show()
+
+```
+
+The issue arises because `gca()` retrieves the current axes, and if no axes exists with the specified projection ('3d' in this case), it tries to convert the existing 2D axes to 3D.  This conversion process can cause problems, especially if you've previously plotted something in 2D and then try to switch to 3D without creating a new figure or explicitly adding a 3D subplot.  The error `'Line3D' object has no attribute '_verts3d'` is a symptom of this broken internal state.
+
+The fix is to use `fig.add_subplot(projection='3d')` to explicitly create a new 3D subplot. This ensures that you're working with a correctly initialized 3D axes object from the beginning.
+
+I've also added example integer values to the numpy arrays to make the code runnable.  Make sure you replace these with your actual data.  The key change is using `add_subplot` instead of `gca`. This prevents the problematic conversion from 2D to 3D axes and resolves the error.

@@ -1,0 +1,44 @@
+```diff
+--- a/django/utils/decorators.py
++++ b/django/utils/decorators.py
+@@ -21,7 +21,19 @@
+ 
+ 
+ def method_decorator(decorator, name=''):
+-    """
++    """
++    Converts a function decorator into a method decorator.
++
++    It preserves any attributes assigned to the wrapper function by the wrapped
++    decorator by re-assigning them to the partial created by method_decorator.
++    This ensures that method decorators like `functools.wraps` continue to work
++    correctly.
++
+     Convert a function decorator into a method decorator.
++
++    If 'name' is specified, use that instead of the function's name for the
++    attribute added to the class.
+     """
+     # 'obj' can be a class or a function. If it is a class, it is a method
+     # decorator. If it is a function, it is a function decorator.
+@@ -32,4 +44,12 @@
+             return decorator(obj)
+ 
+         @wraps(decorator)
+-        def bound_func(*args, **kwargs):
+-            return decorator(partial(obj, *args, **kwargs))
++        def bound_func(self, *args, **kwargs):
++            wrapped_method = partial(obj, self, *args, **kwargs)
++
++            # Preserve attributes assigned by the wrapped decorator
++            decorated_method = decorator(wrapped_method)
++            for attr in ('__module__', '__name__', '__doc__'):
++                if hasattr(decorated_method, attr):
++                    setattr(wrapped_method, attr, getattr(decorated_method, attr))
++
++            return decorated_method(*args, **kwargs)  # Execute the wrapped method
+         # In case the decorator wrapped the bound function into a closure, copy
+         # its attributes to the bound function (like functools.wraps does).
+         functools.update_wrapper(bound_func, obj)
+
+```

@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/printing/pycode.py
++++ b/sympy/printing/pycode.py
+@@ -809,7 +809,7 @@
+             # remove extra brackets
+             if len(args) == 1:
+                 return self._print(args[0])
+-            return '({})'.format(', '.join(self._print(arg) for arg in args))
++            return '({},)'.format(', '.join(self._print(arg) for arg in args))
+ 
+         if isinstance(e, (Tuple, Set)):
+             if not e:
+
+```

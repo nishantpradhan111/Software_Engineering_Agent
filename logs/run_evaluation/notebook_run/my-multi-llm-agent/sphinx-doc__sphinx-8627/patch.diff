@@ -1,0 +1,20 @@
+```diff
+--- a/helloworld.py
++++ b/helloworld.py
+@@ -2,10 +2,10 @@
+ import pathlib
+ 
+ def consume_struct(_: struct.Struct) -> None:
+-    pass
++    """Consume a struct."""
+ 
+ def make_struct() -> struct.Struct:
+-    mystruct = struct.Struct('HH')
++    """Make a struct."""
+     mystruct = struct.Struct('HH')
+     return mystruct
+ 
+
+```
+
+The issue stems from Sphinx's autodoc needing some minimal docstrings to properly process and resolve certain types, especially those from the standard library that might not have explicit cross-references readily available. Adding docstrings, even simple ones like "Consume a struct" and "Make a struct", provides enough context for Sphinx to correctly handle the `struct.Struct` type annotations.  This change ensures the functions are documented and allows Sphinx to resolve the type correctly.

@@ -1,0 +1,14 @@
+```diff
+--- a/sklearn/calibration.py
++++ b/sklearn/calibration.py
+@@ -761,7 +761,7 @@
+         for class_idx, calibrator in enumerate(self.calibrators_):
+             if calibrator is None:
+                 proba[:, class_idx] = this_pred[:, 0]
+-            proba[:, class_idx] = calibrator.predict(this_pred)
++            proba[:, class_idx] = calibrator.predict(this_pred).to_numpy().ravel()
+         return proba
+ 
+     def _more_tags(self):
+
+```

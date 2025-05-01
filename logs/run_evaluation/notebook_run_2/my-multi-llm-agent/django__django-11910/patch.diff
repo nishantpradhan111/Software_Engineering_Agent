@@ -1,0 +1,20 @@
+```diff
+--- a/app1/migrations/0002_rename_field_wrong_to_field_fixed.py
++++ b/app1/migrations/0002_rename_field_wrong_to_field_fixed.py
+@@ -12,6 +12,12 @@
+ 			model_name='modela',
+ 			old_name='field_wrong',
+ 			new_name='field_fixed',
++		),
++		migrations.RunSQL(
++			"UPDATE app1_modelb SET field_fk_id = (SELECT id FROM app1_modela WHERE app1_modelb.field_fk_id = app1_modela.field_wrong);",  # Update existing FK values
++			"SELECT 1",  # Dummy reverse SQL, not strictly necessary for this but good practice
++			state_operations=[migrations.AlterField(model_name='modelb', name='field_fk', field=models.ForeignKey(blank=True, db_column='field_fk_id', null=True, on_delete=django.db.models.deletion.CASCADE, to='app1.modela'))] # temporarily allow the old FK to exist so the SQL update works
++
+ 		),
+ 		migrations.AlterField(
+ 			model_name='modelb',
+
+```
+
+The original patch only corrected the `to_field` argument in the `ForeignKey` definition.  It *didn't* update the actual data in the database.  Existing `ModelB` instances would still be pointing to `ModelA` via the old, now non-existent `field_wrong`.  This revised patch adds a `RunSQL` operation to the migration to update the foreign key values in the `ModelB` table, ensuring data integrity.  It also includes a temporary alteration that allows the old foreign key relationship to exist solely for the duration of the SQL update, resolving potential conflicts. This then allows the final `AlterField` to correctly set the foreign key based on the fixed field. This is crucial for avoiding data loss or inconsistencies after applying the migration.

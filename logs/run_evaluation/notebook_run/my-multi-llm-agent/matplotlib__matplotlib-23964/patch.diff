@@ -1,0 +1,14 @@
+```diff
+--- a/lib/matplotlib/backends/backend_ps.py
++++ b/lib/matplotlib/backends/backend_ps.py
+@@ -667,6 +667,8 @@
+                     offset += h
+ 
+             stream = self._get_ps_font_and_encoding(clean_line)
++            if stream is None:
++                continue
+             for ps_name, xs_names in stream:
+                 if ps_name in self.fontmap:
+                     font = self.fontmap[ps_name]
+
+```

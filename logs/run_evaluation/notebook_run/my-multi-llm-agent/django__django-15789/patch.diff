@@ -1,0 +1,40 @@
+```diff
+--- a/django/utils/html.py
++++ b/django/utils/html.py
+@@ -10,6 +10,17 @@
+ from django.utils.safestring import SafeString
+ 
+ 
++def json_script(value, element_id, encoder=None):
++    """
++    Escape a value as JSON and return a string suitable for embedding in HTML.
++
++    The resulting string can be embedded in an HTML <script> tag.
++
++    The argument should be an object that is serializable into a JSON string.
++    """
++    from django.core.serializers.json import DjangoJSONEncoder
++    encoder = encoder or DjangoJSONEncoder
++    json_str = json.dumps(value, cls=encoder).replace('</', '<\\/')
++    return format_html('<script id="{}" type="application/json">{}</script>', element_id, mark_safe(json_str))
++
+ def format_html(format_string, *args, **kwargs):
+     """
+     Similar to str.format, but passes all arguments through conditional_escape,
+@@ -76,14 +87,6 @@
+     return SafeString("".join(result))
+ 
+ 
+-def json_script(value, element_id):
+-    """
+-    Escape a value as JSON and return a string suitable for embedding in HTML.
+-    """
+-    from django.core.serializers.json import DjangoJSONEncoder
+-    json_str = json.dumps(value, cls=DjangoJSONEncoder).replace('</', '<\\/')
+-    return format_html('<script id="{}" type="application/json">{}</script>', element_id, mark_safe(json_str))
+-
+ def urlize(text, trim_url_limit=None, nofollow=False, autoescape=False):
+     """
+     Convert any URLs in text into clickable links.
+
+```

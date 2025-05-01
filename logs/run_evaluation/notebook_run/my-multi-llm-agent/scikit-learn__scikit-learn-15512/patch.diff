@@ -1,0 +1,13 @@
+```diff
+--- a/sklearn/cluster/_affinity_propagation.py
++++ b/sklearn/cluster/_affinity_propagation.py
+@@ -346,6 +346,7 @@
+         self.cluster_centers_indices_ = np.asarray(cluster_centers_indices)
+         self.cluster_centers_ = X[cluster_centers_indices]
+         self.labels_ = labels
++        self.converged_ = converged
+ 
+         return self
+ 
+
+```

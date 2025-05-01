@@ -1,0 +1,21 @@
+```diff
+--- a/django/db/models/lookups.py
++++ b/django/db/models/lookups.py
+@@ -1356,10 +1356,10 @@ class IsNull(Transform):
+         self.rhs = rhs
+ 
+     def as_sql(self, compiler, connection):
+-        if self.rhs is None:
++        if self.rhs is None or self.rhs is True:
+             self.rhs = True  # Handle None and True synonymously
+-        elif not isinstance(self.rhs, bool):
+-            raise ValueError("The value passed to __isnull must be True, False, or None.")
++        elif self.rhs is False:
++            pass # Correct usage
++        else:
++            raise ValueError("The value passed to __isnull must be True, False, or None. Received %r." % (self.rhs,))
+ 
+         sql, params = compiler.compile(self.lhs)
+         if self.rhs:
+
+```

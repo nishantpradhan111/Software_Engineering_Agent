@@ -1,0 +1,27 @@
+```diff
+--- a/sympy/printing/latex.py
++++ b/sympy/printing/latex.py
+@@ -1135,7 +1135,7 @@
+             if len(p) > 1:
+                 return r"\log{%s}" % self._print(p[0])
+             else:
+-                return r"\log{x}"
++                return r"\log x"  # \log{x} is wrong
+         elif op == operator.mul:
+             a = []
+             for arg in args:
+@@ -1259,6 +1259,11 @@
+                     return r"\left(%s\right)" % tex
+             return tex
+ 
++        if isinstance(expr, (Relational, BooleanFunction)):
++            tex = self._print(expr)
++            if tex.startswith(r'\left(') and tex.endswith(r'\right)'):
++                tex = tex[6:-7]
++            return tex
++
+         # If it is a special function, let the printer handle it.
+         if hasattr(expr, '_latex'):
+             return expr._latex(self)
+
+```

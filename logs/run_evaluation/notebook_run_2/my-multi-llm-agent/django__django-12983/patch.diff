@@ -1,0 +1,18 @@
+```diff
+--- a/django/utils/text.py
++++ b/django/utils/text.py
+@@ -310,9 +310,9 @@
+     """
+     value = force_str(value)
+     value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
+-    value = re.sub(r'[^\w\s-]', '', value.lower())
+-    value = re.sub(r'[-\s]+', '-', value).strip('-_')
+-    return mark_safe(value)
++    value = re.sub('[^\w\s-]', '', value.lower())
++    value = re.sub('[-\s]+', '-', value)
++    return mark_safe(value.strip('-_'))
+ def compress_string(s):
+     return base64.b64encode(gzip.compress(s.encode())).decode()
+ 
+
+```

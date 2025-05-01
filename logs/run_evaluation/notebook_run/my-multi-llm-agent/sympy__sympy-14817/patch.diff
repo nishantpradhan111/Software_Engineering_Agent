@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/printing/pretty/pretty.py
++++ b/sympy/printing/pretty/pretty.py
+@@ -825,7 +825,7 @@
+         for i, item in enumerate(expr.args):
+             if i == 0:
+                 s = self._print(item)
+-            elif S(item.args[0]).is_negative:
++            elif item.args[0].is_negative:
+                 s = prettyForm(" " + self._print(item))
+             else:
+                 s = prettyForm(" + " + self._print(item))
+
+```

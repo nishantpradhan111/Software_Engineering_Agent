@@ -1,0 +1,67 @@
+```diff
+--- a/flask/cli.py
++++ b/flask/cli.py
+@@ -841,7 +841,7 @@
+             "  {rule.rule}"
+         ).format(rule=rule)
+         lines.append(line)
+-
++    
+     # if there are more than 1 route rule, we add padding before the
+     # actual rule is printed. This makes the output easier to parse for
+     # external tools.
+@@ -851,6 +851,33 @@
+             line = f"{' ':>{col_width + 2}}{line}"
+         click.echo(line)
+ 
++@click.command("routes-ext")
++@with_appcontext
++def routes_ext_command():
++    """Show the routes for the app."""
++    from flask.scaffold import _sentinel
++
++    rules = list(current_app.url_map.iter_rules())
++    if not rules:
++        click.echo("No routes were registered.")
++        return
++
++    ignored_methods = set(current_app.config["ROUTER_IGNORED_METHODS"])
++
++    if len(rules) == 1 and rules[0].endpoint.startswith("static"):
++        click.echo("Static routes are being served by the WSGI server. No routes registered.")
++        return
++
++    headings = ("Domain", "Endpoint", "Methods", "Rule")
++    widths = (
++        max(len(rule.subdomain or current_app.config["SERVER_NAME"]) for rule in rules),
++        max(len(rule.endpoint) for rule in rules),
++        len(", ".join(sorted(rule.methods - ignored_methods or {"-"}))),
++        max(len(str(rule.rule)) for rule in rules),
++    )
++    row = "| {:<{0}} | {:<{1}} | {:<{2}} | {:<{3}} |"
++    header = row.format(*headings, *widths)
++    click.echo("+" + "-" * (len(header) - 2) + "+")
++    click.echo(header)
++    click.echo("+" + "-" * (len(header) - 2) + "+")
++
++    for rule in rules:
++        methods = ", ".join(sorted(rule.methods - ignored_methods)) or "-"
++        domain = rule.subdomain + "." + current_app.config["SERVER_NAME"] if rule.subdomain else current_app.config["SERVER_NAME"]
++        line = row.format(domain, rule.endpoint, methods, rule.rule, *widths)
++        click.echo(line)
++
++    click.echo("+" + "-" * (len(header) - 2) + "+")
++
+ def _show_server_banner(debug, app_import_path, eager_loading):
+     """Show extra startup messages the first time the server is run,
+     ignoring the reloader.
+@@ -1203,6 +1230,7 @@
+     cli.add_command(run_command)
+     cli.add_command(shell_command)
+     cli.add_command(routes_command)
++    cli.add_command(routes_ext_command)
+     return cli
+ 
+ 
+
+```

@@ -1,0 +1,36 @@
+```diff
+--- a/sympy/geometry/util.py
++++ b/sympy/geometry/util.py
+@@ -571,11 +571,12 @@
+     """
+     f = sympify(f)
+     x = sympify(x)
+-    y = sympify(y)
++    y_ = sympify(y)
++    y = Dummy('y')
+     if not x.is_Symbol:
+         raise ValueError("x must be a single symbol")
+-    if not y.is_Symbol:
+-        raise ValueError("expecting x-dependent symbol(s) but got: %s" % y)
++    if not y_.is_Symbol:
++        f = f.subs(y_, y)
+ 
+     # Rewrite f in terms of x and y(x).
+     derivs = {}
+@@ -583,10 +584,12 @@
+         deriv = Derivative(y, x, i)
+         derivs[deriv] = Symbol('y%s' % ("'"*i))
+     f = f.subs(derivs)
+-    eq = f - y
++    if f.is_Equality:
++        eq = f.lhs - f.rhs
++    else:
++        eq = f - y
+     yp = solve(eq.diff(x), dydx)[0].subs(derivs)
+ 
+-    return yp.subs(y, solve(f, y)[0])
++    return yp.subs(y, solve(f.subs(y, y_), y_)[0])
+ 
+ def are_similar(obj1, obj2):
+
+```

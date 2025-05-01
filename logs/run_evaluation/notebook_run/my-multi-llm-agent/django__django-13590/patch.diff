@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -1693,7 +1693,7 @@
+                     # Reconstruct the tuple with resolved values.
+                     if hasattr(val, '_asdict'):
+                         resolved = {k: self.resolve_lookup_value(v, can_reuse, allow_joins) for k, v in val._asdict().items()}
+-                        lookup_val = val.__class__(**resolved)
++                        lookup_val = val.__class__(*resolved.values())
+                     elif lookup_name == 'range':
+                         # Special case for range lookups since we also resolve the bounds.
+                         lookup_val = val.__class__(
+
+```

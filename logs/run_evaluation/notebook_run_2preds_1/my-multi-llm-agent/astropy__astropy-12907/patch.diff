@@ -1,0 +1,73 @@
+```diff
+--- a/astropy/modeling/separable.py
++++ b/astropy/modeling/separable.py
+@@ -1,6 +1,5 @@
+ # Licensed under a 3-clause BSD style license - see LICENSE.rst
+ """Separability checks."""
+-
+ import numpy as np
+ 
+ from .core import Model, CompoundModel
+@@ -15,36 +14,34 @@
+     where S[i, j] is True if output i depends on input j, and False otherwise.
+     """
+     # Base case: If the model defines itself as separable, then the matrix is
+-    # the identity matrix
+-    if getattr(model, '_separable', False):
+-        matrix = np.identity(model.n_inputs, dtype=bool)
+-    elif isinstance(model, CompoundModel) and model.op == '&':
++    # the identity matrix. This is checked after CompoundModel cases.
++    if isinstance(model, CompoundModel):
+         # For models combined in parallel, the separability matrix is a
+         # block-diagonal matrix of the separability matrices of the left and
+         # right operands
+-        m1 = model.left
+-        m2 = model.right
+-        sep1 = separability_matrix(m1)
+-        sep2 = separability_matrix(m2)
++        if model.op == '&':
++            m1 = model.left
++            m2 = model.right
++            sep1 = separability_matrix(m1)
++            sep2 = separability_matrix(m2)
+ 
+-        # Use Boolean False because np.zeros defaults to float
+-        z12 = np.zeros((m1.n_outputs, m2.n_inputs), dtype=bool)
+-        z21 = np.zeros((m2.n_outputs, m1.n_inputs), dtype=bool)
++            # Use Boolean False because np.zeros defaults to float
++            z12 = np.zeros((m1.n_outputs, m2.n_inputs), dtype=bool)
++            z21 = np.zeros((m2.n_outputs, m1.n_inputs), dtype=bool)
+ 
+-        matrix = np.bmat([[sep1, z12],
+-                          [z21, sep2]])
+-        # np.bmat returns a np.matrix; convert back to ndarray
+-        matrix = np.asarray(matrix)
+-    elif isinstance(model, CompoundModel) and model.op == '|':
+-        # Boolean matrix multiplication using OR/AND logic instead of +/-
+-        matrix = np.dot(separability_matrix(model.right).astype(np.uint8),
+-                        separability_matrix(model.left).astype(np.uint8)) > 0
+-    elif isinstance(model, CompoundModel) and model.op == '@':
+-        # TODO: Support actual mapping here
+-        matrix = np.dot(separability_matrix(model.left).astype(np.uint8),
+-                        separability_matrix(model.right).astype(np.uint8)) > 0
++            matrix = np.bmat([[sep1, z12], [z21, sep2]])
++            # np.bmat returns a np.matrix; convert back to ndarray
++            matrix = np.asarray(matrix)
++        elif model.op == '|':
++            # Boolean matrix multiplication using OR/AND logic instead of +/-
++            matrix = np.dot(separability_matrix(model.right).astype(np.uint8),
++                            separability_matrix(model.left).astype(np.uint8)) > 0
++        elif model.op == '@':
++            # TODO: Support actual mapping here
++            matrix = np.dot(separability_matrix(model.left).astype(np.uint8),
++                            separability_matrix(model.right).astype(np.uint8)) > 0
++        else:
++            # Assume non-separable for other compound operators like +, -, etc.
++            matrix = np.ones((model.n_outputs, model.n_inputs), dtype=bool)
++    elif getattr(model, '_separable', False):
++        matrix = np.identity(model.n_inputs, dtype=bool)
+     else:
+         # If the model is not separable (or does not define separability),
+         # then return a matrix indicating that all outputs depend on all
+
+```

@@ -1,0 +1,17 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -1158,7 +1158,10 @@
+         # at this stage, must convert each expression.
+         for alias, aggregate_expr in self.query.annotation_select.items():
+             agg_sql, agg_params = self.compile(aggregate_expr)
+-            self.col_count += 1
++            if alias in self.query.group_by:
++                # Don't add the annotation itself to the select list.
++                continue
++
+             aggregate_expr_alias = aggregate_expr.alias
+             if aggregate_expr_alias is None:
+                 aggregate_expr_alias = '$aggregate.%d' % self.col_count
+
+```

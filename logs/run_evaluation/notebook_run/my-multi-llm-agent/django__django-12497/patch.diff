@@ -1,0 +1,16 @@
+```diff
+--- a/django/db/models/fields/related_lookups.py
++++ b/django/db/models/fields/related_lookups.py
+@@ -747,8 +747,8 @@
+                 # through model and two ForeignKeys to the same model.
+                 hint = (
+                     'If you want to create a recursive relationship, '
+-                    'use ForeignKey("%s", symmetrical=False, through="%s").'
+-                    % (opts.model_name, through._meta.model_name)
++                    'use ManyToManyField("%s", through="%s").'
++                    % (opts.model_name, through._meta.object_name)
+                 )
+             else:
+                 hint = (
+
+```

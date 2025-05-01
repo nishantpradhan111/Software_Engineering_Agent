@@ -1,0 +1,66 @@
+```diff
+--- a/django/contrib/staticfiles/storage.py
++++ b/django/contrib/staticfiles/storage.py
+@@ -149,12 +149,11 @@
+         """
+         if settings.DEBUG:
+             return self.url(name)
+-        request = context.get('request')
+-        if request and isinstance(request, WSGIRequest):
+-            script_name = request.META.get('SCRIPT_NAME', '')
+-            if script_name:
+-                return urljoin(script_name.rstrip('/') + '/', self.base_url + name)
+-        return urljoin(self.base_url, name)
++        request = context.get('request', None)
++        if request and isinstance(request, WSGIRequest):
++            return urljoin(request.path_info.rsplit('/', 1)[0] + '/',
++                           self.url(name))
++        return self.url(name)  # Avoid unnecessary urljoin if no request
+     def url(self, name):
+         """
+         Returns an absolute URL where the file's contents can be accessed
+@@ -270,11 +269,10 @@
+         if settings.DEBUG:
+             return self.url(name)
+         request = context.get('request')
+-        if request and isinstance(request, WSGIRequest):
+-            script_name = request.META.get('SCRIPT_NAME', '')
+-            if script_name:
+-                return urljoin(script_name.rstrip('/') + '/', self.base_url + name)
+-        return urljoin(self.base_url, name)
++        if request and isinstance(request, WSGIRequest) :
++            return urljoin(request.path_info.rsplit('/', 1)[0] + '/',
++                           self.url(name))
++        return self.url(name)
+ 
+ 
+ class StaticFilesStorage(ConfiguredStorage):
+@@ -286,9 +284,12 @@
+         directly by a Web browser.
+         """
+         request = getattr(self, '_request', None) # Access request object if available (set by StaticNode later)
+-        if request and isinstance(request, WSGIRequest) :
+-            script_name = request.META.get('SCRIPT_NAME','')
+-            return urljoin(script_name.rstrip('/') + '/' , self.base_url + name).replace('\\', '/') if script_name else urljoin(self.base_url, name).replace('\\', '/')
++        if request and isinstance(request, WSGIRequest):
++            return urljoin(request.path_info.rsplit('/', 1)[0] + '/',
++                           self.url(name)).replace('\\', '/')
+         return urljoin(self.base_url, name).replace('\\', '/')
+ 
+ 
+@@ -47,9 +48,9 @@
+     def render(self, context):
+         url = self.url(context)
+         request = context.get('request')
+-        if request and isinstance(request, WSGIRequest) :
+-            script_name = request.META.get('SCRIPT_NAME','')
+-            url = urljoin(script_name.rstrip('/') + '/', url) if script_name else url
+-        if self.varname is None: 
++        if request and isinstance(request, WSGIRequest):
++            url = urljoin(request.path_info.rsplit('/', 1)[0] + '/', url)
++        if self.varname is None:
+             return url
+         context[self.varname] = url
+         return ''
+
+```

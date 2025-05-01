@@ -1,0 +1,24 @@
+```diff
+--- a/sympy/physics/units/util.py
++++ b/sympy/physics/units/util.py
+@@ -425,13 +425,16 @@
+     if isinstance(x, Mul):
+         return Mul(*[convert_to(i, target_units) for i in x.args])
+     elif isinstance(x, Pow):
+-        return convert_to(x.base, target_units)**x.exp
++        if x.exp.is_Integer:
++            return convert_to(x.base, target_units)**x.exp
++        else:
++            return x
+     elif isinstance(x, Quantity):
+         return x.convert_to(target_units)
+     elif isinstance(x, (Add, numbers.Number, Symbol)):
+         return x
+     else:
+-        return x.convert_to(target_units)
++        raise TypeError("Cannot convert {} to {}".format(x, target_units))
+ 
+ 
+ def check_dimensions(expr, unit, unit_system="SI"):
+
+```

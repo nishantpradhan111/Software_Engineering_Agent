@@ -1,0 +1,22 @@
+```diff
+--- a/sympy/solvers/diophantine.py
++++ b/sympy/solvers/diophantine.py
+@@ -2133,13 +2133,14 @@
+             return set()
+ 
+         if permute:
+-            perms = set()
+             got = diophantine_general_sum_of_even_powers(expr, limit=limit)
++            perms = set()
+             if got:
+                 for t in got:
+-                    perms.update(variations(t, len(syms)))
+-                return perms
++                    perms.add(tuple(t[syms.index(s)] for s in ordered_syms))
++
++            return perms
+ 
+         return diophantine_general_sum_of_even_powers(expr, limit=limit)
+ 
+
+```

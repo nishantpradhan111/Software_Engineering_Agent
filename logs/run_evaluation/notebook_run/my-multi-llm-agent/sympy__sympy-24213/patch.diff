@@ -1,0 +1,20 @@
+```diff
+--- a/sympy/physics/units/unitsystem.py
++++ b/sympy/physics/units/unitsystem.py
+@@ -177,6 +177,14 @@
+ 
+         dim = self._get_dimension_from_expr(expr.args[0])
+         for arg in expr.args[1:]:
++            arg_dim = self._get_dimension_from_expr(arg)
++            if dim is not arg_dim:
++                try:
++                    if self.equivalent_dims(dim, arg_dim):
++                        continue
++                except AttributeError:
++                    pass  # Some systems don't have equivalent_dims
++
+             arg_dim = self._get_dimension_from_expr(arg)
+             if dim is not arg_dim:
+                 raise ValueError(
+
+```

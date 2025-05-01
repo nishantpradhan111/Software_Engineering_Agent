@@ -1,0 +1,17 @@
+```diff
+--- a/django/db/migrations/writer.py
++++ b/django/db/migrations/writer.py
+@@ -231,7 +231,10 @@
+         # For fields with a dotted lookup path, import the top level module
+         bits = value.__class__.__module__.split(".")
+         if len(bits) > 1:
+-            lookup_bits = value.__class__.__name__.split(".")
++            if not hasattr(value.__class__, "__qualname__"):
++                lookup_bits = value.__class__.__name__.split(".")
++            else:
++                lookup_bits = value.__class__.__qualname__.split(".")
+             alias = bits[0]
+             module = __import__(alias, {}, {}, '')
+             lookup_path = [alias]
+
+```

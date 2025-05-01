@@ -1,0 +1,44 @@
+```diff
+--- a/_pytest/mark/evaluate.py
++++ b/_pytest/mark/evaluate.py
+@@ -18,20 +18,6 @@
+ # distutils.version.LooseVersion does not take into account the `pre` segment
+ # when comparing versions.
+ 
+-def cached_eval(f, key, value):
+-    try:
+-        return f._evalcache[key]
+-    except KeyError:
+-        try:
+-            expr = eval(value, f.__globals__)
+-        except SyntaxError as e:
+-            raise SyntaxError(
+-                "invalid syntax in condition {value!r}: {e.msg}".format(value=value, e=e)
+-            )
+-        f._evalcache[key] = expr
+-        return expr
+-
+-
+ class MarkEvaluator:
+     def __init__(self, item, name):
+         self.item = item
+@@ -44,7 +30,15 @@
+             return None
+         return mark
+ 
+-    def _istrue(self, mark, *, extra_kwargs=None):
++    def _istrue(self, mark, extra_kwargs=None):
+         if hasattr(mark, "args") and hasattr(mark, "kwargs"):
+-            return cached_eval(self.item, mark.args[0], mark.args[0])
++            try:
++                expr = eval(mark.args[0], self.item.__globals__)
++            except SyntaxError as e:
++                raise SyntaxError(
++                    "invalid syntax in condition {value!r}: {e.msg}".format(
++                        value=mark.args[0], e=e
++                    )
++                )
++            return expr
+         return bool(mark)
+
+```

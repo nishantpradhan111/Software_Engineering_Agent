@@ -1,0 +1,14 @@
+```diff
+--- a/pylint/config/arguments_provider.py
++++ b/pylint/config/arguments_provider.py
+@@ -312,7 +312,7 @@
+         if not self.config.recursive:
+             return
+ 
+-        if os.path.isdir(module_or_package):
++        if os.path.isdir(module_or_package) and not self.is_ignored(module_or_package):
+             module_or_package = os.path.abspath(os.path.expanduser(module_or_package))
+             for root, _, files in os.walk(module_or_package):
+                 if self.is_ignored(root):
+
+```

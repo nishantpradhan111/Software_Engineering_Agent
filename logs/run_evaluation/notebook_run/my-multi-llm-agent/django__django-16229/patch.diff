@@ -1,0 +1,17 @@
+```diff
+--- a/admin.py
++++ b/admin.py
+@@ -5,6 +5,11 @@
+ 		raise ValidationError("whatever")
+ class RelatedModelInline(admin.TabularInline):
+ 	form = RelatedModelForm
++
++	def get_formset(self, request, obj=None, **kwargs):
++		formset = super().get_formset(request, obj, **kwargs)
++		formset.form.base_fields['plop'].show_hidden_initial = False
++		return formset
+ 	model = RelatedModel
+ 	extra = 1
+ @admin.register(Thing)
+
+```

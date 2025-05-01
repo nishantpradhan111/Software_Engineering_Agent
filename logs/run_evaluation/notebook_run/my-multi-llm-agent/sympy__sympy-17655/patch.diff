@@ -1,0 +1,25 @@
+```diff
+--- a/sympy/geometry/point.py
++++ b/sympy/geometry/point.py
+@@ -217,12 +217,17 @@
+     def __add__(self, other):
+         """Add other to self."""
+         try:
+-            s, o = Point._normalize_dimension(self, Point(other, evaluate=False))
++            if not isinstance(other, Point):
++                other = Point(other, evaluate=False)
++            s, o = Point._normalize_dimension(self, other)
+         except TypeError:
+-            raise GeometryError("Don't know how to add {} and a Point object".format(other))
++            if getattr(other, 'is_Matrix', False) and other.shape[1] == 1:
++                return self._add_matrix(other)
++            else:
++                raise GeometryError("Don't know how to add {} and a Point object".format(other))
+ 
+         coords = [simplify(a + b) for a, b in zip(s, o)]
+-
+         return Point(coords, dim=self.dim, evaluate=self.evaluate)
+ 
+     __radd__ = __add__
+
+```

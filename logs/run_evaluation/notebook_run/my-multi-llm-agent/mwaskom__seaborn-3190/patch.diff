@@ -1,0 +1,16 @@
+```diff
+--- a/seaborn/_core/scales.py
++++ b/seaborn/_core/scales.py
+@@ -343,6 +343,10 @@
+ 
+     def _setup(self, data, prop, axis=None):
+ 
++        # TODO this is a hacky way to avoid an error from matplotlib when
++        # colormapping boolean data; we should probably have a more principled
++        # approach to handling discrete data in a continuous scale
++        data = data.astype(float)
+         if isinstance(self.norm, mpl.colors.Normalize):
+             if self.norm.vmin is None:
+                 vmin = data.min()
+
+```

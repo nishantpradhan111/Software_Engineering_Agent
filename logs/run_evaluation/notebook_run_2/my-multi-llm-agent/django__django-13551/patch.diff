@@ -1,0 +1,37 @@
+```diff
+--- a/django/contrib/auth/tokens.py
++++ b/django/contrib/auth/tokens.py
+@@ -38,12 +38,15 @@
+ 
+ class PasswordResetTokenGenerator(default_token_generator_class):
+     def _make_hash_value(self, user, timestamp):
+-        email = getattr(user, 'email', '') or ''  # Ensure email is always a string
+         return (
+             six.text_type(user.pk) + six.text_type(timestamp) +
+-            six.text_type(user.password) + six.text_type(user.email)
++            six.text_type(user.password) + six.text_type(getattr(user, 'email', ''))
+         )
+-    def legacy_token_check(self, user, timestamp):
++
++    def check_token(self, user, token):
++        if not (user and token):
++            return False
++        try:
++            return super().check_token(user, token)
++        except AttributeError:  # Handle legacy tokens that didn't include email
++            # Check token generated *without* email against current timestamp
++            timestamp = self._num_seconds(self._today())
++            legacy_hash = self._make_hash_value(user, timestamp)
++            legacy_token = self._make_token_with_timestamp(user, timestamp, legacy_hash)
++            if constant_time_compare(legacy_token, token):
++                # Warn or log that a legacy token was used.  Consider expiring the token.
++                return True  # Allow login with legacy token for now
++            # Fallback to checking legacy token against older timestamps
++            for timestamp in [timestamp - x for x in [86400, 604800]]: # Check tokens generated within the last day and week
++                legacy_hash = self._make_hash_value(user, timestamp)
++                legacy_token = self._make_token_with_timestamp(user, timestamp, legacy_hash)
++                if constant_time_compare(legacy_token, token):
++                    # Warn or log that a legacy token was used.  Consider expiring the token.
++                    return True # Allow login with legacy token for a limited time
++            return False
+```

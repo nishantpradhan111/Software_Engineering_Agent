@@ -1,0 +1,18 @@
+```diff
+--- a/lib/matplotlib/colors.py
++++ b/lib/matplotlib/colors.py
+@@ -727,9 +727,9 @@
+         xa = xa.astype(int)
+ 
+         # Set the over, under, and bad flags.
+-        xa[xa > self.N - 1] = self._i_over
+-        xa[xa < 0] = self._i_under
+-        xa[mask_bad] = self._i_bad
++        xa[xa > self.N - 1] = np.array(self._i_over).astype(np.uint8)
++        xa[xa < 0] = np.array(self._i_under).astype(np.uint8)
++        xa[mask_bad] = np.array(self._i_bad).astype(np.uint8)
+         if not np.isfinite(self._i_over):
+             xa[np.isinf(xa)] = self._i_over
+         if not np.isfinite(self._i_under):
+
+```

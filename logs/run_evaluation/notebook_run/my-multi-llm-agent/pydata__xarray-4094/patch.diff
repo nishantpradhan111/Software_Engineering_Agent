@@ -1,0 +1,14 @@
+```diff
+--- a/xarray/core/variable.py
++++ b/xarray/core/variable.py
+@@ -1777,7 +1777,7 @@
+         return self._from_dense(values, dims=dims)
+ 
+     def _from_dense(self, values, dims):
+-        if values.ndim < len(dims):
++        if values.ndim < len(dims) and values.ndim != 0:
+             # If values has a dimension less than dims, that dimension is
+             # squeezed out.  This means that the resulting variable will have a
+             # dimension of size 1.  This often results in unexpected broadcasting
+
+```

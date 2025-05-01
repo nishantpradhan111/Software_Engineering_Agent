@@ -1,0 +1,14 @@
+```diff
+--- a/django/utils/numberformat.py
++++ b/django/utils/numberformat.py
+@@ -32,6 +32,8 @@
+ 
+ def format(number, decimal_sep, decimal_pos=None, grouping=0, thousand_sep='',
+            force_grouping=False):
++    if number is None:
++        return ''
+     sign = ''
+     str_number = str(number)
+     if str_number[0] == '-':
+
+```

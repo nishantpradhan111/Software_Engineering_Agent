@@ -1,0 +1,50 @@
+```diff
+--- a/django/contrib/admin/sites.py
++++ b/django/contrib/admin/sites.py
+@@ -239,7 +239,7 @@
+         if app_label not in self._registry:
+             return None
+         return self._registry[app_label]
+-
++    
+     def _build_app_dict(self, request, label=None):
+         """
+         Build the app dictionary. The optional `label` parameter filters models
+@@ -270,7 +270,7 @@
+                             'perms': self.get_model_perms(model)
+                         }
+                         has_module_perms = model_dict['perms']['change'] or model_dict['perms']['view']
+-                        if has_module_perms:
++                        if has_module_perms or request.user.is_superuser:
+                             models.append(model_dict)
+                     if models:
+                         app_dict['models'] = models
+@@ -301,7 +301,7 @@
+     def get_app_list(self, request):
+         """
+         Return a sorted list of all the installed apps that have been
+-        registered in this site.
++        registered in this site, along with the associated model class.
+         """
+         app_dict = self._build_app_dict(request)
+ 
+@@ -316,7 +316,7 @@
+             if app['app_label'] == app_name:
+                 for model in app['models']:
+                     model['admin_url'] = reverse(
+-                        'admin:%s_%s_changelist' % (app['app_label'], model['object_name'].lower()),
++                        'admin:%s_%s_changelist' % (app['app_label'], model['object_name'].lower()), 
+                         current_app=self.name,
+                     )
+                     if request.user.has_perm('%s.%s' % (app['app_label'], model['perms']['view'])):
+@@ -345,6 +345,7 @@
+                 'name': app['name'],
+                 'app_label': app['app_label'],
+                 'app_url': app['app_url'],
++                'models_class': [self._registry[app['app_label']][m['object_name'].lower()] for m in app['models']],
+                 'has_module_perms': app['has_module_perms'],
+                 'models': app['models']
+             }
+
+
+```

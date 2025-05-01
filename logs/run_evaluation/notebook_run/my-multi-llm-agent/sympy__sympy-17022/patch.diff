@@ -1,0 +1,16 @@
+```diff
+--- a/sympy/printing/lambdarepr.py
++++ b/sympy/printing/lambdarepr.py
+@@ -48,6 +48,10 @@
+         return self._print_Symbol(expr)
+ 
+     def _print_Identity(self, expr):
++        if self.use_imps:
++            return self._print(eye(expr.shape[0]))
++        else:
++            raise NotImplementedError("The lambdarepr printer doesn't support printing Identity matrices without imports.")
+         return "I"
+ 
+     def _print_Integer(self, expr):
+
+```

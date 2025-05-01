@@ -1,0 +1,17 @@
+```diff
+--- a/sklearn/svm/base.py
++++ b/sklearn/svm/base.py
+@@ -299,7 +299,10 @@
+             intercept_ = np.zeros(n_class)
+ 
+         self.support_vectors_ = sp.csr_matrix(X[sv_ind])
+-        self.dual_coef_ = sp.csr_matrix(dual_coef.reshape(n_class - 1,
++        if dual_coef.size == 0:
++            self.dual_coef_ = sp.csr_matrix([])
++        else:
++            self.dual_coef_ = sp.csr_matrix(dual_coef.reshape(n_class - 1,
+                                                            dual_coef_indices.size / n_class))
+         # In binary case, we store the correct classes as a boolean array
+         if n_class == 2:
+
+```

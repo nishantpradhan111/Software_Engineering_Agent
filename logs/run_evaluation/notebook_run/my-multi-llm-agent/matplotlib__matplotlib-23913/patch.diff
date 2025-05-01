@@ -1,0 +1,38 @@
+```diff
+--- a/lib/matplotlib/legend.py
++++ b/lib/matplotlib/legend.py
+@@ -594,6 +594,7 @@
+                  fancybox=None, shadow=None, ncol=1, numpoints=None,
+                  scatterpoints=None, markerscale=None, fontsize=None,
+                  borderpad=None, labelspacing=None, handlelength=None,
++                 draggable=None,
+                  handletextpad=None, borderaxespad=None, columnspacing=None,
+                  title=None, title_fontsize=None, frameon=None,
+                  handler_map=None, framealpha=None,
+@@ -743,6 +744,9 @@
+         if handlelength is not None:
+             self.handlelength = handlelength
+ 
++        if draggable is not None:
++            self.set_draggable(draggable)
++
+         # init with user specified map
+         if handler_map is not None:
+             self._custom_handler_map = handler_map
+@@ -1419,6 +1423,13 @@
+         self._legend_box.set_figure(self.figure)
+         self.stale = True
+ 
++    def set_draggable(self, state, use_blit=False, update="loc"):
++        if state:
++            self._draggable = True
++            self.legendPatch.set_picker(True)
++        else:
++            self._draggable = False
++            self.legendPatch.set_picker(None)
++
+ 
+ class DraggableLegend(object):
+     def __init__(self, legend, use_blit=False, update="loc"):
+
+```

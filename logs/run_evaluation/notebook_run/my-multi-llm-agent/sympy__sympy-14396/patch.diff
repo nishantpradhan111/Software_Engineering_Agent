@@ -1,0 +1,19 @@
+```diff
+--- a/sympy/polys/polyoptions.py
++++ b/sympy/polys/polyoptions.py
+@@ -478,9 +478,11 @@
+         if isinstance(domain, str):
+             if domain.startswith('QQ<'):
+                 gens = sympy.sympify(domain[3:-1])
+-                return sympy.polys.domains.QQ.algebraic_field(*gens)
++                return sympy.polys.domains.QQ.algebraic_field(*sympy.Tuple(gens))
++            elif domain.startswith('RR<'):
++                gens = sympy.sympify(domain[3:-1])
++                return sympy.polys.domains.RR.algebraic_field(*sympy.Tuple(gens))
+ 
+-        raise OptionError('expected a valid domain specification, got %s' % domain)
++        raise OptionError("invalid option 'domain=%s'" % domain)
+     483
+     484     @classmethod
+
+```

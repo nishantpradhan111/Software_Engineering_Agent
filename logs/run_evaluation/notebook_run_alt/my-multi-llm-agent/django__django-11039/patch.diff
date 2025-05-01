@@ -1,0 +1,67 @@
+```diff
+--- a/django/core/management/commands/sqlmigrate.py
++++ b/django/core/management/commands/sqlmigrate.py
+@@ -64,7 +64,8 @@
+         # Load the migrations file.
+         migration = self.load_migration(app_label, migration_name)
+ 
+-        self.output_transaction = migration.atomic and connection.features.can_rollback_ddl
++        self.output_transaction = (
++            migration.atomic and connection.features.can_rollback_ddl
++        )
+ 
+         target_version = migration.target
+ 
+@@ -103,7 +104,9 @@
+         statements = sql_statements(
+             connection,
+             migration.target,
+-            collected_sql,
++            collected_sql, 
++            self.output_transaction,
++            self.ignore_ghost_migrations,
+         )
+ 
+         return '\n'.join(statements)
+
+```
+
+```diff
+--- a/django/core/management/commands/tests.py
++++ b/django/core/management/commands/tests.py
+@@ -2,7 +2,9 @@
+ import re
+ import unittest
+ from io import StringIO
++from unittest import mock
+ 
++from django.db import connection
+ from django.core.management import call_command
+ from django.core.management.base import CommandError
+ from django.db import DEFAULT_DB_ALIAS, connections
+@@ -459,6 +461,23 @@
+                 'ALTER TABLE testapp_author RENAME COLUMN name TO author_name;'
+             ]
+         )
++
++    @mock.patch('django.db.connection.features.can_rollback_ddl', False)
++    def test_no_transaction_for_non_transactional_ddl(self):
++        """
++        The sqlmigrate command doesn't output BEGIN/COMMIT statements if
++        can_rollback_ddl is False.
++        """
++        out = StringIO()
++        call_command(
++            'sqlmigrate', 'testapp', '0001',
++            stdout=out,
++        )
++        output = out.getvalue()
++        self.assertIn('-- Added field name to author', output)
++        self.assertIn('ALTER TABLE testapp_author ADD COLUMN name VARCHAR(100) NULL;', output)
++        self.assertNotIn('BEGIN;', output)
++        self.assertNotIn('COMMIT;', output)
+ 
+     def test_sqlmigrate_backwards(self):
+         """
+
+```

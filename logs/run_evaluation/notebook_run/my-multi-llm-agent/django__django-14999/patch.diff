@@ -1,0 +1,25 @@
+```diff
+--- a/django/db/migrations/operations/models.py
++++ b/django/db/migrations/operations/models.py
+@@ -420,10 +420,14 @@
+ 
+     def database_forwards(self, app_label, schema_editor, from_state, to_state):
+         model = from_state.apps.get_model(app_label, self.old_name)
+-        if self.db_table is None or self.db_table == schema_editor.quote_name(model._meta.db_table):
++        model_state = from_state.apps.get_model(app_label, self.old_name)._meta
++        if self.db_table is None:
+             self.db_table = schema_editor.quote_name(model._meta.db_table)
+-        schema_editor.alter_db_table(
+-            model, self.db_table, schema_editor.quote_name(self.new_name_lower)
+-        )
++        elif self.db_table != schema_editor.quote_name(model_state.db_table):
++            schema_editor.alter_db_table(
++                model, self.db_table, schema_editor.quote_name(self.new_name_lower)
++            )
++        # noop if db_table is already set.
+         from_model_state = from_state.models[app_label, self.old_name_lower]
+         to_model_state = to_state.models[app_label, self.new_name_lower]
++        to_model_state.options["db_table"] = self.db_table.strip('"')
+         to_model_state.fields = deepcopy(from_model_state.fields)
+
+```

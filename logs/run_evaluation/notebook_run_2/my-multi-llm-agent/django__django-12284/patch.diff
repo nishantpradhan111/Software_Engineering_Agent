@@ -1,0 +1,19 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -1765,10 +1765,13 @@
+         if field.choices is not None:
+             choices = []
+             value = getattr(self, field.attname)
+-            choices = [(field.get_prep_value(i), display) for i, display in field.flatchoices]
++            if field.flatchoices:
++                choices = [(field.get_prep_value(i), display) for i, display in field.flatchoices]
+ 
+             for val, disp in choices:
+                 if field.get_prep_value(value) == val:
+                     return disp
++            if value is not None and not choices:  # Handle cases where choices is empty
++                return value
+ 
+         return value
+```

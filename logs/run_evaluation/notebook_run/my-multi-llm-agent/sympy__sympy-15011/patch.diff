@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/matrices/expressions/matexpr.py
++++ b/sympy/matrices/expressions/matexpr.py
+@@ -238,7 +238,7 @@
+         return result
+ 
+     def _sympystr(self, printer):
+-        return self.name
++        return printer._print(self.name)
+ 
+     def _latex(self, printer, exp=None):
+         if len(self.shape) == 1:
+
+```

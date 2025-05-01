@@ -1,0 +1,30 @@
+```diff
+--- a/astropy/io/fits/fitsrec.py
++++ b/astropy/io/fits/fitsrec.py
+@@ -1164,13 +1164,17 @@
+             output = _make_string_like(output, output_field)
+ 
+         # Replace exponent separator in floating point numbers
+-        if 'D' in format and isinstance(output, (bytes, str)):
+-            if isinstance(output, bytes):
+-                output = output.replace(b'E', b'D')
+-                output = output.replace(b'e', b'd') # Lowercase too
+-            else:
+-                output = output.replace('E', 'D')
+-                output = output.replace('e', 'd') # Lowercase too
++        if 'D' in format:
++            if isinstance(output, bytes):
++                output = output.replace(b'E+', b'D+')
++                output = output.replace(b'E-', b'D-')
++                output = output.replace(b'e+', b'd+')
++                output = output.replace(b'e-', b'd-')
++            elif isinstance(output, str):
++                output = output.replace('E+', 'D+')
++                output = output.replace('E-', 'D-')
++                output = output.replace('e+', 'd+')
++                output = output.replace('e-', 'd-')
+ 
+         output = _pad_string(output, format)
+ 
+
+```

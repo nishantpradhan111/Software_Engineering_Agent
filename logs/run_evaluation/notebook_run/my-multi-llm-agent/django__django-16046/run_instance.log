@@ -1,0 +1,43 @@
+2025-04-29 01:27:06,381 - INFO - Creating container for django__django-16046...
+2025-04-29 01:27:07,402 - INFO - Container for django__django-16046 created: ec96c91ec9313ce750827e1d179089b1ddef470d08732a7c47c9607279ea655f
+2025-04-29 01:27:08,025 - INFO - Container for django__django-16046 started: ec96c91ec9313ce750827e1d179089b1ddef470d08732a7c47c9607279ea655f
+2025-04-29 01:27:08,027 - INFO - Intermediate patch for django__django-16046 written to logs\run_evaluation\notebook_run\my-multi-llm-agent\django__django-16046\patch.diff, now applying to container...
+2025-04-29 01:27:08,177 - INFO - Failed to apply patch to container: git apply --verbose
+2025-04-29 01:27:08,240 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-04-29 01:27:08,302 - INFO - >>>>> Applied Patch:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file django/utils/numberformat.py
+Hunk #1 succeeded at 32 with fuzz 3.
+patch unexpectedly ends in middle of line
+
+2025-04-29 01:27:09,075 - INFO - Git diff before:
+diff --git a/django/utils/numberformat.py b/django/utils/numberformat.py
+index 488d6a77cd..c851457b11 100644
+--- a/django/utils/numberformat.py
++++ b/django/utils/numberformat.py
+@@ -32,6 +32,8 @@ def format(
+     use_grouping = use_grouping and grouping != 0
+     # Make the common case fast
+     if isinstance(number, int) and not use_grouping and not decimal_pos:
++    if number is None:
++        return ''
+         return mark_safe(number)
+     # sign
+     sign = ""
+2025-04-29 01:27:09,076 - INFO - Eval script for django__django-16046 written to logs\run_evaluation\notebook_run\my-multi-llm-agent\django__django-16046\eval.sh; copying to container...
+2025-04-29 01:27:11,124 - ERROR - Error in evaluating model for django__django-16046: 'utf-8' codec can't decode byte 0x80 in position 1956: invalid start byte
+Traceback (most recent call last):
+  File "C:\Nishant\Work\BITS - Engineering\2-2\LLM\Proj\SWE-bench\swebench\harness\run_evaluation.py", line 194, in run_instance
+    test_output, timed_out, total_runtime = exec_run_with_timeout(
+                                            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nishant\Work\BITS - Engineering\2-2\LLM\Proj\SWE-bench\swebench\harness\docker_utils.py", line 217, in exec_run_with_timeout
+    return exec_result.decode(), timed_out, end_time - start_time
+           ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 1956: invalid start byte
+
+Check (logs\run_evaluation\notebook_run\my-multi-llm-agent\django__django-16046\run_instance.log) for more information.
+2025-04-29 01:27:11,125 - INFO - Attempting to stop container sweb.eval.django__django-16046.notebook_run...
+2025-04-29 01:27:26,600 - INFO - Attempting to remove container sweb.eval.django__django-16046.notebook_run...
+2025-04-29 01:27:26,654 - INFO - Container sweb.eval.django__django-16046.notebook_run removed.
+2025-04-29 01:27:26,654 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-16046:latest...
+2025-04-29 01:27:30,043 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-16046:latest removed.

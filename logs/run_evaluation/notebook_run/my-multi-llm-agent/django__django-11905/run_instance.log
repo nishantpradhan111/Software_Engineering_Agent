@@ -1,0 +1,51 @@
+2025-04-28 20:24:07,625 - INFO - Creating container for django__django-11905...
+2025-04-28 20:24:07,836 - INFO - Container for django__django-11905 created: 72cfc4d1776a71fe1f2c3a033ede121c24a3b24282f1475f17ed79088a731611
+2025-04-28 20:24:08,260 - INFO - Container for django__django-11905 started: 72cfc4d1776a71fe1f2c3a033ede121c24a3b24282f1475f17ed79088a731611
+2025-04-28 20:24:08,261 - INFO - Intermediate patch for django__django-11905 written to logs\run_evaluation\notebook_run\my-multi-llm-agent\django__django-11905\patch.diff, now applying to container...
+2025-04-28 20:24:08,412 - INFO - Failed to apply patch to container: git apply --verbose
+2025-04-28 20:24:08,485 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-04-28 20:24:08,558 - INFO - >>>>> Applied Patch:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file django/db/models/lookups.py
+Hunk #1 succeeded at 111 with fuzz 2 (offset -20 lines).
+patch unexpectedly ends in middle of line
+
+2025-04-28 20:24:09,561 - INFO - Git diff before:
+diff --git a/django/db/models/lookups.py b/django/db/models/lookups.py
+index 9344979c56..72bce13b67 100644
+--- a/django/db/models/lookups.py
++++ b/django/db/models/lookups.py
+@@ -111,6 +111,9 @@ class Lookup:
+             cols.extend(self.rhs.get_group_by_cols())
+         return cols
+ 
++        if not isinstance(self.rhs[1], bool):
++            raise ValueError("The __isnull lookup only accepts boolean values.")
++
+     def as_sql(self, compiler, connection):
+         raise NotImplementedError
+2025-04-28 20:24:09,562 - INFO - Eval script for django__django-11905 written to logs\run_evaluation\notebook_run\my-multi-llm-agent\django__django-11905\eval.sh; copying to container...
+2025-04-28 20:24:12,138 - INFO - Test runtime: 2.51 seconds
+2025-04-28 20:24:12,140 - INFO - Test output for django__django-11905 written to logs\run_evaluation\notebook_run\my-multi-llm-agent\django__django-11905\test_output.txt
+2025-04-28 20:24:12,230 - INFO - Git diff after:
+diff --git a/django/db/models/lookups.py b/django/db/models/lookups.py
+index 9344979c56..72bce13b67 100644
+--- a/django/db/models/lookups.py
++++ b/django/db/models/lookups.py
+@@ -111,6 +111,9 @@ class Lookup:
+             cols.extend(self.rhs.get_group_by_cols())
+         return cols
+ 
++        if not isinstance(self.rhs[1], bool):
++            raise ValueError("The __isnull lookup only accepts boolean values.")
++
+     def as_sql(self, compiler, connection):
+         raise NotImplementedError
+2025-04-28 20:24:12,231 - INFO - Grading answer for django__django-11905...
+2025-04-28 20:24:12,232 - INFO - report: {'django__django-11905': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_isnull_non_boolean_value (lookup.tests.LookupTests)', 'test_iterator (lookup.tests.LookupTests)']}, 'PASS_TO_PASS': {'success': [], 'failure': ['test_chain_date_time_lookups (lookup.tests.LookupTests)', 'test_count (lookup.tests.LookupTests)', 'test_custom_field_none_rhs (lookup.tests.LookupTests)', 'Lookup.can_use_none_as_rhs=True allows None as a lookup value.', 'test_error_messages (lookup.tests.LookupTests)', 'test_escaping (lookup.tests.LookupTests)', 'test_exact_exists (lookup.tests.LookupTests)', 'Transforms are used for __exact=None.', 'test_exact_query_rhs_with_selected_columns (lookup.tests.LookupTests)', 'test_exact_sliced_queryset_limit_one (lookup.tests.LookupTests)', 'test_exact_sliced_queryset_limit_one_offset (lookup.tests.LookupTests)', 'test_exact_sliced_queryset_not_limited_to_one (lookup.tests.LookupTests)', 'test_exclude (lookup.tests.LookupTests)', 'test_exists (lookup.tests.LookupTests)', 'test_get_next_previous_by (lookup.tests.LookupTests)', 'test_in (lookup.tests.LookupTests)', 'test_in_bulk (lookup.tests.LookupTests)', 'test_in_bulk_lots_of_ids (lookup.tests.LookupTests)', 'test_in_bulk_non_unique_field (lookup.tests.LookupTests)', 'test_in_bulk_with_field (lookup.tests.LookupTests)', 'test_in_different_database (lookup.tests.LookupTests)', 'test_in_keeps_value_ordering (lookup.tests.LookupTests)', 'test_lookup_collision (lookup.tests.LookupTests)', 'test_lookup_date_as_str (lookup.tests.LookupTests)', 'test_lookup_int_as_str (lookup.tests.LookupTests)', 'test_nested_outerref_lhs (lookup.tests.LookupTests)', 'test_none (lookup.tests.LookupTests)', 'test_nonfield_lookups (lookup.tests.LookupTests)', 'test_pattern_lookups_with_substr (lookup.tests.LookupTests)', 'test_regex (lookup.tests.LookupTests)', 'test_regex_backreferencing (lookup.tests.LookupTests)', 'test_regex_non_ascii (lookup.tests.LookupTests)', 'test_regex_non_string (lookup.tests.LookupTests)', 'test_regex_null (lookup.tests.LookupTests)', 'test_relation_nested_lookup_error (lookup.tests.LookupTests)', 'test_unsupported_lookups (lookup.tests.LookupTests)', 'test_values (lookup.tests.LookupTests)', 'test_values_list (lookup.tests.LookupTests)']}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-11905: resolved: False
+2025-04-28 20:24:12,233 - INFO - Attempting to stop container sweb.eval.django__django-11905.notebook_run...
+2025-04-28 20:24:27,868 - INFO - Attempting to remove container sweb.eval.django__django-11905.notebook_run...
+2025-04-28 20:24:27,897 - INFO - Container sweb.eval.django__django-11905.notebook_run removed.
+2025-04-28 20:24:27,898 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-11905:latest...
+2025-04-28 20:24:28,702 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-11905:latest removed.

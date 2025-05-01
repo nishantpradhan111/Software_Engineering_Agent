@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/polys/partfrac.py
++++ b/sympy/polys/partfrac.py
+@@ -246,7 +246,7 @@
+         q = den.as_poly(x)
+ 
+         if q is None:
+-            return f
++            return apart(f.expand(), x, domain=domain, extension=extension)
+ 
+         try:
+             (P, Q), opt = parallel_poly_from_expr((num, den), x, domain=domain, extension=extension)
+
+```

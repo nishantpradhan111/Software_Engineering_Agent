@@ -1,0 +1,14 @@
+```diff
+--- a/quart/scaffold.py
++++ b/quart/scaffold.py
+@@ -114,6 +114,8 @@
+ 
+     def create_app(self) -> Quart:
+         app = Quart(self.name)
++        if "." in self.name:
++            raise BlueprintSetupError("Blueprint names cannot contain dots")
+ 
+         for import_name in self.imports:
+             app.add_url_rule("/", import_name, self.import_page)
+
+```

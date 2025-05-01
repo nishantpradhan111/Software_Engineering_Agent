@@ -1,0 +1,31 @@
+```diff
+--- a/models.py
++++ b/models.py
+@@ -1,7 +1,14 @@
+ from django.db import models
++from django.utils.functional import cached_property
+ 
+ class FooBar(models.Model):
+-	foo_bar = models.CharField(_("foo"), choices=[(1, 'foo'), (2, 'bar')])
++    foo_bar = models.CharField(_("foo"), choices=[(1, 'foo'), (2, 'bar')])
++
++    @cached_property
++    def get_foo_bar_display(self):
++        if hasattr(super(), 'get_foo_bar_display'):
++            return super().get_foo_bar_display()
++        return "something"
++
+ 	def __str__(self):
+ 		return self.get_foo_bar_display() # This returns 'foo' or 'bar' in 2.2, but 'something' in 2.1
+-	def get_foo_bar_display(self):
+-		return "something"
+
+```
+
+**Explanation of the changes:**
+
+1. **`@cached_property`:**  This decorator is crucial. In Django 2.2+, `get_<field>_display` became a dynamically generated property using `cached_property`. Overriding it directly in the class definition no longer works as expected. By using `@cached_property` on our custom `get_foo_bar_display` method, we ensure it behaves like the built-in one, and the override takes effect.
+
+2. **Calling `super().get_foo_bar_display()`:**  This ensures that if the model's parent class (or a mixin) defines a `get_foo_bar_display` method (perhaps through a different field with choices), that implementation is respected.  This change makes the override more robust and prevents unexpected behavior.  If the superclass *doesn't* have a `get_foo_bar_display`, the original "something" logic is executed.
+
+This revised patch addresses the issue while maintaining compatibility and following Django's conventions. It also handles potential inheritance scenarios correctly.

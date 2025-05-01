@@ -1,0 +1,29 @@
+```diff
+--- a/django/contrib/admin/options.py
++++ b/django/contrib/admin/options.py
+@@ -181,6 +181,9 @@
+         if opts:
+             verbose_name = opts.verbose_name
+         if verbose_name is None:
++            if self.verbose_name:
++                verbose_name = self.verbose_name
++            else:
+                 verbose_name = self.model._meta.verbose_name
+         return verbose_name
+ 
+@@ -190,7 +193,12 @@
+         if opts:
+             verbose_name_plural = opts.verbose_name_plural
+         if verbose_name_plural is None:
+-            verbose_name_plural = self.model._meta.verbose_name_plural
++            if self.verbose_name_plural:
++                verbose_name_plural = self.verbose_name_plural
++            elif self.verbose_name:
++                verbose_name_plural = self.verbose_name + "s"  # Default pluralization
++            else:
++                verbose_name_plural = self.model._meta.verbose_name_plural
+         return verbose_name_plural
+
+     def get_queryset(self, request):
+
+```

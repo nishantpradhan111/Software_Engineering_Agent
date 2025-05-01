@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -1128,7 +1128,7 @@
+         if isinstance(value, Model):
+             value = value._get_pk_val()
+         elif hasattr(value, '_meta'):
+-            if not value._meta.filterable:
++            if not getattr(value._meta, 'filterable', True):
+                 raise NotSupportedError(
+                     "%s is disallowed in the filter clause." % value._meta.label
+                 )
+
+```

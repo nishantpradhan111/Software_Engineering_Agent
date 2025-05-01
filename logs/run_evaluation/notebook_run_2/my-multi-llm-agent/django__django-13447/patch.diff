@@ -1,0 +1,45 @@
+```diff
+--- a/django/contrib/admin/templatetags/admin_list.py
++++ b/django/contrib/admin/templatetags/admin_list.py
+@@ -308,24 +308,24 @@
+     - app_url: app URL.
+     - has_module_perms: True if user has any module-level permission.
+     - models: List of model dictionaries.
+-    - app_label: App label.
++    - app_label: App label (as a string).
+     - app_verbose_name: App verbose name (if available).
+     """
+     app_dict = {}
+     for model, model_admin in apps:
+         app_label = model._meta.app_label
+         has_module_perms = user.has_module_perms(app_label)
+-        if not app_label in app_dict and has_module_perms:
+-            app_list = []
++        if has_module_perms:
++            if app_label not in app_dict:
++                app_list = []
++                verbose_name = getattr(model._meta.app_config, 'verbose_name', None)
+             app_dict[app_label] = {
+                 'name': app_label,
+                 'app_url': app_url,
+                 'has_module_perms': has_module_perms,
+                 'models': app_list,
+-                'app_verbose_name': getattr(model._meta.app_config, 'verbose_name', None),
++                'app_verbose_name': verbose_name,
+             }
+-        if has_module_perms:
+             app_dict[app_label]['models'].append(get_model_perms(model))
+     app_list = sorted(app_dict.values(), key=lambda x: x['name'].lower())
+     return app_list
+
+```
+
+The original patch had a flaw where the `app_verbose_name` would be potentially incorrect. The `verbose_name` was fetched inside the loop and added to the dictionary only the first time a model from a given app was processed.  If the first model happened to *not* have an `app_config` with a `verbose_name` attribute, the dictionary entry for that app would retain `None` as the `app_verbose_name` even if other models from that same app *did* have a defined `verbose_name` in their `app_config`.
+
+This revised patch fixes that issue by:
+
+1. Checking `has_module_perms` first.
+2. Initializing the `app_dict` entry for a new app *only once* when a model with `has_module_perms` is encountered for the first time.  The `verbose_name` is also fetched *at this point* and stored for the app.
+3. Then, appending the model details to the `models` list.
+
+This ensures that the `app_verbose_name` is consistently and correctly retrieved for each app, regardless of the order in which models are processed within the loop.

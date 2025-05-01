@@ -1,0 +1,87 @@
+```diff
+--- a/src/_pytest/skipping.py
++++ b/src/_pytest/skipping.py
+@@ -114,12 +114,18 @@
+ 
+ def skip(msg: str = "", *, allow_module_level: bool = False) -> NoReturn:
+     """Skip an executing test with the given message.
+-    This function should be called only during testing (setup, call or teardown) or
+-    during collection by using `allow_module_level=True`.  This function can
+-    be called in doctests as well.
++    This function should be called only during testing (setup, call, teardown) or
++    during collection.
+ 
+     .. note::
+         It is better to use the ``pytest.mark.skip`` marker when possible.
++
++    :param msg:
++        A message giving the reason for skipping.
++    :param allow_module_level:
++        Allows this function to be called at module level, skipping the entire module.
++        By default, is only allowed to be called inside a test, setup, or teardown
++        function.
+ 
+     :raises pytest.skip.Exception: raised to skip the current test
+     """
+@@ -128,8 +134,16 @@
+         return
+     raise Skipped(msg=msg)
+ 
++def skip_module(msg: str = "") -> NoReturn:
++    """Skip the current module with the given message.
++
++    :param msg:
++        A message giving the reason for skipping.
++    """
++    skip(msg=msg, allow_module_level=True)
++
+ 
+ def exit(msg: str) -> NoReturn:
+     """Exit testing process as if KeyboardInterrupt was triggered.
+ 
+     :raises pytest.exit.Exception: raised to exit the testing process
+```
+```diff
+--- a/testing/test_skipping.py
++++ b/testing/test_skipping.py
+@@ -197,3 +197,20 @@
+     with pytest.raises(
+         pytest.fail.Exception, match=r"cannot collect test module '.*conftest.py'"
+     ):
++        pytest.main(["-p", "no:terminal", str(conftest)])
++
++def test_module_level_skip_new_api(pytester: pytest.Pytester) -> None:
++    pytester.makepyfile(
++        """
++        import pytest
++        if True:
++            pytest.skip_module("Reason")
++
++        def test_one():
++            pass
++    """
++    )
++    result = pytester.runpytest()
++    result.stdout.fnmatch_lines(["*1 skipped*"])
++    assert "collected 0 items" in result.stdout.str()
+
+```
+```diff
+--- a/doc/en/example/skipping.rst
++++ b/doc/en/example/skipping.rst
+@@ -18,6 +18,11 @@
+ import sys
+ 
+ if sys.version_info < (3, 8):
+-    pytest.skip("Requires Python >= 3.8", allow_module_level=True)
++    pytest.skip_module("Requires Python >= 3.8")
+ 
+ # rest of module
++
++Alternatively, you can use ``pytest.skip()`` with the ``allow_module_level=True`` argument:
++
++.. code-block:: python
++
++    pytest.skip("Requires Python >= 3.8", allow_module_level=True)
+
+```

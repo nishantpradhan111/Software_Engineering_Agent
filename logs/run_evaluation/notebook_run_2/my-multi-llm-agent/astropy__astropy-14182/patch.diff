@@ -1,0 +1,23 @@
+```diff
+--- a/astropy/io/ascii/rst.py
++++ b/astropy/io/ascii/rst.py
+@@ -52,7 +52,7 @@
+     names = ['rst']
+ 
+     def __init__(self, **kwargs):
+-        self.header_rows = kwargs.pop('header_rows', [])
++        self.header_rows = kwargs.get('header_rows', None)  # Use get and keep None
+         FixedWidth.__init__(self, **kwargs)
+ 
+     def write(self, table):
+@@ -78,7 +78,7 @@
+ 
+         lines.append(self.header_line)
+ 
+-        if self.header_rows:
++        if self.header_rows is not None:
+             for row in self.header_rows:
+                 line = ''
+                 for col in self.cols:
+
+```

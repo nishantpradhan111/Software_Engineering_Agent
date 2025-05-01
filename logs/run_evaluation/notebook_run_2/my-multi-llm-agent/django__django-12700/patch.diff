@@ -1,0 +1,28 @@
+```diff
+--- a/django/views/debug.py
++++ b/django/views/debug.py
+@@ -261,11 +261,11 @@
+ 
+     def cleanse_setting(self, key, value):
+         """Cleanse an individual setting key/value of sensitive content."""
++        if key in self.sensitive_variables:
++            return '********************'
+         if isinstance(value, dict):
+             return {k: self.cleanse_setting(key + '.' + k, v) for k, v in value.items()}
+         elif isinstance(value, (list, tuple)):
+-            return [self.cleanse_setting(key + f'[{i}]', v) for i, v in enumerate(value)]
+-        elif key in self.sensitive_variables:
+-            return '********************'
++            return [self.cleanse_setting(key + f'[{i}]', v) for i, v in enumerate(value)]        
+         else:
+             return value
+ 
+@@ -277,6 +277,5 @@
+         settings_dict = {}
+         for key in dir(settings):
+             if key.isupper():
+-                settings_dict[key] = self.cleanse_setting(key, getattr(settings, key))
++                settings_dict[key] = self.cleanse_setting(key, getattr(settings, key)) 
+         return settings_dict
+
+```

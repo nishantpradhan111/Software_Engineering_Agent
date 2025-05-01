@@ -1,0 +1,27 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -2184,7 +2184,7 @@
+         try:
+             match = self._duration_re.match(value)
+         except TypeError:
+-            raise exceptions.ValidationError(self.error_messages['invalid'], code='invalid', params={'value': value, 'reason': "Value must be a string."})
++            raise exceptions.ValidationError(self.error_messages['invalid'], code='invalid', params={'value': value, 'reason': "Value must be a string representing a duration."})
+         if match:
+             kw = {k: float(v) for k, v in match.groupdict(default='0.0').items() if k != 'microseconds'}
+             kw['microseconds'] = int(match.groupdict()['microseconds'])
+@@ -2197,10 +2197,10 @@
+                     raise ValueError
+                 return parsed_value
+             except (ValueError, TypeError):
+-                raise exceptions.ValidationError(self.error_messages['invalid'], code='invalid', params={'value': value, 'reason': "Invalid duration format."})
++                raise exceptions.ValidationError(self.error_messages['invalid'], code='invalid', params={'value': value, 'reason': "Invalid duration format.  Examples: '3 00:00:00', '03:00:00', '172800', or '3 days, 0:00:00'."})
+ 
+     def formfield(self, **kwargs):
+-        defaults = {'help_text': _('Enter a valid duration. Examples: "3 00:00:00", "03:00:00", "172800", or "3 days, 0:00:00".')}
++        defaults = {'help_text': _('Enter a valid duration. Examples: "3 00:00:00", "03:00:00", "172800" (seconds), or "3 days, 0:00:00".')}
+         defaults.update(kwargs)
+         return super().formfield(**defaults)
+ 
+
+```

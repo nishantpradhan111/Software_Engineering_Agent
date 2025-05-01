@@ -1,0 +1,25 @@
+```diff
+--- a/django/utils/http.py
++++ b/django/utils/http.py
+@@ -165,12 +165,14 @@
+     """
+     year = int(year)
+     if year < 100:
+-        current_year = datetime.date.today().year
++        current_year = datetime.datetime.now().year
+         century = current_year // 100
+-        current_year_short = current_year % 100
+-        if year <= current_year_short:
++        current_year_short = current_year % 100        
++        if year > current_year_short:
++            year += (century - 1) * 100
++        else:
+             year += century * 100
+-        else:
+-            year += (century - 1) * 100
++        if year < 1900:
++            year += 100  # Assume it's in the 20th century
+     return year
+ 
+
+```

@@ -1,0 +1,55 @@
+/eval.sh: line 2: set: pipefail: invalid option name
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 3: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ cd $'/testbed\r'
+/eval.sh: line 5: cd: $'/testbed\r': No such file or directory
++ git config --global --add safe.directory $'/testbed\r'
++ cd $'/testbed\r'
+/eval.sh: line 7: cd: $'/testbed\r': No such file or directory
++ git $'status\r'
+git: 'status' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
++ git $'show\r'
+git: 'show' is not a git command. See 'git --help'.
+
+The most similar command is
+	show
++ git -c core.fileMode=false diff $'4db04923a754b6a2defa1b172f55d492b85d165e\r'
+fatal: ambiguous argument '4db04923a754b6a2defa1b172f55d492b85d165e?': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 11: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ python -m pip install -v --no-use-pep517 --no-build-isolation -e $'.\r'
+Using pip 23.3.1 from /opt/miniconda3/lib/python3.11/site-packages/pip (python 3.11)
+ERROR: . is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
++ git checkout 4db04923a754b6a2defa1b172f55d492b85d165e $'sklearn/tests/test_isotonic.py\r'
+error: pathspec 'sklearn/tests/test_isotonic.py?' did not match any file(s) known to git
++ git apply -v -
+Checking patch sklearn/tests/test_isotonic.py...
+error: while searching for:
+?
+import pytest?
+?
+from sklearn.datasets import make_regression?
+from sklearn.isotonic import (?
+    check_increasing,?
+
+error: patch failed: sklearn/tests/test_isotonic.py:5
+error: sklearn/tests/test_isotonic.py: patch does not apply
++ : '>>>>> Start Test Output'
++ pytest -rA $'sklearn/tests/test_isotonic.py\r'
+/eval.sh: line 55: pytest: command not found
++ : '>>>>> End Test Output'
++ git checkout 4db04923a754b6a2defa1b172f55d492b85d165e $'sklearn/tests/test_isotonic.py\r'
+error: pathspec 'sklearn/tests/test_isotonic.py?' did not match any file(s) known to git

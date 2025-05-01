@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -1257,7 +1257,7 @@
+                 if not alias_cols and not nested_alias_cols:
+                     # No columns in query, so we must sub in the columns from the
+                     # outer query.
+-                    sub_select_cols = outer_query.values_select
++                    sub_select_cols = outer_query.annotation_select
+                     outer_cols, nested_alias_cols = outer_query._get_outer_cols()
+                 else:
+                     outer_cols = []
+
+```

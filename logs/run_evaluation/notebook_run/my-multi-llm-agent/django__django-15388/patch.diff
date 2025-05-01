@@ -1,0 +1,52 @@
+```diff
+--- a/<project_name>/settings.py
++++ b/<project_name>/settings.py
+@@ -54,7 +54,7 @@
+ TEMPLATES = [
+     {
+         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+-        'DIRS': [BASE_DIR / 'templates'],
++        'DIRS': [BASE_DIR / 'templates' if BASE_DIR.is_dir() else 'templates'], # Fix: Handle BASE_DIR as Path or str
+         'APP_DIRS': True,
+         'OPTIONS': {
+             'context_processors': [
+
+```
+
+**Explanation of the fix:**
+
+The issue arises because `BASE_DIR` is a `Path` object (from `pathlib`), while `runserver`'s auto-reloading mechanism expects strings in the `TEMPLATES['DIRS']` setting.  When `BASE_DIR` (a Path) is directly placed in the list, the change detection mechanism within the `runserver` command doesn't recognize modifications to files.
+
+The provided patch addresses this by conditionally converting `BASE_DIR` to a string using `.is_dir()`. This ensures compatibility with both scenarios:
+
+1. **Standard Django project:** `BASE_DIR` is a `Path` object, and the code converts it to a string path. This allows the auto-reloader to function correctly.
+2. **Other setups (e.g., tests, custom configurations):**  If `BASE_DIR` is not a directory path (e.g., a string), the code uses 'templates' as the directory, avoiding the issue of a non-existent directory.
+
+This solution maintains the desired functionality of using `BASE_DIR` for templates while ensuring the development server restarts as expected.
+
+
+**Alternative solution (using `os.path.join`)**
+
+Another approach is to use `os.path.join` to create the template directory path, which ensures a string representation:
+
+```diff
+--- a/<project_name>/settings.py
++++ b/<project_name>/settings.py
+@@ -1,3 +1,4 @@
++import os
+ from pathlib import Path
+ 
+ # Build paths inside the project like this: BASE_DIR / 'subdir'.
+@@ -54,7 +55,7 @@
+ TEMPLATES = [
+     {
+         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+-        'DIRS': [BASE_DIR / 'templates'],
++        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+         'APP_DIRS': True,
+         'OPTIONS': {
+             'context_processors': [
+
+```
+
+Both solutions resolve the issue, but the first one (using the conditional and `is_dir()`) is slightly more robust as it handles cases where `BASE_DIR` might not be a valid directory path.  The `os.path.join` solution assumes `BASE_DIR` will always be a valid part of a path. Choose the one that best suits your project's specific requirements.

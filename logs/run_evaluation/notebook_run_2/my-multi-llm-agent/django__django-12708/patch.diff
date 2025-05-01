@@ -1,0 +1,25 @@
+```diff
+--- a/django/db/backends/base/schema.py
++++ b/django/db/backends/base/schema.py
+@@ -372,12 +372,13 @@
+         except OperationalError as e:
+             if 'no such index' in str(e):
+                 return
+-            # "no such table" error can also occur if the model is not managed
+-            # or is abstract.
+-            if not self._is_managed_model(model):
+-                return
+-            # Raise the original exception if the index wasn't handled by a
+-            # unique_together constraint.
++            # "no such table" or similar errors can also occur if the model is
++            # not managed or is abstract, or if the index was handled by a
++            # unique_together constraint.
++            if not self._is_managed_model(model) or \
++               self._constraint_names(model, [field.column for field in fields], unique=True):
++                return
++            # Raise the original exception if the index wasn't handled.
+             raise
+ 
+     def _delete_composed_index(self, model, fields, *args, **kwargs):
+
+```

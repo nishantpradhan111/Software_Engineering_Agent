@@ -1,0 +1,17 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -1680,7 +1680,10 @@
+         return issubclass(cls, self._subclasses)
+ 
+     def __instancecheck__(self, instance):
+-        return isinstance(instance, self._subclasses)
++        # isinstance() checks the type of the instance, so if the instance is a
++        # subclass of AutoField, it cannot be an instance of AutoField itself.
++        # Check the type instead.
++        return type(instance) is self or isinstance(instance, self._subclasses)
+ 
+ 
+ class AutoField(IntegerField, metaclass=AutoFieldMeta):
+
+```

@@ -1,0 +1,37 @@
+```diff
+--- a/django/core/management/__init__.py
++++ b/django/core/management/__init__.py
+@@ -392,19 +392,21 @@
+             return
+ 
+         if options.pythonpath:
++            # This is a hacky way to handle the --pythonpath and --settings
++            # options before we've parsed the subcommand. We create a dummy
++            # parser just to extract these two options, and then reconstruct
++            # the argv to remove them. This is necessary because the real
++            # parser will raise an error if it encounters unknown options.
+             parser = CommandParser(
+                 prog=self.prog_name,
+                 usage='%(prog)s subcommand [options] [args]',
+                 add_help=False,
+                 allow_abbrev=False,
+             )
++            parser.add_argument('--pythonpath')
+             parser.add_argument('--settings')
+-            parser.add_argument('--pythonpath')
+-            # We try to parse the arguments, but ignore if the arguments are invalid
+-            # because the passed subcommand might not accept the arguments.
+-            try: 
+-                ns, extra = parser.parse_known_args(self.argv[2:])
++            try:
++                ns, extra = parser.parse_known_args(self.argv[1:])  # Parse from the beginning of argv
+                 if ns.settings:
+                     os.environ['DJANGO_SETTINGS_MODULE'] = ns.settings
+                 if ns.pythonpath:
+@@ -412,3 +414,5 @@
+             except CommandError:
+                 pass
+ 
++            self.argv = [self.argv[0]] + extra  # Reconstruct argv without the parsed options
+
+```

@@ -1,0 +1,31 @@
+```diff
+--- a/django/utils/autoreload.py
++++ b/django/utils/autoreload.py
+@@ -128,17 +128,18 @@
+ 
+     for mod in modules:
+         path = Path(getattr(mod, '__file__', None))
+-        if not path:
++        if path is None:
+             continue
+         try:
+-            path = path.resolve(strict=False)
++            path = path.resolve(strict=True).with_suffix('.py')
+         except (OSError, RuntimeError) as e:
+             # This can happen if path is on a network share that is disconnected,
+-            # or if a file was deleted.  Continue to next module.
++            # or if a file was deleted.
+             continue
+-        if not path.exists():  # Check after resolving symlinks
+-            continue
+-        if path.suffix == '.pyc':
+-            path = path.with_suffix('.py')
++        except ValueError as e:
++            # Handle cases where path.suffix raises ValueError, such as with
++            # no-suffix files or files ending in '.'.
++            continue
+         modules_mtimes[mod] = path.stat().st_mtime
+ 
+     return modules_mtimes
+
+```

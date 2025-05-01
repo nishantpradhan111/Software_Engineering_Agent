@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/core/function.py
++++ b/sympy/core/function.py
+@@ -1408,7 +1408,7 @@
+         evaluate=False):
+         if evaluate:
+             return self.func(*[a.simplify(ratio=ratio, measure=measure) for a in self.args])
+-        if all(isinstance(a, Expr) and a.is_Atom for a in self.args):
++        if all(isinstance(a, Expr) and (a.is_Atom or isinstance(a, (Add, Mul))) for a in self.args):
+             return self
+         else:
+             return self.func(*[a.simplify(ratio=ratio, measure=measure) for a in self.args])
+
+```

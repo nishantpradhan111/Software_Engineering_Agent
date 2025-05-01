@@ -1,0 +1,100 @@
+```diff
+--- a/testing/pathlib.py
++++ b/testing/pathlib.py
+@@ -34,7 +34,7 @@
+     _tempdir_factory = None
+ 
+     def _ensure_tempdir_factory(self):
+-        if self._tempdir_factory is None:
++        if self._tempdir_factory is None or self._tempdir_factory._basetemp is None:
+             self._tempdir_factory = TempdirFactory(TempPathFactory.from_config(self.config))
+         return self._tempdir_factory
+ 
+@@ -132,7 +132,7 @@
+ class TempdirFactory:
+     """
+     backward comptibility wrapper that implements pytest_tmpdir_makdir
+-    """
++    """ 
+ 
+     def __init__(self, tmp_path_factory):
+         self.tmp_path_factory = tmp_path_factory
+@@ -153,6 +153,11 @@
+         """
+         return pathlib.Path(self.mktemp(basename))
+ 
++    def _get_basetemp(self):
++        basetemp = self.tmp_path_factory.getbasetemp()
++        if basetemp is None:
++            return self.tmp_path_factory._get_default_basetemp()
++        return basetemp
++
+     def mktemp(self, basename: str) -> str:
+         """ replaces py.test.ensuretemp """
+         # xxx only used from tests
+@@ -162,7 +167,7 @@
+ 
+         max_val = sys.maxsize
+         if sys.platform == "win32":
+-            max_val = 2**31 - 1
++           max_val = 2**15 - 1 # because of short paths on Windows
+ 
+         for i in range(counter, counter + max_val):
+             try:
+@@ -170,7 +175,7 @@
+                 num = i
+                 break
+             except FileExistsError:
+-                pass
++                continue
+         else:
+             raise RuntimeError(
+                 "could not create temporary directory in %r" % (basetemp.parent)
+@@ -179,7 +184,7 @@
+         return str(basetemp)
+ 
+ 
+-class TempPathFactory(object):
++class TempPathFactory:
+     """Temporary directory provider.
+ 
+     """
+@@ -210,7 +215,10 @@
+         self._given_basetemp = given_basetemp
+ 
+     def getbasetemp(self):
+-        return self._given_basetemp or pathlib.Path(self._basetemp)
++        """ return base temporary directory. """
++        if self._given_basetemp:
++            return pathlib.Path(self._given_basetemp)
++        return None
+ 
+     def mktemp(self, basename: str, suffix=None) -> pathlib.Path:
+         """Create a new temporary directory managed by the factory.
+
+@@ -237,7 +245,7 @@
+         return p
+ 
+     def _get_default_basetemp(self):
+-        basetemp = self.config.getini("basetemp")
++        basetemp = self.config.getini("basetemp") or _get_user()
+         if basetemp:
+             # we want to maintain the behavior of giving a string to
+             # getbasetemp() even if config.getini() returns pathlib.Path
+@@ -246,7 +254,12 @@
+             return pathlib.Path(basetemp)
+         try:
+             from tempfile import gettempdir, gettempprefix
+-        except ImportError:
++
++            user = getuser()
++            if user:
++                basetemp = os.path.join(gettempdir(), gettempprefix() + user)
++            else:
++                basetemp = os.path.join(gettempdir(), gettempprefix())
++        except ImportError: # pragma: no cover
+             basetemp = os.path.join("..", "temp")  # for emacs user, see #34
+         return pathlib.Path(basetemp)
+ 
+
+```

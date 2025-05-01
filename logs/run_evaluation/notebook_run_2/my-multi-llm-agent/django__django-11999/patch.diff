@@ -1,0 +1,16 @@
+```diff
+--- a/models.py
++++ b/models.py
+@@ -1,7 +1,10 @@
+ from django.db import models
++from django.utils.translation import gettext_lazy as _
+ 
+ class FooBar(models.Model):
+-    foo_bar = models.CharField(_("foo"), choices=[(1, 'foo'), (2, 'bar')])
++    foo_bar = models.CharField(_("foo"), choices=[('1', 'foo'), ('2', 'bar')])
+ 
+     def __str__(self):
+         return self.get_foo_bar_display()
+
+```
+The original patch removed the `get_foo_bar_display` method entirely, which would break the intended functionality of using the choices. This revised patch keeps the `get_foo_bar_display` functionality intact while addressing potential issues.  The choices were changed to strings, as using integers can sometimes cause issues with the `get_foo_bar_display` method, particularly if the field is rendered in a form.  Additionally, `_()` was updated to use `gettext_lazy` for proper translation handling. This revised patch ensures the choices work correctly with the display method and are translatable.

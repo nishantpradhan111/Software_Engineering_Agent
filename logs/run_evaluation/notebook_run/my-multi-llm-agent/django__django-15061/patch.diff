@@ -1,0 +1,21 @@
+```diff
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -479,15 +479,6 @@
+         return format_html(self.attrs.get('format', '<p>{}</p>'), final_attrs)
+ 
+     @property
+-    def id_for_label(self):
+-        """
+-        Return the ID when a label is rendered for this widget.
+-        Return None if the widget shouldn't have a label.
+-        """
+-        if self.id_for_label is None:
+-            return None
+-        return self.id_for_label + '_0'
+-
+     def get_context(self, name, value, attrs):
+         context = super().get_context(name, value, attrs)
+         if self.is_localized:
+
+```

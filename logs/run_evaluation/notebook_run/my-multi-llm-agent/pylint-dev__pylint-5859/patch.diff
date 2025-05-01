@@ -1,0 +1,14 @@
+```diff
+--- a/pylint/checkers/refactoring.py
++++ b/pylint/checkers/refactoring.py
+@@ -520,7 +520,7 @@
+         )
+ 
+     def _check_note(self, node: nodes.Comment) -> None:
+-        match = NOTE_RGX.match(node.value)
++        match = NOTE_RGX.search(node.value)
+         if not match:
+             return
+         self._check_for_long_todos(node)
+
+```

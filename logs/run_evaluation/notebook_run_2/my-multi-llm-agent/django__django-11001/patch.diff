@@ -1,0 +1,28 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -1010,17 +1010,14 @@
+         seen = set()
+         for expr, ascending in ordering:
+             prefix, suffix = '', ''
+-            sql, params = self.compile(expr)
+-            try:
+-                prepared_sql = sql % tuple(params)
+-            except TypeError:
+-                # When params is not a sequence, e.g. None or an int.
+-                prepared_sql = sql
+-            if (sql, tuple(params)) in seen:
++            sql, params = self.compile(expr)            
++            if (sql, tuple(params if isinstance(params, (list, tuple)) else (params,))) in seen:
+                 continue
+-            seen.add((sql, tuple(params)))
++            seen.add((sql, tuple(params if isinstance(params, (list, tuple)) else (params,))))
+             if ascending:
+                 suffix = ' ASC'
+             else:
+-                suffix = ' DESC'            
++                suffix = ' DESC'
+             result.append('%s%s%s' % (prefix, sql, suffix))
+         return result
+
+```

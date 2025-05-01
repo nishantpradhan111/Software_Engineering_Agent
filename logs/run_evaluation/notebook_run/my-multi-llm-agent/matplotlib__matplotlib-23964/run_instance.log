@@ -1,0 +1,49 @@
+2025-04-28 21:27:30,856 - INFO - Creating container for matplotlib__matplotlib-23964...
+2025-04-28 21:27:31,732 - INFO - Container for matplotlib__matplotlib-23964 created: dc63a8e1a06124a55552f9ccd8ac7df29d7976c606fa5c1b6420ead60cba41d2
+2025-04-28 21:27:32,433 - INFO - Container for matplotlib__matplotlib-23964 started: dc63a8e1a06124a55552f9ccd8ac7df29d7976c606fa5c1b6420ead60cba41d2
+2025-04-28 21:27:32,435 - INFO - Intermediate patch for matplotlib__matplotlib-23964 written to logs\run_evaluation\notebook_run\my-multi-llm-agent\matplotlib__matplotlib-23964\patch.diff, now applying to container...
+2025-04-28 21:27:32,595 - INFO - Failed to apply patch to container: git apply --verbose
+2025-04-28 21:27:32,655 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-04-28 21:27:32,712 - INFO - >>>>> Applied Patch:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file lib/matplotlib/backends/backend_ps.py
+Hunk #1 succeeded at 667 with fuzz 3.
+patch unexpectedly ends in middle of line
+
+2025-04-28 21:27:35,041 - INFO - Git diff before:
+diff --git a/lib/matplotlib/backends/backend_ps.py b/lib/matplotlib/backends/backend_ps.py
+index f209e811f1..b0e964d21f 100644
+--- a/lib/matplotlib/backends/backend_ps.py
++++ b/lib/matplotlib/backends/backend_ps.py
+@@ -667,6 +667,8 @@ grestore
+                 )
+             # append the last entry
+             stream.append(curr_stream)
++            if stream is None:
++                continue
+ 
+         self.set_color(*gc.get_rgb())
+2025-04-28 21:27:35,042 - INFO - Eval script for matplotlib__matplotlib-23964 written to logs\run_evaluation\notebook_run\my-multi-llm-agent\matplotlib__matplotlib-23964\eval.sh; copying to container...
+2025-04-28 21:27:37,395 - INFO - Test runtime: 2.29 seconds
+2025-04-28 21:27:37,396 - INFO - Test output for matplotlib__matplotlib-23964 written to logs\run_evaluation\notebook_run\my-multi-llm-agent\matplotlib__matplotlib-23964\test_output.txt
+2025-04-28 21:27:37,464 - INFO - Git diff after:
+diff --git a/lib/matplotlib/backends/backend_ps.py b/lib/matplotlib/backends/backend_ps.py
+index f209e811f1..b0e964d21f 100644
+--- a/lib/matplotlib/backends/backend_ps.py
++++ b/lib/matplotlib/backends/backend_ps.py
+@@ -667,6 +667,8 @@ grestore
+                 )
+             # append the last entry
+             stream.append(curr_stream)
++            if stream is None:
++                continue
+ 
+         self.set_color(*gc.get_rgb())
+2025-04-28 21:27:37,464 - INFO - Grading answer for matplotlib__matplotlib-23964...
+2025-04-28 21:27:37,466 - INFO - report: {'matplotlib__matplotlib-23964': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['lib/matplotlib/tests/test_backend_ps.py::test_empty_line']}, 'PASS_TO_PASS': {'success': [], 'failure': ['lib/matplotlib/tests/test_backend_ps.py::test_savefig_to_stringio[ps-portrait]', 'lib/matplotlib/tests/test_backend_ps.py::test_savefig_to_stringio[ps-landscape]', 'lib/matplotlib/tests/test_backend_ps.py::test_savefig_to_stringio[ps', 'lib/matplotlib/tests/test_backend_ps.py::test_savefig_to_stringio[eps-portrait]', 'lib/matplotlib/tests/test_backend_ps.py::test_savefig_to_stringio[eps-landscape]', 'lib/matplotlib/tests/test_backend_ps.py::test_savefig_to_stringio[eps', 'lib/matplotlib/tests/test_backend_ps.py::test_patheffects', 'lib/matplotlib/tests/test_backend_ps.py::test_transparency[eps]', 'lib/matplotlib/tests/test_backend_ps.py::test_bbox', 'lib/matplotlib/tests/test_backend_ps.py::test_failing_latex', 'lib/matplotlib/tests/test_backend_ps.py::test_text_clip[eps]', 'lib/matplotlib/tests/test_backend_ps.py::test_d_glyph', 'lib/matplotlib/tests/test_backend_ps.py::test_fonttype[3]', 'lib/matplotlib/tests/test_backend_ps.py::test_fonttype[42]', 'lib/matplotlib/tests/test_backend_ps.py::test_linedash', 'lib/matplotlib/tests/test_backend_ps.py::test_no_duplicate_definition']}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for matplotlib__matplotlib-23964: resolved: False
+2025-04-28 21:27:37,467 - INFO - Attempting to stop container sweb.eval.matplotlib__matplotlib-23964.notebook_run...
+2025-04-28 21:27:53,743 - INFO - Attempting to remove container sweb.eval.matplotlib__matplotlib-23964.notebook_run...
+2025-04-28 21:27:56,132 - INFO - Container sweb.eval.matplotlib__matplotlib-23964.notebook_run removed.
+2025-04-28 21:27:56,132 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.matplotlib_1776_matplotlib-23964:latest...
+2025-04-28 21:27:59,077 - INFO - Image swebench/sweb.eval.x86_64.matplotlib_1776_matplotlib-23964:latest removed.

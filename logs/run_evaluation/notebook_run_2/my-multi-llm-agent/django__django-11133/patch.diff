@@ -1,0 +1,29 @@
+```diff
+--- a/django/http/response.py
++++ b/django/http/response.py
+@@ -48,14 +48,17 @@
+         self._charset = charset
+         super().__init__(*args, **kwargs)
+ 
+-    def _set_content(self, value):
++    def _set_content(self, value):  # type: ignore[override]
+         if isinstance(value, memoryview):
+             value = bytes(value)
+         elif isinstance(value, bytearray):
+             value = bytes(value)
+-        elif isinstance(value, (bytes, str)):
+-            pass  # No conversion needed for bytes or strings.
+         elif hasattr(value, '__iter__'):
++            # Convert iterables to bytes to ensure consistency.  This is
++            # done to ensure that iterables of strings are handled
++            # correctly and to support iterables of bytes.
+             try:
+                 value = b"".join(chunk if isinstance(chunk, bytes) else chunk.encode(self.charset) for chunk in value)
+             except TypeError as e:
+-                raise TypeError("The view returned an iterable that yielded an invalid value: %r" % e) from e
++                raise TypeError(f"The view returned an iterable that yielded an invalid value: {e!r}") from e
+         else:
+             raise TypeError(f"HttpResponse body must be bytes, not {type(value)}")
+         super()._set_content(value)
+
+```

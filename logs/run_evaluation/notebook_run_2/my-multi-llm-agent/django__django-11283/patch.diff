@@ -1,0 +1,43 @@
+```diff
+--- a/django/contrib/auth/migrations/0011_update_proxy_permissions.py
++++ b/django/contrib/auth/migrations/0011_update_proxy_permissions.py
+@@ -1,26 +1,22 @@
+ from django.db import migrations
+ 
+ from django.contrib.auth.management import create_permissions
+-from django.apps import apps
+ from django.contrib.contenttypes.management import update_contenttypes
+ 
+ def update_proxy_permissions(apps, schema_editor):
+     for app_config in apps.get_app_configs():
+-        if app_config.models_module is None:
+-            continue
+-        proxy_models = [
+-            model for model in app_config.get_models()
+-            if model._meta.proxy
+-        ]
+-        if proxy_models:
++        if app_config.models_module is not None:
+             create_permissions(app_config, verbosity=0, interactive=False)
+-            for model in proxy_models:
++            update_contenttypes(app_config, verbosity=0, interactive=False)
++            for model in app_config.get_models():
++                if model._meta.proxy:
++                    opts = model._meta
++                    ContentType = apps.get_model('contenttypes', 'ContentType')
++                    try:
++                        ContentType.objects.get_for_model(model, for_concrete_model=False)
++                    except ContentType.DoesNotExist:
+                         update_contenttypes(app_config, verbosity=0, interactive=False)
+-
+ 
+ class Migration(migrations.Migration):
+ 
+     dependencies = [
+         ('auth', '0010_alter_group_name_max_length'),
+-        ('contenttypes', '0002_remove_content_type_name'),
+-
+     ]
+ 
+
+```

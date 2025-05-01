@@ -1,0 +1,14 @@
+```diff
+--- a/src/_pytest/assertion/rewrite.py
++++ b/src/_pytest/assertion/rewrite.py
+@@ -757,7 +757,7 @@
+         return False
+ 
+     def is_rewrite_disabled(self, docstring: Optional[str]) -> bool:
+-        return "PYTEST_DONT_REWRITE" in docstring
++        return docstring is not None and "PYTEST_DONT_REWRITE" in docstring
+ 
+     def is_future_import(self, node: ast.stmt) -> bool:
+         # note: "__future__" is a str
+
+```

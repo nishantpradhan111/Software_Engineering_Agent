@@ -1,0 +1,16 @@
+```diff
+--- a/django/contrib/admin/utils.py
++++ b/django/contrib/admin/utils.py
+@@ -358,6 +358,10 @@
+             if name == "pk":
+                 return field.verbose_name
+ 
++            # Check for lookup errors that might raise an AttributeError
++            if name not in model_admin.model._meta.fields and name not in model_admin.list_display_links:
++                raise AttributeError(message)
++
+             admin_order_field = getattr(model_admin, "admin_order_field", None)
+             if admin_order_field == name:
+                 return field.verbose_name
+
+```

@@ -1,0 +1,37 @@
+```diff
+--- a/django/core/exceptions.py
++++ b/django/core/exceptions.py
+@@ -156,23 +156,22 @@
+         return repr(self.messages)
+ 
+     def __str__(self):
+-        if hasattr(self, 'error_dict'):
++        if isinstance(self.messages, dict):
+             return repr(dict(self))
+         return repr(list(self))
+ 
+     def __eq__(self, other):
+         if not isinstance(other, ValidationError):
+             return NotImplemented
+-        if hasattr(self, 'error_dict') != hasattr(other, 'error_dict'):
+-            return False
+-        if hasattr(self, 'error_dict'):
++        if isinstance(self.messages, dict):
++            if not isinstance(other.messages, dict):
++                return False
+             return dict(self) == dict(other)
+         return list(self) == list(other)
+ 
+     def __hash__(self):
+-        if hasattr(self, 'error_dict'):
+-            # Use message_dict for consistency and to avoid recursion
++        if isinstance(self.messages, dict):
+             return hash(frozenset(self.message_dict.items()))
+-        else:
+-            return hash(tuple(self.messages))
+-
+-            return False
++        # list of messages needs to be sorted and converted to a tuple to ensure consistent hash, otherwise the order of error messages would matter
++        return hash(tuple(sorted(self.messages)))
+
+```

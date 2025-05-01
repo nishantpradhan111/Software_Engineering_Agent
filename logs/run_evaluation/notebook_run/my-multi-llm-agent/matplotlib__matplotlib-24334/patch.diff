@@ -1,0 +1,17 @@
+```diff
+--- a/lib/matplotlib/axis.py
++++ b/lib/matplotlib/axis.py
+@@ -1577,6 +1577,11 @@
+         if minor:
+             return self.set_minor_ticks(ticks)
+ 
++        if kwargs and labels is None:
++            from matplotlib.text import Text
++            Text(**kwargs)  # Check that kwargs are valid Text properties.
++            _api.warn_external("kwargs to set_ticks are ignored if labels is "
++                               "not set")
+         if labels is None:
+             labels = self.get_ticklabels()
+             if labels:
+
+```

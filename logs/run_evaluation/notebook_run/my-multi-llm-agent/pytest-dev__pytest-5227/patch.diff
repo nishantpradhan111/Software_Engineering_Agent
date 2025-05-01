@@ -1,0 +1,16 @@
+```diff
+--- a/your_module.py
++++ b/your_module.py
+@@ -X,4 +X,4 @@
+ # where X is the line number containing DEFAULT_LOG_FORMAT
+ 
+-DEFAULT_LOG_FORMAT = "%(filename)-25s %(lineno)4d %(levelname)-8s %(message)s"
++DEFAULT_LOG_FORMAT = "%(levelname)-8s %(name)s:%(filename)s:%(lineno)d %(message)s"
+
+```
+
+**Explanation:**
+
+This patch directly addresses the issue by modifying the `DEFAULT_LOG_FORMAT` string. It replaces the old format with the proposed new format that includes the module name (`%(name)s`), filename (`%(filename)s`), line number (`%(lineno)d`), and log level (`%(levelname)-8s`), followed by the log message (`%(message)s`).  
+
+**Important Note:** Replace `your_module.py` and `X` with the actual file name and line number where `DEFAULT_LOG_FORMAT` is defined in your project.  You may need to adjust the context lines (e.g., `@@ -X,4 +X,4 @@`) in the diff depending on the surrounding code.  If you're using a logging configuration file (e.g., `logging.conf` or `logging.yaml`), you'll need to modify the `format` setting within the relevant handler or formatter definition instead.

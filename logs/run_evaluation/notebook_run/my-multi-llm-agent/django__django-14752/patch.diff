@@ -1,0 +1,26 @@
+```diff
+--- a/django/contrib/admin/views/autocomplete.py
++++ b/django/contrib/admin/views/autocomplete.py
+@@ -111,13 +111,18 @@
+         if not self.has_perm(request):
+             raise PermissionDenied
+         self.object_list = self.get_queryset()
+-        context = self.get_context_data()
++        context = self.get_context_data(object_list=self.object_list)
+         return JsonResponse({
+             'results': [
+-                {'id': str(getattr(obj, to_field_name)), 'text': str(obj)}
++                self.serialize_result(obj, to_field_name)
+                 for obj in context['object_list']
+             ],
+             'pagination': {'more': context['page_obj'].has_next()},
+         })
++
++    def serialize_result(self, obj, to_field_name):
++        """Serialize result for autocomplete response."""
++        return {'id': str(getattr(obj, to_field_name)), 'text': str(obj)}
+ 
+     def get_paginator(self):
+         """
+
+```

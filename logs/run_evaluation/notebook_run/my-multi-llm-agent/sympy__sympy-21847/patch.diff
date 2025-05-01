@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/polys/monomials.py
++++ b/sympy/polys/monomials.py
+@@ -231,7 +231,7 @@
+         N = len(variables)
+ 
+         for i in _itermonomials(N, max_degrees, min_degrees):
+-            if sum(i) >= min_degrees:
++            if min_degrees is None or sum(i) >= min_degrees:
+                 yield tuple(variables[j]**i[j] for j in range(N))
+ 
+ 
+
+```

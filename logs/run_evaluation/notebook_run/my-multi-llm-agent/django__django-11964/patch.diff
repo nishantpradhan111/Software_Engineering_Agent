@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -1758,7 +1758,7 @@
+         if self.choices and value not in self.empty_values:
+             # If value is a named choice, return its value.
+             if isinstance(value, (list, tuple)):
+-                return [self.get_choice_value(v) for v in value]
++                return [self._get_db_prep_value(v, connection=connection, prepared=False) for v in value]
+             return self.get_choice_value(value)
+         return value
+ 
+
+```

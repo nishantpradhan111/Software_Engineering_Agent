@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/fields/related_descriptors.py
++++ b/django/db/models/fields/related_descriptors.py
+@@ -864,7 +864,7 @@
+                 self.through._meta.pk,
+             ),
+             self.db_constraint,
+-            self.through_fields,
++            make_hashable(self.through_fields),
+             self.source_field_name,
+             self.target_field_name,
+             (self._limit_choices_to or {}),
+
+```

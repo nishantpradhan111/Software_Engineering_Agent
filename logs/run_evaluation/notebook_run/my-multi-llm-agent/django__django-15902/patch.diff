@@ -1,0 +1,14 @@
+```diff
+--- a/django/forms/renderers.py
++++ b/django/forms/renderers.py
+@@ -87,7 +87,7 @@
+         return Template(template_string).render(context, request=request)
+ 
+     def render_as_template(self, template_name, context, request=None):
+-        warnings.warn(
++        if template_name != 'django/forms/default.html':  # ManagementForm special case
+             warnings.warn(
+                 'The use of string templates with `render_as_template` is deprecated. '
+                 'Use `render` with a Template object instead.',
+
+```

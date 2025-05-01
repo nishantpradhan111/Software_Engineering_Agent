@@ -1,0 +1,39 @@
+```diff
+--- a/sklearn/linear_model/ridge.py
++++ b/sklearn/linear_model/ridge.py
+@@ -870,6 +870,7 @@
+         self.scoring = scoring
+         self.cv = cv
+         self.gcv_mode = gcv_mode
++        self.store_cv_values = store_cv_values
+ 
+         super(RidgeCV, self).__init__(
+             fit_intercept=fit_intercept, normalize=normalize,
+@@ -936,6 +937,11 @@
+         # Store sample distances and diagonal of the hat matrix once and for
+         # all.
+         self._XtX = X.T.dot(X)
++
++        if self.store_cv_values:
++            if self.cv is None:
++                self.cv_values_ = np.empty((n_samples, len(self.alphas)))
++
+         return super(RidgeCV, self).fit(X, y, sample_weight=sample_weight)
+ 
+     def _more_tags(self):
+@@ -1069,6 +1075,13 @@
+ 
+         # Get coefficients on full data
+         coef_ = self.coef_
++
++        if self.store_cv_values:
++            if self.cv is None:
++                # Store the predictions of the best alpha.
++                y_pred = self._decision_function(X)[:, np.newaxis]
++                self.cv_values_[:, active_set_] = y_pred
++
+         return self
+ 
+ 
+
+```

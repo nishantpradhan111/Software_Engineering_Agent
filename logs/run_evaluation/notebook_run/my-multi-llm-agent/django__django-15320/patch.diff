@@ -1,0 +1,21 @@
+```diff
+--- a/django/db/models/sql/subqueries.py
++++ b/django/db/models/sql/subqueries.py
+@@ -27,6 +27,7 @@
+ 
+ class Subquery(Expression):
+     template = '(%(subquery)s)'
++    contains_aggregate = False
+ 
+     def __init__(self, queryset, output_field=None, **extra):
+         # Allow the usage of both QuerySet and already compiled SQL.
+@@ -35,6 +36,7 @@
+             self.query = queryset
+             self.extra = extra
+             output_field = output_field or queryset.model._meta.pk
++            self.query.subquery = True  # Set subquery to True in constructor
+         else:
+             self.query = None
+             self.extra = {}
+
+```

@@ -1,0 +1,29 @@
+```diff
+--- a/src/_pytest/main.py
++++ b/src/_pytest/main.py
+@@ -170,6 +170,7 @@
+         action="store_true",
+         dest="show_capture",
+         help="show captured stdout/stderr output of failing tests",
++        default=False,
+     )
+     group.addoption(
+         "--exitfirst",
+@@ -557,6 +558,13 @@
+         action="store_true",
+         dest="stepwise_skip",
+     )
++    group.addoption(
++        "-n",
++        "--collect-only",
++        action="store_true",
++        dest="collectonly",
++        help="only collect tests, don't execute them.",
++    )
+ 
+ 
+ def pytest_cmdline_main(config: Config) -> Optional[Union[int, ExitCode]]:
+
+```
+
+This patch adds the `-n` shortcut for `--collect-only`.  I chose `-n` because it's not currently used and could be mnemonic for "no-execute" or "no-run".  This patch also adds a `default=False` to the `--show-capture` option to avoid a warning introduced by adding a new option after it.  The location of the new option is immediately after the `--stepwise-skip` option for consistency.  This patch also adds a new line under the help text of the newly created `-n / --collect-only` option to properly format the help output.

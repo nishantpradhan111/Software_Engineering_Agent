@@ -1,0 +1,54 @@
+/eval.sh: line 2: set: pipefail: invalid option name
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 3: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ cd $'/testbed\r'
+/eval.sh: line 5: cd: $'/testbed\r': No such file or directory
++ git config --global --add safe.directory $'/testbed\r'
++ cd $'/testbed\r'
+/eval.sh: line 7: cd: $'/testbed\r': No such file or directory
++ git $'status\r'
+git: 'status' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
++ git $'show\r'
+git: 'show' is not a git command. See 'git --help'.
+
+The most similar command is
+	show
++ git -c core.fileMode=false diff $'4a9e54962a29c12a8b103d75f838e0e795a6974d\r'
+fatal: ambiguous argument '4a9e54962a29c12a8b103d75f838e0e795a6974d?': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 11: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ python -m pip install -e '.[dev]'
+ERROR: .[dev] is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
++ git checkout 4a9e54962a29c12a8b103d75f838e0e795a6974d $'tests/_core/test_scales.py\r'
+error: pathspec 'tests/_core/test_scales.py?' did not match any file(s) known to git
++ git apply -v -
+Checking patch tests/_core/test_scales.py...
+error: while searching for:
+        s = Continuous((2, 3), (10, 100), "log")._setup(x, IntervalProperty())?
+        assert_array_equal(s(x), [1, 2, 3])?
+?
+    def test_color_defaults(self, x):?
+?
+        cmap = color_palette("ch:", as_cmap=True)?
+
+error: patch failed: tests/_core/test_scales.py:90
+error: tests/_core/test_scales.py: patch does not apply
++ : '>>>>> Start Test Output'
++ pytest --no-header -rA $'tests/_core/test_scales.py\r'
+/eval.sh: line 35: pytest: command not found
++ : '>>>>> End Test Output'
++ git checkout 4a9e54962a29c12a8b103d75f838e0e795a6974d $'tests/_core/test_scales.py\r'
+error: pathspec 'tests/_core/test_scales.py?' did not match any file(s) known to git

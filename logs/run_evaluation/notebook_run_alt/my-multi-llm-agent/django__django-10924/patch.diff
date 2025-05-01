@@ -1,0 +1,37 @@
+```diff
+--- a/django/db/models/fields/files.py
++++ b/django/db/models/fields/files.py
+@@ -338,11 +338,17 @@
+         if self.path and isinstance(self.path, str) and not os.path.exists(self.path):
+             raise ImproperlyConfigured(
+                 "FilePathField's path '%s' doesn't exist." % self.path
++            )
++        elif self.path and callable(self.path):
++            resolved_path = self.path()
++            if isinstance(resolved_path, str) and not os.path.exists(resolved_path):
++                raise ImproperlyConfigured(
++                    "FilePathField's path '%s' (from callable) doesn't exist." % resolved_path
++                )
++            elif not isinstance(resolved_path, str):
++                raise ImproperlyConfigured(
++                    "Callable provided for FilePathField's path argument must return a string."
+             )
+-
+-    def deconstruct(self):
+-        name, path, args, kwargs = super().deconstruct()
+-        if self.path != '':
+-            kwargs['path'] = self.path
+-        return name, path, args, kwargs
++        super().check_path()
++
++    def check_path(self):
++        if self.path:
++            if callable(self.path):
++                path = self.path()
++            else:
++                path = self.path
++            if isinstance(path, str) and not os.path.exists(path):
++                raise ImproperlyConfigured("FilePathField's path '%s' doesn't exist." % path)
+
+
+```

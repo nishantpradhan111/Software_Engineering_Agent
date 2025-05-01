@@ -1,0 +1,18 @@
+```diff
+--- a/astropy/wcs/wcs.py
++++ b/astropy/wcs/wcs.py
+@@ -1263,11 +1263,11 @@
+     def _array_converter(self, func, sky, ra_dec_order, *args):
+ 
+         def _return_list_of_arrays(axes, origin):
+-            if not axes or all(np.array(x).size == 0 for x in axes):
++            if not axes or all(np.array(x).size == 0 for x in axes if x is not None):
+                 # Short-circuit and return empty lists if all inputs are empty.
+                 if sky:
+-                    return [[]] * len(axes) if axes else []
++                    return [[]] * len(axes or [])
+                 else:
+                     return ()
+             try:
+
+```

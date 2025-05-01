@@ -1,0 +1,71 @@
+/eval.sh: line 2: set: pipefail: invalid option name
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 3: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ cd $'/testbed\r'
+/eval.sh: line 5: cd: $'/testbed\r': No such file or directory
++ git config --global --add safe.directory $'/testbed\r'
++ cd $'/testbed\r'
+/eval.sh: line 7: cd: $'/testbed\r': No such file or directory
++ git $'status\r'
+git: 'status' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
++ git $'show\r'
+git: 'show' is not a git command. See 'git --help'.
+
+The most similar command is
+	show
++ git -c core.fileMode=false diff $'0be38a0c37c59c4b66ce908731da15b401655113\r'
+fatal: ambiguous argument '0be38a0c37c59c4b66ce908731da15b401655113?': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 11: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ python -m pip install $'.\r'
+Processing /testbed
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: requests
+  Building wheel for requests (setup.py): started
+  Building wheel for requests (setup.py): finished with status 'done'
+  Created wheel for requests: filename=requests-2.7.0-py2.py3-none-any.whl size=462630 sha256=02a85c90e4bfd166e79763d3689db024f058b16cc8211f7a3c4b631ddfeeca85
+  Stored in directory: /tmp/pip-ephem-wheel-cache-zwmqw6zq/wheels/49/5f/4f/01b7d31ea6ddac9643da788242d33e5fd3467d95d17b032c6b
+Successfully built requests
+Installing collected packages: requests
+  Attempting uninstall: requests
+    Found existing installation: requests 2.31.0
+    Uninstalling requests-2.31.0:
+      Successfully uninstalled requests-2.31.0
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+conda 23.11.0 requires requests<3,>=2.28.0, but you have requests 2.7.0 which is incompatible.
+Successfully installed requests-2.7.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
++ git checkout 0be38a0c37c59c4b66ce908731da15b401655113 $'test_requests.py\r'
+error: pathspec 'test_requests.py?' did not match any file(s) known to git
++ git apply -v -
+Checking patch test_requests.py...
+error: while searching for:
+    with pytest.raises(RetryError):?
+        s.get(httpbin('status/500'))?
+?
+def test_vendor_aliases():?
+    from requests.packages import urllib3?
+    from requests.packages import chardet?
+
+error: patch failed: test_requests.py:1655
+error: test_requests.py: patch does not apply
++ : '>>>>> Start Test Output'
++ pytest -rA $'test_requests.py\r'
+/eval.sh: line 39: pytest: command not found
++ : '>>>>> End Test Output'
++ git checkout 0be38a0c37c59c4b66ce908731da15b401655113 $'test_requests.py\r'
+error: pathspec 'test_requests.py?' did not match any file(s) known to git

@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/printing/latex.py
++++ b/sympy/printing/latex.py
+@@ -1264,7 +1264,7 @@
+             big = '\\left[%s\\right]'
+         else:
+             big = '[%s]'
+-        return big % latex(self.formula, mode=mode) + '\\, \\ldots'
++        return big % latex(self.formula, mode=mode) + ', \\ldots'
+ 
+     def _print_interval(self, p):
+         if self.start == -oo or self.stop == oo:
+
+```

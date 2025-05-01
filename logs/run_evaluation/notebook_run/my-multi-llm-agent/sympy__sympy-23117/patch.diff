@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/tensor/array/ndim_array.py
++++ b/sympy/tensor/array/ndim_array.py
+@@ -117,6 +117,8 @@
+     def f(pointer):
+         if isinstance(pointer, (list, tuple)):
+             if len(pointer) == 0:
++                return [], ()
++
+             elems, shapes = zip(*[f(i) for i in pointer])
+             if len(set(shapes)) != 1:
+                 raise ValueError("could not determine shape unambiguously")
+
+```

@@ -1,0 +1,14 @@
+```diff
+--- a/sphinx/builders/epub3.py
++++ b/sphinx/builders/epub3.py
+@@ -612,6 +612,8 @@
+             # has_wildcard is True when docnames contains a wildcard.
+             # We need to resolve it to obtain docnames.
+             if has_wildcard:
++                if not self.app.config.viewcode_enable_epub:
++                    continue
+                 for docname in wildcard2filenames[pattern]:
+                     filenames.append(self.get_target_uri(docname))
+             else:
+
+```

@@ -1,0 +1,17 @@
+```diff
+--- a/lib/matplotlib/artist.py
++++ b/lib/matplotlib/artist.py
+@@ -1279,7 +1279,10 @@
+             if isinstance(self.norm, mcolors.NoNorm):
+                 return v
+             try:
+-                neighbors = self.norm.inverse(np.asarray([v - delta, v + delta]))
++                inversed = self.norm.inverse
++            except AttributeError:
++                return v
++            neighbors = inversed(np.asarray([v - delta, v + delta]))
+                 val = str(neighbors[0])
+                 if neighbors[0] != neighbors[-1]:
+                     val += " - " + str(neighbors[-1])
+
+```

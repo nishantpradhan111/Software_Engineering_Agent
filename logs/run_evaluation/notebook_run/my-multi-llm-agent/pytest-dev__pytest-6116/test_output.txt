@@ -1,0 +1,55 @@
+/eval.sh: line 2: set: pipefail: invalid option name
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 3: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ cd $'/testbed\r'
+/eval.sh: line 5: cd: $'/testbed\r': No such file or directory
++ git config --global --add safe.directory $'/testbed\r'
++ cd $'/testbed\r'
+/eval.sh: line 7: cd: $'/testbed\r': No such file or directory
++ git $'status\r'
+git: 'status' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
++ git $'show\r'
+git: 'show' is not a git command. See 'git --help'.
+
+The most similar command is
+	show
++ git -c core.fileMode=false diff $'e670ff76cbad80108bde9bab616b66771b8653cf\r'
+fatal: ambiguous argument 'e670ff76cbad80108bde9bab616b66771b8653cf?': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 11: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ python -m pip install -e $'.\r'
+ERROR: . is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
++ git checkout e670ff76cbad80108bde9bab616b66771b8653cf $'testing/test_collection.py\r'
+error: pathspec 'testing/test_collection.py?' did not match any file(s) known to git
++ git apply -v -
+Checking patch testing/test_collection.py...
+error: while searching for:
+        )?
+        testdir.mkdir("sub")?
+        testdir.makepyfile("def test_x(): pass")?
+        result = testdir.runpytest("--collect-only")?
+        result.stdout.fnmatch_lines(["*MyModule*", "*test_x*"])?
+?
+    def test_pytest_collect_file_from_sister_dir(self, testdir):?
+
+error: patch failed: testing/test_collection.py:402
+error: testing/test_collection.py: patch does not apply
++ : '>>>>> Start Test Output'
++ pytest -rA $'testing/test_collection.py\r'
+/eval.sh: line 40: pytest: command not found
++ : '>>>>> End Test Output'
++ git checkout e670ff76cbad80108bde9bab616b66771b8653cf $'testing/test_collection.py\r'
+error: pathspec 'testing/test_collection.py?' did not match any file(s) known to git

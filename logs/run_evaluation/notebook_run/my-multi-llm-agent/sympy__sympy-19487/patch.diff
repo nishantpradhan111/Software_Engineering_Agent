@@ -1,0 +1,18 @@
+```diff
+--- a/sympy/functions/elementary/complexes.py
++++ b/sympy/functions/elementary/complexes.py
+@@ -1100,6 +1100,12 @@
+ 
+     def _eval_rewrite_as_tractable(self, z):
+         return z/Abs(z)
++
++    def _eval_rewrite_as_Abs(self, arg):
++        if arg.is_zero:
++            return arg
++        else:
++            return arg/Abs(arg)
+ 
+     def _eval_is_finite(self):
+         return self.args[0].is_finite
+
+```

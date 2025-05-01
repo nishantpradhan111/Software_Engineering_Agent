@@ -1,0 +1,14 @@
+```diff
+--- a/mplcursors/_pick_info.py
++++ b/mplcursors/_pick_info.py
+@@ -76,7 +76,7 @@
+             return
+         # Work around matplotlib/matplotlib#23076: self.ref_artist can be
+         # garbage-collected (typically when the figure is closed).
+-        if self.ref_artist is None:
++        if self.ref_artist is None or self.ref_artist.figure is None:
+             self.disconnect()
+             return
+         self._update_offset_box()
+
+```

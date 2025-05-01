@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/lookups.py
++++ b/django/db/models/lookups.py
+@@ -1398,7 +1398,7 @@
+         if self.isnull:
+             return ~lhs.has_key(self.key_name)
+         else:
+-            return lhs.has_key(self.key_name)
++            return lhs.has_key(self.key_name) & ~lhs.get(self.key_name).isnull()
+ 
+ 
+ class KeyTransformIn(KeyTransformLookup):
+
+```

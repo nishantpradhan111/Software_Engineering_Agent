@@ -1,0 +1,14 @@
+```diff
+--- a/django/contrib/sitemaps/__init__.py
++++ b/django/contrib/sitemaps/__init__.py
+@@ -167,7 +167,7 @@
+ 			if callable(self.lastmod):
+ 				return self.lastmod(obj)
+ 			return self.lastmod
+-		return max([self.lastmod(item) for item in self.items()])
++		return max((self.lastmod(item) for item in self.items()), default=None)
+ 
+ 
+ class Sitemap(BaseSitemap):
+
+```

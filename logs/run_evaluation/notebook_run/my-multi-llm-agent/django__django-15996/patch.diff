@@ -1,0 +1,24 @@
+```diff
+--- a/django/db/migrations/serializers/special.py
++++ b/django/db/migrations/serializers/special.py
+@@ -1,4 +1,5 @@
+ import re
++import operator
+ from enum import Enum
+ 
+ from django.db import models
+@@ -23,7 +24,11 @@
+         return repr(value)
+     try:
+         return f"{value.__class__.__module__}.{value.__class__.__qualname__}[{value.name!r}]"
+-    except AttributeError:  # e.g. combination of flags
++    except AttributeError:
++        try:
++            flags = value.__class__._decompose(value.value)
++            return f"functools.reduce(operator.or_, [{value.__class__.__module__}.{value.__class__.__qualname__}[{flag!r}] for flag in {flags!r}])"
++        except Exception:  # e.g. a plain integer was stored in an enum field somehow
+             return repr(value)
+ 
+ 
+
+```

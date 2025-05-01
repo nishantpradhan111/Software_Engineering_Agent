@@ -1,0 +1,21 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -1279,10 +1279,13 @@
+                 sql, params = self.compile(col)
+                 if hasattr(col, 'alias'):
+                     sql = '(%s) AS %s' % (sql, self.quote_name_unless_alias(col.alias))
+-                if hasattr(col, 'output_field'):
+-                    group_by.append(ExpressionWrapper(RawSQL(sql, params), output_field=col.output_field))
+-                elif sql:
++                if isinstance(col, (Expression, Value)):
++                    if hasattr(col, 'output_field'):
++                        group_by.append(ExpressionWrapper(RawSQL(sql, params), output_field=col.output_field))
++                    else:
++                        group_by.append(RawSQL(sql, params))
++                elif sql:  # String group by
+                     group_by.append(sql)
+         having = self.compile_having_clause()
+         if group_by:
+
+```

@@ -1,0 +1,15 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -1364,7 +1364,7 @@
+             if self.query.subquery:
+                 non_limited_clone = self.query.clone()
+                 non_limited_clone.set_limits(high=None)
+-                subquery_sql = non_limited_clone.get_compiler(connection=self.connection, subquery=True).as_sql()
++                subquery_sql = non_limited_clone.get_compiler(connection=self.connection).as_sql()
+                 sql, params = subquery_sql
+                 return sql, params
+ 
+
+```
+The original patch was incorrect.  The issue is that the limit clause was being applied within the subquery, affecting the results *before* they were used by the outer query.  The solution is to remove the limit from the subquery entirely. The original patch attempted to fix this by passing `subquery=True` to the compiler.  However, this is not the correct approach. The `subquery` flag in `get_compiler` influences how the query is *rendered* (e.g., by wrapping it in parentheses), not how it is *constructed*. The limit clause is applied during the construction phase. Therefore, the correct fix is to simply remove the limits using `set_limits(high=None)` and *not* change how the subquery compiler is created.  The original, unpatched code was closer to the correct solution.

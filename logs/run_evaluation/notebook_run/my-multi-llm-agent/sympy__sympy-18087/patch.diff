@@ -1,0 +1,23 @@
+```diff
+--- a/sympy/simplify/trigsimp.py
++++ b/sympy/simplify/trigsimp.py
+@@ -360,7 +360,7 @@
+ 
+     # Automatic rewrite
+     if not hints:
+-        hints = ["all"]
++        hints = ["trig"]
+ 
+     # We do not want to rewrite to hyperbolic functions when simplifying
+     # hyperbolic expressions
+@@ -484,7 +484,7 @@
+     # sin(x)**2 to 1-cos(x)**2 and viceversa
+     if do_trig:
+         rv = trig_rewrite(rv, deep=deep)
+-    if do_powers:
++    if do_powers and not any(h in ("all", "preserve_sine") for h in hints):
+         rv = powsimp(rv, deep=deep, combine='exp')
+ 
+     return rv
+
+```

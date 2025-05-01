@@ -1,0 +1,15 @@
+--- a/astropy/modeling/separable.py
++++ b/astropy/modeling/separable.py
+@@ -25,12 +25,10 @@
+     # If the model is a compound model, recursively call separability_matrix
+     # on each of its parts
+     if isinstance(model, CompoundModel):
+-        models = []
+         if model.oper == '&':
+             models = model._separate_parts()
+         else:
+             models = [model.left, model.right]
+-        # Recurse even if models is empty to handle nested CompoundModels
+ 
+         n_models = len(models)
+         matrices = [separability_matrix(m) for m in models]

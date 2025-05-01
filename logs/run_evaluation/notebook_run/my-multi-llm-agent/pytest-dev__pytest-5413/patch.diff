@@ -1,0 +1,14 @@
+```diff
+--- a/src/_pytest/outcomes.py
++++ b/src/_pytest/outcomes.py
+@@ -84,7 +84,7 @@
+         return repr(self.value)
+ 
+     def __str__(self) -> str:
+-        return str(self.value)
++        return self.getrepr()
+ 
+     def getrepr(
+         self,
+
+```

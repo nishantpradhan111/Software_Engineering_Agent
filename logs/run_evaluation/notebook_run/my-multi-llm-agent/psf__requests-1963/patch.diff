@@ -1,0 +1,14 @@
+```diff
+--- a/requests/sessions.py
++++ b/requests/sessions.py
+@@ -776,7 +776,7 @@
+                     allow_redirects=False,
+                     **kwargs
+                 )
+-                prep = self.prepare_request(req)
++                prep = self.prepare_request(resp.request)
+ 
+                 # This is necessary to avoid a circular dependency.
+                 # If this is not used, `resolve_redirects` will try to make a request.
+
+```

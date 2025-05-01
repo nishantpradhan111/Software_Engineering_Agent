@@ -1,0 +1,21 @@
+```diff
+--- a/lib/matplotlib/__init__.py
++++ b/lib/matplotlib/__init__.py
+@@ -20,6 +20,7 @@
+ from matplotlib import _api, cbook, rcsetup
+ from matplotlib import _version
+ from matplotlib._version import (
++    get_versions,
+     __version__,
+     __version_numpy__,
+     get_versions as _get_versions,
+@@ -117,6 +118,7 @@
+ 
+ # Make sure matplotlib.pyplot is available as plt, and that the latter points
+ # back to the former
++_version.version_info = get_versions()["version_info"]
+ pyplot = sys.modules["matplotlib.pyplot"] = _module_alias.AliasModule(
+     "matplotlib.pyplot", "matplotlib.pyplot")
+ 
+
+```

@@ -1,0 +1,23 @@
+```diff
+--- a/sklearn/model_selection/_split.py
++++ b/sklearn/model_selection/_split.py
+@@ -1313,6 +1313,15 @@
+         self.random_state = random_state
+ 
+     def __repr__(self):
++        return ('%s(n_splits=%i, n_repeats=%i, random_state=%s)' %
++                (self.__class__.__name__, self.n_splits,
++                 self.n_repeats, self.random_state))
++
++
++class RepeatedStratifiedKFold(_RepeatedSplits):
++    def __init__(self, n_splits=5, n_repeats=10, random_state=None):
++        super().__init__(StratifiedKFold, n_splits, n_repeats,
++                         random_state)
++
++    def __repr__(self):
+         return ('%s(n_splits=%i, n_repeats=%i, random_state=%s)' %
+                 (self.__class__.__name__, self.n_splits,
+                  self.n_repeats, self.random_state))
+
+```

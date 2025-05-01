@@ -1,0 +1,14 @@
+```diff
+--- a/tests/admin_views/test_multidb.py
++++ b/tests/admin_views/test_multidb.py
+@@ -38,7 +38,7 @@
+ 
+     @classmethod
+     def setUpTestData(cls):
+-        User.objects.create_superuser(
++        User._default_manager.db_manager('default').create_superuser(
+             username='admin', password='something', email='test@test.org',
+         )
+         cls.john = User.objects.create_user(
+
+```

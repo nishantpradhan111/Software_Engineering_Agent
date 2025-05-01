@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/simplify/fu.py
++++ b/sympy/simplify/fu.py
+@@ -501,7 +501,7 @@
+             rv = rv.func(rv.base, rv.exp + 1)
+         else:
+             rv = rv.func(rv.base, rv.exp - 1)
+-        if (rv.exp < 0) == True:
++        if rv.exp.is_negative:
+             rv = 1/rv
+         return rv
+     return bottom_up(rv, _f)
+
+```

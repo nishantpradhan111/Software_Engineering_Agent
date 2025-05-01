@@ -1,0 +1,19 @@
+```diff
+--- a/django/core/checks/translation.py
++++ b/django/core/checks/translation.py
+@@ -14,6 +14,12 @@
+ 
+ def check_language_settings(app_configs, **kwargs):
+     errors = []
++    from django.conf import settings
++
++    language_code = settings.LANGUAGE_CODE
++    if '-' in language_code:
++        generic_lang_code = language_code.split('-')[0]
++        if generic_lang_code in [lang[0] for lang in settings.LANGUAGES]:
++            return errors
+     if settings.LANGUAGE_CODE not in [lang[0] for lang in settings.LANGUAGES]:
+         errors.append(
+             checks.Error(
+
+```

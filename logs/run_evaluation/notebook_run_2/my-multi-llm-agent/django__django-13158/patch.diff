@@ -1,0 +1,30 @@
+```diff
+--- a/django/db/models/query.py
++++ b/django/db/models/query.py
+@@ -1618,17 +1618,15 @@
+         return self._clone()
+ 
+     def union(self, *other_qs, all=False):
+-        # Optimized handling of empty querysets.
++        # Correct handling of empty querysets.
+         # An empty queryset in a union should behave as if it were absent
+         # from the union, returning the results of the other querysets.
+-        non_empty_qs = [qs for qs in other_qs if not qs.none()]
++        qs = [q for q in other_qs if not q.none()]
+ 
+-        if not non_empty_qs:
+-            # If all other querysets are empty, evaluate self.
++        if not qs and self.none():
++            # If all querysets are empty, return an empty queryset.
+             return self._clone()
+-        elif self.none() and non_empty_qs:
+-            # If self is empty but other querysets are not, return their union.
+-            return non_empty_qs[0].union(*non_empty_qs[1:], all=all)
++        elif not self.none():
++            qs.append(self)
+ 
+-        qs = non_empty_qs + [self]
+         return self._combinator(qs, "UNION", all=all)
+ 
+
+```

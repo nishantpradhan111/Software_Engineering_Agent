@@ -1,0 +1,47 @@
+```diff
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -132,24 +132,27 @@
+         # Check for conflicts if we are merging in a new media object.
+         if media:
+             for name in self._js:
+-                if name in media._js and self._js.index(name) > media._js.index(name):
+-                    warnings.warn(
+-                        "Detected duplicate Media files in an opposite order:\n%s" % "\n".join(self._js),
+-                        MediaOrderConflictWarning,
+-                    )
+-                    return
++                try:
++                    if self._js.index(name) > media._js.index(name):
++                        warnings.warn(
++                            "Detected duplicate Media files in an opposite order:\n%s" % "\n".join(
++                                [n for n in self._js + media._js if n in self._js and n in media._js]
++                            ),
++                            MediaOrderConflictWarning,
++                        )
++                        return
++                except ValueError:
++                    pass
+             self._js.extend([name for name in media._js if name not in self._js])
+ 
+             for name in self._css:
+-                if name in media._css and self._css.index(name) > media._css.index(name):
+-                    warnings.warn(
+-                        "Detected duplicate Media files in an opposite order:\n%s" % "\n".join(self._css),
+-                        MediaOrderConflictWarning,
+-                    )
+-                    return
++                try:
++                    if self._css.index(name) > media._css.index(name):
++                        warnings.warn(
++                            "Detected duplicate Media files in an opposite order:\n%s" % "\n".join(
++                                [n for n in self._css + media._css if n in self._css and n in media._css]
++                            ),
++                            MediaOrderConflictWarning,
++                        )
++                        return
++                except ValueError:
++                    pass
+             self._css.extend([name for name in media._css if name not in self._css])
+
+```

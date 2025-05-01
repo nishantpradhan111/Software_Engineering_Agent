@@ -1,0 +1,28 @@
+```diff
+--- a/django/core/management/commands/inspectdb.py
++++ b/django/core/management/commands/inspectdb.py
+@@ -25,6 +25,7 @@
+ from django.db import connections, DEFAULT_DB_ALIAS
+ from django.db.backends.base.schema import BaseDatabaseSchemaEditor
+ from django.utils.datastructures import OrderedSet
++from django.utils.text import camel_case_to_spaces
+ 
+ 
+ class Command(BaseCommand):
+@@ -331,6 +332,14 @@
+                 field_output.append(
+                     "%s = models.%s(%s)" % (
+                         column.name,
++                        # Add related_name if it's a ForeignKey and the model names match.
++                        # This prevents reverse accessor clashes.
++                        'related_name=\'%s\', ' % (column.name + '_set',)
++                        if column.foreign_key and column.foreign_key.rel_to == table_name else
++                        '',
++
++
++
+                         field_class,
+                         field_options,
+                     )
+
+```

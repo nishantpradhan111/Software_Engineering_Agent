@@ -1,0 +1,16 @@
+```diff
+--- a/astropy/io/ascii/core.py
++++ b/astropy/io/ascii/core.py
+@@ -1707,6 +1707,10 @@
+     if "exclude_names" in kwargs:
+         writer.header.exclude_names = kwargs["exclude_names"]
+ 
++    # Handle header_rows directly, requires Writer has a valid `header` attribute.
++    if "header_rows" in kwargs:
++        writer.header.header_rows = kwargs["header_rows"]
++
+     # Handle comment definition
+     if "comment" in kwargs:
+         # If the user provides a comment string, handle appropriately.
+
+```

@@ -1,0 +1,18 @@
+```diff
+--- a/test_path_error.py
++++ b/test_path_error.py
+@@ -18,10 +18,12 @@
+             raise
+     os.mkdir(out_dir)
+ 
++    old_cwd = os.getcwd()
+     old_dir = os.getcwd()
+     os.chdir(out_dir)
+     yield out_dir
+     os.chdir(old_dir)
++    pytest.old_cwd = old_cwd  # added
+ 
+     # Same issue if using:
+     # monkeypatch.chdir(out_dir)
+
+```

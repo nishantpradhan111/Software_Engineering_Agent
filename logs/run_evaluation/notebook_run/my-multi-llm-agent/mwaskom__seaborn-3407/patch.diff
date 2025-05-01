@@ -1,0 +1,14 @@
+```diff
+--- a/seaborn/axisgrid.py
++++ b/seaborn/axisgrid.py
+@@ -1488,7 +1488,7 @@
+                 plt.sca(ax)
+ 
+             # Get the data and draw the plot
+-            vector = self.data[var]
++            vector = self.data.get(var, None) or self.data.loc[:, var]
+             if self._hue_var is not None:
+                 hue = self.data[self._hue_var]
+ 
+
+```

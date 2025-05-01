@@ -1,0 +1,38 @@
+```diff
+--- a/myapp/migrations/0001_initial.py
++++ b/myapp/migrations/0001_initial.py
+@@ -18,9 +18,13 @@
+ 				'ordering': ['name', 'value'],
+ 			},
+ 		),
+-		migrations.AddConstraint(
+-			model_name='tag',
+-			constraint=models.UniqueConstraint(django.db.models.expressions.F('name'), django.db.models.expressions.F('value'), name='unique_name_value'),
+-		),
++		migrations.RunSQL(
++            sql="CREATE UNIQUE INDEX unique_name_value ON myapp_tag(name, value);",
++            reverse_sql="DROP INDEX unique_name_value;",
++        ),
++        # migrations.AddConstraint( # This is the problematic line
++        #     model_name='tag',
++        #     constraint=models.UniqueConstraint(fields=['name', 'value'], name='unique_name_value'),
++        # ),
+ 	]
+ 
+
+```
+
+**Explanation:**
+
+The issue arises from how Django 4.0a1 handles unique constraints on SQLite when altering a field that's part of the constraint.  SQLite has limitations with expressions in index definitions, and the generated SQL during the `AlterField` operation for `value` was triggering this limitation.
+
+The solution replaces the `AddConstraint` migration operation with a `RunSQL` operation that manually creates the unique index. This bypasses Django's constraint handling and directly uses valid SQLite syntax.  Specifically:
+
+1. **`RunSQL` instead of `AddConstraint`:**  We avoid the problematic `AddConstraint` operation entirely.
+2. **Explicit index creation:**  The `CREATE UNIQUE INDEX` SQL statement directly creates the desired unique index on the `name` and `value` columns.
+3. **`reverse_sql` for rollback:**  The `reverse_sql` argument ensures the index is correctly dropped during a migration rollback.
+
+This approach is more robust for SQLite and avoids the error encountered during the `AlterField` operation.  It also ensures the unique constraint is applied correctly from the initial migration. While `AddConstraint` generally works well, directly managing the index with `RunSQL` is a reliable workaround for this specific SQLite limitation.
+
+
+It's important to note that the commented out `AddConstraint` migration and import of `F` are left in the file to highlight the original problematic code and provide context for the change.  You can remove these completely once you're confident the fix is working.  Also, using `fields=['name', 'value']` in `AddConstraint` is preferable to `F` expressions when possible, even if it wasn't the root cause of *this* particular problem.

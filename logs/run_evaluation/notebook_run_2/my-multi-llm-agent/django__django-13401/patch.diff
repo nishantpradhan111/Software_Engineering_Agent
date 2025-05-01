@@ -1,0 +1,36 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -198,12 +198,12 @@
+         return (
+             self.name == other.name and
+             self.attname == other.attname and
+-            self.model == other.model and  # Re-add model check for __eq__
++            self.model is other.model and  # Check if models are the same instance, or both None
+             self.concrete == other.concrete and
+             self.many_to_many == other.many_to_many and
+             self.many_to_one == other.many_to_one and
+             self.one_to_many == other.one_to_many and
+             self.one_to_one == other.one_to_one and
+-            (self.model is None or self.creation_counter == other.creation_counter) # Preserve original conditional logic
++            (self.model is None or self.creation_counter == other.creation_counter)
+         )
+ 
+     def __lt__(self, other):
+@@ -213,12 +213,12 @@
+ 
+     def __hash__(self):
+         return hash((
+-            self.model,  # Include model in hash
++            self.model,  # Include model identity in hash
+             self.name,
+             self.attname,
+             self.concrete,
+             self.many_to_many,
+-            self.creation_counter, 
++            self.creation_counter,
+         ))
+ 
+     def __repr__(self):
+
+```

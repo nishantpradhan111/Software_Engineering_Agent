@@ -1,0 +1,55 @@
+```diff
+--- a/django/core/files/storage.py
++++ b/django/core/files/storage.py
+@@ -50,6 +50,12 @@
+ 
+ 
+ class FileSystemStorage(Storage):
++    """
++    Standard filesystem storage.
++
++    The default value of `file_permissions_mode` is now `0o644` instead of `None`.
++    """
++
+     def __init__(self, location=None, base_url=None, file_permissions_mode=None):
+         self._location = location
+         self._base_url = base_url
+@@ -57,7 +63,7 @@
+         if self._location is None:
+             self._location = settings.MEDIA_ROOT
+         if self._base_url is None:
+-            self._base_url = settings.MEDIA_URL
++            self._base_url = settings.MEDIA_URL.rstrip('/') + '/'  # Ensure trailing slash.
+         # Permissions are set on the directory and the files only if the
+         # FILE_UPLOAD_PERMISSIONS or directory_permissions_mode settings have
+         # been explicitly defined. Otherwise, the default OS permissions are
+@@ -67,7 +73,7 @@
+             self._file_permissions_mode = settings.FILE_UPLOAD_PERMISSIONS
+         if self._directory_permissions_mode is None:
+             self._directory_permissions_mode = settings.DIRECTORY_UPLOAD_PERMISSIONS
+-        self._file_permissions_mode = file_permissions_mode
++        self._file_permissions_mode = file_permissions_mode or 0o644  # Default to 0o644
+
+     def _open(self, name, mode='rb'):
+         return File(os.path.join(self._location, name), mode)
+
+```
+```diff
+--- a/docs/ref/files/uploads.txt
++++ b/docs/ref/files/uploads.txt
+@@ -165,6 +165,13 @@
+ directory. To set custom permissions, use the ``FILE_UPLOAD_PERMISSIONS`` and
+ ``DIRECTORY_UPLOAD_PERMISSIONS`` settings.
+ 
++The default value for ``FILE_UPLOAD_PERMISSIONS`` is ``0o644`` (read/write for
++owner, read-only for group and others).  Previously, when no explicit value
++was set for ``FILE_UPLOAD_PERMISSIONS``, file permissions could vary depending on the
++underlying mechanism used for temporary file storage during upload, and might
++have resulted in overly restrictive permissions (e.g., 0o600).  Setting the
++default to ``0o644`` ensures consistent and more permissive file access.
++
+ .. _file-storage-security:
+ 
+ Security considerations
+
+```

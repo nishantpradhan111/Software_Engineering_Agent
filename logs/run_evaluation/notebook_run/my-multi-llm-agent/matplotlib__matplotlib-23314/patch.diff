@@ -1,0 +1,31 @@
+```diff
+--- a/lib/matplotlib/axes/_axes.py
++++ b/lib/matplotlib/axes/_axes.py
+@@ -1108,6 +1108,12 @@
+         return
+ 
+     def set_visible(self, b):
++        """
++        Set the artist's visibility.
++
++        Parameters
++        ----------
++        b : bool
++        """
+         self._visible = b
+         # We need to inform the artist *and* the Axes base class of
+         # visibility changes -- the artist for its rendering, and the
+@@ -1116,6 +1122,10 @@
+             self.stale = True
+         if self._axes is not None:
+             self._axes._stale = True
++        if hasattr(self, 'patch'):
++            self.patch.set_visible(b)
++        if hasattr(self, 'xaxis'):
++            self.xaxis.set_visible(b)
++        if hasattr(self, 'yaxis'):
++            self.yaxis.set_visible(b)
+         self.figure._stale = True  # also need to rebuild the figure
+ 
+
+```

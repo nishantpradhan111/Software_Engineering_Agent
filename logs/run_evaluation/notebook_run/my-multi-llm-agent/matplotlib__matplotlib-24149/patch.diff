@@ -1,0 +1,14 @@
+```diff
+--- a/lib/matplotlib/axes/_axes.py
++++ b/lib/matplotlib/axes/_axes.py
+@@ -2168,7 +2168,7 @@
+         dx = np.asarray(dx)
+ 
+     # If any of the values are nan, we want to propagate this to the return
+-    # array, but mean can't handle it, so replace temporarily.
++    # values.
+     try:
+         with np.errstate(invalid="ignore"):
+             # size=1 is needed in case dx is empty.  If it is empty we want to
+
+```

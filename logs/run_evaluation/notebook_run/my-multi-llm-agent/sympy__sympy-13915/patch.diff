@@ -1,0 +1,21 @@
+```diff
+--- a/sympy/core/basic.py
++++ b/sympy/core/basic.py
+@@ -1161,7 +1161,14 @@
+             return self
+ 
+         if isinstance(x, AssocOp) and x.is_commutative:
+-            return x.subs(point)
++            # Avoid substitution into an expression that is identically zero
++            # if the substitution will produce a division by zero
++            if x.is_Add and point[0] in x.args:
++                other_terms = x.remove(point[0])
++                if other_terms == -point[1]:
++                    return S.NaN
++            else:
++                return x.subs(point)
+ 
+         if x.is_Pow and x.exp.is_Rational and x.exp.is_negative:
+             base = x.base.subs(point)
+
+```

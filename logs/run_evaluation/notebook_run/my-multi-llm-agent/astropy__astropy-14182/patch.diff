@@ -1,0 +1,31 @@
+```diff
+--- a/astropy/io/ascii/rst.py
++++ b/astropy/io/ascii/rst.py
+@@ -41,7 +41,7 @@
+ 
+ 
+ class RST(FixedWidth):
+-    """Write a table in RST format.
++    """Write a table in restructured text (RST) format.
+ 
+     This format is used by Sphinx and other documentation generators.
+ 
+@@ -70,6 +70,8 @@
+         formats (dict, optional): A dictionary column name to format specifier.
+             Not available for RST tables.
+         strip_whitespace : bool, optional
++        header_rows : int, optional
++            The number of rows to write as header.
+         names (iterable, optional): A list of names corresponding to each data
+             column.  Must be the same length as n_data_cols.  Overrides
+             ``table.colnames``.
+@@ -99,6 +101,7 @@
+         self.formats = formats
+         self.strip_whitespace = strip_whitespace
+         self.names = names
++        self.header_rows = header_rows
+         self._table = None
+ 
+     def write(self, table):
+
+```

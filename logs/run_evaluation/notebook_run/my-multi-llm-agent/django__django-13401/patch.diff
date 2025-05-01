@@ -1,0 +1,45 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -244,16 +244,19 @@
+         return (
+             self.__class__ == other.__class__ and
+             self.name == other.name and
+-            self.attname == other.attname and
+             self.default == other.default and
+             self.verbose_name == other.verbose_name and
+             self.help_text == other.help_text and
+             self.primary_key == other.primary_key and
+             self.unique == other.unique and
+             self.blank == other.blank and
+-            self.null == other.null and
+-            self.db_index == other.db_index and
+-            self.rel == other.rel and
++            self.null == other.null and            
++            self.db_index == other.db_index and            
++            self.rel == other.rel and            
+             self.serialize == other.serialize and
+             self._validators == other._validators and
++            self.model == other.model and
++            self.attname == other.attname and
+             self.creation_counter == other.creation_counter
+         )
+ 
++    def __hash__(self):
++        return hash((
++            self.__class__, self.name, self.attname, self.default, self.verbose_name,
++            self.help_text, self.primary_key, self.unique, self.blank, self.null, self.db_index,
++            self.rel, self.serialize, self._validators, self.creation_counter, self.model
++        ))
++
+     def __lt__(self, other):
+         # This is needed because bisect does not take a comparison function.
+-        if isinstance(other, Field):
+-            return self.creation_counter < other.creation_counter
++        if (self.model == other.model):
++            return self.creation_counter < other.creation_counter
++        else:
++            return (self.model, self.creation_counter) < (other.model, other.creation_counter)
+         return NotImplemented
+
+```

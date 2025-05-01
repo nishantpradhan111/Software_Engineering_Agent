@@ -1,0 +1,14 @@
+```diff
+--- a/lib/matplotlib/backends/backend_qtagg.py
++++ b/lib/matplotlib/backends/backend_qtagg.py
+@@ -24,7 +24,7 @@
+ 
+ 
+ def draw_if_interactive():
+-    if matplotlib.is_interactive():
++    if matplotlib.is_interactive() and plt.get_fignums():
+         manager = Gcf.get_active()
+         if manager:
+             manager.canvas.draw_idle()
+
+```

@@ -1,0 +1,15 @@
+```diff
+--- a/sympy/ntheory/residue_ntheory.py
++++ b/sympy/ntheory/residue_ntheory.py
+@@ -693,6 +693,9 @@
+     if not isprime(p):
+         raise ValueError("p must be prime")
+ 
++    if a % p == 0:
++        return 0
++
+     if n == 0:
+         if a == 1:
+             return 1
+
+```

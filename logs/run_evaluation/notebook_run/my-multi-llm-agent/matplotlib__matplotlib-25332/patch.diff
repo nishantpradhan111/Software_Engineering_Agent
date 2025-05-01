@@ -1,0 +1,28 @@
+```diff
+--- a/align.py
++++ b/align.py
+@@ -1,5 +1,6 @@
+ import matplotlib.pyplot as plt
+ import pickle
++import weakref
+ 
+ fig = plt.figure()
+ ax1 = fig.add_subplot(211)
+@@ -13,7 +14,14 @@
+ ax2.plot(time,acc)
+ ax2.set_ylabel('acc')
+ 
+-fig.align_labels() ##pickling works after removing this line 
++fig.align_labels()
++
++# Manually break weakrefs created by align_labels before pickling
++for ax in fig.axes:
++    if hasattr(ax, '_shared_y_axes'):
++        ax._shared_y_axes = weakref.WeakSet(ax._shared_y_axes)
++    if hasattr(ax, '_shared_x_axes'):
++        ax._shared_x_axes = weakref.WeakSet(ax._shared_x_axes)
+ 
+ pickle.dumps(fig)
+ plt.show()
+
+```

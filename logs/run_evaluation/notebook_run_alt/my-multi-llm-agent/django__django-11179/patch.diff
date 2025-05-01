@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/deletion.py
++++ b/django/db/models/deletion.py
+@@ -273,7 +273,7 @@
+             if not instances_to_skip:
+                 # If there are no FKs/M2Ms, the model is orphaned, so we can update its instance.
+                 for instance in instances:
+-                    setattr(instance, instance._meta.pk.attname, None)
++                    instance.pk = None
+                     # Clear the _state cache -- the pk is gone.
+                     instance._state.db = None
+             return
+
+```

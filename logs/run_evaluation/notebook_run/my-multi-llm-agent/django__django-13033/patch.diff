@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -1369,7 +1369,7 @@
+                 if alias == table_name:
+                     # Ignore ordering by the relation itself.
+                     continue
+-                if field.remote_field and field.remote_field.model == opts.model:
++                if field.is_relation and field.remote_field and field.remote_field.model == opts.model:
+                     # Ordering by a foreign key to the same model.
+                     meta = opts
+                     while meta:
+
+```

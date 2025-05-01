@@ -1,0 +1,63 @@
+```diff
+--- a/django/contrib/auth/tokens.py
++++ b/django/contrib/auth/tokens.py
+@@ -20,7 +20,7 @@
+ 
+ 
+ class PasswordResetTokenGenerator(default_token_generator_class):
+-    def _make_hash_value(self, user, timestamp):
++    def _make_hash_value(self, user, timestamp, email=None):
+         """
+         Hash the user's primary key, timestamp, and SECRET_KEY setting.
+         """
+@@ -28,6 +28,9 @@
+         # timestamp is converted to a string to avoid accidental type errors. See
+         # issue #20419.
+         value = str(user.pk) + str(timestamp) + settings.SECRET_KEY
++        if email is not None:
++            value += email
++
+         return make_password(value, settings.SECRET_KEY)
+ 
+     def check_token(self, user, token):
+@@ -38,7 +41,7 @@
+         try:
+             ts_b36, hash = token.split("-")
+         except ValueError:
+-            return False
++            return None  # Ensure that check_token returns None on an invalid token
+ 
+         try:
+             ts = base36_to_int(ts_b36)
+@@ -47,11 +50,14 @@
+ 
+         # Check that the timestamp/uid has not been tampered with.
+         if not constant_time_compare(self._make_hash_value(user, ts), hash):
+-            return False
++            return None
+ 
+         # Check the timestamp is within limit. Timestamps are rounded to
+         # midnight (server time) providing a resolution of only 1 day. If a
+         # link is generated on the first of the month and used on the second,
+         # the check will succeed. The extra leeway is fine since the link will
+         # expire at midnight on the day it was created.
+-        return self._num_days(self._today() - date(ts.year, ts.month, ts.day)) <= settings.PASSWORD_RESET_TIMEOUT_DAYS
++        if self._num_days(self._today() - date(ts.year, ts.month, ts.day)) > settings.PASSWORD_RESET_TIMEOUT_DAYS:
++            return None
++
++        return True
+
+
+--- a/django/contrib/auth/forms.py
++++ b/django/contrib/auth/forms.py
+@@ -488,7 +488,7 @@
+         opts = {
+             'use_https': self.request.is_secure(),
+             'request': self.request,
+-            'from_email': settings.DEFAULT_FROM_EMAIL,
++            'from_email': getattr(settings, 'DEFAULT_FROM_EMAIL', settings.SERVER_EMAIL),
+         }
+         opts.update(kwargs)
+         form_kwargs = {'email': user.email}
+
+```

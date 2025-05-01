@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/query.py
++++ b/django/db/models/query.py
+@@ -965,7 +965,7 @@
+             deleted_counter = Counter()
+         with transaction.atomic(using=self.db, savepoint=False):
+             for obj in self.iterator():
+-                if not isinstance(obj, DeletedObject):
++                if obj.pk is not None and not isinstance(obj, DeletedObject):
+                     deleted_counter[obj._meta.label] += 1
+                 obj.delete(using=self.db, _force_ignore_parent_deletion_restriction=True)
+         return sum(deleted_counter.values()), dict(deleted_counter)
+
+```

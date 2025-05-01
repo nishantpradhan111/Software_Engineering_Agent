@@ -1,0 +1,19 @@
+```diff
+--- a/conf.py
++++ b/conf.py
+@@ -XX,6 +XX,7 @@
+ # Add any Sphinx extension module names here, as strings. They can be
+ # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
+ # ones.
++numfig = True
+ extensions = [
+     'sphinx.ext.autodoc',
+     'sphinx.ext.napoleon',
+
+```
+
+**Explanation:**
+
+The "WARNING: no number is assigned for table" message in Sphinx 3.3+ typically indicates that automatic numbering for tables (and figures) is disabled.  The `numfig` configuration option controls this behavior. By setting `numfig = True` in your `conf.py` file, you enable automatic numbering for figures, tables, and code-blocks. This should resolve the warning.
+
+**Note:** Replace `XX` with the appropriate line number in your `conf.py` file where you add your extensions. If `numfig` already exists and is set to `False`, simply change it to `True`. If the warning persists after this change, please provide more context, such as a minimal reproducible example, including the relevant RST source file and your Sphinx version.  There might be other factors at play, like custom CSS or extensions interfering with numbering.

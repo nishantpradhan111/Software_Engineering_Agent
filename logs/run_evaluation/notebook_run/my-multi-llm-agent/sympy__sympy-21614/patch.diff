@@ -1,0 +1,23 @@
+```diff
+--- a/sympy/core/function.py
++++ b/sympy/core/function.py
+@@ -779,7 +779,7 @@
+         # denests like Basic.subs
+         return self.func(expr.subs(*args, **kwargs), *variables, **kwargs)
+ 
+-    @property
++    @cacheit
+     def kind(self):
+         """
+         The kind of this derivative.
+@@ -791,7 +791,7 @@
+         kind = self.expr.kind
+         if isinstance(kind, MatrixKind):
+             return kind
+-        return UndefinedKind
++        return kind
+ 
+     def _eval_is_commutative(self):
+         return self.expr.is_commutative
+
+```

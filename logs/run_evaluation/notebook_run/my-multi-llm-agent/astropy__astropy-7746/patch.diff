@@ -1,0 +1,20 @@
+```diff
+--- a/astropy/wcs/wcs.py
++++ b/astropy/wcs/wcs.py
+@@ -1266,6 +1266,12 @@
+                     "be a list of equal length 1-D arrays, or N x M arrays "
+                     "where N is the number of axes and M is the number of "
+                     "coordinates, or a single NxM array where N is the number of coordinates and M is the number of axes, or "
++                    "a 1-D array for each axis, followed by an origin.")
++
++            if not axes:
++                if sky == 'input':
++                    return []
++                else:
++                    return [], []
++
+                     "a 1-D array for each axis, followed by an origin.")
+ 
+             return _return_list_of_arrays(axes, origin)
+
+```

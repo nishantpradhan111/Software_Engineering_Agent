@@ -1,0 +1,20 @@
+```diff
+--- a/django/db/models/query.py
++++ b/django/db/models/query.py
+@@ -1680,6 +1680,13 @@
+         return self._clone()
+ 
+     def _set_values(self, values):
++        if self._iterable_class == EmptyQuerySet:
++            # Prevent EmptyQuerySet from being populated by accidentally
++            # using non-empty values.
++            if values:
++                raise TypeError(
++                    "EmptyQuerySet can't be populated with non-empty values."
++                )
++            return
+         self._result_cache = list(values)
+         self._prefetch_done = False
+ 
+
+```

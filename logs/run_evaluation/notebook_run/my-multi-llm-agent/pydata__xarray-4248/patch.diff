@@ -1,0 +1,19 @@
+```diff
+--- a/xarray/core/dataset.py
++++ b/xarray/core/dataset.py
+@@ -1220,7 +1220,12 @@
+         )
+         summary = ["<xarray.{cls}>".format(cls=self.__class__.__name__)]
+ 
+-        all_vars = {k: self.variables[k] for k in sorted(self.variables)}
++        all_vars = {}
++        for k in sorted(self.variables):
++            var = self.variables[k]
++            units_str = f", in {var.attrs.get('units', '')}" if var.attrs.get('units', '') else ""
++            all_vars[k + units_str] = var
++
+         for name, var in all_vars.items():
+             dims_str = "({})".format(", ".join(map(str, var.dims)))
+             if name in self._coord_names:
+
+```

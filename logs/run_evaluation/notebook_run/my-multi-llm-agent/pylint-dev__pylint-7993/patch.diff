@@ -1,0 +1,14 @@
+```diff
+--- a/pylint/reporters/text.py
++++ b/pylint/reporters/text.py
+@@ -199,7 +199,7 @@
+         self._display(msg)
+ 
+     def _display(self, msg):
+-        if not isinstance(msg, str):
++        if not isinstance(msg, str) and msg is not None:
+             try:
+                 msg = msg.decode("utf-8")
+             except UnicodeDecodeError:
+
+```

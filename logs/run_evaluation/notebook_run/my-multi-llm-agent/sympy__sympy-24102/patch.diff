@@ -1,0 +1,29 @@
+```diff
+--- a/sympy/parsing/mathematica.py
++++ b/sympy/parsing/mathematica.py
+@@ -17,6 +17,7 @@
+ from sympy.core.symbol import Symbol
+ from sympy.core.numbers import Integer, Float
+ from sympy.core.containers import Tuple
++from sympy.core.mul import Mul
+ 
+ def parse_mathematica(s, local_dict=None, global_dict=None):
+     """Parses a string into a SymPy expression.
+@@ -114,7 +115,14 @@
+         global_dict=global_dict
+     )
+ 
+-    expr = mathematica_parser.parse_expression(s)
++    try:
++        expr = mathematica_parser.parse_expression(s)
++    except SyntaxError as e:
++        # If the expression is a single symbol, try to parse it as a Symbol
++        if len(s.strip()) == 1:
++            expr = Symbol(s)
++        else:
++            raise e
+ 
+     return expr
+ 
+
+```

@@ -1,0 +1,31 @@
+```diff
+--- a/_pytest/_io/saferepr.py
++++ b/_pytest/_io/saferepr.py
+@@ -55,7 +55,10 @@
+ 
+     def repr_instance(self, x, level):
+         try:
+-            s = repr(x)
++            s = x.__repr__()
++        except Exception as exc:
++            s = _format_repr_exception(
++                exc, x.__class__.__name__, id(x))
+         except RecursionError:
+             self._recursion_depth -= 1
+             if self._recursion_depth == 0:
+@@ -63,13 +66,6 @@
+             s = self.repr(x)
+             self._recursion_depth += 1
+         return s
+-
+-    def repr_instance(self, x, level):
+-        try:
+-            s = _format_repr_exception(exc, x)
+-        except RecursionError:  # pragma: no cover
+-            # recursion detected
+-            return f"<Recursion on {x.__class__.__name__} with id={id(x)}>"
+ 
+ 
+ def saferepr(obj, maxsize=240):
+
+```

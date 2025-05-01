@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/matrices/matrices.py
++++ b/sympy/matrices/matrices.py
+@@ -3873,7 +3873,7 @@
+         if not all(m.rows == rows for m in matrices):
+             raise ShapeError("`hstack` requires all matrices to have the same number of rows")
+         if rows == 0:
+-            cols = len(matrices)
++            cols = sum(m.cols for m in matrices)
+         else:
+             cols = sum(m.cols for m in matrices)
+         new = cls.zeros(rows, cols)
+
+```

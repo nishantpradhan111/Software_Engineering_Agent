@@ -1,0 +1,24 @@
+```diff
+--- a/reproduction.py
++++ b/reproduction.py
+@@ -1,5 +1,6 @@
+ import matplotlib.pyplot as plt
+ import pickle
++from matplotlib.backends.backend_agg import FigureCanvasAgg
+ 
+ fig = plt.figure()
+ ax = fig.add_subplot(111)
+@@ -11,6 +12,9 @@
+ ax.plot(time,speed,label="speed")
+ 
+ leg=ax.legend()
+-leg.set_draggable(True) #pickling works after removing this line 
++leg.set_draggable(True)
++
++# Switch to a pickle-friendly backend before pickling
++FigureCanvasAgg(fig)
+ 
+ pickle.dumps(fig)
+ plt.show()
+
+```

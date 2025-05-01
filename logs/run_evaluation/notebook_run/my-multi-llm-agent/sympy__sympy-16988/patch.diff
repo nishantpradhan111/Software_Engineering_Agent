@@ -1,0 +1,20 @@
+```diff
+--- a/sympy/sets/sets.py
++++ b/sympy/sets/sets.py
+@@ -1522,6 +1522,12 @@
+ 
+ 
+ def Intersection(*args):
++    # remove duplicates
++    args = list(ordered(args))
++    new_args = []
++    for a in args:
++        if a not in new_args:
++            new_args.append(a)
++    args = new_args
++
+     if not all(isinstance(arg, Set) for arg in args):
+         raise TypeError("Input must be Sets")
+     if len(args) == 0:
+
+```

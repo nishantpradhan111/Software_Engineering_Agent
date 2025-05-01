@@ -1,0 +1,57 @@
+2025-04-28 22:00:56,972 - INFO - Creating container for pylint-dev__pylint-6506...
+2025-04-28 22:00:57,826 - INFO - Container for pylint-dev__pylint-6506 created: 0d594ea8597fb5590343041c5e5a898c278d75dc5210d3bb24b59ff990084f8b
+2025-04-28 22:00:58,315 - INFO - Container for pylint-dev__pylint-6506 started: 0d594ea8597fb5590343041c5e5a898c278d75dc5210d3bb24b59ff990084f8b
+2025-04-28 22:00:58,318 - INFO - Intermediate patch for pylint-dev__pylint-6506 written to logs\run_evaluation\notebook_run\my-multi-llm-agent\pylint-dev__pylint-6506\patch.diff, now applying to container...
+2025-04-28 22:00:58,498 - INFO - Failed to apply patch to container: git apply --verbose
+2025-04-28 22:00:58,575 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-04-28 22:00:58,649 - INFO - >>>>> Applied Patch:
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 82 with fuzz 3 (offset -1 lines).
+patch unexpectedly ends in middle of line
+
+2025-04-28 22:00:58,897 - INFO - Git diff before:
+diff --git a/pylint/config/config_initialization.py b/pylint/config/config_initialization.py
+index 24e453a73..f3eab2fc9 100644
+--- a/pylint/config/config_initialization.py
++++ b/pylint/config/config_initialization.py
+@@ -82,7 +82,10 @@ def _config_initialization(
+     if unrecognized_options:
+         msg = ", ".join(unrecognized_options)
+         linter.add_message("unrecognized-option", line=0, args=msg)
+-        raise _UnrecognizedOptionError(options=unrecognized_options)
++        print(
++            f"usage: pylint [options] modules_or_packages\npylint: error: unrecognized arguments: {' '.join(unrecognized_options)}"
++        )
++        sys.exit(32)
+ 
+     # Set the current module to configuration as we don't know where
+     # the --load-plugins key is coming from
+2025-04-28 22:00:58,899 - INFO - Eval script for pylint-dev__pylint-6506 written to logs\run_evaluation\notebook_run\my-multi-llm-agent\pylint-dev__pylint-6506\eval.sh; copying to container...
+2025-04-28 22:01:01,447 - INFO - Test runtime: 2.45 seconds
+2025-04-28 22:01:01,449 - INFO - Test output for pylint-dev__pylint-6506 written to logs\run_evaluation\notebook_run\my-multi-llm-agent\pylint-dev__pylint-6506\test_output.txt
+2025-04-28 22:01:01,515 - INFO - Git diff after:
+diff --git a/pylint/config/config_initialization.py b/pylint/config/config_initialization.py
+index 24e453a73..f3eab2fc9 100644
+--- a/pylint/config/config_initialization.py
++++ b/pylint/config/config_initialization.py
+@@ -82,7 +82,10 @@ def _config_initialization(
+     if unrecognized_options:
+         msg = ", ".join(unrecognized_options)
+         linter.add_message("unrecognized-option", line=0, args=msg)
+-        raise _UnrecognizedOptionError(options=unrecognized_options)
++        print(
++            f"usage: pylint [options] modules_or_packages\npylint: error: unrecognized arguments: {' '.join(unrecognized_options)}"
++        )
++        sys.exit(32)
+ 
+     # Set the current module to configuration as we don't know where
+     # the --load-plugins key is coming from
+2025-04-28 22:01:01,515 - INFO - Grading answer for pylint-dev__pylint-6506...
+2025-04-28 22:01:01,517 - INFO - report: {'pylint-dev__pylint-6506': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['tests/config/test_config.py::test_unknown_option_name', 'tests/config/test_config.py::test_unknown_short_option_name']}, 'PASS_TO_PASS': {'success': [], 'failure': ['tests/config/test_config.py::test_can_read_toml_env_variable', 'tests/config/test_config.py::test_unknown_message_id', 'tests/config/test_config.py::test_unknown_confidence', 'tests/config/test_config.py::test_unknown_yes_no', 'tests/config/test_config.py::test_unknown_py_version', 'tests/config/test_config.py::test_short_verbose']}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for pylint-dev__pylint-6506: resolved: False
+2025-04-28 22:01:01,519 - INFO - Attempting to stop container sweb.eval.pylint-dev__pylint-6506.notebook_run...
+2025-04-28 22:01:17,460 - INFO - Attempting to remove container sweb.eval.pylint-dev__pylint-6506.notebook_run...
+2025-04-28 22:01:17,511 - INFO - Container sweb.eval.pylint-dev__pylint-6506.notebook_run removed.
+2025-04-28 22:01:17,511 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.pylint-dev_1776_pylint-6506:latest...
+2025-04-28 22:01:18,515 - INFO - Image swebench/sweb.eval.x86_64.pylint-dev_1776_pylint-6506:latest removed.

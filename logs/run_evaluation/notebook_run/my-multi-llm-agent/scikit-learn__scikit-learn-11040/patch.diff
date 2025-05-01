@@ -1,0 +1,20 @@
+```diff
+--- a/sklearn/neighbors/_base.py
++++ b/sklearn/neighbors/_base.py
+@@ -141,6 +141,15 @@
+             n_neighbors = self.n_neighbors
+         else:
+             n_neighbors = check_scalar(
++                n_neighbors,
++                "n_neighbors",
++                target_type=numbers.Integral,
++                min_val=1,
++            )
++        if isinstance(n_neighbors, numbers.Real):
++            n_neighbors = int(n_neighbors)
++        n_neighbors = check_scalar(
+                 n_neighbors,
+                 "n_neighbors",
+                 target_type=numbers.Integral,
+
+```

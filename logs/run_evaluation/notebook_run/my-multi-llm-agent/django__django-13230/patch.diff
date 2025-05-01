@@ -1,0 +1,40 @@
+```diff
+--- a/django/contrib/syndication/views.py
++++ b/django/contrib/syndication/views.py
+@@ -122,6 +122,7 @@
+         'categories': categories,
+         'enclosures': enclosures,
+         'item_copyright': item_copyright,
++        'comments': comments,
+     }
+     if extra_kwargs:
+         item_extra_kwargs.update(extra_kwargs)
+@@ -169,7 +170,7 @@
+     def add_item(self, title, link, description, author_email=None,
+                  author_name=None, author_link=None, pubdate=None, comments=None,
+                  unique_id=None, enclosures=None, categories=(),
+-                 item_copyright=None, ttl=None, updateddate=None, extra_kwargs=None):
++                 item_copyright=None, ttl=None, updateddate=None, extra_kwargs=None, item_comments=None):
+         """
+         Add an item to the feed. All args are expected to be strings except
+         pubdate and updateddate, which are datetime.datetime objects, and
+@@ -185,6 +186,8 @@
+ 
+         enclosures -- A list of dictionaries with enclosure data.
+         categories -- A list of strings or a nested list of strings with
++                     subcategories.
++        item_comments -- A string with the url to the comments page for the item.
+                       subcategories.
+         item_copyright -- Copyright information for the item.
+         ttl -- Time to live in seconds.
+@@ -197,6 +200,8 @@
+         if categories:
+             item_extra_kwargs['categories'] = categories
+         if enclosures:
++            item_extra_kwargs['enclosures'] = enclosures
++        if item_comments:
+             item_extra_kwargs['comments'] = item_comments
+         if item_copyright:
+             item_extra_kwargs['item_copyright'] = item_copyright
+
+```

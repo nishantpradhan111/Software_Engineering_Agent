@@ -1,0 +1,14 @@
+```diff
+--- a/sklearn/feature_selection/_mutual_info.py
++++ b/sklearn/feature_selection/_mutual_info.py
+@@ -278,7 +278,7 @@
+     # and not an array of integers.
+     if discrete_features == "auto":
+         discrete_mask = is_discrete(X)
+-    elif discrete_features.dtype == "bool":
++    elif isinstance(discrete_features, np.ndarray) and discrete_features.dtype == "bool":
+         discrete_mask = discrete_features
+     else:
+         discrete_mask = np.zeros(n_features, dtype=bool)
+
+```

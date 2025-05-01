@@ -1,0 +1,88 @@
+/eval.sh: line 2: set: pipefail: invalid option name
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 3: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ cd $'/testbed\r'
+/eval.sh: line 5: cd: $'/testbed\r': No such file or directory
++ git config --global --add safe.directory $'/testbed\r'
++ cd $'/testbed\r'
+/eval.sh: line 7: cd: $'/testbed\r': No such file or directory
++ git $'status\r'
+git: 'status' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
++ git $'show\r'
+git: 'show' is not a git command. See 'git --help'.
+
+The most similar command is
+	show
++ git -c core.fileMode=false diff $'4fe3774c729f3fd5105b3001fe69a70bdca95ac3\r'
+fatal: ambiguous argument '4fe3774c729f3fd5105b3001fe69a70bdca95ac3?': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 11: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ python -m pip install -e $'.\r'
+ERROR: . is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
++ git checkout 4fe3774c729f3fd5105b3001fe69a70bdca95ac3 tests/field_deconstruction/tests.py tests/invalid_models_tests/test_relative_fields.py $'tests/model_meta/models.py\r'
+error: pathspec 'tests/model_meta/models.py?' did not match any file(s) known to git
++ git apply -v -
+Checking patch tests/field_deconstruction/tests.py...
+error: while searching for:
+            m2m = models.ManyToManyField('self')?
+            m2m_related_name = models.ManyToManyField(?
+                'self',?
+                related_name='custom_name',?
+                related_query_name='custom_query_name',?
+                limit_choices_to={'flag': True},?
+            )?
+
+error: patch failed: tests/field_deconstruction/tests.py:438
+error: tests/field_deconstruction/tests.py: patch does not apply
+Checking patch tests/invalid_models_tests/test_relative_fields.py...
+error: while searching for:
+            ),?
+        ])?
+?
+    def test_ambiguous_relationship_model_from(self):?
+        class Person(models.Model):?
+            pass?
+
+error: patch failed: tests/invalid_models_tests/test_relative_fields.py:128
+error: tests/invalid_models_tests/test_relative_fields.py: patch does not apply
+Checking patch tests/model_meta/models.py...
+error: while searching for:
+?
+    # M2M fields?
+    m2m_abstract = models.ManyToManyField(Relation, related_name='m2m_abstract_rel')?
+    friends_abstract = models.ManyToManyField('self', related_name='friends_abstract', symmetrical=True)?
+    following_abstract = models.ManyToManyField('self', related_name='followers_abstract', symmetrical=False)?
+?
+    # VIRTUAL fields?
+
+error: patch failed: tests/model_meta/models.py:23
+error: tests/model_meta/models.py: patch does not apply
++ : '>>>>> Start Test Output'
++ ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 field_deconstruction.tests invalid_models_tests.test_relative_fields $'model_meta.models\r'
+Traceback (most recent call last):
+  File "/testbed/./tests/runtests.py", line 16, in <module>
+    import django
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/testbed/./tests/runtests.py", line 18, in <module>
+    raise RuntimeError(
+RuntimeError: Django module not found, reference tests/README.rst for instructions.
++ : '>>>>> End Test Output'
++ git checkout 4fe3774c729f3fd5105b3001fe69a70bdca95ac3 tests/field_deconstruction/tests.py tests/invalid_models_tests/test_relative_fields.py $'tests/model_meta/models.py\r'
+error: pathspec 'tests/model_meta/models.py?' did not match any file(s) known to git

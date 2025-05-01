@@ -1,0 +1,16 @@
+```diff
+--- a/django/db/models/options.py
++++ b/django/db/models/options.py
+@@ -156,7 +156,10 @@
+         ordering = []
+         for parent, field in concrete_model._meta.get_parent_list():
+             ordering.extend(parent._meta.ordering)
+-        return ordering
++        # If ordering has been explicitly defined on this model (not inherited),
++        # use that ordering instead of the inherited ordering.
++        return self.ordering if self.ordering else ordering
+ 
+     def get_primary_key_field(self):
+         """
+
+```

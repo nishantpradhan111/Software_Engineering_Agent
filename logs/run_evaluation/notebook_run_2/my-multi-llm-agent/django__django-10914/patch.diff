@@ -1,0 +1,31 @@
+```diff
+--- a/django/core/files/storage.py
++++ b/django/core/files/storage.py
+@@ -52,14 +52,13 @@
+ 
+     file_permissions_mode = None
+ 
+-    default_permissions = 0o644
++    default_permissions = None
+ 
+     def get_default_permissions(self):
+         """Return the default permissions for a newly created file."""
+         if self.file_permissions_mode is not None:
+             return self.file_permissions_mode
+-        # Only use `default_permissions` if `file_permissions_mode` is not set.
+-        return self.default_permissions
++        return self.default_permissions or (platform.os.O_RDONLY if sys.platform == 'win32' else 0o644)
+ 
+     def _open(self, name, mode='rb'):
+         return File(open(self.path(name), mode))
+@@ -326,7 +325,7 @@
+         with open(full_path, 'wb') as fd:
+             for chunk in content.chunks():
+                 fd.write(chunk)
+-        if self.file_permissions_mode is not None or self.default_permissions is not None:
++        if self.file_permissions_mode is not None or self.default_permissions is not None:  # pragma: no branch
+             os.chmod(full_path, self.get_default_permissions())
+         return name
+ 
+
+```

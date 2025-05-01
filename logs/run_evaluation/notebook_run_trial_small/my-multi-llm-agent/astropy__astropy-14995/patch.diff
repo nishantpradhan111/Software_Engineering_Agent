@@ -1,0 +1,20 @@
+--- a/astropy/nddata/mixins/ndarithmetic.py
++++ b/astropy/nddata/mixins/ndarithmetic.py
+@@ -234,16 +234,14 @@
+         else:
+             other_mask = None
+ 
+-        if handle_mask is not False:
++        if handle_mask is not False and (self_mask is not None or other_mask is not None):
+             # We need to handle this case separately because
+             # np.bitwise_or with None fails.
+             if other_mask is None:
+-                result_mask = self_mask
++                result_mask = self_mask.copy() if self_mask is not None else None
+             elif self_mask is None:
+                 result_mask = other_mask.copy()
+             else:
+-
+                 result_mask = handle_mask(self_mask, other_mask)
+         else:
+             # If there is no mask handler just copy the mask.  This might not be

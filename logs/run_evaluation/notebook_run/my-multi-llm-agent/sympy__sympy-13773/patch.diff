@@ -1,0 +1,21 @@
+```diff
+--- a/matrix.py
++++ b/matrix.py
+@@ -144,7 +144,14 @@
+         return Matrix(result)
+ 
+     def __matmul__(self, other):
+-        return self.__mul__(other)
++        if not isinstance(other, Matrix):
++            raise TypeError("Matrix multiplication requires two Matrix objects")
++
++        if self.cols != other.rows:
++            raise ValueError(
++                f"Matrices are not compatible for multiplication: {self.shape} and {other.shape}"
++            )
++        return self * other  # Use existing __mul__ implementation
+ 
+     def __rmatmul__(self, other):
+         if not isinstance(other, Matrix):
+
+```

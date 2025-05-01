@@ -1,0 +1,58 @@
+```diff
+--- a/sphinx/ext/autodoc/importer.py
++++ b/sphinx/ext/autodoc/importer.py
+@@ -320,7 +320,7 @@
+         if modname is None and name is not None:
+             # only name is given, resolve the object name
+             try:
+-                obj, parent = self._resolve_name(fullname)
++                obj, parent, modname = self._resolve_name(fullname)
+             except ImportError as exc:
+                 if self.options.ignore_module_all_failures:
+                     logger.warning(__('failed to import %s: %s'), fullname, exc)
+@@ -334,7 +334,7 @@
+                 obj, parent = self._resolve_name(fullname, package)
+             except ImportError as exc:
+                 if self.options.ignore_module_all_failures:
+-                    logger.warning(__('failed to import %s: %s'), fullname, exc)
++                    logger.warning(__('failed to import %s (package: %s): %s'), fullname, package, exc)
+                     return
+                 else:
+                     raise
+@@ -363,11 +363,12 @@
+         return obj, parent, modname
+ 
+     def _resolve_name(self, fullname: str, package: str = None) -> Tuple[Any, Any, str]:
+-        obj = None
+         try:
+             obj = import_object(fullname, self.warnings, package)
++            parent = inspect.getmodule(obj)
++            modname = parent.__name__ if parent else None
++            return obj, parent, modname
+         except AttributeError as err:
+-            logger.verbose(__('failed to import %s: %s'), fullname, err)
+             parts = fullname.split('.')
+             modname = '.'.join(parts[:-1])
+             try:
+@@ -376,7 +377,7 @@
+                 return getattr(mod, parts[-1]), mod, modname
+             except ImportError as exc:
+                 if self.options.ignore_module_all_failures:
+-                    logger.warning(__('failed to import %s: %s'), fullname, exc)
++                    logger.warning(__('failed to import %s (package: %s): %s'), fullname, package, exc)
+                     return None, None, None
+                 else:
+                     raise
+@@ -385,10 +386,6 @@
+                 raise
+         except ImportError as exc:
+             raise
+-
+-        parent = inspect.getmodule(obj)
+-        modname = parent.__name__ if parent else None
+-        return obj, parent
+ 
+ 
+ class Documenter:
+
+```

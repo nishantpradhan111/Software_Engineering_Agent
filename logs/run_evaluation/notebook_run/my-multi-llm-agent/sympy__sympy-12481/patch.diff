@@ -1,0 +1,31 @@
+```diff
+--- a/permutation.py
++++ b/permutation.py
+@@ -29,14 +29,7 @@
+ 
+     def __init__(self, cycles=None, size=None):
+         if cycles is None:
+-            if size is None:
+-                raise ValueError("Must specify either cycles or size")
+-            cycles = []
+-        elif size is not None:
+-            raise ValueError("Cannot specify both cycles and size")
+-
+-        for cycle in cycles:
+-            if len(set(cycle)) != len(cycle):
+-                raise ValueError("Cycles must be disjoint")
++            cycles = [] if size is None else []
+ 
+         self.size = size
+         self.mapping = list(range(self.size if self.size is not None else 0))
+@@ -45,6 +38,8 @@
+             if not cycle:
+                 continue
+ 
++            if self.size is None:
++                self.size = max(cycle) + 1
+             for i in range(len(cycle)):
+                 a = cycle[i]
+                 b = cycle[(i + 1) % len(cycle)]
+
+```

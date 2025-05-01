@@ -1,0 +1,36 @@
+```diff
+--- a/tests/test_queries.py
++++ b/tests/test_queries.py
+@@ -28,20 +28,23 @@
+ 		qs2 = qs.filter(name='Sam1').annotate(rank=Value(1, IntegerField()))
+ 		qs = qs1.union(qs2)
+ 		qs = qs.order_by('name').distinct('name')
+-
+ 		sql = str(qs.query)
+ 
+ 		if connection.vendor == 'postgresql':
+ 			self.assertIn("DISTINCT ON", sql)
+-			self.assertNotIn("GROUP BY", sql) # Shouldn't use GROUP BY
++			self.assertNotIn("GROUP BY", sql)  # Shouldn't use GROUP BY
+ 		elif connection.vendor == 'sqlite': # SQLite uses GROUP BY for distinct on
+ 			self.assertIn("GROUP BY", sql)
+-			#  SQLite doesn't require HAVING COUNT(*) = 1 for DISTINCT.
++			# SQLite doesn't require HAVING COUNT(*) = 1 for DISTINCT with ORDER BY.
+ 		else:
+-			pass # Add assertions for other databases as needed.
++			# Add assertions for other databases as needed.  For example, MySQL:
++			# self.assertIn("GROUP BY", sql)
++			# self.assertIn("HAVING COUNT(*) = 1", sql) # or a similar uniqueness check
++			pass
+ 
+-		# Assert correct number of results, forcing evaluation.
+-		results = list(qs)
+-		self.assertEqual(qs.count(), 2)
++		results = list(qs) # Force evaluation
+ 		self.assertEqual(len(results), 2)
+ 		self.assertEqual({r.name for r in results}, {'Sam1', 'Sam2'}) # Check distinctness
++		# Check correct ordering. (Original test didn't check this explicitly).
++		self.assertEqual(results[0].name, 'Sam1')
++		self.assertEqual(results[1].name, 'Sam2')
+
+```

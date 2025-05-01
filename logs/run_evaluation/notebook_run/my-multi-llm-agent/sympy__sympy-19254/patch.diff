@@ -1,0 +1,40 @@
+```diff
+--- a/sympy/polys/factortools.py
++++ b/sympy/polys/factortools.py
+@@ -146,17 +146,25 @@
+ 
+ 
+ def dmp_zz_mignotte_bound(f, K):
+-    """Mignotte bound for univariate polynomials in `K[x]`. """
++    """Knuth-Cohen bound for univariate polynomials in `K[x]`. """
+     lc = abs(dmp_LC(f, K))
+-    s = sum(abs(c) for c in f)
++    n = dmp_degree(f, 0)
++    if n < 0:
++        return K.zero
++
++    B = K.zero
++    for i in range(0, n + 1):
++        B = max(B, abs(f[i]))
+ 
+-    return lc**(dmp_degree(f, 0) - 1)*s
++    return 2*B - abs(f[0]) - abs(f[n]) if n > 0 else abs(f[0])
+ 
+ 
+ def dmp_zz_mignotte_bound_mv(f, u, K):
+-    """Mignotte bound for multivariate polynomials in `K[X]`. """
++    """Knuth-Cohen bound for multivariate polynomials in `K[X]`. """
+     if not u:
+         return dmp_zz_mignotte_bound(f, K)
+ 
+-    M = dmp_zz_mignotte_bound(dmp_LC(f, K, u + 1), K)
+-    B = sum(abs(c)*M for c in dmp_ground_LC(f, u + 1, K))
++    B = K.zero
++    for term in f:
++      B = max(B, abs(term[0]))
++    return 2*B - abs(dmp_ground_LC(f, u + 1, K)) - abs(dmp_ground_TC(f, u + 1, K)) if len(f) > 1 else abs(dmp_ground_TC(f,u+1,K))
+
++
+     return B
+
+```

@@ -1,0 +1,14 @@
+```diff
+--- a/sphinx/domains/std.py
++++ b/sphinx/domains/std.py
+@@ -951,7 +951,7 @@
+         # in the case of normal nodes, it's just the text of the title.
+         if isinstance(node, nodes.section):
+             title = node[0].astext()
+-        elif isinstance(node, addnodes.desc):
++        elif isinstance(node, (addnodes.desc, nodes.Text)):
+             title = node[0].astext()
+         elif isinstance(node, addnodes.module):
+             title = node[0].astext()
+
+```

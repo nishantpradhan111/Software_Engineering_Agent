@@ -1,0 +1,19 @@
+```diff
+--- a/django/db/migrations/state.py
++++ b/django/db/migrations/state.py
+@@ -421,6 +421,13 @@
+             options = options or {}
+             unique_together = options.pop("unique_together", None)
+             index_together = options.pop("index_together", None)
++            constraints = options.pop("constraints", None)
++            if constraints:
++                for constraint in constraints:
++                    if isinstance(constraint, models.UniqueConstraint):
++                        for field_name in constraint.fields:
++                            if field_name not in self.fields:
++                                raise ValueError("Unique constraint refers to non-existent field '%s'" % field_name)
+             if unique_together:
+                 if not isinstance(unique_together, (list, tuple)):
+                     raise TypeError("'unique_together' must be a list or tuple.")
+
+```

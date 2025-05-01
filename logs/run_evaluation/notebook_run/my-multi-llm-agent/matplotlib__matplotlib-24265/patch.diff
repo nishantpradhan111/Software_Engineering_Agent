@@ -1,0 +1,14 @@
+```diff
+--- a/code.py
++++ b/code.py
+@@ -1,2 +1,6 @@
+ import matplotlib.pyplot as plt
+-the_rc = plt.style.library["seaborn-colorblind"]
++try:
++    the_rc = plt.style.library["seaborn-colorblind"]
++except KeyError:
++    import seaborn as sns
++    sns.set_style("colorblind")
++    the_rc = plt.rcParams
+
+```

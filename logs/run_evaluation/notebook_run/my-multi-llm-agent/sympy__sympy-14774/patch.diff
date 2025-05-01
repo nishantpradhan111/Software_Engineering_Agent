@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/printing/latex.py
++++ b/sympy/printing/latex.py
+@@ -740,7 +740,7 @@
+         return r"\operatorname{%s}" % self._print(func)
+ 
+     def _print_InverseTrigonometricFunction(self, expr):
+-        inv_trig_table = ["asin", "acos", "atan", "acot"]
++        inv_trig_table = ["asin", "acos", "atan", "acsc", "asec", "acot"]
+ 
+         if self._settings["inv_trig_style"] == "full":
+             if expr.func.__name__ in inv_trig_table:
+
+```

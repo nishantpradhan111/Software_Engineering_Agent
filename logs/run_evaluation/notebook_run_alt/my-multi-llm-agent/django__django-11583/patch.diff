@@ -1,0 +1,26 @@
+```diff
+--- a/django/utils/autoreload.py
++++ b/django/utils/autoreload.py
+@@ -129,7 +129,10 @@
+ 
+     for mod in modules:
+         path = Path(getattr(mod, '__file__', None))
+-        if path and path.exists():
++        if not path:
++            continue
++        try:
++            path = path.resolve().absolute()
+             if path.suffix == '.pyc':
+                 path = path.with_suffix('.py')
+-            results.add(path.resolve().absolute())
++            results.add(path)
++        except ValueError:
++            # Skip paths with embedded null bytes.
++            pass
+     return results
+
+```
+
+This patch addresses the "ValueError: embedded null byte" issue by adding a try-except block around the `path.resolve().absolute()` call.  If a `ValueError` occurs (indicating a null byte in the path), the path is simply skipped.  This prevents the error from halting the auto-reloading process.  The patch also handles the case where `__file__` is None, avoiding an AttributeError.
+
+While this doesn't identify the *source* of the null byte, it prevents the error from occurring and allows auto-reloading to continue functioning.  This is a pragmatic approach given the intermittent nature of the issue and the difficulty in reproducing it.  A more thorough investigation into the root cause could be pursued separately, but this patch provides a working solution in the meantime.

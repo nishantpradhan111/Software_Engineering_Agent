@@ -1,0 +1,38 @@
+```diff
+--- a/src/_pytest/junitxml.py
++++ b/src/_pytest/junitxml.py
+@@ -1,5 +1,6 @@
+ from __future__ import annotations
+ 
++import datetime
+ import os
+ import sys
+ from typing import TYPE_CHECKING
+@@ -16,6 +17,7 @@
+ from _pytest.reports import BaseReport
+ from _pytest.store import StoreKey
+ 
++import socket
+ 
+ if TYPE_CHECKING:
+     from typing import Any
+@@ -205,6 +207,8 @@
+ 
+         sections = [
+             "errors",
++            "hostname",
++            "timestamp",
+             "failures",
+             "name",
+             "skipped",
+@@ -218,6 +222,8 @@
+         )
+         self.add_empty_element("properties")
+ 
++        self.add_attribute("hostname", socket.gethostname())
++        self.add_attribute("timestamp", datetime.datetime.now(datetime.timezone.utc).isoformat())
+         self._add_simple("system-out", "")
+         self._add_simple("system-err", "")
+ 
+
+```

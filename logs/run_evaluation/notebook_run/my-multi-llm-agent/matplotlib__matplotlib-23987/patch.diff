@@ -1,0 +1,14 @@
+```diff
+--- a/lib/matplotlib/figure.py
++++ b/lib/matplotlib/figure.py
+@@ -2299,7 +2299,7 @@
+         See also `.Figure.tight_layout` and `.Figure.set_constrained_layout`.
+         """
+         if not self._suptitle is None and not self._suptitle.get_in_layout():
+-            self.set_constrained_layout(False)
++            self.set_constrained_layout(None)
+             warnings.warn("This figure was using constrained_layout==True, "
+                           "but that is incompatible with setting "
+                           "suptitle.text.  Reverting to "
+
+```

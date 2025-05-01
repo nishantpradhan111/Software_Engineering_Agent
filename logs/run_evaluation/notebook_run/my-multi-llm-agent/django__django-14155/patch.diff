@@ -1,0 +1,26 @@
+```diff
+--- a/django/urls/resolvers.py
++++ b/django/urls/resolvers.py
+@@ -1,5 +1,6 @@
+ import functools
+ import inspect
++from typing import Callable
+ 
+ from django.http import HttpResponse, HttpResponseNotFound
+ from django.urls.exceptions import Resolver404
+@@ -200,6 +201,13 @@
+         self.route = route
+         self.args = args
+         self.kwargs = kwargs
++        # Unwrap partial functions to make the view inspection in __repr__()
++        # more descriptive and useful.
++        while isinstance(self.func, functools.partial):
++            # Account for a partial of a partial.
++            self.args = self.func.args + self.args
++            self.kwargs = {**self.func.keywords, **self.kwargs}
++            self.func = self.func.func
+ 
+     def __repr__(self) -> str:
+         if isinstance(self.func, functools.partial):
+
+```

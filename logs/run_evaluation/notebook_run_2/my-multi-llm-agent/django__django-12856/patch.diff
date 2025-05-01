@@ -1,0 +1,31 @@
+```diff
+--- a/django/db/migrations/state.py
++++ b/django/db/migrations/state.py
+@@ -508,19 +508,17 @@
+                 constraint = UniqueConstraint(*fields, name=name)
+             elif isinstance(constraint, options.CheckConstraint):
+                 pass
+-            elif isinstance(constraint, options.UniqueConstraint):
+-                # For UniqueConstraints and CheckConstraints, we need to check that fields exist.
++            elif isinstance(constraint, (options.UniqueConstraint, options.CheckConstraint)):
++                # For UniqueConstraints and CheckConstraints, we need to check that fields/field_names exist.
++                field_names = constraint.fields if isinstance(constraint, options.UniqueConstraint) else constraint.field_names
+                 for field_name in constraint.fields:
+                     try:
+                         model._meta.get_field(field_name)
+                     except FieldDoesNotExist:
+                         raise FieldError(
+-                            "Unique constraint %s refers to non-existent field '%s'." % (constraint.name, field_name)
++                            "%s %s refers to non-existent field '%s'." % (
++                                constraint.__class__.__name__,
++                                constraint.name,
++                                field_name,
++                            )
+                         ) from None
+-            elif isinstance(constraint, options.CheckConstraint):
+-                for field_name in constraint.field_names:  # Use field_names for CheckConstraint
+-                    model._meta.get_field(field_name) # Raise FieldDoesNotExist if not found
+             else:
+                 raise TypeError("Can't add unknown constraint type %r" % constraint)
+
+```

@@ -1,0 +1,13 @@
+```diff
+--- a/lib/matplotlib/colorbar.py
++++ b/lib/matplotlib/colorbar.py
+@@ -956,6 +956,7 @@
+         self._ticker = None
+ 
+         self.update_normal(mappable)
++        self.draw_all()
+ 
+     def update_normal(self, mappable):
+         """
+
+```

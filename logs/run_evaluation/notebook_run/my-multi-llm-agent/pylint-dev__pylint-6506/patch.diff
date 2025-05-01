@@ -1,0 +1,17 @@
+```diff
+--- a/pylint/config/config_initialization.py
++++ b/pylint/config/config_initialization.py
+@@ -83,7 +83,10 @@
+     )
+ 
+     if unrecognized_options:
+-        raise _UnrecognizedOptionError(options=unrecognized_options)
++        print(
++            f"usage: pylint [options] modules_or_packages\npylint: error: unrecognized arguments: {' '.join(unrecognized_options)}"
++        )
++        sys.exit(32)
+ 
+     return args
+ 
+
+```

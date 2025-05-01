@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/polys/polytools.py
++++ b/sympy/polys/polytools.py
+@@ -2239,7 +2239,7 @@
+                 result.append(Poly(f, *gens, domain=domain))
+ 
+         if separate:
+-            return list(poly_dict.values())
++            return sorted(poly_dict.values(), key=lambda p: p.gens)
+         else:
+             return sum(poly_dict.values())
+ 
+
+```

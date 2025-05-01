@@ -1,0 +1,18 @@
+```diff
+--- a/django/contrib/admin/helpers.py
++++ b/django/contrib/admin/helpers.py
+@@ -580,7 +580,10 @@
+                 if hasattr(remote_obj, 'get_absolute_url'):
+                     url = remote_obj.get_absolute_url()
+                 else:
+-                    url = reverse(url_name, args=[quote(remote_obj.pk)])
++                    url = reverse(
++                        url_name,
++                        args=[quote(remote_obj.pk)],
++                        current_app=self.model_admin.admin_site.name,
++                    )
+             else:
+                 url = '#'
+             return format_html('<a href="{}">{}</a>', url, remote_obj)
+
+```

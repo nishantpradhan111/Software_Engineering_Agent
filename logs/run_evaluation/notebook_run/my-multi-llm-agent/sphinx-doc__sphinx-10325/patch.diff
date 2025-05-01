@@ -1,0 +1,49 @@
+```diff
+--- a/sphinx/ext/autodoc/directive.py
++++ b/sphinx/ext/autodoc/directive.py
+@@ -131,6 +131,7 @@
+     'undoc-members': bool_option,
+     'inherited-members': bool_option,  # to be changed
+     'show-inheritance': bool_option,
++    'ignore-base-classes': lambda x: list(x.split()),
+     'private-members': bool_option,
+     'special-members': lambda x: list(x.split()),
+     'exclude-members': lambda x: list(x.split()),
+@@ -292,7 +293,10 @@
+             if self.options.inherited_members is True or \
+                (self.options.inherited_members is not False and
+                 self.options.inherited_members in name):
+-                self.options.inherited_members = True  # type: ignore[assignment]
++                if isinstance(self.options.inherited_members, list):
++                    self.options.inherited_members = True  # type: ignore[assignment]
++                elif not isinstance(self.options.inherited_members, bool):
++                    self.options.inherited_members = [self.options.inherited_members]
+                 break
+ 
+         # add content from docstrings
+@@ -1563,7 +1567,10 @@
+ 
+         # document members with :inherited-members: option
+         if self.options.inherited_members:
+-            if self.options.inherited_members is True:
++            ignore_base_classes = self.options.ignore_base_classes or []
++            if isinstance(self.options.inherited_members, bool) and \
++               self.options.inherited_members is True:
++
+                 inherited = set()
+                 for cls in self.object.__mro__[1:]:
+                     if cls.__name__ in self.analyzer.settings.autodoc_inherit_docstrings:
+@@ -1572,6 +1579,11 @@
+                             inherited.add(name)
+                 self.object.__dict__.update({name: None for name in inherited})  # type: ignore[attr-defined] # noqa: E501
+             else:
++                for cls in self.object.__mro__[1:]:
++                    if cls.__name__ in ignore_base_classes:
++                        for name in cls.__dict__:
++                            if name in self.object.__dict__:
++                                del self.object.__dict__[name]
+                 for name in self.options.inherited_members:
+                     self.object.__dict__.update({name: None}) # type: ignore[attr-defined]
+ 
+
+```

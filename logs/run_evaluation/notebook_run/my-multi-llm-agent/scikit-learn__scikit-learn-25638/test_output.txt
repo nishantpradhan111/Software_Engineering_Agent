@@ -1,0 +1,77 @@
+/eval.sh: line 2: set: pipefail: invalid option name
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 3: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ cd $'/testbed\r'
+/eval.sh: line 5: cd: $'/testbed\r': No such file or directory
++ git config --global --add safe.directory $'/testbed\r'
++ cd $'/testbed\r'
+/eval.sh: line 7: cd: $'/testbed\r': No such file or directory
++ git $'status\r'
+git: 'status' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
++ git $'show\r'
+git: 'show' is not a git command. See 'git --help'.
+
+The most similar command is
+	show
++ git -c core.fileMode=false diff $'6adb209acd63825affc884abcd85381f148fb1b0\r'
+fatal: ambiguous argument '6adb209acd63825affc884abcd85381f148fb1b0?': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 11: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ python -m pip install -v --no-use-pep517 --no-build-isolation -e $'.\r'
+Using pip 23.3.1 from /opt/miniconda3/lib/python3.11/site-packages/pip (python 3.11)
+ERROR: . is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
++ git checkout 6adb209acd63825affc884abcd85381f148fb1b0 sklearn/metrics/tests/test_classification.py sklearn/preprocessing/tests/test_label.py $'sklearn/utils/tests/test_multiclass.py\r'
+error: pathspec 'sklearn/utils/tests/test_multiclass.py?' did not match any file(s) known to git
++ git apply -v -
+Checking patch sklearn/metrics/tests/test_classification.py...
+error: while searching for:
+    assert cm[1, 1] == -2?
+?
+?
+def test_classification_report_multiclass():?
+    # Test performance report?
+    iris = datasets.load_iris()?
+
+error: patch failed: sklearn/metrics/tests/test_classification.py:1079
+error: sklearn/metrics/tests/test_classification.py: patch does not apply
+Checking patch sklearn/preprocessing/tests/test_label.py...
+error: while searching for:
+    assert_array_equal(lb.inverse_transform(got), inp)?
+?
+?
+@ignore_warnings?
+def test_label_binarizer_errors():?
+    # Check that invalid arguments yield ValueError?
+
+error: patch failed: sklearn/preprocessing/tests/test_label.py:117
+error: sklearn/preprocessing/tests/test_label.py: patch does not apply
+Checking patch sklearn/utils/tests/test_multiclass.py...
+error: while searching for:
+        type_of_target(y)?
+?
+?
+def test_class_distribution():?
+    y = np.array(?
+        [?
+
+error: patch failed: sklearn/utils/tests/test_multiclass.py:346
+error: sklearn/utils/tests/test_multiclass.py: patch does not apply
++ : '>>>>> Start Test Output'
++ pytest -rA sklearn/metrics/tests/test_classification.py sklearn/preprocessing/tests/test_label.py $'sklearn/utils/tests/test_multiclass.py\r'
+/eval.sh: line 119: pytest: command not found
++ : '>>>>> End Test Output'
++ git checkout 6adb209acd63825affc884abcd85381f148fb1b0 sklearn/metrics/tests/test_classification.py sklearn/preprocessing/tests/test_label.py $'sklearn/utils/tests/test_multiclass.py\r'
+error: pathspec 'sklearn/utils/tests/test_multiclass.py?' did not match any file(s) known to git

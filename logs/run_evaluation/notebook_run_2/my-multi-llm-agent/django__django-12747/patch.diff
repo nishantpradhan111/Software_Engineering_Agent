@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/deletion.py
++++ b/django/db/models/deletion.py
+@@ -163,7 +163,7 @@
+                     count += len(objs)
+                     deleted_counter[model._meta.label] = len(objs)
+         if count == 0:
+-            return 0, {} if using and not connection.alias_is_used(using) else deleted_counter
++            return 0, {} if using and not connections[using].alias_is_used(using) else deleted_counter
+         return count, dict(sorted(deleted_counter.items()))
+ 
+     def delete_batch(self, pk_list, using, field=None):
+
+```

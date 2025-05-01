@@ -1,0 +1,31 @@
+```diff
+--- a/django/db/models/query_utils.py
++++ b/django/db/models/query_utils.py
+@@ -32,6 +32,7 @@
+ from django.utils.functional import cached_property
+ from django.utils.hashable import make_hashable
+ 
++from .expressions import F
+ 
+ 
+ class DeferredAttribute:
+@@ -218,7 +219,7 @@
+         return copy.copy(self)
+ 
+     def _combine(self, other, conn):
+-        if not isinstance(other, Q):
++        if not isinstance(other, (Q, F)):  # F() Q objects are also handled here.
+             raise TypeError(other)
+         obj = type(self)()
+         obj.connector = conn
+@@ -249,7 +250,7 @@
+         return hash(tuple(sorted(self.children)))
+ 
+     def __repr__(self):
+-        return "<%s: %s>" % (self.__class__.__name__, self)
++        return "<%s: %r>" % (self.__class__.__name__, self)
+ 
+     def __str__(self):
+         if not self.children:
+
+```

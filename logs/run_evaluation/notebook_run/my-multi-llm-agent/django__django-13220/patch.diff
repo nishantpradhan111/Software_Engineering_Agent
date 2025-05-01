@@ -1,0 +1,45 @@
+```diff
+--- a/django/core/exceptions.py
++++ b/django/core/exceptions.py
+@@ -1,5 +1,6 @@
+ import operator
+ from itertools import chain
++from collections import OrderedDict
+ 
+ 
+ class EmptyResultSet(Exception):
+@@ -126,6 +127,31 @@
+         if code is not None and error_dict is None:
+             return repr(code)
+         return repr(error_dict)
++
++    def __eq__(self, other):
++        if not isinstance(other, ValidationError):
++            return NotImplemented
++
++        # Check if both are empty
++        if not self.messages and not other.messages:
++            return True
++
++        # Normalize error messages to ensure order-independent comparison
++        def normalize_messages(messages):
++            if isinstance(messages, dict):
++                return OrderedDict(sorted((k, sorted(normalize_messages(v))) for k, v in messages.items()))
++            elif isinstance(messages, list):
++                return sorted(normalize_messages(m) for m in messages)
++            else:
++                return messages
++
++        return normalize_messages(self.messages) == normalize_messages(other.messages)
++
++    def __hash__(self):
++        # Ensure hashability whenever equality is defined
++        if self.messages:
++            return hash(tuple(sorted(str(m) for m in self.messages)))
++        else:
++            return hash(None)
+ 
+ 
+ class NON_FIELD_ERRORS:
+
+```

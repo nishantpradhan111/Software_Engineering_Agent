@@ -1,0 +1,14 @@
+```diff
+--- a/sklearn/ensemble/_voting.py
++++ b/sklearn/ensemble/_voting.py
+@@ -635,6 +635,8 @@
+             )
+ 
+         for name, est in self.estimators_:
++            if est is None:
++                continue
+             if not hasattr(est, "fit"):
+                 raise AttributeError(
+                     "All estimators should implement fit and "
+
+```

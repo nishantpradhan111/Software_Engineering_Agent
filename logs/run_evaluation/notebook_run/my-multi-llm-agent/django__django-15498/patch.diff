@@ -1,0 +1,17 @@
+```diff
+--- a/src/server.py
++++ b/src/server.py
+@@ -123,7 +123,10 @@
+ 
+     def handle_request(self, request):
+         ims_header = request.headers.get("If-Modified-Since")
+-        if ims_header:
++        if ims_header is not None:
++            if ims_header == "":
++                # Treat empty string as no IMS header
++                ims_header = None
+             try:
+                 ims_datetime = datetime.strptime(ims_header, "%a, %d %b %Y %H:%M:%S GMT")
+             except ValueError:
+
+```

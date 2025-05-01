@@ -1,0 +1,35 @@
+```diff
+--- a/django/core/checks/translation.py
++++ b/django/core/checks/translation.py
+@@ -13,19 +13,20 @@
+ 
+ def check_language_settings(app_configs, **kwargs):
+     errors = []
+-    if settings.LANGUAGE_CODE is not None:
++    if settings.LANGUAGE_CODE is not None:  # Allow LANGUAGE_CODE to be unset
+         language_code = settings.LANGUAGE_CODE
+         supported_codes = get_supported_language_variant_codes()
+         if language_code not in supported_codes:
+             base_lang = language_code.split('-')[0]
+-            supported_base_codes = get_supported_language_codes()
+-            if base_lang not in supported_base_codes:
+-                suggestion = ""
++            if base_lang not in get_supported_language_codes():
++                suggested_codes = [c for c in supported_codes if c.startswith(base_lang + '-')]
++                if suggested_codes:
++                    suggestion = f"Try setting it to one of these instead: {suggested_codes}"
++                else:
++                    suggestion = f"'{base_lang}' is not a supported language."
+             else:
+                 suggested_codes = [c for c in supported_codes if c.startswith(base_lang + '-')]
+-                suggestion = f"Try setting it to one of these variants instead: {suggested_codes}" if suggested_codes else f"The base language '{base_lang}' is supported, but not the variant '{language_code}'."
++                suggestion = f"The language code '{language_code}' is not supported. Did you mean '{base_lang}' or one of its variants: {suggested_codes or 'none found'}?"
+             errors.append(
+                 checks.Error(
+-                    f"You have provided a value for the LANGUAGE_CODE setting '{language_code}' that is not in the LANGUAGES setting. " + suggestion,
++                    f"You have provided a value for the LANGUAGE_CODE setting '{language_code}' that is not in the LANGUAGES setting. {suggestion}",
+                     id="translation.E004",
+                 )
+             )
+
+```

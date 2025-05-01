@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -1189,7 +1189,7 @@
+         seen = set()
+         for sql, params in ordering:
+             if sql not in seen:
+-                without_ordering = self.ordering_parts.search(sql).group(1)
++                without_ordering = self.ordering_parts.search(" ".join(sql.split())).group(1)
+                 if without_ordering not in seen:
+                     result.append((sql, params, alias))
+                     seen.add(sql)
+
+```

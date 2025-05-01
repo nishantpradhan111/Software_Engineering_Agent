@@ -1,0 +1,35 @@
+```diff
+--- a/urls.py
++++ b/urls.py
+@@ -X,4 +X,4 @@
+ 	...
+-	re_path(r'^module/(?P<format>(html|json|xml))?/?$', views.modules, name='modules'),
++	re_path(r'^module/(?:(?P<format>(html|json|xml))/)?$', views.modules, name='modules'),
+ ]
+
+```
+
+**Explanation:**
+
+The issue arises because of a subtle change in how Django handles optional capturing groups in URL patterns, especially when combined with trailing slashes.  In Django 2.2 and earlier, if the optional group wasn't present (e.g., accessing `/module/`), Django would still pass the default value (`html` in this case) as a keyword argument.  Django 3.0 and later treats a completely missing optional group differently; it doesn't populate the keyword argument at all.  However, because the trailing slash is also optional (`/?`), Django still tries to match the URL even without the `format` segment. This results in the view being called with an empty string as the `format` parameter, plus an additional empty string for the optional trailing slash.
+
+The fix uses a non-capturing group `(?: ... )` around the optional format and the slash. This way, if the `format` part of the URL is missing, the entire group is ignored, and no empty string is passed to the view. This ensures the view receives only the `request` argument when the URL is `/module/`, allowing the default `format='html'` in the view function to work correctly.
+
+
+Alternatively, if you want to strictly enforce `/module/html/`, `/module/json/`, `/module/xml/` (and optionally with a trailing slash), you could use this regex:
+
+```diff
+--- a/urls.py
++++ b/urls.py
+@@ -X,4 +X,4 @@
+ 	...
+-	re_path(r'^module/(?P<format>(html|json|xml))?/?$', views.modules, name='modules'),
++	re_path(r'^module/(?P<format>(html|json|xml))/?$', views.modules, name='modules'),
+ ]
+
+```
+
+This removes the `?` after the capturing group, making the `format` parameter mandatory.  The `/?` still allows for an optional trailing slash.  This approach might require updates to any redirects or templates that rely on the previous URL structure.
+
+
+Choose the solution that best fits your intended URL structure and application behavior.  The first solution (with the non-capturing group) preserves the original behavior more closely. The second one enforces a stricter URL format.

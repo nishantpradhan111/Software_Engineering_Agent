@@ -1,0 +1,33 @@
+```diff
+--- a/django/db/models/fields/related_lookups.py
++++ b/django/db/models/fields/related_lookups.py
+@@ -470,7 +470,7 @@
+         return qs
+ 
+     def get_prep_lookup(self):
+-        if not isinstance(self.rhs, QuerySet):
++        if not hasattr(self.rhs, 'query'):
+             return super().get_prep_lookup()
+         if self.rhs._iterable_class is not QuerySet:
+             self.rhs = self.rhs._clone()
+
+--- a/tests/regressiontests/queries/models.py
++++ b/tests/regressiontests/queries/models.py
+@@ -1153,6 +1153,15 @@
+     second = models.ForeignKey(Tag, related_name='second', null=True)
+ 
+ 
++class RelatedLimitChoicesToTestModel(models.Model):
++    title = models.CharField(max_length=100)
++
++
++class RelatedLimitChoicesToTestModel2(models.Model):
++    rel = models.ForeignKey(RelatedLimitChoicesToTestModel, limit_choices_to=models.Q(title__startswith='a'))
++    title = models.CharField(max_length=100)
++
++
+ class X(models.Model):
+     name = models.CharField(max_length=100)
+ 
+
+```

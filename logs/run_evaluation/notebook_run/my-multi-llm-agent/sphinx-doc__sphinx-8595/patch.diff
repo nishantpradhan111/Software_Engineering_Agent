@@ -1,0 +1,14 @@
+```diff
+--- a/sphinx/ext/autodoc/importer.py
++++ b/sphinx/ext/autodoc/importer.py
+@@ -322,7 +322,7 @@
+         if all_ and not all_:
+             # some py3 modules have __all__ but its value is None
+             all_ = []
+-        if all_:
++        if all_ is not None and all_:
+             self.imported_members = all_
+ 
+         self.documented_members = []
+
+```

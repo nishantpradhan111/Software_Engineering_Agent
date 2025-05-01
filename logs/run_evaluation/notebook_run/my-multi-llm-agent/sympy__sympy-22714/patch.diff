@@ -1,0 +1,19 @@
+```diff
+--- a/sympy/geometry/point.py
++++ b/sympy/geometry/point.py
+@@ -146,8 +146,11 @@
+ 
+         coords = []
+         for coord in args:
+-            if coord.is_complex and not coord.is_real:
+-                raise ValueError('Imaginary coordinates are not permitted.')
++            if evaluate:
++                #don't raise error if evaluate=False because it crashes with sympify
++                if coord.is_complex and not coord.is_real:
++                    raise ValueError('Imaginary coordinates are not permitted.')
++
+             coords.append(coord)
+         if dim is not None:
+             if len(coords) != dim:
+
+```

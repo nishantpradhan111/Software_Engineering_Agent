@@ -1,0 +1,14 @@
+```diff
+--- a/sphinx/ext/autodoc/typehints.py
++++ b/sphinx/ext/autodoc/typehints.py
+@@ -303,7 +303,7 @@
+         # type: (Any, str, Any, Any) -> str
+         if not isinstance(obj, Callable):
+             return None
+-        if isinstance(obj, Overloaded):  # type: ignore
++        if hasattr(obj, "__sphinx_decorator_args__") and obj.__sphinx_decorator_args__:  # type: ignore  # noqa: E501
+             return None
+ 
+         try:
+
+```

@@ -1,0 +1,14 @@
+```diff
+--- a/django/http/response.py
++++ b/django/http/response.py
+@@ -174,7 +174,7 @@
+         # We need to decode it if it's not a bytestring.
+         if isinstance(content, str):
+             content = content.encode(self.charset)
+-        elif hasattr(content, '__iter__') and not isinstance(content, (bytes, memoryview)):
++        elif hasattr(content, '__iter__') and not isinstance(content, bytes):
+             # Iterable of strings, so concatenate them.
+             content = b''.join(self._encode_chunk(chunk) for chunk in content)
+         elif not isinstance(content, bytes):
+
+```

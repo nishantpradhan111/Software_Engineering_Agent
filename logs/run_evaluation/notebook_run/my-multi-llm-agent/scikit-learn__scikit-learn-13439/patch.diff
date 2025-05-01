@@ -1,0 +1,15 @@
+```diff
+--- a/sklearn/pipeline.py
++++ b/sklearn/pipeline.py
+@@ -138,6 +138,9 @@
+         self.steps = to_list(steps)
+         self._validate_steps()
+ 
++    def __len__(self):
++        return len(self.steps)
++
+     @property
+     def named_steps(self):
+         return Bunch(**dict(self.steps))
+
+```

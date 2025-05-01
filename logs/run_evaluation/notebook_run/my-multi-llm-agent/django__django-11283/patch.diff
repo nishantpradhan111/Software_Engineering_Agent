@@ -1,0 +1,32 @@
+```diff
+--- a/django/contrib/auth/migrations/0011_update_proxy_permissions.py
++++ b/django/contrib/auth/migrations/0011_update_proxy_permissions.py
+@@ -1,5 +1,6 @@
+ from django.db import migrations
+ 
++from django.contrib.contenttypes.management import update_contenttypes
+ 
+ def update_proxy_permissions(apps, schema_editor):
+     Permission = apps.get_model('auth', 'Permission')
+@@ -15,12 +16,18 @@
+             if proxy_model._meta.proxy:
+                 proxy_permissions = Permission.objects.filter(
+                     content_type__app_label=proxy_model._meta.app_label,
+-                    content_type__model=proxy_model._meta.model_name,
++                    content_type__model=real_model._meta.model_name,
+                 ).values_list('codename', flat=True)
+                 for codename in proxy_permissions:
+                     Permission.objects.update_or_create(
+                         codename=codename,
+                         content_type=ContentType.objects.get_for_model(proxy_model),
+                         defaults={'name': codename.replace('_', ' ').title()},
+-                    )+                    )
++    # Once all permissions are created, we need to ensure that contenttypes
++    # are correctly associated with proxy models.
++    update_contenttypes(apps, verbosity=0, interactive=False)
++
++
++def reverse_update_proxy_permissions(apps, schema_editor):
++    pass
+
+```

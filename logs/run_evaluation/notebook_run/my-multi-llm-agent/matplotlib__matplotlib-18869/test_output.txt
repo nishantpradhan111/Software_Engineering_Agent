@@ -1,0 +1,54 @@
+/eval.sh: line 2: set: pipefail: invalid option name
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 3: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ cd $'/testbed\r'
+/eval.sh: line 5: cd: $'/testbed\r': No such file or directory
++ git config --global --add safe.directory $'/testbed\r'
++ cd $'/testbed\r'
+/eval.sh: line 7: cd: $'/testbed\r': No such file or directory
++ git $'status\r'
+git: 'status' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
++ git $'show\r'
+git: 'show' is not a git command. See 'git --help'.
+
+The most similar command is
+	show
++ git -c core.fileMode=false diff $'b7d05919865fc0c37a0164cf467d5d5513bd0ede\r'
+fatal: ambiguous argument 'b7d05919865fc0c37a0164cf467d5d5513bd0ede?': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 11: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ python -m pip install -e $'.\r'
+ERROR: . is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
++ git checkout b7d05919865fc0c37a0164cf467d5d5513bd0ede $'lib/matplotlib/tests/test_matplotlib.py\r'
+error: pathspec 'lib/matplotlib/tests/test_matplotlib.py?' did not match any file(s) known to git
++ git apply -v -
+Checking patch lib/matplotlib/tests/test_matplotlib.py...
+error: while searching for:
+import matplotlib?
+?
+?
+@pytest.mark.skipif(?
+    os.name == "nt", reason="chmod() doesn't work as is on Windows")?
+@pytest.mark.skipif(os.name != "nt" and os.geteuid() == 0,?
+
+error: patch failed: lib/matplotlib/tests/test_matplotlib.py:7
+error: lib/matplotlib/tests/test_matplotlib.py: patch does not apply
++ : '>>>>> Start Test Output'
++ pytest -rA $'lib/matplotlib/tests/test_matplotlib.py\r'
+/eval.sh: line 39: pytest: command not found
++ : '>>>>> End Test Output'
++ git checkout b7d05919865fc0c37a0164cf467d5d5513bd0ede $'lib/matplotlib/tests/test_matplotlib.py\r'
+error: pathspec 'lib/matplotlib/tests/test_matplotlib.py?' did not match any file(s) known to git

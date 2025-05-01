@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/migrations/writer.py
++++ b/django/db/migrations/writer.py
+@@ -234,7 +234,7 @@
+                 # See if this is an iterable and we can shorten the code
+                 if isinstance(value, (list, set, tuple)):
+                     value = self.serialize(value)
+-                elif isinstance(value, Enum) and value.__class__.__module__ != "builtins":
++                elif isinstance(value, Enum) and not value.__class__.__module__.startswith("enum."):
+                     value = self.serialize(value)
+                 elif value is not None:
+                     value = repr(value)
+
+```

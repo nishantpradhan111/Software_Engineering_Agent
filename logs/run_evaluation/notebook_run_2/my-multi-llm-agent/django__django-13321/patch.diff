@@ -1,0 +1,14 @@
+```diff
+--- a/django/contrib/sessions/backends/base.py
++++ b/django/contrib/sessions/backends/base.py
+@@ -123,7 +123,7 @@
+     def _legacy_decode(self, session_data):
+         encoded_data = base64.b64decode(session_data.encode('ascii'))
+         try:
+-            return signing.loads(encoded_data, serializer=self.serializer, salt='django.contrib.sessions.backends.signed_cookies')
++            return signing.loads(encoded_data.decode(), serializer=self.serializer, salt='django.contrib.sessions.backends.signed_cookies', encoding='ascii')
+         except Exception:
+             # ValueError, BadSignature, or TypeError. If it's the last one,
+             # it means the data isn't actually serialized.
+
+```

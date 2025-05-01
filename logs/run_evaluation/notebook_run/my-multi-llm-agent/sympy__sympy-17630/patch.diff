@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/matrices/expressions/blockmatrix.py
++++ b/sympy/matrices/expressions/blockmatrix.py
+@@ -79,7 +79,7 @@
+         return [self.blocks[i, 0].rows for i in range(self.blockshape[0])]
+ 
+     def colblocksizes(self):
+-        return [self.blocks[0, i].cols for i in range(self.blockshape[1])]
++        return [self.blocks[0, i].cols if self.blocks[0, i] else 0 for i in range(self.blockshape[1])]
+ 
+     def _blockmul(self, other):
+         if isinstance(other, BlockMatrix):
+
+```

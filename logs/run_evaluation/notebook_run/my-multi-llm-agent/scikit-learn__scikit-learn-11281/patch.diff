@@ -1,0 +1,113 @@
+```diff
+--- a/sklearn/mixture/_base.py
++++ b/sklearn/mixture/_base.py
+@@ -16,6 +16,7 @@
+ from ..utils.validation import check_is_fitted
+ from ..exceptions import ConvergenceWarning
+ from ..utils._param_validation import Hidden, Interval, StrOptions
++from ..base import ClusterMixin
+ 
+ 
+ class BaseMixture(DensityMixin, metaclass=ABCMeta):
+@@ -28,7 +29,7 @@
+         Attributes.
+     """
+ 
+-    _parameter_constraints: dict = {
++    _parameter_constraints: dict = {  # type: ignore[assignment]
+         "n_components": [Interval(Integral, 1, None, closed="left")],
+         "tol": [Interval(Real, 0.0, None, closed="left")],
+         "reg_covar": [Interval(Real, 0.0, None, closed="left")],
+@@ -161,6 +162,15 @@
+         return self.score_samples(X)
+ 
+ 
++class MixtureModel(ClusterMixin, BaseMixture):
++    """Mixin class for all mixture models with a cluster API."""
++
++    def fit_predict(self, X, y=None):
++        """Fit and return the cluster labels."""
++        self.fit(X)
++        return self.labels_
++
++
+ class BaseGaussianMixture(BaseMixture):
+     """Base class for Gaussian mixture models.
+ 
+
+```
+--- a/sklearn/mixture/_gaussian_mixture.py
++++ b/sklearn/mixture/_gaussian_mixture.py
+@@ -36,7 +36,7 @@
+     _parameter_constraints: dict = {
+         **BaseMixture._parameter_constraints,
+         "covariance_type": [StrOptions({"full", "tied", "diag", "spherical"})],
+-        "max_iter": [Interval(Integral, 1, None, closed="left")],
++        "max_iter": [Interval(Integral, 0, None, closed="left")],
+         "n_init": [Interval(Integral, 1, None, closed="left")],
+         "init_params": [StrOptions({"kmeans", "random", "k-means++"})],
+         "random_state": ["random_state"],
+@@ -64,7 +64,7 @@
+         return self
+ 
+ 
+-class GaussianMixture(BaseGaussianMixture):
++class GaussianMixture(MixtureModel, BaseGaussianMixture):
+     """Gaussian Mixture.
+ 
+     Representation of a Gaussian mixture model probability distribution.
+@@ -576,6 +576,13 @@
+         return log_prob
+ 
+     def predict(self, X):
++        """Predict the labels for the data samples in X using trained model.
++
++        Parameters
++        ----------
++        X : array-like of shape (n_samples, n_features)
++            List of n_features-dimensional data points. Each row
++            corresponds to a single data point.
++        """
+         check_is_fitted(self)
+         X = self._validate_data(X, reset=False)
+         return self.weights_[np.argmax(self.predict_proba(X), axis=1)]
+@@ -620,3 +627,6 @@
+ 
+         self.weights_ = weights_
+         self.means_ = means_
++
++    @property
++    def labels_(self):
++        return self.predict(self._X_fitted)
+
+```
+--- a/sklearn/mixture/_bayesian_mixture.py
++++ b/sklearn/mixture/_bayesian_mixture.py
+@@ -30,7 +30,7 @@
+     _parameter_constraints: dict = {
+         **BaseMixture._parameter_constraints,
+         "covariance_type": [StrOptions({"full", "tied", "diag", "spherical"})],
+-        "max_iter": [Interval(Integral, 1, None, closed="left")],
++        "max_iter": [Interval(Integral, 0, None, closed="left")],
+         "n_init": [Interval(Integral, 1, None, closed="left")],
+         "init_params": [StrOptions({"kmeans", "random"})],
+         "random_state": ["random_state"],
+@@ -57,7 +57,7 @@
+         return self._estimate_log_prob(X) + self._estimate_log_weights()
+ 
+ 
+-class BayesianGaussianMixture(BaseBayesianGaussianMixture):
++class BayesianGaussianMixture(MixtureModel, BaseBayesianGaussianMixture):
+     """Variational Bayesian estimation of a Gaussian mixture.
+ 
+     This class allows to infer an approximate posterior distribution over the
+@@ -506,3 +506,6 @@
+ 
+         self.weights_ = weights_
+         self.means_ = means_
++
++    @property
++    def labels_(self):
++        return self.predict(self._X_fitted)
+
+```

@@ -1,0 +1,22 @@
+```diff
+--- a/lib/matplotlib/figure.py
++++ b/lib/matplotlib/figure.py
+@@ -2898,6 +2898,8 @@
+         self.set_size_inches(state['figsize'], forward=False)
+         self.dpi_scale_trans = Affine2D().scale(state['dpi'])
+         self.dpi = state['dpi']
++        self._original_dpi = state.get('_original_dpi', self.dpi)
++
+         self.set_facecolor(state['facecolor'])
+         self.set_edgecolor(state['edgecolor'])
+         self.set_linewidth(state['linewidth'])
+@@ -2910,6 +2912,7 @@
+         self.set_canvas(state.get('canvas'))  # from old files
+         self._suptitle = state.get('_suptitle')
+         self.set_constrained_layout_pads(**state.get('constrained_layout_pads', {}))
++        self.dpi = self._original_dpi
+ 
+     def __setstate__(self, state):
+         self.__dict__ = state
+
+```

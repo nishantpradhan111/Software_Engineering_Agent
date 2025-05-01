@@ -1,0 +1,59 @@
+```diff
+--- a/your_app/apps.py
++++ b/your_app/apps.py
+@@ -1,6 +1,8 @@
+ from django.apps import AppConfig
+ 
+ 
++default_auto_field = 'django.db.models.AutoField'
++
+ class YourAppConfig(AppConfig):
+     name = 'your_app'
+ 
+
+```
+
+**Explanation:**
+
+The issue arises because Django 3.2 introduced a new setting called `DEFAULT_AUTO_FIELD`.  When a model doesn't explicitly define a primary key field, Django uses this setting to determine the type of auto-created primary key.  Even if the parent model *does* define a primary key, the child models will still trigger this warning if they don't *explicitly* inherit it using `primary_key=True` on a field.
+
+The provided solution sets the `default_auto_field` attribute within the `AppConfig` of the affected app(s).  This tells Django which type of auto-field to use when one isn't explicitly specified. Setting it to `'django.db.models.AutoField'` maintains the previous behavior.
+
+**Alternative Solution (preferred for new projects):**
+
+If you are starting a new project, or are willing to migrate your database, the preferred solution is to set `DEFAULT_AUTO_FIELD` in your project's `settings.py` file:
+
+```diff
+--- a/your_project/settings.py
++++ b/your_project/settings.py
+@@ -123,3 +123,6 @@
+ 
+ # Static files (CSS, JavaScript, Images)
+ # https://docs.djangoproject.com/en/3.1/howto/static-files/
++
++DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'  # Or 'django.db.models.AutoField'
++
+
+```
+
+Using `BigAutoField` is generally recommended for new projects as it provides a larger range of possible primary key values.
+
+**Important Considerations:**
+
+* **Multiple Apps:** If you have multiple apps with this issue, you'll need to add the `default_auto_field` attribute to the `AppConfig` of *each* affected app or use the project-level setting in `settings.py`.
+* **Inheritance:**  Ensure that your child models are correctly inheriting the primary key from their parent. If you're overriding any fields in the child model, make sure the primary key field has `primary_key=True` set explicitly. Example:
+
+```python
+from django.db import models
+
+class ParentModel(models.Model):
+    id = models.AutoField(primary_key=True)  # Or BigAutoField
+    # ... other fields
+
+class ChildModel(ParentModel):
+    # ... other fields
+    # No need to redefine 'id' unless you want to change its behavior.
+```
+
+
+By applying one of these solutions, you should be able to resolve the `models.W042` warning.  Remember to run `python manage.py makemigrations` and `python manage.py migrate` after making these changes.

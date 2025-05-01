@@ -1,0 +1,39 @@
+```diff
+--- a/requests/packages/urllib3/response.py
++++ b/requests/packages/urllib3/response.py
+@@ -5,6 +5,7 @@
+ from ..exceptions import (
+     ProtocolError,
+     DecodeError,
++    ConnectionError,
+     ReadTimeoutError,
+     ResponseNotChunked,
+ )
+@@ -185,7 +186,11 @@
+             if amt is None:
+                 # cStringIO doesn't like amt=None
+                 data = self._fp.read()
+-            else:
++            elif amt == 0:
++                data = ""
++            elif amt < 0:
++                raise ValueError("Can't read negative amounts")
++            else:                
+                 data = self._fp.read(amt)
+                 if not data:
+                     # eof
+@@ -193,6 +198,12 @@
+         except (IOError, OSError) as e:
+             # TODO: refactor to only catch socket.timeout errors here.
+             raise ReadTimeoutError(self._pool, None, 'Read timed out.')
++        except socket.error as e:
++            # FIXME: rewrite to catch errno 32 and 54 specifically for EPIPE and
++            # ECONNRESET. Otherwise default to ConnectionError.
++            raise ConnectionError(self._pool, None, str(e))
++        except Exception as e:
++            raise ProtocolError("Connection broken: %r" % e, e)
+ 
+         if decode_content:
+             try:
+
+```

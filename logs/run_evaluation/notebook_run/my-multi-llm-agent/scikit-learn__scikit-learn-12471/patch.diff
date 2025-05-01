@@ -1,0 +1,25 @@
+```diff
+--- a/sklearn/preprocessing/_encoders.py
++++ b/sklearn/preprocessing/_encoders.py
+@@ -761,6 +761,21 @@
+         _check_unknown_options(self.handle_unknown, categories)
+ 
+         X_int = _transform_selected(X, self._transform, dtype=int,
++                                    handle_unknown=self.handle_unknown)
++
++        if self.handle_unknown == 'ignore':
++            # Check if there are unknown labels in X. Let's call the number of
++            # such labels n_unknown. If n_unknown > 0 and the dtype is not
++            # object, then we have to upcast the array to dtype=object to prevent
++            # truncation of the unknown labels during the encoding.
++            n_unknown = X_int.max(initial=-1) + 1 - len(self.categories_[0])
++            if n_unknown > 0:
++                if X_int.dtype != object:
++                    X_int = X_int.astype(object)
++
++        X_int = _transform_selected(X, self._transform, dtype=int,
+                                     handle_unknown=self.handle_unknown)
+ 
+         if self.handle_unknown == 'ignore':
+
+```

@@ -1,0 +1,78 @@
+```diff
+--- a/django/forms/renderers.py
++++ b/django/forms/renderers.py
+@@ -88,6 +88,7 @@
+         'errorlist': 'errorlist',
+         'error_class': 'error',
+         'required_class': 'required',
++        'nonform_class': 'nonform',
+         'boundfield': BoundFieldRenderer,
+     }
+ 
+@@ -130,6 +131,7 @@
+             'errorlist': self.error_list_renderer,
+             'error_class': self.error_class,
+             'required_class': self.required_class,
++            'nonform_class': self.nonform_class,
+             'template_pack': self.template_pack,
+         }
+ 
+@@ -174,6 +176,9 @@
+             attrs['class'] = self.error_class
+         return attrs
+ 
++    def get_nonform_attrs(self):
++        return {'class': self.nonform_class}
++
+     def render_errors(self, errors):
+         if errors:
+             return format_html(
+@@ -207,6 +212,11 @@
+ 
+     def get_bound_field(self, field_name, field):
+         return self.bound_field_renderer(field_name, field, self)
++
++    def render_non_field_errors(self, errors):
++        if not errors:
++            return ''
++        return format_html('<ul class="{}">\n{}\n</ul>\n', self.nonform_class, mark_safe('\n'.join(format_html('<li>{0}</li>', force_text(e)) for e in errors)))
+ 
+ 
+ @lru_cache(maxsize=None)
+@@ -228,6 +238,10 @@
+             'required_class': css_class['required_class'],
+         }
+ 
++    if 'nonform_class' in css_class:
++        extra_context['nonform_attrs'] = {'class': css_class['nonform_class']}
++
+     if 'error_class' in css_class:
+         extra_context['attrs'] = {'class': css_class['error_class']}
+ 
+--- a/django/forms/forms.py
++++ b/django/forms/forms.py
+@@ -252,7 +252,10 @@
+         return self.renderer.render_errors(self.non_field_errors())
+ 
+     def _html_output(self, normal_row, error_row, row_ender, help_text_html, errors_on_separate_row):
+-        "Helper function for outputting HTML. Used by as_table(), as_ul(), as_p()."
++        """
++        Helper function for outputting HTML. Used by as_table(), as_ul(),
++        as_p().
++        """
+         top_errors = self.non_field_errors()  # Errors that should be displayed above the fields
+         output, hidden_fields = [], []
+ 
+@@ -260,6 +263,10 @@
+             top_errors.extend(f.errors)
+             if f.is_hidden:
+                 hidden_fields.append(str(f))
++
++        if top_errors:
++            output.append(self.renderer.render_non_field_errors(top_errors))
++            top_errors = []
+         else:
+             output.extend(top_errors)
+ 
+
+```

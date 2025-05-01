@@ -1,0 +1,22 @@
+```diff
+--- a/astropy/nddata/nddataref.py
++++ b/astropy/nddata/nddataref.py
+@@ -574,11 +574,16 @@
+         if handle_mask is not None:
+             if self.mask is None and other.mask is None:
+                 mask_comb = None
++            elif self.mask is None:
++                mask_comb = other.mask.copy()
++            elif other.mask is None:
++                mask_comb = self.mask.copy()
+             else:
+                 mask_comb = handle_mask(self.mask, other.mask)
+         else:
+             mask_comb = None
+ 
++
+         return self.__class__(data, uncertainty=uncert_comb, mask=mask_comb,
+                              wcs=wcs_comb, meta=meta_comb, unit=unit_comb)
+ 
+
+```

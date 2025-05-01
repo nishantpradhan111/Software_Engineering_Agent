@@ -1,0 +1,30 @@
+```diff
+--- a/django/db/models/fields/related_descriptors.py
++++ b/django/db/models/fields/related_descriptors.py
+@@ -631,7 +631,7 @@
+         if not self.field.remote_field.multiple:
+             self.clean_parent_instance(value)
+ 
+-        if value is not None and not isinstance(value, self.rel.related_model):
++        if value is not None and not isinstance(value, (self.rel.related_model, int)):
+             raise ValueError(
+                 'Cannot assign "%r": "%s.%s" must be a "%s" instance.' % (
+                     value,
+@@ -646,7 +646,8 @@
+         self.instance.__dict__[self.field.get_cache_name()] = value
+         if value is not None and isinstance(value, self.rel.related_model):
+             if not value.pk:
+-                setattr(self.instance, self.field.attname, None)
++                if self.field.primary_key:  # Check if the related field is the primary key
++                    setattr(self.instance, self.field.attname, None)
+             else:
+                 setattr(self.instance, self.field.attname, value.pk)
+         else:
+
+```
+
+This patch addresses the issue by adding a check within the `__set__` method of the `ForwardManyToOneDescriptor`.  The problem arises when assigning an unsaved related object with a non-numeric primary key.  The original code sets the foreign key field on the parent instance to `None` if the child object doesn't have a primary key yet.  This is correct for auto-incrementing primary keys, but not for non-numeric primary keys where the value might be set later.
+
+The fix adds a check: `if self.field.primary_key:`. This ensures that the foreign key field on the parent is only set to `None` if the related field is an automatically generated primary key. If the related field is a non-auto primary key (like a CharField or UUIDField), the foreign key on the parent remains untouched until the child instance is saved, at which point the correct primary key value will be available.  This prevents the premature setting of the foreign key to an empty string, which leads to the observed data loss.
+
+Additionally, the type check for `value` is expanded to include `int`. This is important because when the related object is saved, the `pk` attribute might be an integer representation of the non-numeric primary key.  This ensures consistent behavior regardless of whether the `pk` is returned as a string or an integer.

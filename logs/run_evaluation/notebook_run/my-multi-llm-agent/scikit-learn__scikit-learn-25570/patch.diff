@@ -1,0 +1,23 @@
+```diff
+--- a/sklearn/compose/_column_transformer.py
++++ b/sklearn/compose/_column_transformer.py
+@@ -853,7 +853,12 @@
+         self._feature_names_in = None
+ 
+     def _hstack(self, Xs):
+-        names_out = self._add_prefix_for_feature_names_out(
++        transformed_features_idx = [
++            idx for idx, x in enumerate(Xs) if x.shape[1] != 0
++        ]
++        Xs = [Xs[idx] for idx in transformed_features_idx]
++
++        names_out = self._add_prefix_for_feature_names_out([
+             transformer
+             for _, transformer, _ in self._iter(fitted=True, replace_strings=True)
+-        )
++            if transformer.n_features_out_ > 0
++        ])
+         output = np.hstack(Xs)
+         return pd.DataFrame(output, columns=names_out)
+
+```

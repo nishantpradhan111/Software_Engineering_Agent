@@ -1,0 +1,17 @@
+```diff
+--- a/django/core/validators.py
++++ b/django/core/validators.py
+@@ -127,7 +127,10 @@
+         if value:
+             try:
+                 scheme, netloc, path, query, fragment = urlsplit(value)
+-            except ValueError:
++            except ValueError as e:
++                if value and (value.startswith('http:') or value.startswith('https:')):
++                    raise ValidationError(self.message, code=self.code)
++                # Otherwise, re-raise the ValueError so that it can be caught by fields
+                 raise ValidationError(self.message, code=self.code)
+             try:
+                 netloc = punycode(netloc)  # IDN -> ACE
+
+```

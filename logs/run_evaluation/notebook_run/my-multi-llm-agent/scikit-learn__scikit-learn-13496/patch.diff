@@ -1,0 +1,69 @@
+```diff
+--- a/sklearn/ensemble/_iforest.py
++++ b/sklearn/ensemble/_iforest.py
+@@ -295,6 +295,7 @@
+         contamination="auto",
+         random_state=None,
+         behaviour="old",
++        warm_start=False,
+     ):
+         super().__init__(
+             base_estimator=IsolationTree(),
+@@ -305,6 +306,7 @@
+             contamination=contamination,
+             random_state=random_state,
+             behaviour=behaviour,
++            warm_start=warm_start,
+         )
+ 
+ 
+@@ -689,3 +691,27 @@
+     assert_array_equal(isof.predict(X), [-1, 1])
+     assert_array_equal(isof.decision_function(X) > 0, isof.predict(X) == 1)
+     _check_estimator(IsolationForest)
++
++
++def test_iforest_warm_start():
++    """Test if warm_start works properly"""
++    rng = np.random.RandomState(0)
++    X = rng.rand(100, 2)
++
++    # Initialize IsolationForest with warm_start=True
++    clf = IsolationForest(n_estimators=10, warm_start=True, random_state=rng)
++
++    # Initial fit
++    clf.fit(X)
++    estimators_1 = clf.estimators_
++
++    # Fit with more estimators
++    clf.n_estimators += 10
++    clf.fit(X)
++    estimators_2 = clf.estimators_
++
++    # Check that the initial estimators are the same
++    assert len(estimators_2) == 20
++    assert estimators_1 == estimators_2[:10]
++
+
+```
+```diff
+--- a/doc/modules/generated/sklearn.ensemble.IsolationForest.rst
++++ b/doc/modules/generated/sklearn.ensemble.IsolationForest.rst
+@@ -51,6 +51,15 @@
+         behaviour : str, default='deprecated'
+             This parameter has not effect, is deprecated, and will be removed.
+ 
++    warm_start : bool, optional (default=False)
++        When set to ``True``, reuse the solution of the previous call to fit
++        and add more estimators to the ensemble, otherwise, just fit a whole
++        new forest. See :term:`the Glossary <warm_start>`.
++
++
++
++
++
+     random_state : int, RandomState instance or None, optional (default=None)
+         If int, random_state is the seed used by the random number generator;
+         If RandomState instance, random_state is the random number generator;
+
+```

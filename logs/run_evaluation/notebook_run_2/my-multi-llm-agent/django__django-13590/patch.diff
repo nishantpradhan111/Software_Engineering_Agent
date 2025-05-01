@@ -1,0 +1,29 @@
+```diff
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -1545,17 +1545,18 @@
+                     val = self.resolve_lookup_value(sub_val, can_reuse, allow_joins)
+                 else:
+                     val = sub_val
+-                if hasattr(obj, 'resolve_expression'):
+-                    # This is an expression object, which already knows how to
+-                    # resolve itself.
+-                    new_obj = obj.resolve_expression(self, reuse=can_reuse, allow_joins=allow_joins)
+-                elif isinstance(val, (tuple, list)):
++
++                if isinstance(val, (tuple, list)):
+                     new_obj = obj.__class__(*val)
++                elif hasattr(val, 'resolve_expression'):
++                    # We need to resolve the value if it is an expression.
++                    new_obj = val.resolve_expression(self, reuse=can_reuse, allow_joins=allow_joins)
+                 else:
+-                    new_obj = obj.__class__(val)
++                    # Otherwise, keep the current value. This fixes the issue
++                    # with the original patch where the resolved lookup value
++                    # was used to create a new object, even if it wasn't needed.
++                    new_obj = obj.__class__(val) if not isinstance(obj, Expression) else obj
+ 
+             elif isinstance(obj, (tuple, list)):
+                 new_obj = type(obj)(self.resolve_lookup_value(sub_obj, can_reuse, allow_joins) for sub_obj in obj)
+
+```

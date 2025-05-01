@@ -1,0 +1,14 @@
+```diff
+--- a/xarray/core/dataset.py
++++ b/xarray/core/dataset.py
+@@ -1359,7 +1359,7 @@
+             variables[name] = Variable(dims, data, attrs, encoding, fastpath=True)
+         else:
+             variables[name] = data
+-        return variables
++        return {k: v._to_temp_dataset() for k, v in variables.items()}
+ 
+     variables = _normalize_variables(variables)
+ 
+
+```

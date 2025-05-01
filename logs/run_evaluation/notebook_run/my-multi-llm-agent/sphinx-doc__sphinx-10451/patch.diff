@@ -1,0 +1,25 @@
+```diff
+--- a/sphinx/ext/autodoc/typehints.py
++++ b/sphinx/ext/autodoc/typehints.py
+@@ -398,11 +398,14 @@
+ 
+ def format_annotation(annotation: str, fully_qualified: bool = False) -> str:
+     """Format type annotation."""
+-    if fully_qualified:
+-        annotation = annotation.lstrip('\'')
+-    # a bit hacky, but not really a way around until annotations have a lib
+-    # for this (or we depend on typing_extensions)
+-    module = getattr(sys.modules.get(annotation.split('.')[0]), '__name__', None)
++    try:
++        if fully_qualified:
++            annotation = annotation.lstrip('\'')
++        # a bit hacky, but not really a way around until annotations have a lib
++        # for this (or we depend on typing_extensions)
++        module = getattr(sys.modules.get(annotation.split('.')[0]), '__name__', None)
++    except AttributeError:
++        module = None
+     if module:
+         if annotation.startswith(module):
+             annotation = annotation[len(module) + 1:]  # +1 for the dot
+
+```

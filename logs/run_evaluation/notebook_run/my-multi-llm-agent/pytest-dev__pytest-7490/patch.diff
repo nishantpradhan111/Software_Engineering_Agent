@@ -1,0 +1,19 @@
+```diff
+--- a/src/_pytest/nodes.py
++++ b/src/_pytest/nodes.py
+@@ -563,6 +563,13 @@
+         return self._evalskipif
+ 
+     def add_marker(self, marker, append=True):
++        """dynamically add a marker object to the node.
++
++        :type marker: ``str`` or ``pytest.mark.*``  object
++        :param marker:
++            ``append=True`` whether to append the marker,
++            if ``False`` insert at position ``0``.
++        """
+         if isinstance(marker, str):
+             marker = getattr(pytest.mark, marker)
+         if append:
+
+```

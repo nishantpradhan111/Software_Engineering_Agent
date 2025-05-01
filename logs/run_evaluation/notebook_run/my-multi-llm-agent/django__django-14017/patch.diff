@@ -1,0 +1,15 @@
+```diff
+--- a/django/db/models/query_utils.py
++++ b/django/db/models/query_utils.py
+@@ -93,6 +93,9 @@
+ ---> 92		 return self._combine(other, self.AND)
+ 	 93 
+ 	 94	 def __invert__(self):
++	 95	 def __rand__(self, other):
++	 96		 return self._combine(other, self.AND)
++
+ ~/Code/venv/ecom/lib/python3.8/site-packages/django/db/models/query_utils.py in _combine(self, other, conn)
+ 	 71	 def _combine(self, other, conn):
+ 	 72		 if not isinstance(other, Q):
+
+```

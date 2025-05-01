@@ -1,0 +1,14 @@
+```diff
+--- a/mpl_toolkits/mplot3d/art3d.py
++++ b/mpl_toolkits/mplot3d/art3d.py
+@@ -633,7 +633,7 @@
+         return self._sort_zpos
+ 
+     def get_facecolors(self):
+-        return self._facecolors2d
++        return self._facecolors3d
+     get_facecolor = get_facecolors
+ 
+     def set_facecolors(self, colors):
+
+```

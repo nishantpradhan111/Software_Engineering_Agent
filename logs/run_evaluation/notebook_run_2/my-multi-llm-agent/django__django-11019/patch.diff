@@ -1,0 +1,27 @@
+```diff
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -137,16 +137,15 @@
+             new_media._js = self._js + other._js
+         else:
+             new_media._js = other._js + self._js
+-        deduped_js = []
++
++        # Deduplicate and maintain order based on first appearance.
+         seen = set()
++        new_js = []
+         for js in new_media._js:
+             normalized = self._normalize_path(js)
+             if normalized not in seen:
+-                deduped_js.append(js)
++                new_js.append(js)
+                 seen.add(normalized)
+-        new_media._js = deduped_js
+-        if len(new_media._js) < len(new_media._js):  # Check if any duplicates were removed.
+-            new_media._js.sort(key=self._normalize_path)  # Re-sort to maintain intended order.
++        new_media._js = new_js
+         return new_media
+ 
+     def __eq__(self, other):
+
+```

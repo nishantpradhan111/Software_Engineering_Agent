@@ -1,0 +1,14 @@
+```diff
+--- a/sklearn/linear_model/logistic.py
++++ b/sklearn/linear_model/logistic.py
+@@ -2191,7 +2191,7 @@
+                 if self.multi_class == 'multinomial':
+                     w = np.mean([coefs_paths[i][best_indices[i]]
+                                  for i in range(len(folds))], axis=0)
+-                else:
++                elif coefs_paths.shape[0] > 0:
+                     w = np.mean([coefs_paths[:, i, best_indices[i], :]
+                                  for i in range(len(folds))], axis=0)
+ 
+
+```

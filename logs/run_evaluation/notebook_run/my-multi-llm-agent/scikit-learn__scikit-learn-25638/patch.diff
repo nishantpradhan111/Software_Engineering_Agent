@@ -1,0 +1,21 @@
+```diff
+--- a/sklearn/utils/multiclass.py
++++ b/sklearn/utils/multiclass.py
+@@ -172,6 +172,15 @@
+         y = np.asarray(y)
+         if y.dtype.kind in ("O", "U"):
+             y = y.astype(str)
++        elif hasattr(y, "dtype") and y.dtype.name in [
++            "Int8",
++            "Int16",
++            "Int32",
++            "Int64",
++            "boolean",
++        ]:
++            # Convert nullable integer and boolean dtypes to standard numpy dtypes
++            y = y.astype(y.dtype.name.lower())
+ 
+     if ys is None:
+         ys = (y,)
+
+```

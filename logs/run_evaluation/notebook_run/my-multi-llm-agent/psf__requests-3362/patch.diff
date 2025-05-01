@@ -1,0 +1,27 @@
+```diff
+--- a/requests/models.py
++++ b/requests/models.py
+@@ -796,12 +796,19 @@
+         decode_unicode = self.encoding and decode_unicode
+ 
+         if decode_unicode:
+-            chunks = iterdecode(self.raw.stream(chunk_size, decode_content=True), self.encoding)
++            tr = TextIOWrapper(self.raw, self.encoding, 'replace')
++            for chunk in iter(lambda: tr.read(chunk_size), ''):
++                yield chunk
+         else:
+             for chunk in self.raw.stream(chunk_size, decode_content=True):
+                 yield chunk
+ 
+     def iter_lines(self, chunk_size=ITER_CHUNK_SIZE, decode_unicode=None, delimiter=None):
++        """Iterates over the response data, one line at a time.  When
++        stream=True is set on the request, this avoids reading the
++        content at once into memory for large responses.
++
++        .. note:: This method is not reentrant safe.
++        """
+ 
+         pending = None
+ 
+
+```

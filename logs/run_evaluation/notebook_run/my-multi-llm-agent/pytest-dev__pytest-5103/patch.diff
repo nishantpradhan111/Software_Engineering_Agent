@@ -1,0 +1,31 @@
+```diff
+--- a/pytest/_code/assertion.py
++++ b/pytest/_code/assertion.py
+@@ -385,13 +385,23 @@
+             return
+ 
+         if op in ("in", "not in"):
+-            self.value = value
+-            self.value2 = next(iter(value2))
++            values = list(value2)
++            if len(values) == 1:
++                self.value = value
++                self.value2 = values[0]
++            else:
++                self.value = value
++                self.value2 = values
+             return
+ 
+         if op == 'is':
+             self.value2 = value2
+             return
++
++        if op in ('all', 'any') and is_generator(value2):
++            self.value = value
++            self.value2 = list(value2)
++            return
+ 
+         # special case for some operators with sequence operands
+         if op in ("==", "!=", "<>"):
+
+```

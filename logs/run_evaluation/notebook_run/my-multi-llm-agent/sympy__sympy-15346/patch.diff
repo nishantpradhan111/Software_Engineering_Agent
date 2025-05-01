@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/simplify/trigsimp.py
++++ b/sympy/simplify/trigsimp.py
+@@ -577,7 +577,7 @@
+         return cos(a - b)
+     # finally try to simplify the arguments
+     a, b = map(trigsimp, (a, b))
+-    if (isinstance(a, Number) and isinstance(b, Number)):
++    if (a.is_number and b.is_number):
+         return _eval_expand_trig(cos(a - b))
+     return cos(a)*cos(b) + sin(a)*sin(b)
+ 
+
+```

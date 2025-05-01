@@ -1,0 +1,35 @@
+```diff
+--- a/sphinx/ext/autodoc/importer.py
++++ b/sphinx/ext/autodoc/importer.py
+@@ -106,6 +106,12 @@
+ 
+         if annotation:
+             # :type: annotation
++            if isinstance(annotation, str):
++                # :type: string
++                # resolve type alias for string
++                annotation = self.resolve_type_alias(annotation)
++
+             if isinstance(annotation, str):
+                 # :type: string
+                 arg.annotation = annotation
+@@ -119,6 +125,16 @@
+         return obj
+ 
+     @staticmethod
++    def resolve_type_alias(annotation: str) -> str:
++        from sphinx.application import Sphinx
++        from sphinx.ext.autodoc import Options
++
++        app = Sphinx._app
++        if app is not None and app.config.autodoc_type_aliases and \
++           annotation in app.config.autodoc_type_aliases:
++            return app.config.autodoc_type_aliases[annotation]
++        return annotation
++
++    @staticmethod
+     def _get_all_type_hints(obj: Any) -> Dict[str, Any]:
+         # check __annotations__ to support forward references
+         if hasattr(obj, '__annotations__'):
+
+```

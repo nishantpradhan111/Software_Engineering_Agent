@@ -1,0 +1,29 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -1365,17 +1365,18 @@
+                 assert len(table_map[alias]) == 1, "Ordering by alias is ambiguous, use the table.field notation."
+                 order_by_alias, order_by_field = table_map[alias][0]
+                 order_field = self.query.get_meta().get_field(order_by_field)
+-                if order_field.remote_field and order_field.remote_field.model == self.query.model and alias not in self.query.alias_map:
++                if order_field.remote_field and order_field.remote_field.model == self.query.model:
+                     # Ordering by a foreign key to self generates an extra join.
+                     # Correct query without extra join is generated if order by
+                     # related field instead of alias.
+                     # Refs #26910.
+-                    if order_by_field in self.query.annotation_select:
++                    if alias not in self.query.alias_map:
++                        if order_by_field in self.query.annotation_select:
++                            order_by = order_by_field
++                        else:
++                            order_by = "%s.%s" % (order_by_alias, order_field.column)
++                    elif order_by_alias == self.query.model._meta.db_table:  # It's the base table, no need for table name
+                         order_by = order_by_field
+-                    elif order_by_alias == self.query.model._meta.db_table:  # It's the base table
+-                        order_by = order_by_field
+                     else:
+                         order_by = "%s.%s" % (order_by_alias, order_field.column)
+                 else:
+                     order_by = order_by_alias
+
+```

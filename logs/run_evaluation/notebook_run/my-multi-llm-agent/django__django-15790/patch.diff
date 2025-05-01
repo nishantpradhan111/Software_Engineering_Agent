@@ -1,0 +1,15 @@
+```diff
+--- a/django/template/backends/django.py
++++ b/django/template/backends/django.py
+@@ -73,7 +73,7 @@
+         for origin in origins:
+             for name in origin.template_tags_modules:
+                 if name in libraries:
+-                    raise TemplateSyntaxError(
++                    if libraries[name] != origin.template_tags_modules[name]:
++                        raise TemplateSyntaxError(
+                         "{} is used for multiple template tag modules: {}, {}".format(
+                             name,
+                             ", ".join(libraries[name]),
+
+```

@@ -1,0 +1,36 @@
+```diff
+--- a/django/db/migrations/recorder.py
++++ b/django/db/migrations/recorder.py
+@@ -62,6 +62,12 @@
+     def migration_qs(self):
+         return self.Migration.objects.using(self.connection.alias)
+ 
++    def allow_migrate(self, model):
++        from django.db import router
++        if router.allow_migrate(self.connection.alias, model):
++            return True
++        return False
++
+     def ensure_schema(self):
+         """
+         Ensures the table exists and has the correct schema.
+@@ -69,7 +75,7 @@
+         # Skip if the table's there and we have the positive lock
+         if self.has_table() and self.locked:
+             return
+-        if not self.allow_migrate_model(self.Migration):
++        if not self.allow_migrate(self.Migration):
+             return
+ 
+         # Make the table
+@@ -82,7 +88,7 @@
+ 
+     def has_table(self):
+         """
+-        Checks if the migration table is there or not.
++        Checks if the migration table is there or not, taking routers into account.
+         """
+         # We use the model's db_table, as the router usually prevents access to the
+         # real table name. This is fine, as we only care about existence.
+
+```

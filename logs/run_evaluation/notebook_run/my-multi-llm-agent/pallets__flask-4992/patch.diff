@@ -1,0 +1,30 @@
+```diff
+--- a/flask/config.py
++++ b/flask/config.py
+@@ -221,14 +221,14 @@
+         :param load: A callable that takes a filename or file-like object.
+         :param silent: Silence warnings about missing files.
+         """
+-        filename = self.root_path / filename
++        filename = os.path.join(self.root_path, filename)
+ 
+         try:
+-            with open(filename) as f:
++            with open(filename, mode=mode or "r") as f:
+                 obj = load(f)
+         except OSError as e:
+             if silent and e.errno in (errno.ENOENT, errno.EISDIR):
+                 return False
+ 
+             e.strerror = f"Unable to load configuration file ({e.strerror})"
+             raise
+@@ -397,6 +397,7 @@
+         """
+         Updates the values in the config from a file or filename.
+ 
++        :param mode: The mode to open the file with. Defaults to ``"r"``.
+         :param load: A callable that takes a filename or file-like object.
+         :param silent: Silence warnings about missing files.
+         """
+
+```

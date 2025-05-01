@@ -1,0 +1,32 @@
+The original patch removes unnecessary parentheses, but doesn't address the core issue of `can_rollback_ddl` potentially being checked before the database connection is established.  We need to defer checking `can_rollback_ddl` until after `connection.prepare_database()` is called within the `handle` method.
+
+```diff
+--- a/django/core/management/commands/sqlmigrate.py
++++ b/django/core/management/commands/sqlmigrate.py
+@@ -47,6 +47,7 @@
+         # because the migration may create new tables/sequences.
+         self.output_transaction = False
+         app_label, migration_name = self.migration_name.split(".", 1)
++        self._migration_atomic = None
+ 
+         if self.verbosity > 1:
+             self.stdout.write(self.style.MIGRATE_HEADING("Operations to perform:"))
+@@ -63,7 +64,7 @@
+         # Load migration module.
+         migration = self.load_migration_class(app_label, migration_name)
+ 
+-        self.output_transaction = migration.atomic and connection.features.can_rollback_ddl
++        self._migration_atomic = migration.atomic
+ 
+         if migration.replaces:
+             targets = []
+@@ -118,6 +119,7 @@
+         connection.prepare_database()
+         statements = sql_statements or []
+ 
++        self.output_transaction = self._migration_atomic and connection.features.can_rollback_ddl
+         if self.output_transaction:
+             statements = [
+                 BEGIN,
+
+```

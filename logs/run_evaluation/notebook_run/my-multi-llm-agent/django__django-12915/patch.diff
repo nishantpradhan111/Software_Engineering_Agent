@@ -1,0 +1,16 @@
+```diff
+--- a/django/contrib/staticfiles/handlers.py
++++ b/django/contrib/staticfiles/handlers.py
+@@ -79,6 +79,10 @@
+ 
+ 
+ class ASGIStaticFilesHandler(StaticFilesHandlerMixin, ASGIHandler):
++    async def get_response_async(self, request):
++        """Retrieve the response."""
++        return await self.serve(request)
++
+     def file_path(self, url):
+         """
+         Return the full path to a given URL.
+
+```

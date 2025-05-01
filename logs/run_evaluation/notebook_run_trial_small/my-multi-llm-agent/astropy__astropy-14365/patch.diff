@@ -1,0 +1,11 @@
+--- a/astropy/io/ascii/qdp.py
++++ b/astropy/io/ascii/qdp.py
+@@ -31,7 +31,7 @@
+         """
+         line = lines[0].strip()
+         match = re.match(r'READ\s+(\w+)\s+(\d+)\s+(\d+)', line)
+-        if match:
++        if line.upper().startswith('READ'):
+             self.table_id = match.group(1)
+             self.data_start = lines.search_line_number + 1
+             self.data_end = lines.search_line_number + int(match.group(3)) + 1

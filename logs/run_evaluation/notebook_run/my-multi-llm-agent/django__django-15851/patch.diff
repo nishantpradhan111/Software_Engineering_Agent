@@ -1,0 +1,25 @@
+```diff
+--- a/django/core/management/commands/dbshell.py
++++ b/django/core/management/commands/dbshell.py
+@@ -41,7 +41,7 @@
+         except AttributeError:
+             # This might be an SQLite in-memory database or other non-PostgreSQL backend.
+             pass
+-        args = [self.db.settings_dict['NAME']]
++        args = []
+         if parameters:
+             args += parameters
+         if self.options['database'] != DEFAULT_DB_ALIAS:
+@@ -51,6 +51,8 @@
+                 '--username=%s' % self.db.settings_dict['USER'],
+             ]
+             if self.db.settings_dict['PASSWORD']:
++                # psql needs the password passed in a separate argument from the user
+                 options += ['--password']
+         args += options
++        args += [self.db.settings_dict['NAME']]
+
+         if self.options['command']:
+             # '-c' is passed in the command
+
+```

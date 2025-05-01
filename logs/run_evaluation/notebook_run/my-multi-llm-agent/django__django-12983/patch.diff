@@ -1,0 +1,14 @@
+```diff
+--- a/django/utils/text.py
++++ b/django/utils/text.py
+@@ -309,7 +309,7 @@
+     value = str(value)
+     value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
+     value = re.sub(r'[^\w\s-]', '', value.lower())
+-    return re.sub(r'[-\s]+', '-', value).strip('-_')
++    return re.sub(r'[-\s]+', '-', value).strip('-_').strip()
+
+ def compress_string(s):
+     """
+
+```

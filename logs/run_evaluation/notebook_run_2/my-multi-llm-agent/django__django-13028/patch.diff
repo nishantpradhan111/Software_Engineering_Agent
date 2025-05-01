@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -1128,7 +1128,7 @@
+ 
+     def check_filterable(self, value):
+         """Raise an error if value is an instance of a model which is not filterable."""
+-        if isinstance(value, Model) and value._meta.concrete_model._meta.filterable is False:
++        if isinstance(value, Model) and not getattr(value._meta.concrete_model._meta, 'filterable', True):
+             raise NotSupportedError(
+                 "%s is disallowed in the filter clause." % value._meta.label
+             )
+
+```

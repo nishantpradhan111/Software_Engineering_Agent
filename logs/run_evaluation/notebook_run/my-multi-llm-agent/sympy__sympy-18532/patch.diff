@@ -1,0 +1,23 @@
+```diff
+--- a/sympy/core/expr.py
++++ b/sympy/core/expr.py
+@@ -1095,7 +1095,7 @@
+     def atoms(self, *types):
+         """Returns the atoms that form the current object.
+ 
+-        By default, only objects that are truly atomic and cannot
++        By default, only objects that have no .args and cannot
+         be divided into smaller constituents are returned: symbols,
+         numbers, and number symbols like I, pi and E. It is
+         possible to request atoms of any type, however, as demonstrated
+@@ -1124,7 +1124,7 @@
+         >>> (x*y).atoms(Symbol)
+         {x, y}
+         """
+-        if types:
++        if types or self.args:
+             result = set()
+             for arg in self.args:
+                 result.update(arg.atoms(*types))
+
+```

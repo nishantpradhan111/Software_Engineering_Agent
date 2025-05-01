@@ -1,0 +1,11 @@
+```diff
+--- a/urls.py
++++ b/urls.py
+@@ -X,4 +X,4 @@
+ urlpatterns += [
+ 	...
+-	re_path(r'^module/(?P<format>(html|json|xml))?/?$', views.modules, name='modules'),
++	re_path(r'^module(?:/(?P<format>(html|json|xml))?)?$', views.modules, name='modules'),
+ ]
+
+```

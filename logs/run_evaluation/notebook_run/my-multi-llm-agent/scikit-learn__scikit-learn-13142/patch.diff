@@ -1,0 +1,15 @@
+```diff
+--- a/sklearn/mixture/_gaussian_mixture.py
++++ b/sklearn/mixture/_gaussian_mixture.py
+@@ -629,7 +629,7 @@
+             self.weights_ = best_params['weights']
+             self.means_ = best_params['means']
+             self.covariances_ = best_params['covariances']
+-            self.precisions_cholesky_ = best_params['precisions_cholesky']
++            self.precisions_cholesky_ = _compute_precision_cholesky(
++                self.covariances_, self.covariance_type)
+             self.converged_ = best_params['converged']
+             self.n_iter_ = best_params['n_iter']
+ 
+
+```

@@ -1,0 +1,63 @@
+```diff
+--- a/seaborn/_stats/regression.py
++++ b/seaborn/_stats/regression.py
+@@ -22,6 +22,8 @@
+     def __init__(self, order=2, gridsize=100):
+         self.order = order
+         self.gridsize = gridsize
++        self._dropna = True  # TODO we should expose dropna everywhere
++
+ 
+     def _fit_predict(self, data):
+ 
+
+```
+
+```diff
+--- a/seaborn/_statistics.py
++++ b/seaborn/_statistics.py
+@@ -62,6 +62,7 @@
+         orient=None,
+         scale="linear",
+         errorbar=None,  # TODO maybe this should go on the specific stat?
++        dropna=True,
+     ):
+         # TODO add errorbar=None to docstring, and add test case(s)
+         # TODO should orient be optional here? or just on the stat?
+@@ -108,7 +109,7 @@
+         )
+ 
+         # TODO abstraction to "orient" the result?
+-        res = self._stat(data, groupby, orient, scales)
++        res = self._stat(data, groupby, orient, scales, dropna)
+ 
+         if pair_vars:
+             res = pd.DataFrame(res)
+@@ -137,7 +138,7 @@
+         self._var = var
+ 
+     def __call__(self, data, groupby, orient, scales, dropna):
+-        return groupby.apply(data, self._func, orient, scales)
++        return groupby.apply(data, self._func, orient, scales, dropna)
+ 
+ 
+ class AggregatedStat(Stat):
+@@ -225,13 +226,17 @@
+         self._estimator = estimator
+         self._n_boot = n_boot
+         self._seed = seed
++        self._dropna = True  # TODO expose dropna
+ 
+     def __call__(self, data, groupby, orient, scales, dropna):
++        if dropna:
++            data = data.dropna()
+         # TODO require x/y to be in data.columns?
+         boot_dist = bootstrap(
+             data,
+             func=self._estimator,
+             n_boot=self._n_boot,
+             units=None,
+             seed=self._seed,
+         )
+
+```

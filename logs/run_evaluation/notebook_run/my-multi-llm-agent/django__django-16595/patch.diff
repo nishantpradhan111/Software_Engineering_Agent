@@ -1,0 +1,17 @@
+```diff
+--- a/django/db/migrations/optimizer.py
++++ b/django/db/migrations/optimizer.py
+@@ -278,6 +278,11 @@
+                 #AlterField
+                 if isinstance(operation, AlterField):
+                     old_field = self.get_field_by_name(operation.model_name, operation.name)
++                    # Skip if is same field and an AlterField
++                    if isinstance(old_operation, AlterField) and self.is_same_field_operation(
++                        operation
++                    ):
++                        return [operation]
+                     if old_field is not None:
+                         return [
+                             AlterField(
+
+```

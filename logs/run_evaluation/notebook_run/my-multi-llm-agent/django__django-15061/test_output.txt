@@ -1,0 +1,89 @@
+/eval.sh: line 2: set: pipefail: invalid option name
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 3: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ cd $'/testbed\r'
+/eval.sh: line 5: cd: $'/testbed\r': No such file or directory
++ git config --global --add safe.directory $'/testbed\r'
++ cd $'/testbed\r'
+/eval.sh: line 7: cd: $'/testbed\r': No such file or directory
++ git $'status\r'
+git: 'status' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
++ git $'show\r'
+git: 'show' is not a git command. See 'git --help'.
+
+The most similar command is
+	show
++ git -c core.fileMode=false diff $'2c01ebb4be5d53cbf6450f356c10e436025d6d07\r'
+fatal: ambiguous argument '2c01ebb4be5d53cbf6450f356c10e436025d6d07?': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 11: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ python -m pip install -e $'.\r'
+ERROR: . is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
++ git checkout 2c01ebb4be5d53cbf6450f356c10e436025d6d07 tests/forms_tests/field_tests/test_multivaluefield.py tests/forms_tests/field_tests/test_splitdatetimefield.py $'tests/postgres_tests/test_ranges.py\r'
+error: pathspec 'tests/postgres_tests/test_ranges.py?' did not match any file(s) known to git
++ git apply -v -
+Checking patch tests/forms_tests/field_tests/test_multivaluefield.py...
+error: while searching for:
+        self.assertHTMLEqual(?
+            form.as_table(),?
+            """?
+            <tr><th><label for="id_field1_0">Field1:</label></th>?
+            <td><input type="text" name="field1_0" id="id_field1_0" required>?
+            <select multiple name="field1_1" id="id_field1_1" required>?
+            <option value="J">John</option>?
+
+error: patch failed: tests/forms_tests/field_tests/test_multivaluefield.py:141
+error: tests/forms_tests/field_tests/test_multivaluefield.py: patch does not apply
+Checking patch tests/forms_tests/field_tests/test_splitdatetimefield.py...
+error: while searching for:
+import datetime?
+?
+from django.core.exceptions import ValidationError?
+from django.forms import SplitDateTimeField?
+from django.forms.widgets import SplitDateTimeWidget?
+from django.test import SimpleTestCase?
+?
+
+error: patch failed: tests/forms_tests/field_tests/test_splitdatetimefield.py:1
+error: tests/forms_tests/field_tests/test_splitdatetimefield.py: patch does not apply
+Checking patch tests/postgres_tests/test_ranges.py...
+error: while searching for:
+        self.assertHTMLEqual(str(form), '''?
+            <tr>?
+                <th>?
+                <label for="id_field_0">Field:</label>?
+                </th>?
+                <td>?
+                    <input id="id_field_0_0" name="field_0_0" type="text">?
+
+error: patch failed: tests/postgres_tests/test_ranges.py:665
+error: tests/postgres_tests/test_ranges.py: patch does not apply
++ : '>>>>> Start Test Output'
++ ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 forms_tests.field_tests.test_multivaluefield forms_tests.field_tests.test_splitdatetimefield $'postgres_tests.test_ranges\r'
+Traceback (most recent call last):
+  File "/testbed/./tests/runtests.py", line 16, in <module>
+    import django
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/testbed/./tests/runtests.py", line 18, in <module>
+    raise RuntimeError(
+RuntimeError: Django module not found, reference tests/README.rst for instructions.
++ : '>>>>> End Test Output'
++ git checkout 2c01ebb4be5d53cbf6450f356c10e436025d6d07 tests/forms_tests/field_tests/test_multivaluefield.py tests/forms_tests/field_tests/test_splitdatetimefield.py $'tests/postgres_tests/test_ranges.py\r'
+error: pathspec 'tests/postgres_tests/test_ranges.py?' did not match any file(s) known to git

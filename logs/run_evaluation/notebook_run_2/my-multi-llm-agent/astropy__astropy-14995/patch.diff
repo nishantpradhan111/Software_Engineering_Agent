@@ -1,0 +1,22 @@
+```diff
+--- a/astropy/nddata/nddataref.py
++++ b/astropy/nddata/nddataref.py
+@@ -393,12 +393,17 @@
+         if handle_mask is not None and (self.mask is not None or operand.mask is not None):
+             if self.mask is None:
+                 mask = operand.mask.copy()
+-            elif operand.mask is None: 
++            elif operand.mask is None:
+                 mask = self.mask.copy()
+             else:
+-                mask = handle_mask(self.mask, operand.mask)
++                try:
++                    mask = handle_mask(self.mask, operand.mask)
++                except TypeError:
++                    # For some ufuncs, the mask may not be needed.
++                    # For example, np.power does not support boolean arrays
++                    # as arguments. In this case, we just return None.
++                    mask = None
+             result = self.__class__(result, uncertainty=uncertainty, mask=mask,
+
+```

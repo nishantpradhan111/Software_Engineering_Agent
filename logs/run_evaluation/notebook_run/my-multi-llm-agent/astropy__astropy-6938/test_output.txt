@@ -1,0 +1,76 @@
+/eval.sh: line 2: set: pipefail: invalid option name
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 3: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ cd $'/testbed\r'
+/eval.sh: line 5: cd: $'/testbed\r': No such file or directory
++ git config --global --add safe.directory $'/testbed\r'
++ cd $'/testbed\r'
+/eval.sh: line 7: cd: $'/testbed\r': No such file or directory
++ git $'status\r'
+git: 'status' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
++ git $'show\r'
+git: 'show' is not a git command. See 'git --help'.
+
+The most similar command is
+	show
++ git -c core.fileMode=false diff $'c76af9ed6bb89bfba45b9f5bc1e635188278e2fa\r'
+fatal: ambiguous argument 'c76af9ed6bb89bfba45b9f5bc1e635188278e2fa?': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
++ source $'/opt/miniconda3/bin/activate\r'
+/eval.sh: line 11: /opt/miniconda3/bin/activate: No such file or directory
++ conda activate $'testbed\r'
+
+CondaError: Run 'conda init' before 'conda activate'
+
++ python -m pip install -e '.[test]' $'--verbose\r'
+
+Usage:   
+  /opt/miniconda3/bin/python -m pip install [options] <requirement specifier> [package-index-options] ...
+  /opt/miniconda3/bin/python -m pip install [options] -r <requirements file> [package-index-options] ...
+  /opt/miniconda3/bin/python -m pip install [options] [-e] <vcs project url> ...
+  /opt/miniconda3/bin/python -m pip install [options] [-e] <local project path> ...
+  /opt/miniconda3/bin/python -m pip install [options] <archive url/path> ...
+
+no such option: --verbose
++ git checkout c76af9ed6bb89bfba45b9f5bc1e635188278e2fa astropy/io/fits/tests/test_checksum.py $'astropy/io/fits/tests/test_table.py\r'
+error: pathspec 'astropy/io/fits/tests/test_table.py?' did not match any file(s) known to git
++ git apply -v -
+Checking patch astropy/io/fits/tests/test_checksum.py...
+error: while searching for:
+                # The checksum ends up being different on Windows, possibly due?
+                # to slight floating point differences?
+                assert 'CHECKSUM' in hdul[1].header?
+                assert hdul[1].header['CHECKSUM'] == '51IDA1G981GCA1G9'?
+                assert 'DATASUM' in hdul[1].header?
+                assert hdul[1].header['DATASUM'] == '1948208413'?
+?
+    def test_compressed_image_data(self):?
+        with fits.open(self.data('comp.fits')) as h1:?
+
+error: patch failed: astropy/io/fits/tests/test_checksum.py:205
+error: astropy/io/fits/tests/test_checksum.py: patch does not apply
+Checking patch astropy/io/fits/tests/test_table.py...
+error: while searching for:
+        hdul = fits.open(self.temp('toto.fits'))?
+        assert comparerecords(hdu.data, hdul[1].data)?
+        hdul.close()?
+        a.close()?
+?
+    def test_endianness(self):?
+
+error: patch failed: astropy/io/fits/tests/test_table.py:298
+error: astropy/io/fits/tests/test_table.py: patch does not apply
++ : '>>>>> Start Test Output'
++ pytest -rA -vv -o console_output_style=classic --tb=no astropy/io/fits/tests/test_checksum.py $'astropy/io/fits/tests/test_table.py\r'
+/eval.sh: line 57: pytest: command not found
++ : '>>>>> End Test Output'
++ git checkout c76af9ed6bb89bfba45b9f5bc1e635188278e2fa astropy/io/fits/tests/test_checksum.py $'astropy/io/fits/tests/test_table.py\r'
+error: pathspec 'astropy/io/fits/tests/test_table.py?' did not match any file(s) known to git

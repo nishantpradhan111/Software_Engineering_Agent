@@ -1,0 +1,24 @@
+```diff
+--- a/your_script.py
++++ b/your_script.py
+@@ -1,6 +1,5 @@
+ from sympy import *
+ from sympy.vector import CoordSys3D, Del
+-
+ init_printing()
+ 
+ delop = Del()
+@@ -16,9 +15,9 @@
+ vecB = Bx * xhat
+ vecE = (1/eps) * Integral(delop.cross(vecB/mu).doit(), t)
+ 
+-pprint(vecB)
++pprint(vecB, use_unicode=False)
+ print()
+-pprint(vecE)
++pprint(vecE, use_unicode=False)
+ print()
+-pprint(vecE.doit())
++pprint(vecE.doit(), use_unicode=False)
+
+```

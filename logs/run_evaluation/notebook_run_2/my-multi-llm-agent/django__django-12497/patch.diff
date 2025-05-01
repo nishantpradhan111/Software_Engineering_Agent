@@ -1,0 +1,21 @@
+```diff
+--- a/django/db/models/fields/related_lookups.py
++++ b/django/db/models/fields/related_lookups.py
+@@ -422,11 +422,10 @@
+             # hint to the user.
+             msg += (
+                 ' If you want to create a recursive relationship, '
+-                'use ManyToManyField("%s", symmetrical=False, through="%s").' %
+-                (opts.model_name, through._meta.object_name)
+-                if not through._meta.auto_created else
+-                'use ManyToManyField("%s", symmetrical=False).' % opts.model_name
++                'use ManyToManyField("%s", symmetrical=False%s).' % (
++                    opts.model_name,
++                    f', through="{through._meta.object_name}"' if not through._meta.auto_created else '',
++                )
+             )
+         raise ValueError(msg)
+ 
+
+```
+The original patch had a subtle formatting issue. While functionally correct, using a multi-line string concatenation with `%` formatting inside a conditional expression made the code less readable.  This revised patch uses an f-string within the `%` formatting to conditionally include the `through` argument, resulting in cleaner and more concise code.  It avoids unnecessary string concatenation and improves readability.

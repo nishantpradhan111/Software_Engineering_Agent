@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/physics/units/prefixes.py
++++ b/sympy/physics/units/prefixes.py
+@@ -116,7 +116,7 @@
+ 
+     def __mul__(self, other):
+         if isinstance(other, Prefix):
+-            return 1
++            return Prefix(self.name + '*' + other.name, self.abbrev + other.abbrev, self.exponent + other.exponent, self.base)
+         if isinstance(other, Quantity):
+             return Mul(self, other, evaluate=False)
+         return Mul(self, other)
+
+```
