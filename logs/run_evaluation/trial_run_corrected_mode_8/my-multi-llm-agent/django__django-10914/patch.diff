@@ -1,0 +1,61 @@
+```diff
+--- a/django/conf/global_settings.py
++++ b/django/conf/global_settings.py
+@@ -54,7 +54,7 @@
+ # See https://docs.djangoproject.com/en/dev/ref/settings/#file-upload-permissions
+ # for more information.
+ #
+-FILE_UPLOAD_PERMISSIONS = None
++FILE_UPLOAD_PERMISSIONS = 0o644
+ 
+ # The directory that uploaded files will be saved to.
+ # See https://docs.djangoproject.com/en/dev/ref/settings/#file-upload-max-memory-size
+--- a/django/core/files/storage.py
++++ b/django/core/files/storage.py
+@@ -37,7 +37,7 @@
+     @cached_property
+     def file_upload_permissions_mode(self):
+         return getattr(settings, 'FILE_UPLOAD_PERMISSIONS', None)
+-
++    
+     def get_available_name(self, name, max_length=None):
+         """
+         Return a filename that's free on the target storage system, and
+--- a/docs/releases/3.0.txt
++++ b/docs/releases/3.0.txt
+@@ -17,6 +17,12 @@
+ What's new in Django 3.0
+ =========================
+ 
++
++File storage
++------------
++
++*   The default for ``FILE_UPLOAD_PERMISSIONS`` is changed from ``None`` to
++    ``0o644``. Set it to ``None`` to restore the previous behavior.
+ 
+ 
+ Removed
+--- a/docs/ref/settings.txt
++++ b/docs/ref/settings.txt
+@@ -454,6 +454,9 @@
+ If this isn't given or is ``None``, you'll get operating-system dependent
+ behavior. On most platforms, temporary files will have a mode of ``0o600``,
+ and files saved from memory will be saved using the system's standard umask.
++
++Setting this value doesn't affect directory permissions. See
++:setting:`FILE_UPLOAD_DIRECTORY_PERMISSIONS` for that.
+ 
+ ``FILE_UPLOAD_HANDLERS``
+ -------------------------
+--- a/tests/test_utils/tests.py
++++ b/tests/test_utils/tests.py
+@@ -1096,7 +1096,7 @@
+         the file_permissions_mode attribute of
+         django.core.files.storage.default_storage.
+         """
+-        self.assertIsNone(default_storage.file_permissions_mode)
++        self.assertEqual(default_storage.file_upload_permissions_mode, 0o644)
+         with self.settings(FILE_UPLOAD_PERMISSIONS=0o777):\
+             self.assertEqual(default_storage.file_permissions_mode, 0o777)
+```

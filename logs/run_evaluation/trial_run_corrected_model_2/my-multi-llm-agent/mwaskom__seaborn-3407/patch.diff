@@ -1,0 +1,13 @@
+```diff
+--- a/seaborn/axisgrid.py
++++ b/seaborn/axisgrid.py
+@@ -1487,7 +1487,7 @@
+             for var, ax in zip(diag_vars, diag_axes):
+                 plt.sca(ax)
+ 
+-            vector = self.data[var]
++                vector = self.data.loc[:, var]
+             if self._hue_var is not None:
+                 hue = self.data[self._hue_var]
+ 
+```

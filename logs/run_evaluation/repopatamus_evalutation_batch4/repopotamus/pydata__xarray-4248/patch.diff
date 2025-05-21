@@ -1,0 +1,24 @@
+```diff
+--- a/xarray/core/formatting.py
++++ b/xarray/core/formatting.py
+@@ -258,6 +258,8 @@
+         return inline_dask_repr(var.data)
+     elif isinstance(var._data, sparse_array_type):
+         return inline_sparse_repr(var.data)
++    elif hasattr(var._data, "_repr_inline_"):
++        return var._data._repr_inline_(max_width)
+     elif hasattr(var._data, "__array_function__"):
+         return maybe_truncate(repr(var._data).replace("\\n", " "), max_width)
+     else:
+@@ -548,9 +550,7 @@
+ def summarize_coord(name: Hashable, var, col_width: int):
+     is_index = name in var.dims
+     marker = "*" if is_index else " "
+-    if is_index:
+-        coord = var.variable.to_index_variable()
+-        if coord.level_names is not None:
++    if is_index and (coord := var.variable.to_index_variable()).level_names is not None:
+             return "\n".join(
+                 [
+                     _summarize_coord_multiindex(coord, col_width, marker),
+```

@@ -1,0 +1,13 @@
+```diff
+--- a/astropy/wcs/wcs.py
++++ b/astropy/wcs/wcs.py
+@@ -1265,7 +1265,7 @@
+                 axes = args
+ 
+         if any(len(axis) == 0 for axis in axes):
+-            return _return_list_of_arrays(axes, origin)
++            return self._return_list_of_arrays(axes, origin)
+ 
+         try:
+             # axes will be a list of numpy arrays
+```

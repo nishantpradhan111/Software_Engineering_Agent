@@ -1,0 +1,14 @@
+```diff
+--- a/requests/session.py
++++ b/requests/session.py
+@@ -150,7 +150,7 @@
+         i = 0
+ 
+         while resp.is_redirect:
+-            prepared_request = req.copy()
++            prepared_request = resp.request.copy()
+ 
+             resp.content  # Consume socket so it can be released
+ 
+
+```

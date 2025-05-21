@@ -1,0 +1,18 @@
+```diff
+--- a/sympy/polys/factortools.py
++++ b/sympy/polys/factortools.py
+@@ -28,6 +28,7 @@
+     >>> f = x**3 + 14*x**2 + 56*x + 64
+     >>> R.dup_zz_mignotte_bound(f)
+     152
++
+ 
+     By checking `factor(f)` we can see that max coeff is 8
+ 
+@@ -131,4 +132,4 @@
+     return bound
+ 
+ def dmp_zz_mignotte_bound(f, u, K):
+-    """Mignotte bound for multivariate polynomials in `K[X]`. """
++    """Mignotte bound for multivariate polynomials in `K[X]`. """  # type: ignore
+```

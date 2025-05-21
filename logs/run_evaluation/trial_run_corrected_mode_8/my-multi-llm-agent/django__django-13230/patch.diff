@@ -1,0 +1,28 @@
+```diff
+--- a/django/contrib/syndication/views.py
++++ b/django/contrib/syndication/views.py
+@@ -87,6 +87,7 @@
+             item_categories = item.get('categories')
+             item_enclosure_url = item.get('enclosure_url')
+             item_enclosure_length = item.get('enclosure_length')
++            item_comments = item.get('comments')
+             item_enclosure_mime_type = item.get('enclosure_mime_type')
+         else:
+             item_title = feed.item_title(item)
+@@ -98,6 +99,7 @@
+             item_categories = feed.item_categories(item)
+             item_enclosure_url = feed.item_enclosure_url(item)
+             item_enclosure_length = feed.item_enclosure_length(item)
++            item_comments = feed.item_comments(item)
+             item_enclosure_mime_type = feed.item_enclosure_mime_type(item)
+ 
+         if item_copyright is None:
+@@ -122,6 +124,7 @@
+             enclosure_mime_type=item_enclosure_mime_type,
+             categories=item_categories,
+             item=item,
++            comments=item_comments,
+         )
+ 
+     @method_decorator(vary_on_headers('User-Agent', 'Cookie'))
+```

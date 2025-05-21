@@ -1,0 +1,23 @@
+```diff
+--- a/sympy/matrices/sparse.py
++++ b/sympy/matrices/sparse.py
+@@ -80,7 +80,7 @@
+                             self._smat[(i, j)] = value
+         else:
+             # handle full matrix forms with _handle_creation_inputs
+-            r, c, _list = Matrix._handle_creation_inputs(*args)
++            r, c, _list = Matrix._handle_creation_inputs(*args, **kwargs)
+             self.rows = r
+             self.cols = c
+             for i in range(self.rows):
+@@ -1269,9 +1269,6 @@
+ 
+ 
+ class MutableSparseMatrix(SparseMatrix, MatrixBase):
+-    @classmethod
+-    def _new(cls, *args, **kwargs):
+-        return cls(*args)
+ 
+     def __setitem__(self, key, value):
+         """Assign value to position designated by key.
+```

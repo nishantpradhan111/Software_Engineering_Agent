@@ -1,0 +1,12 @@
+```diff
+--- a/lib/matplotlib/__init__.py
++++ b/lib/matplotlib/__init__.py
+@@ -177,7 +177,7 @@
+         global __version__  # cache it.
+         __version__ = _get_version()
+         global __version_info__  # cache it.
+-        __version_info__ = _parse_to_version_info(__version__)
++        __version_info__ = _parse_to_version_info(__version__)  # type: ignore
+         return __version__ if name == "__version__" else __version_info__
+     raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+```

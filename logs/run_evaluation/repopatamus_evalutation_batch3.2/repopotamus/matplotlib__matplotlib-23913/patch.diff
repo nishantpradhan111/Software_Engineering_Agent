@@ -1,0 +1,32 @@
+```diff
+--- a/lib/matplotlib/legend.py
++++ b/lib/matplotlib/legend.py
+@@ -302,9 +302,9 @@
+         bbox_transform=None,  # transform for the bbox
+         frameon=None,         # draw frame
+         handler_map=None,
+-        title_fontproperties=None,  # properties for the legend title
+         alignment="center",       # control the alignment within the legend box
+         *,
++        title_fontproperties=None,  # properties for the legend title
+         ncol=1  # synonym for ncols (backward compatibility)
+     ):
+         """
+@@ -313,7 +313,6 @@
+         parent : `~matplotlib.axes.Axes` or `.Figure`
+             The artist that contains the legend.
+ 
+-        title_fontproperties=None,  # properties for the legend title
+         handles : list of `.Artist`
+             A list of Artists (lines, patches) to be added to the legend.
+ 
+@@ -791,6 +790,7 @@
+ 
+         self.set_title(title, prop=title_prop_fp)
+         self._draggable = None
++        self.set_draggable(state=draggable)
+ 
+         # set the text color
+ 
+
+```

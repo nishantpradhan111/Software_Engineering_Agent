@@ -1,0 +1,14 @@
+```diff
+--- a/src/_pytest/assertion/rewrite.py
++++ b/src/_pytest/assertion/rewrite.py
+@@ -673,6 +673,7 @@
+             expect_docstring = False
+             if (
+                 expect_docstring
++                and isinstance(item, ast.Expr)
+                 and isinstance(item, ast.Expr)
+                 and isinstance(item.value, ast.Constant)
+                 and isinstance(item.value.value, str)
+             ):
+                 doc = item.value.value
+```

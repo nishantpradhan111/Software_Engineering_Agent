@@ -1,0 +1,28 @@
+```diff
+--- a/django/contrib/admin/checks.py
++++ b/django/contrib/admin/checks.py
+@@ -740,10 +740,10 @@
+         elif hasattr(obj, item):
+             return []
+         try:
+-            field = obj.model._meta.get_field(item)
++            obj.model._meta.get_field(item)
+         except FieldDoesNotExist:
+             try:
+-                field = getattr(obj.model, item)
++                getattr(obj.model, item)
+             except AttributeError:
+                 return [
+                     checks.Error(
+@@ -760,9 +760,7 @@
+                         id="admin.E108",
+                     )
+                 ]
+-        if isinstance(field, models.ManyToManyField) or (
+-            getattr(field, "rel", None) and field.rel.field.many_to_one
+-        ):
++        if item in obj.model._meta.many_to_many or any(f.remote_field and f.remote_field.many_to_one for f in obj.model._meta.fields if hasattr(f, 'remote_field')):
+             return [
+                 checks.Error(
+                     f"The value of '{label}' must not be a many-to-many field or a "
+```

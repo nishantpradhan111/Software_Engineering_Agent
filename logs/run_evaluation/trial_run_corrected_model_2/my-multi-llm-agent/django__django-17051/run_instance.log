@@ -1,0 +1,3202 @@
+2025-05-04 10:15:29,000 - INFO - Creating container for django__django-17051...
+2025-05-04 10:15:29,270 - INFO - Container for django__django-17051 created: e235662ef9842c62acd827c2188d6aa8b46995cab4c013b0f16c840c91b98ecb
+2025-05-04 10:15:29,566 - INFO - Container for django__django-17051 started: e235662ef9842c62acd827c2188d6aa8b46995cab4c013b0f16c840c91b98ecb
+2025-05-04 10:15:29,571 - INFO - Intermediate patch for django__django-17051 written to logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/patch.diff, now applying to container...
+2025-05-04 10:15:29,743 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 10:15:29,813 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 10:15:29,886 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-04 10:15:29,886 - INFO - >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+2025-05-04 10:15:30,179 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 10:15:30,180 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,180 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,180 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,180 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,181 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,181 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,182 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,183 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,183 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,183 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,183 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,184 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,184 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,184 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,184 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,185 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,185 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,185 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,185 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,186 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,186 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,186 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,186 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,187 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,187 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,187 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,187 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,188 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,188 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,188 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,189 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,189 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,189 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,189 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,190 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,190 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,190 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,190 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,191 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,191 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,191 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,192 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,192 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,192 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,192 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,193 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,193 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,193 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,193 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,194 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,194 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,194 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,195 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,195 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,195 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,195 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,196 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,196 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,196 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,196 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,196 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,197 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,197 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,197 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,197 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,198 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,198 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,198 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,199 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,199 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,199 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,199 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,200 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,200 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,200 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,200 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,201 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,201 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,201 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,201 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,202 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,202 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,202 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,202 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,203 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,203 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,203 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,203 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,204 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,204 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,204 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,204 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,205 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,205 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,205 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,205 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,206 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,206 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,206 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,207 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,207 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,207 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,207 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,208 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,208 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,208 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,208 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,209 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,209 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,209 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,209 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,209 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,210 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,210 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,210 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,210 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,211 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,211 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,211 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,211 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,212 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,212 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,493 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 10:15:30,493 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,494 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,494 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,494 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,494 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,495 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,497 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,498 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,499 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,499 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,500 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,500 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,500 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,500 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,501 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,501 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,501 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,502 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,502 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,503 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,503 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,503 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,504 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,504 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,504 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,504 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,505 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,505 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,505 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,505 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,506 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,506 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,506 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,507 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,507 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,508 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,509 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,509 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,509 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,511 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,511 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,511 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,512 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,512 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,513 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,513 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,515 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,515 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,515 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,516 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,516 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,516 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,517 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,517 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,517 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,517 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,518 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,518 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,518 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,519 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,519 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,519 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,519 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,520 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,520 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,520 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,520 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,521 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,521 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,521 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,522 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,522 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,522 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,525 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,525 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,525 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,525 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,526 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,526 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,526 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,526 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,527 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,527 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,527 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,528 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,528 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,529 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,529 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,529 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,529 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,530 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,530 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,530 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,530 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,531 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,531 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,531 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,532 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,532 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,532 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,532 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,533 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,533 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,533 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,534 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,534 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-17051: >>>>> Patch Apply Failed:
+patching file django/db/models/query.py
+Hunk #1 FAILED at 1837.
+1 out of 1 hunk FAILED -- saving rejects to file django/db/models/query.py.rej
+patching file tests/bulk_create/tests.py
+patch: **** malformed patch at line 40: @@ -618,12 +620,12 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-17051/run_instance.log) for more information.
+
+2025-05-04 10:15:30,534 - INFO - Attempting to stop container sweb.eval.django__django-17051.trial_run_corrected_model_2...
+2025-05-04 10:15:46,265 - INFO - Attempting to remove container sweb.eval.django__django-17051.trial_run_corrected_model_2...
+2025-05-04 10:15:46,310 - INFO - Container sweb.eval.django__django-17051.trial_run_corrected_model_2 removed.
+2025-05-04 10:15:46,311 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-17051:latest...
+2025-05-04 10:15:47,390 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-17051:latest removed.

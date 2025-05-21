@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/physics/vector/point.py
++++ b/sympy/physics/vector/point.py
+@@ -492,7 +492,7 @@
+         >>> p2.vel(N)
+         (Derivative(q(t), t) + 10)*N.x
+ 
+-        """
++        """ 
+ 
+         _check_frame(frame)
+         if not (frame in self._vel_dict):
+```

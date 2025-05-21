@@ -1,0 +1,19 @@
+```diff
+--- a/src/_pytest/_io/saferepr.py
++++ b/src/_pytest/_io/saferepr.py
+@@ -23,7 +23,7 @@
+         exc_info = "unpresentable exception ({})".format(_try_repr_or_str(exc))
+     return "<[{} raised in repr()] {} object at 0x{:x}>".format(
+         exc_info, type(obj).__name__, id(obj)
+-    )
++)
+
+--- a/testing/io/test_saferepr.py
++++ b/testing/io/test_saferepr.py
+@@ -154,4 +154,4 @@
+ 
+     assert saferepr(SomeClass()).startswith(
+         "<[RuntimeError() raised in repr()] SomeClass object at 0x"
+-    )
++)
+```

@@ -1,0 +1,105 @@
+2025-05-11 20:45:28,365 - INFO - Creating container for sympy__sympy-20212...
+2025-05-11 20:45:28,582 - INFO - Container for sympy__sympy-20212 created: 30cbc1ec623470186bd2f62b3bfe2d7c32956d07249825768b7991dea587c433
+2025-05-11 20:45:28,935 - INFO - Container for sympy__sympy-20212 started: 30cbc1ec623470186bd2f62b3bfe2d7c32956d07249825768b7991dea587c433
+2025-05-11 20:45:28,940 - INFO - Intermediate patch for sympy__sympy-20212 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-20212/patch.diff, now applying to container...
+2025-05-11 20:45:29,147 - INFO - >>>>> Applied Patch:
+/tmp/patch.diff:13: trailing whitespace.
+        # XXX: This can be removed when non-Expr args are disallowed rather 
+/tmp/patch.diff:14: trailing whitespace.
+        # than deprecated. 
+/tmp/patch.diff:15: trailing whitespace.
+        from sympy.core.relational import Relational 
+/tmp/patch.diff:16: trailing whitespace.
+        if isinstance(b, Relational) or isinstance(e, Relational): 
+/tmp/patch.diff:17: trailing whitespace.
+            raise TypeError('Relational can not be used in Pow') 
+Checking patch sympy/core/power.py...
+Hunk #1 succeeded at 275 (offset 35 lines).
+Hunk #2 succeeded at 292 (offset 36 lines).
+Applied patch sympy/core/power.py cleanly.
+warning: squelched 2 whitespace errors
+warning: 7 lines add whitespace errors.
+
+2025-05-11 20:45:29,872 - INFO - Git diff before:
+diff --git a/sympy/core/power.py b/sympy/core/power.py
+index 984398c760..48e7efd4d3 100644
+--- a/sympy/core/power.py
++++ b/sympy/core/power.py
+@@ -275,11 +275,11 @@ def __new__(cls, b, e, evaluate=None):
+         b = _sympify(b)
+         e = _sympify(e)
+ 
+-        # XXX: This can be removed when non-Expr args are disallowed rather
+-        # than deprecated.
+-        from sympy.core.relational import Relational
+-        if isinstance(b, Relational) or isinstance(e, Relational):
+-            raise TypeError('Relational can not be used in Pow')
++        # XXX: This can be removed when non-Expr args are disallowed rather 
++        # than deprecated. 
++        from sympy.core.relational import Relational 
++        if isinstance(b, Relational) or isinstance(e, Relational): 
++            raise TypeError('Relational can not be used in Pow') 
+ 
+         # XXX: This should raise TypeError once deprecation period is over:
+         if not (isinstance(b, Expr) and isinstance(e, Expr)):
+@@ -292,10 +292,10 @@ def __new__(cls, b, e, evaluate=None):
+ 
+         if evaluate:
+             if e is S.ComplexInfinity:
+-                return S.NaN
+-            if e is S.Zero:
++                return S.NaN 
++            elif e is S.Zero:
+                 return S.One
+-            elif e is S.One:
++            elif e is S.One: 
+                 return b
+             elif e == -1 and not b:
+                 return S.ComplexInfinity
+2025-05-11 20:45:29,878 - INFO - Eval script for sympy__sympy-20212 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-20212/eval.sh; copying to container...
+2025-05-11 20:46:53,217 - INFO - Test runtime: 83.22 seconds
+2025-05-11 20:46:53,222 - INFO - Test output for sympy__sympy-20212 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-20212/test_output.txt
+2025-05-11 20:46:53,324 - INFO - Git diff after:
+diff --git a/sympy/core/power.py b/sympy/core/power.py
+index 984398c760..48e7efd4d3 100644
+--- a/sympy/core/power.py
++++ b/sympy/core/power.py
+@@ -275,11 +275,11 @@ def __new__(cls, b, e, evaluate=None):
+         b = _sympify(b)
+         e = _sympify(e)
+ 
+-        # XXX: This can be removed when non-Expr args are disallowed rather
+-        # than deprecated.
+-        from sympy.core.relational import Relational
+-        if isinstance(b, Relational) or isinstance(e, Relational):
+-            raise TypeError('Relational can not be used in Pow')
++        # XXX: This can be removed when non-Expr args are disallowed rather 
++        # than deprecated. 
++        from sympy.core.relational import Relational 
++        if isinstance(b, Relational) or isinstance(e, Relational): 
++            raise TypeError('Relational can not be used in Pow') 
+ 
+         # XXX: This should raise TypeError once deprecation period is over:
+         if not (isinstance(b, Expr) and isinstance(e, Expr)):
+@@ -292,10 +292,10 @@ def __new__(cls, b, e, evaluate=None):
+ 
+         if evaluate:
+             if e is S.ComplexInfinity:
+-                return S.NaN
+-            if e is S.Zero:
++                return S.NaN 
++            elif e is S.Zero:
+                 return S.One
+-            elif e is S.One:
++            elif e is S.One: 
+                 return b
+             elif e == -1 and not b:
+                 return S.ComplexInfinity
+2025-05-11 20:46:53,326 - INFO - Grading answer for sympy__sympy-20212...
+2025-05-11 20:46:53,333 - INFO - report: {'sympy__sympy-20212': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_zero']}, 'PASS_TO_PASS': {'success': ['test_rational', 'test_large_rational', 'test_negative_real', 'test_expand', 'test_issue_3449', 'test_issue_3866', 'test_negative_one', 'test_issue_4362', 'test_Pow_Expr_args', 'test_Pow_signs', 'test_power_with_noncommutative_mul_as_base', 'test_power_rewrite_exp', 'test_pow_as_base_exp', 'test_nseries', 'test_issue_6100_12942_4473', 'test_issue_6208', 'test_issue_6990', 'test_issue_6068', 'test_issue_6782', 'test_issue_6653', 'test_issue_6429', 'test_issue_7638', 'test_issue_8582', 'test_issue_8650', 'test_issue_13914', 'test_better_sqrt', 'test_issue_2993', 'test_issue_17450', 'test_issue_18190', 'test_issue_14815', 'test_issue_18509', 'test_issue_18762'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-20212: resolved: False
+2025-05-11 20:46:53,338 - INFO - Attempting to stop container sweb.eval.sympy__sympy-20212.repopatamus_evalutation_batch4...
+2025-05-11 20:47:08,925 - INFO - Attempting to remove container sweb.eval.sympy__sympy-20212.repopatamus_evalutation_batch4...
+2025-05-11 20:47:09,024 - INFO - Container sweb.eval.sympy__sympy-20212.repopatamus_evalutation_batch4 removed.
+2025-05-11 20:47:09,025 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-20212:latest...
+2025-05-11 20:47:09,418 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-20212:latest removed.

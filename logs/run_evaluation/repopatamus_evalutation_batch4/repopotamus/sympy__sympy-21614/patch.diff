@@ -1,0 +1,16 @@
+```diff
+--- a/sympy/core/function.py
++++ b/sympy/core/function.py
+@@ -1704,6 +1704,10 @@
+             ret.update(count.free_symbols)
+         return ret
+ 
++    @property
++    def kind(self):
++        return self.args[0].kind
++
+     @property
+     def _eval_subs(self, old, new):
+         # The substitution (old, new) cannot be done inside
+
+```

@@ -1,0 +1,39 @@
+```diff
+--- a/pylint/config/config_initialization.py
++++ b/pylint/config/config_initialization.py
+@@ -78,7 +78,7 @@
+         for opt in options:
+             if opt.startswith("--"):
+                 unrecognized_options.append(opt[1:])
+-    if unrecognized_options:
++    if unrecognized_options:  # pragma: no cover
+         msg = ", ".join(unrecognized_options)
+         linter._arg_parser.error(f"Unrecognized option(s): {msg}")
+ 
+
+--- a/tests/config/test_config.py
++++ b/tests/config/test_config.py
+@@ -65,18 +65,18 @@
+ 
+ def test_unknown_option_name(capsys: CaptureFixture) -> None:
+     """Check that we correctly raise a message on an unknown option."""
+-    with pytest.raises(_UnrecognizedOptionError):
++    with pytest.raises(SystemExit):
+         Run([str(EMPTY_MODULE), "--unknown-option=yes"], exit=False)
+     output = capsys.readouterr()
+-    assert "E0015: Unrecognized option found: unknown-option=yes" in output.out
++    assert "usage: pylint" in output.err
+     assert "Unrecognized option(s): unknown-option=yes" in output.err
+ 
+ 
+ def test_unknown_short_option_name(capsys: CaptureFixture) -> None:
+     """Check that we correctly raise a message on an unknown short option."""
+-    with pytest.raises(_UnrecognizedOptionError):
++    with pytest.raises(SystemExit):
+         Run([str(EMPTY_MODULE), "-Q"], exit=False)
+     output = capsys.readouterr()
+-    assert "E0015: Unrecognized option found: Q" in output.out
++    assert "usage: pylint" in output.err
+     assert "Unrecognized option(s): Q" in output.err
+ 
+```

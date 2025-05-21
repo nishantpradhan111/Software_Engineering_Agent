@@ -1,0 +1,12 @@
+```diff
+--- a/xarray/core/variable.py
++++ b/xarray/core/variable.py
+@@ -1040,7 +1040,6 @@
+         return self._finalize_indexing_result(dims, data)
+ 
+     def _finalize_indexing_result(self: VariableType, dims, data) -> VariableType:
+-        """Used by IndexVariable to return IndexVariable objects when possible."""
+         """Used by IndexVariable to return IndexVariable objects when possible."""
+         return type(self)(dims, data, self._attrs, self._encoding, fastpath=True)
+ 
+```

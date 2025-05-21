@@ -1,0 +1,18 @@
+```diff
+--- a/django/db/models/base.py
++++ b/django/db/models/base.py
+@@ -1926,11 +1926,11 @@
+                         cls._meta.db_table,
+                         id='models.W038',
+                     )
+-                )
++                )
+             fields = (
+                 field
+                 for constraint in cls._meta.constraints if isinstance(constraint, UniqueConstraint)
+-                for field in constraint.fields
++                for field in constraint.fields
+             )
+             errors.extend(cls._check_local_fields(fields, 'constraints'))
+         return errors
+```

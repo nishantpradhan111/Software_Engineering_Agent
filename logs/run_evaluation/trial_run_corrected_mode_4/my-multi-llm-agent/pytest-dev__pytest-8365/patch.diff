@@ -1,0 +1,32 @@
+```diff
+--- a/src/_pytest/tmpdir.py
++++ b/src/_pytest/tmpdir.py
+@@ -115,7 +115,12 @@ def getbasetemp(self) -> Path:
+             # use a sub-directory in the temproot to speed-up
+             # make_numbered_dir() call
+             rootdir = temproot.joinpath(f"pytest-of-{user}")
+-            rootdir.mkdir(exist_ok=True)
++            try:
++                rootdir.mkdir(exist_ok=True)
++            except OSError:
++                # getuser() likely returned illegal characters for the platform, use unknown back off mechanism
++                rootdir = temproot.joinpath("pytest-of-unknown")
++                rootdir.mkdir(exist_ok=True)
+             basetemp = make_numbered_dir_with_cleanup(
+                 prefix="pytest-", root=rootdir, keep=3, lock_timeout=LOCK_TIMEOUT
+             )
+--- a/testing/test_tmpdir.py
++++ b/testing/test_tmpdir.py
+@@ -445,3 +446,14 @@ def test(tmp_path):\n     # running a second time and ensure we don\'t crash\n     result = pytester.runpytest("--basetemp=tmp")\n     assert result.ret == 0
++
++
++def test_tmp_path_factory_handles_invalid_dir_characters(
++    tmp_path_factory: TempPathFactory, monkeypatch: MonkeyPatch
++) -> None:
++    monkeypatch.setattr("getpass.getuser", lambda: "os/<:*?;>agnostic")
++    # _basetemp / _given_basetemp are cached / set in parallel runs, patch them
++    monkeypatch.setattr(tmp_path_factory, "_basetemp", None)
++    monkeypatch.setattr(tmp_path_factory, "_given_basetemp", None)
++    p = tmp_path_factory.getbasetemp()
++    assert "pytest-of-unknown" in str(p)
+```

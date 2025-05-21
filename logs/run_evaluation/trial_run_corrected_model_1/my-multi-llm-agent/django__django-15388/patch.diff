@@ -1,0 +1,12 @@
+```diff
+--- a/django/template/autoreload.py
++++ b/django/template/autoreload.py
+@@ -48,6 +48,7 @@
+ 
+ @receiver(file_changed, dispatch_uid='template_loaders_file_changed')
+ def template_changed(sender, file_path, **kwargs):
++    file_path = Path(file_path)
+     if file_path.suffix == '.py':
+         return
+     for template_dir in get_template_directories():
+```

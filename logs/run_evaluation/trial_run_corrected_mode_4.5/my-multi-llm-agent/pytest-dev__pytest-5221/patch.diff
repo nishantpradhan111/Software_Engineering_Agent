@@ -1,0 +1,21 @@
+```diff
+--- a/src/_pytest/python.py
++++ b/src/_pytest/python.py
+@@ -1345,14 +1345,12 @@
+         if verbose <= 0 and argname[0] == "_":
+             continue
+         tw.write(argname, green=True)
+-        if fixturedef.scope != "function":
++        if fixturedef.scope != "function":  # type: ignore[attr-defined]
+             tw.write(" [%s scope]" % fixturedef.scope, cyan=True)
+         if verbose > 0:
+-            funcargspec = "%s -- %s" % (argname, bestrel)
+-        else:
+-            funcargspec = argname
+-        tw.line(funcargspec, green=True)
++            tw.write(" -- %s" % bestrel, yellow=True)
++        tw.write("\n")
+         loc = getlocation(fixturedef.func, curdir)
+         doc = fixturedef.func.__doc__ or ""
+         if doc:
+```

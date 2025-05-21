@@ -1,0 +1,40 @@
+```diff
+--- a/src/_pytest/mark/evaluate.py
++++ b/src/_pytest/mark/evaluate.py
+@@ -1,19 +1,11 @@
+ from __future__ import annotations
+ 
+-from typing import Any
++from typing import Any, Dict
+ from typing import Dict
+-from typing import TYPE_CHECKING
+ 
+ from ..outcomes import fail
+ from ..outcomes import TEST_OUTCOME
+ from .structures import Mark
+-from _pytest.config import Config
+-from _pytest.nodes import Item
+-from _pytest.store import StoreKey
+-
+-
+-evalcache_key = StoreKey[Dict[str, Any]]()
+ 
+ 
+ def compiled_eval(expr: str, d: Dict[str, object]) -> Any:
+@@ -21,15 +13,6 @@
+ 
+     exprcode = _pytest._code.compile(expr, mode="eval")
+     return eval(exprcode, d)
+-
+-
+-class MarkEvaluator:
+-    def __init__(self, item: "Item", name: str) -> None:
+-        self.item = item
+-        self.name = name
+-        self.result: object | None = None
+-        self.exc: BaseException | None = None
+-        self.expr: str | None = None
+ 
+ 
+ class MarkEvaluator:
+```

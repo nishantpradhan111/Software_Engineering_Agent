@@ -1,0 +1,3202 @@
+2025-05-08 15:18:41,419 - INFO - Creating container for django__django-11283...
+2025-05-08 15:18:41,797 - INFO - Container for django__django-11283 created: 16b5e1bb5a7eb321b0835968c73b3ac2ed93e544367939e881714cb033e0e921
+2025-05-08 15:18:42,142 - INFO - Container for django__django-11283 started: 16b5e1bb5a7eb321b0835968c73b3ac2ed93e544367939e881714cb033e0e921
+2025-05-08 15:18:42,152 - INFO - Intermediate patch for django__django-11283 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/patch.diff, now applying to container...
+2025-05-08 15:18:42,424 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-08 15:18:42,540 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-08 15:18:42,646 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-08 15:18:42,646 - INFO - >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+2025-05-08 15:18:43,084 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-08 15:18:43,084 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,085 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,085 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,085 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,086 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,086 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,087 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,087 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,087 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,087 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,088 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,088 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,089 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,089 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,089 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,090 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,091 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,091 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,092 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,092 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,092 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,093 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,093 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,093 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,094 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,094 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,094 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,094 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,095 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,095 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,095 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,095 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,096 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,096 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,096 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,096 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,097 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,097 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,097 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,098 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,098 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,098 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,098 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,099 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,099 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,099 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,099 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,100 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,100 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,100 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,100 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,101 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,101 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,101 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,102 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,102 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,102 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,102 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,103 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,103 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,103 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,103 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,104 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,104 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,104 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,104 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,105 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,105 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,105 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,106 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,106 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,106 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,106 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,107 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,107 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,107 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,107 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,108 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,108 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,108 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,109 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,109 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,109 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,109 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,110 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,110 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,110 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,111 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,111 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,111 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,111 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,112 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,112 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,112 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,112 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,113 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,113 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,113 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,113 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,115 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,115 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,116 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,118 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,119 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,119 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,119 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,119 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,120 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,120 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,120 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,121 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,121 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,121 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,121 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,122 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,122 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,545 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-08 15:18:43,545 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,546 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,546 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,547 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,547 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,547 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,548 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,548 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,548 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,549 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,549 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,549 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,550 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,550 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,550 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,551 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,551 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,552 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,552 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,553 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,553 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,555 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,559 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,559 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,560 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,560 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,560 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,561 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,561 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,561 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,562 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,562 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,563 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,563 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,563 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,564 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,564 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,564 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,565 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,565 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,565 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,566 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,566 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,566 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,567 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,567 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,567 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,568 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,568 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,569 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,569 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,569 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,570 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,570 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,570 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,570 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,571 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,571 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,571 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,572 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,572 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,573 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,573 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,573 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,574 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,574 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,574 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,575 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,575 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,575 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,576 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,576 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,577 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,577 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,577 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,578 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,578 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,579 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,579 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,580 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,580 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,581 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,581 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,581 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,582 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,582 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,582 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,583 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,583 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,583 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,584 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,584 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,584 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,585 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,585 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,586 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,586 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,587 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,587 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,588 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,588 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,589 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,590 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,591 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,592 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,596 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,597 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,597 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,598 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,598 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,598 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,599 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,599 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,599 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,600 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,600 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,600 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,601 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,601 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,602 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,602 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,602 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11283: >>>>> Patch Apply Failed:
+patching file tests/auth_tests/test_migrations.py
+Hunk #1 succeeded at 5 with fuzz 2 (offset -1 lines).
+Hunk #2 FAILED at 153.
+patch unexpectedly ends in middle of line
+Hunk #3 FAILED at 174.
+2 out of 3 hunks FAILED -- saving rejects to file tests/auth_tests/test_migrations.py.rej
+
+Check (logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11283/run_instance.log) for more information.
+
+2025-05-08 15:18:43,602 - INFO - Attempting to stop container sweb.eval.django__django-11283.trial_run_corrected_mode_8...
+2025-05-08 15:18:59,279 - INFO - Attempting to remove container sweb.eval.django__django-11283.trial_run_corrected_mode_8...
+2025-05-08 15:18:59,321 - INFO - Container sweb.eval.django__django-11283.trial_run_corrected_mode_8 removed.
+2025-05-08 15:18:59,322 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-11283:latest...
+2025-05-08 15:19:00,182 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-11283:latest removed.

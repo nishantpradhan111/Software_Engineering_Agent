@@ -1,0 +1,13 @@
+```diff
+--- a/lib/matplotlib/figure.py
++++ b/lib/matplotlib/figure.py
+@@ -931,7 +931,7 @@ def _break_share_link(ax, grouper):
+         self._axobservers.process("_axes_change_event", self)
+         self.stale = True
+         self._localaxes.remove(ax)
+-        if self.canvas is not None:
++        if self.canvas is not None and hasattr(self.canvas, 'release_mouse'):
+             self.canvas.release_mouse(ax)
+ 
+         # Break link between any shared axes
+```

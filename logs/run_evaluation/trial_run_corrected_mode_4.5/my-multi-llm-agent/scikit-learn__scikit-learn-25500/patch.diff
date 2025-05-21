@@ -1,0 +1,48 @@
+```diff
+--- a/sklearn/isotonic.py
++++ b/sklearn/isotonic.py
+@@ -363,6 +363,23 @@
+         return self
+ 
+     def transform(self, T):
++        """Transform new data by linear interpolation.
++
++        Parameters
++        ----------
++        T : array-like of shape (n_samples,) or (n_samples, 1)
++            Data to transform.
++
++            .. versionchanged:: 0.24
++               Also accepts 2d array with 1 feature.
++
++        Returns
++        ------
++        y_pred : ndarray of shape (n_samples,)
++            The transformed data.
++        """
++        return self._transform(T)
++
++    def _transform(self, T):
+         """Transform new data by linear interpolation.
+ 
+         Parameters
+@@ -379,16 +396,6 @@
+         The above behaviour could be changed in the future, if we decide to output
+         other type of arrays when calling `predict`.
+         """
+-
+-        if hasattr(self, "X_thresholds_"):
+-            dtype = self.X_thresholds_.dtype
+-        else:
+-            dtype = np.dtype(np.float64)
+-
+-        T = check_array(T, order="c", copy=False, dtype=dtype, ensure_2d=False)
+-        T = np.asarray(T)
+-
+-        y_pred = np.interp(T, self.X_thresholds_, self.y_thresholds_)
+-        return y_pred
++        T = check_array(T, order="c", copy=False, ensure_2d=False)
++        return np.interp(T, self.X_thresholds_, self.y_thresholds_)
+ 
+     def predict(self, T):
+```

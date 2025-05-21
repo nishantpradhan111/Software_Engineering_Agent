@@ -1,0 +1,13 @@
+```diff
+--- a/django/db/migrations/autodetector.py
++++ b/django/db/migrations/autodetector.py
+@@ -613,7 +613,7 @@
+                 # to_field on the ForeignKey needs updating.
+                 for rel in self.related_managers(new_model):
+                     if (
+-                        isinstance(rel.field, models.ForeignKey) and
++                        isinstance(rel.field, models.ForeignKey) and rel.field.remote_field.model is old_model and
+                         rel.field.remote_field.field_name == old_field.name
+                     ):
+                         new_name = new_field.name
+```

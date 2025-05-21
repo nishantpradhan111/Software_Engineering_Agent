@@ -1,0 +1,13 @@
+```
+--- a/sympy/printing/str.py
++++ b/sympy/printing/str.py
+@@ -610,7 +610,7 @@
+             if len(dfactors) > 1:
+                 return '%s/(%s)' % (n, d)
+             elif dfactors:
+-                return '%s/%s' % (n, d)
++                return '%s/(%s)' % (n, d)
+             return n
+ 
+         c, e = expr.as_coeff_Mul()
+```

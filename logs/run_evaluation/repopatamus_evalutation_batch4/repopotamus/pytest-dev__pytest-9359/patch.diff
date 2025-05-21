@@ -1,0 +1,12 @@
+```diff
+--- a/original.py
++++ b/original.py
+@@ -173,6 +173,7 @@
+     values: List[int] = []
+     for x in ast.walk(node):
+         if isinstance(x, (ast.stmt, ast.ExceptHandler)):
++            # Treat the finally/orelse part as its own statement
+             values.append(x.lineno - 1)
+             for name in ("finalbody", "orelse"):
+                 val: Optional[List[ast.stmt]] = getattr(x, name, None)
+```

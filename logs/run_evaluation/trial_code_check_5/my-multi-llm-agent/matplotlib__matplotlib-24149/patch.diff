@@ -1,0 +1,12 @@
+```diff
+--- a/lib/matplotlib/axes/_axes.py
++++ b/lib/matplotlib/axes/_axes.py
+@@ -2176,6 +2176,7 @@
+     181     try:
+     182         x0 = cbook._safe_first_finite(x0)
+     183     except (TypeError, IndexError, KeyError):
++        # can happen if x0 is []
+         pass
+     184     except StopIteration:
+         # this means we found no finite element, fall back to first
+```

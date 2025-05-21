@@ -1,0 +1,16 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -472,7 +472,10 @@
+                 # to optimize it.
+                 if hasattr(order, 'sql_format') and hasattr(order, 'params'):
+                     # Flatten the SQL to a single line to avoid issues with
+-                    without_ordering = self.ordering_parts.search(sql).group(1)
++                    # multiline SQL fragments.
++                    sql_oneline = ' '.join(sql.splitlines())
++                    without_ordering = self.ordering_parts.search(
++                        sql_oneline).group(1)
+                     if sql_oneline in seen:
+                         continue
+                     else:
+```

@@ -1,0 +1,39 @@
+```diff
+--- a/requests/adapters.py
++++ b/requests/adapters.py
+@@ -17,7 +17,7 @@
+ from .utils import (DEFAULT_CA_BUNDLE_PATH, get_encoding_from_headers,
+                     prepend_scheme_if_needed, get_auth_from_url, urldefragauth)
+ from .structures import CaseInsensitiveDict
+-from .packages.urllib3.exceptions import ConnectTimeoutError
++from .packages.urllib3.exceptions import ConnectTimeoutError, DecodeError
+ from .packages.urllib3.exceptions import HTTPError as _HTTPError
+ from .packages.urllib3.exceptions import MaxRetryError
+ from .packages.urllib3.exceptions import ProxyError as _ProxyError
+@@ -26,7 +26,7 @@
+ from .packages.urllib3.exceptions import SSLError as _SSLError
+ from .packages.urllib3.exceptions import ResponseError
+ from .cookies import extract_cookies_to_jar
+-from .exceptions import (ConnectionError, ConnectTimeout, ReadTimeout, SSLError,
++from .exceptions import (ConnectionError, ConnectTimeout, ReadTimeout, SSLError, Timeout,
+                          ProxyError, RetryError)
+ from .auth import _basic_auth_str
+ 
+@@ -595,11 +595,9 @@
+         except (_SSLError, _HTTPError) as e:
+             if isinstance(e, _SSLError):
+                 raise SSLError(e, request=request)
++
+             elif isinstance(e, DecodeError):
+                 raise ConnectionError(e, request=request)
+             elif isinstance(e, ReadTimeoutError):
+                 raise ReadTimeout(e, request=request)
+-            elif isinstance(e, ReadTimeoutError):
+-                raise ReadTimeout(e, request=request)
+             else:
+                 raise
+-
+-        return self.build_response(request, resp)
+-
++        return self.build_response(request, resp)
+```

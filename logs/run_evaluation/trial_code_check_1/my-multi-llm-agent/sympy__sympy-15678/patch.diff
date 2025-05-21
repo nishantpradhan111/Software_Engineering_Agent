@@ -1,0 +1,19 @@
+```diff
+--- a/sympy/geometry/util.py
++++ b/sympy/geometry/util.py
+@@ -570,12 +570,12 @@
+     dydx = Derivative(y, x, n)
+     derivs = {}
+     if isinstance(y, (list, tuple)):
+-        for i in y:
++        for i in list(y):
+             if not isinstance(i, Symbol):
+                 raise ValueError("expecting x-dependent symbol(s) but got: %s" % y)
+             derivs[Derivative(i, x)] = Symbol('D(%s)(x)' % i, exclude=[x])
+     else:
+-        if not isinstance(y, Symbol):
++        if not isinstance(y, Symbol) and not y.is_Function:
+             if not all(i == x for i in y.args):
+                 raise ValueError("expecting x-dependent symbol(s) but got: %s" % y)
+             y = y.func
+```

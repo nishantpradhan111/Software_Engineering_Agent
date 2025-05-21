@@ -1,0 +1,16 @@
+```diff
+--- a/lib/matplotlib/figure.py
++++ b/lib/matplotlib/figure.py
+@@ -3020,9 +3020,8 @@
+         self.__dict__ = state
+ 
+         # re-initialise some of the unstored state information
++        # The DPI gets set in FigureCanvasBase.__init__
+         dpi = self.dpi
+-        # The DPI gets set in FigureCanvasBase.__init__
+-        dpi = self.dpi
+-        # The DPI gets set in FigureCanvasBase.__init__
+ 
+         FigureCanvasBase(self)  # Set self.canvas.
+ 
+```

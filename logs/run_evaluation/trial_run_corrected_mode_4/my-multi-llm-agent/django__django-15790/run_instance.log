@@ -1,0 +1,3202 @@
+2025-05-04 17:17:32,651 - INFO - Creating container for django__django-15790...
+2025-05-04 17:17:32,894 - INFO - Container for django__django-15790 created: 3dc014831a20c0b2fb54e1c9bd42e70fff6aa9a3f2731de2eae678bfb9474aad
+2025-05-04 17:17:33,157 - INFO - Container for django__django-15790 started: 3dc014831a20c0b2fb54e1c9bd42e70fff6aa9a3f2731de2eae678bfb9474aad
+2025-05-04 17:17:33,163 - INFO - Intermediate patch for django__django-15790 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/patch.diff, now applying to container...
+2025-05-04 17:17:33,345 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 17:17:33,416 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 17:17:33,548 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-04 17:17:33,550 - INFO - >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+2025-05-04 17:17:33,961 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 17:17:33,962 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,962 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,963 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,963 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,963 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,964 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,964 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,965 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,965 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,965 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,966 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,966 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,966 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,966 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,967 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,967 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,967 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,968 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,968 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,968 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,969 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,969 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,969 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,970 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,970 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,970 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,971 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,971 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,971 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,972 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,972 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,972 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,973 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,973 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,973 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,973 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,974 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,974 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,974 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,974 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,975 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,975 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,975 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,975 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,976 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,976 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,976 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,977 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,977 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,977 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,977 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,978 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,978 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,978 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,978 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,979 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,979 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,979 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,980 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,980 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,980 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,980 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,981 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,981 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,981 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,982 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,982 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,982 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,983 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,983 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,984 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,984 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,984 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,984 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,985 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,985 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,985 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,986 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,986 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,986 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,987 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,987 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,987 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,988 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,988 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,989 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,989 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,989 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,990 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,990 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,990 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,991 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,991 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,991 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,992 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,992 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,992 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,993 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,993 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,993 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,994 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,994 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,995 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,995 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,996 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,996 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,996 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,997 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,997 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,997 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,998 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,998 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,998 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,999 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,999 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:33,999 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,000 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,000 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,000 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,001 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,001 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,002 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,421 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 17:17:34,421 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,421 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,422 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,422 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,422 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,423 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,423 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,423 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,423 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,424 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,424 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,424 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,425 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,425 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,425 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,426 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,426 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,427 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,427 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,428 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,428 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,429 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,429 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,429 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,430 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,430 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,430 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,431 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,431 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,431 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,432 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,432 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,433 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,433 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,433 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,433 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,434 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,434 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,434 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,434 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,435 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,435 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,435 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,436 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,436 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,437 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,437 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,438 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,438 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,439 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,439 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,440 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,440 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,441 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,441 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,442 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,442 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,443 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,443 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,444 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,445 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,445 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,446 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,446 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,447 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,448 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,448 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,448 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,449 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,450 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,450 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,451 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,451 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,452 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,453 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,453 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,454 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,454 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,454 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,455 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,455 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,456 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,456 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,456 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,457 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,457 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,458 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,458 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,458 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,459 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,459 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,459 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,460 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,460 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,460 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,460 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,461 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,461 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,461 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,462 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,462 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,462 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,463 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,463 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,464 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,464 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,464 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,464 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,465 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,465 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,465 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,466 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,466 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,466 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,467 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,467 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,467 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,468 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,468 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,469 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,469 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,470 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15790: >>>>> Patch Apply Failed:
+patching file django/core/checks/templates.py
+Hunk #1 FAILED at 66.
+1 out of 1 hunk FAILED -- saving rejects to file django/core/checks/templates.py.rej
+patching file tests/check_framework/test_templates.py
+patch: **** malformed patch at line 38:           INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15790/run_instance.log) for more information.
+
+2025-05-04 17:17:34,470 - INFO - Attempting to stop container sweb.eval.django__django-15790.trial_run_corrected_mode_4...
+2025-05-04 17:17:50,209 - INFO - Attempting to remove container sweb.eval.django__django-15790.trial_run_corrected_mode_4...
+2025-05-04 17:17:50,244 - INFO - Container sweb.eval.django__django-15790.trial_run_corrected_mode_4 removed.
+2025-05-04 17:17:50,244 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-15790:latest...
+2025-05-04 17:17:50,762 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-15790:latest removed.

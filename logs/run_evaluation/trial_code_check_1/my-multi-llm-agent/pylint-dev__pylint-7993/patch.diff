@@ -1,0 +1,24 @@
+```diff
+--- a/tests/reporters/unittest_reporting.py
++++ b/tests/reporters/unittest_reporting.py
+@@ -113,7 +113,7 @@
+ def test_template_option_with_header(linter: PyLinter) -> None:
+     output = StringIO()
+     linter.reporter.out = output
+-    linter.config.msg_template = '{{ "Category": "{category}" }}'
++    linter.config.msg_template = '{"Category": "{category}"}'
+     linter.open()
+     linter.set_current_module("my_mod")
+ 
+@@ -124,8 +124,8 @@
+     )
+ 
+     out_lines = output.getvalue().split("\n")
+-    assert out_lines[1] == '{ "Category": "convention" }'
+-    assert out_lines[2] == '{ "Category": "convention" }'
++    assert out_lines[1] == '{"Category": "convention"}'
++    assert out_lines[2] == '{"Category": "convention"}'
+ 
+ 
+ def test_deprecation_set_output(recwarn: WarningsRecorder) -> None:
+```

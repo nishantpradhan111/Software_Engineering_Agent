@@ -1,0 +1,13 @@
+```diff
+--- a/_pytest/skipping.py
++++ b/_pytest/skipping.py
+@@ -271,7 +271,7 @@
+                 rep.outcome = "failed"
+                 rep.longrepr = "[XPASS(strict)] " + xfailed.reason
+             else:
+-                rep.outcome = "passed"
++                rep.outcome = "skipped"
+                 rep.wasxfail = xfailed.reason
+ 
+     if (
+```

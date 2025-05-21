@@ -1,0 +1,23 @@
+```diff
+--- a/django/core/checks/model_checks.py
++++ b/django/core/checks/model_checks.py
+@@ -37,14 +37,9 @@
+             indexes[model_index.name].append(model._meta.label)
+         for model_constraint in model._meta.constraints:
+             constraints[model_constraint.name].append(model._meta.label)
+-    error_class = Error
+-    error_id = 'models.E028'
+-    error_hint = None
+-    error_class = Error
+     if settings.DATABASE_ROUTERS:
+         error_class, error_id = Warning, 'models.W035'
+         error_hint = (
+             'You have configured settings.DATABASE_ROUTERS. Verify that %s '
+             'are correctly routed to separate databases.'
+         )
+-    else:
+-        error_class, error_id = Error, 'models.E028'
+-        error_hint = None
++    else:
++        error_class, error_id, error_hint = Error, 'models.E028', None
+```

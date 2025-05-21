@@ -1,0 +1,21 @@
+```diff
+--- a/sympy/printing/latex.py
++++ b/sympy/printing/latex.py
+@@ -1813,7 +1813,7 @@ def _print_PolynomialRingBase(self, expr):
+ 
+     def _print_Poly(self, poly):
+         cls = poly.__class__.__name__
+-        expr = self._print(poly.as_expr())
++        terms = []
+         terms = []
+         for monom, coeff in poly.terms():
+             s_monom = ''
+@@ -20,6 +20,7 @@
+                 terms[0] = '-' + terms[0]
+ 
+         expr = ' '.join(terms)
++        expr = expr.replace('+ -', '- ')
+         gens = list(map(self._print, poly.gens))
+         domain = "domain=%s" % self._print(poly.get_domain())
+ 
+```

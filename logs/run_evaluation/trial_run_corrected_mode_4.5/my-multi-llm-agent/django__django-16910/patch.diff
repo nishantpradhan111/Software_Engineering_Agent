@@ -1,0 +1,17 @@
+```diff
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -782,7 +782,11 @@
+         for field_name, field_mask in mask.items():
+             field = opts.get_field(field_name)
+             # Retrieve the actual field associated with reverse relationships
+-            # as that's what is expected in the select mask.
++            # as that's what is expected in the select mask. For
++            # non-concrete fields (e.g. GenericForeignKey), use the field
++            # itself.
++            if not field.concrete:
++                field_key = field
+             if field in opts.related_objects:
+                 field_key = field.field
+             else:
+```

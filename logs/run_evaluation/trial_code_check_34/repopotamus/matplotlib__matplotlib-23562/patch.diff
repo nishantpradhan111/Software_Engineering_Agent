@@ -1,0 +1,13 @@
+```diff
+--- a/lib/mpl_toolkits/mplot3d/art3d.py
++++ b/lib/mpl_toolkits/mplot3d/art3d.py
+@@ -867,6 +867,8 @@
+             self._edgecolors2d = self._edgecolor3d
+ 
+         # Return zorder value
++        self._facecolors2d = np.asarray(self._facecolors2d)
++        self._edgecolors2d = np.asarray(self._edgecolors2d)
+         if self._sort_zpos is not None:
+             zvec = np.array([[0], [0], [self._sort_zpos], [1]])
+             ztrans = proj3d._proj_transform_vec(zvec, self.axes.M)
+```

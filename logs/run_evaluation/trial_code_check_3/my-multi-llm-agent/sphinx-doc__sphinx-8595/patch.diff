@@ -1,0 +1,13 @@
+```diff
+--- a/sphinx/ext/autodoc/directive.py
++++ b/sphinx/ext/autodoc/directive.py
+@@ -649,6 +649,8 @@
+         if members is None:
+             # the user didn't specify explicit members
+             if self.options.get('imported-members', False):
++                if hasattr(module, '__all__') and not module.__all__:
++                    return []
+                 # respect __all__
+                 if include_all_members is False:
+                     return []
+```

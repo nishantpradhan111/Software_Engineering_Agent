@@ -1,0 +1,31 @@
+```diff
+--- a/sympy/core/mul.py
++++ b/sympy/core/mul.py
+@@ -1272,16 +1272,14 @@
+ 
+         # use exact=True to avoid recomputing num or den
+         n, d = fraction(self, exact=True)
+-        if is_rational:
+-            if d is S.One:
+-                return True
+-        if d.is_even:
+-            if d.is_prime:  # literal or symbolic 2
+-                return n.is_even
+-            if n.is_odd:
+-                return False  # true even if d = 0
+-        if n == d:
+-            return fuzzy_and([not bool(self.atoms(Float)),
+-            fuzzy_not(d.is_zero)])
++        if d is not S.One:
++            if d.is_even:
++                if d.is_prime:  # literal or symbolic 2
++                    return n.is_even
++                if n.is_odd:
++                    return False  # true even if d = 0
++            return False
++        else:
++            return n.is_integer
+ 
+     def _eval_is_polar(self):
+         has_polar = any(arg.is_polar for arg in self.args)
+```

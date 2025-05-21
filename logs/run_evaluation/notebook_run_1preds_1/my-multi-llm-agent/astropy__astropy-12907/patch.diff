@@ -1,0 +1,28 @@
+```diff
+--- a/astropy/modeling/separable.py
++++ b/astropy/modeling/separable.py
+@@ -8,6 +8,7 @@
+ import numpy as np
+ 
+ from .core import CompoundModel, Model
++from .functional_models import Identity
+ 
+ __all__ = ['separability_matrix']
+ 
+@@ -89,8 +90,11 @@
+             raise ValueError("Unknown operator {}".format(op))
+     else:
+         # Base case: A basic model The separability matrix is either True if
+-        # n_inputs > 0 and n_outputs > 0, or is an empty array if either is 0
+-        if model.n_inputs > 0 and model.n_outputs > 0:
++        # n_inputs > 0 and n_outputs > 0, or is an empty array if either is 0.
++        # Special case Identity, which is separable.
++        if isinstance(model, Identity) and model.n_inputs > 0:
++            # Identity model: output i depends only on input i
++            np.fill_diagonal(matrix, True)
++        elif model.n_inputs > 0 and model.n_outputs > 0:
+             matrix[:] = True
+ 
+     return matrix
+
+```

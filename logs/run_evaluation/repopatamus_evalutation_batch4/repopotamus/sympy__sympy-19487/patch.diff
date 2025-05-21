@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/core/function.py
++++ b/sympy/core/function.py
+@@ -709,7 +709,7 @@
+ 
+ 
+     def _eval_rewrite_as_Abs(self, arg, **kwargs):
+-        if arg.is_extended_real or arg.is_imaginary:
++        if arg.is_extended_real or arg.is_imaginary:  # real or imaginary
+             return arg / Abs(arg)
+ 
+ 
+
+```

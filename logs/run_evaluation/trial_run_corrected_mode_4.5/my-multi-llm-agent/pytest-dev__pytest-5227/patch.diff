@@ -1,0 +1,60 @@
+```diff
+--- a/src/_pytest/logging.py
++++ b/src/_pytest/logging.py
+@@ -15,7 +15,7 @@
+ from _pytest.config import create_terminal_writer
+ from _pytest.pathlib import Path
+ 
+-DEFAULT_LOG_FORMAT = "%(filename)-25s %(lineno)4d %(levelname)-8s %(message)s"
++DEFAULT_LOG_FORMAT = "%(levelname)-8s %(name)s:%(filename)s:%(lineno)d %(message)s"
+ DEFAULT_LOG_DATE_FORMAT = "%H:%M:%S"
+ 
+ 
+--- a/testing/logging/test_reporting.py
++++ b/testing/logging/test_reporting.py
+@@ -248,7 +248,7 @@
+             [\
+                 "test_log_cli_enabled_disabled.py::test_log_cli ",\
+                 "*-- live log call --*",\
+-                "test_log_cli_enabled_disabled.py* CRITICAL critical message logged by test",\
++                "*CRITICAL test_reporting:test_log_cli_enabled_disabled.py:* critical message logged by test",\
+                 "PASSED*",\
+             ]\
+         )\
+@@ -282,7 +282,7 @@
+     result.stdout.fnmatch_lines(\
+         [\
+             "test_log_cli_default_level.py::test_log_cli ",\
+-            "test_log_cli_default_level.py*WARNING message will be shown*",\
++            "*WARNING test_reporting:test_log_cli_default_level.py:* message will be shown*",\
+         ]\
+     )\
+     assert "INFO message won\'t be shown" not in result.stdout.str()\
+@@ -565,7 +565,7 @@
+     # fnmatch_lines does an assertion internally\
+     result.stdout.fnmatch_lines(\
+         [\
+-            "test_log_cli_level.py*This log message will be shown",\
++            "test_log_cli_level.py::test_log_cli_level *WARNING test_reporting:test_log_cli_level.py:*This log message will be shown",\
+             "PASSED",  # \'PASSED\' on its own line because the log message prints a new line\
+         ]\
+     )\
+@@ -579,7 +579,7 @@
+     # fnmatch_lines does an assertion internally\
+     result.stdout.fnmatch_lines(\
+         [\
+-            "test_log_cli_level.py* This log message will be shown",\
++            "test_log_cli_level.py::test_log_cli_level *WARNING test_reporting:test_log_cli_level.py:* This log message will be shown",\
+             "PASSED",  # \'PASSED\' on its own line because the log message prints a new line\
+         ]\
+     )\
+@@ -615,6 +615,6 @@
+     # fnmatch_lines does an assertion internally\
+     result.stdout.fnmatch_lines(\
+         [\
+-            "test_log_cli_ini_level.py* This log message will be shown",\
++            "test_log_cli_ini_level.py::test_log_cli_ini_level *WARNING test_reporting:test_log_cli_ini_level.py:* This log message will be shown",\
+             "PASSED",  # \'PASSED\' on its own line because the log message prints a new line\
+         ]\
+     )\
+```

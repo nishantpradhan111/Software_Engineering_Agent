@@ -1,0 +1,13 @@
+```diff
+--- a/ original.py
++++ b/ fixed.py
+@@ -34,7 +34,7 @@
+         # 'func'. Also, wrap method.__get__() in a function because new
+         # attributes can't be set on bound method objects, only on functions.
+         bound_method = wraps(method)(partial(method.__get__(self, type(self))))
+-        for dec in decorators:
++        for dec in decorators:  # Apply decorators in the correct order.
+             bound_method = dec(bound_method)
+         return bound_method(*args, **kwargs)
+ 
+```

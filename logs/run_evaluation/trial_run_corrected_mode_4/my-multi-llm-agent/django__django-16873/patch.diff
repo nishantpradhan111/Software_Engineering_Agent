@@ -1,0 +1,9 @@
+```diff
+--- a/django/template/defaultfilters.py
++++ b/django/template/defaultfilters.py
+@@ -592,4 +592,4 @@
+     except TypeError:  # Fail silently if arg isn't iterable.
+         return value
+     return mark_safe(data)
+\ No newline at end of file
+```

@@ -1,0 +1,23 @@
+```diff
+--- a/django/contrib/admin/checks.py
++++ b/django/contrib/admin/checks.py
+@@ -900,10 +900,9 @@
+                     )
+                 ]
+         try:
+-            field = obj.model._meta.get_field(item)
+-            if isinstance(field, models.ManyToManyField) or (
+-                getattr(field, "rel", None) and field.rel.field.many_to_one
+-            ):
++            field = obj.model._meta.get_field(item, include_hidden=True)
++            if (getattr(field, "is_relation", False) and (field.many_to_many or field.one_to_many)) or (
++                getattr(field, "rel", None) and field.rel.field.many_to_one):
+                 return [
+                     checks.Error(
+                         "'%s' in 'list_filter' refers to a ManyToManyField or ForeignKey. Use GenericForeignKey instead."
+@@ -924,4 +923,3 @@
+             ]
+ 
+         return []
++
+```

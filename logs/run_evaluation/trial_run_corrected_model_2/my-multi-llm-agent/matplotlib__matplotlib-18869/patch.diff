@@ -1,0 +1,12 @@
+```diff
+--- a/lib/matplotlib/__init__.py
++++ b/lib/matplotlib/__init__.py
+@@ -19,7 +19,6 @@
+ from packaging.version import parse as parse_version
+ from pathlib import Path
+ from collections import namedtuple
+-import setuptools_scm
+ 
+ # Because we're in a namespace package, this might not be the first time
+ # this module is imported. Prevent already-imported modules from re-registering
+```

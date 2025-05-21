@@ -1,0 +1,32 @@
+2025-05-08 15:16:50,274 - INFO - Creating container for django__django-11049...
+2025-05-08 15:16:50,470 - INFO - Container for django__django-11049 created: e5cbe34a03c6c5dd1df51970cdc3ee4a666b6ba230bca94ba023dcfb8d056ae0
+2025-05-08 15:16:50,811 - INFO - Container for django__django-11049 started: e5cbe34a03c6c5dd1df51970cdc3ee4a666b6ba230bca94ba023dcfb8d056ae0
+2025-05-08 15:16:50,819 - INFO - Intermediate patch for django__django-11049 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11049/patch.diff, now applying to container...
+2025-05-08 15:16:51,100 - INFO - >>>>> Applied Patch:
+Checking patch tests/model_fields/test_durationfield.py...
+Applied patch tests/model_fields/test_durationfield.py cleanly.
+
+2025-05-08 15:16:53,690 - INFO - Git diff before:
+diff --git a/tests/model_fields/test_durationfield.py b/tests/model_fields/test_durationfield.py
+index b73994f86a..f1c82ab8bd 100644
+--- a/tests/model_fields/test_durationfield.py
++++ b/tests/model_fields/test_durationfield.py
+@@ -75,7 +75,7 @@ class TestValidation(SimpleTestCase):
+         self.assertEqual(
+             cm.exception.message % cm.exception.params,
+             "'not a datetime' value has an invalid format. "
+-            "It must be in [DD] [HH:[MM:]]ss[.uuuuuu] format."
++            "It must be in [DD] [[HH:]MM:]ss[.uuuuuu] format."
+         )
+2025-05-08 15:16:53,694 - INFO - Eval script for django__django-11049 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11049/eval.sh; copying to container...
+2025-05-08 15:17:08,503 - INFO - Test runtime: 14.72 seconds
+2025-05-08 15:17:08,509 - INFO - Test output for django__django-11049 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11049/test_output.txt
+2025-05-08 15:17:08,600 - INFO - Git diff after:
+
+2025-05-08 15:17:08,600 - INFO - Git diff changed after running eval script
+2025-05-08 15:17:08,600 - INFO - Grading answer for django__django-11049...
+2025-05-08 15:17:08,604 - INFO - report: {'django__django-11049': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_invalid_string (model_fields.test_durationfield.TestValidation)']}, 'PASS_TO_PASS': {'success': ['test_dumping (model_fields.test_durationfield.TestSerialization)', 'test_loading (model_fields.test_durationfield.TestSerialization)', 'test_formfield (model_fields.test_durationfield.TestFormField)', 'test_exact (model_fields.test_durationfield.TestQuerying)', 'test_gt (model_fields.test_durationfield.TestQuerying)', 'test_create_empty (model_fields.test_durationfield.TestSaveLoad)', 'test_fractional_seconds (model_fields.test_durationfield.TestSaveLoad)', 'test_simple_roundtrip (model_fields.test_durationfield.TestSaveLoad)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-11049: resolved: False
+2025-05-08 15:17:08,608 - INFO - Attempting to stop container sweb.eval.django__django-11049.trial_run_corrected_mode_8...
+2025-05-08 15:17:24,723 - INFO - Attempting to remove container sweb.eval.django__django-11049.trial_run_corrected_mode_8...
+2025-05-08 15:17:25,327 - INFO - Container sweb.eval.django__django-11049.trial_run_corrected_mode_8 removed.

@@ -1,0 +1,67 @@
+2025-05-11 10:32:42,607 - INFO - Creating container for django__django-11099...
+2025-05-11 10:32:43,255 - INFO - Container for django__django-11099 created: 3c05745d30654f51a724702f202259331ca466568e9ec7d26017a67dbb7744e1
+2025-05-11 10:32:43,657 - INFO - Container for django__django-11099 started: 3c05745d30654f51a724702f202259331ca466568e9ec7d26017a67dbb7744e1
+2025-05-11 10:32:43,666 - INFO - Intermediate patch for django__django-11099 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-11099/patch.diff, now applying to container...
+2025-05-11 10:32:43,892 - INFO - >>>>> Applied Patch:
+Checking patch django/contrib/auth/validators.py...
+Hunk #1 succeeded at 7 (offset -1 lines).
+Hunk #2 succeeded at 17 (offset -3 lines).
+Applied patch django/contrib/auth/validators.py cleanly.
+
+2025-05-11 10:32:44,873 - INFO - Git diff before:
+diff --git a/django/contrib/auth/validators.py b/django/contrib/auth/validators.py
+index b4878cfd45..9345c5cb0b 100644
+--- a/django/contrib/auth/validators.py
++++ b/django/contrib/auth/validators.py
+@@ -7,7 +7,7 @@ from django.utils.translation import gettext_lazy as _
+ 
+ @deconstructible
+ class ASCIIUsernameValidator(validators.RegexValidator):
+-    regex = r'^[\w.@+-]+$'
++    regex = r'^[\w.@+-]+\Z'
+     message = _(
+         'Enter a valid username. This value may contain only English letters, '
+         'numbers, and @/./+/-/_ characters.'
+@@ -17,7 +17,7 @@ class ASCIIUsernameValidator(validators.RegexValidator):
+ 
+ @deconstructible
+ class UnicodeUsernameValidator(validators.RegexValidator):
+-    regex = r'^[\w.@+-]+$'
++    regex = r'^[\w.@+-]+\Z'
+     message = _(
+         'Enter a valid username. This value may contain only letters, '
+         'numbers, and @/./+/-/_ characters.'
+2025-05-11 10:32:44,876 - INFO - Eval script for django__django-11099 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-11099/eval.sh; copying to container...
+2025-05-11 10:32:57,949 - INFO - Test runtime: 12.98 seconds
+2025-05-11 10:32:57,954 - INFO - Test output for django__django-11099 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-11099/test_output.txt
+2025-05-11 10:32:58,046 - INFO - Git diff after:
+diff --git a/django/contrib/auth/validators.py b/django/contrib/auth/validators.py
+index b4878cfd45..9345c5cb0b 100644
+--- a/django/contrib/auth/validators.py
++++ b/django/contrib/auth/validators.py
+@@ -7,7 +7,7 @@ from django.utils.translation import gettext_lazy as _
+ 
+ @deconstructible
+ class ASCIIUsernameValidator(validators.RegexValidator):
+-    regex = r'^[\w.@+-]+$'
++    regex = r'^[\w.@+-]+\Z'
+     message = _(
+         'Enter a valid username. This value may contain only English letters, '
+         'numbers, and @/./+/-/_ characters.'
+@@ -17,7 +17,7 @@ class ASCIIUsernameValidator(validators.RegexValidator):
+ 
+ @deconstructible
+ class UnicodeUsernameValidator(validators.RegexValidator):
+-    regex = r'^[\w.@+-]+$'
++    regex = r'^[\w.@+-]+\Z'
+     message = _(
+         'Enter a valid username. This value may contain only letters, '
+         'numbers, and @/./+/-/_ characters.'
+2025-05-11 10:32:58,047 - INFO - Grading answer for django__django-11099...
+2025-05-11 10:32:58,052 - INFO - report: {'django__django-11099': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': True, 'tests_status': {'FAIL_TO_PASS': {'success': ['test_ascii_validator (auth_tests.test_validators.UsernameValidatorsTests)', 'test_unicode_validator (auth_tests.test_validators.UsernameValidatorsTests)', 'test_help_text (auth_tests.test_validators.UserAttributeSimilarityValidatorTest)'], 'failure': []}, 'PASS_TO_PASS': {'success': ['test_help_text (auth_tests.test_validators.MinimumLengthValidatorTest)', 'test_validate (auth_tests.test_validators.MinimumLengthValidatorTest)', 'test_help_text (auth_tests.test_validators.NumericPasswordValidatorTest)', 'test_validate (auth_tests.test_validators.NumericPasswordValidatorTest)', 'test_validate (auth_tests.test_validators.UserAttributeSimilarityValidatorTest)', 'test_validate_property (auth_tests.test_validators.UserAttributeSimilarityValidatorTest)', 'test_empty_password_validator_help_text_html (auth_tests.test_validators.PasswordValidationTest)', 'test_get_default_password_validators (auth_tests.test_validators.PasswordValidationTest)', 'test_get_password_validators_custom (auth_tests.test_validators.PasswordValidationTest)', 'test_password_changed (auth_tests.test_validators.PasswordValidationTest)', 'test_password_changed_with_custom_validator (auth_tests.test_validators.PasswordValidationTest)', 'test_password_validators_help_text_html (auth_tests.test_validators.PasswordValidationTest)', 'test_password_validators_help_text_html_escaping (auth_tests.test_validators.PasswordValidationTest)', 'test_password_validators_help_texts (auth_tests.test_validators.PasswordValidationTest)', 'test_validate_password (auth_tests.test_validators.PasswordValidationTest)', 'test_help_text (auth_tests.test_validators.CommonPasswordValidatorTest)', 'test_validate (auth_tests.test_validators.CommonPasswordValidatorTest)', 'test_validate_custom_list (auth_tests.test_validators.CommonPasswordValidatorTest)', 'test_validate_django_supplied_file (auth_tests.test_validators.CommonPasswordValidatorTest)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-11099: resolved: True
+2025-05-11 10:32:58,056 - INFO - Attempting to stop container sweb.eval.django__django-11099.trial_code_check_33...
+2025-05-11 10:33:13,702 - INFO - Attempting to remove container sweb.eval.django__django-11099.trial_code_check_33...
+2025-05-11 10:33:13,782 - INFO - Container sweb.eval.django__django-11099.trial_code_check_33 removed.
+2025-05-11 10:33:13,783 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-11099:latest...
+2025-05-11 10:33:14,570 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-11099:latest removed.

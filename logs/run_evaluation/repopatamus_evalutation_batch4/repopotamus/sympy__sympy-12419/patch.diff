@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/matrices/expressions/matexpr.py
++++ b/sympy/matrices/expressions/matexpr.py
+@@ -429,6 +429,9 @@
+     def _eval_determinant(self):
+         return S.One
+ 
++    def _eval_sum(self, indices):
++        return self.rows
++
+ 
+ class ZeroMatrix(MatrixExpr):
+     """The Matrix Zero 0 - additive identity
+```

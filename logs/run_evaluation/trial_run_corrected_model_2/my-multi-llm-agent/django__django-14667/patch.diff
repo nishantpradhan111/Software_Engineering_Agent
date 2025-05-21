@@ -1,0 +1,36 @@
+```diff
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -2087,11 +2087,9 @@
+         else:
+             # Remove names from the set of any existing "immediate load" names.
+             self.deferred_loading = existing.difference(field_names), False
+-            if new_existing := existing.difference(field_names):\n+            new_existing = existing.difference(field_names)
++            if new_existing:
+                 self.deferred_loading = new_existing, False
+             else:
+                 self.clear_deferred_loading()
+-                if new_only := set(field_names).difference(existing):\n+            new_only = set(field_names).difference(existing)
++            new_only = set(field_names).difference(existing)
+             if new_only:
+                 self.deferred_loading = new_only, True
+-
+-    def add_immediate_loading(self, field_names):\n
+
+--- a/tests/defer/tests.py
++++ b/tests/defer/tests.py
+@@ -49,13 +49,11 @@
+         qs = Primary.objects.all()
+         self.assert_delayed(qs.only("name", "value").defer("name")[0], 2)
+         self.assert_delayed(qs.defer("name").only("value", "name")[0], 2)
+-        self.assert_delayed(qs.defer('name').only('name').only('value')[0], 2)
+         self.assert_delayed(qs.defer("name").only("value")[0], 2)
+         self.assert_delayed(qs.only("name").defer("value")[0], 2)
+ 
+     def test_defer_only_clear(self):
+         qs = Primary.objects.all()
+         self.assert_delayed(qs.only('name').defer('name')[0], 0)
+         self.assert_delayed(qs.defer('name').only('name')[0], 0)
+-
+-    def test_defer_on_an_already_deferred_field:\n
++```

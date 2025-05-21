@@ -1,0 +1,11 @@
+```diff
+--- a/django/contrib/admin/utils.py
++++ b/django/contrib/admin/utils.py
+@@ -144,4 +144,4 @@
+         else:
+             return display_for_value(value, self.empty_value_display)
+     if isinstance(field, models.JSONField):
+-        return field.prepare_value(value)
++        return str(field.prepare_value(value))
+     return display_for_value(value, self.empty_value_display)
+```

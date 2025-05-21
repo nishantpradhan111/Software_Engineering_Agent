@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/polys/polytools.py
++++ b/sympy/polys/polytools.py
+@@ -1584,7 +1584,7 @@
+         >>> from sympy.abc import x
+ 
+         >>> f = 2*x**5 + 16*x**4 + 50*x**3 + 76*x**2 + 56*x + 16
+-
++        
+         >>> Poly(f).sqf_list()
+         (2, [(Poly(x + 1, x, domain='ZZ'), 2),
+              (Poly(x + 2, x, domain='ZZ'), 3)])
+
+```

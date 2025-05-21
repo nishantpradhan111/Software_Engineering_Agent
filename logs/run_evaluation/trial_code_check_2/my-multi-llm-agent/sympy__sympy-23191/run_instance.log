@@ -1,0 +1,39 @@
+2025-05-08 16:41:30,613 - INFO - Creating container for sympy__sympy-23191...
+2025-05-08 16:41:30,864 - INFO - Container for sympy__sympy-23191 created: 22e7d43193a7381ad5371a13fec3bfafdbccc0ebe28750bb47c911b81de2e9cd
+2025-05-08 16:41:31,151 - INFO - Container for sympy__sympy-23191 started: 22e7d43193a7381ad5371a13fec3bfafdbccc0ebe28750bb47c911b81de2e9cd
+2025-05-08 16:41:31,157 - INFO - Intermediate patch for sympy__sympy-23191 written to logs/run_evaluation/trial_code_check_2/my-multi-llm-agent/sympy__sympy-23191/patch.diff, now applying to container...
+2025-05-08 16:41:31,333 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-08 16:41:31,414 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-08 16:41:31,500 - INFO - >>>>> Applied Patch:
+patching file sympy/vector/tests/test_printing.py
+Hunk #1 succeeded at 2 with fuzz 1 (offset 1 line).
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-08 16:41:32,091 - INFO - Git diff before:
+diff --git a/sympy/vector/tests/test_printing.py b/sympy/vector/tests/test_printing.py
+index b4a786d7a6..e82f93c4da 100644
+--- a/sympy/vector/tests/test_printing.py
++++ b/sympy/vector/tests/test_printing.py
+@@ -2,6 +2,7 @@
+ from sympy.core.function import Function
+ from sympy.integrals.integrals import Integral
+ from sympy.printing.latex import latex
++from sympy.printing.pretty import pretty as upretty
+ from sympy.printing.pretty import pretty as xpretty
+ from sympy.vector import CoordSys3D, Vector, express
+ from sympy.abc import a, b, c
+2025-05-08 16:41:32,095 - INFO - Eval script for sympy__sympy-23191 written to logs/run_evaluation/trial_code_check_2/my-multi-llm-agent/sympy__sympy-23191/eval.sh; copying to container...
+2025-05-08 16:41:39,832 - INFO - Test runtime: 7.65 seconds
+2025-05-08 16:41:39,835 - INFO - Test output for sympy__sympy-23191 written to logs/run_evaluation/trial_code_check_2/my-multi-llm-agent/sympy__sympy-23191/test_output.txt
+2025-05-08 16:41:39,901 - INFO - Git diff after:
+
+2025-05-08 16:41:39,902 - INFO - Git diff changed after running eval script
+2025-05-08 16:41:39,902 - INFO - Grading answer for sympy__sympy-23191...
+2025-05-08 16:41:39,905 - INFO - report: {'sympy__sympy-23191': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_issue_23058']}, 'PASS_TO_PASS': {'success': ['test_str_printing', 'test_pretty_print_unicode_v', 'test_latex_printing'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-23191: resolved: False
+2025-05-08 16:41:39,908 - INFO - Attempting to stop container sweb.eval.sympy__sympy-23191.trial_code_check_2...
+2025-05-08 16:41:55,474 - INFO - Attempting to remove container sweb.eval.sympy__sympy-23191.trial_code_check_2...
+2025-05-08 16:41:55,542 - INFO - Container sweb.eval.sympy__sympy-23191.trial_code_check_2 removed.
+2025-05-08 16:41:55,543 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-23191:latest...
+2025-05-08 16:41:56,377 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-23191:latest removed.

@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/core/numbers.py
++++ b/sympy/core/numbers.py
+@@ -19,7 +19,7 @@
+     Examples
+     ========
+ 
+-    >>> from sympy.abc import x, y
++    >>> from sympy.abc import x, y # noqa: F401
+     >>> x**2 % y
+     Mod(x**2, y)
+     >>> _.subs({x: 5, y: 6})
+```

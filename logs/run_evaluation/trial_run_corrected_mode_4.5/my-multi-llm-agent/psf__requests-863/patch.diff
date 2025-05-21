@@ -1,0 +1,13 @@
+```diff
+--- a/requests/models.py
++++ b/requests/models.py
+@@ -462,7 +462,7 @@
+     def register_hook(self, event, hook):
+         """Properly register a hook."""
+ 
+-        self.hooks[event].append(hook)\
++        
+         if isinstance(hook, (list, tuple, set)):
+             self.hooks[event].extend(hook)
+         else:
+```

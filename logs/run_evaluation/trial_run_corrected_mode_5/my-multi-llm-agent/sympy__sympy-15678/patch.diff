@@ -1,0 +1,30 @@
+```diff
+--- a/sympy/geometry/util.py
++++ b/sympy/geometry/util.py
+@@ -567,12 +567,12 @@
+ 
+ def idiff(eq, y, x, n=1):
+     """Implicitly differentiate a function, f(x), in an expression."""
+-    from sympy import Function, Symbol, solve
++    from sympy import Function, Symbol, solve, Eq
+ 
+     if isinstance(y, (list, tuple)):
+         y = y[0]
+     elif isinstance(y, Symbol):
+-        dep = {y}
++        pass
+     elif isinstance(y, Function):
+         dep = {y}
+     else:
+@@ -580,10 +580,6 @@
+ 
+     f = dict([(s, Function(
+         s.name)(x)) for s in eq.free_symbols if s != x and s in dep])
+-    elif isinstance(y, Function):
+-        dep = {y}
+-    else:
+-        raise ValueError("expecting x-dependent symbol(s) or function(s) but got: %s" % y)
+ 
+     dydx = y.diff(x)
+     derivs = {}
+```

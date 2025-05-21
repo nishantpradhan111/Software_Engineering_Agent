@@ -1,0 +1,40 @@
+```diff
+--- a/django/template/backends/django.py
++++ b/django/template/backends/django.py
+@@ -34,7 +34,7 @@
+         # libraries.
+         all_libraries = {}
+         for library in self.engine.template_libraries:
+-            for name, module in self.engine.template_libraries[library].items():
++            for name, module in self.engine.template_libraries[library].items():  # Use items() to iterate over key-value pairs
+                 if name in all_libraries:
+                     from django.template.exceptions import TemplateSyntaxError
+ 
+@@ -48,7 +48,7 @@
+         # libraries.
+         all_loaders = {}
+         for loader in self.engine.template_loaders:
+-            for name, module in loader.get_template_libraries().items():
++            for name, module in loader.get_template_libraries().items():  # Use items() to iterate over key-value pairs
+                 if name in all_loaders:
+                     from django.template.exceptions import TemplateSyntaxError
+ 
+--- a/tests/template_tests/test_engine.py
++++ b/tests/template_tests/test_engine.py
+@@ -140,3 +140,15 @@
+         with self.assertRaisesMessage(TemplateSyntaxError, "is not a valid tag library: foo"):
+             self.engine.get_template('test-engine-invalid-library.html')
+ 
++    def test_duplicate_template_tag_module_name(self):
++        """
++        If a library is included both in INSTALLED_APPS and
++        TEMPLATES['OPTIONS']['libraries'], it shouldn't be reported as a
++        duplicate template tag module.
++        """
++        engine = Engine(
++            dirs=[self.templates_dir],
++            libraries={'myapp_tags': 'template_tests.templatetags.myapp_tags'},
++        )
++        template = engine.get_template('test-engine-valid.html')
++        self.assertEqual(template.render(Context({})), '<h1>Hello world!</h1>')
+```

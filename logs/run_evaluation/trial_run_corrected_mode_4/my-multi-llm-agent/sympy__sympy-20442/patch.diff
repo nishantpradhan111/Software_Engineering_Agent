@@ -1,0 +1,12 @@
+```diff
+--- a/sympy/physics/units/util.py
++++ b/sympy/physics/units/util.py
+@@ -3,6 +3,7 @@
+ from sympy import Matrix
+ 
+ from sympy.core.sympify import sympify
++from sympy.matrices.exceptions import NonInvertibleMatrixError
+ from sympy.physics.units.dimensions import DimensionSystem
+ 
+ 
+```

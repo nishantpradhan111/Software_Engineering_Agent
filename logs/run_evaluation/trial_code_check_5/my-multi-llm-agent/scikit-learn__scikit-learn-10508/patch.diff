@@ -1,0 +1,13 @@
+```diff
+--- a/sklearn/preprocessing/label.py
++++ b/sklearn/preprocessing/label.py
+@@ -131,6 +131,8 @@
+         y = column_or_1d(y, warn_for_cast=self.classes_.dtype != y.dtype)
+         if len(y) == 0:
+             return np.array([], dtype=np.int64)
++        if y.dtype != self.classes_.dtype:
++            y = y.astype(self.classes_.dtype)
+         return np.searchsorted(self.classes_, y)
+ 
+     def inverse_transform(self, y):
+```

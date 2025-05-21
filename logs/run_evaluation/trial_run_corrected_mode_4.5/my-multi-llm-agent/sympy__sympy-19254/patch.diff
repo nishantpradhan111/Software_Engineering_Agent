@@ -1,0 +1,32 @@
+```diff
+--- a/sympy/polys/factortools.py
++++ b/sympy/polys/factortools.py
+@@ -126,25 +126,10 @@
+ 
+ def dup_zz_mignotte_bound(f, K):
+     """Mignotte bound for univariate polynomials in `K[x]`. """
++
+     a = dup_max_norm(f, K)
+     b = abs(dup_LC(f, K))
+     n = dup_degree(f)
+-
+     return K.sqrt(K(n + 1))*2**n*a*b
+-
+-def dmp_zz_mignotte_bound(f, u, K):
+-    """Mignotte bound for multivariate polynomials in `K[x]`. """
+-    a = dmp_max_norm(f, u, K)
+-    b = abs(dmp_LC(f, u, K))
+-    n = dmp_degree(f, u)
+-
+-    return K.sqrt(K(n + 1))*2**n*a*b
+-
+-def dup_inner_zz_mignotte_bound(f, K):
+-    """Mignotte bound for univariate polynomials in `K[x]`. """
+-    a = dup_max_norm(f, K)
+-    n = dup_degree(f)
+-
+-    return a*K(n + 1)
+ 
+ def dmp_zz_mignotte_bound(f, u, K):
+     """Mignotte bound for multivariate polynomials in `K[x]`. """
+```

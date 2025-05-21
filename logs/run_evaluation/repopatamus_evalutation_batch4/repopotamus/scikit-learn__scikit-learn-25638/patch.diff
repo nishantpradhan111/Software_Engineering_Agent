@@ -1,0 +1,21 @@
+```diff
+--- a/sklearn/utils/multiclass.py
++++ b/sklearn/utils/multiclass.py
+@@ -116,6 +116,7 @@
+     if len(ys_types) > 1:
+         raise ValueError("Mix type of y not allowed, got types %s" % ys_types)
+ 
++    
+     label_type = ys_types.pop()
+ 
+     # Check consistency for the indicator format
+@@ -146,7 +147,7 @@
+ 
+     # handle pandas nullable dtypes
+     ys = [
+-        np.array(y, dtype=float if hasattr(y, "dtype") and y.dtype == "Float64" else int)
++        np.array(y, dtype=float if hasattr(y, "dtype") and y.dtype == "Float64" else y.dtype)
+         if hasattr(y, "dtype") and y.dtype in ["Int64", "Float64", "boolean"]
+         else y for y in ys]
+ 
+```

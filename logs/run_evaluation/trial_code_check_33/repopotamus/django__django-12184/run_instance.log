@@ -1,0 +1,58 @@
+2025-05-11 10:37:33,757 - INFO - Creating container for django__django-12184...
+2025-05-11 10:37:34,113 - INFO - Container for django__django-12184 created: 693d5fe42c16620fcf1f4b22f5e90eb80944eb01ba4abcdb1660d31de8e2970c
+2025-05-11 10:37:34,357 - INFO - Container for django__django-12184 started: 693d5fe42c16620fcf1f4b22f5e90eb80944eb01ba4abcdb1660d31de8e2970c
+2025-05-11 10:37:34,363 - INFO - Intermediate patch for django__django-12184 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-12184/patch.diff, now applying to container...
+2025-05-11 10:37:34,541 - INFO - >>>>> Applied Patch:
+Checking patch django/urls/resolvers.py...
+Hunk #1 succeeded at 547 (offset 101 lines).
+Applied patch django/urls/resolvers.py cleanly.
+
+2025-05-11 10:37:35,521 - INFO - Git diff before:
+diff --git a/django/urls/resolvers.py b/django/urls/resolvers.py
+index 2d4610aac4..34adc1eafb 100644
+--- a/django/urls/resolvers.py
++++ b/django/urls/resolvers.py
+@@ -547,13 +547,10 @@ class URLResolver:
+                     sub_tried = e.args[0].get('tried')
+                     if sub_tried is not None:
+                         tried.extend([pattern] + t for t in sub_tried)
+-                    else:
+-                        tried.append([pattern])
+                 else:
+                     if sub_match:
+                         # Merge captured arguments in match with submatch
+                         sub_match_dict = {**kwargs, **self.default_kwargs}
+-                        # Update the sub_match_dict with the kwargs from the sub_match.
+                         sub_match_dict.update(sub_match.kwargs)
+                         # If there are *any* named groups, ignore all non-named groups.
+                         # Otherwise, pass all non-named arguments as positional arguments.
+2025-05-11 10:37:35,527 - INFO - Eval script for django__django-12184 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-12184/eval.sh; copying to container...
+2025-05-11 10:37:46,902 - INFO - Test runtime: 11.27 seconds
+2025-05-11 10:37:46,907 - INFO - Test output for django__django-12184 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-12184/test_output.txt
+2025-05-11 10:37:47,000 - INFO - Git diff after:
+diff --git a/django/urls/resolvers.py b/django/urls/resolvers.py
+index 2d4610aac4..34adc1eafb 100644
+--- a/django/urls/resolvers.py
++++ b/django/urls/resolvers.py
+@@ -547,13 +547,10 @@ class URLResolver:
+                     sub_tried = e.args[0].get('tried')
+                     if sub_tried is not None:
+                         tried.extend([pattern] + t for t in sub_tried)
+-                    else:
+-                        tried.append([pattern])
+                 else:
+                     if sub_match:
+                         # Merge captured arguments in match with submatch
+                         sub_match_dict = {**kwargs, **self.default_kwargs}
+-                        # Update the sub_match_dict with the kwargs from the sub_match.
+                         sub_match_dict.update(sub_match.kwargs)
+                         # If there are *any* named groups, ignore all non-named groups.
+                         # Otherwise, pass all non-named arguments as positional arguments.
+2025-05-11 10:37:47,001 - INFO - Grading answer for django__django-12184...
+2025-05-11 10:37:47,006 - INFO - report: {'django__django-12184': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_re_path_with_missing_optional_parameter (urlpatterns.tests.SimplifiedURLTests)']}, 'PASS_TO_PASS': {'success': ['test_allows_non_ascii_but_valid_identifiers (urlpatterns.tests.ParameterRestrictionTests)', 'test_non_identifier_parameter_name_causes_exception (urlpatterns.tests.ParameterRestrictionTests)', 'test_matching_urls (urlpatterns.tests.ConverterTests)', 'test_nonmatching_urls (urlpatterns.tests.ConverterTests)', 'test_resolve_type_error_propagates (urlpatterns.tests.ConversionExceptionTests)', 'test_resolve_value_error_means_no_match (urlpatterns.tests.ConversionExceptionTests)', 'test_reverse_value_error_propagates (urlpatterns.tests.ConversionExceptionTests)', 'test_converter_resolve (urlpatterns.tests.SimplifiedURLTests)', 'test_converter_reverse (urlpatterns.tests.SimplifiedURLTests)', 'test_converter_reverse_with_second_layer_instance_namespace (urlpatterns.tests.SimplifiedURLTests)', 'test_invalid_converter (urlpatterns.tests.SimplifiedURLTests)', 'test_path_inclusion_is_matchable (urlpatterns.tests.SimplifiedURLTests)', 'test_path_inclusion_is_reversible (urlpatterns.tests.SimplifiedURLTests)', 'test_path_lookup_with_double_inclusion (urlpatterns.tests.SimplifiedURLTests)', 'test_path_lookup_with_empty_string_inclusion (urlpatterns.tests.SimplifiedURLTests)', 'test_path_lookup_with_inclusion (urlpatterns.tests.SimplifiedURLTests)', 'test_path_lookup_with_multiple_parameters (urlpatterns.tests.SimplifiedURLTests)', 'test_path_lookup_with_typed_parameters (urlpatterns.tests.SimplifiedURLTests)', 'test_path_lookup_without_parameters (urlpatterns.tests.SimplifiedURLTests)', 'test_path_reverse_with_parameter (urlpatterns.tests.SimplifiedURLTests)', 'test_path_reverse_without_parameter (urlpatterns.tests.SimplifiedURLTests)', 'test_re_path (urlpatterns.tests.SimplifiedURLTests)', 'test_re_path_with_optional_parameter (urlpatterns.tests.SimplifiedURLTests)', 'test_space_in_route (urlpatterns.tests.SimplifiedURLTests)', 'test_two_variable_at_start_of_path_pattern (urlpatterns.tests.SimplifiedURLTests)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-12184: resolved: False
+2025-05-11 10:37:47,009 - INFO - Attempting to stop container sweb.eval.django__django-12184.trial_code_check_33...
+2025-05-11 10:38:02,705 - INFO - Attempting to remove container sweb.eval.django__django-12184.trial_code_check_33...
+2025-05-11 10:38:02,797 - INFO - Container sweb.eval.django__django-12184.trial_code_check_33 removed.
+2025-05-11 10:38:02,799 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-12184:latest...
+2025-05-11 10:38:03,552 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-12184:latest removed.

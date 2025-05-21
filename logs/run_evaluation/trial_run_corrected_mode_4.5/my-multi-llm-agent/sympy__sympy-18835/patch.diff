@@ -1,0 +1,15 @@
+```diff
+--- a/sympy/utilities/iterables.py
++++ b/sympy/utilities/iterables.py
+@@ -2091,6 +2091,11 @@ def uniq(seq, result=None):\n     parameter ``result``  is used internally; it is not necessary\n     to pass anything for this.\n \n+    Note: changing the sequence during iteration will raise a\n+    RuntimeError if the size of the sequence is known; if you pass\n+    an iterator and advance the iterator you will change the\n+    output of this routine but there will be no warning.\n+\n     Examples\n     ========\n \n@@ -2106,15 +2111,27 @@ def uniq(seq, result=None):\n     >>> list(uniq([[1], [2, 1], [1]]))\n     [[1], [2, 1]]\n     """\n+    def check():
++        # check that size of seq did not change during iteration;
++        # if n == None the object won't support size changing, e.g.\n+        # an iterator can't be changed
++        if n is not None and len(seq) != n:
++            raise RuntimeError('sequence changed size during iteration')
+     try:\n+        n = len(seq)
++    except TypeError:\n+        n = None
+         seen = set()\n         result = result or []\n         for i, s in enumerate(seq):\n             if not (s in seen or seen.add(s)):\n                 yield s\n+                if n is not None:
++                    check()
+     except TypeError:\n         if s not in result:\n             yield s\n+            if n is not None:
++                check()
+             result.append(s)\n         if hasattr(seq, '__getitem__'):\n             for s in uniq(seq[i + 1:], result):\n```

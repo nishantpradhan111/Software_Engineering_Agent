@@ -1,0 +1,26 @@
+```diff
+--- a/lib/matplotlib/artist.py
++++ b/lib/matplotlib/artist.py
+@@ -1535,10 +1535,9 @@
+             # Artist.format_cursor_data.
+             n = self.cmap.N
+             if np.ma.getmask(data):
+-                return "[" + data_str + "]"
++                return '[]'
+             normed = self.norm(data)
+             if np.isfinite(normed):
+-                delta = abs(neighbors - data).max()
+                 g_sig_digits = cbook._g_sig_digits(data, delta)
+             else:
+                 g_sig_digits = 3  # Consistent with default below.
+@@ -1553,6 +1552,9 @@
+             return "[" + data_str + "]"
+ 
+     def get_mouseover(self):
++        import matplotlib as mpl
++
++
+         """
+         Return whether this artist is queried for custom context information
+         when the mouse cursor moves over it.
+```

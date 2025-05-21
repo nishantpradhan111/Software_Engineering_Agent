@@ -1,0 +1,28 @@
+```
+--- a/sympy/matrices/matrices.py
++++ b/sympy/matrices/matrices.py
+@@ -1003,10 +1003,9 @@
+ 
+     @call_highest_priority('__rmatmul__')
+     def __matmul__(self, other):
+-        return self.__mul__(other)
+         other = _matrixify(other)
+-        if not getattr(other, 'is_Matrix', False) and not getattr(other, 'is_MatrixLike', False):
+-            raise ValueError("Scalar operands are not allowed, use '*' instead")
++        if not (getattr(other, 'is_Matrix', False) or getattr(other, 'is_MatrixLike', False)):
++            raise TypeError("Scalar operands are not allowed, use '*' instead")
+         return self.__mul__(other) 
+ 
+     @call_highest_priority('__rmatmul__')
+@@ -1014,8 +1013,7 @@
+ 
+     @call_highest_priority('__matmul__')
+     def __rmatmul__(self, other):
+-        return self.__rmul__(other)
+         other = _matrixify(other)
+-        if not getattr(other, 'is_Matrix', False) and not getattr(other, 'is_MatrixLike', False):
+-            raise ValueError("Scalar operands are not allowed, use '*' instead")
++        if not (getattr(other, 'is_Matrix', False) or getattr(other, 'is_MatrixLike', False)):
++            raise TypeError("Scalar operands are not allowed, use '*' instead")
+         return self.__rmul__(other)
+```

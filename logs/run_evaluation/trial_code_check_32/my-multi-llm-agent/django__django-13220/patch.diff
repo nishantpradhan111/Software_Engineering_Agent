@@ -1,0 +1,26 @@
+```
+--- a/django/core/exceptions.py
++++ b/django/core/exceptions.py
+@@ -173,10 +173,7 @@
+             if set(self.error_dict.keys()) != set(other.error_dict.keys()):
+                 return False
+             for key in self.error_dict:
+-                if sorted(e.message for e in self.error_dict[key]) != sorted(e.message for e in other.error_dict[key]):
+-
+-                    return False
++                if sorted(e.message for e in self.error_dict[key]) != sorted(e.message for e in other.error_dict[key]): return False
+             return True
+         elif hasattr(self, 'error_list'):
+             if not hasattr(other, 'error_list'):
+@@ -185,9 +182,7 @@
+ 
+     def __hash__(self):
+         if hasattr(self, 'error_dict'):
+-            return hash(frozenset((field, tuple(sorted(e.message for e in errors))) for field, errors in self.error_dict.items()))
+-        return hash(tuple(sorted(e.message for e in self.error_list)))
+-
++            items = tuple((field, tuple(sorted(e.message for e in errors))) for field, errors in self.error_dict.items())
++            return hash(items)
++        return hash(tuple(sorted(e.message for e in self.error_list)))
+ class EmptyResultSet(Exception):
+```

@@ -1,0 +1,2467 @@
+2025-05-04 18:28:05,545 - INFO - Creating container for pytest-dev__pytest-7373...
+2025-05-04 18:28:06,162 - INFO - Container for pytest-dev__pytest-7373 created: c71a65e20864ac9a509f508f875487a7b6ddd09a378024eda98bd63bf777a3b6
+2025-05-04 18:28:06,736 - INFO - Container for pytest-dev__pytest-7373 started: c71a65e20864ac9a509f508f875487a7b6ddd09a378024eda98bd63bf777a3b6
+2025-05-04 18:28:06,748 - INFO - Intermediate patch for pytest-dev__pytest-7373 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/patch.diff, now applying to container...
+2025-05-04 18:28:06,933 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 18:28:07,022 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 18:28:07,097 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-04 18:28:07,098 - INFO - >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+2025-05-04 18:28:07,181 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 18:28:07,181 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,182 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,182 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,182 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,183 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,183 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,184 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,184 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,185 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,185 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,185 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,186 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,186 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,186 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,187 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,187 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,187 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,187 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,188 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,188 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,189 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,189 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,189 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,190 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,190 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,190 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,191 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,191 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,191 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,191 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,192 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,192 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,192 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,193 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,193 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,193 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,193 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,194 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,194 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,194 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,195 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,195 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,195 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,196 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,196 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,196 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,196 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,197 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,197 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,197 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,198 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,198 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,198 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,199 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,199 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,199 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,199 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,200 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,200 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,201 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,201 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,201 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,202 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,202 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,202 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,203 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,203 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,203 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,204 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,204 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,204 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,205 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,205 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,205 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,205 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,206 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,206 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,206 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,207 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,207 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,208 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,208 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,208 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,209 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,209 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,209 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,210 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,210 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,210 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,210 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,211 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,211 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,211 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,212 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,212 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,212 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,213 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,213 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,213 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,214 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,214 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,215 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,215 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,215 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,216 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,216 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,217 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,217 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,217 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,218 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,218 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,218 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,219 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,219 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,219 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,220 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,220 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,221 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,221 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,221 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,221 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:07,222 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,872 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 18:28:09,872 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,872 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,873 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,873 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,874 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,874 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,875 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,875 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,875 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,876 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,876 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,876 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,877 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,877 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,878 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,878 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,878 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,879 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,879 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,880 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,880 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,881 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,881 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,882 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,882 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,883 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,883 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,883 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,883 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,884 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,884 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,885 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,885 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,885 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,886 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,887 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,887 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,887 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,888 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,888 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,889 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,889 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,889 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,890 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,890 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,890 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,891 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,891 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,893 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,893 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,894 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,894 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,895 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,895 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,895 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,896 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,896 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,897 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,897 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,897 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,898 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,898 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,899 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,899 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,900 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,901 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,901 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,902 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,902 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,903 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,904 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,905 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,906 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,906 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,907 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,908 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,908 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,908 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,909 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,909 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,909 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,910 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,910 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,911 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,911 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,911 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,911 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,912 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,912 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,912 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,913 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,913 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,913 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,914 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,914 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,914 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,915 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,915 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,915 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,916 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,916 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,916 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,917 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,917 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,917 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,917 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,918 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,918 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,918 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,919 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,919 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,919 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,919 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,920 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,920 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,920 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,921 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,921 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,921 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,921 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,922 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,922 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pytest-dev__pytest-7373: >>>>> Patch Apply Failed:
+patching file src/_pytest/mark/evaluate.py
+patch: **** malformed patch at line 24: @@ -21,15 +13,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/pytest-dev__pytest-7373/run_instance.log) for more information.
+
+2025-05-04 18:28:09,923 - INFO - Attempting to stop container sweb.eval.pytest-dev__pytest-7373.trial_run_corrected_mode_4...
+2025-05-04 18:28:25,783 - INFO - Attempting to remove container sweb.eval.pytest-dev__pytest-7373.trial_run_corrected_mode_4...
+2025-05-04 18:28:25,819 - INFO - Container sweb.eval.pytest-dev__pytest-7373.trial_run_corrected_mode_4 removed.
+2025-05-04 18:28:25,820 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.pytest-dev_1776_pytest-7373:latest...
+2025-05-04 18:28:25,937 - INFO - Image swebench/sweb.eval.x86_64.pytest-dev_1776_pytest-7373:latest removed.

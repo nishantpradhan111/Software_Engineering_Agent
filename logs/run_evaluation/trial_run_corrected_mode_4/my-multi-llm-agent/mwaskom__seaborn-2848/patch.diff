@@ -1,0 +1,24 @@
+```diff
+--- a/seaborn/_oldcore.py
++++ b/seaborn/_oldcore.py
+@@ -153,6 +153,10 @@
+             value = self.lookup_table[key]
+         except KeyError:
+ 
++            # Use the colormap to interpolate between existing datapoints
++            # (e.g. in the context of making a continuous legend)
++            try:
++
+             if self.norm is None:
+                 # Currently we only get here in scatterplot with hue_order,
+                 # because scatterplot does not consider hue a grouping variable
+@@ -160,8 +164,6 @@
+                 return (0, 0, 0, 0)
+ 
+             # Use the colormap to interpolate between existing datapoints
+-            # (e.g. in the context of making a continuous legend)
+-            try:
+                 normed = self.norm(key)
+             except TypeError:
+                 # TODO: This is happening in tests, but I don't understand why
+```

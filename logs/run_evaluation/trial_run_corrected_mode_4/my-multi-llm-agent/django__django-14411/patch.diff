@@ -1,0 +1,11 @@
+```diff
+--- a/django/contrib/auth/forms.py
++++ b/django/contrib/auth/forms.py
+@@ -53,6 +53,7 @@
+         return context
+ 
+ 
++
+ class ReadOnlyPasswordHashField(forms.Field):
+     widget = ReadOnlyPasswordHashWidget
+```

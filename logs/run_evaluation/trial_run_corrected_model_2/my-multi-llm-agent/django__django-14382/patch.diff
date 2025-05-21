@@ -1,0 +1,19 @@
+```diff
+--- a/django/core/management/templates.py
++++ b/django/core/management/templates.py
+@@ -71,11 +71,11 @@
+             except TemplateDoesNotExist:
+                 pass
+ 
+-            if app_or_project == 'app':
+-                self.validate_name(os.path.basename(target), 'directory')
+             try:
+                 os.makedirs(top_dir)
+             except OSError as e:
+                 raise CommandError(e)
++            if app_or_project == 'app':
++                self.validate_name(os.path.basename(top_dir), 'directory')
+         else:
+             if not os.path.exists(top_dir):
+                 raise CommandError("Destination directory '%s' does not "
+```

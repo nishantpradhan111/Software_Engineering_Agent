@@ -1,0 +1,13 @@
+```diff
+--- a/django/forms/formsets.py
++++ b/django/forms/formsets.py
+@@ -32,7 +32,7 @@ class ManagementForm(Form):
+     as well.
+     """
+ 
+-    template_name = "django/forms/div.html"  # RemovedInDjango50Warning.
++    template_name = "django/forms/management/div.html"  # RemovedInDjango50Warning.
+ 
+     TOTAL_FORMS = IntegerField(widget=HiddenInput)
+     INITIAL_FORMS = IntegerField(widget=HiddenInput)
+```

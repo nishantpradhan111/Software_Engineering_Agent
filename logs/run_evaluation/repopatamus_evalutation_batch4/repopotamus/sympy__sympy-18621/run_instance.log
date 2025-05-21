@@ -1,0 +1,48 @@
+2025-05-11 20:44:09,982 - INFO - Creating container for sympy__sympy-18621...
+2025-05-11 20:44:10,528 - INFO - Container for sympy__sympy-18621 created: 3f89a445bb7f3167c88860c80de8ea5567ca829feb9a3006a847e2fb36e6d87f
+2025-05-11 20:44:10,974 - INFO - Container for sympy__sympy-18621 started: 3f89a445bb7f3167c88860c80de8ea5567ca829feb9a3006a847e2fb36e6d87f
+2025-05-11 20:44:10,981 - INFO - Intermediate patch for sympy__sympy-18621 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-18621/patch.diff, now applying to container...
+2025-05-11 20:44:11,233 - INFO - >>>>> Applied Patch:
+Checking patch sympy/matrices/expressions/blockmatrix.py...
+Hunk #1 succeeded at 244 (offset -1 lines).
+Applied patch sympy/matrices/expressions/blockmatrix.py cleanly.
+
+2025-05-11 20:44:11,980 - INFO - Git diff before:
+diff --git a/sympy/matrices/expressions/blockmatrix.py b/sympy/matrices/expressions/blockmatrix.py
+index 11aebbc59f..a4c8e2e2bc 100644
+--- a/sympy/matrices/expressions/blockmatrix.py
++++ b/sympy/matrices/expressions/blockmatrix.py
+@@ -244,7 +244,7 @@ def _entry(self, i, j, **kwargs):
+                 break
+             else:
+                 j -= numcols
+-        return self.blocks[row_block, col_block][i, j]
++        return self.blocks[row_block, col_block][int(i), int(j)]
+ 
+     @property
+     def is_Identity(self):
+2025-05-11 20:44:11,985 - INFO - Eval script for sympy__sympy-18621 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-18621/eval.sh; copying to container...
+2025-05-11 20:44:20,799 - INFO - Test runtime: 8.66 seconds
+2025-05-11 20:44:20,804 - INFO - Test output for sympy__sympy-18621 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-18621/test_output.txt
+2025-05-11 20:44:20,879 - INFO - Git diff after:
+diff --git a/sympy/matrices/expressions/blockmatrix.py b/sympy/matrices/expressions/blockmatrix.py
+index 11aebbc59f..a4c8e2e2bc 100644
+--- a/sympy/matrices/expressions/blockmatrix.py
++++ b/sympy/matrices/expressions/blockmatrix.py
+@@ -244,7 +244,7 @@ def _entry(self, i, j, **kwargs):
+                 break
+             else:
+                 j -= numcols
+-        return self.blocks[row_block, col_block][i, j]
++        return self.blocks[row_block, col_block][int(i), int(j)]
+ 
+     @property
+     def is_Identity(self):
+2025-05-11 20:44:20,879 - INFO - Grading answer for sympy__sympy-18621...
+2025-05-11 20:44:20,883 - INFO - report: {'sympy__sympy-18621': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_issue_18618']}, 'PASS_TO_PASS': {'success': ['test_bc_matmul', 'test_bc_matadd', 'test_bc_transpose', 'test_bc_dist_diag', 'test_block_plus_ident', 'test_BlockMatrix', 'test_block_collapse_explicit_matrices', 'test_issue_17624', 'test_BlockMatrix_trace', 'test_BlockMatrix_Determinant', 'test_squareBlockMatrix', 'test_BlockDiagMatrix', 'test_reblock_2x2', 'test_deblock'], 'failure': ['test_blockcut']}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-18621: resolved: False
+2025-05-11 20:44:20,885 - INFO - Attempting to stop container sweb.eval.sympy__sympy-18621.repopatamus_evalutation_batch4...
+2025-05-11 20:44:36,432 - INFO - Attempting to remove container sweb.eval.sympy__sympy-18621.repopatamus_evalutation_batch4...
+2025-05-11 20:44:36,517 - INFO - Container sweb.eval.sympy__sympy-18621.repopatamus_evalutation_batch4 removed.
+2025-05-11 20:44:36,518 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-18621:latest...
+2025-05-11 20:44:36,932 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-18621:latest removed.

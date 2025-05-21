@@ -1,0 +1,15 @@
+```diff
+--- a/django/utils/autoreload.py
++++ b/django/utils/autoreload.py
+@@ -124,8 +124,8 @@
+         if not filename:
+             continue
+         path = Path(filename)
+-        # os.readlink() can raise ValueError: embedded null byte
+-        if '\0' in str(path):
++        # path.resolve() calls os.readlink() which can raise ValueError:
++        # embedded null byte.
+         try:
+             resolved_path = path.resolve(strict=True).absolute()
+         except FileNotFoundError:
+```

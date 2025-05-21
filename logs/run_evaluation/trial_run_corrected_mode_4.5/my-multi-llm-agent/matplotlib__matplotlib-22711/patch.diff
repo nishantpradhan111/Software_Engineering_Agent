@@ -1,0 +1,21 @@
+```diff
+--- a/lib/matplotlib/widgets.py
++++ b/lib/matplotlib/widgets.py
+@@ -908,13 +908,11 @@
+             xy[2] = .75, val[1]
+             xy[3] = .75, val[0]
+             xy[4] = .25, val[0]
+-
++            self._handles[0].set_ydata([val[0]])
++            self._handles[1].set_ydata([val[1]])
+         else:
+             xy[0] = val[0], .25
+             xy[1] = val[0], .75
+             xy[2] = val[1], .75
+             xy[3] = val[1], .25
+             xy[4] = val[0], .25
+-
+-        self.poly.xy = xy
+-        self.valtext.set_text(self._format(val))
+-        if self.drawon:
+```

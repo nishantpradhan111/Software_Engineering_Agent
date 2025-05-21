@@ -1,0 +1,13 @@
+```diff
+--- a/django/db/migrations/autodetector.py
++++ b/django/db/migrations/autodetector.py
+@@ -927,7 +927,7 @@
+                         # Repoint both model and field name because to_field
+                         # inclusion in ForeignKey.deconstruct() is based on
+                         # both.
+-                        new_field.remote_field.model = old_field.remote_field.model
++                        new_field.remote_field.model = old_field.remote_field.model._meta.label_lower
+                         new_field.remote_field.field_name = old_field.remote_field.field_name
+                 # Handle ForeignObjects which can have multiple from_fields/to_fields.
+                 from_fields = getattr(new_field, 'from_fields', None)
+```

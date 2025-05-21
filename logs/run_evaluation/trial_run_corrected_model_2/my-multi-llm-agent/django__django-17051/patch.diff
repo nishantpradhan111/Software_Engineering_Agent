@@ -1,0 +1,145 @@
+```diff
+--- a/django/db/models/query.py
++++ b/django/db/models/query.py
+@@ -1837,12 +1837,17 @@
+         inserted_rows = []
+         bulk_return = connection.features.can_return_rows_from_bulk_insert
+         for item in [objs[i : i + batch_size] for i in range(0, len(objs), batch_size)]:\
+-            if bulk_return and on_conflict is None:\
++            if bulk_return and (
++                on_conflict is None or on_conflict == OnConflict.UPDATE
++            ):
+                 inserted_rows.extend(
+                     self._insert(
+                         item,
+                         fields=fields,
+                         using=self.db,
++                        ignore_conflicts=on_conflict is None,
++                        update_fields=update_fields,
++                        unique_fields=unique_fields,
+                         returning_fields=self.model._meta.db_returning_fields,
+                     )
+                 )
+--- a/tests/bulk_create/tests.py
++++ b/tests/bulk_create/tests.py
+@@ -582,12 +582,14 @@
+             TwoFields(f1=1, f2=1, name="c"),
+             TwoFields(f1=2, f2=2, name="d"),
+         ]
+-        TwoFields.objects.bulk_create(
++        results = TwoFields.objects.bulk_create(
+             conflicting_objects,
+             update_conflicts=True,
+             unique_fields=unique_fields,
+             update_fields=["name"],
+         )
++
+         self.assertEqual(len(results), len(conflicting_objects))
+         if connection.features.can_return_rows_from_bulk_insert:
+             for instance in results:
+@@ -618,12 +620,12 @@
+                 TwoFields(f1=2, f2=2, name="b"),
+             ]
+         )
+-        self.assertEqual(TwoFields.objects.count(), 2)
+ 
+         obj1 = TwoFields.objects.get(f1=1)
+         obj2 = TwoFields.objects.get(f1=2)
+         conflicting_objects = [
+             TwoFields(pk=obj1.pk, f1=3, f2=3, name="c"),
++
+             TwoFields(pk=obj2.pk, f1=4, f2=4, name="d"),
+         ]
+         results = TwoFields.objects.bulk_create(
+@@ -632,6 +634,7 @@
+             unique_fields=["pk"],
+             update_fields=["name"],
+         )
++
+         self.assertEqual(len(results), len(conflicting_objects))
+         if connection.features.can_return_rows_from_bulk_insert:
+             for instance in results:
+@@ -640,6 +643,7 @@
+         self.assertCountEqual(
+             TwoFields.objects.values("f1", "f2", "name"),
+             [
++
+                 {"f1": 3, "f2": 3, "name": "c"},
+                 {"f1": 4, "f2": 4, "name": "d"},
+             ],
+@@ -659,20 +663,25 @@
+                 description=("Japan is an island country in East Asia."),
+             ),
+         ]
+-        Country.objects.bulk_create(
++        results = Country.objects.bulk_create(
+             new_data,
+             update_conflicts=True,
+             update_fields=["description"],
+             unique_fields=unique_fields,
+         )
++
++        self.assertEqual(len(results), len(new_data))
++        if connection.features.can_return_rows_from_bulk_insert:
++            for instance in results:
++                self.assertIsNotNone(instance.pk)
+         self.assertEqual(Country.objects.count(), 6)
+         self.assertCountEqual(
+             Country.objects.values("iso_two_letter", "description"),
+             [
++
+                 {"iso_two_letter": "CN", "description": "The People's Republic of China"},
+                 {"iso_two_letter": "US", "description": "The United States of America"},
+                 {"iso_two_letter": "CA", "description": "Canada"},
+-
+                 {"iso_two_letter": "DE", "description": "Germany"},
+                 {"iso_two_letter": "GB", "description": "United Kingdom"},
+                 {"iso_two_letter": "JP", "description": "Japan is an island country in East Asia."},
+@@ -736,12 +745,14 @@
+             UpsertConflict(number=2, rank=2, name="Olivia"),
+             UpsertConflict(number=3, rank=1, name="Hannah"),
+         ]
+-        UpsertConflict.objects.bulk_create(
++        results = UpsertConflict.objects.bulk_create(
+             conflicting_objects,
+             update_conflicts=True,
+             update_fields=["name", "rank"],
+             unique_fields=unique_fields,
+         )
++
++        self.assertEqual(len(results), len(conflicting_objects))
+         if connection.features.can_return_rows_from_bulk_insert:
+             for instance in results:
+                 self.assertIsNotNone(instance.pk)
+@@ -755,12 +766,14 @@
+             ],
+         )
+ 
+-        UpsertConflict.objects.bulk_create(
++        results = UpsertConflict.objects.bulk_create(
+             conflicting_objects + [UpsertConflict(number=4, rank=4, name="Mark")],
+             update_conflicts=True,
+             update_fields=["name", "rank"],
+             unique_fields=unique_fields,
+         )
++
+         self.assertEqual(len(results), 4)
+         if connection.features.can_return_rows_from_bulk_insert:
+             for instance in results:
+@@ -799,12 +812,14 @@
+             FieldsWithDbColumns(rank=1, name="c"),
+             FieldsWithDbColumns(rank=2, name="d"),
+         ]
+-        FieldsWithDbColumns.objects.bulk_create(
++        results = FieldsWithDbColumns.objects.bulk_create(
+             conflicting_objects,
+             update_conflicts=True,
+             unique_fields=["rank"],
+             update_fields=["name"],
+         )
++
++        self.assertEqual(len(results), len(conflicting_objects))
+         if connection.features.can_return_rows_from_bulk_insert:
+             for instance in results:
+                 self.assertIsNotNone(instance.pk)
+```

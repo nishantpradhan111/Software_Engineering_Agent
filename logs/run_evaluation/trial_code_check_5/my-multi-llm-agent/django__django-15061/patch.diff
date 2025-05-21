@@ -1,0 +1,11 @@
+```diff
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -507,4 +507,4 @@
+         return format_html(
+             '<label{}>{}</label>',
+             attrs,
+-            self.id_for_label(id_),
++            self.id_for_label(id_),
+         )
+```

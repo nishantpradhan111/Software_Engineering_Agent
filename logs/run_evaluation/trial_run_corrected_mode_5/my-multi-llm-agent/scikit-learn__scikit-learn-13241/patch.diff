@@ -1,0 +1,17 @@
+```diff
+--- a/sklearn/decomposition/kernel_pca.py
++++ b/sklearn/decomposition/kernel_pca.py
+@@ -207,9 +207,9 @@ def _fit_transform(self, K):
+                                                  maxiter=self.max_iter,
+                                                  v0=v0)
+ 
+-        # flip eigenvectors' sign to enforce deterministic output
+-        self.alphas_, _ = svd_flip(self.alphas_,
+-                                   np.empty_like(self.alphas_).T)
++        # flip eigenvectors' sign to enforce deterministic output.
++        U, V = self.alphas_, np.empty_like(self.alphas_).T
++        self.alphas_, _ = svd_flip(U, V)
+ 
+         # sort eigenvectors in descending order
+         indices = self.lambdas_.argsort()[::-1]
+```

@@ -1,0 +1,17 @@
+```diff
+--- a/pylint/config/argument.py
++++ b/pylint/config/argument.py
+@@ -99,10 +99,10 @@
+     return version
+ 
+ 
+-def _regex_transformer(value: str) -> Pattern[str]:
++def _regex_transformer(value: str) -> re.Pattern[str]:
+     """Return `re.compile(value)`."""
+     try:
+         return re.compile(value)
+-    except re.error as e:
++    except re.error as e:  # type: ignore[attr-defined]
+         msg = f"Error in provided regular expression: {value} beginning at index {e.pos}: {e.msg}"
+         raise argparse.ArgumentTypeError(msg)
+```

@@ -1,0 +1,20 @@
+```
+--- a/django/core/management/commands/inspectdb.py
++++ b/django/core/management/commands/inspectdb.py
+@@ -148,14 +148,13 @@
+                         )
+                         if rel_to in known_models:
+                             field_type = "%s(%s" % (rel_type, rel_to)
+-                            if rel_type == "ForeignKey" and rel_to == "self":
+-                                if column_name != ref_db_column:
+-                                    extra_params['related_name'] = '%s_rel' % att_name
+-                                else:
++                            if rel_type == "ForeignKey":
++                                if rel_to == "self":
++                                    if column_name != ref_db_column:
++                                        extra_params["related_name"] = "%s_rel" % att_name
++                                    else:
+                                     extra_params['related_name'] = '%s_rel' % table_name.lower()
+                         else:
+                             field_type = "%s('%s'" % (rel_type, rel_to)
+```

@@ -1,0 +1,32 @@
+```diff
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -115,39 +113,37 @@ def __getitem__(self, name):\n         raise KeyError(\'Unknown media type "%s"\' % name)\n \n     @staticmethod\n-    def merge(list_1, list_2):\n+    def merge(*lists):\n         """\n-        Merge two lists while trying to keep the relative order of the elements.\n-        Warn if the lists have the same two elements in a different relative\n-        order.\n+        Merge lists while trying to keep the relative order of the elements.\n+        Warn if the lists have the same elements in a different relative order.\n \n         For static assets it can be important to have them included in the DOM\n         in a certain order. In JavaScript you may not be able to reference a\n         global or in CSS you might want to override a style.\n         """\n-        # Start with a copy of list_1.\n-        combined_list = list(list_1)\n-        last_insert_index = len(list_1)\n-        # Walk list_2 in reverse, inserting each element into combined_list if\n-        # it doesn't already exist.\n-        for path in reversed(list_2):\n-            try:\n-                # Does path already exist in the list?\n-                index = combined_list.index(path)\n-            except ValueError:\n-                # Add path to combined_list since it doesn't exist.\n-                combined_list.insert(last_insert_index, path)\n-            else:\n-                if index > last_insert_index:\n-                    warnings.warn(\n-                        \'Detected duplicate Media files in an opposite order:\\n\'\n-                        \'%s\\n%s\' % (combined_list[last_insert_index], combined_list[index]),\n-                        MediaOrderConflictWarning,\n-                    )\n-                # path already exists in the list. Update last_insert_index so\n-                # that the following elements are inserted in front of this one.\n-                last_insert_index = index\n-        return combined_list\n+        dependency_graph = defaultdict(set)
++        all_items = OrderedSet()
++        for list_ in filter(None, lists):
++            if not list_:
++                continue
++            if isinstance(list_, str):
++                list_ = [list_]
++            head = list_[0]
++            # The first items depend on nothing but have to be part of the
++            # dependency graph to be included in the result.
++            dependency_graph.setdefault(head, set())
++            for item in list_:
++                all_items.add(item)
++                # No self dependencies
++                if head != item:
++                    dependency_graph[item].add(head)
++                head = item
++        try:
++            return stable_topological_sort(all_items, dependency_graph)
++        except CyclicDependencyError:
++            warnings.warn(
++                'Detected duplicate Media files in an opposite order: {}'.format(
++                    ', '.join(repr(l) for l in lists)
++                ), MediaOrderConflictWarning,
++            )
++            return list(all_items)
+ \
+     def __add__(self, other):\n         combined = Media()
+```

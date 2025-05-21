@@ -1,0 +1,12 @@
+```diff
+--- a/tests/view_tests/tests/test_debug.py
++++ b/tests/view_tests/tests/test_debug.py
+@@ -19,7 +19,6 @@
+ from django.core.files.uploadedfile import SimpleUploadedFile
+ from django.db import DatabaseError, connection
+ from django.http import Http404, HttpResponse
+-from django.http import Http404
+ from django.shortcuts import render
+ from django.template import TemplateDoesNotExist
+ from django.test import SimpleTestCase
+```

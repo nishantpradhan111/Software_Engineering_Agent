@@ -1,0 +1,27 @@
+```diff
+--- a/astropy/io/ascii/core.py
++++ b/astropy/io/ascii/core.py
+@@ -1682,7 +1682,6 @@
+         self.header_start = header_start
+         self.data_start = data_start
+         self.position_line = position_line
+-        self.header_rows = kwargs.get('header_rows', None)
+ 
+         self._default_read_kwargs = {
+             "delimiter": self.col_sep,
+@@ -1730,14 +1729,6 @@
+         if self.names is None:
+             return
+ 
+-        if self.header_rows is not None:
+-            if "name" in self.header_rows:
+-                self.lines.append(self.write_line(self.names))
+-            if "unit" in self.header_rows:
+-                units = [
+-                    col.unit.to_string() if col.unit else "" for col in table.itercols()
+-                ]
+-                self.lines.append(self.write_line(units))
+-
+         vals = [self.col_sep.join([self.col_starts[i], self.col_ends[i]])
+                 for i in range(len(self.names))]
+```

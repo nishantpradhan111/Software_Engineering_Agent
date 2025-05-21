@@ -1,0 +1,23 @@
+```diff
+--- a/tests/reporters/unittest_reporting.py
++++ b/tests/reporters/unittest_reporting.py
+@@ -30,9 +30,7 @@
+ 
+ 
+ @pytest.fixture
+-
+ def linter(request: pytest.FixtureRequest) -> PyLinter:
+-    linter_instance = PyLinter()
++    linter_instance = PyLinter() 
+     linter_instance.global_config = MagicMock()
+     linter_instance.global_config.jobs = 1
+     linter_instance.global_config.load_plugins = False
+@@ -101,7 +99,6 @@
+     output = StringIO()
+     linter.reporter.out = output
+     linter.config.msg_template = '{{ "Category": "{category}" }}'
+-    linter.open()
+     linter.set_current_module("my_mod")
+ 
+     linter.add_message("C0301", line=1, args=(1, 2))
+```

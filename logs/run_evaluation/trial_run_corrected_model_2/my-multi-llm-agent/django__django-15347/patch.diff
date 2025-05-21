@@ -1,0 +1,37 @@
+```diff
+--- a/django/contrib/messages/storage/cookie.py
++++ b/django/contrib/messages/storage/cookie.py
+@@ -19,7 +19,7 @@ def default(self, obj):
+             # Using 0/1 here instead of False/True to produce more compact json
+             is_safedata = 1 if isinstance(obj.message, SafeData) else 0
+             message = [self.message_key, is_safedata, obj.level, obj.message]
+-            if obj.extra_tags:
++            if obj.extra_tags is not None:
+                 message.append(obj.extra_tags)
+             return message
+         return super().default(obj)
+--- a/tests/messages_tests/test_cookie.py
++++ b/tests/messages_tests/test_cookie.py
+@@ -52,6 +52,7 @@ class CookieTests(BaseTests, SimpleTestCase):
+     def stored_messages_count(self, storage, response):
+         return stored_cookie_messages_count(storage, response)
+ 
++
+     def encode_decode(self, *args, **kwargs):
+         storage = self.get_storage()
+         message = Message(constants.DEBUG, *args, **kwargs)
+@@ -65,11 +66,13 @@
+         # Set initial data.
+         storage.update({1: 'test'})
+         # Get the data.
++
+         value = storage.get()
+         self.assertEqual(list(value.keys()), [1])
+         self.assertEqual(value[1], 'test')
+ 
+ 
++
+     def test_safedata(self):
+         """
+         A message containing SafeData is keeping its safe status when
+```

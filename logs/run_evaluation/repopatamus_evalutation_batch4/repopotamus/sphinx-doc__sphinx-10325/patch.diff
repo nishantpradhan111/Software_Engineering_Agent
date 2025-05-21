@@ -1,0 +1,33 @@
+```diff
+--- a/sphinx/ext/autodoc.py
++++ b/sphinx/ext/autodoc.py
+@@ -300,10 +300,10 @@
+     return {x.strip() for x in arg.split(',') if x.strip()}
+ 
+ 
+-def inherited_members_option(arg: Any) -> Union[object, Set[str]]:
++def inherited_members_option(arg: Any) -> Union[object, List[str]]:
+     """Used to convert the :members: option to auto directives."""
+     if arg in (None, True):
+-        return 'object'
++        return ['object']
+     else:
+         return arg
+ 
+@@ -900,7 +900,6 @@
+ 
+             return False
+ 
+-        ret = []
+ 
+         # search for members in source code too
+         namespace = '.'.join(self.objpath)  # will be empty for modules
+@@ -911,6 +910,7 @@
+         else:
+             attr_docs = {}
+ 
++        ret = []
+         # process members and determine which to skip
+         for obj in members:
+             try:
+```

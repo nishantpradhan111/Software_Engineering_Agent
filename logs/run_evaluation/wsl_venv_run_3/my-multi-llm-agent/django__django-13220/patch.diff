@@ -1,0 +1,12 @@
+```diff
+--- a/django/core/exceptions.py
++++ b/django/core/exceptions.py
+@@ -194,6 +194,6 @@
+                 tuple(sorted(make_hashable(self.params))) if self.params else None,
+             ))
+         if hasattr(self, 'error_dict'):
+-            return hash(tuple(sorted(make_hashable(self.error_dict.items()))))
++            return hash(tuple(sorted((k, tuple(sorted(make_hashable(v)))) if isinstance(v, list) else (k, make_hashable(v)) for k, v in self.error_dict.items())))
+         return hash(tuple(sorted(self.error_list, key=operator.attrgetter('message'))))
+ 
+```

@@ -1,0 +1,14 @@
+```diff
+--- a/sphinx/ext/autodoc.py
++++ b/sphinx/ext/autodoc.py
+@@ -903,7 +903,8 @@
+                 overload = evaluate_signature(overload, __globals__,
+                                               self.env.config.autodoc_type_aliases)
+ 
+-                sig = stringify_signature(overload, **kwargs)
++                sig = stringify_signature(overload, show_annotation=self.env.config.autodoc_typehints != 'none',
++                                          **kwargs)
+                 sigs.append(sig)
+ 
+         return "\n".join(sigs)
+```

@@ -1,0 +1,15 @@
+```diff
+--- a/src/_pytest/skipping.py
++++ b/src/_pytest/skipping.py
+@@ -291,9 +291,7 @@
+                 rep.outcome = "passed"
+                 rep.wasxfail = xfailed.reason
+     elif (
+-        item._store.get(skipped_by_mark_key, True)
+-        and rep.skipped
+-        and type(rep.longrepr) is tuple
++        rep.skipped and item._store.get(skipped_by_mark_key, True) and type(rep.longrepr) is tuple
+     ):
+         # Change the location of the skip reason to the item, if it was
+         # marked with pytest.mark.skip.
+```

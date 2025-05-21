@@ -1,0 +1,25 @@
+```diff
+--- a/sklearn/utils/_set_output.py
++++ b/sklearn/utils/_set_output.py
+@@ -37,7 +37,7 @@
+         `range(n_features)`.
+ 
+     index : array-like, default=None
+-        Index for data.\n+        Index for data. `index` is ignored if `data_to_wrap` is already a DataFrame.
++        Index for data. `index` is ignored if `data_to_wrap` is already a DataFrame.
+ 
+     Returns
+     -------\n
+@@ -52,10 +52,7 @@
+     columns = _get_column_names(columns, n_features)
+ 
+     if isinstance(data_to_wrap, pd.DataFrame):
+-        if columns is not None:
+-            data_to_wrap.columns = columns
+-        if index is not None:
+-            data_to_wrap.index = index
++        data_to_wrap.columns = columns
+         return data_to_wrap
+ 
+     return pd.DataFrame(data_to_wrap, index=index, columns=columns)
+```

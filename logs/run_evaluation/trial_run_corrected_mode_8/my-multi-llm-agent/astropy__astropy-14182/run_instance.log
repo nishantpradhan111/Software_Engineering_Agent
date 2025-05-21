@@ -1,0 +1,65 @@
+2025-05-08 15:16:30,860 - INFO - Creating container for astropy__astropy-14182...
+2025-05-08 15:16:31,555 - INFO - Container for astropy__astropy-14182 created: 0281b5e099707bedaf35b4694687d080487e49b1ab1a5bbe1b9e3e522a24f820
+2025-05-08 15:16:32,034 - INFO - Container for astropy__astropy-14182 started: 0281b5e099707bedaf35b4694687d080487e49b1ab1a5bbe1b9e3e522a24f820
+2025-05-08 15:16:32,041 - INFO - Intermediate patch for astropy__astropy-14182 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/astropy__astropy-14182/patch.diff, now applying to container...
+2025-05-08 15:16:32,287 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-08 15:16:32,420 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-08 15:16:32,531 - INFO - >>>>> Applied Patch:
+patching file astropy/io/ascii/core.py
+Hunk #1 succeeded at 1852 with fuzz 3 (offset -119 lines).
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-08 15:16:33,315 - INFO - Git diff before:
+diff --git a/astropy/io/ascii/core.py b/astropy/io/ascii/core.py
+index 381b5b13db..966fd868c9 100644
+--- a/astropy/io/ascii/core.py
++++ b/astropy/io/ascii/core.py
+@@ -1852,3 +1852,4 @@ def _get_writer(Writer, fast_writer, **kwargs):
+     if "fill_exclude_names" in kwargs:
+         writer.data.fill_exclude_names = kwargs["fill_exclude_names"]
+     return writer
++        self.header_rows = None
+diff --git a/pyproject.toml b/pyproject.toml
+index 0d1ee66ab9..ec234472e2 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -1,5 +1,5 @@
+ [build-system]
+-requires = ["setuptools",
++requires = ["setuptools==68.0.0",
+             "setuptools_scm>=6.2",
+             "wheel",
+             "cython==0.29.30",
+2025-05-08 15:16:33,319 - INFO - Eval script for astropy__astropy-14182 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/astropy__astropy-14182/eval.sh; copying to container...
+2025-05-08 15:18:55,575 - INFO - Test runtime: 142.16 seconds
+2025-05-08 15:18:55,580 - INFO - Test output for astropy__astropy-14182 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/astropy__astropy-14182/test_output.txt
+2025-05-08 15:18:55,650 - INFO - Git diff after:
+diff --git a/astropy/io/ascii/core.py b/astropy/io/ascii/core.py
+index 381b5b13db..966fd868c9 100644
+--- a/astropy/io/ascii/core.py
++++ b/astropy/io/ascii/core.py
+@@ -1852,3 +1852,4 @@ def _get_writer(Writer, fast_writer, **kwargs):
+     if "fill_exclude_names" in kwargs:
+         writer.data.fill_exclude_names = kwargs["fill_exclude_names"]
+     return writer
++        self.header_rows = None
+diff --git a/pyproject.toml b/pyproject.toml
+index 0d1ee66ab9..ec234472e2 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -1,5 +1,5 @@
+ [build-system]
+-requires = ["setuptools",
++requires = ["setuptools==68.0.0",
+             "setuptools_scm>=6.2",
+             "wheel",
+             "cython==0.29.30",
+2025-05-08 15:18:55,650 - INFO - Grading answer for astropy__astropy-14182...
+2025-05-08 15:18:55,657 - INFO - report: {'astropy__astropy-14182': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['astropy/io/ascii/tests/test_rst.py::test_rst_with_header_rows']}, 'PASS_TO_PASS': {'success': [], 'failure': ['astropy/io/ascii/tests/test_rst.py::test_read_normal', 'astropy/io/ascii/tests/test_rst.py::test_read_normal_names', 'astropy/io/ascii/tests/test_rst.py::test_read_normal_names_include', 'astropy/io/ascii/tests/test_rst.py::test_read_normal_exclude', 'astropy/io/ascii/tests/test_rst.py::test_read_unbounded_right_column', 'astropy/io/ascii/tests/test_rst.py::test_read_unbounded_right_column_header', 'astropy/io/ascii/tests/test_rst.py::test_read_right_indented_table', 'astropy/io/ascii/tests/test_rst.py::test_trailing_spaces_in_row_definition', 'astropy/io/ascii/tests/test_rst.py::test_write_normal']}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for astropy__astropy-14182: resolved: False
+2025-05-08 15:18:55,660 - INFO - Attempting to stop container sweb.eval.astropy__astropy-14182.trial_run_corrected_mode_8...
+2025-05-08 15:19:11,304 - INFO - Attempting to remove container sweb.eval.astropy__astropy-14182.trial_run_corrected_mode_8...
+2025-05-08 15:19:11,376 - INFO - Container sweb.eval.astropy__astropy-14182.trial_run_corrected_mode_8 removed.
+2025-05-08 15:19:11,378 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.astropy_1776_astropy-14182:latest...
+2025-05-08 15:19:12,010 - INFO - Image swebench/sweb.eval.x86_64.astropy_1776_astropy-14182:latest removed.

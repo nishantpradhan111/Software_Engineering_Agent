@@ -1,0 +1,16 @@
+```diff
+--- a/django/db/migrations/operations/fields.py
++++ b/django/db/migrations/operations/fields.py
+@@ -254,9 +254,8 @@
+         return "alter_%s_%s" % (self.model_name_lower, self.name_lower)
+ 
+     def reduce(self, operation, app_label):
+-        if isinstance(operation, AlterField) and self.is_same_field_operation(
+-            operation
+-        ):
++        if (isinstance(operation, AlterField) and
++                self.is_same_field_operation(operation)):
+             self.field = operation.field
+             return [self]
+         if isinstance(operation, RemoveField) and self.is_same_field_operation(
+```

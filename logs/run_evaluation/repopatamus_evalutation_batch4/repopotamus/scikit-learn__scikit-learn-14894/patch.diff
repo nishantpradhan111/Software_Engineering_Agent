@@ -1,0 +1,24 @@
+```diff
+--- a/sklearn/svm/base.py
++++ b/sklearn/svm/base.py
+@@ -321,12 +321,12 @@
+         else:  # regression
+             n_class = 1
+         n_SV = self.support_vectors_.shape[0]
+-
+-        dual_coef_indices = np.tile(np.arange(n_SV), n_class)
+-        dual_coef_indptr = np.arange(0, dual_coef_indices.size + 1,
+-                                     dual_coef_indices.size / n_class)
+-        self.dual_coef_ = sp.csr_matrix(
+-            (dual_coef_data, dual_coef_indices, dual_coef_indptr),
+-            (n_class, n_SV))
++        if n_SV == 0:
++            self.dual_coef_ = sp.csr_matrix((n_class, 0), dtype=np.float64)
++            self.support_vectors_ = np.empty((0, X.shape[1]), dtype=np.float64, order="C")
++            self.intercept_ = np.zeros(n_class, dtype=np.float64)
++            self._n_support = np.zeros(n_class, dtype=np.int32)
++            return
++        dual_coef_indices = np.tile(np.arange(n_SV), n_class)
++        # Fix for ZeroDivisionError: integer division or modulo by zero
++        dual_coef_indptr = np.arange(0, dual_coef_indices.size + 1, dual_coef_indices.size / n_class) # type: ignore
+```

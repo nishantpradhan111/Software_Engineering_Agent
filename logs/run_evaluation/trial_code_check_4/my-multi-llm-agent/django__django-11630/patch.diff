@@ -1,0 +1,13 @@
+```diff
+--- a/django/db/models/options.py
++++ b/django/db/models/options.py
+@@ -211,7 +211,7 @@
+             elif self.managed and not self.proxy and not self.abstract:
+                 # managed = False is used, for example, for models that exist
+                 # only to support ManyToMany relations.
+-                if self.apps.app_configs and hasattr(self.apps, 'DATABASE_ROUTERS'):
++                if hasattr(self.apps, 'DATABASE_ROUTERS') and self.apps.DATABASE_ROUTERS:
+                     level = checks.WARNING
+ 
+                 # Check db_table uniqueness.
+```

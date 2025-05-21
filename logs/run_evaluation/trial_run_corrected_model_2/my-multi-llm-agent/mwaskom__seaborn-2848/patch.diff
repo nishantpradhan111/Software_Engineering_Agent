@@ -1,0 +1,25 @@
+```diff
+--- a/seaborn/_oldcore.py
++++ b/seaborn/_oldcore.py
+@@ -153,6 +153,11 @@
+             value = self.lookup_table[key]
+         except KeyError:
+ 
++            # Use the colormap to interpolate between existing datapoints
++            # (e.g. in the context of making a continuous legend)
++            try:
++                value = self.cmap(self.norm(key))
++            except TypeError:
+             if self.norm is None:
+                 # Currently we only get here in scatterplot with hue_order,
+                 # because scatterplot does not consider hue a grouping variable
+@@ -160,9 +165,6 @@
+                 return (0, 0, 0, 0)
+ 
+             # Use the colormap to interpolate between existing datapoints
+-            # (e.g. in the context of making a continuous legend)
+-            try:
+                 value = self.cmap(self.norm(key))
+             except TypeError:
+                 err = "The value of `{}` is not mappable".format(key)
+```

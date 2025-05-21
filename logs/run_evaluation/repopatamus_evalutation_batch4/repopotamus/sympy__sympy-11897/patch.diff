@@ -1,0 +1,13 @@
+```
+--- a/sympy/printing/latex.py
++++ b/sympy/printing/latex.py
+@@ -1605,7 +1605,7 @@
+ 
+     def _print_Piecewise(self, expr):
+         ecpairs = [r"%s & \text{for}\: %s" % (self._print(e), self._print(c))
+-                   for e, c in expr.args[:-1]]
++                   for e, c in expr.args[:-1]]
+         if expr.args[-1].cond == true:
+             ecpairs.append(r"%s & \text{otherwise}" %
+                            self._print(expr.args[-1].expr))
+```

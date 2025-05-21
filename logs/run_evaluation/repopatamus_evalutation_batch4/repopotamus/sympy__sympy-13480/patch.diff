@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/functions/elementary/hyperbolic.py
++++ b/sympy/functions/elementary/hyperbolic.py
+@@ -1010,7 +1010,7 @@
+             if arg.is_Add:
+                 x, m = _peeloff_ipi(arg)
+                 if m:
+-                    cothm = coth(m)
++                    cothm = cls(m)
+                     if cothm is S.ComplexInfinity:
+                         return coth(x)
+                     else: # cothm == 0
+```

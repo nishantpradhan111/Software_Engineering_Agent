@@ -1,0 +1,48 @@
+2025-05-11 21:13:42,810 - INFO - Creating container for sympy__sympy-22714...
+2025-05-11 21:13:43,586 - INFO - Container for sympy__sympy-22714 created: 9a2ad4d64fe91d2a098cb9f1ed9086cd2a544d5789833106f5ce09c0dd2c07a8
+2025-05-11 21:13:44,469 - INFO - Container for sympy__sympy-22714 started: 9a2ad4d64fe91d2a098cb9f1ed9086cd2a544d5789833106f5ce09c0dd2c07a8
+2025-05-11 21:13:44,478 - INFO - Intermediate patch for sympy__sympy-22714 written to logs/run_evaluation/repopatamus_evalutation_batch5/repopotamus/sympy__sympy-22714/patch.diff, now applying to container...
+2025-05-11 21:13:44,748 - INFO - >>>>> Applied Patch:
+Checking patch sympy/geometry/point.py...
+Hunk #1 succeeded at 152 (offset -15 lines).
+Applied patch sympy/geometry/point.py cleanly.
+
+2025-05-11 21:13:45,627 - INFO - Git diff before:
+diff --git a/sympy/geometry/point.py b/sympy/geometry/point.py
+index 73c20334d0..ad06668efe 100644
+--- a/sympy/geometry/point.py
++++ b/sympy/geometry/point.py
+@@ -152,7 +152,7 @@ def __new__(cls, *args, **kwargs):
+                         'warn' or 'ignore'.'''))
+         if any(coords[dim:]):
+             raise ValueError('Nonzero coordinates cannot be removed.')
+-        if any(a.is_number and im(a) for a in coords):
++        if evaluate and any(a.is_number and im(a) for a in coords):
+             raise ValueError('Imaginary coordinates are not permitted.')
+         if not all(isinstance(a, Expr) for a in coords):
+             raise TypeError('Coordinates must be valid SymPy expressions.')
+2025-05-11 21:13:45,632 - INFO - Eval script for sympy__sympy-22714 written to logs/run_evaluation/repopatamus_evalutation_batch5/repopotamus/sympy__sympy-22714/eval.sh; copying to container...
+2025-05-11 21:14:02,066 - INFO - Test runtime: 16.30 seconds
+2025-05-11 21:14:02,070 - INFO - Test output for sympy__sympy-22714 written to logs/run_evaluation/repopatamus_evalutation_batch5/repopotamus/sympy__sympy-22714/test_output.txt
+2025-05-11 21:14:02,152 - INFO - Git diff after:
+diff --git a/sympy/geometry/point.py b/sympy/geometry/point.py
+index 73c20334d0..ad06668efe 100644
+--- a/sympy/geometry/point.py
++++ b/sympy/geometry/point.py
+@@ -152,7 +152,7 @@ def __new__(cls, *args, **kwargs):
+                         'warn' or 'ignore'.'''))
+         if any(coords[dim:]):
+             raise ValueError('Nonzero coordinates cannot be removed.')
+-        if any(a.is_number and im(a) for a in coords):
++        if evaluate and any(a.is_number and im(a) for a in coords):
+             raise ValueError('Imaginary coordinates are not permitted.')
+         if not all(isinstance(a, Expr) for a in coords):
+             raise TypeError('Coordinates must be valid SymPy expressions.')
+2025-05-11 21:14:02,152 - INFO - Grading answer for sympy__sympy-22714...
+2025-05-11 21:14:02,156 - INFO - report: {'sympy__sympy-22714': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': True, 'tests_status': {'FAIL_TO_PASS': {'success': ['test_issue_22684'], 'failure': []}, 'PASS_TO_PASS': {'success': ['test_point', 'test_point3D', 'test_Point2D', 'test_issue_9214', 'test_issue_11617', 'test_transform', 'test_concyclic_doctest_bug', 'test_arguments', 'test_unit', 'test_dot', 'test__normalize_dimension'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-22714: resolved: True
+2025-05-11 21:14:02,159 - INFO - Attempting to stop container sweb.eval.sympy__sympy-22714.repopatamus_evalutation_batch5...
+2025-05-11 21:14:17,933 - INFO - Attempting to remove container sweb.eval.sympy__sympy-22714.repopatamus_evalutation_batch5...
+2025-05-11 21:14:18,023 - INFO - Container sweb.eval.sympy__sympy-22714.repopatamus_evalutation_batch5 removed.
+2025-05-11 21:14:18,024 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-22714:latest...
+2025-05-11 21:14:18,374 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-22714:latest removed.

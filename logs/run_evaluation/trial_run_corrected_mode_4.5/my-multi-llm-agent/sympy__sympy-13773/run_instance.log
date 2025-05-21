@@ -1,0 +1,3202 @@
+2025-05-07 20:28:12,197 - INFO - Creating container for sympy__sympy-13773...
+2025-05-07 20:28:12,303 - INFO - Container for sympy__sympy-13773 created: 01fe1616af868e2af76614457a66713795cb76c0584ed771ec9fb7e8a26b7aae
+2025-05-07 20:28:12,688 - INFO - Container for sympy__sympy-13773 started: 01fe1616af868e2af76614457a66713795cb76c0584ed771ec9fb7e8a26b7aae
+2025-05-07 20:28:12,695 - INFO - Intermediate patch for sympy__sympy-13773 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/patch.diff, now applying to container...
+2025-05-07 20:28:12,886 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-07 20:28:12,957 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-07 20:28:13,022 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-07 20:28:13,022 - INFO - >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+2025-05-07 20:28:13,385 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-07 20:28:13,385 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,385 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,386 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,386 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,387 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,388 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,388 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,389 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,389 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,390 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,390 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,390 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,391 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,392 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,392 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,393 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,393 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,393 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,394 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,394 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,395 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,395 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,395 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,396 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,396 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,396 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,396 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,397 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,397 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,397 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,398 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,398 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,398 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,399 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,399 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,399 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,400 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,400 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,400 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,401 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,401 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,402 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,402 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,402 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,403 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,403 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,403 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,404 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,404 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,405 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,405 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,405 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,406 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,406 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,406 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,407 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,407 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,407 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,408 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,409 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,409 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,409 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,410 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,410 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,410 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,411 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,411 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,412 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,412 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,412 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,412 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,413 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,413 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,413 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,414 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,414 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,415 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,415 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,416 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,417 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,417 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,418 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,418 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,418 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,419 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,419 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,420 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,421 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,421 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,421 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,422 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,422 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,423 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,423 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,423 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,424 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,424 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,424 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,424 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,425 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,425 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,425 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,426 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,426 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,426 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,426 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,427 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,428 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,428 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,429 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,429 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,429 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,430 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,430 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,430 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,431 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,431 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,431 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,432 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,432 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,432 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,433 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,753 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-07 20:28:13,754 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,754 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,754 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,754 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,755 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,755 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,756 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,756 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,756 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,757 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,757 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,757 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,758 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,758 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,758 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,758 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,759 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,759 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,759 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,759 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,760 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,760 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,760 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,760 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,761 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,761 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,761 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,762 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,762 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,762 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,762 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,763 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,763 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,763 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,763 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,764 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,764 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,764 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,764 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,765 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,765 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,765 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,765 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,766 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,766 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,766 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,767 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,767 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,767 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,768 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,768 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,768 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,769 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,769 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,769 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,769 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,770 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,770 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,770 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,771 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,771 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,771 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,771 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,772 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,774 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,774 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,774 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,775 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,775 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,775 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,775 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,776 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,776 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,776 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,776 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,777 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,777 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,777 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,777 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,778 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,778 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,778 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,779 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,779 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,779 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,780 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,780 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,780 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,780 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,781 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,781 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,781 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,781 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,782 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,782 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,782 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,783 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,783 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,783 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,784 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,784 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,784 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,784 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,785 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,785 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,785 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,785 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,786 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,786 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,786 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,787 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,787 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,787 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,788 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,788 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,788 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,789 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,789 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,789 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,790 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,790 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,790 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-13773: >>>>> Patch Apply Failed:
+patching file sympy/matrices/common.py
+Hunk #1 FAILED at 1973.
+Hunk #2 FAILED at 2066.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file sympy/matrices/common.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13773/run_instance.log) for more information.
+
+2025-05-07 20:28:13,790 - INFO - Attempting to stop container sweb.eval.sympy__sympy-13773.trial_run_corrected_mode_4.5...
+2025-05-07 20:28:29,170 - INFO - Attempting to remove container sweb.eval.sympy__sympy-13773.trial_run_corrected_mode_4.5...
+2025-05-07 20:28:29,202 - INFO - Container sweb.eval.sympy__sympy-13773.trial_run_corrected_mode_4.5 removed.
+2025-05-07 20:28:29,203 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-13773:latest...
+2025-05-07 20:28:29,377 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-13773:latest removed.

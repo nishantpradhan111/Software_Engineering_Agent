@@ -1,0 +1,19 @@
+```diff
+--- a/astropy/io/ascii/rst.py
++++ b/astropy/io/ascii/rst.py
+@@ -52,11 +52,12 @@
+     data_class = SimpleRSTData
+     header_class = SimpleRSTHeader
+ 
+-    def __init__(self):
++    def __init__(self, **kwargs):
+         super().__init__(delimiter_pad=None, bookend=False)
++        self.header_rows = kwargs.pop("header_rows", None)
+ 
+     def write(self, lines):
+         lines = super().write(lines)
+         lines = [lines[1]] + lines + [lines[1]]
++        if self.header_rows and "unit" in self.header_rows:
+         return lines
+-
+```

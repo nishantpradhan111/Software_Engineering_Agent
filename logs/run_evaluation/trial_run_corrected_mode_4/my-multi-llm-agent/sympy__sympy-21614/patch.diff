@@ -1,0 +1,15 @@
+```diff
+--- a/sympy/core/function.py
++++ b/sympy/core/function.py
+@@ -1707,6 +1707,10 @@ def free_symbols(self):
+             ret.update(count.free_symbols)\
+         return ret\
+ 
++    @classmethod
++    def eval(cls, arg):
++        return arg
++
+     @property
+     def kind(self):
+         return self.args[0].kind
+```

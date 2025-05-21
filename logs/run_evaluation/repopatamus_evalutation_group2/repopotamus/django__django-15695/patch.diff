@@ -1,0 +1,16 @@
+```diff
+--- a/django/db/migrations/operations/models.py
++++ b/django/db/migrations/operations/models.py
+@@ -800,11 +800,6 @@
+         self.new_name, self.old_name = self.old_name, self.new_name
+ 
+         self.database_forwards(app_label, schema_editor, from_state, to_state)
+-
+-        self.new_name_lower, self.old_name_lower = (
+-            self.old_name_lower,
+-            self.new_name_lower,
+-        )
+         self.new_name, self.old_name = self.old_name, self.new_name
+         else:
+             # Restore the index name in the database.
+```

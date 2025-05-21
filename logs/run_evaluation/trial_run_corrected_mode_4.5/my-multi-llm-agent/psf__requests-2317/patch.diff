@@ -1,0 +1,13 @@
+```diff
+--- a/requests/sessions.py
++++ b/requests/sessions.py
+@@ -14,7 +14,7 @@
+ 
+ from .auth import _basic_auth_str
+ from .compat import cookielib, OrderedDict, urljoin, urlparse, builtin_str
+-from .cookies import (
++from .cookies import(
+     cookiejar_from_dict, extract_cookies_to_jar, RequestsCookieJar, merge_cookies)
+ from .models import Request, PreparedRequest, DEFAULT_REDIRECT_LIMIT
+ from .utils import (
+```

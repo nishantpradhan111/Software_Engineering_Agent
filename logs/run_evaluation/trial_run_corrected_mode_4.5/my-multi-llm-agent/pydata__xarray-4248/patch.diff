@@ -1,0 +1,19 @@
+```diff
+--- a/xarray/core/formatting.py
++++ b/xarray/core/formatting.py
+@@ -142,13 +142,9 @@
+     if has_source:
+         source = var.encoding["source"]
+     else:
+-        units = var.attrs.get("units", None)
+-        if units:
++        if "units" in var.attrs:
++            units = var.attrs["units"]
+             name = f"{name} [{units}]"
+-
+         source = None
+-
+     if source:
+         if isinstance(source, str):
+             source = shorten_path(source)
+```

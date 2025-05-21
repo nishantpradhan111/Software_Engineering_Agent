@@ -1,0 +1,15 @@
+```diff
+--- a/lib/matplotlib/axis.py
++++ b/lib/matplotlib/axis.py
+@@ -2032,8 +2032,8 @@
+         ticks.
+         """
+         if labels is None and kwargs:
+-            raise ValueError('labels argument cannot be None when '
+-                             'kwargs are passed')
++            raise ValueError(
++                "labels argument cannot be None when kwargs are passed")
+         result = self._set_tick_locations(ticks, minor=minor)
+         if labels is not None:
+             self.set_ticklabels(labels, minor=minor, **kwargs)
+```

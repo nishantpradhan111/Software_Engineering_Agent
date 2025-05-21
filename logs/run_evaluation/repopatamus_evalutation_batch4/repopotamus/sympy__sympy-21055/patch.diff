@@ -1,0 +1,22 @@
+```diff
+--- a/sympy/assumptions/refine.py
++++ b/sympy/assumptions/refine.py
+@@ -43,7 +43,7 @@
+     sympy.simplify.simplify.simplify : Structural simplification without assumptions.
+     sympy.assumptions.ask.ask : Query for boolean expressions using assumptions.
+     """
+-    if not isinstance(expr, Basic):
++    if not isinstance(expr, Basic): 
+         return expr
+ 
+     if not expr.is_Atom:
+@@ -79,7 +79,6 @@
+     -x
+ 
+     """
+-    from sympy.core.logic import fuzzy_not
+     from sympy import Abs
+     arg = expr.args[0]
+     if ask(Q.real(arg), assumptions) and \
+
+```

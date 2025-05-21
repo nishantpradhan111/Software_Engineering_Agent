@@ -1,0 +1,29 @@
+```
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -2086,7 +2086,7 @@
+         """
+         existing, defer = self.deferred_loading
+         if defer:
+-            # Add to existing deferred names.
++           # Add to existing deferred names.
+             self.deferred_loading = existing.union(field_names), True
+         else:
+             # Remove names from the set of any existing "immediate load" names.
+@@ -2111,7 +2111,6 @@
+         if 'pk' in field_names:
+             field_names.remove('pk')
+             field_names.add(self.get_meta().pk.name)
+-
+         if defer:
+             # Remove any existing deferred names from the current set before
+             # setting the new names.
+@@ -2119,7 +2118,6 @@
+         else:
+             # Replace any existing "immediate load" field names.
+             self.deferred_loading = frozenset(field_names), False
+-
+             
+     def get_loaded_field_names(self):
+         """
+```

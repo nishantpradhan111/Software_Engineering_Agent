@@ -1,0 +1,25 @@
+```diff
+--- a/sympy/printing/pretty/pretty.py
++++ b/sympy/printing/pretty/pretty.py
+@@ -1144,16 +1144,15 @@ def _print_BasisDependent(self, expr):\
+             if '\\n' in partstr:
+                 tempstr = partstr
+                 tempstr = tempstr.replace(vectstrs[i], '')
+-                if '\\N{RIGHT PARENTHESIS EXTENSION}' in tempstr:   # If scalar is a fraction
++                if '\\N{RIGHT PARENTHESIS EXTENSION}' in tempstr:  # If scalar is a fraction
+                     for paren in range(len(tempstr)):
+                         flag[i] = 1
+-                        if tempstr[paren] == '\\N{RIGHT PARENTHESIS EXTENSION}' and tempstr[paren + 1] == '\\n':
++                        if tempstr[paren] == '\\N{RIGHT PARENTHESIS EXTENSION}':
+                             # We want to place the vector string after all the right parentheses, because
+                             # otherwise, the vector will be in the middle of the string
+-                            tempstr = tempstr[:paren] + '\\N{RIGHT PARENTHESIS EXTENSION}'\\\
+-                                         + ' '  + vectstrs[i] + tempstr[paren + 1:]
++                            tempstr = tempstr[:paren + 1] + ' ' + vectstrs[i] + tempstr[paren + 1:]
+                             break
+-                elif '\\N{RIGHT PARENTHESIS LOWER HOOK}' in tempstr:
++                if '\\N{RIGHT PARENTHESIS LOWER HOOK}' in tempstr:
+                     # We want to place the vector string after all the right parentheses, because
+                     # otherwise, the vector will be in the middle of the string. For this reason,
+                     # we insert the vector string at the rightmost index.
+```

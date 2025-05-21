@@ -1,0 +1,12 @@
+```diff
+--- a/sympy/vector/tests/test_printing.py
++++ b/sympy/vector/tests/test_printing.py
+@@ -1,6 +1,7 @@
+ from sympy import symbols
+ from sympy.integrals.integrals import Integral
+ from sympy.printing.latex import latex
++from sympy.printing.pretty import pretty as upretty
+ from sympy.printing.pretty import pretty as xpretty
+ from sympy.vector import CoordSys3D, Vector, express
+ from sympy.abc import a, b, c
+```

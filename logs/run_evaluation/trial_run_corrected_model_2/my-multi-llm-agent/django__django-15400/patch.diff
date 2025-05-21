@@ -1,0 +1,20 @@
+```diff
+--- a/django/utils/functional.py
++++ b/django/utils/functional.py
+@@ -432,12 +432,9 @@
+             return result
+         return copy.deepcopy(self._wrapped, memo)
+ 
+--    __add__ = new_method_proxy(operator.add)
+-+    def __add__(self, other):
+-+        return self._wrapped + other
+-
+--    @new_method_proxy
+     def __radd__(self, other):
+-+        return other + self
+-+
++        return other + self._wrapped
++
+ 
+ def partition(predicate, values):
+```

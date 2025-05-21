@@ -1,0 +1,27 @@
+2025-05-08 15:27:45,569 - INFO - Creating container for django__django-13158...
+2025-05-08 15:27:45,830 - INFO - Container for django__django-13158 created: 7b60dcb40ba73591e305dccdef3d746ac67694dd17cba8d229bc1e05f23fc12a
+2025-05-08 15:27:46,176 - INFO - Container for django__django-13158 started: 7b60dcb40ba73591e305dccdef3d746ac67694dd17cba8d229bc1e05f23fc12a
+2025-05-08 15:27:46,184 - INFO - Intermediate patch for django__django-13158 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-13158/patch.diff, now applying to container...
+2025-05-08 15:27:46,457 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-08 15:27:46,560 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-08 15:27:46,693 - INFO - >>>>> Applied Patch:
+patching file tests/queries/test_qs_combinators.py
+Hunk #1 succeeded at 17 with fuzz 3 (offset -37 lines).
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-08 15:27:47,884 - INFO - Git diff before:
+
+2025-05-08 15:27:47,889 - INFO - Eval script for django__django-13158 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-13158/eval.sh; copying to container...
+2025-05-08 15:27:59,058 - INFO - Test runtime: 11.06 seconds
+2025-05-08 15:27:59,062 - INFO - Test output for django__django-13158 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-13158/test_output.txt
+2025-05-08 15:27:59,136 - INFO - Git diff after:
+
+2025-05-08 15:27:59,137 - INFO - Grading answer for django__django-13158...
+2025-05-08 15:27:59,140 - INFO - report: {'django__django-13158': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_union_none (queries.test_qs_combinators.QuerySetSetOperationTests)']}, 'PASS_TO_PASS': {'success': ['test_combining_multiple_models (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_count_difference (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_count_intersection (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_count_union (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_count_union_empty_result (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_difference_with_empty_qs (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_difference_with_values (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_intersection_with_empty_qs (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_intersection_with_values (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_limits (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_order_by_same_type (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_order_raises_on_non_selected_column (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_ordering (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_ordering_by_alias (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_ordering_by_f_expression (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_ordering_by_f_expression_and_alias (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_qs_with_subcompound_qs (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_simple_difference (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_simple_intersection (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_simple_union (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_union_distinct (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_union_with_empty_qs (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_union_with_extra_and_values_list (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_union_with_two_annotated_values_list (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_union_with_values (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_union_with_values_list_and_order (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_union_with_values_list_on_annotated_and_unannotated (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_unsupported_operations_on_combined_qs (queries.test_qs_combinators.QuerySetSetOperationTests)', 'test_unsupported_ordering_slicing_raises_db_error (queries.test_qs_combinators.QuerySetSetOperationTests)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-13158: resolved: False
+2025-05-08 15:27:59,143 - INFO - Attempting to stop container sweb.eval.django__django-13158.trial_run_corrected_mode_8...
+2025-05-08 15:28:15,001 - INFO - Attempting to remove container sweb.eval.django__django-13158.trial_run_corrected_mode_8...
+2025-05-08 15:28:15,667 - INFO - Container sweb.eval.django__django-13158.trial_run_corrected_mode_8 removed.
+2025-05-08 15:28:15,667 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-13158:latest...
+2025-05-08 15:28:16,767 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-13158:latest removed.

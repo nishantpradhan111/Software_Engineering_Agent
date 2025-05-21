@@ -1,0 +1,22 @@
+```diff
+--- a/pylint/config/arguments.py
++++ b/pylint/config/arguments.py
+@@ -243,13 +243,9 @@
+ def _regexp_paths_csv_transfomer(value: str) -> Sequence[Pattern[str]]:
+     """Transforms a comma separated list of regular expressions paths."""
+     patterns: list[Pattern[str]] = []
+-    for pattern in _csv_transformer(value):
+-        patterns.append(
+-            re.compile(
+-                str(pathlib.PureWindowsPath(pattern)).replace("\\", "\\\\")
+-                + "|"
+-                + pathlib.PureWindowsPath(pattern).as_posix()
+-            )
+-        )
++    for unescaped_pattern in _csv_transformer(value):
++        # Escape backslashes for Windows paths
++        pattern = str(pathlib.PureWindowsPath(unescaped_pattern)).replace("\\", "\\\\")
++        patterns.append(re.compile(pattern))
+     return patterns
+ 
+```

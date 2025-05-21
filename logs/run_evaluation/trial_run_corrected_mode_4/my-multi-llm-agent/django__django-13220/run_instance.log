@@ -1,0 +1,66 @@
+2025-05-04 16:55:13,839 - INFO - Creating container for django__django-13220...
+2025-05-04 16:55:14,084 - INFO - Container for django__django-13220 created: 9ee7a0cb937fc6f875e6eba6bf613729258f63cf605d24e799c58c5525decc61
+2025-05-04 16:55:14,329 - INFO - Container for django__django-13220 started: 9ee7a0cb937fc6f875e6eba6bf613729258f63cf605d24e799c58c5525decc61
+2025-05-04 16:55:14,334 - INFO - Intermediate patch for django__django-13220 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-13220/patch.diff, now applying to container...
+2025-05-04 16:55:14,479 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 16:55:14,539 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 16:55:14,605 - INFO - >>>>> Applied Patch:
+patching file django/core/exceptions.py
+Hunk #1 succeeded at 4 with fuzz 3.
+Hunk #2 succeeded at 183 with fuzz 3.
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-04 16:55:15,463 - INFO - Git diff before:
+diff --git a/django/core/exceptions.py b/django/core/exceptions.py
+index dc084b8692..a9d4388e78 100644
+--- a/django/core/exceptions.py
++++ b/django/core/exceptions.py
+@@ -4,6 +4,7 @@ Global Django exception and warning classes.
+ 
+ 
+ class FieldDoesNotExist(Exception):
++
+     """The requested model field does not exist"""
+     pass
+ 
+@@ -183,6 +184,7 @@ class ValidationError(Exception):
+         return 'ValidationError(%s)' % self
+ 
+ 
++
+ class EmptyResultSet(Exception):
+     """A database query predicate is impossible."""
+     pass
+2025-05-04 16:55:15,466 - INFO - Eval script for django__django-13220 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-13220/eval.sh; copying to container...
+2025-05-04 16:55:23,792 - INFO - Test runtime: 8.24 seconds
+2025-05-04 16:55:23,796 - INFO - Test output for django__django-13220 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-13220/test_output.txt
+2025-05-04 16:55:23,867 - INFO - Git diff after:
+diff --git a/django/core/exceptions.py b/django/core/exceptions.py
+index dc084b8692..a9d4388e78 100644
+--- a/django/core/exceptions.py
++++ b/django/core/exceptions.py
+@@ -4,6 +4,7 @@ Global Django exception and warning classes.
+ 
+ 
+ class FieldDoesNotExist(Exception):
++
+     """The requested model field does not exist"""
+     pass
+ 
+@@ -183,6 +184,7 @@ class ValidationError(Exception):
+         return 'ValidationError(%s)' % self
+ 
+ 
++
+ class EmptyResultSet(Exception):
+     """A database query predicate is impossible."""
+     pass
+2025-05-04 16:55:23,867 - INFO - Grading answer for django__django-13220...
+2025-05-04 16:55:23,871 - INFO - report: {'django__django-13220': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_eq (test_exceptions.test_validation_error.TestValidationError)', 'test_eq_nested (test_exceptions.test_validation_error.TestValidationError)', 'test_hash (test_exceptions.test_validation_error.TestValidationError)', 'test_hash_nested (test_exceptions.test_validation_error.TestValidationError)']}, 'PASS_TO_PASS': {'success': ['test_messages_concatenates_error_dict_values (test_exceptions.test_validation_error.TestValidationError)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-13220: resolved: False
+2025-05-04 16:55:23,874 - INFO - Attempting to stop container sweb.eval.django__django-13220.trial_run_corrected_mode_4...
+2025-05-04 16:55:39,751 - INFO - Attempting to remove container sweb.eval.django__django-13220.trial_run_corrected_mode_4...
+2025-05-04 16:55:39,817 - INFO - Container sweb.eval.django__django-13220.trial_run_corrected_mode_4 removed.
+2025-05-04 16:55:39,818 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-13220:latest...
+2025-05-04 16:55:40,329 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-13220:latest removed.

@@ -1,0 +1,13 @@
+```diff
+--- a/astropy/modeling/separable.py
++++ b/astropy/modeling/separable.py
+@@ -10,7 +10,7 @@
+     n_inputs = model.n_inputs
+     n_outputs = model.n_outputs
+     matrix = np.zeros((n_outputs, n_inputs), dtype=bool)
+-    for i in range(n_outputs):
++    for i in range(model.n_outputs):
+         for j in range(model.n_inputs):
+             matrix[i, j] = model.is_separable(i, j)
+     return matrix
+```

@@ -1,0 +1,75 @@
+2025-05-04 18:56:56,058 - INFO - Creating container for sympy__sympy-13915...
+2025-05-04 18:56:56,588 - INFO - Container for sympy__sympy-13915 created: 1f9a7290a93266b3bf62cb49354fa8abff2d72a4075a6aa7e77f53415d8c2ff8
+2025-05-04 18:56:56,846 - INFO - Container for sympy__sympy-13915 started: 1f9a7290a93266b3bf62cb49354fa8abff2d72a4075a6aa7e77f53415d8c2ff8
+2025-05-04 18:56:56,852 - INFO - Intermediate patch for sympy__sympy-13915 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-13915/patch.diff, now applying to container...
+2025-05-04 18:56:57,028 - INFO - >>>>> Applied Patch:
+Checking patch sympy/core/mul.py...
+Checking patch sympy/core/tests/test_arit.py...
+Applied patch sympy/core/mul.py cleanly.
+Applied patch sympy/core/tests/test_arit.py cleanly.
+
+2025-05-04 18:56:57,490 - INFO - Git diff before:
+diff --git a/sympy/core/mul.py b/sympy/core/mul.py
+index 4f01eeedbd..29e6085ce3 100644
+--- a/sympy/core/mul.py
++++ b/sympy/core/mul.py
+@@ -423,6 +423,11 @@ def _gather(c_powers):
+             changed = False
+             for b, e in c_powers:
+                 if e.is_zero:
++                    # canceling out infinities yields NaN
++                    if (b.is_Add or b.is_Mul) and any(infty in b.args
++                        for infty in (S.ComplexInfinity, S.Infinity,
++                                      S.NegativeInfinity)):
++                        return [S.NaN], [], None
+                     continue
+                 if e is S.One:
+                     if b.is_Number:
+diff --git a/sympy/core/tests/test_arit.py b/sympy/core/tests/test_arit.py
+index 0eef313604..d12fd7c46a 100644
+--- a/sympy/core/tests/test_arit.py
++++ b/sympy/core/tests/test_arit.py
+@@ -1937,6 +1937,14 @@ def test_Mul_with_zero_infinite():
+     assert e.is_positive is None
+     assert e.is_hermitian is None
+ 
++def test_Mul_does_not_cancel_infinities():
++    a, b = symbols('a b')
++    assert ((zoo + 3*a)/(3*a + zoo)) is nan
++    assert ((b - oo)/(b - oo)) is nan
++    # issue 13904
++    expr = (1/(a+b) + 1/(a-b))/(1/(a+b) - 1/(a-b))
++    assert expr.subs(b, a) is nan
++
+ def test_issue_8247_8354():
+     from sympy import tan
+     z = sqrt(1 + sqrt(3)) + sqrt(3 + 3*sqrt(3)) - sqrt(10 + 6*sqrt(3))
+2025-05-04 18:56:57,494 - INFO - Eval script for sympy__sympy-13915 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-13915/eval.sh; copying to container...
+2025-05-04 18:57:07,775 - INFO - Test runtime: 10.16 seconds
+2025-05-04 18:57:07,780 - INFO - Test output for sympy__sympy-13915 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-13915/test_output.txt
+2025-05-04 18:57:07,858 - INFO - Git diff after:
+diff --git a/sympy/core/mul.py b/sympy/core/mul.py
+index 4f01eeedbd..29e6085ce3 100644
+--- a/sympy/core/mul.py
++++ b/sympy/core/mul.py
+@@ -423,6 +423,11 @@ def _gather(c_powers):
+             changed = False
+             for b, e in c_powers:
+                 if e.is_zero:
++                    # canceling out infinities yields NaN
++                    if (b.is_Add or b.is_Mul) and any(infty in b.args
++                        for infty in (S.ComplexInfinity, S.Infinity,
++                                      S.NegativeInfinity)):
++                        return [S.NaN], [], None
+                     continue
+                 if e is S.One:
+                     if b.is_Number:
+2025-05-04 18:57:07,859 - INFO - Git diff changed after running eval script
+2025-05-04 18:57:07,859 - INFO - Grading answer for sympy__sympy-13915...
+2025-05-04 18:57:07,866 - INFO - report: {'sympy__sympy-13915': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': True, 'tests_status': {'FAIL_TO_PASS': {'success': ['test_Mul_does_not_cancel_infinities'], 'failure': []}, 'PASS_TO_PASS': {'success': ['test_bug1', 'test_Symbol', 'test_arit0', 'test_pow2', 'test_pow3', 'test_mod_pow', 'test_pow_E', 'test_pow_issue_3516', 'test_pow_im', 'test_real_mul', 'test_ncmul', 'test_ncpow', 'test_powerbug', 'test_Mul_doesnt_expand_exp', 'test_Add_Mul_is_integer', 'test_Add_Mul_is_finite', 'test_Mul_is_even_odd', 'test_evenness_in_ternary_integer_product_with_even', 'test_oddness_in_ternary_integer_product_with_even', 'test_Mul_is_rational', 'test_Add_is_rational', 'test_Add_is_even_odd', 'test_Mul_is_negative_positive', 'test_Mul_is_negative_positive_2', 'test_Mul_is_nonpositive_nonnegative', 'test_Pow_is_zero', 'test_Mul_hermitian_antihermitian', 'test_Add_is_comparable', 'test_Mul_is_comparable', 'test_Pow_is_comparable', 'test_Add_is_positive_2', 'test_Add_is_irrational', 'test_issue_3531b', 'test_bug3', 'test_suppressed_evaluation', 'test_Add_as_coeff_mul', 'test_Pow_as_coeff_mul_doesnt_expand', 'test_issue_3514', 'test_make_args', 'test_issue_5126', 'test_Rational_as_content_primitive', 'test_Add_as_content_primitive', 'test_Mul_as_content_primitive', 'test_Pow_as_content_primitive', 'test_issue_5460', 'test_product_irrational', 'test_issue_5919', 'test_Mod_is_integer', 'test_issue_6001', 'test_polar', 'test_issue_6040', 'test_issue_6082', 'test_issue_6077', 'test_mul_flatten_oo', 'test_add_flatten', 'test_issue_5160_6087_6089_6090', 'test_float_int', 'test_issue_6611a', 'test_denest_add_mul', 'test_mul_zero_detection', 'test_Mul_with_zero_infinite', 'test_issue_8247_8354'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-13915: resolved: True
+2025-05-04 18:57:07,870 - INFO - Attempting to stop container sweb.eval.sympy__sympy-13915.trial_run_corrected_mode_4...
+2025-05-04 18:57:23,705 - INFO - Attempting to remove container sweb.eval.sympy__sympy-13915.trial_run_corrected_mode_4...
+2025-05-04 18:57:23,766 - INFO - Container sweb.eval.sympy__sympy-13915.trial_run_corrected_mode_4 removed.
+2025-05-04 18:57:23,767 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-13915:latest...
+2025-05-04 18:57:23,923 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-13915:latest removed.

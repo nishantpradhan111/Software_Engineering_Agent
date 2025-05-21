@@ -1,0 +1,15 @@
+```diff
+--- a/lib/matplotlib/colors.py
++++ b/lib/matplotlib/colors.py
+@@ -1688,9 +1688,7 @@
+         elif vmin > vmax:
+             raise ValueError("minvalue must be less than or equal to maxvalue")
+         else:
+-            # Mask values outside the range *before* clipping.
+-            # This is what was changed between 3.6.2 and 3.6.3.
+-            if np.any(result < vmin) or np.any(result > vmax):
++            if clip:
+                 if clip:
+                     result = np.ma.masked_outside(result, vmin, vmax, copy=False)
+                 if clip:
+```

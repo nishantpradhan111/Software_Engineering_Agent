@@ -1,0 +1,51 @@
+```diff
+--- a/sklearn/neighbors/nca.py
++++ b/sklearn/neighbors/nca.py
+@@ -13,10 +13,11 @@
+ from __future__ import print_function
+ 
+ from warnings import warn
++import numbers
+ import numpy as np
++
++import time
+ import sys
+-import time
+ from scipy.optimize import minimize
+ from ..utils.extmath import softmax
+ from ..metrics import pairwise_distances
+@@ -300,7 +301,8 @@
+ 
+         # Check the preferred dimensionality of the projected space
+         if self.n_components is not None:
+-            check_scalar(self.n_components, 'n_components', int, 1)
++            check_scalar(
++                self.n_components, 'n_components', numbers.Integral, 1)
+ 
+             if self.n_components > X.shape[1]:
+                 raise ValueError('The preferred dimensionality of the '
+@@ -310,9 +312,9 @@
+                                  .format(self.n_components, X.shape[1]))
+ 
+         # If warm_start is enabled, check that the inputs are consistent
+-        check_scalar(self.warm_start, 'warm_start', bool)
+         if self.warm_start and hasattr(self, 'components_'):
+             if self.components_.shape[1] != X.shape[1]:
++                # Validation of warm_start happens inside this condition
+                 check_scalar(self.warm_start, 'warm_start', bool)
+                 raise ValueError('The new inputs dimensionality ({}) does not '
+                                  'match the input dimensionality of the '
+@@ -320,9 +322,9 @@
+                                  .format(X.shape[1],
+                                          self.components_.shape[1]))
+ 
+-        check_scalar(self.max_iter, 'max_iter', int, 1)
+-        check_scalar(self.tol, 'tol', float, 0.)
+-        check_scalar(self.verbose, 'verbose', int, 0)
++        check_scalar(self.max_iter, 'max_iter', numbers.Integral, 1)
++        check_scalar(self.tol, 'tol', numbers.Real, 0.)
++        check_scalar(self.verbose, 'verbose', numbers.Integral, 0)
+ 
+         if self.callback is not None:
+             if not callable(self.callback):
+```

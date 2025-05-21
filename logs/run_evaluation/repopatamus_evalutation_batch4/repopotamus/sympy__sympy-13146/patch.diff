@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/core/operations.py
++++ b/sympy/core/operations.py
+@@ -502,7 +502,7 @@
+                         i += 0
+                         continue
+ 
+-                break  # if we didn't continue, there is nothing more to do
++                break
+ 
+         return
+ 
+```

@@ -1,0 +1,18 @@
+```diff
+--- a/sympy/printing/mathml.py
++++ b/sympy/printing/mathml.py
+@@ -362,11 +362,10 @@
+         x = self.dom.createElement('msub')
+         x.appendChild(self._print(e.base))
+         if len(e.indices) == 1:
+-            x.appendChild(self._print(e.indices[0]))
+-            return x
++           x.appendChild(self._print(e.indices[0]))
+         else:
+             x_indices = self.dom.createElement('mfenced')
+             for index in e.indices:
+                 x_indices.appendChild(self._print(index))
+             x.appendChild(x_indices)
+-        x.appendChild(self._print(Tuple(*e.indices)))
+         return x
+```

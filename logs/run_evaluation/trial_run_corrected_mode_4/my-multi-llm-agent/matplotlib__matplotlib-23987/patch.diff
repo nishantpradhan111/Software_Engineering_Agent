@@ -1,0 +1,12 @@
+```diff
+--- a/lib/matplotlib/figure.py
++++ b/lib/matplotlib/figure.py
+@@ -2427,7 +2427,6 @@
+             if isinstance(tight_layout, dict):
+                 self.get_layout_engine().set(**tight_layout)
+         elif constrained_layout is not None:
+-            self.set_layout_engine(layout='constrained')
+             if isinstance(constrained_layout, dict):
+                 self.set_layout_engine(layout='constrained')
+                 self.get_layout_engine().set(**constrained_layout)
+```

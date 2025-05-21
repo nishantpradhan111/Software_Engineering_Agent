@@ -1,0 +1,13 @@
+```diff
+--- a/xarray/core/variable.py
++++ b/xarray/core/variable.py
+@@ -216,7 +216,7 @@
+     data : np.ndarray or Variable
+         Compatible array-like object.
+     """
+-    if isinstance(data, Variable):
++    if isinstance(data, (DataArray, Variable)):
+         return data.data
+     else:
+         return np.asarray(data)
+```

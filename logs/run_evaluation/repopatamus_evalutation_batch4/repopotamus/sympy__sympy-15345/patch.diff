@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/printing/mathematica.py
++++ b/sympy/printing/mathematica.py
+@@ -45,7 +45,7 @@
+  "asech": [(lambda x: True, "ArcSech")],
+  "acsch": [(lambda x: True, "ArcCsch")],
+  "conjugate": [(lambda x: True, "Conjugate")],
+- "Max": [(lambda *x: True, "Max")],
++ "Max": [(lambda *x: True, "Max")]
+ }
+ 
+ 
+```

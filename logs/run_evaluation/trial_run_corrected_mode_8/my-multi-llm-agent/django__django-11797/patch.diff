@@ -1,0 +1,13 @@
+```diff
+--- a/django/db/models/lookups.py
++++ b/django/db/models/lookups.py
+@@ -262,7 +262,7 @@
+         if self.rhs_is_expression:
+             return
+         if hasattr(self.rhs, 'query'):
+-            if not getattr(self.rhs, 'has_select_fields', False):
++            if not getattr(self.rhs.query, 'has_select_fields', False):
+                 # If the subquery doesn't have select_fields, then it's
+                 # returning pk values and we can add a simple where clause.
+                 self.rhs.query.clear_select_clause()
+```

@@ -1,0 +1,35 @@
+```diff
+--- a/sklearn/mixture/base.py
++++ b/sklearn/mixture/base.py
+@@ -185,10 +185,7 @@
+         -------\n         self\n         """
++        X = _check_X(X, self.n_components, ensure_min_samples=2)
++        self._check_initial_parameters(X)
++        self.fit_predict(X)
+         return self
+-\n+
+-    def fit_predict(self, X, y=None):
+-- 
+-        """Estimate model parameters using X and predict the labels for X.
+-+        """Estimate model parameters using X and predict the labels for X.
+-+
+         The method fits the model n_init times and sets the parameters with
+         which the model has the largest likelihood or lower bound. Within each
+         trial, the method iterates between E-step and M-step for `max_iter`
+@@ -212,9 +209,6 @@
+         labels : array, shape (n_samples,)
+             Component labels.
+         """
+--        X = _check_X(X, self.n_components, ensure_min_samples=2)
+--        self._check_initial_parameters(X)\n-
+-
+         X = _check_X(X, self.n_components, ensure_min_samples=2)
+         self._check_initial_parameters(X)
+ 
+@@ -237,4 +231,4 @@
+         self._set_parameters(best_params)
+         self.n_iter_ = best_n_iter
+ 
+-        return self
++        return log_resp.argmax(axis=1)
+```

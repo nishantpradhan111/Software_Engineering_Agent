@@ -1,0 +1,39 @@
+```diff
+--- a/django/core/checks/templates.py
++++ b/django/core/checks/templates.py
+@@ -66,7 +66,7 @@ def check_for_template_tags_with_the_same_name(app_configs, **kwargs):
+                 Error(\
+                     E003.msg.format(\
+                         repr(library_name),\
+-                        ", ".join(repr(item) for item in items),\
++                        ", ".join(repr(item) for item in sorted(items)),\
+                     ),\
+                     id=E003.id,\
+                 )\
+--- a/tests/check_framework/test_templates.py
++++ b/tests/check_framework/test_templates.py
+@@ -155,18 +155,12 @@
+                 [self.error_same_tags],
+              )
+  
+-+    @override_settings(
+-+        INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+-+    )
+-+
+ +    def test_template_tags_same_library_in_installed_apps_libraries(self):
+-        with self.settings(
+-            TEMPLATES=[
+-                self.get_settings(
+-                    "same_tags", "same_tags_app_1.templatetags.same_tags"
+-                ),
+-            ]
+-        ):
+-            self.assertEqual(check_for_template_tags_with_the_same_name(None), [])
++        with self.settings(INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"],
++                           TEMPLATES=[self.get_settings("same_tags", "same_tags_app_1.templatetags.same_tags")]):
++            errors = check_for_template_tags_with_the_same_name(None)
++            self.assertEqual(errors, [])
+  
+      @override_settings(
+          INSTALLED_APPS=["check_framework.template_test_apps.same_tags_app_1"]
+```

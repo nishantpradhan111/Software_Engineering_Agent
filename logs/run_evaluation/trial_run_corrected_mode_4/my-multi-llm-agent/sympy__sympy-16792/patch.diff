@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/utilities/codegen.py
++++ b/sympy/utilities/codegen.py
+@@ -734,7 +734,7 @@
+                 try:
+                     new_args.append(name_arg_dict[symbol])
+                 except KeyError:
+-                    new_args.append(InputArgument(symbol))
++                    metadata = {}
+                     if isinstance(symbol, (IndexedBase, MatrixSymbol)):
+                         metadata = {'dimensions': dimensions(symbol)}
+                     else:
+```

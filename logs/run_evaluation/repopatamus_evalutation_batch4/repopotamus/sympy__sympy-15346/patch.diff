@@ -1,0 +1,18 @@
+```diff
+--- a/sympy/simplify/trigsimp.py
++++ b/sympy/simplify/trigsimp.py
+@@ -406,10 +406,10 @@
+ 
+         # Add generators for compound expressions from iterables
+         for fn, args in iterables:
+-            if fn == tan:
++            if fn is tan:
+                 # Tan expressions are recovered from sin and cos.
+                 iterables.extend([(sin, args), (cos, args)])
+-            elif fn == tanh:
++            if fn is tanh:
+                 # Tanh expressions are recovered from sihn and cosh.
+                 iterables.extend([(sinh, args), (cosh, args)])
+             else:
+
+```

@@ -1,0 +1,17 @@
+```diff
+--- a/tests/model_fields/test_jsonfield.py
++++ b/tests/model_fields/test_jsonfield.py
+@@ -586,9 +586,9 @@ def test_isnull_key(self):
+             NullableJSONModel.objects.filter(value__a__isnull=True),\
+             self.objs[:3] + self.objs[5:],\
+         )\
+-        self.assertSequenceEqual(\
+-            NullableJSONModel.objects.filter(value__j__isnull=True),\
+-            self.objs[:4] + self.objs[5:],\
++        self.assertQuerysetEqual(
++            NullableJSONModel.objects.filter(value__j__isnull=True).order_by('pk'),
++            self.objs[:4] + self.objs[5:], transform=lambda x: x.pk
+         )\
+         self.assertSequenceEqual(\
+             NullableJSONModel.objects.filter(value__a__isnull=False),\
+```

@@ -1,0 +1,12 @@
+```diff
+--- a/django/db/migrations/autodetector.py
++++ b/django/db/migrations/autodetector.py
+@@ -934,6 +934,7 @@
+                         # both.\
+                         new_field.remote_field.model = old_field.remote_field.model
+                         new_field.remote_field.field_name = old_field.remote_field.field_name
++                        new_field.remote_field.model_name = old_field.remote_field.model_name
+                 # Handle ForeignObjects which can have multiple from_fields/to_fields.
+                 from_fields = getattr(new_field, 'from_fields', None)
+                 to_fields = getattr(new_field, 'to_fields', None)
+```

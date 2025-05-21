@@ -1,0 +1,13 @@
+```diff
+--- a/astropy/modeling/separable.py
++++ b/astropy/modeling/separable.py
+@@ -114,7 +114,7 @@
+         # matrix for the compound model.
+         sep = np.eye(n_inputs + n_outputs, dtype=bool)
+         for model in self.models:
+-            if model.n_inputs > 1 or model.n_outputs > 1:
++            if isinstance(model, CompoundModel):
+                 s = separability_matrix(model)
+                 sep[self._model_to_inputs[model][0]:self._model_to_inputs[model][-1] + 1,
+                     self._model_to_inputs[model][0]:self._model_to_inputs[model][-1] + 1] = s[:, :model.n_inputs]
+```

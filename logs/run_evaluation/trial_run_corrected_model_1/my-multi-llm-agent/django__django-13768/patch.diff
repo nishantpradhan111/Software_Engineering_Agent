@@ -1,0 +1,17 @@
+```diff
+--- a/django/dispatch/dispatcher.py
++++ b/django/dispatch/dispatcher.py
+@@ -208,6 +208,12 @@ def send_robust(self, sender, **named):
+             try:
+                 response = receiver(signal=self, sender=sender, **named)
+             except Exception as err:
++                logger.error(
++                    'Error calling %s in Signal.send_robust() (%s)',
++                    receiver.__qualname__,
++                    err,
++                    exc_info=True,
++                )
+                 responses.append((receiver, err))
+             else:
+                 responses.append((receiver, response))
+```

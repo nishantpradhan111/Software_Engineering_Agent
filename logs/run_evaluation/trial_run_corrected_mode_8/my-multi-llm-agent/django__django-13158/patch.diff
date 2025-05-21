@@ -1,0 +1,13 @@
+```diff
+--- a/tests/queries/test_qs_combinators.py
++++ b/tests/queries/test_qs_combinators.py
+@@ -54,7 +54,7 @@
+         self.assertEqual(len(list(qs1.union(qs2))), 10)
+ 
+     def test_union_none(self):
+-        qs1 = Number.objects.filter(num__lte=1)
++        qs1 = Number.objects.filter(num__lte=1)
+         qs2 = Number.objects.filter(num__gte=8)
+         qs3 = qs1.union(qs2)
+         self.assertSequenceEqual(list(qs3.none()), [])
+```

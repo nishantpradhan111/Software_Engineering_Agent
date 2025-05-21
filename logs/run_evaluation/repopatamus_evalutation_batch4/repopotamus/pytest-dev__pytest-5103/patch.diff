@@ -1,0 +1,22 @@
+```diff
+--- a/_pytest/assertion/rewrite.py
++++ b/_pytest/assertion/rewrite.py
+@@ -797,13 +797,8 @@
+     def visit_Call(self, call):
+         func_name = call.func.id
+         if func_name in ("all", "any"):
+-            if len(call.args) == 1:
++            if len(call.args) == 1 and isinstance(
++                call.args[0], (ast.GeneratorExp, ast.ListComp)
++            ):
+                 iterable = call.args[0]
+                 target = iterable.generators[0].target
+-
+-
+-
+-
+-
+-                target = iterable.generators[0].target
+-                    iter_ = iterable.generators[0].iter
+-                    elt = iterable.elt
+```

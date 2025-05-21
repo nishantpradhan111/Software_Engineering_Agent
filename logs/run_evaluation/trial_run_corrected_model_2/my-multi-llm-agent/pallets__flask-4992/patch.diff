@@ -1,0 +1,40 @@
+```diff
+--- a/src/flask/config.py
++++ b/src/flask/config.py
+@@ -234,7 +234,7 @@ def from_file(
+         filename: str,
+         load: t.Callable[[t.IO[t.Any]], t.Mapping],
+         silent: bool = False,
+-        text: bool = True,\
++        text: bool = True,
+     ) -> bool:
+         """Update the values in the config from a file that is loaded
+         using the ``load`` parameter. The loaded data is passed to the
+@@ -245,7 +245,7 @@ def from_file(
+             import json
+             app.config.from_file("config.json", load=json.load)\
+ 
+-            import toml
++            import tomllib
+             app.config.from_file("config.toml", load=toml.load)\
+ 
+         :param filename: The path to the data file. This can be an
+--- a/tests/test_config.py
++++ b/tests/test_config.py
+@@ -34,7 +34,7 @@
+     common_object_test(app)
+ 
+ 
+-def test_config_from_file():
++def test_config_from_file_json():
+     app = flask.Flask(__name__)
+     current_dir = os.path.dirname(os.path.abspath(__file__))
+     app.config.from_file(os.path.join(current_dir, "static", "config.json"), json.load)
+@@ -46,5 +46,5 @@ def test_config_from_file_toml():
+     current_dir = os.path.dirname(os.path.abspath(__file__))
+     app.config.from_file(
+         os.path.join(current_dir, "static", "config.toml"), load=tomllib.load, text=False
+-    )\
++    )
+     common_object_test(app)
+```

@@ -1,0 +1,3447 @@
+2025-05-07 20:31:09,318 - INFO - Creating container for sympy__sympy-14317...
+2025-05-07 20:31:09,606 - INFO - Container for sympy__sympy-14317 created: f486b261caf729a4f85d8d94026dfa603e7569994d08366cd8be15484f16beb1
+2025-05-07 20:31:09,893 - INFO - Container for sympy__sympy-14317 started: f486b261caf729a4f85d8d94026dfa603e7569994d08366cd8be15484f16beb1
+2025-05-07 20:31:09,905 - INFO - Intermediate patch for sympy__sympy-14317 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/patch.diff, now applying to container...
+2025-05-07 20:31:10,110 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-07 20:31:10,195 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-07 20:31:10,278 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-07 20:31:10,279 - INFO - >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+2025-05-07 20:31:10,631 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-07 20:31:10,632 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,632 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,632 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,633 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,633 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,634 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,634 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,634 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,635 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,635 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,636 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,636 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,636 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,637 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,637 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,637 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,638 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,638 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,639 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,639 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,639 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,640 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,640 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,640 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,640 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,641 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,641 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,641 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,642 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,642 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,642 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,643 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,643 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,643 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,644 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,644 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,644 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,646 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,646 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,646 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,646 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,647 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,647 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,647 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,647 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,648 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,648 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,648 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,649 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,649 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,649 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,650 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,650 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,650 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,651 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,651 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,651 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,652 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,652 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,652 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,652 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,653 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,653 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,653 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,653 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,654 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,654 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,654 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,655 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,655 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,655 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,656 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,656 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,656 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,656 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,657 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,657 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,657 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,658 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,658 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,658 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,658 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,659 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,659 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,659 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,659 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,660 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,660 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,661 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,661 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,661 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,662 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,662 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,662 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,663 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,663 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,663 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,663 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,664 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,664 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,664 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,665 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,665 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,665 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,665 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,666 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,666 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,666 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,667 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,667 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,667 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,668 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,668 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,668 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,669 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,669 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,669 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:10,670 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,017 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-07 20:31:11,017 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,018 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,018 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,019 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,019 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,020 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,020 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,020 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,021 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,021 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,021 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,022 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,022 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,022 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,023 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,023 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,023 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,024 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,024 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,024 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,025 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,025 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,025 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,026 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,026 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,026 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,027 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,027 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,027 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,028 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,028 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,028 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,029 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,029 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,029 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,030 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,030 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,031 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,031 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,031 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,032 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,032 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,033 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,033 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,033 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,033 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,034 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,034 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,034 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,034 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,035 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,035 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,035 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,036 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,036 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,037 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,037 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,038 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,039 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,039 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,039 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,040 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,040 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,040 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,040 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,041 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,041 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,041 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,042 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,042 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,043 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,043 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,043 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,044 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,044 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,044 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,045 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,045 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,045 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,046 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,046 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,046 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,047 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,047 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,047 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,047 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,048 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,048 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,048 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,049 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,049 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,050 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,050 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,050 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,050 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,051 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,051 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,051 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,052 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,052 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,052 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,052 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,053 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,053 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,053 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,054 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,054 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,054 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,055 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,055 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,055 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,056 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,056 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,056 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,057 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,057 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,057 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,058 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,058 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,058 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,059 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,059 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14317: >>>>> Patch Apply Failed:
+patching file sympy/printing/latex.py
+Hunk #1 succeeded at 1854 with fuzz 3 (offset 41 lines).
+misordered hunks! output would be garbled
+Hunk #2 FAILED at -1736.
+patch unexpectedly ends in middle of line
+1 out of 2 hunks FAILED -- saving rejects to file sympy/printing/latex.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-14317/run_instance.log) for more information.
+
+2025-05-07 20:31:11,060 - INFO - Attempting to stop container sweb.eval.sympy__sympy-14317.trial_run_corrected_mode_4.5...
+2025-05-07 20:31:26,530 - INFO - Attempting to remove container sweb.eval.sympy__sympy-14317.trial_run_corrected_mode_4.5...
+2025-05-07 20:31:26,561 - INFO - Container sweb.eval.sympy__sympy-14317.trial_run_corrected_mode_4.5 removed.
+2025-05-07 20:31:26,562 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-14317:latest...
+2025-05-07 20:31:26,741 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-14317:latest removed.

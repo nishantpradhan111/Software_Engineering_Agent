@@ -1,0 +1,14 @@
+```diff
+--- a/lib/matplotlib/cbook.py
++++ b/lib/matplotlib/cbook.py
+@@ -793,7 +793,8 @@
+         return {
+             **vars(self),
+             # Convert weak refs to strong ones.
+-            "_mapping": {k(): [v() for v in vs] for k, vs in self._mapping.items() if k() is not None and all(x() is not None for x in vs)},
++            "_mapping": {k(): [v() for v in vs] for k, vs
++                         in self._mapping.items() if k() is not None and all(x() is not None for x in vs)},
+         }
+ 
+     def __setstate__(self, state):
+```

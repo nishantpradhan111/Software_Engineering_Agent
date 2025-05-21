@@ -1,0 +1,18 @@
+```diff
+--- a/sympy/core/basic.py
++++ b/sympy/core/basic.py
+@@ -504,12 +504,8 @@
+             types = tuple(
+                 [t if isinstance(t, type) else type(t) for t in types])
+         nodes = preorder_traversal(self)
+-        if types:
+-            result = {node for node in nodes if isinstance(node, types)}
+-        else:
+-            result = {node for node in nodes if not node.args}
++        result = {node for node in nodes if isinstance(node, types or (Atom,))}
+         return result
+-
+     @property
+     def free_symbols(self):
+         """
+```

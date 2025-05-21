@@ -1,0 +1,11 @@
+```diff
+--- a/sympy/printing/latex.py
++++ b/sympy/printing/latex.py
+@@ -1813,4 +1813,4 @@
+         expr = ' '.join(terms)
+         gens = list(map(self._print, poly.gens))
+         domain = "domain=%s" % self._print(poly.get_domain())
+-
++        expr = r"\operatorname{%s}{\left( %s, %s, domain=%s \right)}" % (cls, expr, ", ".join(gens), domain)
+
+```

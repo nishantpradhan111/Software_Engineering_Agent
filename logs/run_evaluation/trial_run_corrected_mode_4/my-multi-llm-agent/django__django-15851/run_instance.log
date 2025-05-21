@@ -1,0 +1,59 @@
+2025-05-04 17:18:43,040 - INFO - Creating container for django__django-15851...
+2025-05-04 17:18:43,565 - INFO - Container for django__django-15851 created: d78e686036f8d87553490b8ce9630190113c4dafe2a999a745adb995499fb795
+2025-05-04 17:18:43,828 - INFO - Container for django__django-15851 started: d78e686036f8d87553490b8ce9630190113c4dafe2a999a745adb995499fb795
+2025-05-04 17:18:43,833 - INFO - Intermediate patch for django__django-15851 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15851/patch.diff, now applying to container...
+2025-05-04 17:18:44,014 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 17:18:44,091 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 17:18:44,159 - INFO - >>>>> Applied Patch:
+patching file django/db/backends/postgresql/client.py
+Hunk #1 succeeded at 33 with fuzz 1.
+patching file tests/dbshell/test_postgresql.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-04 17:18:45,192 - INFO - Git diff before:
+diff --git a/django/db/backends/postgresql/client.py b/django/db/backends/postgresql/client.py
+index 4c9bd63546..2cce00c1d8 100644
+--- a/django/db/backends/postgresql/client.py
++++ b/django/db/backends/postgresql/client.py
+@@ -33,9 +33,9 @@ class DatabaseClient(BaseDatabaseClient):
+         if port:
+             args += ["-p", str(port)]
+         if dbname:
++            args.extend(parameters)
+             args += [dbname]
+-        args.extend(parameters)
+-
++        
+         env = {}
+         if passwd:
+             env["PGPASSWORD"] = str(passwd)
+2025-05-04 17:18:45,195 - INFO - Eval script for django__django-15851 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15851/eval.sh; copying to container...
+2025-05-04 17:18:59,234 - INFO - Test runtime: 13.95 seconds
+2025-05-04 17:18:59,238 - INFO - Test output for django__django-15851 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/django__django-15851/test_output.txt
+2025-05-04 17:18:59,320 - INFO - Git diff after:
+diff --git a/django/db/backends/postgresql/client.py b/django/db/backends/postgresql/client.py
+index 4c9bd63546..2cce00c1d8 100644
+--- a/django/db/backends/postgresql/client.py
++++ b/django/db/backends/postgresql/client.py
+@@ -33,9 +33,9 @@ class DatabaseClient(BaseDatabaseClient):
+         if port:
+             args += ["-p", str(port)]
+         if dbname:
++            args.extend(parameters)
+             args += [dbname]
+-        args.extend(parameters)
+-
++        
+         env = {}
+         if passwd:
+             env["PGPASSWORD"] = str(passwd)
+2025-05-04 17:18:59,320 - INFO - Grading answer for django__django-15851...
+2025-05-04 17:18:59,324 - INFO - report: {'django__django-15851': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': True, 'tests_status': {'FAIL_TO_PASS': {'success': ['test_parameters (dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase)'], 'failure': []}, 'PASS_TO_PASS': {'success': ['test_accent (dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase)', 'test_basic (dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase)', 'test_column (dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase)', 'test_crash_password_does_not_leak (dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase)', 'test_nopass (dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase)', 'test_passfile (dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase)', 'test_service (dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase)', 'test_ssl_certificate (dbshell.test_postgresql.PostgreSqlDbshellCommandTestCase)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-15851: resolved: True
+2025-05-04 17:18:59,327 - INFO - Attempting to stop container sweb.eval.django__django-15851.trial_run_corrected_mode_4...
+2025-05-04 17:19:14,990 - INFO - Attempting to remove container sweb.eval.django__django-15851.trial_run_corrected_mode_4...
+2025-05-04 17:19:15,500 - INFO - Container sweb.eval.django__django-15851.trial_run_corrected_mode_4 removed.
+2025-05-04 17:19:15,500 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-15851:latest...
+2025-05-04 17:19:16,150 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-15851:latest removed.

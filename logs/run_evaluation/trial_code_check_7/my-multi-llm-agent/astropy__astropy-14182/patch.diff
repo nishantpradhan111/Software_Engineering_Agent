@@ -1,0 +1,78 @@
+```diff
+--- a/astropy/io/ascii/rst.py
++++ b/astropy/io/ascii/rst.py
+@@ -10,7 +10,7 @@
+ 
+ 
+ class RSTHeader(core.BaseHeader):
+-    def __init__(self, cols, auto_format=True):
++    def __init__(self, cols, auto_format=True, header_rows=None):
+         self.auto_format = auto_format
+         self.cols = cols
+ 
+@@ -20,6 +20,7 @@
+         self.start_line = 0
+         self.splitter = core.DelimiterSplitter()
+         self.header_start = 0
++        self.header_rows = header_rows
+ 
+     def get_cols(self, lines):
+         """
+@@ -30,7 +31,7 @@
+         # First line is a separator
+         delim = lines[0]
+         # Second line is the header
+-        header_line = lines[1]
++        header_line = self.header_rows[0] if self.header_rows else lines[1]
+         vals = self.splitter.split_line(header_line)
+         if len(vals) == 1 and vals[0] == '':
+             raise core.InconsistentTableError('RST table must have at least one column')
+@@ -48,14 +49,15 @@
+ 
+ 
+ class RST(core.BaseReader):
+-    def __init__(self, **kwargs):
++    def __init__(self, header_rows=None, **kwargs):
+         core.BaseReader.__init__(self, **kwargs)
+         self.header = RSTHeader(auto_format=self.auto_format,
+                                 splitter=self.splitter,
+                                 header_start=1,
++                                header_rows=header_rows,
+                                 )
+         self.data = RSTData(splitter=self.splitter,
+-                            start_line=self.header.header_start + 2)
++                            start_line=3 if header_rows is None else 2)
+         self.outputter = core.TableOutputter()
+         self.header_rows = header_rows
+ 
+@@ -70,7 +72,7 @@
+         return self.header.cols, self.data.data_lines
+ 
+     def write(self, table, output):
+-        if self.header.auto_format:
++        if self.header.auto_format and self.header_rows is None:
+             col_names = [x.name for x in table.columns]
+             col_lens = [len(x) for x in col_names]
+             for col in table.columns:
+@@ -80,7 +82,7 @@
+             col_sep = ' '
+             out = []
+             out.append('=' * (sum(col_lens) + (len(col_lens) - 1) * len(col_sep)))
+-            out.append(col_sep.join(col_names))
++            out.append(col_sep.join(x.name for x in table.columns))
+             out.append('=' * (sum(col_lens) + (len(col_lens) - 1) * len(col_sep)))
+             for row in table:
+                 vals = []
+@@ -90,11 +92,9 @@
+             out.append('=' * (sum(col_lens) + (len(col_lens) - 1) * len(col_sep)))
+             output.write('\n'.join(out) + '\n')
+         else:
+-
+             if self.header_rows is not None:
+                 col_names = self.header_rows[0]
+             else:
+-
+                 col_names = [x.name for x in table.columns]
+             col_lens = [len(x) for x in col_names]
+             col_sep = ' '
+```

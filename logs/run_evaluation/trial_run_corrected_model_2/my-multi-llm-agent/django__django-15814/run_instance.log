@@ -1,0 +1,2957 @@
+2025-05-04 10:07:18,872 - INFO - Creating container for django__django-15814...
+2025-05-04 10:07:19,520 - INFO - Container for django__django-15814 created: 6f6909d9dda1427f1a4da9b1be9cf97ab762ac5df066aeeccf95abab3c296a62
+2025-05-04 10:07:19,766 - INFO - Container for django__django-15814 started: 6f6909d9dda1427f1a4da9b1be9cf97ab762ac5df066aeeccf95abab3c296a62
+2025-05-04 10:07:19,770 - INFO - Intermediate patch for django__django-15814 written to logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/patch.diff, now applying to container...
+2025-05-04 10:07:19,957 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 10:07:20,025 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 10:07:20,107 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-04 10:07:20,108 - INFO - >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+2025-05-04 10:07:20,481 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 10:07:20,482 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,482 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,483 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,483 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,483 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,484 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,485 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,486 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,487 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,487 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,487 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,488 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,488 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,488 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,489 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,489 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,489 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,490 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,490 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,490 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,491 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,491 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,492 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,492 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,492 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,493 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,493 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,493 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,494 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,494 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,494 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,495 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,495 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,495 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,496 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,496 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,496 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,497 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,497 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,497 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,498 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,498 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,498 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,498 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,499 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,499 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,499 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,500 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,500 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,500 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,500 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,501 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,501 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,501 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,501 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,502 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,502 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,502 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,503 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,503 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,503 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,503 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,504 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,504 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,504 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,505 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,505 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,505 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,505 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,505 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,506 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,506 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,506 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,506 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,507 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,507 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,507 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,508 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,508 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,508 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,509 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,509 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,511 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,511 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,512 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,512 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,512 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,513 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,513 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,513 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,513 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,515 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,515 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,515 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,516 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,516 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,516 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,517 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,517 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,518 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,518 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,518 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,519 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,520 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,520 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,521 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,521 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,521 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,522 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,525 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,918 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 10:07:20,919 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,919 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,920 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,921 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,921 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,922 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,923 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,923 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,924 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,924 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,925 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,926 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,926 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,927 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,927 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,928 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,928 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,929 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,929 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,929 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,930 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,930 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,930 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,930 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,931 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,932 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,933 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,934 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,934 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,935 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,935 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,936 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,937 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,938 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,938 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,938 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,939 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,939 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,940 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,940 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,941 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,943 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,945 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,945 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,946 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,947 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,948 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,948 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,949 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,951 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,951 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,953 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,954 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,955 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,955 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,956 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,959 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,960 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,961 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,962 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,963 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,964 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,966 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,966 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,967 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,968 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,969 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,970 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,971 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,972 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,972 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,973 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,973 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,974 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,974 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,976 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,979 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,980 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,980 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,980 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,981 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,982 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,982 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,983 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,983 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,984 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,984 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,985 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,985 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,985 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,986 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,986 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,987 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,987 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,987 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,988 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,988 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,989 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,989 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,990 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,990 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,991 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,991 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,992 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,992 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,992 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,993 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,994 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,994 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,995 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,995 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,995 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,996 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,997 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,998 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,998 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,998 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,999 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:20,999 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:21,000 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:21,001 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:21,001 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patch: **** malformed patch at line 31:          self.assertEqual(MyPerson(id=100), Person(id=100))
+
+patching file tests/proxy_models/tests.py
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-04 10:07:21,002 - INFO - Attempting to stop container sweb.eval.django__django-15814.trial_run_corrected_model_2...
+2025-05-04 10:07:36,397 - INFO - Attempting to remove container sweb.eval.django__django-15814.trial_run_corrected_model_2...
+2025-05-04 10:07:36,429 - INFO - Container sweb.eval.django__django-15814.trial_run_corrected_model_2 removed.
+2025-05-04 10:07:36,429 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-15814:latest...
+2025-05-04 10:07:36,931 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-15814:latest removed.

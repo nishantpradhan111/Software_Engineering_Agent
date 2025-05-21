@@ -1,0 +1,13 @@
+```diff
+--- a/sphinx/ext/autosummary/generate.py
++++ b/sphinx/ext/autosummary/generate.py
+@@ -201,7 +201,7 @@
+                 # list all members up
+                 members.append(name)
+             elif imported is False:
+-                # list not-imported members up
++                # list not imported members up
+                 members.append(name)
+ 
+ 
+```

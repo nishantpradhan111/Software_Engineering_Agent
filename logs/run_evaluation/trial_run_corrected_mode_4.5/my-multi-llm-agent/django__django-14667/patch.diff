@@ -1,0 +1,19 @@
+```diff
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -2089,12 +2089,10 @@
+         else:
+             # Remove names from the set of any existing "immediate load" names.
+             self.deferred_loading = existing.difference(field_names), False
+-            if new_existing := existing.difference(field_names):\n+            new_existing = existing.difference(field_names)
+             if new_existing:
+                 self.deferred_loading = new_existing, False
+             else:
+                 self.clear_deferred_loading()
+-                if new_only := set(field_names).difference(existing):\n+            new_only = set(field_names).difference(existing)
+             if new_only:
+                 self.deferred_loading = new_only, True
+- \n
+-    def add_immediate_loading(self, field_names):\n
++
+```

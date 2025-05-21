@@ -1,0 +1,16 @@
+```diff
+--- a/requests/sessions.py
++++ b/requests/sessions.py
+@@ -171,9 +171,9 @@
+             if new_auth is not None:
+                 prepared_request.prepare_auth(new_auth)
+ 
+-            # Override the original request.
++            # Update history and keep track of redirects.
++            resp.history.append(req)
+             req = prepared_request
+-
+             resp = self.send(
+                 req,
+                 stream=stream,
+```

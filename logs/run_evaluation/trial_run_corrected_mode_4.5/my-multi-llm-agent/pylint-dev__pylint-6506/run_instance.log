@@ -1,0 +1,2957 @@
+2025-05-07 20:00:28,704 - INFO - Creating container for pylint-dev__pylint-6506...
+2025-05-07 20:00:29,076 - INFO - Container for pylint-dev__pylint-6506 created: 28688573457e5ef2f5f0682088340ec006512e92292650c43961fce2918862d6
+2025-05-07 20:00:29,324 - INFO - Container for pylint-dev__pylint-6506 started: 28688573457e5ef2f5f0682088340ec006512e92292650c43961fce2918862d6
+2025-05-07 20:00:29,331 - INFO - Intermediate patch for pylint-dev__pylint-6506 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/patch.diff, now applying to container...
+2025-05-07 20:00:29,565 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-07 20:00:29,648 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-07 20:00:29,758 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-07 20:00:29,759 - INFO - >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+2025-05-07 20:00:29,920 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-07 20:00:29,920 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,921 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,921 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,922 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,922 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,922 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,923 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,923 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,924 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,924 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,924 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,925 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,925 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,925 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,926 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,926 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,926 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,927 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,927 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,927 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,928 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,928 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,929 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,929 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,930 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,930 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,930 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,931 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,931 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,932 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,932 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,932 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,933 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,933 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,934 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,934 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,935 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,935 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,935 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,936 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,936 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,936 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,937 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,937 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,937 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,938 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,938 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,938 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,939 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,939 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,940 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,940 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,940 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,941 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,941 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,941 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,942 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,942 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,942 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,943 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,943 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,943 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,944 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,944 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,945 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,945 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,946 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,946 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,946 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,947 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,947 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,947 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,948 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,948 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,948 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,949 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,949 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,949 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,949 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,950 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,950 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,950 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,951 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,951 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,952 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,952 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,952 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,953 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,953 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,954 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,954 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,955 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,955 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,955 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,955 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,956 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,956 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,956 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,957 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,957 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,957 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,958 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,958 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,959 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,959 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,960 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,960 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,960 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,961 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,961 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,961 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,962 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,962 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,963 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,963 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,963 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,964 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,964 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,965 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,965 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,965 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:29,966 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-07 20:00:30,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,115 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,115 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,115 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,116 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,116 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,116 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,118 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,118 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,118 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,118 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,119 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,119 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,120 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,120 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,120 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,120 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,121 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,121 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,121 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,122 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,122 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,122 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,122 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,123 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,123 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,123 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,124 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,124 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,124 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,124 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,126 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,126 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,126 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,126 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,127 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,127 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,127 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,128 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,128 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,128 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,128 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,129 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,129 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,129 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,129 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,130 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,130 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,130 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,131 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,131 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,131 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,132 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,132 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,133 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,133 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,134 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,134 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,140 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,140 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,141 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,141 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,141 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,142 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,142 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,142 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,143 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,143 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,143 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,144 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,144 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,145 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,145 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,145 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,146 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,146 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,146 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,147 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,147 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,148 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,148 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,149 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,149 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,149 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,150 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,151 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,151 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,152 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,152 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,153 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,153 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,154 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,154 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,154 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,155 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,155 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,156 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,157 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,157 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,158 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,158 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,158 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,159 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,159 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,159 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-6506: >>>>> Patch Apply Failed:
+patching file pylint/config/config_initialization.py
+Hunk #1 succeeded at 79 with fuzz 3 (offset 1 line).
+patching file tests/config/test_config.py
+patch: **** malformed patch at line 43:      output = capsys.readouterr()
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/pylint-dev__pylint-6506/run_instance.log) for more information.
+
+2025-05-07 20:00:30,160 - INFO - Attempting to stop container sweb.eval.pylint-dev__pylint-6506.trial_run_corrected_mode_4.5...
+2025-05-07 20:00:46,128 - INFO - Attempting to remove container sweb.eval.pylint-dev__pylint-6506.trial_run_corrected_mode_4.5...
+2025-05-07 20:00:46,171 - INFO - Container sweb.eval.pylint-dev__pylint-6506.trial_run_corrected_mode_4.5 removed.
+2025-05-07 20:00:46,172 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.pylint-dev_1776_pylint-6506:latest...
+2025-05-07 20:00:47,300 - INFO - Image swebench/sweb.eval.x86_64.pylint-dev_1776_pylint-6506:latest removed.

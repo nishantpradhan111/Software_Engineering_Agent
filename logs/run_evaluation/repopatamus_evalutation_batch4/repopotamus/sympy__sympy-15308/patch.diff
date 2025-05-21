@@ -1,0 +1,22 @@
+```diff
+--- a/sympy/printing/latex.py
++++ b/sympy/printing/latex.py
+@@ -786,7 +786,7 @@
+         string = field._coord_sys._names[field._index]
+         return r'\partial_{%s}' % self._print(Symbol(string))
+ 
+-    def _print_Differential(self, diff):
++    def _print_Differential(self, diff):
+         field = diff._form_field
+         if hasattr(field, '_coord_sys'):
+             string = field._coord_sys._names[field._index]
+@@ -796,7 +796,7 @@
+             string = self._print(field)
+             return r'\mathrm{d}\left(%s\right)' % string
+ 
+-    def _print_Tr(self, p):
++    def _print_Trace(self, p):
+         #Todo: Handle indices
+         contents = self._print(p.args[0])
+         return r'\mbox{Tr}\left(%s\right)' % (contents)
+```

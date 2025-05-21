@@ -1,0 +1,16 @@
+```diff
+--- a/lib/matplotlib/__init__.py
++++ b/lib/matplotlib/__init__.py
+@@ -1086,8 +1086,10 @@ def rc_context(rc=None, fname=None):\
+              plt.plot(x, y)  # uses 'print.rc'\
+ 
+     """
+-    orig = rcParams.copy()
++    orig = dict(rcParams.copy())
+     try:
++        # prevent backend from being cleared by rcParams.clear
++        orig.pop("backend", None)
+         if fname:
+             rc_file(fname)
+         if rc:
+```

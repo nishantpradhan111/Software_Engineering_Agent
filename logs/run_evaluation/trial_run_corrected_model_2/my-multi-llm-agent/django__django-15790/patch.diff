@@ -1,0 +1,72 @@
+```diff
+--- a/django/core/checks/templates.py
++++ b/django/core/checks/templates.py
+@@ -5,7 +5,7 @@
+ from django.template.backends.django import get_template_tag_modules
+ from django.utils.functional import SimpleLazyObject
+ 
+-from collections import defaultdict
++from collections import defaultdict, Counter
+ 
+ from . import Error, register, Tags
+ from .signals import register as register_signal
+@@ -16,15 +16,15 @@
+ @register(Tags.templates)
+ def check_for_template_tags_with_the_same_name(app_configs, **kwargs):
+     errors = []
+-    libraries = defaultdict(list)
++    libraries = defaultdict(set)
+ 
+     for conf in settings.TEMPLATES:
+         custom_libraries = conf.get("OPTIONS", {}).get("libraries", {})
+         for module_name, module_path in custom_libraries.items():
+-            libraries[module_name].append(module_path)
++            libraries[module_name].add(module_path)
+ 
+     for module_name, module_path in get_template_tag_modules():
+-        libraries[module_name].append(module_path)
++        libraries[module_name].add(module_path)
+ 
+     for library_name, items in libraries.items():
+         if len(items) > 1:
+@@ -41,4 +41,39 @@
+ 
+ 
+ def check_string_if_invalid_is_string(app_configs, **kwargs):
++    errors = []
++    for conf in settings.TEMPLATES:
++        string_if_invalid = conf.get("OPTIONS", {}).get("string_if_invalid")
++        if string_if_invalid is not None and not isinstance(string_if_invalid, str):
++            errors.append(
++                Error(
++                    "The 'string_if_invalid' option in settings TEMPLATES must be a string.",
++                    id="templates.E004",
++                )
++            )
++    return errors
++
++
++def check_duplicate_context_processors(app_configs, **kwargs):
++    errors = []
++    for conf in settings.TEMPLATES:
++        processors = conf.get("OPTIONS", {}).get("context_processors")
++        if processors:
++            counts = Counter(processors)
++            duplicates = [processor for processor, count in counts.items() if count > 1]
++            if duplicates:
++                errors.append(
++                    Error(
++                        "The 'context_processors' option in settings TEMPLATES contains duplicates: %s."
++                        % ", ".join(repr(item) for item in duplicates),
++                        id="templates.E005",
++                    )
++                )
++    return errors
++
++
++@register(Tags.templates)
++def check_debug_true_and_template_debug_false(app_configs, **kwargs):
+     errors = []
+     if settings.DEBUG and settings.TEMPLATE_DEBUG is False:
+         errors.append(
+```

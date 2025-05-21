@@ -1,0 +1,18 @@
+```
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -1248,7 +1248,7 @@
+         if not field_names:
+             return {}
+         mask = {}
+-        for field_name in field_names:
++        for field_name in field_names:
+             part_mask = mask
+             for part in field_name.split(LOOKUP_SEP):
+                 part_mask = part_mask.setdefault(part, {})
+@@ -1256,4 +1256,4 @@
+         if defer:
+             return self._get_defer_select_mask(opts, mask)
+         return self._get_only_select_mask(opts, mask)
+-
++

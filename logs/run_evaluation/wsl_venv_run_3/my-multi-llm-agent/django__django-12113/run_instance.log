@@ -1,0 +1,51 @@
+2025-05-03 21:33:30,433 - INFO - Creating container for django__django-12113...
+2025-05-03 21:33:30,637 - INFO - Container for django__django-12113 created: e57529b0402d61fd7f5adca9adb5a712f29004512fa99aeecd55d0b3cc1bc289
+2025-05-03 21:33:30,856 - INFO - Container for django__django-12113 started: e57529b0402d61fd7f5adca9adb5a712f29004512fa99aeecd55d0b3cc1bc289
+2025-05-03 21:33:30,860 - INFO - Intermediate patch for django__django-12113 written to logs/run_evaluation/wsl_venv_run_3/my-multi-llm-agent/django__django-12113/patch.diff, now applying to container...
+2025-05-03 21:33:31,000 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-03 21:33:31,067 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-03 21:33:31,132 - INFO - >>>>> Applied Patch:
+patching file django/db/backends/sqlite3/creation.py
+Hunk #1 succeeded at 95 with fuzz 3.
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-03 21:33:32,025 - INFO - Git diff before:
+diff --git a/django/db/backends/sqlite3/creation.py b/django/db/backends/sqlite3/creation.py
+index d97052f52d..71bf4fbe50 100644
+--- a/django/db/backends/sqlite3/creation.py
++++ b/django/db/backends/sqlite3/creation.py
+@@ -95,7 +95,7 @@ class DatabaseCreation(BaseDatabaseCreation):
+         TEST NAME. See https://www.sqlite.org/inmemorydb.html
+         """
+         test_database_name = self._get_test_db_name()
+-        sig = [self.connection.settings_dict['NAME']]
++        sig = [self.connection.settings_dict.get('NAME')]
+         if self.is_in_memory_db(test_database_name):
+             sig.append(self.connection.alias)
+         return tuple(sig)
+2025-05-03 21:33:32,028 - INFO - Eval script for django__django-12113 written to logs/run_evaluation/wsl_venv_run_3/my-multi-llm-agent/django__django-12113/eval.sh; copying to container...
+2025-05-03 21:33:40,843 - INFO - Test runtime: 8.73 seconds
+2025-05-03 21:33:40,845 - INFO - Test output for django__django-12113 written to logs/run_evaluation/wsl_venv_run_3/my-multi-llm-agent/django__django-12113/test_output.txt
+2025-05-03 21:33:40,922 - INFO - Git diff after:
+diff --git a/django/db/backends/sqlite3/creation.py b/django/db/backends/sqlite3/creation.py
+index d97052f52d..71bf4fbe50 100644
+--- a/django/db/backends/sqlite3/creation.py
++++ b/django/db/backends/sqlite3/creation.py
+@@ -95,7 +95,7 @@ class DatabaseCreation(BaseDatabaseCreation):
+         TEST NAME. See https://www.sqlite.org/inmemorydb.html
+         """
+         test_database_name = self._get_test_db_name()
+-        sig = [self.connection.settings_dict['NAME']]
++        sig = [self.connection.settings_dict.get('NAME')]
+         if self.is_in_memory_db(test_database_name):
+             sig.append(self.connection.alias)
+         return tuple(sig)
+2025-05-03 21:33:40,922 - INFO - Grading answer for django__django-12113...
+2025-05-03 21:33:40,925 - INFO - report: {'django__django-12113': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_custom_test_name (backends.sqlite.test_creation.TestDbSignatureTests)']}, 'PASS_TO_PASS': {'success': [], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-12113: resolved: False
+2025-05-03 21:33:40,928 - INFO - Attempting to stop container sweb.eval.django__django-12113.wsl_venv_run_3...
+2025-05-03 21:33:56,576 - INFO - Attempting to remove container sweb.eval.django__django-12113.wsl_venv_run_3...
+2025-05-03 21:33:56,629 - INFO - Container sweb.eval.django__django-12113.wsl_venv_run_3 removed.
+2025-05-03 21:33:56,630 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-12113:latest...
+2025-05-03 21:33:57,144 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-12113:latest removed.

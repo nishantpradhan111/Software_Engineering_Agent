@@ -1,0 +1,28 @@
+```diff
+--- a/pylint/reporters/text.py
++++ b/pylint/reporters/text.py
+@@ -175,7 +175,7 @@ def on_set_current_module(self, module: str, filepath: str | None) -> None:
+         self._template = template
+ 
+         # Check to see if all parameters in the template are attributes of the Message
+-        arguments = re.findall(r"\\{(.+?)(:.*)?\\}", template)
++        arguments = re.findall(r"\{(\w+?)(:.*)?\}", template)
+         for argument in arguments:
+             if argument[0] not in MESSAGE_FIELDS:
+                 warnings.warn(
+--- a/tests/reporters/unittest_reporting.py
++++ b/tests/reporters/unittest_reporting.py
+@@ -14,7 +14,7 @@
+ from typing import TYPE_CHECKING
+ 
+ import pytest
+-from _pytest.recwarn import WarningsRecorder
++from io import StringIO
+ 
+ from pylint import checkers
+ from pylint.interfaces import HIGH
+@@ -113,7 +113,7 @@ def test_template_option_non_existing(linter) -> None:
+     assert out_lines[2] == "my_mod:2::()"\n
+ \n
+ \n
+-def test_deprecation_set_output(recwarn):\n+def test_template_option_with_header(linter: PyLinter, recwarn: WarningsRecorder) -> None:\n+    output = StringIO()\n+    linter.reporter.out = output\n+    linter.config.msg_template = \'{{ "Category": "{category}" }}\'\n+    linter.open()\n+    linter.set_current_module("my_mod")\n+\n+    linter.add_message("C0301", line=1, args=(1, 2))\n+    linter.add_message(\n+        "line-too-long", line=2, end_lineno=2, end_col_offset=4, args=(3, 4)\n+    )\n+\n+    out_lines = output.getvalue().split("\\n")\n+    assert out_lines[1] == \'{ "Category": "convention" }\'\n+    assert out_lines[2] == \'{ "Category": "convention" }\'\n+\n+\n+def test_deprecation_set_output(recwarn: WarningsRecorder) -> None:\n     """TODO remove in 3.0."""\n     reporter = BaseReporter()\n     # noinspection PyDeprecation\n```

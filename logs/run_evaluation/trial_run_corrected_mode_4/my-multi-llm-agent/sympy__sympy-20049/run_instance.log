@@ -1,0 +1,51 @@
+2025-05-04 19:09:47,243 - INFO - Creating container for sympy__sympy-20049...
+2025-05-04 19:09:47,542 - INFO - Container for sympy__sympy-20049 created: 4602724e4afc359ca744c3f46762e54fd8efdb9dbaa3b8a26613b90ebb3b4c93
+2025-05-04 19:09:47,823 - INFO - Container for sympy__sympy-20049 started: 4602724e4afc359ca744c3f46762e54fd8efdb9dbaa3b8a26613b90ebb3b4c93
+2025-05-04 19:09:47,828 - INFO - Intermediate patch for sympy__sympy-20049 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-20049/patch.diff, now applying to container...
+2025-05-04 19:09:48,014 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 19:09:48,096 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 19:09:48,167 - INFO - >>>>> Applied Patch:
+patching file sympy/physics/vector/point.py
+Hunk #1 succeeded at 485 with fuzz 2 (offset -7 lines).
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-04 19:09:48,668 - INFO - Git diff before:
+diff --git a/sympy/physics/vector/point.py b/sympy/physics/vector/point.py
+index d4e3cfcc90..0a257fac88 100644
+--- a/sympy/physics/vector/point.py
++++ b/sympy/physics/vector/point.py
+@@ -485,7 +485,7 @@ def v2pt_theory(self, otherpoint, outframe, fixedframe):
+         >>> P.v2pt_theory(O, N, B)
+         5*N.x + 10*q'*B.y
+ 
+-        """
++        """ 
+ 
+         _check_frame(outframe)
+         _check_frame(fixedframe)
+2025-05-04 19:09:48,673 - INFO - Eval script for sympy__sympy-20049 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-20049/eval.sh; copying to container...
+2025-05-04 19:09:56,152 - INFO - Test runtime: 7.37 seconds
+2025-05-04 19:09:56,156 - INFO - Test output for sympy__sympy-20049 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-20049/test_output.txt
+2025-05-04 19:09:56,238 - INFO - Git diff after:
+diff --git a/sympy/physics/vector/point.py b/sympy/physics/vector/point.py
+index d4e3cfcc90..0a257fac88 100644
+--- a/sympy/physics/vector/point.py
++++ b/sympy/physics/vector/point.py
+@@ -485,7 +485,7 @@ def v2pt_theory(self, otherpoint, outframe, fixedframe):
+         >>> P.v2pt_theory(O, N, B)
+         5*N.x + 10*q'*B.y
+ 
+-        """
++        """ 
+ 
+         _check_frame(outframe)
+         _check_frame(fixedframe)
+2025-05-04 19:09:56,238 - INFO - Grading answer for sympy__sympy-20049...
+2025-05-04 19:09:56,242 - INFO - report: {'sympy__sympy-20049': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_auto_point_vel', 'test_auto_point_vel_multiple_point_path', 'test_auto_vel_dont_overwrite', 'test_auto_point_vel_shortest_path']}, 'PASS_TO_PASS': {'success': ['test_point_v1pt_theorys', 'test_point_a1pt_theorys', 'test_point_v2pt_theorys', 'test_point_a2pt_theorys', 'test_point_funcs', 'test_point_pos', 'test_point_partial_velocity', 'test_point_vel', 'test_auto_point_vel_if_tree_has_vel_but_inappropriate_pos_vector'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-20049: resolved: False
+2025-05-04 19:09:56,247 - INFO - Attempting to stop container sweb.eval.sympy__sympy-20049.trial_run_corrected_mode_4...
+2025-05-04 19:10:11,739 - INFO - Attempting to remove container sweb.eval.sympy__sympy-20049.trial_run_corrected_mode_4...
+2025-05-04 19:10:11,807 - INFO - Container sweb.eval.sympy__sympy-20049.trial_run_corrected_mode_4 removed.
+2025-05-04 19:10:11,809 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-20049:latest...
+2025-05-04 19:10:12,003 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-20049:latest removed.

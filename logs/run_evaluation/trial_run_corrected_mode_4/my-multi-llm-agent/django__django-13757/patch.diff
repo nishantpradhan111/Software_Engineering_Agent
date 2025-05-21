@@ -1,0 +1,24 @@
+```diff
+--- a/django/db/models/fields/json.py
++++ b/django/db/models/fields/json.py
+@@ -373,15 +373,11 @@
+         return '(NOT %s OR %s IS NULL)' % (sql, lhs), tuple(params) + tuple(lhs_params)
+ 
+     def as_sqlite(self, compiler, connection):
+-        template = 'JSON_TYPE(%s, %%s) IS NULL'
++        template = 'JSON_TYPE(%s, %s) IS NULL'
+         if not self.rhs:
+-            template = 'JSON_TYPE(%s, %%s) IS NOT NULL'
+-        return HasKey(self.lhs.lhs, self.lhs.key_name).as_sql(
+-            compiler,
+-            connection,
+-            template=template,
+-        )
++            template = 'JSON_TYPE(%s, %s) IS NOT NULL'
++        sql, params = HasKey(self.lhs.lhs, self.lhs.key_name).as_sql(compiler, connection)
++        params = [template % (sql, '%s')] + params
++        return '(%s)' % params[0], params[1:]
+ 
+ 
+ class KeyTextTransform(Transform):
+```

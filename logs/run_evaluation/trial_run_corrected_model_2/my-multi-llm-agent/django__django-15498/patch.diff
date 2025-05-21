@@ -1,0 +1,23 @@
+```diff
+--- a/django/views/static.py
++++ b/django/views/static.py
+@@ -131,16 +131,15 @@
+         matches = re.match(r"^([^;]+)(; length=([0-9]+))?$", header, re.IGNORECASE)
+         if matches is None:
+             return True
+-        if matches is None:
+-            return True
+         header_mtime = parse_http_date(matches[1])
+         header_len = matches[3]
+         if header_len and int(header_len) != size:
+             raise ValueError
+-        if int(mtime) > header_mtime:
++        if header_mtime is not None and int(mtime) > header_mtime:
+             raise ValueError
+-    except (AttributeError, ValueError, OverflowError):\
++    except (ValueError, OverflowError):
+         return True
+     return False
++
++
+```

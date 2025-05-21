@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/matrices/expressions/blockmatrix.py
++++ b/sympy/matrices/expressions/blockmatrix.py
+@@ -356,7 +356,7 @@
+             X = self.blocks
+             Y = other.blocks
+             Z = [[S.Zero] * other.blockshape[1] for i in range(self.blockshape[0])]
+-            for i in range(self.blockshape[0]):
++            for i in range(self.blockshape[0]):
+                 for j in range(other.blockshape[1]):
+                     for k in range(self.blockshape[1]):
+                         Z[i][j] += X[i, k] * Y[k, j]
+```

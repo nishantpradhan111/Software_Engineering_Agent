@@ -1,0 +1,13 @@
+```diff
+--- a/requests/sessions.py
++++ b/requests/sessions.py
+@@ -171,7 +171,7 @@
+             req = prepared_request
+ 
+             resp = self.send(\
+-                prepared_request,\
++                req,\
+                 stream=stream,\
+                 timeout=timeout,\
+                 verify=verify,\
+```

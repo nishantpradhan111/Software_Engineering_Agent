@@ -1,0 +1,30 @@
+```diff
+--- a/sympy/matrices/common.py
++++ b/sympy/matrices/common.py
+@@ -1973,10 +1973,8 @@ def __div__(self, other):
+ 
+     @call_highest_priority('__rmatmul__')
+     def __matmul__(self, other):
+-        if not getattr(other, 'is_Matrix', False) and not getattr(other, 'is_MatrixLike', False):
++        if not (getattr(other, 'is_Matrix', False) or getattr(other, 'is_MatrixLike', False)):
+             return NotImplemented
+-        other = _matrixify(other)
+-        if not getattr(other, 'is_Matrix', False) and not getattr(other, 'is_MatrixLike', False):
+-            return NotImplemented
+         return self.__mul__(other)
+ 
+     @call_highest_priority('__rmul__')
+@@ -2066,10 +2062,8 @@ def __radd__(self, other):
+ 
+     @call_highest_priority('__matmul__')
+     def __rmatmul__(self, other):
+-        if not getattr(other, 'is_Matrix', False) and not getattr(other, 'is_MatrixLike', False):
++        if not (getattr(other, 'is_Matrix', False) or getattr(other, 'is_MatrixLike', False)):
+             return NotImplemented
+-        other = _matrixify(other)
+-        if not getattr(other, 'is_Matrix', False) and not getattr(other, 'is_MatrixLike', False):
+-            return NotImplemented
+         return self.__rmul__(other)
+ 
+     @call_highest_priority('__mul__')
+```

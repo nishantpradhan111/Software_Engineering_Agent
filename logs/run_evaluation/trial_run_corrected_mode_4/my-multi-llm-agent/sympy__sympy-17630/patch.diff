@@ -1,0 +1,26 @@
+```diff
+--- a/sympy/matrices/expressions/blockmatrix.py
++++ b/sympy/matrices/expressions/blockmatrix.py
+@@ -355,7 +355,7 @@
+         if isinstance(other, BlockMatrix):
+             X = self.blocks
+             Y = other.blocks
+-            Z = zeros(self.blockshape[0], other.blockshape[1], cls=object)
++            Z = [[0]*other.blockshape[1] for i in range(self.blockshape[0])]
+             for i in range(self.blockshape[0]):
+                 for j in range(other.blockshape[1]):
+                     for k in range(self.blockshape[1]):
+@@ -364,11 +364,8 @@
+             return BlockMatrix(Matrix(Z))
+         else:
+             from sympy.matrices import Matrix
+-            from sympy import ZeroMatrix
+             # if `other` is not a BlockMatrix, it could be a scalar,
+             # so we just perform element-wise multiplication
+             Z = [[self.blocks[i, j] * other for j in range(self.blockshape[1])]
+                  for i in range(self.blockshape[0])]
+-            from sympy.matrices import Matrix
+-            from sympy import ZeroMatrix
+-            return BlockMatrix(Matrix([[ZeroMatrix(self.blocks[0,0].rows, self.blocks[0,0].cols) if z == 0 else z for z in row] for row in Z]))
++            return BlockMatrix(Matrix(Z))
+```

@@ -1,0 +1,18 @@
+```diff
+--- a/sphinx/ext/autodoc/typehints.py
++++ b/sphinx/ext/autodoc/typehints.py
+@@ -115,10 +115,10 @@ def modify_field_list(node: nodes.field_list, annotations: Dict[str, str],\
+         if name == 'return':
+             continue
+ 
+-        if '*' + name in arguments:
++        if '*' + name in arguments:  # type: ignore
+             name = '*' + name
+-            arguments.get(name)\
+-        elif '**' + name in arguments:
++        elif '**' + name in arguments:  # type: ignore
+             name = '**' + name
+-            arguments.get(name)\
+         else:
+             arg = arguments.get(name, {})
+```

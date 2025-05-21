@@ -1,0 +1,12 @@
+```diff
+--- a/django/utils/autoreload.py
++++ b/django/utils/autoreload.py
+@@ -137,6 +137,7 @@ def iter_modules_and_files(modules, extra_files):
+         try:
+             resolved_path = Path(path).resolve()
+         except FileNotFoundError:
++            # File might be gone at this point.
+             continue
+         except OSError:
+             # The module could have been removed, don't fail loudly if this
+```

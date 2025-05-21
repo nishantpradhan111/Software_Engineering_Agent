@@ -1,0 +1,21 @@
+```diff
+--- a/tests/invalid_models_tests/test_models.py
++++ b/tests/invalid_models_tests/test_models.py
+@@ -1539,4 +1539,15 @@
+                     models.UniqueConstraint(fields=['fk_1_id', 'fk_2'], name='name'),
+                 ]
+ 
+-        self.assertEqual(Model.check(databases=self.databases), [])
++        errors = Model.check(databases=self.databases)
++        self.assertEqual(errors, [
++            Error(
++                "'constraints' refers to field 'fk_1_id' which is not an instance of "
++                "models.Field.",
++                hint=(
++                    "The only supported field instance is Foreign Key. "
++                    "Did you mean to use a ForeignKey field?"
++                ),
++                obj=Model,
++                id='models.E039',
++            )])
+```

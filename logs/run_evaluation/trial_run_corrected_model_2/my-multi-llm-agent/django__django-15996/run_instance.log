@@ -1,0 +1,2467 @@
+2025-05-04 10:09:01,408 - INFO - Creating container for django__django-15996...
+2025-05-04 10:09:02,290 - INFO - Container for django__django-15996 created: af0d6393e043ae0a404a6f714bdcb611ad8af05fde36785d4f9367468cff20fb
+2025-05-04 10:09:02,679 - INFO - Container for django__django-15996 started: af0d6393e043ae0a404a6f714bdcb611ad8af05fde36785d4f9367468cff20fb
+2025-05-04 10:09:02,685 - INFO - Intermediate patch for django__django-15996 written to logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/patch.diff, now applying to container...
+2025-05-04 10:09:02,877 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 10:09:02,959 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 10:09:03,029 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-04 10:09:03,030 - INFO - >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+2025-05-04 10:09:03,192 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 10:09:03,193 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,193 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,193 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,194 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,194 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,195 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,195 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,196 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,196 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,196 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,197 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,197 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,198 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,198 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,198 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,199 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,199 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,200 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,200 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,200 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,200 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,201 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,201 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,201 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,201 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,202 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,202 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,202 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,203 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,203 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,203 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,204 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,204 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,204 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,205 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,205 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,206 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,207 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,207 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,208 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,208 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,209 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,209 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,209 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,210 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,211 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,211 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,211 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,211 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,212 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,212 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,212 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,213 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,213 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,213 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,214 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,214 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,214 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,215 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,215 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,215 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,216 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,216 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,217 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,218 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,219 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,220 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,222 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,223 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,223 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,224 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,225 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,225 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,225 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,226 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,226 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,227 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,227 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,228 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,228 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,228 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,228 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,229 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,229 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,230 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,230 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,230 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,231 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,231 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,231 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,232 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,232 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,232 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,233 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,233 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,233 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,234 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,234 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,234 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,235 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,235 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,235 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,235 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,236 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,236 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,236 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,237 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,237 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,237 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,238 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,238 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,239 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,240 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,240 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,241 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,241 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,241 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,241 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,242 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,242 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,242 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,242 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,436 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 10:09:03,437 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,437 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,437 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,438 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,438 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,438 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,439 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,439 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,440 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,440 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,440 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,440 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,441 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,441 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,441 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,441 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,442 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,442 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,442 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,442 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,443 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,443 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,443 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,444 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,444 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,445 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,445 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,445 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,446 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,446 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,446 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,446 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,447 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,447 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,447 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,447 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,448 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,448 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,449 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,449 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,449 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,449 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,450 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,450 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,451 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,451 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,451 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,452 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,452 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,452 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,453 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,453 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,453 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,453 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,454 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,454 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,454 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,455 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,455 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,455 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,455 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,456 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,456 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,456 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,457 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,457 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,457 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,458 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,458 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,459 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,459 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,459 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,460 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,460 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,460 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,460 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,461 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,461 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,461 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,462 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,462 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,462 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,463 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,463 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,464 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,464 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,464 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,465 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,465 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,466 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,466 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,466 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,467 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,467 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,467 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,468 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,468 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,468 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,469 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,469 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,469 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,470 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,470 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,470 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,471 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,471 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,472 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,472 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,472 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,473 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,473 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,473 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,474 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,474 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,474 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,475 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,475 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,476 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,476 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,477 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,477 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,477 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15996: >>>>> Patch Apply Failed:
+patching file django/db/migrations/serializer.py
+patch: **** malformed patch at line 13: @@ -126,16 +115,9 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-15996/run_instance.log) for more information.
+
+2025-05-04 10:09:03,477 - INFO - Attempting to stop container sweb.eval.django__django-15996.trial_run_corrected_model_2...
+2025-05-04 10:09:19,116 - INFO - Attempting to remove container sweb.eval.django__django-15996.trial_run_corrected_model_2...
+2025-05-04 10:09:19,494 - INFO - Container sweb.eval.django__django-15996.trial_run_corrected_model_2 removed.
+2025-05-04 10:09:19,495 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-15996:latest...
+2025-05-04 10:09:19,983 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-15996:latest removed.

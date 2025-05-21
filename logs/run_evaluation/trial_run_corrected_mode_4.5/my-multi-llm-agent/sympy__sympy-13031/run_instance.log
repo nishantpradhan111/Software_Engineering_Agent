@@ -1,0 +1,78 @@
+2025-05-07 20:25:53,033 - INFO - Creating container for sympy__sympy-13031...
+2025-05-07 20:25:53,581 - INFO - Container for sympy__sympy-13031 created: 773c008699b51fd9cfcc0a34ab58bdb477ab9706d0462d7751b271f8976a9a7c
+2025-05-07 20:25:53,846 - INFO - Container for sympy__sympy-13031 started: 773c008699b51fd9cfcc0a34ab58bdb477ab9706d0462d7751b271f8976a9a7c
+2025-05-07 20:25:53,852 - INFO - Intermediate patch for sympy__sympy-13031 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13031/patch.diff, now applying to container...
+2025-05-07 20:25:54,041 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-07 20:25:54,142 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-07 20:25:54,218 - INFO - >>>>> Applied Patch:
+patching file sympy/matrices/sparse.py
+Hunk #1 succeeded at 985 with fuzz 3.
+Hunk #2 succeeded at 1191 with fuzz 3.
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-07 20:25:54,607 - INFO - Git diff before:
+diff --git a/sympy/matrices/sparse.py b/sympy/matrices/sparse.py
+index e6f36cdf35..e54e1f44fa 100644
+--- a/sympy/matrices/sparse.py
++++ b/sympy/matrices/sparse.py
+@@ -985,8 +985,8 @@ def col_join(self, other):
+         >>> C == A.row_insert(A.rows, Matrix(B))
+         True
+         """
+-        if not self:
+-            return type(self)(other)
++        if not self and not other:
++            return self._new(0, 0, [])
+         A, B = self, other
+         if not A.cols == B.cols:
+             raise ShapeError()
+@@ -1191,8 +1191,8 @@ def row_join(self, other):
+         >>> C == A.col_insert(A.cols, B)
+         True
+         """
+-        if not self:
+-            return type(self)(other)
++        if not self and not other:
++            return self._new(0, 0, [])
+         A, B = self, other
+         if not A.rows == B.rows:
+             raise ShapeError()
+2025-05-07 20:25:54,611 - INFO - Eval script for sympy__sympy-13031 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13031/eval.sh; copying to container...
+2025-05-07 20:26:01,381 - INFO - Test runtime: 6.68 seconds
+2025-05-07 20:26:01,384 - INFO - Test output for sympy__sympy-13031 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-13031/test_output.txt
+2025-05-07 20:26:01,462 - INFO - Git diff after:
+diff --git a/sympy/matrices/sparse.py b/sympy/matrices/sparse.py
+index e6f36cdf35..e54e1f44fa 100644
+--- a/sympy/matrices/sparse.py
++++ b/sympy/matrices/sparse.py
+@@ -985,8 +985,8 @@ def col_join(self, other):
+         >>> C == A.row_insert(A.rows, Matrix(B))
+         True
+         """
+-        if not self:
+-            return type(self)(other)
++        if not self and not other:
++            return self._new(0, 0, [])
+         A, B = self, other
+         if not A.cols == B.cols:
+             raise ShapeError()
+@@ -1191,8 +1191,8 @@ def row_join(self, other):
+         >>> C == A.col_insert(A.cols, B)
+         True
+         """
+-        if not self:
+-            return type(self)(other)
++        if not self and not other:
++            return self._new(0, 0, [])
+         A, B = self, other
+         if not A.rows == B.rows:
+             raise ShapeError()
+2025-05-07 20:26:01,462 - INFO - Grading answer for sympy__sympy-13031...
+2025-05-07 20:26:01,466 - INFO - report: {'sympy__sympy-13031': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_sparse_matrix']}, 'PASS_TO_PASS': {'success': ['test_transpose', 'test_trace', 'test_CL_RL', 'test_add', 'test_errors', 'test_len', 'test_sparse_zeros_sparse_eye', 'test_copyin', 'test_sparse_solve'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-13031: resolved: False
+2025-05-07 20:26:01,470 - INFO - Attempting to stop container sweb.eval.sympy__sympy-13031.trial_run_corrected_mode_4.5...
+2025-05-07 20:26:16,940 - INFO - Attempting to remove container sweb.eval.sympy__sympy-13031.trial_run_corrected_mode_4.5...
+2025-05-07 20:26:16,992 - INFO - Container sweb.eval.sympy__sympy-13031.trial_run_corrected_mode_4.5 removed.
+2025-05-07 20:26:16,993 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-13031:latest...
+2025-05-07 20:26:17,184 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-13031:latest removed.

@@ -1,0 +1,73 @@
+2025-05-03 23:56:59,961 - INFO - Creating container for django__django-13447...
+2025-05-03 23:57:00,517 - INFO - Container for django__django-13447 created: 0961f658a5ba2e3cd121b9fe9452a73174672272fe3f48f8cd87386e4e353909
+2025-05-03 23:57:00,762 - INFO - Container for django__django-13447 started: 0961f658a5ba2e3cd121b9fe9452a73174672272fe3f48f8cd87386e4e353909
+2025-05-03 23:57:00,768 - INFO - Intermediate patch for django__django-13447 written to logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13447/patch.diff, now applying to container...
+2025-05-03 23:57:00,939 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-03 23:57:01,001 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-03 23:57:01,066 - INFO - >>>>> Applied Patch:
+patching file django/contrib/admin/sites.py
+patching file tests/admin_views/test_adminsite.py
+patch unexpectedly ends in middle of line
+Hunk #2 succeeded at 66 (offset -3 lines).
+
+2025-05-03 23:57:01,995 - INFO - Git diff before:
+diff --git a/django/contrib/admin/sites.py b/django/contrib/admin/sites.py
+index 837dabfea8..59a4a0364d 100644
+--- a/django/contrib/admin/sites.py
++++ b/django/contrib/admin/sites.py
+@@ -461,6 +461,7 @@ class AdminSite:
+ 
+             info = (app_label, model._meta.model_name)
+             model_dict = {
++                'model': model,
+                 'name': capfirst(model._meta.verbose_name_plural),
+                 'object_name': model._meta.object_name,
+                 'perms': perms,
+diff --git a/tests/admin_views/test_adminsite.py b/tests/admin_views/test_adminsite.py
+index efee6f39c6..4874bc48c8 100644
+--- a/tests/admin_views/test_adminsite.py
++++ b/tests/admin_views/test_adminsite.py
+@@ -55,7 +55,9 @@ class SiteEachContextTest(TestCase):
+         admin_views = apps[0]
+         self.assertEqual(admin_views['app_label'], 'admin_views')
+         self.assertEqual(len(admin_views['models']), 1)
+-        self.assertEqual(admin_views['models'][0]['object_name'], 'Article')
++        article = admin_views['models'][0]
++        self.assertEqual(article['object_name'], 'Article')
++        self.assertEqual(article['model'], Article)
+ 
+         # auth.User
+         auth = apps[1]
+@@ -63,6 +65,7 @@ class SiteEachContextTest(TestCase):
+         self.assertEqual(len(auth['models']), 1)
+         user = auth['models'][0]
+         self.assertEqual(user['object_name'], 'User')
++        self.assertEqual(user['model'], User)
+ 
+         self.assertEqual(auth['app_url'], '/test_admin/admin/auth/')
+         self.assertIs(auth['has_module_perms'], True)
+2025-05-03 23:57:01,999 - INFO - Eval script for django__django-13447 written to logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13447/eval.sh; copying to container...
+2025-05-03 23:57:16,205 - INFO - Test runtime: 14.11 seconds
+2025-05-03 23:57:16,208 - INFO - Test output for django__django-13447 written to logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13447/test_output.txt
+2025-05-03 23:57:16,293 - INFO - Git diff after:
+diff --git a/django/contrib/admin/sites.py b/django/contrib/admin/sites.py
+index 837dabfea8..59a4a0364d 100644
+--- a/django/contrib/admin/sites.py
++++ b/django/contrib/admin/sites.py
+@@ -461,6 +461,7 @@ class AdminSite:
+ 
+             info = (app_label, model._meta.model_name)
+             model_dict = {
++                'model': model,
+                 'name': capfirst(model._meta.verbose_name_plural),
+                 'object_name': model._meta.object_name,
+                 'perms': perms,
+2025-05-03 23:57:16,294 - INFO - Git diff changed after running eval script
+2025-05-03 23:57:16,294 - INFO - Grading answer for django__django-13447...
+2025-05-03 23:57:16,299 - INFO - report: {'django__django-13447': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': True, 'tests_status': {'FAIL_TO_PASS': {'success': ['test_available_apps (admin_views.test_adminsite.SiteEachContextTest)'], 'failure': []}, 'PASS_TO_PASS': {'success': ['test_add_action (admin_views.test_adminsite.SiteActionsTests)', 'test_disable_action (admin_views.test_adminsite.SiteActionsTests)', "AdminSite.get_action() returns an action even if it's disabled.", 'test_each_context (admin_views.test_adminsite.SiteEachContextTest)', 'test_each_context_site_url_with_script_name (admin_views.test_adminsite.SiteEachContextTest)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-13447: resolved: True
+2025-05-03 23:57:16,302 - INFO - Attempting to stop container sweb.eval.django__django-13447.trial_run_corrected_model_1...
+2025-05-03 23:57:31,907 - INFO - Attempting to remove container sweb.eval.django__django-13447.trial_run_corrected_model_1...
+2025-05-03 23:57:31,967 - INFO - Container sweb.eval.django__django-13447.trial_run_corrected_model_1 removed.
+2025-05-03 23:57:31,968 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-13447:latest...
+2025-05-03 23:57:32,442 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-13447:latest removed.

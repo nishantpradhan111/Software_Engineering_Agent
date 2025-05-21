@@ -1,0 +1,20 @@
+```diff
+--- a/django/core/exceptions.py
++++ b/django/core/exceptions.py
+@@ -4,6 +4,7 @@
+ """
+ import operator
+ 
++
+ from django.utils.hashable import make_hashable
+ 
+ 
+@@ -182,6 +183,7 @@
+     def __repr__(self):
+         return 'ValidationError(%s)' % self
+ 
++
+     def __eq__(self, other):
+         if not isinstance(other, ValidationError):
+             return NotImplemented
+```

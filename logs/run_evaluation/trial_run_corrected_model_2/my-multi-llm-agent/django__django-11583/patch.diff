@@ -1,0 +1,12 @@
+```diff
+--- a/django/utils/autoreload.py
++++ b/django/utils/autoreload.py
+@@ -146,6 +146,7 @@
+             # is the case.
+             continue
+         except ValueError as e:
++            path = str(path)
+             # Network filesystems may return null bytes in file paths.
+             logger.debug('"%s" raised when resolving path: "%s"' % (str(e), path))
+             continue
+```

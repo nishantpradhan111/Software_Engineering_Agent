@@ -1,0 +1,12 @@
+```diff
+--- a/sympy/matrices/matrices.py
++++ b/sympy/matrices/matrices.py
+@@ -1984,6 +1984,6 @@
+         is_diagonal
+         is_upper_hessenberg
+         """
+-        return all(self[i, j].is_zero
++        return all(self[i, j].is_zero  # noqa: C901
+                     for i in range(1, self.rows)
+                     for j in range(min(i, self.cols)))
+```

@@ -1,0 +1,58 @@
+2025-05-11 16:43:05,426 - INFO - Creating container for django__django-12113...
+2025-05-11 16:43:05,681 - INFO - Container for django__django-12113 created: c4b01652a4348c8ae6a15c9ec766ec29f5f8b10da66cdc153ce827a97e15418d
+2025-05-11 16:43:05,942 - INFO - Container for django__django-12113 started: c4b01652a4348c8ae6a15c9ec766ec29f5f8b10da66cdc153ce827a97e15418d
+2025-05-11 16:43:05,948 - INFO - Intermediate patch for django__django-12113 written to logs/run_evaluation/trial_code_check_35/repopotamus/django__django-12113/patch.diff, now applying to container...
+2025-05-11 16:43:06,100 - INFO - >>>>> Applied Patch:
+Checking patch django/db/backends/sqlite3/creation.py...
+Hunk #1 succeeded at 87 (offset -53 lines).
+Applied patch django/db/backends/sqlite3/creation.py cleanly.
+
+2025-05-11 16:43:07,003 - INFO - Git diff before:
+diff --git a/django/db/backends/sqlite3/creation.py b/django/db/backends/sqlite3/creation.py
+index d97052f52d..91d40016a9 100644
+--- a/django/db/backends/sqlite3/creation.py
++++ b/django/db/backends/sqlite3/creation.py
+@@ -87,11 +87,9 @@ class DatabaseCreation(BaseDatabaseCreation):
+             os.remove(test_database_name)
+ 
+     def test_db_signature(self):
+-        """
+-        Return a tuple that uniquely identifies a test database.
++        """Return a tuple that uniquely identifies a test database.
+ 
+-        This takes into account the special cases of ":memory:" and "" for
+-        SQLite since the databases will be distinct despite having the same
++        This takes into account the special cases of ":memory:" for SQLite
+         TEST NAME. See https://www.sqlite.org/inmemorydb.html
+         """
+         test_database_name = self._get_test_db_name()
+2025-05-11 16:43:07,006 - INFO - Eval script for django__django-12113 written to logs/run_evaluation/trial_code_check_35/repopotamus/django__django-12113/eval.sh; copying to container...
+2025-05-11 16:43:16,039 - INFO - Test runtime: 8.95 seconds
+2025-05-11 16:43:16,042 - INFO - Test output for django__django-12113 written to logs/run_evaluation/trial_code_check_35/repopotamus/django__django-12113/test_output.txt
+2025-05-11 16:43:16,119 - INFO - Git diff after:
+diff --git a/django/db/backends/sqlite3/creation.py b/django/db/backends/sqlite3/creation.py
+index d97052f52d..91d40016a9 100644
+--- a/django/db/backends/sqlite3/creation.py
++++ b/django/db/backends/sqlite3/creation.py
+@@ -87,11 +87,9 @@ class DatabaseCreation(BaseDatabaseCreation):
+             os.remove(test_database_name)
+ 
+     def test_db_signature(self):
+-        """
+-        Return a tuple that uniquely identifies a test database.
++        """Return a tuple that uniquely identifies a test database.
+ 
+-        This takes into account the special cases of ":memory:" and "" for
+-        SQLite since the databases will be distinct despite having the same
++        This takes into account the special cases of ":memory:" for SQLite
+         TEST NAME. See https://www.sqlite.org/inmemorydb.html
+         """
+         test_database_name = self._get_test_db_name()
+2025-05-11 16:43:16,120 - INFO - Grading answer for django__django-12113...
+2025-05-11 16:43:16,123 - INFO - report: {'django__django-12113': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_custom_test_name (backends.sqlite.test_creation.TestDbSignatureTests)']}, 'PASS_TO_PASS': {'success': [], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-12113: resolved: False
+2025-05-11 16:43:16,126 - INFO - Attempting to stop container sweb.eval.django__django-12113.trial_code_check_35...
+2025-05-11 16:43:32,520 - INFO - Attempting to remove container sweb.eval.django__django-12113.trial_code_check_35...
+2025-05-11 16:43:32,585 - INFO - Container sweb.eval.django__django-12113.trial_code_check_35 removed.
+2025-05-11 16:43:32,585 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-12113:latest...
+2025-05-11 16:43:33,108 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-12113:latest removed.

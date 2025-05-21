@@ -1,0 +1,13 @@
+```diff
+--- a/_pytest/tmpdir.py
++++ b/_pytest/tmpdir.py
+@@ -120,7 +120,7 @@
+             from_env = os.environ.get("PYTEST_DEBUG_TEMPROOT")
+             temproot = Path(from_env or tempfile.gettempdir()).resolve()
+             user = get_user() or "unknown"
+-            if user:
++            user = "".join(x for x in user if x.isalnum())
+             # use a sub-directory in the temproot to speed-up
+             # make_numbered_dir() call
+             rootdir = temproot.joinpath(f"pytest-of-{user}")
+```

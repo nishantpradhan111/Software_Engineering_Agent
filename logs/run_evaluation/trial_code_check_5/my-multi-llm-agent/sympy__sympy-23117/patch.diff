@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/tensor/array/ndim_array.py
++++ b/sympy/tensor/array/ndim_array.py
+@@ -108,7 +108,7 @@
+ 
+     def _scan_iterable_shape(iterable):
+         def f(iterable):
+-            if not iterable:
++            if not isinstance(iterable, (list, tuple)) or not iterable:
+                 return [], [0]
+ 
+             pointer = iterable
+```

@@ -1,0 +1,12 @@
+```diff
+--- a/sklearn/ensemble/voting.py
++++ b/sklearn/ensemble/voting.py
+@@ -79,6 +79,7 @@
+ 
+         if sample_weight is not None:
+             for name, step in self.estimators:
++
+                 if step is None:
+                     continue
+                 if not has_fit_parameter(step, 'sample_weight'):
+```

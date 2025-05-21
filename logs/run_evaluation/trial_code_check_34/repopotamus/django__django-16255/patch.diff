@@ -1,0 +1,27 @@
+```
+--- a/django/contrib/sitemaps/__init__.py
++++ b/django/contrib/sitemaps/__init__.py
+@@ -167,11 +167,10 @@
+     def get_latest_lastmod(self):
+         if not hasattr(self, "lastmod"):
+             return None
++
+         if callable(self.lastmod):
+             try:
+-                return max([self.lastmod(item) for item in self.items()])
+-            except TypeError:
+-                return None
++                return max(self.lastmod(item) for item in self.items())
+             except (TypeError, ValueError):
+                 return None
+         else:
+@@ -284,7 +283,7 @@
+             return None
+         if callable(self.lastmod):
+             try:
+-                return max([self.lastmod(item) for item in self.items()])
++                return max(self.lastmod(item) for item in self.items())
+             except TypeError:
+                 return None
+         else:
+```

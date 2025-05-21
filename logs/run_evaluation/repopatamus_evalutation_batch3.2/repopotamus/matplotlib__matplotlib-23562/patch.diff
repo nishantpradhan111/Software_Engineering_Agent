@@ -1,0 +1,22 @@
+```diff
+--- a/lib/mpl_toolkits/mplot3d/art3d.py
++++ b/lib/mpl_toolkits/mplot3d/art3d.py
+@@ -799,12 +799,12 @@
+                 key=lambda x: x[0], reverse=True)
+ 
+             _, segments_2d, facecolors2d, edgecolors2d, idxs = \
+-                zip(*z_segments_2d)
++               zip(*z_segments_2d)
+         else:
+             segments_2d = []
+-            self._facecolors2d = np.empty((0, 4))
+-            self._edgecolors2d = np.empty((0, 4))
++            facecolors2d = []
++            edgecolors2d = []
+             idxs = []
+ 
++        self._facecolors2d = np.array(facecolors2d) if segments_2d else np.empty((0, 4))
+         if self._codes3d is not None:
+             codes = [self._codes3d[idx] for idx in idxs]
+             PolyCollection.set_verts_and_codes(self, segments_2d, codes)
+```

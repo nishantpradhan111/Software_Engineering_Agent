@@ -1,0 +1,13 @@
+```diff
+--- a/django/conf/global_settings.py
++++ b/django/conf/global_settings.py
+@@ -130,7 +130,7 @@
+ # See https://docs.djangoproject.com/en/dev/ref/settings/#file-upload-permissions
+ # for more information.
+ #
+-FILE_UPLOAD_PERMISSIONS = None
++FILE_UPLOAD_PERMISSIONS = 0o644
+ 
+ # Default permissions for directories created by FileSystemStorage.
+ # See https://docs.djangoproject.com/en/dev/ref/settings/#file-upload-directory-permissions
+```

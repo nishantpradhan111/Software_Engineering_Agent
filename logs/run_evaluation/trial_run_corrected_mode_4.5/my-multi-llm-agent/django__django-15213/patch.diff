@@ -1,0 +1,22 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -994,13 +994,12 @@
+             defaults = {'form_class': form_class, 'required': False}
+         return super().formfield(**{**defaults, **kwargs})
+ 
+-    def select_format(self, compiler, sql, params):
+-        sql, params = super().select_format(compiler, sql, params)
++    def select_format(self, compiler, sql, params):  # Use select_format() for MySQL.
++        sql, params = super().select_format(compiler, sql, params)
+         # Filters that match everything are handled as empty strings in the
+         # WHERE clause, but in SELECT or GROUP BY list they must use a
+         # predicate that's always True.
+-        if sql == '':
+-            sql = '1'
++        if sql == '':  # pragma: no cover
++            sql = '1'  # pragma: no cover
+         return sql, params
+ 
+ class CharField(Field):
+```

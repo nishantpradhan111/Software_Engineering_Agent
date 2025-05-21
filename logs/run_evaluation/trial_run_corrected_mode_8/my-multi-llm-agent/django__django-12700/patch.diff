@@ -1,0 +1,21 @@
+```diff
+--- a/django/views/debug.py
++++ b/django/views/debug.py
+@@ -354,13 +354,9 @@
+         if isinstance(value, dict):
+             return {key: cleanse_setting(key, value[key]) for key in value}
+ 
+-        if isinstance(value, (list, tuple)):
++        elif isinstance(value, (list, tuple)):
+             return type(value)(cleanse_setting(key, item) for item in value)
+ 
+-        # If value is a string, protect it like before.
+-        if isinstance(value, str) and key in self.settings.get_hidden_settings():
++        elif isinstance(value, str) and key in self.settings.get_hidden_settings():
+             return self.cleansed_substitute
+-
+-        # If value is not a string, just display it.
+         return value
+ 
+     def get_safe_settings(self):
+```

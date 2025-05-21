@@ -1,0 +1,22 @@
+```diff
+--- a/sklearn/ensemble/iforest.py
++++ b/sklearn/ensemble/iforest.py
+@@ -177,7 +177,8 @@
+                   behaviour='old',
+                   random_state=None,
+                   verbose=0,
+-                 ):
++                  warm_start=False):
++
+         super().__init__(
+             base_estimator=ExtraTreeRegressor(
+                 max_features=1,
+@@ -188,6 +189,7 @@
+             n_estimators=n_estimators,
+             max_samples=max_samples,
+             max_features=max_features,
++            warm_start=warm_start,
+             n_jobs=n_jobs,
+             random_state=random_state,
+             verbose=verbose)
+```

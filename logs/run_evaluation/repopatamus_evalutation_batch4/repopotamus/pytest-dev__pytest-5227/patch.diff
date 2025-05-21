@@ -1,0 +1,22 @@
+```diff
+--- a/src/_pytest/logging.py
++++ b/src/_pytest/logging.py
+@@ -10,7 +10,7 @@
+ from _pytest.config import create_terminal_writer
+ from _pytest.pathlib import Path
+ 
+-DEFAULT_LOG_FORMAT = "%(filename)-25s %(lineno)4d %(levelname)-8s %(message)s"
++DEFAULT_LOG_FORMAT = "%(levelname)-8s %(name)s:%(filename)s:%(lineno)d %(message)s"
+ DEFAULT_LOG_DATE_FORMAT = "%H:%M:%S"
+ 
+ 
+@@ -404,7 +404,7 @@
+                 with catching_logs(self.log_file_handler, level=self.log_file_level):
+                     yield
+ 
+-    @contextmanager
++    @contextmanager  # type: ignore[arg-type]
+     def _runtest_for_main(self, self, item, when):
+         """Implements the internals of pytest_runtest_xxx() hook."""
+         with catching_logs(
+```

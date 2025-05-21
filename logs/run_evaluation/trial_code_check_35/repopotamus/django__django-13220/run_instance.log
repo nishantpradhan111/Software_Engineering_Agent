@@ -1,0 +1,49 @@
+2025-05-11 16:53:40,975 - INFO - Creating container for django__django-13220...
+2025-05-11 16:53:41,820 - INFO - Container for django__django-13220 created: 26630f8d9ff7a236931956dab9a9804e47edae171156544b0c6404cf877df5ed
+2025-05-11 16:53:42,104 - INFO - Container for django__django-13220 started: 26630f8d9ff7a236931956dab9a9804e47edae171156544b0c6404cf877df5ed
+2025-05-11 16:53:42,112 - INFO - Intermediate patch for django__django-13220 written to logs/run_evaluation/trial_code_check_35/repopotamus/django__django-13220/patch.diff, now applying to container...
+2025-05-11 16:53:42,301 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-11 16:53:42,381 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-11 16:53:42,481 - INFO - >>>>> Applied Patch:
+patching file django/core/exceptions.py
+Hunk #1 succeeded at 162 with fuzz 3 (offset 1 line).
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-11 16:53:43,705 - INFO - Git diff before:
+diff --git a/django/core/exceptions.py b/django/core/exceptions.py
+index dc084b8692..756a03949b 100644
+--- a/django/core/exceptions.py
++++ b/django/core/exceptions.py
+@@ -162,7 +162,6 @@ class ValidationError(Exception):
+         else:
+             error_dict.setdefault(NON_FIELD_ERRORS, []).extend(self.error_list)
+         return error_dict
+-
+     def __iter__(self):
+         if hasattr(self, 'error_dict'):
+             for field, errors in self.error_dict.items():
+2025-05-11 16:53:43,712 - INFO - Eval script for django__django-13220 written to logs/run_evaluation/trial_code_check_35/repopotamus/django__django-13220/eval.sh; copying to container...
+2025-05-11 16:53:55,378 - INFO - Test runtime: 11.50 seconds
+2025-05-11 16:53:55,383 - INFO - Test output for django__django-13220 written to logs/run_evaluation/trial_code_check_35/repopotamus/django__django-13220/test_output.txt
+2025-05-11 16:53:55,494 - INFO - Git diff after:
+diff --git a/django/core/exceptions.py b/django/core/exceptions.py
+index dc084b8692..756a03949b 100644
+--- a/django/core/exceptions.py
++++ b/django/core/exceptions.py
+@@ -162,7 +162,6 @@ class ValidationError(Exception):
+         else:
+             error_dict.setdefault(NON_FIELD_ERRORS, []).extend(self.error_list)
+         return error_dict
+-
+     def __iter__(self):
+         if hasattr(self, 'error_dict'):
+             for field, errors in self.error_dict.items():
+2025-05-11 16:53:55,495 - INFO - Grading answer for django__django-13220...
+2025-05-11 16:53:55,500 - INFO - report: {'django__django-13220': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_eq (test_exceptions.test_validation_error.TestValidationError)', 'test_eq_nested (test_exceptions.test_validation_error.TestValidationError)', 'test_hash (test_exceptions.test_validation_error.TestValidationError)', 'test_hash_nested (test_exceptions.test_validation_error.TestValidationError)']}, 'PASS_TO_PASS': {'success': ['test_messages_concatenates_error_dict_values (test_exceptions.test_validation_error.TestValidationError)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-13220: resolved: False
+2025-05-11 16:53:55,505 - INFO - Attempting to stop container sweb.eval.django__django-13220.trial_code_check_35...
+2025-05-11 16:54:11,520 - INFO - Attempting to remove container sweb.eval.django__django-13220.trial_code_check_35...
+2025-05-11 16:54:11,589 - INFO - Container sweb.eval.django__django-13220.trial_code_check_35 removed.
+2025-05-11 16:54:11,590 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-13220:latest...
+2025-05-11 16:54:12,172 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-13220:latest removed.

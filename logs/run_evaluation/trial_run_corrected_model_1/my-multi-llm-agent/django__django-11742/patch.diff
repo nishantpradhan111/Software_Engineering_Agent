@@ -1,0 +1,52 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -257,6 +257,7 @@
+                 )
+             ]
+ 
++        choice_max_length = 0
+         # Expect [group_name, [value, display]]
+         for choices_group in self.choices:
+             try:
+@@ -270,12 +271,12 @@
+                     for value, human_name in group_choices
+                 ):
+                     break
+-                if self.max_length is not None and group_choices:
++                if group_choices:
+                     choice_max_length = max(
+                         choice_max_length,
+                         *(len(str(value)) for value, _ in group_choices if value is not None),
+                     )
+-            except (TypeError, ValueError):
++            except TypeError:
+                 # No groups, choices in the form [value, display]
+                 value, human_name = group_name, group_choices
+                 if not is_value(value) or not is_value(human_name):
+@@ -287,16 +288,14 @@
+             if isinstance(choices_group, str):
+                 break
+         else:
+-            if self.max_length is not None and choice_max_length > self.max_length:
+-                return [
+-                    checks.Error(
+-                        "'max_length' is too small to fit the longest value "
+-                        "in 'choices' (%d characters)." % choice_max_length,
+-                        obj=self,
+-                        id='fields.E009',
+-                    ),
+-                ]
+-            return []
++            pass
++
++        if self.max_length is not None and choice_max_length > self.max_length:
++            return [
++                checks.Error(
++                    "'max_length' is too small to fit the longest value in 'choices' (%s characters)." % choice_max_length,
++                    obj=self, id='fields.E009',
++                )]
+ 
+         return [
+             *errors,
+```

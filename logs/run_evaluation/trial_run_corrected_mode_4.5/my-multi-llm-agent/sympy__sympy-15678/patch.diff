@@ -1,0 +1,32 @@
+```diff
+--- a/sympy/geometry/util.py
++++ b/sympy/geometry/util.py
+@@ -571,18 +571,17 @@
+         dep = {y}
+     elif isinstance(y, Symbol):
+         dep = {y}
+-    elif isinstance(y, Function):\n+    elif isinstance(y, Function):
+         dep = {y}
+     else:
+-        pass
+-    else:\n        raise ValueError("expecting x-dependent symbol(s) or function(s) but got: %s" % y)\n+        raise ValueError("expecting x-dependent symbol(s) or function(s) but got: %s" % y)
++        raise ValueError("expecting x-dependent symbol(s) or function(s) but got: %s" % y)
+ 
+     f = dict([(s, Function(
+         s.name)(x)) for s in eq.free_symbols if s != x and s in dep])
+-+
++
++    if isinstance(y, Symbol):
++        dydx = Function(y.name)(x).diff(x)
++    else:
++        dydx = y.diff(x)
+     eq = eq.subs(f)
+     derivs = {}
+     for i in range(n):
+@@ -590,5 +589,4 @@
+         derivs[dydx.diff(x, i)] = Symbol('d%s' % (i + 1), dummy=True)
+     dydx = derivs.get(dydx, dydx)
+ 
+-+    sol = solve(eq.diff(x), dydx)
++    sol = solve(eq.diff(x), dydx)
+```

@@ -1,0 +1,13 @@
+```diff
+--- a/sklearn/isotonic.py
++++ b/sklearn/isotonic.py
+@@ -312,7 +312,7 @@
+             self.f_ = interpolate.interp1d(
+                 X, y, kind="linear", bounds_error=bounds_error
+             )
+-            
+-            
++            self.f_ = np.vectorize(self.f_)
++
++
+```

@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/solvers/diophantine.py
++++ b/sympy/solvers/diophantine.py
+@@ -465,7 +465,7 @@
+                         # as sign of x*y.
+                         # e.g 1. (x_val,y_val)=> (x_val,y_val), (-x_val,-y_val)
+                         # 2. (-x_vall, y_val)=> (-x_val,y_val), (x_val,-y_val)
+-                        permute_few_signs = True
++                        permute_few_signs = True
+         if t == 'general_sum_of_squares':
+             # trying to factor such expressions will sometimes hang
+             terms = [(eq, 1)]
+
+```

@@ -1,0 +1,53 @@
+2025-05-08 15:30:34,679 - INFO - Creating container for django__django-13447...
+2025-05-08 15:30:35,555 - INFO - Container for django__django-13447 created: 1d001cc93f1aac9a6c2e74d0c2a16f4065a65e796519487de93fd4b0b350dfdd
+2025-05-08 15:30:35,938 - INFO - Container for django__django-13447 started: 1d001cc93f1aac9a6c2e74d0c2a16f4065a65e796519487de93fd4b0b350dfdd
+2025-05-08 15:30:35,957 - INFO - Intermediate patch for django__django-13447 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-13447/patch.diff, now applying to container...
+2025-05-08 15:30:36,246 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-08 15:30:36,387 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-08 15:30:36,496 - INFO - >>>>> Applied Patch:
+patching file django/contrib/admin/sites.py
+Hunk #1 succeeded at 514 with fuzz 2 (offset 48 lines).
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-08 15:30:38,280 - INFO - Git diff before:
+diff --git a/django/contrib/admin/sites.py b/django/contrib/admin/sites.py
+index 837dabfea8..4dcb635a63 100644
+--- a/django/contrib/admin/sites.py
++++ b/django/contrib/admin/sites.py
+@@ -514,6 +514,9 @@ class AdminSite:
+ 
+         return app_list
+ 
++    def get_app_list(self, request):
++        """Return a sorted list of all the installed apps that have been registered with this site."""
++        app_dict = self._build_app_dict(request)
+     def index(self, request, extra_context=None):
+         """
+         Display the main admin index page, which lists all of the installed
+2025-05-08 15:30:38,286 - INFO - Eval script for django__django-13447 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-13447/eval.sh; copying to container...
+2025-05-08 15:30:56,058 - INFO - Test runtime: 17.65 seconds
+2025-05-08 15:30:56,064 - INFO - Test output for django__django-13447 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-13447/test_output.txt
+2025-05-08 15:30:56,176 - INFO - Git diff after:
+diff --git a/django/contrib/admin/sites.py b/django/contrib/admin/sites.py
+index 837dabfea8..4dcb635a63 100644
+--- a/django/contrib/admin/sites.py
++++ b/django/contrib/admin/sites.py
+@@ -514,6 +514,9 @@ class AdminSite:
+ 
+         return app_list
+ 
++    def get_app_list(self, request):
++        """Return a sorted list of all the installed apps that have been registered with this site."""
++        app_dict = self._build_app_dict(request)
+     def index(self, request, extra_context=None):
+         """
+         Display the main admin index page, which lists all of the installed
+2025-05-08 15:30:56,176 - INFO - Grading answer for django__django-13447...
+2025-05-08 15:30:56,182 - INFO - report: {'django__django-13447': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_available_apps (admin_views.test_adminsite.SiteEachContextTest)']}, 'PASS_TO_PASS': {'success': ['test_add_action (admin_views.test_adminsite.SiteActionsTests)', 'test_disable_action (admin_views.test_adminsite.SiteActionsTests)', "AdminSite.get_action() returns an action even if it's disabled.", 'test_each_context (admin_views.test_adminsite.SiteEachContextTest)', 'test_each_context_site_url_with_script_name (admin_views.test_adminsite.SiteEachContextTest)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-13447: resolved: False
+2025-05-08 15:30:56,189 - INFO - Attempting to stop container sweb.eval.django__django-13447.trial_run_corrected_mode_8...
+2025-05-08 15:31:11,963 - INFO - Attempting to remove container sweb.eval.django__django-13447.trial_run_corrected_mode_8...
+2025-05-08 15:31:12,088 - INFO - Container sweb.eval.django__django-13447.trial_run_corrected_mode_8 removed.
+2025-05-08 15:31:12,090 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-13447:latest...
+2025-05-08 15:31:13,177 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-13447:latest removed.

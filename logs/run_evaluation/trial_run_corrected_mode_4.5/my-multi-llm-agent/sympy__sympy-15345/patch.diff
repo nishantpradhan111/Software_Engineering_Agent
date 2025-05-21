@@ -1,0 +1,38 @@
+```diff
+--- a/sympy/printing/mathematica.py
++++ b/sympy/printing/mathematica.py
+@@ -28,13 +28,13 @@
+ 
+ known_functions = {
+     "Abs": [(lambda x: True, "Abs")],
+-    "ceiling": [(lambda x: True, "Ceiling")],
++    "ceiling": [(lambda x: True, "Ceiling")],
+     "floor": [(lambda x: True, "Floor")],
+     "acos": [(lambda x: True, "ArcCos")],
+     "acosh": [(lambda x: True, "ArcCosh")],
+     "asin": [(lambda x: True, "ArcSin")],
+     "asinh": [(lambda x: True, "ArcSinh")],
+-    "atan": [(lambda x: True, "ArcTan")],
++    "atan": [(lambda x: True, "ArcTan")],
+     "atanh": [(lambda x: True, "ArcTanh")],
+     "atan2": [(lambda x: True, "ArcTan")],
+     "exp": [(lambda x: True, "Exp")],
+@@ -44,7 +44,7 @@
+     "log": [(lambda x: True, "Log")],
+     "cot": [(lambda x: True, "Cot")],
+     "coth": [(lambda x: True, "Coth")],
+-    "csc": [(lambda x: True, "Csc")],
++    "csc": [(lambda x: True, "Csc")],
+     "csch": [(lambda x: True, "Csch")],
+     "sec": [(lambda x: True, "Sec")],
+     "sech": [(lambda x: True, "Sech")],
+@@ -59,7 +59,7 @@
+     "acot": [(lambda x: True, "ArcCot")],
+     "acsc": [(lambda x: True, "ArcCsc")],
+     "asech": [(lambda x: True, "ArcSech")],
+-
++    "Heaviside": [(lambda x: True, "HeavisideTheta")],
+     "binomial": [(lambda n, k: True, "Binomial")],
+     "factorial": [(lambda x: True, "Factorial")],
+     "gamma": [(lambda x: True, "Gamma")],
+```

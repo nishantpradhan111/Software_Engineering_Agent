@@ -1,0 +1,13 @@
+```diff
+--- a/_pytest/nodes.py
++++ b/_pytest/nodes.py
+@@ -519,7 +519,7 @@
+         if isinstance(location[0], py.path.local):
+             fspath = location[0]
+         else:
+-            fspath = py.path.local(location[0])
++            fspath = py.path.local(str(location[0]))
+         relfspath = self.session._node_location_to_relpath(fspath)
+         assert type(location[2]) is str
+         return (relfspath, location[1], location[2])
+```

@@ -1,0 +1,28 @@
+```diff
+--- a/lib/matplotlib/axes/_axes.py
++++ b/lib/matplotlib/axes/_axes.py
+@@ -2182,10 +2182,8 @@ def _convert_dx(dx, x0, xconv, convert):
+             except (TypeError, IndexError, KeyError):
+                 pass
+             except StopIteration:
+-                # this means we found no finite element, fall back to first
+-                # element unconditionally
+                 x0 = cbook.safe_first_element(x0)
++
+ 
+ 
+             try:
+@@ -2193,11 +2191,6 @@
+             except (TypeError, IndexError, KeyError):
+                 x = xconv
+             except StopIteration:
+-                # this means we found no finite element, fall back to first
+-                # element unconditionally
+                 x = cbook.safe_first_element(xconv)
+-
+-            try:
+-                x = cbook._safe_first_finite(xconv)
+ 
+         except (ValueError, TypeError, AttributeError):
+
+```

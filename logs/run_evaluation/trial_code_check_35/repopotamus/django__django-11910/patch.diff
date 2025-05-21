@@ -1,0 +1,21 @@
+```
+--- a/django/db/migrations/autodetector.py
++++ b/django/db/migrations/autodetector.py
+@@ -924,14 +924,11 @@
+                     new_field.from_fields = tuple([
+                         self.renamed_fields.get(from_rename_key + (from_field,), from_field)
+                         for from_field in from_fields
+-                    ])
+-                    new_field.to_fields = tuple([
+-                        self.renamed_fields.get(rename_key + (to_field,), to_field)
+-                        for to_field in new_field.to_fields
+                     ])
+                 dependencies.extend(self._get_dependencies_for_foreign_key(new_field))
+             if hasattr(new_field, "remote_field") and getattr(new_field.remote_field, "through", None):
+-                rename_key = (
++                new_field.remote_field.through = self.new_apps.get_model(app_label, model_name)._meta.get_field(field_name).remote_field.through
++            rename_key = (
+                                 new_field.remote_field.through._meta.app_label,
+                                 new_field.remote_field.through._meta.model_name,
+                             )
+```

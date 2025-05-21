@@ -1,0 +1,83 @@
+2025-05-04 19:17:09,779 - INFO - Creating container for sympy__sympy-24102...
+2025-05-04 19:17:09,927 - INFO - Container for sympy__sympy-24102 created: 96ecab13e6f1820e743dc2718b3bfc6c521642a9e8b9afe6574cea9fed7ceadd
+2025-05-04 19:17:10,173 - INFO - Container for sympy__sympy-24102 started: 96ecab13e6f1820e743dc2718b3bfc6c521642a9e8b9afe6574cea9fed7ceadd
+2025-05-04 19:17:10,178 - INFO - Intermediate patch for sympy__sympy-24102 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-24102/patch.diff, now applying to container...
+2025-05-04 19:17:10,349 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 19:17:10,414 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 19:17:10,477 - INFO - >>>>> Applied Patch:
+patching file sympy/parsing/mathematica.py
+patching file sympy/parsing/tests/test_mathematica.py
+patching file sympy/testing/quality_unicode.py
+patch unexpectedly ends in middle of line
+
+2025-05-04 19:17:10,996 - INFO - Git diff before:
+diff --git a/sympy/parsing/mathematica.py b/sympy/parsing/mathematica.py
+index 7ea14ce33a..7bfd5e4bb4 100644
+--- a/sympy/parsing/mathematica.py
++++ b/sympy/parsing/mathematica.py
+@@ -654,7 +654,7 @@ def _from_mathematica_to_tokens(self, code: str):
+             code_splits[i] = code_split
+ 
+         # Tokenize the input strings with a regular expression:
+-        token_lists = [tokenizer.findall(i) if isinstance(i, str) else [i] for i in code_splits]
++        token_lists = [tokenizer.findall(i) if isinstance(i, str) and i.isascii() else [i] for i in code_splits]
+         tokens = [j for i in token_lists for j in i]
+ 
+         # Remove newlines at the beginning
+diff --git a/sympy/parsing/tests/test_mathematica.py b/sympy/parsing/tests/test_mathematica.py
+index f89b532ef1..b6df911f30 100644
+--- a/sympy/parsing/tests/test_mathematica.py
++++ b/sympy/parsing/tests/test_mathematica.py
+@@ -15,6 +15,7 @@ def test_mathematica():
+         'x+y': 'x+y',
+         '355/113': '355/113',
+         '2.718281828': '2.718281828',
++        'Cos(1/2 * π)': 'Cos(π/2)',
+         'Sin[12]': 'sin(12)',
+         'Exp[Log[4]]': 'exp(log(4))',
+         '(x+1)(x+3)': '(x+1)*(x+3)',
+@@ -94,6 +95,7 @@ def test_parser_mathematica_tokenizer():
+     assert chain("+x") == "x"
+     assert chain("-1") == "-1"
+     assert chain("- 3") == "-3"
++    assert chain("α") == "α"
+     assert chain("+Sin[x]") == ["Sin", "x"]
+     assert chain("-Sin[x]") == ["Times", "-1", ["Sin", "x"]]
+     assert chain("x(a+1)") == ["Times", "x", ["Plus", "a", "1"]]
+diff --git a/sympy/testing/quality_unicode.py b/sympy/testing/quality_unicode.py
+index a739097ea5..9c57832a0d 100644
+--- a/sympy/testing/quality_unicode.py
++++ b/sympy/testing/quality_unicode.py
+@@ -48,6 +48,8 @@
+ 
+ unicode_strict_whitelist = [
+     r'*/sympy/parsing/latex/_antlr/__init__.py',
++    # test_mathematica.py uses some unicode for testing Greek characters are working #24055
++    r'*/sympy/parsing/tests/test_mathematica.py',
+ ]
+2025-05-04 19:17:11,004 - INFO - Eval script for sympy__sympy-24102 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-24102/eval.sh; copying to container...
+2025-05-04 19:17:17,581 - INFO - Test runtime: 6.47 seconds
+2025-05-04 19:17:17,585 - INFO - Test output for sympy__sympy-24102 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-24102/test_output.txt
+2025-05-04 19:17:17,662 - INFO - Git diff after:
+diff --git a/sympy/parsing/mathematica.py b/sympy/parsing/mathematica.py
+index 7ea14ce33a..7bfd5e4bb4 100644
+--- a/sympy/parsing/mathematica.py
++++ b/sympy/parsing/mathematica.py
+@@ -654,7 +654,7 @@ def _from_mathematica_to_tokens(self, code: str):
+             code_splits[i] = code_split
+ 
+         # Tokenize the input strings with a regular expression:
+-        token_lists = [tokenizer.findall(i) if isinstance(i, str) else [i] for i in code_splits]
++        token_lists = [tokenizer.findall(i) if isinstance(i, str) and i.isascii() else [i] for i in code_splits]
+         tokens = [j for i in token_lists for j in i]
+ 
+         # Remove newlines at the beginning
+2025-05-04 19:17:17,663 - INFO - Git diff changed after running eval script
+2025-05-04 19:17:17,663 - INFO - Grading answer for sympy__sympy-24102...
+2025-05-04 19:17:17,667 - INFO - report: {'sympy__sympy-24102': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': True, 'tests_status': {'FAIL_TO_PASS': {'success': ['test_mathematica', 'test_parser_mathematica_tokenizer'], 'failure': []}, 'PASS_TO_PASS': {'success': [], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-24102: resolved: True
+2025-05-04 19:17:17,671 - INFO - Attempting to stop container sweb.eval.sympy__sympy-24102.trial_run_corrected_mode_4...
+2025-05-04 19:17:33,373 - INFO - Attempting to remove container sweb.eval.sympy__sympy-24102.trial_run_corrected_mode_4...
+2025-05-04 19:17:33,454 - INFO - Container sweb.eval.sympy__sympy-24102.trial_run_corrected_mode_4 removed.
+2025-05-04 19:17:33,455 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-24102:latest...
+2025-05-04 19:17:33,698 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-24102:latest removed.

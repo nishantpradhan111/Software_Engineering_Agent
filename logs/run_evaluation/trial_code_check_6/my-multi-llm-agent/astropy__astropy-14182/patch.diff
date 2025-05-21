@@ -1,0 +1,31 @@
+```diff
+--- a/astropy/io/ascii/rst.py
++++ b/astropy/io/ascii/rst.py
+@@ -10,7 +10,7 @@
+ 
+ 
+ class RSTHeader(core.BaseHeader):
+-    def __init__(self, cols, auto_format=True):
++    def __init__(self, cols, auto_format=True, header_rows=None):
+         self.auto_format = auto_format
+         self.cols = cols
+ 
+@@ -29,6 +29,8 @@
+         names = [x.name for x in self.cols]
+         out = []
+         if self.header_rows:
++            if not isinstance(self.header_rows, list):
++                raise TypeError('header_rows must be a list')
+             out.extend(self.header_rows)
+         out.append(self.format_line(names))
+         out.append(self.format_line(['=' * len(x) for x in names]))
+@@ -89,7 +91,7 @@
+ 
+ 
+ class RST(core.BasicTable):
+-    _format_name = 'rst'
++    _format_name = 'ascii.rst'
+     _description = 'RestructuredText'
+     header_class = RSTHeader
+     data_class = core.DefaultData
+```

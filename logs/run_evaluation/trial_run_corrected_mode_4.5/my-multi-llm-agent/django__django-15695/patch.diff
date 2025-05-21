@@ -1,0 +1,23 @@
+```diff
+--- a/django/db/migrations/operations/models.py
++++ b/django/db/migrations/operations/models.py
+@@ -957,12 +957,10 @@
+         else:
+             from_model_state = from_state.models[app_label, self.model_name_lower]
+             old_index = from_model_state.get_index_by_name(self.old_name)
+-        except KeyError:
+-            # The index might not exist if it's unnamed.
+-            pass
+-        # Don't alter when the index name is not changed.
+-        if old_index.name == self.new_name:
+-            return
+         except KeyError:
+             # The index might not exist if it's unnamed.
+             pass
++        # Don't alter when the index name is not changed.
++        if old_index.name == self.new_name:
++            return
++
+         to_model_state = to_state.models[app_label, self.model_name_lower]
+         new_index = to_model_state.get_index_by_name(self.new_name)
+```

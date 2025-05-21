@@ -1,0 +1,18 @@
+```diff
+--- a/sympy/physics/units/prefixes.py
++++ b/sympy/physics/units/prefixes.py
+@@ -85,10 +85,9 @@
+ 
+         fact = self.scale_factor * other.scale_factor
+ 
+-        if isinstance(other, Prefix):
+-            if fact == 1:
+-                return S.One
+-            # simplify prefix
++        if fact == 1:
++            return S.One
++        elif isinstance(other, Prefix):
+             for p in PREFIXES:
+                 if PREFIXES[p].scale_factor == fact:
+                     return PREFIXES[p]
+```

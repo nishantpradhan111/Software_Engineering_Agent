@@ -1,0 +1,27 @@
+```diff
+--- a/lib/matplotlib/offsetbox.py
++++ b/lib/matplotlib/offsetbox.py
+@@ -1505,17 +1505,13 @@ def __init__(self, ref_artist, use_blit=False):
+         if not ref_artist.pickable():
+             ref_artist.set_picker(True)
+         self.got_artist = False
+-        self.canvas = self.ref_artist.figure.canvas
++        self.canvas = ref_artist.figure.canvas
+         self._use_blit = use_blit and self.canvas.supports_blit
+         self.cids = [
+             self.canvas.callbacks._connect_picklable(
+                 'pick_event', self.on_pick),
+             self.canvas.callbacks._connect_picklable(
+                 'motion_notify_event', self.on_motion),
+-            self.canvas.callbacks._connect_picklable(
+-                'button_release_event', self.on_release),
+-        ]
+-
+-    # A property, not an attribute, to maintain picklability.
++            self.canvas.callbacks._connect_picklable('button_release_event', self.on_release)]
+     @property
+     def canvas(self): return self.ref_artist.figure.canvas
+-    # A property, not an attribute, to maintain picklability.
+-    canvas = property(lambda self: self.ref_artist.figure.canvas
+-
+```

@@ -1,0 +1,47 @@
+2025-05-11 17:59:24,132 - INFO - Creating container for astropy__astropy-6938...
+2025-05-11 17:59:25,850 - INFO - Container for astropy__astropy-6938 created: ef63bcbe8eba1b0b03fb73941e8bc581e53ce3e0765c2a4caa47122a371ba9a3
+2025-05-11 17:59:27,330 - INFO - Container for astropy__astropy-6938 started: ef63bcbe8eba1b0b03fb73941e8bc581e53ce3e0765c2a4caa47122a371ba9a3
+2025-05-11 17:59:27,348 - INFO - Intermediate patch for astropy__astropy-6938 written to logs/run_evaluation/repopatamus_evalutation_group1/repopotamus/astropy__astropy-6938/patch.diff, now applying to container...
+2025-05-11 17:59:27,790 - INFO - >>>>> Applied Patch:
+Checking patch astropy/io/fits/fitsrec.py...
+Applied patch astropy/io/fits/fitsrec.py cleanly.
+
+2025-05-11 17:59:28,829 - INFO - Git diff before:
+diff --git a/astropy/io/fits/fitsrec.py b/astropy/io/fits/fitsrec.py
+index 574b4073b1..dc1ba304e6 100644
+--- a/astropy/io/fits/fitsrec.py
++++ b/astropy/io/fits/fitsrec.py
+@@ -1261,7 +1261,7 @@ class FITS_rec(np.recarray):
+ 
+         # Replace exponent separator in floating point numbers
+         if 'D' in format:
+-            output_field.replace(encode_ascii('E'), encode_ascii('D'))
++            output_field[:] = chararray.replace(output_field, encode_ascii(b'E'), encode_ascii(b'D'))
+ 
+ 
+ def _get_recarray_field(array, key):
+2025-05-11 17:59:28,834 - INFO - Eval script for astropy__astropy-6938 written to logs/run_evaluation/repopatamus_evalutation_group1/repopotamus/astropy__astropy-6938/eval.sh; copying to container...
+2025-05-11 17:59:44,396 - INFO - Test runtime: 15.41 seconds
+2025-05-11 17:59:44,400 - INFO - Test output for astropy__astropy-6938 written to logs/run_evaluation/repopatamus_evalutation_group1/repopotamus/astropy__astropy-6938/test_output.txt
+2025-05-11 17:59:44,474 - INFO - Git diff after:
+diff --git a/astropy/io/fits/fitsrec.py b/astropy/io/fits/fitsrec.py
+index 574b4073b1..dc1ba304e6 100644
+--- a/astropy/io/fits/fitsrec.py
++++ b/astropy/io/fits/fitsrec.py
+@@ -1261,7 +1261,7 @@ class FITS_rec(np.recarray):
+ 
+         # Replace exponent separator in floating point numbers
+         if 'D' in format:
+-            output_field.replace(encode_ascii('E'), encode_ascii('D'))
++            output_field[:] = chararray.replace(output_field, encode_ascii(b'E'), encode_ascii(b'D'))
+ 
+ 
+ def _get_recarray_field(array, key):
+2025-05-11 17:59:44,475 - INFO - Grading answer for astropy__astropy-6938...
+2025-05-11 17:59:44,480 - INFO - report: {'astropy__astropy-6938': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': True, 'tests_status': {'FAIL_TO_PASS': {'success': ['astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_ascii_table_data', 'astropy/io/fits/tests/test_table.py::TestTableFunctions::test_ascii_table'], 'failure': []}, 'PASS_TO_PASS': {'success': ['astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_sample_file', 'astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_image_create', 'astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_scaled_data', 'astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_scaled_data_auto_rescale', 'astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_uint16_data', 'astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_groups_hdu_data', 'astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_open_with_no_keywords', 'astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_writeto_convenience', 'astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_hdu_writeto', 'astropy/io/fits/tests/test_checksum.py::TestChecksumFunctions::test_datasum_only', 'astropy/io/fits/tests/test_table.py::test_regression_scalar_indexing'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for astropy__astropy-6938: resolved: True
+2025-05-11 17:59:44,484 - INFO - Attempting to stop container sweb.eval.astropy__astropy-6938.repopatamus_evalutation_group1...
+2025-05-11 18:00:00,110 - INFO - Attempting to remove container sweb.eval.astropy__astropy-6938.repopatamus_evalutation_group1...
+2025-05-11 18:00:00,176 - INFO - Container sweb.eval.astropy__astropy-6938.repopatamus_evalutation_group1 removed.
+2025-05-11 18:00:00,176 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.astropy_1776_astropy-6938:latest...
+2025-05-11 18:00:00,267 - INFO - Image swebench/sweb.eval.x86_64.astropy_1776_astropy-6938:latest removed.

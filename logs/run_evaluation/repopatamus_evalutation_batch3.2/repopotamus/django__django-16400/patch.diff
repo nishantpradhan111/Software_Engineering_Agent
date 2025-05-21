@@ -1,0 +1,13 @@
+```diff
+--- a/django/contrib/auth/management/commands/createpermissions.py
++++ b/django/contrib/auth/management/commands/createpermissions.py
+@@ -75,7 +75,7 @@
+     except LookupError:
+         return
+ 
+-    if not router.allow_migrate_model(using, Permission):
++    if not router.allow_migrate_model(Permission, app_label=app_label, database=using):
+         return
+ 
+     # This will hold the permissions we're looking for as
+```

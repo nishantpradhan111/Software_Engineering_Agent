@@ -1,0 +1,32 @@
+```diff
+--- a/django/core/cache/backends/filebased.py
++++ b/django/core/cache/backends/filebased.py
+@@ -91,9 +91,9 @@
+     def has_key(self, key, version=None):
+         fname = self._key_to_file(key, version)
+         try:
+-            with open(fname, "rb") as f:
++            with open(fname, "rb") as f:  # noqa: ASYNC101
+                 return not self._is_expired(f)
+-        return False
++        except FileNotFoundError:
++            return False
+ 
+     def _cull(self):
+         """
+--- a/tests/cache/tests.py
++++ b/tests/cache/tests.py
+@@ -1762,6 +1762,12 @@
+         with open(cache_file, "rb") as fh:
+             self.assertIs(cache._is_expired(fh), True)
+ 
++    def test_has_key_race_handling(self):
++        self.assertIs(cache.add("key", "value"), True)
++        with mock.patch("builtins.open", side_effect=FileNotFoundError) as mocked_open:
++            self.assertIs(cache.has_key("key"), False)
++            mocked_open.assert_called_once()
++
+ 
+ @unittest.skipUnless(RedisCache_params, "Redis backend not configured")
+ @override_settings(
+```

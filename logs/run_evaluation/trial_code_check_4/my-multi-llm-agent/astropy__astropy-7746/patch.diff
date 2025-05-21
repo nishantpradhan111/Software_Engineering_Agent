@@ -1,0 +1,13 @@
+```diff
+--- a/astropy/wcs/wcs.py
++++ b/astropy/wcs/wcs.py
+@@ -1266,7 +1266,7 @@
+                     "a 1-D array for each axis, followed by an origin.")
+  
+             return _return_list_of_arrays(axes, origin)
+-        elif all(len(arg) == 0 for arg in args):
++        elif len(args) > 0 and all(len(arg) == 0 for arg in args):
+             # Return empty lists if input is empty
+             return [[] for i in range(self.wcs.naxis)]
+  
+```

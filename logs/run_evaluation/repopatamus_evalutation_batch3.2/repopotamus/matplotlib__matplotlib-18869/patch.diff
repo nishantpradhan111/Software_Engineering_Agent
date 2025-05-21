@@ -1,0 +1,12 @@
+```diff
+--- a/lib/matplotlib/__init__.py
++++ b/lib/matplotlib/__init__.py
+@@ -138,6 +138,7 @@
+ }"""
+ 
+ 
++version_info = tuple(map(int, re.split(r"[^\d]+", _version.version)[:3]))
+ def __getattr__(name):
+     if name == "__version__":
+         import setuptools_scm
+```

@@ -1,0 +1,2712 @@
+2025-05-04 11:18:03,864 - INFO - Creating container for pylint-dev__pylint-5859...
+2025-05-04 11:18:04,723 - INFO - Container for pylint-dev__pylint-5859 created: f32335a713e7ae03c5990a2c23494bb9e4bae3fe676334f2970f8a0cd2fefca4
+2025-05-04 11:18:04,986 - INFO - Container for pylint-dev__pylint-5859 started: f32335a713e7ae03c5990a2c23494bb9e4bae3fe676334f2970f8a0cd2fefca4
+2025-05-04 11:18:04,994 - INFO - Intermediate patch for pylint-dev__pylint-5859 written to logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/patch.diff, now applying to container...
+2025-05-04 11:18:05,157 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 11:18:05,238 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 11:18:05,307 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-04 11:18:05,307 - INFO - >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+2025-05-04 11:18:05,629 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 11:18:05,629 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,630 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,630 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,630 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,631 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,631 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,631 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,632 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,632 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,632 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,633 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,633 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,633 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,634 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,634 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,634 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,634 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,635 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,635 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,635 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,636 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,636 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,636 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,636 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,637 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,637 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,637 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,638 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,638 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,638 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,639 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,639 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,639 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,640 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,640 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,640 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,641 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,641 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,641 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,641 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,642 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,642 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,642 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,643 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,643 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,643 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,644 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,644 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,644 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,646 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,646 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,646 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,647 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,647 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,647 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,647 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,648 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,648 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,648 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,649 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,649 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,649 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,650 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,650 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,650 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,650 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,651 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,651 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,651 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,652 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,652 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,652 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,653 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,653 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,653 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,654 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,654 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,654 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,654 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,655 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,655 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,655 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,656 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,656 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,656 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,657 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,657 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,657 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,657 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,658 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,658 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,659 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,659 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,659 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,659 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,660 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,660 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,660 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,660 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,661 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,661 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,661 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,662 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,662 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,662 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,662 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,663 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,664 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,664 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,664 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,665 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,665 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,665 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,666 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,666 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,666 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,667 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:05,667 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,007 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 11:18:06,008 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,008 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,008 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,008 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,009 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,009 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,009 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,010 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,010 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,010 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,011 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,011 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,011 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,011 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,012 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,012 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,012 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,012 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,013 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,013 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,013 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,014 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,014 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,014 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,014 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,015 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,015 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,015 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,016 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,016 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,016 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,017 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,017 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,017 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,017 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,018 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,018 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,018 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,018 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,019 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,019 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,019 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,020 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,020 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,020 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,021 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,021 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,021 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,021 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,022 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,022 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,022 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,023 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,023 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,023 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,024 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,024 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,024 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,025 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,025 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,025 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,026 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,026 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,027 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,027 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,027 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,027 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,028 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,028 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,029 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,029 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,029 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,029 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,030 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,030 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,030 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,031 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,031 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,031 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,032 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,032 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,032 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,033 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,033 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,033 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,033 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,034 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,034 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,034 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,034 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,035 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,035 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,035 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,036 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,036 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,036 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,036 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,037 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,037 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,037 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,038 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,038 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,038 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,039 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,039 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,039 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,039 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,040 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,040 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,040 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,041 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,041 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,041 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,042 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,042 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,042 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,043 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,043 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,043 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,043 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,044 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,044 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pylint-dev__pylint-5859: >>>>> Patch Apply Failed:
+patching file pylint/checkers/misc.py
+patch: **** malformed patch at line 25:          with self.assertAddsMessages(
+
+Hunk #1 FAILED at 121.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pylint-dev__pylint-5859/run_instance.log) for more information.
+
+2025-05-04 11:18:06,044 - INFO - Attempting to stop container sweb.eval.pylint-dev__pylint-5859.trial_run_corrected_model_2...
+2025-05-04 11:18:21,500 - INFO - Attempting to remove container sweb.eval.pylint-dev__pylint-5859.trial_run_corrected_model_2...
+2025-05-04 11:18:21,532 - INFO - Container sweb.eval.pylint-dev__pylint-5859.trial_run_corrected_model_2 removed.
+2025-05-04 11:18:21,532 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.pylint-dev_1776_pylint-5859:latest...
+2025-05-04 11:18:22,640 - INFO - Image swebench/sweb.eval.x86_64.pylint-dev_1776_pylint-5859:latest removed.

@@ -1,0 +1,27 @@
+```diff
+--- a/django/db/models/base.py
++++ b/django/db/models/base.py
+@@ -1317,11 +1317,11 @@
+                 if not obj:
+                     continue
+                 # If the related object hasn't been saved, we need to prevent
+-                # the saving of this object, otherwise we'll have a ForeignKey
++                # the saving of this object, otherwise, we'll have a ForeignKey,
+                 # pointing to an object which doesn't exist yet.
+                 if obj._state.adding:
+                     raise ValueError(
+-                        "Cannot assign \"%s\": \"%s\" instance isn't saved yet. "
++                        'Cannot assign "%s": "%s" instance isn\'t saved yet. '
+                         'Save the object before assigning it.' % (obj, obj._meta.model_name)
+                     )
+                 # Check that the related object is of the right type.
+@@ -1329,7 +1329,7 @@
+                     setattr(self, field.attname, obj.pk)
+                 elif not obj._state.adding and getattr(self, field.attname) != obj.pk:
+                     # If the related object's PK was updated, update the
+-                    # FK on this object.
++                    # FK on this object. This is required for non-numeric PKs.
+                     setattr(self, field.attname, obj.pk)
+                 # If the relationship's pk/to_field was changed, clear the
+                 # cached relationship.
+```

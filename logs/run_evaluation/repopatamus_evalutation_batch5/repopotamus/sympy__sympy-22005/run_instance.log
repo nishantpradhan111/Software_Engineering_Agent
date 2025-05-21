@@ -1,0 +1,47 @@
+2025-05-11 21:13:42,834 - INFO - Creating container for sympy__sympy-22005...
+2025-05-11 21:13:43,625 - INFO - Container for sympy__sympy-22005 created: 22f2c3148e9d9e034331d4d9f0392efa64d3af779a0491cfdd2f568b8702e37d
+2025-05-11 21:13:44,678 - INFO - Container for sympy__sympy-22005 started: 22f2c3148e9d9e034331d4d9f0392efa64d3af779a0491cfdd2f568b8702e37d
+2025-05-11 21:13:44,686 - INFO - Intermediate patch for sympy__sympy-22005 written to logs/run_evaluation/repopatamus_evalutation_batch5/repopotamus/sympy__sympy-22005/patch.diff, now applying to container...
+2025-05-11 21:13:44,960 - INFO - >>>>> Applied Patch:
+Checking patch sympy/solvers/polysys.py...
+Applied patch sympy/solvers/polysys.py cleanly.
+
+2025-05-11 21:13:45,756 - INFO - Git diff before:
+diff --git a/sympy/solvers/polysys.py b/sympy/solvers/polysys.py
+index b9809fd4e9..3f2e70f2c5 100644
+--- a/sympy/solvers/polysys.py
++++ b/sympy/solvers/polysys.py
+@@ -240,7 +240,7 @@ def _solve_reduced_system(system, gens, entry=False):
+ 
+         univariate = list(filter(_is_univariate, basis))
+ 
+-        if len(univariate) == 1:
++        if len(univariate) == 1 and len(gens) > 1:
+             f = univariate.pop()
+         else:
+             raise NotImplementedError(filldedent('''
+2025-05-11 21:13:45,762 - INFO - Eval script for sympy__sympy-22005 written to logs/run_evaluation/repopatamus_evalutation_batch5/repopotamus/sympy__sympy-22005/eval.sh; copying to container...
+2025-05-11 21:13:57,300 - INFO - Test runtime: 11.40 seconds
+2025-05-11 21:13:57,303 - INFO - Test output for sympy__sympy-22005 written to logs/run_evaluation/repopatamus_evalutation_batch5/repopotamus/sympy__sympy-22005/test_output.txt
+2025-05-11 21:13:57,366 - INFO - Git diff after:
+diff --git a/sympy/solvers/polysys.py b/sympy/solvers/polysys.py
+index b9809fd4e9..3f2e70f2c5 100644
+--- a/sympy/solvers/polysys.py
++++ b/sympy/solvers/polysys.py
+@@ -240,7 +240,7 @@ def _solve_reduced_system(system, gens, entry=False):
+ 
+         univariate = list(filter(_is_univariate, basis))
+ 
+-        if len(univariate) == 1:
++        if len(univariate) == 1 and len(gens) > 1:
+             f = univariate.pop()
+         else:
+             raise NotImplementedError(filldedent('''
+2025-05-11 21:13:57,366 - INFO - Grading answer for sympy__sympy-22005...
+2025-05-11 21:13:57,369 - INFO - report: {'sympy__sympy-22005': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_solve_poly_system']}, 'PASS_TO_PASS': {'success': ['test_solve_biquadratic', 'test_solve_triangulated'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-22005: resolved: False
+2025-05-11 21:13:57,372 - INFO - Attempting to stop container sweb.eval.sympy__sympy-22005.repopatamus_evalutation_batch5...
+2025-05-11 21:14:12,987 - INFO - Attempting to remove container sweb.eval.sympy__sympy-22005.repopatamus_evalutation_batch5...
+2025-05-11 21:14:13,239 - INFO - Container sweb.eval.sympy__sympy-22005.repopatamus_evalutation_batch5 removed.
+2025-05-11 21:14:13,240 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-22005:latest...
+2025-05-11 21:14:13,614 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-22005:latest removed.

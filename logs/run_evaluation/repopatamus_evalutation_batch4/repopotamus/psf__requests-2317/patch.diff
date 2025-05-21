@@ -1,0 +1,13 @@
+```diff
+--- a/requests/sessions.py
++++ b/requests/sessions.py
+@@ -797,8 +797,6 @@
+         :param cert: (optional) if String, path to ssl client cert file (.pem).
+             If Tuple, ('cert', 'key') pair.
+         """
+-
+-        method = builtin_str(method)
+ 
+         # Create the Request.
+         req = Request(
+```

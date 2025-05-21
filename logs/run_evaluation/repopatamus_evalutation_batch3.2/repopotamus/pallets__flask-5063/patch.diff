@@ -1,0 +1,29 @@
+```diff
+--- a/src/flask/cli.py
++++ b/src/flask/cli.py
+@@ -741,17 +741,14 @@
+         for rule in rules
+     ]
+ 
+-    headers = ("Endpoint", "Methods", "Rule")
++    headers = ("Domain", "Endpoint", "Methods", "Rule")
+     widths = (
+-        max(
+-            len(get_domain(rule)) for rule in rules
+-        ),  # Length of domain/subdomain
++        max(len(get_domain(rule)) for rule in rules),
+         max(len(rule.endpoint) for rule in rules),
+         max(len(methods) for methods in rule_methods),
+-        max(len(current_app.config["SERVER_NAME"] or "") for rule in rules),
+         max(len(rule.rule) for rule in rules),
+     )
+     widths = [max(len(h), w) for h, w in zip(headers, widths)]
+     row = "{{0:<{0}}}  {{1:<{1}}}  {{2:<{2}}}  {{3:<{3}}}".format(*widths)
+ 
+     click.echo(row.format(*headers).strip())
+-    click.echo(row.format(*("-" * width for width in widths)))
++    click.echo(row.format(*("-" * width for width in widths)).strip())
+ 
+     for rule, methods in zip(rules, rule_methods):  # Corrected variable name
+         click.echo(row.format(get_domain(rule), rule.endpoint, methods, rule.rule).rstrip())
+```

@@ -1,0 +1,48 @@
+2025-05-11 11:17:13,162 - INFO - Creating container for django__django-15061...
+2025-05-11 11:17:14,429 - INFO - Container for django__django-15061 created: 9abaecbf74571c160f11ff3df46db12c503f7269fb930aa16e2ee9f6b4700584
+2025-05-11 11:17:14,920 - INFO - Container for django__django-15061 started: 9abaecbf74571c160f11ff3df46db12c503f7269fb930aa16e2ee9f6b4700584
+2025-05-11 11:17:14,926 - INFO - Intermediate patch for django__django-15061 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-15061/patch.diff, now applying to container...
+2025-05-11 11:17:15,221 - INFO - >>>>> Applied Patch:
+Checking patch django/forms/widgets.py...
+Hunk #1 succeeded at 849 (offset -112 lines).
+Applied patch django/forms/widgets.py cleanly.
+
+2025-05-11 11:17:16,434 - INFO - Git diff before:
+diff --git a/django/forms/widgets.py b/django/forms/widgets.py
+index 00c19e2c55..f88cc876c1 100644
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -849,8 +849,6 @@ class MultiWidget(Widget):
+         return context
+ 
+     def id_for_label(self, id_):
+-        if id_:
+-            id_ += '_0'
+         return id_
+ 
+     def value_from_datadict(self, data, files, name):
+2025-05-11 11:17:16,438 - INFO - Eval script for django__django-15061 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-15061/eval.sh; copying to container...
+2025-05-11 11:17:29,757 - INFO - Test runtime: 13.23 seconds
+2025-05-11 11:17:29,762 - INFO - Test output for django__django-15061 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-15061/test_output.txt
+2025-05-11 11:17:29,863 - INFO - Git diff after:
+diff --git a/django/forms/widgets.py b/django/forms/widgets.py
+index 00c19e2c55..f88cc876c1 100644
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -849,8 +849,6 @@ class MultiWidget(Widget):
+         return context
+ 
+     def id_for_label(self, id_):
+-        if id_:
+-            id_ += '_0'
+         return id_
+ 
+     def value_from_datadict(self, data, files, name):
+2025-05-11 11:17:29,864 - INFO - Grading answer for django__django-15061...
+2025-05-11 11:17:29,872 - INFO - report: {'django__django-15061': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_form_as_table (forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest)', 'test_form_as_table_data (forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest)', 'test_form_as_table (forms_tests.field_tests.test_splitdatetimefield.SplitDateTimeFieldTest)']}, 'PASS_TO_PASS': {'success': ['test_bad_choice (forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest)', 'test_clean (forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest)', 'test_clean_disabled_multivalue (forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest)', 'test_disabled_has_changed (forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest)', 'test_form_cleaned_data (forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest)', "Test when the first widget's data has changed.", "Test when the last widget's data has changed. This ensures that it is", 'test_has_changed_no_initial (forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest)', 'test_has_changed_same (forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest)', 'If insufficient data is provided, None is substituted.', 'test_render_required_attributes (forms_tests.field_tests.test_multivaluefield.MultiValueFieldTest)', 'test_splitdatetimefield_1 (forms_tests.field_tests.test_splitdatetimefield.SplitDateTimeFieldTest)', 'test_splitdatetimefield_2 (forms_tests.field_tests.test_splitdatetimefield.SplitDateTimeFieldTest)', 'test_splitdatetimefield_changed (forms_tests.field_tests.test_splitdatetimefield.SplitDateTimeFieldTest)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-15061: resolved: False
+2025-05-11 11:17:29,877 - INFO - Attempting to stop container sweb.eval.django__django-15061.trial_code_check_33...
+2025-05-11 11:17:45,625 - INFO - Attempting to remove container sweb.eval.django__django-15061.trial_code_check_33...
+2025-05-11 11:17:45,700 - INFO - Container sweb.eval.django__django-15061.trial_code_check_33 removed.
+2025-05-11 11:17:45,701 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-15061:latest...
+2025-05-11 11:17:46,638 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-15061:latest removed.

@@ -1,0 +1,31 @@
+```diff
+--- a/django/contrib/admin/utils.py
++++ b/django/contrib/admin/utils.py
+@@ -601,7 +601,7 @@
+     elif isinstance(field, models.DateTimeField):
+         return formats.localize(timezone.template_localtime(value))
+     elif isinstance(field, (models.DateField, models.TimeField)):
+-        return formats.localize(value)
++        return formats.localize(value)
+     elif isinstance(field, models.DecimalField):
+         return formats.number_format(value, field.decimal_places)
+     elif isinstance(field, (models.IntegerField, models.FloatField)):
+@@ -612,7 +612,7 @@
+         return display_for_value(value, empty_value_display)
+ 
+ 
+-def display_for_value(value, empty_value_display, boolean=False):
++def display_for_value(value, empty_value_display, boolean=False):
+     from django.contrib.admin.templatetags.admin_list import _boolean_icon
+ 
+     if boolean:
+@@ -629,7 +629,7 @@
+     elif isinstance(value, (list, tuple)):
+         return ', '.join(str(v) for v in value)
+     else:
+-        return str(value)
++        return str(value)
+ 
+ 
+ class NotRelationField(Exception):
+```

@@ -1,0 +1,28 @@
+```diff
+--- a/sympy/physics/units/systems/unitsystem.py
++++ b/sympy/physics/units/systems/unitsystem.py
+@@ -164,10 +164,8 @@
+             return factor, dimension
+         elif isinstance(expr, Pow):
+             factor, dim = self._collect_factor_and_dimension(expr.base)
+-            exp_factor, exp_dim = self._collect_factor_and_dimension(expr.exp)
+-            if self.get_dimension_system().is_dimensionless(exp_dim):
+-                exp_dim = 1
+-            return factor ** exp_factor, dim ** (exp_factor * exp_dim)
++            if isinstance(expr.exp, (int, float)):
++                return factor ** expr.exp, dim ** expr.exp
++            return factor, dim
+         elif isinstance(expr, Add):
+             factor, dim = self._collect_factor_and_dimension(expr.args[0])
+             for addend in expr.args[1:]:
+@@ -181,8 +179,7 @@
+             return factor, dim
+         elif isinstance(expr, Function):
+             fds = [self._collect_factor_and_dimension(
+-                arg) for arg in expr.args]
+-            return (expr.func(*(f[0] for f in fds)),
++                arg) for arg in expr.args]            return (expr.func(*(f[0] for f in fds)),
+                     *(d[1] for d in fds))
+         elif isinstance(expr, Dimension):
+             return S.One, expr
+```

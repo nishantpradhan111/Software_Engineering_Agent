@@ -1,0 +1,12 @@
+```diff
+--- a/tests/migrations/test_writer.py
++++ b/tests/migrations/test_writer.py
+@@ -392,7 +392,7 @@
+                     nested_cls,
+                     (
+                         "migrations.test_writer.WriterTests.NestedEnum" if cls_name == "NestedEnum" else "migrations.test_writer.WriterTests.NestedChoices",
+-                        {'import migrations.test_writer'},
++                        {'import migrations.test_writer', 'import enum'},
+                     ),
+                 )
+```

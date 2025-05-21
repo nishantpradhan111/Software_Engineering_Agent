@@ -1,0 +1,19 @@
+```diff
+--- a/lib/matplotlib/style/core.py
++++ b/lib/matplotlib/style/core.py
+@@ -241,12 +241,12 @@
+     def __getitem__(self, key):
+         # This is to implement the deprecated seaborn styles.
+         # However, we also need to avoid infinite recursion when the warning
+-        # calls this method again.
+-
+-        return dict.__getitem__(self, key)
++        # calls this method again
+ 
+         if key in _DEPRECATED_SEABORN_STYLES:
+             _api.warn_deprecated("3.6", message=_DEPRECATED_SEABORN_MSG)
+             key = _DEPRECATED_SEABORN_STYLES[key]
+ 
+         return dict.__getitem__(self, key)
++
+```

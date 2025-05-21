@@ -1,0 +1,50 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -257,10 +257,9 @@
+                 )
+             ]
+ 
+-        choice_max_length = 0
+         # Expect [group_name, [value, display]]
++        choice_max_length = 0
+         for choices_group in self.choices:
+-            try:
+                 group_name, group_choices = choices_group
+                 # choices_group is an iterable of choices, but not
+                 # in the form [value, display]
+@@ -270,27 +269,17 @@
+                     not isinstance(group_choices, str) and
+                     all(len(choice) == 2 and is_value(choice[0]) and is_value(choice[1]) for choice in group_choices)
+                 ):
+-                    break
++                    continue
+                 if self.max_length is not None and group_choices:
+                     choice_max_length = max(
+                         choice_max_length,
+                         *(len(value) for value, _ in group_choices if isinstance(value, str)),
+                     )
+-            except (TypeError, ValueError):
+-                # No groups, choices in the form [value, display]
+-                value, human_name = group_name, group_choices
+-                
+-                if not is_value(value) or not is_value(human_name):
+-                    break
+-                if self.max_length is not None and isinstance(value, str):
+-                    choice_max_length = max(choice_max_length, len(value))
+-
+-        # Check stored choices for max length if not specified.
+-            if isinstance(choices_group, str):
+-                break
+-        else:
+-
++
++        # Check stored choices for max length if not specified.
++        if self.choices and not choice_max_length:
++            for value, human_name in self.choices:
++                if isinstance(value, str):
++                    choice_max_length = max(choice_max_length, len(value))
+             if self.max_length is not None and choice_max_length > self.max_length:
+                 return [
+                     checks.Error(
+```

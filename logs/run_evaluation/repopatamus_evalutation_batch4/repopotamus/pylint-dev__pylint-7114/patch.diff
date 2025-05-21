@@ -1,0 +1,23 @@
+```diff
+--- a/pylint/utils/utils.py
++++ b/pylint/utils/utils.py
+@@ -52,13 +52,10 @@
+     dirname = os.path.realpath(os.path.expanduser(filepath))
+     if not os.path.isdir(dirname):
+         dirname = os.path.dirname(dirname)
+-    while True:
+-        if not os.path.exists(os.path.join(dirname, "__init__.py")):
+-            return dirname
+-        old_dirname = dirname
+-        dirname = os.path.dirname(dirname)
+-        if old_dirname == dirname:
++    # Traverse upwards until we find a directory without __init__.py
++    while os.path.exists(os.path.join(dirname, "__init__.py")):
++        new_dirname = os.path.dirname(dirname)
++        if new_dirname == dirname:  # Reached root
+             return os.getcwd()
+-
++        dirname = new_dirname
+     return dirname
+-
+```

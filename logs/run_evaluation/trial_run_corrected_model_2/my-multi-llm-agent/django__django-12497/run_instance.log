@@ -1,0 +1,3202 @@
+2025-05-04 09:40:31,646 - INFO - Creating container for django__django-12497...
+2025-05-04 09:40:31,794 - INFO - Container for django__django-12497 created: afa8b3061527b6de17cd06b8dea03b780e6618cf2d0fe4a1722cd81f47ed1563
+2025-05-04 09:40:32,070 - INFO - Container for django__django-12497 started: afa8b3061527b6de17cd06b8dea03b780e6618cf2d0fe4a1722cd81f47ed1563
+2025-05-04 09:40:32,076 - INFO - Intermediate patch for django__django-12497 written to logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/patch.diff, now applying to container...
+2025-05-04 09:40:32,292 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 09:40:32,377 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 09:40:32,452 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-04 09:40:32,452 - INFO - >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+2025-05-04 09:40:32,782 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 09:40:32,782 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,783 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,783 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,783 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,784 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,784 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,784 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,784 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,785 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,785 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,786 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,786 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,786 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,786 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,787 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,787 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,788 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,788 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,788 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,788 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,789 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,789 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,789 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,790 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,790 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,791 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,791 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,791 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,791 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,792 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,792 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,792 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,792 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,793 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,793 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,793 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,794 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,794 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,794 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,795 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,795 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,795 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,796 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,796 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,796 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,796 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,797 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,797 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,797 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,798 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,798 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,798 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,798 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,799 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,799 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,799 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,799 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,800 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,800 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,800 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,801 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,801 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,801 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,801 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,802 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,802 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,802 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,802 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,803 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,803 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,803 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,804 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,804 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,804 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,804 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,805 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,805 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,805 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,806 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,806 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,806 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,807 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,807 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,807 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,808 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,808 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,809 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,809 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,809 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,810 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,810 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,810 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,810 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,810 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,811 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,811 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,811 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,812 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,812 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,812 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,812 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,813 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,813 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,813 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,813 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,814 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,814 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,814 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,815 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,815 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,815 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,815 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,816 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,816 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,816 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,816 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,817 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,817 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,817 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,818 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,818 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:32,818 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,132 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 09:40:33,133 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,134 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,134 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,140 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,140 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,141 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,142 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,143 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,143 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,143 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,144 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,144 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,144 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,145 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,145 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,145 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,146 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,146 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,147 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,147 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,147 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,148 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,148 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,148 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,148 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,149 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,149 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,149 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,149 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,150 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,150 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,150 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,151 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,151 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,151 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,152 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,152 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,152 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,153 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,153 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,153 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,153 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,154 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,154 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,154 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,154 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,155 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,155 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,155 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,155 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,156 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,156 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,156 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,156 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,157 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,157 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,157 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,157 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,158 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,158 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,158 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,159 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,159 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,159 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,160 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,161 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,161 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,161 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,161 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,162 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,162 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,162 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,162 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,163 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,163 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,163 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,164 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,164 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,165 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,165 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,165 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,165 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,166 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,166 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,166 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,167 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,167 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,167 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,167 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,168 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,168 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,168 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,168 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,169 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,169 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,170 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,170 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,170 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,171 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,171 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,171 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,171 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,172 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,172 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,172 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,173 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,173 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12497: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/related.py
+Hunk #1 FAILED at 1309.
+Hunk #2 FAILED at 1329.
+patch unexpectedly ends in middle of line
+2 out of 2 hunks FAILED -- saving rejects to file django/db/models/fields/related.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-12497/run_instance.log) for more information.
+
+2025-05-04 09:40:33,173 - INFO - Attempting to stop container sweb.eval.django__django-12497.trial_run_corrected_model_2...
+2025-05-04 09:40:48,765 - INFO - Attempting to remove container sweb.eval.django__django-12497.trial_run_corrected_model_2...
+2025-05-04 09:40:48,798 - INFO - Container sweb.eval.django__django-12497.trial_run_corrected_model_2 removed.
+2025-05-04 09:40:48,798 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-12497:latest...
+2025-05-04 09:40:49,330 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-12497:latest removed.

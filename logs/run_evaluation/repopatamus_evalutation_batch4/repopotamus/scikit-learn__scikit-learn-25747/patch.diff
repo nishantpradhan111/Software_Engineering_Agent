@@ -1,0 +1,13 @@
+```diff
+--- a/sklearn/utils/_set_output.py
++++ b/sklearn/utils/_set_output.py
+@@ -44,7 +44,7 @@
+ 
+     pd = check_pandas_support("Setting output container to 'pandas'")
+ 
+-    if isinstance(data_to_wrap, pd.DataFrame):
++    if isinstance(data_to_wrap, (pd.Series, pd.DataFrame)):
+         if columns is not None:
+             data_to_wrap.columns = columns
+         if index is not None:
+```

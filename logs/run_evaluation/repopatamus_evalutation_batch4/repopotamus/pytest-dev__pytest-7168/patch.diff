@@ -1,0 +1,13 @@
+```diff
+--- a/_pytest/_io/saferepr.py
++++ b/_pytest/_io/saferepr.py
+@@ -23,7 +23,7 @@
+         raise
+     except BaseException as exc:
+         exc_info = "unpresentable exception ({})".format(_try_repr_or_str(exc))
+-    return "<[{} raised in repr()] {} object at 0x{:x}>".format(
++    return "<[{} raised in repr()] {} instance at 0x{:x}>".format(
+         exc_info, obj.__class__.__name__, id(obj)
+     )
+ 
+```

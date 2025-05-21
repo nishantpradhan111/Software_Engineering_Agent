@@ -1,0 +1,22 @@
+```diff
+--- a/django/forms/boundfield.py
++++ b/django/forms/boundfield.py
+@@ -96,7 +96,7 @@
+             attrs.setdefault(
+                 "id", self.html_initial_id if only_initial else self.auto_id
+             )
+-        if only_initial and self.html_initial_name in self.form.data:
++        if only_initial and self.html_initial_name in self.form.data and self.form.is_bound:
+             # Propagate the hidden initial value.
+             value = self.form._get_widget_data_value(
+                 self.field.hidden_widget(),
+@@ -104,7 +104,7 @@
+             )
+         else:
+             value = self.value()
+-        return widget.render(
++        return widget.render(            
+             name=self.html_initial_name if only_initial else self.html_name,
+             value=value,
+             attrs=attrs,
+```

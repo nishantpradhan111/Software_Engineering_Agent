@@ -1,0 +1,48 @@
+2025-05-11 20:35:07,654 - INFO - Creating container for scikit-learn__scikit-learn-25747...
+2025-05-11 20:35:08,329 - INFO - Container for scikit-learn__scikit-learn-25747 created: 9bdbd56ff830b6bb9f2616404044d7f425c59b8ee8ba4c5ab0b7ddddf289d7bb
+2025-05-11 20:35:09,087 - INFO - Container for scikit-learn__scikit-learn-25747 started: 9bdbd56ff830b6bb9f2616404044d7f425c59b8ee8ba4c5ab0b7ddddf289d7bb
+2025-05-11 20:35:09,094 - INFO - Intermediate patch for scikit-learn__scikit-learn-25747 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/scikit-learn__scikit-learn-25747/patch.diff, now applying to container...
+2025-05-11 20:35:09,434 - INFO - >>>>> Applied Patch:
+Checking patch sklearn/utils/_set_output.py...
+Hunk #1 succeeded at 52 (offset 8 lines).
+Applied patch sklearn/utils/_set_output.py cleanly.
+
+2025-05-11 20:35:10,033 - INFO - Git diff before:
+diff --git a/sklearn/utils/_set_output.py b/sklearn/utils/_set_output.py
+index 335773c6a..a593b6c31 100644
+--- a/sklearn/utils/_set_output.py
++++ b/sklearn/utils/_set_output.py
+@@ -52,7 +52,7 @@ def _wrap_in_pandas_container(
+ 
+     pd = check_pandas_support("Setting output container to 'pandas'")
+ 
+-    if isinstance(data_to_wrap, pd.DataFrame):
++    if isinstance(data_to_wrap, (pd.Series, pd.DataFrame)):
+         if columns is not None:
+             data_to_wrap.columns = columns
+         if index is not None:
+2025-05-11 20:35:10,038 - INFO - Eval script for scikit-learn__scikit-learn-25747 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/scikit-learn__scikit-learn-25747/eval.sh; copying to container...
+2025-05-11 20:40:07,433 - INFO - Test runtime: 297.25 seconds
+2025-05-11 20:40:07,444 - INFO - Test output for scikit-learn__scikit-learn-25747 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/scikit-learn__scikit-learn-25747/test_output.txt
+2025-05-11 20:40:07,547 - INFO - Git diff after:
+diff --git a/sklearn/utils/_set_output.py b/sklearn/utils/_set_output.py
+index 335773c6a..a593b6c31 100644
+--- a/sklearn/utils/_set_output.py
++++ b/sklearn/utils/_set_output.py
+@@ -52,7 +52,7 @@ def _wrap_in_pandas_container(
+ 
+     pd = check_pandas_support("Setting output container to 'pandas'")
+ 
+-    if isinstance(data_to_wrap, pd.DataFrame):
++    if isinstance(data_to_wrap, (pd.Series, pd.DataFrame)):
+         if columns is not None:
+             data_to_wrap.columns = columns
+         if index is not None:
+2025-05-11 20:40:07,547 - INFO - Grading answer for scikit-learn__scikit-learn-25747...
+2025-05-11 20:40:07,572 - INFO - report: {'scikit-learn__scikit-learn-25747': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['sklearn/utils/tests/test_set_output.py::test_set_output_pandas_keep_index']}, 'PASS_TO_PASS': {'success': ['sklearn/utils/tests/test_set_output.py::test__wrap_in_pandas_container_dense', 'sklearn/utils/tests/test_set_output.py::test__wrap_in_pandas_container_dense_update_columns_and_index', 'sklearn/utils/tests/test_set_output.py::test__wrap_in_pandas_container_error_validation', 'sklearn/utils/tests/test_set_output.py::test__safe_set_output', 'sklearn/utils/tests/test_set_output.py::test_set_output_mixin', 'sklearn/utils/tests/test_set_output.py::test__safe_set_output_error', 'sklearn/utils/tests/test_set_output.py::test_set_output_method', 'sklearn/utils/tests/test_set_output.py::test_set_output_method_error', 'sklearn/utils/tests/test_set_output.py::test__get_output_config', 'sklearn/utils/tests/test_set_output.py::test_get_output_auto_wrap_false', 'sklearn/utils/tests/test_set_output.py::test_auto_wrap_output_keys_errors_with_incorrect_input', 'sklearn/utils/tests/test_set_output.py::test_set_output_mixin_custom_mixin', 'sklearn/utils/tests/test_set_output.py::test__wrap_in_pandas_container_column_errors', 'sklearn/utils/tests/test_set_output.py::test_set_output_mro'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for scikit-learn__scikit-learn-25747: resolved: False
+2025-05-11 20:40:07,577 - INFO - Attempting to stop container sweb.eval.scikit-learn__scikit-learn-25747.repopatamus_evalutation_batch4...
+2025-05-11 20:40:23,362 - INFO - Attempting to remove container sweb.eval.scikit-learn__scikit-learn-25747.repopatamus_evalutation_batch4...
+2025-05-11 20:40:23,456 - INFO - Container sweb.eval.scikit-learn__scikit-learn-25747.repopatamus_evalutation_batch4 removed.
+2025-05-11 20:40:23,457 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.scikit-learn_1776_scikit-learn-25747:latest...
+2025-05-11 20:40:28,097 - INFO - Image swebench/sweb.eval.x86_64.scikit-learn_1776_scikit-learn-25747:latest removed.

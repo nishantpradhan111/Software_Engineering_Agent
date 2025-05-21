@@ -1,0 +1,56 @@
+```diff
+--- a/src/_pytest/junitxml.py
++++ b/src/_pytest/junitxml.py
+@@ -15,6 +15,7 @@
+ import sys
+ import time
+ from datetime import datetime
++import platform
+ 
+ import py
+ 
+@@ -666,6 +667,8 @@ def pytest_sessionfinish(self):\
+             skipped=self.stats["skipped"],\
+             tests=numtests,\
+             time="%.3f" % suite_time_delta,\
++            hostname=platform.node(),
++            # ISO 8601 without timezone
+             timestamp=datetime.fromtimestamp(self.suite_start_time).isoformat(),
+         )
+         logfile.write(Junit.testsuites([suite_node]).unicode(indent=0))
+diff --git a/testing/test_junitxml.py b/testing/test_junitxml.py
++++ b/testing/test_junitxml.py
+@@ -14,6 +14,7 @@
+     def runandparse(self, *args):
+         result = self.runpytest_subprocess(*args)
+         # check that we have generated the file
++        assert os.path.exists(self.tmpdir.join("junit.xml"))
+         dom = JunitXmlDocument(self.tmpdir.join("junit.xml"))
+         return result, dom
+ 
+@@ -139,6 +140,7 @@ def test_xpass():
+         node.assert_attr(name="pytest", errors=1, failures=2, skipped=1, tests=5)
+ 
+     def test_hostname_in_xml(self, testdir):
++        import platform
+         testdir.makepyfile(
+             """
+             def test_pass():
+@@ -150,6 +152,7 @@ def test_hostname_in_xml(self, testdir):
+         node.assert_attr(hostname=platform.node())
+ 
+     def test_timestamp_in_xml(self, testdir):
++        from datetime import datetime
+         testdir.makepyfile(
+             """
+             def test_pass():
+@@ -159,7 +162,7 @@ def test_timestamp_in_xml(self, testdir):
+         start_time = datetime.now()
+         result, dom = runandparse(testdir)
+         node = dom.find_first_by_tag("testsuite")
+-        timestamp = datetime.strptime(node["timestamp"], "%Y-%m-%dT%H:%M:%S.%f")
++        timestamp = datetime.fromisoformat(node["timestamp"])
+         assert start_time <= timestamp < datetime.now()
+ 
+     def test_timing_function(self, testdir):
+```

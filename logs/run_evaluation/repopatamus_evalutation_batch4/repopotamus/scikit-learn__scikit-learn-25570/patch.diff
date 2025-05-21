@@ -1,0 +1,21 @@
+```diff
+--- a/sklearn/compose/_column_transformer.py
++++ b/sklearn/compose/_column_transformer.py
+@@ -604,7 +604,7 @@
+         transformers_ = []
+         self._name_to_fitted_passthrough = {}
+ 
+-        for name, old, column, _ in self._iter():
++        for name, old, column, weight in self._iter():
+             if old == "drop":
+                 trans = "drop"
+             elif old == "passthrough":
+@@ -618,7 +618,6 @@
+                 # so it can be used during transform for set_output.
+                 self._name_to_fitted_passthrough[name] = func_transformer
+             elif _is_empty_column_selection(column):
+-                trans = old
+             else:
+                 trans = next(fitted_transformers)
+             transformers_.append((name, trans, column))
+```

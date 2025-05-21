@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/printing/pretty/pretty.py
++++ b/sympy/printing/pretty/pretty.py
+@@ -626,7 +626,7 @@ def adjust(s, wid=None, how='<^>'):
+             prettyF = prettyForm(*prettySign.right(prettyF))
+ 
+         # adjust baseline of ascii mode sigma with an odd height so that it is
+-        # exactly through the center
++        # exactly through the center.
+         ascii_adjustment = 1 if ascii_mode and sign_height % 2 else 0
+         prettyF.baseline = max_upper + sign_height//2 + ascii_adjustment
+ 
+```

@@ -1,0 +1,17 @@
+```diff
+--- a/django/contrib/admin/options.py
++++ b/django/contrib/admin/options.py
+@@ -2038,10 +2038,10 @@
+     def __init__(self, model, admin_site):
+         self.model = model
+         self.opts = model._meta
+-        self.admin_site = admin_site
++        self.admin_site = admin_site.name
+         super().__init__()
+         if self.verbose_name_plural is None:
+-            if self.verbose_name is None:
++            if self.opts.verbose_name is None:
+                 self.verbose_name_plural = self.model._meta.verbose_name_plural
+             else:
+                 from django.utils.text import format_lazy
+```

@@ -1,0 +1,22 @@
+```
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -1118,7 +1118,7 @@
+ 
+     def check_related_objects(self, field, value, opts):
+         """Check the type of object passed to query relations."""
+-        if field.is_relation:
++        if field.is_relation:
+             # Check that the field and the queryset use the same model in a
+             # query like .filter(author=Author.objects.all()). For example, the
+             # opts would be Author's (from the author field) and value.model
+@@ -1139,7 +1139,7 @@
+ 
+     def check_filterable(self, expression):
+         """Raise an error if expression cannot be used in a WHERE clause."""
+-        if not getattr(expression, 'filterable', True):
++        if hasattr(expression, 'resolve_expression') and not getattr(expression, 'filterable', True):
+             raise NotSupportedError(
+                 expression.__class__.__name__ + ' is disallowed in the filter '
+                 'clause.'
+```

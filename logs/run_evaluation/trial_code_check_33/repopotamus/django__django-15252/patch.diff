@@ -1,0 +1,13 @@
+```diff
+--- a/django/db/migrations/executor.py
++++ b/django/db/migrations/executor.py
+@@ -105,7 +105,7 @@
+         Django first needs to create all project states before a migration is
+         (un)applied and in a second step run all the database operations.
+         """
+-        # The django_migrations table must be present to record applied
++        # The django_migrations table must be present to record applied
+         # migrations.
+         self.recorder.ensure_schema()
+ 
+```

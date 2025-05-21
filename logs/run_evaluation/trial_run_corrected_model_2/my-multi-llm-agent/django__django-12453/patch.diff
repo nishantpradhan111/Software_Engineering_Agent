@@ -1,0 +1,21 @@
+```diff
+--- a/django/db/backends/base/creation.py
++++ b/django/db/backends/base/creation.py
+@@ -126,14 +126,14 @@
+         the serialize_db_to_string() method.
+         """
+         data = StringIO(data)
+-        # Load data in a transaction to handle forward references and cycles.
+         with transaction.atomic(using=self.connection.alias):
+             # Disable constraint checks, because some databases (MySQL) doesn't
+             # support deferred checks.
+             with self.connection.constraint_checks_disabled():
+                 for obj in serializers.deserialize('json', data, using=self.connection.alias):
+                     obj.save()
+-            # Manually check for any invalid keys that might have been added,
++            # Manually check for any invalid foreign keys that might have been
++            # added,
+             # because constraint checks were disabled.
+             self.connection.check_constraints()
+ 
+```

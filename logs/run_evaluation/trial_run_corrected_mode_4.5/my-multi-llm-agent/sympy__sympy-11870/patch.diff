@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/functions/elementary/trigonometric.py
++++ b/sympy/functions/elementary/trigonometric.py
+@@ -400,6 +400,9 @@ def _eval_rewrite_as_csc(self, arg):
+     def _eval_rewrite_as_sec(self, arg):
+         return 1 / sec(arg - S.Pi / 2, evaluate=False)
+ 
++    def _eval_rewrite_as_sinc(self, arg):
++        return arg * sinc(arg, evaluate=False)
++
+     def _eval_conjugate(self):
+         return self.func(self.args[0].conjugate())
+ 
+```

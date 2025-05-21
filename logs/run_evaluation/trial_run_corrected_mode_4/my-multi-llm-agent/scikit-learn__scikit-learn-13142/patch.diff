@@ -1,0 +1,12 @@
+```diff
+--- a/sklearn/mixture/base.py
++++ b/sklearn/mixture/base.py
+@@ -273,6 +273,7 @@ def fit_predict(self, X, y=None):
+         self.n_iter_ = best_n_iter
+         self.lower_bound_ = max_lower_bound
+ 
++        self._set_parameters(best_params)
+         # Always do a final e-step to guarantee that the labels returned by
+         # fit_predict(X) are always consistent with fit(X).predict(X)
+         # for any value of max_iter and tol (and any random_state).
+```

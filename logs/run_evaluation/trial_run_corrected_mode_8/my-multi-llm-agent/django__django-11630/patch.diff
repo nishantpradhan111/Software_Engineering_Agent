@@ -1,0 +1,13 @@
+```diff
+--- a/tests/check_framework/test_model_checks.py
++++ b/tests/check_framework/test_model_checks.py
+@@ -6,7 +6,7 @@
+ from django.test import SimpleTestCase, TestCase, skipUnlessDBFeature
+ from django.test.utils import (
+     isolate_apps, modify_settings, override_settings, override_system_checks,
+-)
++)
+ 
+ 
+ class EmptyRouter:
+```

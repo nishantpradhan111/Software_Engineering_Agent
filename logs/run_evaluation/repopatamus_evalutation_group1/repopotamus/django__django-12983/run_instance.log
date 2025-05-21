@@ -1,0 +1,48 @@
+2025-05-11 18:28:59,476 - INFO - Creating container for django__django-12983...
+2025-05-11 18:29:00,873 - INFO - Container for django__django-12983 created: 08f635e9160c478a1db796a698106de06759024fae260eb3bf3449efa349b92e
+2025-05-11 18:29:01,371 - INFO - Container for django__django-12983 started: 08f635e9160c478a1db796a698106de06759024fae260eb3bf3449efa349b92e
+2025-05-11 18:29:01,377 - INFO - Intermediate patch for django__django-12983 written to logs/run_evaluation/repopatamus_evalutation_group1/repopotamus/django__django-12983/patch.diff, now applying to container...
+2025-05-11 18:29:01,612 - INFO - >>>>> Applied Patch:
+Checking patch django/utils/text.py...
+Hunk #1 succeeded at 403 (offset -50 lines).
+Applied patch django/utils/text.py cleanly.
+
+2025-05-11 18:29:02,871 - INFO - Git diff before:
+diff --git a/django/utils/text.py b/django/utils/text.py
+index fb5f6298c4..c9aba86255 100644
+--- a/django/utils/text.py
++++ b/django/utils/text.py
+@@ -403,7 +403,7 @@ def slugify(value, allow_unicode=False):
+     else:
+         value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
+     value = re.sub(r'[^\w\s-]', '', value.lower()).strip()
+-    return re.sub(r'[-\s]+', '-', value)
++    return re.sub(r'^-+|-+|[-\s]+', '-', value).strip('-')
+ 
+ 
+ def camel_case_to_spaces(value):
+2025-05-11 18:29:02,877 - INFO - Eval script for django__django-12983 written to logs/run_evaluation/repopatamus_evalutation_group1/repopotamus/django__django-12983/eval.sh; copying to container...
+2025-05-11 18:29:12,906 - INFO - Test runtime: 9.92 seconds
+2025-05-11 18:29:12,910 - INFO - Test output for django__django-12983 written to logs/run_evaluation/repopatamus_evalutation_group1/repopotamus/django__django-12983/test_output.txt
+2025-05-11 18:29:12,986 - INFO - Git diff after:
+diff --git a/django/utils/text.py b/django/utils/text.py
+index fb5f6298c4..c9aba86255 100644
+--- a/django/utils/text.py
++++ b/django/utils/text.py
+@@ -403,7 +403,7 @@ def slugify(value, allow_unicode=False):
+     else:
+         value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
+     value = re.sub(r'[^\w\s-]', '', value.lower()).strip()
+-    return re.sub(r'[-\s]+', '-', value)
++    return re.sub(r'^-+|-+|[-\s]+', '-', value).strip('-')
+ 
+ 
+ def camel_case_to_spaces(value):
+2025-05-11 18:29:12,986 - INFO - Grading answer for django__django-12983...
+2025-05-11 18:29:12,990 - INFO - report: {'django__django-12983': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_slugify (utils_tests.test_text.TestUtilsText)']}, 'PASS_TO_PASS': {'success': ['test_compress_sequence (utils_tests.test_text.TestUtilsText)', 'test_format_lazy (utils_tests.test_text.TestUtilsText)', 'test_get_text_list (utils_tests.test_text.TestUtilsText)', 'test_get_valid_filename (utils_tests.test_text.TestUtilsText)', 'test_normalize_newlines (utils_tests.test_text.TestUtilsText)', 'test_phone2numeric (utils_tests.test_text.TestUtilsText)', 'test_smart_split (utils_tests.test_text.TestUtilsText)', 'test_truncate_chars (utils_tests.test_text.TestUtilsText)', 'test_truncate_chars_html (utils_tests.test_text.TestUtilsText)', 'test_truncate_html_words (utils_tests.test_text.TestUtilsText)', 'test_truncate_words (utils_tests.test_text.TestUtilsText)', 'test_unescape_entities (utils_tests.test_text.TestUtilsText)', 'test_unescape_entities_deprecated (utils_tests.test_text.TestUtilsText)', 'test_unescape_string_literal (utils_tests.test_text.TestUtilsText)', 'test_wrap (utils_tests.test_text.TestUtilsText)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-12983: resolved: False
+2025-05-11 18:29:12,993 - INFO - Attempting to stop container sweb.eval.django__django-12983.repopatamus_evalutation_group1...
+2025-05-11 18:29:28,594 - INFO - Attempting to remove container sweb.eval.django__django-12983.repopatamus_evalutation_group1...
+2025-05-11 18:29:28,680 - INFO - Container sweb.eval.django__django-12983.repopatamus_evalutation_group1 removed.
+2025-05-11 18:29:28,682 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-12983:latest...
+2025-05-11 18:29:29,250 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-12983:latest removed.

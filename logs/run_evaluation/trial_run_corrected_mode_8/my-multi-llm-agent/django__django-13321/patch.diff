@@ -1,0 +1,17 @@
+```diff
+--- a/django/contrib/sessions/backends/base.py
++++ b/django/contrib/sessions/backends/base.py
+@@ -122,12 +122,12 @@
+             if settings.DEBUG:
+                 raise
+             logger = logging.getLogger('django.security.SuspiciousSession')
++
+             logger.warning(
+                 'Session data corrupted',
+                 exc_info=True,
+             )
++            return {}
+         except Exception:
+             return self._legacy_decode(session_data)
+         return data
+```

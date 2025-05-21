@@ -1,0 +1,49 @@
+```diff
+--- a/lib/matplotlib/style/core.py
++++ b/lib/matplotlib/style/core.py
+@@ -116,22 +116,9 @@
+     def fix_style(s):
+         if isinstance(s, str):
+             s = style_alias.get(s, s)
+-            if s in [
+-                "seaborn",
+-                "seaborn-bright",
+-                "seaborn-colorblind",
+-                "seaborn-dark",
+-                "seaborn-darkgrid",
+-                "seaborn-dark-palette",
+-                "seaborn-deep",
+-                "seaborn-muted",
+-                "seaborn-notebook",
+-                "seaborn-paper",
+-                "seaborn-pastel",
+-                "seaborn-poster",
+-                "seaborn-talk",
+-                "seaborn-ticks",
+-                "seaborn-white",
+-                "seaborn-whitegrid",
+-            ]:
++            if s in _DEPRECATED_SEABORN_STYLES:
+                 _api.warn_deprecated(
+                     "3.6", message="The seaborn styles shipped by Matplotlib "
+                     "are deprecated since %(since)s, as they no longer "
+@@ -139,7 +126,7 @@
+                     "they will remain available as \'seaborn-v0_8-<style>\'. "
+                     "Alternatively, directly use the seaborn API instead.")
+                 s = s.replace("seaborn", "seaborn-v0_8")
+-        return s
++        return s
+ 
+     for style in map(fix_style, styles):
+         if style in library:
+@@ -258,7 +245,6 @@
+ 
+ 
+ def reload_library():
+-    global library
+-    library = update_user_library(_base_library)
++    library.clear()
++    library.update(update_user_library(_base_library))
+     available[:] = sorted(library.keys())
+-
+```

@@ -1,0 +1,13 @@
+```diff
+--- a/django/db/backends/base/schema.py
++++ b/django/db/backends/base/schema.py
+@@ -591,7 +591,7 @@
+         """
+         if self.connection.features.supports_index_column_ordering:
+             return
+-        if any(order != "" for order in orders):
++        if any(order != '' for order in orders):
+             self.warn(
+                 "Your database does not support index column ordering, so "
+                 "the order_by parameter will be ignored.",
+```

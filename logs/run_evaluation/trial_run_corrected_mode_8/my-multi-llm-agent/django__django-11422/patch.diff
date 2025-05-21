@@ -1,0 +1,15 @@
+```diff
+--- a/django/utils/autoreload.py
++++ b/django/utils/autoreload.py
+@@ -221,6 +221,10 @@
+                 if spec is None:
+                     continue
+                 has_location = hasattr(spec, "has_location") and spec.has_location
++                # Special case for __main__ module when run from a file.
++                if module.__name__ == "__main__" and not has_location and hasattr(module, '__file__'):
++                    yield Path(module.__file__).resolve()
++                    continue
+                 if has_location and spec.origin is not None:
+                     yield Path(spec.origin)
+             except FileNotFoundError:
+```

@@ -1,0 +1,13 @@
+```diff
+--- a/astropy/nddata/mixins/ndarithmetic.py
++++ b/astropy/nddata/mixins/ndarithmetic.py
+@@ -170,7 +170,7 @@
+         if other.mask is not None and self.mask is not None:
+             out_mask = handle_mask(self.mask, other.mask)
+         elif self.mask is not None:
+-            out_mask = deepcopy(self.mask)
++            out_mask = self.mask
+         elif other.mask is not None:
+             out_mask = other.mask
+         else:
+```

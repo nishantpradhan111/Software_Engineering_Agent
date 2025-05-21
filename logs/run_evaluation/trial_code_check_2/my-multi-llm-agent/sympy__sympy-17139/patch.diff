@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/simplify/fu.py
++++ b/sympy/simplify/fu.py
+@@ -501,7 +501,7 @@
+             rv = rv.func(*args)
+ 
+         def _f(rv):
+-            if (rv.exp < 0) == True:
++            if rv.is_Pow and rv.exp.is_Number and rv.exp < 0:
+                 rv = 1/rv
+             return rv
+ 
+
+```

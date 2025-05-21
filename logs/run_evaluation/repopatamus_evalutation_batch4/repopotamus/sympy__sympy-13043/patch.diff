@@ -1,0 +1,22 @@
+```diff
+--- a/sympy/integrals/intpoly.py
++++ b/sympy/integrals/intpoly.py
+@@ -489,7 +489,7 @@
+     >>> from sympy.abc import x, y
+     >>> from sympy.integrals.intpoly import decompose
+     >>> decompose(x**2 + x*y + x + y + x**3*y**2 + y**5)
+-    {1: x + y, 2: x**2 + x*y, 5: x**3*y**2 + y**5}
++    {1: x + y, 2: x**2 + x*y, 5: x**3*y**2 + y**5}
+     >>> decompose(x**2 + x*y + x + y + x**3*y**2 + y**5, True)
+     [x, y, x**2, y**5, x*y, x**3*y**2]
+     """
+@@ -502,7 +502,7 @@
+             symbols = expr.atoms(Symbol)
+             degrees = [(sum(degree_list(monom, *symbols)), monom)
+                        for monom in expr.args]
+-            if separate:
++            if separate:  # Return constituent monomials
+                 return [monom[1] for monom in degrees]
+             else:
+                 for monom in degrees:
+```

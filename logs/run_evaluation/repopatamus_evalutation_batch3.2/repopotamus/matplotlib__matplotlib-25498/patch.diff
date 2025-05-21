@@ -1,0 +1,13 @@
+```diff
+--- a/lib/matplotlib/colorbar.py
++++ b/lib/matplotlib/colorbar.py
+@@ -463,7 +463,7 @@
+         self.mappable = mappable
+         self.set_alpha(mappable.get_alpha())
+         self.cmap = mappable.cmap
+-        if mappable.norm != self.norm:
++        if type(mappable.norm) != type(self.norm):
+             self.norm = mappable.norm
+             self._reset_locator_formatter_scale()
+ 
+```

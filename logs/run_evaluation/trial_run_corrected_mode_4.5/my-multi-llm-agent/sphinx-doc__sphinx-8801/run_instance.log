@@ -1,0 +1,2467 @@
+2025-05-07 20:20:47,035 - INFO - Creating container for sphinx-doc__sphinx-8801...
+2025-05-07 20:20:47,142 - INFO - Container for sphinx-doc__sphinx-8801 created: 7e5ab15d6b03c056bac9dca2bbb9330a5c408e69415c5042a9b152c4330fc04c
+2025-05-07 20:20:47,353 - INFO - Container for sphinx-doc__sphinx-8801 started: 7e5ab15d6b03c056bac9dca2bbb9330a5c408e69415c5042a9b152c4330fc04c
+2025-05-07 20:20:47,367 - INFO - Intermediate patch for sphinx-doc__sphinx-8801 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/patch.diff, now applying to container...
+2025-05-07 20:20:47,547 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-07 20:20:47,615 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-07 20:20:47,679 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-07 20:20:47,679 - INFO - >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+2025-05-07 20:20:47,812 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-07 20:20:47,813 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,813 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,814 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,814 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,814 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,815 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,815 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,815 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,815 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,816 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,816 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,816 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,817 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,817 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,817 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,818 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,818 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,818 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,819 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,819 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,819 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,819 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,820 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,820 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,820 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,821 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,821 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,822 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,823 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,824 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,825 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,825 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,826 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,826 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,826 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,827 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,827 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,827 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,828 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,828 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,828 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,829 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,829 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,830 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,830 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,830 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,831 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,831 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,832 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,832 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,832 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,832 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,833 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,833 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,833 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,834 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,834 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,835 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,835 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,835 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,836 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,836 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,836 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,837 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,837 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,837 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,837 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,838 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,838 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,838 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,839 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,839 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,839 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,840 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,840 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,840 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,841 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,841 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,841 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,842 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,842 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,842 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,843 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,843 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,843 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,844 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,844 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,844 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,845 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,845 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,847 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,847 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,848 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,848 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,849 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,849 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,849 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,850 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,852 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,852 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,852 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,853 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,855 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,857 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,857 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,858 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,859 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,860 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,860 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,860 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,861 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,861 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,862 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,862 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,863 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,863 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,864 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,864 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,864 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,865 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,865 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:47,865 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,105 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-07 20:20:48,105 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,106 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,106 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,106 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,106 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,107 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,107 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,107 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,108 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,108 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,108 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,109 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,109 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,109 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,110 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,110 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,110 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,111 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,111 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,111 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,111 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,111 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,112 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,112 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,112 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,113 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,113 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,113 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,115 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,115 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,115 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,116 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,116 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,116 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,116 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,118 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,118 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,118 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,118 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,119 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,119 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,119 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,119 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,120 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,120 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,120 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,120 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,121 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,121 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,121 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,122 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,122 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,122 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,123 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,123 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,123 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,124 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,124 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,124 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,126 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,126 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,127 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,127 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,127 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,127 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,128 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,128 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,128 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,129 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,129 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,129 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,129 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,130 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,130 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,130 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,130 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,131 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,131 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,131 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,131 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,132 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,132 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,132 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,133 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,133 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,133 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,134 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,134 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,134 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,140 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,140 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,140 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sphinx-doc__sphinx-8801: >>>>> Patch Apply Failed:
+patching file sphinx/ext/autodoc/importer.py
+patch: **** malformed patch at line 43: @@ -319,8 +322,6 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sphinx-doc__sphinx-8801/run_instance.log) for more information.
+
+2025-05-07 20:20:48,141 - INFO - Attempting to stop container sweb.eval.sphinx-doc__sphinx-8801.trial_run_corrected_mode_4.5...
+2025-05-07 20:21:03,833 - INFO - Attempting to remove container sweb.eval.sphinx-doc__sphinx-8801.trial_run_corrected_mode_4.5...
+2025-05-07 20:21:04,164 - INFO - Container sweb.eval.sphinx-doc__sphinx-8801.trial_run_corrected_mode_4.5 removed.
+2025-05-07 20:21:04,166 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sphinx-doc_1776_sphinx-8801:latest...
+2025-05-07 20:21:04,552 - INFO - Image swebench/sweb.eval.x86_64.sphinx-doc_1776_sphinx-8801:latest removed.

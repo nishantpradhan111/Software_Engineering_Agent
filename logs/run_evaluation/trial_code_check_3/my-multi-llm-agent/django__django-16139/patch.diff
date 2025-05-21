@@ -1,0 +1,13 @@
+```diff
+--- a/django/contrib/auth/forms.py
++++ b/django/contrib/auth/forms.py
+@@ -260,7 +260,7 @@
+ 		super().__init__(*args, **kwargs)
+ 		password = self.fields.get("password")
+ 		if password:
+-			password.help_text = password.help_text.format("../password/")
++			password.help_text = password.help_text.format(f"../../{self.instance.pk}/password/")
+ 
+ 	def clean_password(self):
+ 		# Regardless of what the user provides, return the initial value.
+```

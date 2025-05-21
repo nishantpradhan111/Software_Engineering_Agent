@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/core/function.py
++++ b/sympy/core/function.py
+@@ -1710,7 +1710,7 @@
+         return ret
+ 
+     @property
+-    def kind(self):
++    def _kind(self):
+         return self.args[0].kind
+ 
+     def _eval_subs(self, old, new):
+```

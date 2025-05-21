@@ -1,0 +1,28 @@
+```diff
+--- a/django/db/migrations/autodetector.py
++++ b/django/db/migrations/autodetector.py
+@@ -630,18 +630,12 @@
+                     # to_field on the ForeignKey needs updating.
+                     if (
+                         isinstance(new_field, models.ForeignKey)
+-                        and new_field.remote_field.model_name.lower() == related_model_name.lower()
+-                        and new_field.remote_field.field_name == old_field_name
+-                        and old_model_name.lower() == related_model_name.lower()
+-                        or
+-                        isinstance(new_field, models.OneToOneField)
+-                        and new_field.remote_field.model_name.lower() == related_model_name.lower()
+-                        and new_field.remote_field.field_name == old_field_name
++                        or isinstance(new_field, models.OneToOneField)
++                    ) and (
++                        new_field.remote_field.model_name.lower() == old_model_name.lower()
++                        and new_field.remote_field.field_name.lower() == old_field_name.lower()
+                         and new_field.related_model._meta.model_name.lower() == related_model_name.lower()
+                     )
+-
+                         self.renamed_fields.add(
+                             (old_model_name, old_field_name, new_model_name, new_field.name)
+                         )
+-
+                         self.alter_field(key, old_field, new_field)
+                         continue
+```

@@ -1,0 +1,2957 @@
+2025-05-07 19:16:49,529 - INFO - Creating container for django__django-15814...
+2025-05-07 19:16:49,899 - INFO - Container for django__django-15814 created: da4351200c810a1b070183f19c1ae094f32f2c5e59d68ddcf87cc4643b7005ae
+2025-05-07 19:16:50,109 - INFO - Container for django__django-15814 started: da4351200c810a1b070183f19c1ae094f32f2c5e59d68ddcf87cc4643b7005ae
+2025-05-07 19:16:50,114 - INFO - Intermediate patch for django__django-15814 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/patch.diff, now applying to container...
+2025-05-07 19:16:50,251 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-07 19:16:50,310 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-07 19:16:50,377 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-07 19:16:50,378 - INFO - >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+2025-05-07 19:16:50,640 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-07 19:16:50,641 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,641 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,642 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,642 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,642 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,642 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,643 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,643 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,643 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,644 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,644 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,644 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,644 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,644 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,646 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,646 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,646 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,646 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,647 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,647 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,647 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,648 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,648 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,648 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,648 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,649 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,649 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,649 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,649 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,650 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,650 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,650 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,650 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,651 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,651 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,651 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,651 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,652 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,652 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,652 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,652 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,653 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,653 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,653 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,654 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,654 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,654 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,655 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,655 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,655 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,655 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,656 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,656 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,656 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,656 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,657 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,657 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,657 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,657 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,658 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,658 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,658 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,658 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,659 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,659 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,659 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,660 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,660 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,660 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,661 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,661 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,661 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,661 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,662 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,662 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,662 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,662 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,662 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,663 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,663 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,663 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,663 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,664 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,664 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,664 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,664 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,665 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,665 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,665 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,665 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,666 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,666 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,666 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,666 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,667 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,667 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,667 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,668 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,668 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,668 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,668 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,668 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,669 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,669 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,669 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,670 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,670 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,670 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,670 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,671 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,671 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,671 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,671 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,672 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,672 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,672 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,673 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,673 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,940 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-07 19:16:50,941 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,941 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,941 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,941 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,942 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,942 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,942 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,942 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,943 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,943 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,943 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,943 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,944 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,944 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,944 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,945 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,945 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,945 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,946 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,946 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,946 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,946 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,947 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,947 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,947 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,947 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,948 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,948 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,948 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,948 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,949 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,949 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,949 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,949 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,950 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,950 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,950 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,951 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,951 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,951 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,952 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,952 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,952 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,952 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,953 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,953 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,953 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,953 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,954 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,954 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,954 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,954 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,955 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,955 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,955 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,955 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,955 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,956 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,956 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,956 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,957 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,957 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,957 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,958 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,958 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,958 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,958 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,959 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,959 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,959 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,959 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,960 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,960 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,960 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,960 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,961 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,961 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,961 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,962 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,962 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,962 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,963 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,963 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,963 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,964 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,964 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,964 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,964 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,965 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,965 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,965 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,965 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,966 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,966 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,966 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,966 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,967 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,967 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,967 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,967 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,968 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,968 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,968 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,968 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,969 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,969 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,969 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,970 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,970 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,970 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,971 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,971 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,971 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,971 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,971 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,972 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,972 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,972 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,972 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,973 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,973 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,973 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15814: >>>>> Patch Apply Failed:
+patching file django/db/models/sql/query.py
+Hunk #1 succeeded at 748 (offset 3 lines).
+patching file tests/proxy_models/tests.py
+patch: **** malformed patch at line 26:          qs = Issue.objects.select_related("assignee").only("assignee__status")
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-15814/run_instance.log) for more information.
+
+2025-05-07 19:16:50,973 - INFO - Attempting to stop container sweb.eval.django__django-15814.trial_run_corrected_mode_4.5...
+2025-05-07 19:17:06,515 - INFO - Attempting to remove container sweb.eval.django__django-15814.trial_run_corrected_mode_4.5...
+2025-05-07 19:17:06,552 - INFO - Container sweb.eval.django__django-15814.trial_run_corrected_mode_4.5 removed.
+2025-05-07 19:17:06,553 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-15814:latest...
+2025-05-07 19:17:07,093 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-15814:latest removed.

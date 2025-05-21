@@ -1,0 +1,33 @@
+```diff
+--- a/django/utils/autoreload.py
++++ b/django/utils/autoreload.py
+@@ -114,14 +114,13 @@ def iter_modules_and_files(modules, extra_files):
+         # During debugging (with PyDev) the 'typing.io' and 'typing.re' objects
+         # are added to sys.modules, however they are types not modules and so
+         # cause issues here.
+-        if not isinstance(module, ModuleType) or getattr(module, '__spec__', None) is None:
++        if not isinstance(module, ModuleType):
+             continue
+         if module.__name__ == '__main__':
+             # __main__ (usually manage.py) doesn't always have a __spec__ set.
+             # Handle this by falling back to using __file__, resolved below.
+             # See https://docs.python.org/reference/import.html#main-spec
+             sys_file_paths.append(module.__file__)
+-            continue
+         if getattr(module, '__spec__', None) is None:
+             continue
+         spec = module.__spec__
+--- a/tests/utils_tests/test_autoreload.py
++++ b/tests/utils_tests/test_autoreload.py
+@@ -132,8 +132,8 @@
+         del module.__spec__
+         self.assertEqual(autoreload.iter_modules_and_files((module,), frozenset()), frozenset())
+ 
+-+    def test_main_module_is_resolved(self):\n+    def test_main_module_is_resolved(self):
+         main_module = sys.modules['__main__']
+         self.assertFileFound(Path(main_module.__file__))
+-\
++
+ class TestCommonRoots(SimpleTestCase):
+     def test_common_roots(self):
+```

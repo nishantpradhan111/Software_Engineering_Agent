@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/core/power.py
++++ b/sympy/core/power.py
+@@ -114,7 +114,7 @@
+         else:
+             if b is S.One:
+                 return a
+-            if a.is_number and a < 0:
++            if a.is_negative:
+                 return exp(b*log(a))
+             if b is S.Half:
+                 if a.is_nonnegative:
+```

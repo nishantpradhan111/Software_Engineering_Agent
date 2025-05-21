@@ -1,0 +1,18 @@
+```diff
+--- a/pylint/utils/expand_modules.py
++++ b/pylint/utils/expand_modules.py
+@@ -164,12 +164,9 @@
+             for subfilepath in modutils.get_module_files(
+                 os.path.dirname(filepath), ignore_list, list_all=is_namespace
+             ):
+-                if filepath == subfilepath:
+-                    continue
+-                if _is_in_ignore_list_re(
+-                    os.path.basename(subfilepath), ignore_list_re
+-                ) or _is_in_ignore_list_re(subfilepath, ignore_list_paths_re):
++                if (filepath == subfilepath or
++                        _is_ignored_file(subfilepath, ignore_list, ignore_list_re, ignore_list_paths_re)):
+                     continue
+ 
+                 modpath = _modpath_from_file(
+```

@@ -1,0 +1,15 @@
+```diff
+--- a/lib/matplotlib/style/core.py
++++ b/lib/matplotlib/style/core.py
+@@ -235,10 +235,6 @@
+ 
+ 
+ class _StyleLibrary(dict):
+-    def __getitem__(self, key):
+-        # We need to intercept requests for deprecated styles *before* dict's
+-        # getitem, which will raise KeyError.
+-        #
+         # Note that this logic is duplicated in `use`.
+         if key in _DEPRECATED_SEABORN_STYLES:
+             _api.warn_deprecated("3.6", message=_DEPRECATED_SEABORN_MSG)
+```

@@ -1,0 +1,12 @@
+```
+--- a/lib/matplotlib/axis.py
++++ b/lib/matplotlib/axis.py
+@@ -2024,6 +2024,7 @@
+         ticks.
+         """
+         result = self._set_tick_locations(ticks, minor=minor)
++        _api.check_keyword_only(kwargs)
+         if labels is not None:
+             self.set_ticklabels(labels, minor=minor, **kwargs)
+         return result
+```

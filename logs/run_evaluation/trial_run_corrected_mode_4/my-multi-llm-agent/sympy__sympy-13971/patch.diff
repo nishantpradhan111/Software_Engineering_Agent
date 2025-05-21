@@ -1,0 +1,5 @@
+```diff
+--- a/sympy/printing/latex.py
++++ b/sympy/printing/latex.py
+@@ -1657,9 +1657,9 @@ def _print_SeqFormula(self, s):\n         else:\n             printset = tuple(s)\n \n-        return (r"\\left\\["\n+        return (r"\left["\n               + r", ".join(self._print(el) for el in printset)\n-              + r"\\right\\]")\n+              + r"\right]")\n \n     _print_SeqPer = _print_SeqFormula\n     _print_SeqAdd = _print_SeqFormula
+```

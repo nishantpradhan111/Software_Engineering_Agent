@@ -1,0 +1,2957 @@
+2025-05-04 18:18:34,423 - INFO - Creating container for psf__requests-2674...
+2025-05-04 18:18:34,764 - INFO - Container for psf__requests-2674 created: bcad5401bae3515d69337b72ce5777dbaa76995508fb002298791e95d2cf4f38
+2025-05-04 18:18:35,169 - INFO - Container for psf__requests-2674 started: bcad5401bae3515d69337b72ce5777dbaa76995508fb002298791e95d2cf4f38
+2025-05-04 18:18:35,177 - INFO - Intermediate patch for psf__requests-2674 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/patch.diff, now applying to container...
+2025-05-04 18:18:35,454 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 18:18:35,547 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 18:18:35,651 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-04 18:18:35,651 - INFO - >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+2025-05-04 18:18:35,825 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 18:18:35,825 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,826 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,826 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,827 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,828 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,828 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,828 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,829 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,829 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,830 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,830 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,831 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,832 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,832 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,833 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,833 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,833 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,834 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,834 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,834 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,835 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,835 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,835 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,836 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,836 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,837 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,837 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,838 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,838 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,839 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,840 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,840 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,841 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,841 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,842 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,842 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,843 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,843 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,844 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,844 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,844 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,845 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,845 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,845 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,846 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,846 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,847 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,848 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,848 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,848 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,849 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,849 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,850 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,850 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,851 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,851 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,851 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,852 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,852 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,853 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,854 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,854 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,855 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,856 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,856 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,856 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,857 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,857 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,858 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,858 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,858 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,859 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,859 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,860 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,860 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,862 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,862 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,863 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,863 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,864 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,864 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,864 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,865 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,865 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,866 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,866 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,866 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,867 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,867 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,868 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,868 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,869 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,869 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,870 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,870 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,870 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,870 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,871 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,871 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,871 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,872 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,872 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,873 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,873 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,873 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,874 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,875 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,875 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,876 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,876 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,877 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,877 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,878 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,879 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,881 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,882 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,883 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,883 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,884 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,885 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,885 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:35,887 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,050 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 18:18:36,055 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,056 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,057 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,057 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,057 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,058 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,058 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,059 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,059 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,060 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,060 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,061 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,061 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,062 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,062 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,063 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,063 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,063 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,064 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,064 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,065 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,065 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,066 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,066 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,067 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,067 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,068 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,068 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,068 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,069 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,069 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,070 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,070 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,070 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,071 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,072 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,073 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,073 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,074 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,074 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,075 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,077 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,077 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,078 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,078 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,080 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,082 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,082 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,083 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,083 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,085 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,087 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,088 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,088 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,089 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,090 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,090 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,091 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,091 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,093 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,094 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,094 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,094 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,095 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,095 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,095 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,096 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,096 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,097 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,100 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,101 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,101 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,101 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,102 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,102 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,103 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,103 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,103 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,104 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,104 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,105 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,105 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,106 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,106 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,106 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,107 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,107 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,107 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,108 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,108 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,109 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,109 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,109 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,110 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,110 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,111 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,112 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,112 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,112 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,113 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,115 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,115 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,116 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,116 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,118 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,119 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,119 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,120 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,120 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,121 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,121 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,122 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,122 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,123 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,124 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,126 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,126 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-2674: >>>>> Patch Apply Failed:
+patching file requests/adapters.py
+Hunk #1 succeeded at 18 with fuzz 3 (offset 2 lines).
+Hunk #2 FAILED at 419.
+1 out of 2 hunks FAILED -- saving rejects to file requests/adapters.py.rej
+patch unexpectedly ends in middle of line
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/psf__requests-2674/run_instance.log) for more information.
+
+2025-05-04 18:18:36,127 - INFO - Attempting to stop container sweb.eval.psf__requests-2674.trial_run_corrected_mode_4...
+2025-05-04 18:18:52,176 - INFO - Attempting to remove container sweb.eval.psf__requests-2674.trial_run_corrected_mode_4...
+2025-05-04 18:18:52,217 - INFO - Container sweb.eval.psf__requests-2674.trial_run_corrected_mode_4 removed.
+2025-05-04 18:18:52,218 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.psf_1776_requests-2674:latest...
+2025-05-04 18:18:52,328 - INFO - Image swebench/sweb.eval.x86_64.psf_1776_requests-2674:latest removed.

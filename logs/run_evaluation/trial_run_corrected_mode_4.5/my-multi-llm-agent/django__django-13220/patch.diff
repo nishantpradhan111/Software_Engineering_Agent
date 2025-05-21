@@ -1,0 +1,18 @@
+```diff
+--- a/django/core/exceptions.py
++++ b/django/core/exceptions.py
+@@ -193,13 +193,7 @@
+         if hasattr(self, "error_dict"):
+             return hash(tuple(sorted((k, make_hashable(v)) for k, v in self.error_dict.items())))
+         return hash(tuple(sorted(e.message for e in self.error_list)))
+-
+     def __eq__(self, other):
+         if not isinstance(other, ValidationError):
+             return NotImplemented
+         return hash(self) == hash(other)
+-
+-    def __hash__(self):
+-        # Ignore params and messages ordering.
+-        if hasattr(self, 'error_dict'):
+-            return hash(tuple(sorted(make_hashable(self.error_dict))))
+```

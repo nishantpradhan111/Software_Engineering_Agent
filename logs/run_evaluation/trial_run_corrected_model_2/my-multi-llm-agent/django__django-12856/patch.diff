@@ -1,0 +1,26 @@
+```diff
+--- a/django/db/models/base.py
++++ b/django/db/models/base.py
+@@ -1930,17 +1930,15 @@
+                         id='models.W038',
+                     )\
+                 )\
+-            fields = (\
+-                field
+-                for constraint in cls._meta.constraints if isinstance(constraint, UniqueConstraint)\
+-                for field in constraint.fields\
+-            )\
+-            errors.extend(cls._check_local_fields(fields, 'constraints'))
++            for constraint in cls._meta.constraints:
++                if isinstance(constraint, UniqueConstraint):
++                    for field_name in constraint.fields:
++                        if field_name not in cls._meta.fields_map:
++                            errors.append(
++                                Error(
++                                    "'constraints' refers to the nonexistent field '%s'." % field_name,
++                                    obj=cls,
++                                    id='models.E012',
++                                )
++                            )
+         return errors
+```

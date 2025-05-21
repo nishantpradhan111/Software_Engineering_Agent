@@ -1,0 +1,38 @@
+```diff
+--- a/sklearn/isotonic.py
++++ b/sklearn/isotonic.py
+@@ -397,6 +390,24 @@ def transform(self, T):\
+ 
+         return res
+ 
++    def _transform(self, T):
++        """`_transform` is called by both `transform` and `predict` methods.
++
++        Since `transform` is wrapped to output arrays of specific types (e.g.
++        NumPy arrays, pandas DataFrame), we cannot make `predict` call `transform`
++        directly.
++
++        The above behaviour could be changed in the future, if we decide to output
++        other type of arrays when calling `predict`.
++        """
++        if hasattr(self, "X_thresholds_"):
++            dtype = self.X_thresholds_.dtype
++        else:
++            dtype = np.dtype(np.float64)
++        T = np.asarray(T, dtype=dtype)
++
++        return self._PiecewisePLinear(T)
++
+     def transform(self, T):
+         """Transform new data by linear interpolation.
+ 
+@@ -420,7 +431,7 @@ def predict(self, T):
+         y_pred : ndarray of shape (n_samples,)\
+             Transformed data.\
+         """
+-        return self.transform(T)
++        return self._transform(T)
+ 
+     # We implement get_feature_names_out here instead of using
+     # `ClassNamePrefixFeaturesOutMixin`` because `input_features` are ignored.
+```

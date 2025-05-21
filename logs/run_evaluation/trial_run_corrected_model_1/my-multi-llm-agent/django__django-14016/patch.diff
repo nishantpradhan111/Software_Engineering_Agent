@@ -1,0 +1,17 @@
+```diff
+--- a/django/db/models/query_utils.py
++++ b/django/db/models/query_utils.py
+@@ -46,10 +45,10 @@ def _combine(self, other, conn):
+ 
+         # If the other Q() is empty, ignore it and just use `self`.
+         if not other:
+-            return copy.deepcopy(self)
++            return self._clone()
+         # Or if this Q is empty, ignore it and just use `other`.
+         elif not self:
+-            return copy.deepcopy(other)
++            return other._clone()
+ 
+         obj = type(self)()
+         obj.connector = conn
+```

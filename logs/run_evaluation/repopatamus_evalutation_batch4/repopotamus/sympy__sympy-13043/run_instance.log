@@ -1,0 +1,49 @@
+2025-05-11 20:38:38,263 - INFO - Creating container for sympy__sympy-13043...
+2025-05-11 20:38:38,892 - INFO - Container for sympy__sympy-13043 created: fcf7a3a6c7f856953baf7a824a1dbbeb0633777e9f0284ab0122fce0f6047e20
+2025-05-11 20:38:39,235 - INFO - Container for sympy__sympy-13043 started: fcf7a3a6c7f856953baf7a824a1dbbeb0633777e9f0284ab0122fce0f6047e20
+2025-05-11 20:38:39,243 - INFO - Intermediate patch for sympy__sympy-13043 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-13043/patch.diff, now applying to container...
+2025-05-11 20:38:39,502 - INFO - >>>>> Applied Patch:
+Checking patch sympy/integrals/intpoly.py...
+Hunk #1 succeeded at 554 (offset 65 lines).
+Hunk #2 succeeded at 568 (offset 66 lines).
+Applied patch sympy/integrals/intpoly.py cleanly.
+
+2025-05-11 20:38:40,156 - INFO - Git diff before:
+diff --git a/sympy/integrals/intpoly.py b/sympy/integrals/intpoly.py
+index fc72bd206f..e8b6c6bee4 100644
+--- a/sympy/integrals/intpoly.py
++++ b/sympy/integrals/intpoly.py
+@@ -568,7 +568,7 @@ def decompose(expr, separate=False):
+             symbols = expr.atoms(Symbol)
+             degrees = [(sum(degree_list(monom, *symbols)), monom)
+                        for monom in expr.args]
+-            if separate:
++            if separate:  # Return constituent monomials
+                 return [monom[1] for monom in degrees]
+             else:
+                 for monom in degrees:
+2025-05-11 20:38:40,163 - INFO - Eval script for sympy__sympy-13043 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-13043/eval.sh; copying to container...
+2025-05-11 20:38:50,027 - INFO - Test runtime: 9.72 seconds
+2025-05-11 20:38:50,032 - INFO - Test output for sympy__sympy-13043 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-13043/test_output.txt
+2025-05-11 20:38:50,114 - INFO - Git diff after:
+diff --git a/sympy/integrals/intpoly.py b/sympy/integrals/intpoly.py
+index fc72bd206f..e8b6c6bee4 100644
+--- a/sympy/integrals/intpoly.py
++++ b/sympy/integrals/intpoly.py
+@@ -568,7 +568,7 @@ def decompose(expr, separate=False):
+             symbols = expr.atoms(Symbol)
+             degrees = [(sum(degree_list(monom, *symbols)), monom)
+                        for monom in expr.args]
+-            if separate:
++            if separate:  # Return constituent monomials
+                 return [monom[1] for monom in degrees]
+             else:
+                 for monom in degrees:
+2025-05-11 20:38:50,115 - INFO - Grading answer for sympy__sympy-13043...
+2025-05-11 20:38:50,125 - INFO - report: {'sympy__sympy-13043': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_decompose']}, 'PASS_TO_PASS': {'success': ['test_best_origin'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-13043: resolved: False
+2025-05-11 20:38:50,129 - INFO - Attempting to stop container sweb.eval.sympy__sympy-13043.repopatamus_evalutation_batch4...
+2025-05-11 20:39:05,804 - INFO - Attempting to remove container sweb.eval.sympy__sympy-13043.repopatamus_evalutation_batch4...
+2025-05-11 20:39:05,891 - INFO - Container sweb.eval.sympy__sympy-13043.repopatamus_evalutation_batch4 removed.
+2025-05-11 20:39:05,891 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-13043:latest...
+2025-05-11 20:39:06,268 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-13043:latest removed.

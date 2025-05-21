@@ -1,0 +1,26 @@
+```diff
+--- a/requests/utils.py
++++ b/requests/utils.py
+@@ -352,12 +352,15 @@
+ 
+     decoder = codecs.getincrementaldecoder(r.encoding)(errors='replace')
+     for chunk in iterator:
+-        rv = decoder.decode(chunk)
+-        if rv:
+-            yield rv
+-    rv = decoder.decode(b'', final=True)
+-    if rv:
+-        yield rv
++        if isinstance(chunk, bytes):
++            rv = decoder.decode(chunk)
++            if rv:
++                yield rv
++        else:
++            yield chunk
++    final_rv = decoder.decode(b'', final=True)
++    if final_rv:
++        yield final_rv
+ 
+ 
+ def iter_slices(string, slice_length):
+```

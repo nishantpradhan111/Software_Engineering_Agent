@@ -1,0 +1,26 @@
+2025-05-11 10:38:57,813 - INFO - Creating container for django__django-12308...
+2025-05-11 10:38:58,147 - INFO - Container for django__django-12308 created: 696527c3faacf8adf5c50270573b4f7da3b02d15de5e6196b8714fe820e2855b
+2025-05-11 10:38:58,424 - INFO - Container for django__django-12308 started: 696527c3faacf8adf5c50270573b4f7da3b02d15de5e6196b8714fe820e2855b
+2025-05-11 10:38:58,432 - INFO - Intermediate patch for django__django-12308 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-12308/patch.diff, now applying to container...
+2025-05-11 10:38:58,631 - INFO - >>>>> Applied Patch:
+Checking patch django/contrib/admin/utils.py...
+Hunk #1 succeeded at 391 (offset -210 lines).
+Hunk #2 succeeded at 402 (offset -210 lines).
+Hunk #3 succeeded at 420 (offset -209 lines).
+Applied patch django/contrib/admin/utils.py cleanly.
+
+2025-05-11 10:38:59,691 - INFO - Git diff before:
+
+2025-05-11 10:38:59,696 - INFO - Eval script for django__django-12308 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-12308/eval.sh; copying to container...
+2025-05-11 10:39:10,889 - INFO - Test runtime: 11.10 seconds
+2025-05-11 10:39:10,892 - INFO - Test output for django__django-12308 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-12308/test_output.txt
+2025-05-11 10:39:10,979 - INFO - Git diff after:
+
+2025-05-11 10:39:10,980 - INFO - Grading answer for django__django-12308...
+2025-05-11 10:39:10,985 - INFO - report: {'django__django-12308': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_json_display_for_field (admin_utils.tests.UtilsTests)', 'test_label_for_field (admin_utils.tests.UtilsTests)']}, 'PASS_TO_PASS': {'success': ['test_cyclic (admin_utils.tests.NestedObjectsTests)', 'test_non_added_parent (admin_utils.tests.NestedObjectsTests)', 'test_on_delete_do_nothing (admin_utils.tests.NestedObjectsTests)', 'test_queries (admin_utils.tests.NestedObjectsTests)', 'test_relation_on_abstract (admin_utils.tests.NestedObjectsTests)', 'test_siblings (admin_utils.tests.NestedObjectsTests)', 'test_unrelated_roots (admin_utils.tests.NestedObjectsTests)', 'test_flatten (admin_utils.tests.UtilsTests)', 'test_flatten_fieldsets (admin_utils.tests.UtilsTests)', 'test_label_for_field_form_argument (admin_utils.tests.UtilsTests)', 'test_label_for_property (admin_utils.tests.UtilsTests)', 'test_list_display_for_value (admin_utils.tests.UtilsTests)', 'test_list_display_for_value_boolean (admin_utils.tests.UtilsTests)', 'test_null_display_for_field (admin_utils.tests.UtilsTests)', 'test_number_formats_display_for_field (admin_utils.tests.UtilsTests)', 'test_number_formats_with_thousand_separator_display_for_field (admin_utils.tests.UtilsTests)', 'test_quote (admin_utils.tests.UtilsTests)', 'test_related_name (admin_utils.tests.UtilsTests)', 'test_safestring_in_field_label (admin_utils.tests.UtilsTests)', 'test_values_from_lookup_field (admin_utils.tests.UtilsTests)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-12308: resolved: False
+2025-05-11 10:39:10,989 - INFO - Attempting to stop container sweb.eval.django__django-12308.trial_code_check_33...
+2025-05-11 10:39:26,674 - INFO - Attempting to remove container sweb.eval.django__django-12308.trial_code_check_33...
+2025-05-11 10:39:26,752 - INFO - Container sweb.eval.django__django-12308.trial_code_check_33 removed.
+2025-05-11 10:39:26,753 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-12308:latest...
+2025-05-11 10:39:27,382 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-12308:latest removed.

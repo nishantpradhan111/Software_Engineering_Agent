@@ -1,0 +1,2467 @@
+2025-05-04 18:58:37,920 - INFO - Creating container for sympy__sympy-14308...
+2025-05-04 18:58:38,180 - INFO - Container for sympy__sympy-14308 created: 79bc34cd1e8cb2db85ad3ea108ce5f3f7d5ddd4c25b7dd4681888fe78113b67a
+2025-05-04 18:58:38,446 - INFO - Container for sympy__sympy-14308 started: 79bc34cd1e8cb2db85ad3ea108ce5f3f7d5ddd4c25b7dd4681888fe78113b67a
+2025-05-04 18:58:38,451 - INFO - Intermediate patch for sympy__sympy-14308 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/patch.diff, now applying to container...
+2025-05-04 18:58:38,624 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 18:58:38,714 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 18:58:38,790 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-04 18:58:38,791 - INFO - >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+2025-05-04 18:58:39,074 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 18:58:39,075 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,075 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,076 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,076 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,076 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,077 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,078 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,079 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,080 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,081 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,081 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,082 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,083 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,083 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,083 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,084 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,087 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,087 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,088 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,088 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,088 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,089 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,090 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,090 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,091 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,092 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,092 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,092 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,093 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,093 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,094 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,094 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,094 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,095 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,096 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,097 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,098 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,099 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,099 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,100 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,101 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,105 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,110 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,111 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,112 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,112 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,113 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,115 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,116 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,116 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,118 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,118 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,119 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,119 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,120 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,121 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,122 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,122 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,122 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,123 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,123 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,123 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,124 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,124 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,124 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,126 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,126 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,127 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,127 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,128 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,128 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,128 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,129 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,129 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,129 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,130 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,130 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,130 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,131 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,131 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,132 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,132 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,132 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,133 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,133 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,134 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,134 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,140 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,140 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,140 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,141 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,141 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,141 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,142 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,142 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,143 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,143 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,144 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,146 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,148 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,148 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,498 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 18:58:39,498 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,499 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,499 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,499 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,500 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,500 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,500 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,500 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,501 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,501 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,502 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,503 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,503 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,504 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,504 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,504 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,505 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,505 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,505 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,506 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,506 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,506 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,506 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,507 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,507 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,508 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,508 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,508 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,509 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,509 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,509 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,511 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,511 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,511 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,512 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,512 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,512 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,512 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,513 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,513 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,513 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,513 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,515 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,515 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,516 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,516 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,516 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,516 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,517 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,517 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,517 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,517 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,518 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,518 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,518 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,519 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,519 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,519 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,519 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,520 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,520 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,521 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,521 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,522 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,522 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,522 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,525 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,525 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,525 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,525 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,526 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,526 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,526 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,526 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,527 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,527 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,527 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,528 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,528 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,528 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,528 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,529 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,529 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,529 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,530 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,530 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,530 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,530 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,531 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,531 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,531 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,531 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,532 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,532 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,532 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,533 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,533 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,533 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,534 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,534 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,534 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,535 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,535 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,536 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,536 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14308: >>>>> Patch Apply Failed:
+patch: **** malformed patch at line 40: @@ -962,14 +959,10 @@
+
+patching file sympy/printing/pretty/pretty.py
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14308/run_instance.log) for more information.
+
+2025-05-04 18:58:39,536 - INFO - Attempting to stop container sweb.eval.sympy__sympy-14308.trial_run_corrected_mode_4...
+2025-05-04 18:58:55,499 - INFO - Attempting to remove container sweb.eval.sympy__sympy-14308.trial_run_corrected_mode_4...
+2025-05-04 18:58:55,531 - INFO - Container sweb.eval.sympy__sympy-14308.trial_run_corrected_mode_4 removed.
+2025-05-04 18:58:55,532 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-14308:latest...
+2025-05-04 18:58:55,722 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-14308:latest removed.

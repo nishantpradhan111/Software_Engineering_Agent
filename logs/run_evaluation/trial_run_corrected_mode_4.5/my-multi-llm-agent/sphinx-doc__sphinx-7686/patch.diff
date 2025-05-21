@@ -1,0 +1,22 @@
+```diff
+--- a/sphinx/ext/autosummary/generate.py
++++ b/sphinx/ext/autosummary/generate.py
+@@ -18,6 +18,7 @@
+ """
+ 
+ import argparse
++import inspect
+ import locale
+ import os
+ import pkgutil
+@@ -246,7 +247,8 @@ def get_modules(obj: Any) -> Tuple[List[str], List[str]]:
+     ns.update(context)
+ 
+     if doc.objtype == 'module':
+-        ns['members'] = dir(obj)
++        scanner = ModuleScanner(app, obj)
++        imported_members = inspect.getmembers(obj)
+         ns['members'] = scanner.scan(imported_members)
+         ns['functions'], ns['all_functions'] = \
+             get_members(obj, {'function'}, imported=imported_members)
+```

@@ -1,0 +1,78 @@
+```diff
+--- a/django/db/migrations/operations/models.py
++++ b/django/db/migrations/operations/models.py
+@@ -225,10 +225,10 @@
+                         self.name,
+                         fields=[
+                             (n, operation.field if n == operation.name else v)
+-                            for n, v in self.fields
++                            for n, v in self.fields],
++                        options=self.options,
++                        bases=self.bases,
++                        managers=self.managers,
+                         ],
+-                        options=self.options,
+-                        bases=self.bases,
+-                        managers=self.managers,
+                     ),
+                 ]
+             elif isinstance(operation, RemoveField):
+@@ -237,15 +235,13 @@
+                     option = options.pop(option_name, None)
+                     if option:
+                         if option_name in ("unique_together", "index_together"):
+-                            option = set(
+-                                filter(
+-                                    bool,
+-                                    (
+-                                        tuple(
+-                                            f for f in fields if f != operation.name_lower
+-                                        )
+-                                        for fields in option
+-                                    ),
++                            option = {
++                                tuple(
++                                    f
++                                    for f in fields
++                                    if f != operation.name_lower
+                                 )
++                                for fields in option
++                            }
+                         if option:
+                             options[option_name] = option
+                 order_with_respect_to = options.get("order_with_respect_to")
+@@ -254,10 +250,10 @@
+                 return [
+                     CreateModel(
+                         self.name,
+-                        fields=[
+-                            (n, v)
+-                            for n, v in self.fields
+-                            if n.lower() != operation.name_lower
++                        fields=[(n, v)
++                                for n, v in self.fields
++                                if n.lower() != operation.name_lower],
++                        options=options,
+                         options=options,
+                         bases=self.bases,
+                         managers=self.managers,
+@@ -273,7 +269,7 @@
+                                 operation.new_name if f == operation.old_name else f
+                                 for f in fields
+                             )
+-                            for fields in option
++                            for fields in option,
+                         }
+                 order_with_respect_to = options.get("order_with_respect_to")
+                 if order_with_respect_to == operation.old_name:
+@@ -293,10 +289,3 @@
+         return super().reduce(operation, app_label)
+ 
+ 
+-class DeleteModel(ModelOperation):
+-    """Drop a model's table."""
+-
+-    def deconstruct(self):
+-        kwargs = {
+-            "name": self.name,
+```

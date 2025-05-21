@@ -1,0 +1,13 @@
+```diff
+--- a/django/db/migrations/autodetector.py
++++ b/django/db/migrations/autodetector.py
+@@ -421,7 +421,7 @@
+             # Alter unique together first
+             new_name = self.renamed_models.get(model_tuple, model_name)
+             if new_name is None:
+-                self.arrange_for_graph([model_tuple], new_name=new_name)
++                self.arrange_for_graph([model_tuple])
+ 
+     def check_dependency(self, operation, model_tuple):
+         """
+```

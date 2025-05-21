@@ -1,0 +1,13 @@
+```diff
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -1296,7 +1296,7 @@
+         """
+         assert set(change_map).isdisjoint(change_map.values())
+ 
+-        # 1. Update references in "select" (normal columns plus aliases),
++        # 1. Update references in "select" (normal columns plus aliases), "group by" and "where".
+         # "group by" and "where".
+         self.where.relabel_aliases(change_map)
+         if isinstance(self.group_by, tuple):
+```

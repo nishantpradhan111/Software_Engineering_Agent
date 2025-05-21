@@ -1,0 +1,68 @@
+2025-05-11 20:38:29,184 - INFO - Creating container for sympy__sympy-13031...
+2025-05-11 20:38:29,710 - INFO - Container for sympy__sympy-13031 created: a5767f72510e7de822ca7634a2f0dbfea9cb1f62b0aa4dd0229168fad9858acc
+2025-05-11 20:38:30,006 - INFO - Container for sympy__sympy-13031 started: a5767f72510e7de822ca7634a2f0dbfea9cb1f62b0aa4dd0229168fad9858acc
+2025-05-11 20:38:30,013 - INFO - Intermediate patch for sympy__sympy-13031 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-13031/patch.diff, now applying to container...
+2025-05-11 20:38:30,270 - INFO - >>>>> Applied Patch:
+Checking patch sympy/matrices/sparse.py...
+Hunk #2 succeeded at 845 (offset -424 lines).
+Applied patch sympy/matrices/sparse.py cleanly.
+
+2025-05-11 20:38:30,746 - INFO - Git diff before:
+diff --git a/sympy/matrices/sparse.py b/sympy/matrices/sparse.py
+index e6f36cdf35..1e38b44294 100644
+--- a/sympy/matrices/sparse.py
++++ b/sympy/matrices/sparse.py
+@@ -80,7 +80,7 @@ def __new__(cls, *args, **kwargs):
+                             self._smat[(i, j)] = value
+         else:
+             # handle full matrix forms with _handle_creation_inputs
+-            r, c, _list = Matrix._handle_creation_inputs(*args)
++            r, c, _list = Matrix._handle_creation_inputs(*args, **kwargs)
+             self.rows = r
+             self.cols = c
+             for i in range(self.rows):
+@@ -845,9 +845,6 @@ def solve(self, rhs, method='LDL'):
+ 
+ 
+ class MutableSparseMatrix(SparseMatrix, MatrixBase):
+-    @classmethod
+-    def _new(cls, *args, **kwargs):
+-        return cls(*args)
+ 
+     def __setitem__(self, key, value):
+         """Assign value to position designated by key.
+2025-05-11 20:38:30,752 - INFO - Eval script for sympy__sympy-13031 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-13031/eval.sh; copying to container...
+2025-05-11 20:38:40,046 - INFO - Test runtime: 9.18 seconds
+2025-05-11 20:38:40,050 - INFO - Test output for sympy__sympy-13031 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-13031/test_output.txt
+2025-05-11 20:38:40,158 - INFO - Git diff after:
+diff --git a/sympy/matrices/sparse.py b/sympy/matrices/sparse.py
+index e6f36cdf35..1e38b44294 100644
+--- a/sympy/matrices/sparse.py
++++ b/sympy/matrices/sparse.py
+@@ -80,7 +80,7 @@ def __new__(cls, *args, **kwargs):
+                             self._smat[(i, j)] = value
+         else:
+             # handle full matrix forms with _handle_creation_inputs
+-            r, c, _list = Matrix._handle_creation_inputs(*args)
++            r, c, _list = Matrix._handle_creation_inputs(*args, **kwargs)
+             self.rows = r
+             self.cols = c
+             for i in range(self.rows):
+@@ -845,9 +845,6 @@ def solve(self, rhs, method='LDL'):
+ 
+ 
+ class MutableSparseMatrix(SparseMatrix, MatrixBase):
+-    @classmethod
+-    def _new(cls, *args, **kwargs):
+-        return cls(*args)
+ 
+     def __setitem__(self, key, value):
+         """Assign value to position designated by key.
+2025-05-11 20:38:40,159 - INFO - Grading answer for sympy__sympy-13031...
+2025-05-11 20:38:40,167 - INFO - report: {'sympy__sympy-13031': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_sparse_matrix']}, 'PASS_TO_PASS': {'success': ['test_trace', 'test_CL_RL', 'test_errors', 'test_len'], 'failure': ['test_transpose', 'test_add', 'test_sparse_zeros_sparse_eye', 'test_copyin', 'test_sparse_solve']}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-13031: resolved: False
+2025-05-11 20:38:40,171 - INFO - Attempting to stop container sweb.eval.sympy__sympy-13031.repopatamus_evalutation_batch4...
+2025-05-11 20:38:55,652 - INFO - Attempting to remove container sweb.eval.sympy__sympy-13031.repopatamus_evalutation_batch4...
+2025-05-11 20:38:55,716 - INFO - Container sweb.eval.sympy__sympy-13031.repopatamus_evalutation_batch4 removed.
+2025-05-11 20:38:55,717 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-13031:latest...
+2025-05-11 20:38:55,975 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-13031:latest removed.

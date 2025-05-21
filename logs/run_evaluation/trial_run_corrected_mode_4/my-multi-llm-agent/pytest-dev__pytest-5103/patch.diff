@@ -1,0 +1,13 @@
+```diff
+--- a/src/_pytest/assertion/rewrite.py
++++ b/src/_pytest/assertion/rewrite.py
+@@ -974,7 +974,7 @@
+         """
+         visit `ast.Call nodes on 3.4 and below`
+         """
+-        if isinstance(call.func, ast.Name) and call.func.id == "all":
++        if isinstance(call.func, ast.Name) and call.func.id == "all":  # type: ignore[attr-defined]
+             return self._visit_all(call)
+         new_func, func_expl = self.visit(call.func)
+         arg_expls = []
+```

@@ -1,0 +1,24 @@
+```diff
+--- a/astropy/io/ascii/qdp.py
++++ b/astropy/io/ascii/qdp.py
+@@ -65,9 +65,9 @@ def _line_type(line, delimiter=None):
+     """Determine the line type (command, new, data, or comment)."""
+     sep = rf"\\s*{delimiter}\\s*" if delimiter else r"\s+"
+     _decimal_re = r"[-+]?(\d+\.?\d*|\.\d+)([eE][-+]?\d+)?"
+-    _command_re = r"READ|READ\s+TABLE|PLOT|PL|MO|MA|RES|RE|DEF|DE|LW|LINE|COL|CO|TI|LAB|XAX|YAX|MARK|MA"
++    _command_re = r"READ|READ\s+TABLE|PLOT|PL|MO|MA|RES|RE|DEF|DE|LW|LINE|COL|CO|TI|LAB|XAX|YAX|MARK|MA|GRID"
+     _new_re = rf"NO({sep}NO)+"
+-    _data_re = rf"({_decimal_re}|NO|[-+]?nan)({sep}({_decimal_re}|NO|[-+]?nan))*)"
++    _data_re = rf"({_decimal_re}|NO|[-+]?nan)({sep}({_decimal_re}|NO|[-+]?nan))*"
+     _type_re = rf"^\s*((?P<command>{_command_re})|(?P<new>{_new_re})|(?P<data>{_data_re})?)?\s*(\!(?P<comment>.*))?\s*$"
+     _line_type_re = re.compile(_type_re)
+     _line_type_re = re.compile(_type_re, re.IGNORECASE)
+@@ -306,7 +306,7 @@ def _get_tables_from_qdp_file(qdp_file, input_colnames=None, delimiter=None):
+ 
+            values = []
+            for v in line.split(delimiter):\n-                if v == "NO":
++                if v.upper() == "NO":
+                     values.append(np.ma.masked)
+                 else:
+                     # Understand if number is int or float
+```

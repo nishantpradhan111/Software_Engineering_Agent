@@ -1,0 +1,13 @@
+```diff
+--- a/xarray/dataarray.py
++++ b/xarray/dataarray.py
+@@ -899,7 +899,7 @@
+         # pull variables out of datarray
+         data_dict = {}
+         for k in variables:
+-            data_dict[k] = self.sel({variable_dim: k}).squeeze(drop=True)
++            data_dict[k] = self.sel({variable_dim: k}).drop(variable_dim)
+ 
+         # unstacked dataset
+         return Dataset(data_dict)
+```

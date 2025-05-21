@@ -1,0 +1,23 @@
+```diff
+--- a/sklearn/decomposition/kernel_pca.py
++++ b/sklearn/decomposition/kernel_pca.py
+@@ -11,6 +11,7 @@
+ from ..base import BaseEstimator, TransformerMixin, _UnstableOn32BitMixin
+ 
+ 
++
+ def _center_kernel(K):
+     """Center kernel matrix K in feature space.
+ 
+@@ -210,6 +211,10 @@ def _fit_transform(self, K):
+                                                  maxiter=self.max_iter,
+                                                  v0=v0)
+ 
++        # flip eigenvectors' sign to enforce deterministic output
++        self.alphas_, _ = svd_flip(self.alphas_,
++                                   np.empty_like(self.alphas_).T)
++
+         # sort eigenvectors in descending order
+         indices = self.lambdas_.argsort()[::-1]
+         self.lambdas_ = self.lambdas_[indices]
+```

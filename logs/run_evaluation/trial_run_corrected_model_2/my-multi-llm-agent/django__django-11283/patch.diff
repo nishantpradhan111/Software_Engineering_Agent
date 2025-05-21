@@ -1,0 +1,16 @@
+```diff
+--- a/django/contrib/auth/migrations/0011_update_proxy_permissions.py
++++ b/django/contrib/auth/migrations/0011_update_proxy_permissions.py
+@@ -1,10 +1,10 @@
+ import sys
+ 
+ from django.core.management.color import color_style
+-from django.db import migrations, transaction
++from django.db import migrations
+ from django.db.models import Q
+ from django.db.utils import IntegrityError
++from django.db import transaction
+ 
+ WARNING = """
+     A problem arose migrating proxy model permissions for {old} to {new}.
+```

@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/functions/elementary/complexes.py
++++ b/sympy/functions/elementary/complexes.py
+@@ -607,7 +607,7 @@ def eval(cls, arg):
+             if arg2.is_extended_nonnegative:
+                 return arg2
+         if arg.is_extended_real:
+-            return
++            return None
+         # reject result if all new conjugates are just wrappers around
+         # an expression that was already in the arg
+         conj = signsimp(arg.conjugate(), evaluate=False)
+```

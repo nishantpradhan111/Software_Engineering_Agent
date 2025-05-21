@@ -1,0 +1,25 @@
+```diff
+--- a/requests/adapters.py
++++ b/requests/adapters.py
+@@ -16,7 +16,6 @@
+ from . import __version__
+ from .utils import (DEFAULT_CA_BUNDLE_PATH, get_encoding_from_headers,\
+                     prepend_scheme_if_needed, get_auth_from_url, urldefragauth)\
+-from .structures import CaseInsensitiveDict
+ from .packages.urllib3.exceptions import DecodeError
+ from .packages.urllib3.exceptions import ClosedPoolError
+ from .packages.urllib3.exceptions import ConnectTimeoutError
+@@ -420,11 +419,7 @@
+ 
+             raise ConnectionError(e, request=request)
+ 
+-
+         except ClosedPoolError as e:
+             raise ConnectionError(e, request=request)
+ 
+-        except DecodeError as e:
+-            raise ConnectionError(e, request=request)
+-
+         except _ProxyError as e:\
+             raise ProxyError(e)
+```

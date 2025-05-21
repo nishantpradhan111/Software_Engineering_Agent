@@ -1,0 +1,40 @@
+```diff
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -745,6 +745,7 @@ def deferred_to_data(self, target):
+                     cur_model = source.related_model
+                 else:
+                     cur_model = source.remote_field.model
++                cur_model = cur_model._meta.concrete_model
+                 opts = cur_model._meta
+                 # Even if we're "just passing through" this model, we must add
+                 # both the current model's pk and the related reference field
+--- a/tests/proxy_models/tests.py
++++ b/tests/proxy_models/tests.py
+@@ -392,10 +392,20 @@
+         self.assertEqual(p.name, "Elvis Presley")
+ 
+     def test_select_related_only(self):
+-        user = ProxyTrackerUser.objects.create(name="Joe Doe", status="test")
+-        issue = Issue.objects.create(summary="New issue", assignee=user)
+-        qs = Issue.objects.select_related("assignee").only("assignee__status")
+-        self.assertEqual(qs.get(), issue)
++        class CustomModel(models.Model):
++            name = models.CharField(max_length=16)
++
++        class ProxyCustomModel(CustomModel):
++            class Meta:
++                proxy = True
++
++        class AnotherModel(models.Model):
++            custom = models.ForeignKey(
++                ProxyCustomModel, on_delete=models.SET_NULL, null=True, blank=True
++            )
++
++        custom = ProxyCustomModel.objects.create(name="Test")
++        AnotherModel.objects.create(custom=custom)
++        list(AnotherModel.objects.select_related("custom").only("custom__name").all())
+ 
+     def test_eq(self):
+         self.assertEqual(MyPerson(id=100), Person(id=100))
+```

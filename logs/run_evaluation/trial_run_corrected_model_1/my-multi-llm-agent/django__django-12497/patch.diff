@@ -1,0 +1,43 @@
+```diff
+--- a/django/db/models/fields/related.py
++++ b/django/db/models/fields/related.py
+@@ -1309,7 +1309,7 @@ def _check_relationship_model(self, from_model=None, **kwargs):
+                              "through_fields keyword argument.") % (self, from_model_name),\
+                             hint=(\
+                                 'If you want to create a recursive relationship, '\
+-                                'use ForeignKey("%s", symmetrical=False, through="%s").'\
++                                'use ManyToManyField("%s", through="%s").'\
+                             ) % (\
+                                 RECURSIVE_RELATIONSHIP_CONSTANT,\
+                                 relationship_model_name,\
+@@ -1329,7 +1329,7 @@ def _check_relationship_model(self, from_model=None, **kwargs):\
+                             "through_fields keyword argument." % (self, to_model_name),\
+                             hint=(\
+                                 'If you want to create a recursive relationship, '\
+-                                'use ForeignKey("%s", symmetrical=False, through="%s").'\
++                                'use ManyToManyField("%s", through="%s").'\
+                             ) % (\
+                                 RECURSIVE_RELATIONSHIP_CONSTANT,\
+                                 relationship_model_name,\
+--- a/tests/invalid_models_tests/test_relative_fields.py
++++ b/tests/invalid_models_tests/test_relative_fields.py
+@@ -127,7 +127,7 @@
+             person = models.ForeignKey(Person, models.CASCADE)
+             group = models.ForeignKey(Group, models.CASCADE)
+         ])
+-\
++
+     def test_ambiguous_relationship_model(self):
+         class Person(models.Model):
+             pass
+@@ -146,6 +146,7 @@
+                 obj=field,
+                 id='fields.E334',
+             ),
++        ])
+ 
+-    def test_ambiguous_relationship_model_from(self):
++    def test_ambiguous_relationship_model_to(self):
+         class Person(models.Model):
+             pass
+```

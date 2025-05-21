@@ -1,0 +1,28 @@
+```diff
+--- a/sympy/matrices/expressions/blockmatrix.py
++++ b/sympy/matrices/expressions/blockmatrix.py
+@@ -237,16 +237,20 @@
+         # Find row entry
+         orig_i, orig_j = i, j
+         for row_block, numrows in enumerate(self.rowblocksizes):
+-            if (i < numrows) != False:
++            cmp = i < numrows
++            if cmp is True:
+                 break
+             else:
+                 i -= numrows
++            if row_block < self.blockshape[0] - 1 and cmp is not True:
++                return MatrixElement(self, orig_i, orig_j)
+         for col_block, numcols in enumerate(self.colblocksizes):
+-            if (j < numcols) != False:
++            cmp = j < numcols
++            if cmp is True:
+                 break
+             else:
+                 j -= numcols
+-            elif col_block < self.blockshape[1] - 1:
++            if col_block < self.blockshape[1] - 1 and cmp is not True:
+                 return MatrixElement(self, orig_i, orig_j)
+         return self.blocks[row_block, col_block][i, j]
+ 
+```

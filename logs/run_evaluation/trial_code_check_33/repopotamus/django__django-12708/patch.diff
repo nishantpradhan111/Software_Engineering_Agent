@@ -1,0 +1,19 @@
+```diff
+--- a/django/db/backends/base/schema.py
++++ b/django/db/backends/base/schema.py
+@@ -315,12 +315,8 @@
+             model, columns, exclude=meta_constraint_names | meta_index_names,
+             **constraint_kwargs
+         )
+-        if len(constraint_names) != 1:
+-            raise ValueError("Found wrong number (%s) of constraints for %s(%s)" % (
+-                len(constraint_names),
+-                model._meta.db_table,
+-                ", ".join(columns),
+-            ))
++        if not constraint_names:
++            return
+         if constraint_kwargs.get('unique'):
+             # Unique constraint names can be duplicated because
+             # _create_unique_sql() can create a unique index and a unique
+```

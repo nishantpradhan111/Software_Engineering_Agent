@@ -1,0 +1,13 @@
+```diff
+--- a/django/urls/resolvers.py
++++ b/django/urls/resolvers.py
+@@ -669,7 +669,7 @@
+                 # If there are *any* named groups, use those exclusively.
+                 if named_groups:
+                     lookup_kwargs = {
+-                        k: v for (k, v) in matched.groupdict().items() if k in named_groups and v is not None
++                        k: v for (k, v) in matched.groupdict().items() if k in named_groups and v is not None and v != ''
+                     }
+                     lookup_args = ()
+                 # If there are no named groups, use the matching groups as
+```

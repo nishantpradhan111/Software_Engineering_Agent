@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/printing/pycode.py
++++ b/sympy/printing/pycode.py
+@@ -444,6 +444,9 @@
+             func = self._module_format('numpy.array')
+         return "%s(%s)" % (func, self._print(expr.tolist()))
+ 
++    def _print_Identity(self, expr):
++        return self._module_format('numpy.identity') + '(%s)' % self._print(expr.args[0])
++
+     def _print_BlockMatrix(self, expr):
+         return '{0}({1})'.format(self._module_format('numpy.block'),
+                                  self._print(expr.args[0].tolist()))
+```

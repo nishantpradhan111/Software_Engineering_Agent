@@ -1,0 +1,29 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -260,13 +260,12 @@
+                 )\
+             ]\
+ 
+-        choice_max_length = 0
+         # Expect [group_name, [value, display]]
++        choice_max_length = 0
+         for choices_group in self.choices:
+             try:
+                 group_name, group_choices = choices_group
+                 # If group_choices is not an iterable, assume that the
+                 # choices are not grouped.
+-                choice_max_length = 0
+                 if not isinstance(group_choices, Iterable):
+                     break
+                 # Check group choices for invalid structure.
+@@ -274,7 +273,7 @@
+                     for value, human_name in group_choices
+                 ):\
+                     break
+-                if self.max_length is not None and group_choices:
++                if self.max_length is not None:
+                     choice_max_length = max(
+                         choice_max_length,
+                         *(len(value) for value, _ in group_choices if isinstance(value, str)),
+```

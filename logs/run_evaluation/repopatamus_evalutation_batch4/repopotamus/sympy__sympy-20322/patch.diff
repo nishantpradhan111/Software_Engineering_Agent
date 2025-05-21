@@ -1,0 +1,15 @@
+```diff
+--- a/sympy/core/mul.py
++++ b/sympy/core/mul.py
+@@ -1619,8 +1619,8 @@
+         if is_rational:
+             if d is S.One:
+                 return True
+-        if d.is_even:
+-            if d.is_prime:  # literal or symbolic 2
++        if d.is_even is True:
++            if d.is_prime is True:  # literal or symbolic 2
+                 return n.is_even
+             if n.is_odd:
+                 return False  # true even if d = 0
+```

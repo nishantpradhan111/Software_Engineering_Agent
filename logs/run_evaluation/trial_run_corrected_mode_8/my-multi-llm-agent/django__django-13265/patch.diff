@@ -1,0 +1,14 @@
+```diff
+--- a/tests/migrations/test_autodetector.py
++++ b/tests/migrations/test_autodetector.py
+@@ -2163,8 +2163,7 @@
+                 \'unique_together\': [(\'id\', \'_order\')],\n             },\n         )\n \
+ \
++    def test_add_model_order_with_respect_to_index_constraint(self):\n         tests = [\n             (\n                 \'AddIndex\',\n@@ -2193,12 +2192,10 @@
+                 changes = self.get_changes([], [self.book, after])\n                 self.assertNumberMigrations(changes, \'testapp\', 1)\n                 self.assertOperationTypes(changes, \'testapp\', 0, [\n-                    \'CreateModel\',\n-                ])\n-                self.assertOperationTypes(changes, \'testapp\', 0, [\'CreateModel\', operation])\n+                    \'CreateModel\', operation\n+                ])\n                 self.assertOperationAttributes(\n                     changes,\n                     \'testapp\',\n@@ -2208,8 +2205,7 @@
+                     options={\'order_with_respect_to\': \'book\'},\n                 )\n \
+ \
++    def test_set_alter_order_with_respect_to_index_constraint_foo_together(self):\n         tests = [\n             (\n                 \'AddIndex\',\n@@ -2248,8 +2244,7 @@
+                 )\n+                self.assertNumberMigrations(changes, \'testapp\', 1)\n                 self.assertOperationTypes(changes, \'testapp\', 0, [\n-                    \'AlterOrderWithRespectTo\',\n-                ])\n-                self.assertOperationTypes(changes, \'testapp\', 0, [\'AlterOrderWithRespectTo\', operation])\n+                    \'AlterOrderWithRespectTo\', operation\n+                ])\n \
+     def test_alter_model_managers(self):\n         \"\"\"
+```

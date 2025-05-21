@@ -1,0 +1,29 @@
+```diff
+--- a/seaborn/_stats/regression.py
++++ b/seaborn/_stats/regression.py
+@@ -36,10 +36,10 @@
+     # through the organization of the stats subpackage.
+ 
+     order: int = 2
++
+     gridsize: int = 100
+ 
+     # TODO: more general approach to handle missing data
+-    # TODO: move the missing data handling to the GroupBy object
+ 
+     def _fit_predict(self, data):
+ 
+@@ -61,7 +61,9 @@
+     # and then only define __call__ on a base-class of stats with this pattern
+ 
+     def __call__(self, data, groupby, orient, scales):
+-
+-        return groupby.apply(data, self._fit_predict)
++        # TODO: move the missing data handling to the GroupBy object
++        return (
++            groupby
++            .apply(data.dropna(subset=["x", "y"]), self._fit_predict)
++        )
+ 
+
+```

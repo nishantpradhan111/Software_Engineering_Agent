@@ -1,0 +1,17 @@
+```diff
+--- a/sympy/core/numbers.py
++++ b/sympy/core/numbers.py
+@@ -2242,9 +2242,9 @@
+                 if (ne is S.One):
+                     return Rational(self.q, self.p)
+                 if self.is_negative:
+-                    if expt.q != 1:
++                    if expt.q != 1:  # issue 13890
+                         return -(S.NegativeOne)**((expt.p % expt.q) /
+-                                S(expt.q))*Rational(self.q, -self.p)**ne
++                                S(expt.q))*Rational(self.q, -self.p)**ne
+                     else:
+                         return S.NegativeOne**ne*Rational(self.q, -self.p)**ne
+                 else:
+
+```

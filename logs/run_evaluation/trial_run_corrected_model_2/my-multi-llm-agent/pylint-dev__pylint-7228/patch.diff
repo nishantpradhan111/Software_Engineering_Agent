@@ -1,0 +1,25 @@
+```diff
+--- a/pylint/config/argument.py
++++ b/pylint/config/argument.py
+@@ -99,12 +99,12 @@ def _py_version_transformer(value: str) -> tuple[int, ...]:
+     return version
+ 
+ 
+-import re
+-
+ def _regex_transformer(value: str) -> Pattern[str]:
+     """Return `re.compile(value)`."""
+     import re
+ 
++    from argparse import ArgumentTypeError
++
+     try:
+         return re.compile(value)
+     except re.error as e:
+@@ -114,5 +116,4 @@
+         # Example: "Error in provided regular expression: [\\p{Han}a-z_][\\p{Han}a-z0-9_]{2,30}$ beginning at index 1: bad escape \\p"
+ 
+         msg = f"Error in provided regular expression: {value} beginning at index {e.pos}: {e.msg}"
+-
+         raise ArgumentTypeError(msg)
+```

@@ -1,0 +1,13 @@
+```diff
+--- a/pylint/checkers/miscellaneous.py
++++ b/pylint/checkers/miscellaneous.py
+@@ -208,7 +208,7 @@
+                     continue
+ 
+             # emit warnings if necessary
+-            match = self._fixme_pattern.search("#" + comment_text.lower())
++            match = self._fixme_pattern.search("#" + comment_text)
+             if match:
+                 self.add_message(
+                     "fixme",
+```

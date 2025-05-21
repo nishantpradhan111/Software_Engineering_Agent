@@ -1,0 +1,28 @@
+```diff
+--- a/django/contrib/staticfiles/handlers.py
++++ b/django/contrib/staticfiles/handlers.py
+@@ -1,6 +1,6 @@
+ from urllib.parse import urlparse
+ from urllib.request import url2pathname
+ 
++from asgiref.sync import sync_to_async
+ from django.conf import settings
+ from django.contrib.staticfiles import utils
+ from django.contrib.staticfiles.views import serve
+@@ -52,11 +54,10 @@
+         except Http404 as e:
+             return response_for_exception(request, e)
+ 
+-    async def get_response_async(self, request):\
+-        try:\
++    async def get_response_async(self, request):
++        try:
+             return await sync_to_async(self.serve)(request)
+-        except Http404 as e:\
+-            return await sync_to_async(response_for_exception)(request, e)\
++        except Http404 as e:
++            return await sync_to_async(response_for_exception)(request, e)
+ 
+ class StaticFilesHandler(StaticFilesHandlerMixin, WSGIHandler):
+     """
+```

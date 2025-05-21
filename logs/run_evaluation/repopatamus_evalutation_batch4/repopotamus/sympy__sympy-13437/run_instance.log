@@ -1,0 +1,53 @@
+2025-05-11 20:38:48,242 - INFO - Creating container for sympy__sympy-13437...
+2025-05-11 20:38:48,336 - INFO - Container for sympy__sympy-13437 created: 4c890b90fa8c2c9894f2d1cad95929813c88d444c411914f9d503e63f78092c4
+2025-05-11 20:38:48,703 - INFO - Container for sympy__sympy-13437 started: 4c890b90fa8c2c9894f2d1cad95929813c88d444c411914f9d503e63f78092c4
+2025-05-11 20:38:48,710 - INFO - Intermediate patch for sympy__sympy-13437 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-13437/patch.diff, now applying to container...
+2025-05-11 20:38:48,902 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-11 20:38:48,972 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-11 20:38:49,045 - INFO - >>>>> Applied Patch:
+patching file sympy/functions/combinatorial/numbers.py
+Hunk #1 succeeded at 1004 with fuzz 3.
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-11 20:38:49,555 - INFO - Git diff before:
+diff --git a/sympy/functions/combinatorial/numbers.py b/sympy/functions/combinatorial/numbers.py
+index 896729ac87..452e863a20 100644
+--- a/sympy/functions/combinatorial/numbers.py
++++ b/sympy/functions/combinatorial/numbers.py
+@@ -1004,6 +1004,9 @@ class genocchi(Function):
+     >>> from sympy import Symbol
+     >>> from sympy.functions import genocchi
+     >>> [genocchi(n) for n in range(1, 9)]
++        if n.is_negative or n.is_integer is False:
++            raise ValueError("a non-negative integer expected")
++
+     [1, -1, 0, 1, 0, -3, 0, 17]
+     >>> n = Symbol('n', integer=True, positive=True)
+     >>> genocchi(2 * n + 1)
+2025-05-11 20:38:49,560 - INFO - Eval script for sympy__sympy-13437 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-13437/eval.sh; copying to container...
+2025-05-11 20:39:14,557 - INFO - Test runtime: 24.89 seconds
+2025-05-11 20:39:14,562 - INFO - Test output for sympy__sympy-13437 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-13437/test_output.txt
+2025-05-11 20:39:14,651 - INFO - Git diff after:
+diff --git a/sympy/functions/combinatorial/numbers.py b/sympy/functions/combinatorial/numbers.py
+index 896729ac87..452e863a20 100644
+--- a/sympy/functions/combinatorial/numbers.py
++++ b/sympy/functions/combinatorial/numbers.py
+@@ -1004,6 +1004,9 @@ class genocchi(Function):
+     >>> from sympy import Symbol
+     >>> from sympy.functions import genocchi
+     >>> [genocchi(n) for n in range(1, 9)]
++        if n.is_negative or n.is_integer is False:
++            raise ValueError("a non-negative integer expected")
++
+     [1, -1, 0, 1, 0, -3, 0, 17]
+     >>> n = Symbol('n', integer=True, positive=True)
+     >>> genocchi(2 * n + 1)
+2025-05-11 20:39:14,652 - INFO - Grading answer for sympy__sympy-13437...
+2025-05-11 20:39:14,657 - INFO - report: {'sympy__sympy-13437': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_bell']}, 'PASS_TO_PASS': {'success': ['test_bernoulli', 'test_fibonacci', 'test_harmonic', 'test_harmonic_rational', 'test_harmonic_evalf', 'test_harmonic_rewrite_polygamma', 'test_harmonic_rewrite_sum', 'test_euler', 'test_euler_odd', 'test_euler_polynomials', 'test_euler_polynomial_rewrite', 'test_catalan', 'test_genocchi', 'test_nC_nP_nT', 'test_issue_8496'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-13437: resolved: False
+2025-05-11 20:39:14,661 - INFO - Attempting to stop container sweb.eval.sympy__sympy-13437.repopatamus_evalutation_batch4...
+2025-05-11 20:39:30,279 - INFO - Attempting to remove container sweb.eval.sympy__sympy-13437.repopatamus_evalutation_batch4...
+2025-05-11 20:39:30,369 - INFO - Container sweb.eval.sympy__sympy-13437.repopatamus_evalutation_batch4 removed.
+2025-05-11 20:39:30,370 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-13437:latest...
+2025-05-11 20:39:30,710 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-13437:latest removed.

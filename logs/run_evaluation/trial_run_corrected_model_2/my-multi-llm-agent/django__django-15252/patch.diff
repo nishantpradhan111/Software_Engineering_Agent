@@ -1,0 +1,13 @@
+```diff
+--- a/django/db/migrations/executor.py
++++ b/django/db/migrations/executor.py
+@@ -96,7 +96,7 @@ def migrate(self, targets, plan=None, state=None, fake=False, fake_initial=False
+         # The django_migrations table must be present to record applied
+         # migrations, but don't create it if there are no migrations to apply.
+         if not plan:
+-            if not self.recorder.has_table():
++            if not self.recorder.has_table() and not targets:
+                 return self._create_project_state(with_applied_migrations=False)
+         else:
+             self.recorder.ensure_schema()
+```

@@ -1,0 +1,13 @@
+```diff
+--- a/django/contrib/admin/helpers.py
++++ b/django/contrib/admin/helpers.py
+@@ -229,7 +229,7 @@
+             remote_field.model._meta.app_label,
+             remote_field.model._meta.model_name,
+         )
+-        try:
++        try:
+             url = reverse(url_name, args=[quote(remote_obj.pk)])
+             return format_html('<a href="{}">{}</a>', url, remote_obj)
+         except NoReverseMatch:
+```

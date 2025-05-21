@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/matrices/expressions/matrix_expressions.py
++++ b/sympy/matrices/expressions/matrix_expressions.py
+@@ -80,7 +80,7 @@
+         return self.shape[1]
+ 
+     @property
+-    def is_square(self):
++    def is_square(self):  # type: ignore
+         return self.rows == self.cols
+ 
+     def _eval_conjugate(self):
+```

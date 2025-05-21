@@ -1,0 +1,27 @@
+```diff
+--- a/django/conf/__init__.py
++++ b/django/conf/__init__.py
+@@ -116,14 +116,13 @@
+             subpath to STATIC_URL and MEDIA_URL in settings is inconvenient.
+         """
+         # Don't apply prefix to valid URLs.
+-        try:
+-            URLValidator()(value)
+-            return value
+-        except (ValidationError, AttributeError):
+-            pass
+-        # Don't apply prefix to absolute paths.
+-        if value.startswith('/'):
+-            return value
++        if value:
++            try:
++                URLValidator()(value)
++                return value
++            except ValidationError:
++                # Don't apply prefix to absolute paths.
++                if value.startswith('/'):
++                    return value
+         return '%s%s' % (self.SCRIPT_NAME, value)
+ 
+     @property
+```

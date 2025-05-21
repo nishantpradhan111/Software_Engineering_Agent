@@ -1,0 +1,2712 @@
+2025-05-04 09:34:23,101 - INFO - Creating container for django__django-11742...
+2025-05-04 09:34:23,755 - INFO - Container for django__django-11742 created: 3e7da30d66a03934812af2408271bf75481687d05d06a8fc13faafd7c1579652
+2025-05-04 09:34:23,999 - INFO - Container for django__django-11742 started: 3e7da30d66a03934812af2408271bf75481687d05d06a8fc13faafd7c1579652
+2025-05-04 09:34:24,005 - INFO - Intermediate patch for django__django-11742 written to logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/patch.diff, now applying to container...
+2025-05-04 09:34:24,169 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 09:34:24,235 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 09:34:24,305 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-04 09:34:24,306 - INFO - >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+2025-05-04 09:34:24,629 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 09:34:24,629 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,630 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,630 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,630 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,631 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,631 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,632 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,632 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,633 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,633 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,634 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,634 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,635 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,635 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,635 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,636 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,636 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,637 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,637 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,638 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,638 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,639 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,639 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,639 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,640 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,640 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,640 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,641 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,641 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,641 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,642 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,642 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,642 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,643 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,643 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,643 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,644 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,644 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,644 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,645 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,646 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,646 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,646 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,646 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,647 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,647 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,647 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,647 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,648 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,648 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,648 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,649 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,649 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,649 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,650 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,650 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,651 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,651 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,651 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,651 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,652 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,652 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,652 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,653 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,653 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,653 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,654 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,654 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,654 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,655 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,662 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,662 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,662 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,663 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,663 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,663 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,663 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,664 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,664 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,664 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,664 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,665 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,665 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,665 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,665 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,666 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,666 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,666 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,666 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,667 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,667 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,667 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,667 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,668 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,668 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,668 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,669 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,669 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,669 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,670 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,670 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,670 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,671 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,671 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,671 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,672 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,672 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,672 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,673 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,673 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,673 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,674 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,674 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,675 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,675 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,676 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,677 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,677 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:24,677 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,008 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 09:34:25,008 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,009 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,009 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,009 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,010 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,010 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,010 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,010 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,011 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,011 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,011 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,012 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,012 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,012 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,012 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,013 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,013 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,013 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,014 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,014 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,014 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,015 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,015 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,015 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,015 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,016 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,016 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,016 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,017 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,017 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,017 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,018 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,018 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,018 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,018 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,019 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,019 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,020 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,020 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,020 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,021 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,021 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,021 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,021 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,022 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,022 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,022 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,022 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,023 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,023 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,024 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,024 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,024 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,024 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,025 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,025 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,025 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,026 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,026 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,026 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,027 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,027 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,027 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,028 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,028 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,028 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,029 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,029 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,029 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,029 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,030 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,030 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,030 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,030 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,031 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,031 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,032 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,032 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,032 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,033 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,033 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,033 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,033 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,034 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,034 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,034 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,035 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,035 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,035 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,035 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,036 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,036 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,036 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,036 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,037 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,037 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,037 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,038 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,038 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,038 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,038 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,039 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,039 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,039 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,039 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,039 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,040 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,040 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,040 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,040 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,041 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,041 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,041 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,042 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,042 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,042 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,042 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,043 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,043 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,043 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,044 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,044 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11742: >>>>> Patch Apply Failed:
+patching file django/db/models/fields/__init__.py
+patch: **** malformed patch at line 27:                          "max_length (%s) is too small to fit choices." % self.max_length,
+
+Hunk #1 FAILED at 276.
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/django__django-11742/run_instance.log) for more information.
+
+2025-05-04 09:34:25,045 - INFO - Attempting to stop container sweb.eval.django__django-11742.trial_run_corrected_model_2...
+2025-05-04 09:34:40,826 - INFO - Attempting to remove container sweb.eval.django__django-11742.trial_run_corrected_model_2...
+2025-05-04 09:34:41,221 - INFO - Container sweb.eval.django__django-11742.trial_run_corrected_model_2 removed.
+2025-05-04 09:34:41,221 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-11742:latest...
+2025-05-04 09:34:42,471 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-11742:latest removed.

@@ -1,0 +1,15 @@
+```diff
+--- a/django/db/migrations/autodetector.py
++++ b/django/db/migrations/autodetector.py
+@@ -931,8 +931,9 @@ def generate_altered_fields(self):\
+                         # Repoint both model and field name because to_field
+                         # inclusion in ForeignKey.deconstruct() is based on
+                         # both.\
+-                        new_field.remote_field.model = old_field.remote_field.model
+                         new_field.remote_field.field_name = old_field.remote_field.field_name
++                        new_field.remote_field.model = old_field.remote_field.model
++                        # Also update model name in case of renaming to a
+                         # different model.
+                         new_field.remote_field.model_name = old_field.remote_field.model_name
+                 # Handle ForeignObjects which can have multiple from_fields/to_fields.
+```

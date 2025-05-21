@@ -1,0 +1,21 @@
+```diff
+--- a/django/db/models/fields/related.py
++++ b/django/db/models/fields/related.py
+@@ -1310,7 +1310,7 @@
+                              hint=(
+                                  'If you want to create a recursive relationship, '
+ -                                'use ForeignKey("%s", symmetrical=False, through="%s").'
++                                'use ManyToManyField("%s", through="%s").'
+                              ) % (
+                                  RECURSIVE_RELATIONSHIP_CONSTANT,
+                                  relationship_model_name,
+@@ -1330,7 +1330,7 @@
+                             "through_fields keyword argument." % (self, to_model_name),
+                             hint=(
+                                 'If you want to create a recursive relationship, '
+-                                'use ForeignKey("%s", symmetrical=False, through="%s").'
++                                'use ManyToManyField("%s", through="%s").'
+                             ) % (
+                                 RECURSIVE_RELATIONSHIP_CONSTANT,
+                                 relationship_model_name,
+```

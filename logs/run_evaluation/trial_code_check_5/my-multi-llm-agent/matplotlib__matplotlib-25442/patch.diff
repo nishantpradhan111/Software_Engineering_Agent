@@ -1,0 +1,13 @@
+```diff
+--- a/lib/matplotlib/offsetbox.py
++++ b/lib/matplotlib/offsetbox.py
+@@ -1565,7,7 @@
+ 
+     def disconnect(self):
+         if self._cid is not None:
+-            self.canvas.mpl_disconnect(cid)
++            self.canvas.mpl_disconnect(self._cid)
+         self._cid = None
+ 
+     def _check_still_parented(self):
+```

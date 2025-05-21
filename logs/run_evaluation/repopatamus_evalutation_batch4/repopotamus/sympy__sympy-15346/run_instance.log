@@ -1,0 +1,56 @@
+2025-05-11 20:41:18,443 - INFO - Creating container for sympy__sympy-15346...
+2025-05-11 20:41:18,756 - INFO - Container for sympy__sympy-15346 created: 98a747af138aedd7acbccdebe1cc6c6c944c48046c3a04ed81d5410d6e697e60
+2025-05-11 20:41:19,062 - INFO - Container for sympy__sympy-15346 started: 98a747af138aedd7acbccdebe1cc6c6c944c48046c3a04ed81d5410d6e697e60
+2025-05-11 20:41:19,069 - INFO - Intermediate patch for sympy__sympy-15346 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-15346/patch.diff, now applying to container...
+2025-05-11 20:41:19,294 - INFO - >>>>> Applied Patch:
+Checking patch sympy/simplify/trigsimp.py...
+Hunk #1 succeeded at 331 (offset -75 lines).
+Applied patch sympy/simplify/trigsimp.py cleanly.
+
+2025-05-11 20:41:19,877 - INFO - Git diff before:
+diff --git a/sympy/simplify/trigsimp.py b/sympy/simplify/trigsimp.py
+index 8ba346adbe..d477daa5ee 100644
+--- a/sympy/simplify/trigsimp.py
++++ b/sympy/simplify/trigsimp.py
+@@ -331,10 +331,10 @@ def analyse_gens(gens, hints):
+ 
+         # Add generators for compound expressions from iterables
+         for fn, args in iterables:
+-            if fn == tan:
++            if fn is tan:
+                 # Tan expressions are recovered from sin and cos.
+                 iterables.extend([(sin, args), (cos, args)])
+-            elif fn == tanh:
++            if fn is tanh:
+                 # Tanh expressions are recovered from sihn and cosh.
+                 iterables.extend([(sinh, args), (cosh, args)])
+             else:
+2025-05-11 20:41:19,884 - INFO - Eval script for sympy__sympy-15346 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-15346/eval.sh; copying to container...
+2025-05-11 20:43:12,914 - INFO - Test runtime: 112.88 seconds
+2025-05-11 20:43:12,928 - INFO - Test output for sympy__sympy-15346 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-15346/test_output.txt
+2025-05-11 20:43:13,053 - INFO - Git diff after:
+diff --git a/sympy/simplify/trigsimp.py b/sympy/simplify/trigsimp.py
+index 8ba346adbe..d477daa5ee 100644
+--- a/sympy/simplify/trigsimp.py
++++ b/sympy/simplify/trigsimp.py
+@@ -331,10 +331,10 @@ def analyse_gens(gens, hints):
+ 
+         # Add generators for compound expressions from iterables
+         for fn, args in iterables:
+-            if fn == tan:
++            if fn is tan:
+                 # Tan expressions are recovered from sin and cos.
+                 iterables.extend([(sin, args), (cos, args)])
+-            elif fn == tanh:
++            if fn is tanh:
+                 # Tanh expressions are recovered from sihn and cosh.
+                 iterables.extend([(sinh, args), (cosh, args)])
+             else:
+2025-05-11 20:43:13,054 - INFO - Grading answer for sympy__sympy-15346...
+2025-05-11 20:43:13,062 - INFO - report: {'sympy__sympy-15346': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_issue_15129_trigsimp_methods']}, 'PASS_TO_PASS': {'success': ['test_trigsimp1', 'test_trigsimp1a', 'test_trigsimp2', 'test_issue_4373', 'test_trigsimp3', 'test_issue_4661', 'test_issue_4494', 'test_issue_5948', 'test_issue_4775', 'test_issue_4280', 'test_issue_3210', 'test_trigsimp_issues', 'test_trigsimp_issue_2515', 'test_trigsimp_issue_3826', 'test_trigsimp_issue_4032', 'test_trigsimp_issue_7761', 'test_trigsimp_noncommutative', 'test_hyperbolic_simp', 'test_trigsimp_groebner', 'test_issue_2827_trigsimp_methods', 'test_exptrigsimp', 'test_powsimp_on_numbers'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-15346: resolved: False
+2025-05-11 20:43:13,067 - INFO - Attempting to stop container sweb.eval.sympy__sympy-15346.repopatamus_evalutation_batch4...
+2025-05-11 20:43:28,787 - INFO - Attempting to remove container sweb.eval.sympy__sympy-15346.repopatamus_evalutation_batch4...
+2025-05-11 20:43:28,860 - INFO - Container sweb.eval.sympy__sympy-15346.repopatamus_evalutation_batch4 removed.
+2025-05-11 20:43:28,861 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-15346:latest...
+2025-05-11 20:43:29,201 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-15346:latest removed.

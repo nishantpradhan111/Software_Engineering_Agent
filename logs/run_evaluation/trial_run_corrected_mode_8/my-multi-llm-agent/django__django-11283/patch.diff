@@ -1,0 +1,47 @@
+```diff
+--- a/tests/auth_tests/test_migrations.py
++++ b/tests/auth_tests/test_migrations.py
+@@ -6,6 +6,7 @@
+ from django.test import TestCase
+ from django.test.utils import captured_stdout
+ 
++from django.core.management import call_command
+ from .models import Proxy, UserProxy
+ 
+ 
+@@ -152,19 +154,19 @@
+         Permission.objects.create(content_type=proxy_model_content_type, codename='add_proxy', name='Can add proxy')
+         Permission.objects.create(content_type=proxy_model_content_type, codename='change_proxy', name='Can change proxy')
+         with captured_stdout() as stdout:
+-            update_proxy_permissions.update_proxy_model_permissions(apps, None)
++            call_command('migrate', 'auth', verbosity=0)
+         self.assertIn('A problem arose migrating proxy model permissions', stdout.getvalue())
+ 
+     def test_migrate_with_existing_target_permission(self):
+         """
+         Permissions may already exist:
+ 
+-        - Old workaround was to manually create permissions for proxy models.
+-        - Model may have been concrete and then converted to proxy.
++            - Old workaround was to manually create permissions for proxy models.
++            - Model may have been concrete and then converted to proxy.
+ 
+         Output a reminder to audit relevant permissions.
+         """
+-        proxy_model_content_type = ContentType.objects.get_for_model(Proxy, for_concrete_model=False)
++        proxy_model_content_type = ContentType.objects.get_for_model(Proxy)
+         Permission.objects.create(
+             content_type=proxy_model_content_type,
+             codename='add_proxy',
+@@ -173,10 +175,10 @@
+         Permission.objects.create(
+             content_type=proxy_model_content_type,
+             codename='display_proxys',
+-            name='May display proxys information',
++            name='Can display proxys information',
+         )
+         with captured_stdout() as stdout:
+-            update_proxy_permissions.update_proxy_model_permissions(apps, None)
++            call_command('migrate', 'auth', verbosity=0)
+         self.assertIn('A problem arose migrating proxy model permissions', stdout.getvalue())
+```

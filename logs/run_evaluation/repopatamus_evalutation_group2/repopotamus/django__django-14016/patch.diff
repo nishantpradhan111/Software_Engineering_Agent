@@ -1,0 +1,35 @@
+```
+--- a/django/db/models/query_utils.py
++++ b/django/db/models/query_utils.py
+@@ -5,7 +5,6 @@
+ large and/or so that they can be used by other modules without getting into
+ circular import difficulties.
+ """
+-import copy
+ import functools
+ import inspect
+ from collections import namedtuple
+@@ -46,10 +45,10 @@
+ 
+         # If the other Q() is empty, ignore it and just use `self`.
+         if not other:
+-            return copy.deepcopy(self)
++            return self._copy()
+         # Or if this Q is empty, ignore it and just use `other`.
+         elif not self:
+-            return copy.deepcopy(other)
++            return other._copy()
+ 
+         obj = type(self)()
+         obj.connector = conn
+@@ -57,6 +56,9 @@
+         obj.add(other, conn)
+         return obj
+ 
++    def _copy(self):
++        return type(self)(*self.children, _connector=self.connector, _negated=self.negated)
++
+     def __or__(self, other):
+         return self._combine(other, self.OR)
+ 
+```

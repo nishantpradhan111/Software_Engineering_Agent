@@ -1,0 +1,2712 @@
+2025-05-07 19:55:32,623 - INFO - Creating container for psf__requests-3362...
+2025-05-07 19:55:32,758 - INFO - Container for psf__requests-3362 created: df15644a788d868b7466179a6db5d29f08cee9048c30ebd244d78b1fe029c759
+2025-05-07 19:55:33,067 - INFO - Container for psf__requests-3362 started: df15644a788d868b7466179a6db5d29f08cee9048c30ebd244d78b1fe029c759
+2025-05-07 19:55:33,072 - INFO - Intermediate patch for psf__requests-3362 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/patch.diff, now applying to container...
+2025-05-07 19:55:33,243 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-07 19:55:33,321 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-07 19:55:33,392 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-07 19:55:33,392 - INFO - >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+2025-05-07 19:55:33,754 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-07 19:55:33,754 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,755 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,755 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,756 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,756 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,756 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,757 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,757 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,757 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,758 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,758 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,758 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,759 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,759 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,760 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,760 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,760 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,761 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,761 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,761 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,762 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,762 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,762 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,763 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,763 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,763 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,764 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,764 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,764 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,765 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,765 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,766 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,766 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,767 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,767 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,767 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,768 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,768 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,768 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,768 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,769 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,769 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,769 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,770 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,770 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,770 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,770 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,771 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,771 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,771 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,772 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,772 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,773 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,773 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,773 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,773 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,774 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,774 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,774 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,775 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,775 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,775 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,775 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,776 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,776 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,776 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,777 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,777 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,777 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,777 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,778 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,778 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,779 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,779 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,779 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,780 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,780 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,780 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,780 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,781 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,781 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,781 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,782 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,782 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,782 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,783 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,783 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,783 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,784 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,784 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,784 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,785 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,785 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,785 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,786 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,789 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,789 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,790 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,790 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,791 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,792 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,792 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,792 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,797 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,798 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,799 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,799 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,799 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,800 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,800 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,801 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,801 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,802 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,803 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,803 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,803 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,804 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,804 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,804 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,804 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,805 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,805 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,983 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-07 19:55:33,984 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,984 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,984 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,985 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,985 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,985 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,986 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,986 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,986 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,986 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,987 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,987 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,987 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,987 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,988 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,988 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,988 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,989 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,989 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,989 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,989 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,990 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,990 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,991 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,991 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,991 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,991 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,992 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,992 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,992 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,993 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,993 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,993 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,993 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,994 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,994 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,994 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,994 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,995 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,995 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,995 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,996 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,996 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,997 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,997 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,997 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,997 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,998 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,998 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,998 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,998 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,999 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,999 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:33,999 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,000 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,000 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,000 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,000 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,001 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,001 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,001 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,002 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,002 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,002 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,002 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,003 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,003 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,003 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,004 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,004 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,004 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,004 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,005 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,005 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,006 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,006 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,006 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,007 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,007 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,007 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,008 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,008 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,008 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,009 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,010 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,010 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,010 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,010 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,011 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,011 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,011 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,012 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,012 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,012 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,013 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,013 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,014 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,014 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,015 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,015 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,015 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,016 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,016 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,016 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,017 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,017 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,017 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,018 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,018 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,018 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,019 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,019 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,019 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,020 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,020 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,020 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,021 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,021 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,021 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,022 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,022 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,022 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: psf__requests-3362: >>>>> Patch Apply Failed:
+patching file requests/utils.py
+Hunk #1 FAILED at 360.
+patch: **** malformed patch at line 31:          rv = decoder.decode(chunk)
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/psf__requests-3362/run_instance.log) for more information.
+
+2025-05-07 19:55:34,023 - INFO - Attempting to stop container sweb.eval.psf__requests-3362.trial_run_corrected_mode_4.5...
+2025-05-07 19:55:49,577 - INFO - Attempting to remove container sweb.eval.psf__requests-3362.trial_run_corrected_mode_4.5...
+2025-05-07 19:55:49,613 - INFO - Container sweb.eval.psf__requests-3362.trial_run_corrected_mode_4.5 removed.
+2025-05-07 19:55:49,614 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.psf_1776_requests-3362:latest...
+2025-05-07 19:55:49,711 - INFO - Image swebench/sweb.eval.x86_64.psf_1776_requests-3362:latest removed.

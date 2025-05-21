@@ -1,0 +1,45 @@
+2025-05-07 19:06:33,273 - INFO - Creating container for django__django-13447...
+2025-05-07 19:06:33,476 - INFO - Container for django__django-13447 created: 2e8cbd4dfde5288d56700ab019365d530e6d9b94765d9b194d7adc028728aa08
+2025-05-07 19:06:33,691 - INFO - Container for django__django-13447 started: 2e8cbd4dfde5288d56700ab019365d530e6d9b94765d9b194d7adc028728aa08
+2025-05-07 19:06:33,696 - INFO - Intermediate patch for django__django-13447 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-13447/patch.diff, now applying to container...
+2025-05-07 19:06:33,856 - INFO - >>>>> Applied Patch:
+Checking patch django/contrib/admin/sites.py...
+Applied patch django/contrib/admin/sites.py cleanly.
+
+2025-05-07 19:06:34,740 - INFO - Git diff before:
+diff --git a/django/contrib/admin/sites.py b/django/contrib/admin/sites.py
+index 837dabfea8..59a4a0364d 100644
+--- a/django/contrib/admin/sites.py
++++ b/django/contrib/admin/sites.py
+@@ -461,6 +461,7 @@ class AdminSite:
+ 
+             info = (app_label, model._meta.model_name)
+             model_dict = {
++                'model': model,
+                 'name': capfirst(model._meta.verbose_name_plural),
+                 'object_name': model._meta.object_name,
+                 'perms': perms,
+2025-05-07 19:06:34,744 - INFO - Eval script for django__django-13447 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-13447/eval.sh; copying to container...
+2025-05-07 19:06:46,517 - INFO - Test runtime: 11.69 seconds
+2025-05-07 19:06:46,525 - INFO - Test output for django__django-13447 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-13447/test_output.txt
+2025-05-07 19:06:46,610 - INFO - Git diff after:
+diff --git a/django/contrib/admin/sites.py b/django/contrib/admin/sites.py
+index 837dabfea8..59a4a0364d 100644
+--- a/django/contrib/admin/sites.py
++++ b/django/contrib/admin/sites.py
+@@ -461,6 +461,7 @@ class AdminSite:
+ 
+             info = (app_label, model._meta.model_name)
+             model_dict = {
++                'model': model,
+                 'name': capfirst(model._meta.verbose_name_plural),
+                 'object_name': model._meta.object_name,
+                 'perms': perms,
+2025-05-07 19:06:46,610 - INFO - Grading answer for django__django-13447...
+2025-05-07 19:06:46,616 - INFO - report: {'django__django-13447': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': True, 'tests_status': {'FAIL_TO_PASS': {'success': ['test_available_apps (admin_views.test_adminsite.SiteEachContextTest)'], 'failure': []}, 'PASS_TO_PASS': {'success': ['test_add_action (admin_views.test_adminsite.SiteActionsTests)', 'test_disable_action (admin_views.test_adminsite.SiteActionsTests)', "AdminSite.get_action() returns an action even if it's disabled.", 'test_each_context (admin_views.test_adminsite.SiteEachContextTest)', 'test_each_context_site_url_with_script_name (admin_views.test_adminsite.SiteEachContextTest)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-13447: resolved: True
+2025-05-07 19:06:46,619 - INFO - Attempting to stop container sweb.eval.django__django-13447.trial_run_corrected_mode_4.5...
+2025-05-07 19:07:02,331 - INFO - Attempting to remove container sweb.eval.django__django-13447.trial_run_corrected_mode_4.5...
+2025-05-07 19:07:02,385 - INFO - Container sweb.eval.django__django-13447.trial_run_corrected_mode_4.5 removed.
+2025-05-07 19:07:02,385 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-13447:latest...
+2025-05-07 19:07:02,930 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-13447:latest removed.

@@ -1,0 +1,33 @@
+```diff
+--- a/xarray/core/formatting.py
++++ b/xarray/core/formatting.py
+@@ -135,20 +135,13 @@
+ 
+ 
+ def summarize_variable(name, var, col_width, show_attrs=True):
+-def summarize_variable(name, var, col_width, show_attrs=True):
+     if show_attrs and var.attrs:
+         attrs_str = attrs_repr(var.attrs)
+-+    else:
++    else:
+         attrs_str = ""
+         units = var.attrs.get("units", None)
+         if units:
+             name = f"{name} [{units}]"
+-    else:
+-        attrs_str = ""
+-    units = var.attrs.get("units", None)
+-    if units:
+-        name = f"{name} [{units}]"
+-
+         return f"{name:<{col_width}}   {var.dtype}   {attrs_str}"
+     else:
+         return f"{name:<{col_width}}   {var.dtype}"
+@@ -156,5 +149,4 @@
+ 
+ 
+ def summarize_coord(name, var, col_width):
+-    name = f" * {name}"
+     units = var.attrs.get("units", None)
+     if units:
+```

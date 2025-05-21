@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/functions/elementary/complexes.py
++++ b/sympy/functions/elementary/complexes.py
+@@ -607,7 +607,7 @@ def eval(cls, arg):
+             arg2 = -S.ImaginaryUnit * arg
+             if arg2.is_extended_nonnegative:
+                 return arg2
+-        if arg.is_extended_real:\n+        if arg.is_extended_real:
++        if arg.is_extended_real:
+             return
+         # reject result if all new conjugates are just wrappers around
+         # an expression that was already in the arg
+```

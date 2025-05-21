@@ -1,0 +1,13 @@
+```diff
+--- a/django/contrib/admin/templatetags/admin_modify.py
++++ b/django/contrib/admin/templatetags/admin_modify.py
+@@ -103,7 +103,7 @@
+             ),
+             "show_save_as_new": not is_popup
+             and has_change_permission
+-            and change
++            and has_add_permission
+             and save_as,
+             "show_save_and_add_another": can_save_and_add_another,
+             "show_save_and_continue": not is_popup and context.get("show_save_and_continue", True),
+```

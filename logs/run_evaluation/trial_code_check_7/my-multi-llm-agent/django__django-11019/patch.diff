@@ -1,0 +1,18 @@
+```diff
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -70,10 +70,10 @@
+ 
+     @property
+     def _js(self):
+-        js = self._js_lists[0]
+-        for obj in filter(None, self._js_lists[1:]):
+-            js = self.merge(js, obj)
+-        return js
++        if not self._js_lists:
++            return []
++        return self.merge(*self._js_lists)
+ 
+     @property
+     def _css(self):
+```

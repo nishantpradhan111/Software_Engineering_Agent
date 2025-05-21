@@ -1,0 +1,17 @@
+```diff
+--- a/sklearn/linear_model/logistic.py
++++ b/sklearn/linear_model/logistic.py
+@@ -1204,9 +1204,7 @@
+                 if multi_class == 'ovr':
+                     w = np.mean([coefs_paths[i, best_indices[i], :]
+                                  for i in range(len(folds))], axis=0)
+-                 else:
+-                    # FIXME: This is broken with ElasticNet because
+-                    # coefs_paths has shape (n_folds, n_cs, n_l1_ratios,
+-                    # n_features)
++                elif multi_class == 'multinomial':
+                     w = np.mean([coefs_paths[:, i, best_indices[i], :]
+                                  for i in range(len(folds))], axis=0)
+ 
+
+```

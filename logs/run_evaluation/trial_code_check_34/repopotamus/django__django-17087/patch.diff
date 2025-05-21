@@ -1,0 +1,21 @@
+```
+--- a/django/db/migrations/serializer.py
++++ b/django/db/migrations/serializer.py
+@@ -401,11 +401,10 @@
+     def serialize(self):
+         if getattr(self.value, "__self__", None) and isinstance(
+             self.value.__self__, type
+-        ):
+-            klass = self.value.__self__
+-            module = klass.__module__
+-            return "%s.%s.%s" % (module, klass.__name__, self.value.__name__), {
+-                "import %s" % module
++        ):  
++            if hasattr(self.value.__self__, "__qualname__"):
++                module = self.value.__self__.__module__
++                return "%s.%s.%s" % (module, self.value.__self__.__qualname__, self.value.__name__), {
++                    "import %s" % module
+             }
+         # Further error checking
+         if self.value.__name__ == "<lambda>":
+```

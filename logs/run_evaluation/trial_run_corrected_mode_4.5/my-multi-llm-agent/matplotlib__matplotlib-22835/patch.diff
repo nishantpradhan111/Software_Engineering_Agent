@@ -1,0 +1,17 @@
+```diff
+--- a/lib/matplotlib/artist.py
++++ b/lib/matplotlib/artist.py
+@@ -1305,10 +1305,10 @@
+             normed = self.norm(data)
+             if np.isfinite(normed):
+                 if isinstance(self.norm, BoundaryNorm):
+-                    # not an invertible normalization mapping
++                    # not an invertible normalization mapping, use max diff
+                     cur_idx = np.argmin(np.abs(self.norm.boundaries - data))
+                     neigh_idx = max(0, cur_idx - 1)
+-                    # use max diff to prevent delta == 0
++
+                     delta = np.diff(
+                         self.norm.boundaries[neigh_idx:cur_idx + 2]
+                     ).max()
+```

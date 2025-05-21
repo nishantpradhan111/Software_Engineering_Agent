@@ -1,0 +1,30 @@
+```diff
+--- a/xarray/core/concat.py
++++ b/xarray/core/concat.py
+@@ -568,15 +568,14 @@
+     if variables_to_merge:
+         to_merge = {var: [] for var in variables_to_merge}
+ 
+-        for ds in datasets:
+-            absent_merge_vars = variables_to_merge - set(ds.variables)
+-            if absent_merge_vars:
+-                raise ValueError(
+-                    "variables %r are present in some datasets but not others. "
+-                    % absent_merge_vars
+-                )
+-
+-            for var in variables_to_merge:
++        for ds in datasets:            
++            for var in variables_to_merge:                
++                if var not in ds.variables:
++                    # Pad missing variables with NaN
++                    first_data_var = next(iter(ds.data_vars), None)
++                    dtype = (
++                        ds[first_data_var].dtype if first_data_var else float
++                    )  # Use float as default if no data_vars
++                    shape = tuple(ds.dims.values())
++                    ds[var] = Variable(ds.dims, dtypes.full(shape, fill_value, dtype=dtype))
+                 to_merge[var].append(ds.variables[var])
+-
+         for var in variables_to_merge:
+```

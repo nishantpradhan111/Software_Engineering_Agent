@@ -1,0 +1,27 @@
+```diff
+--- a/astropy/wcs/wcs.py
++++ b/astropy/wcs/wcs.py
+@@ -1209,9 +1209,9 @@
+         A helper function to support reading either a pair of arrays
+         or a single Nx2 array.
+         """
+-
+         def _return_list_of_arrays(axes, origin):
+-            try:
++            if any([x.size == 0 for x in axes]):
++                return axes
++            try:
+                 axes = np.broadcast_arrays(*axes)
+             except ValueError:
+                 raise ValueError(
+@@ -1231,7 +1231,7 @@
+                 raise ValueError(
+                     "When providing two arguments, the array must be "
+                     "of shape (N, {0})".format(self.naxis))
+-            if ra_dec_order and sky == 'input':
++            if 0 in xy.shape:
+                 return xy
+             if ra_dec_order and sky == 'input':
+                 xy = self._denormalize_sky(xy)
+
+```

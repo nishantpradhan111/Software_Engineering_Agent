@@ -1,0 +1,13 @@
+```diff
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -72,7 +72,7 @@
+         return {medium: self.merge(*lists) for medium, lists in css.items()}
+ 
+     @property
+-    def _js(self):
++    def _js(self):
+         return self.merge(*self._js_lists)
+ 
+     def render(self):
+```

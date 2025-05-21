@@ -1,0 +1,25 @@
+```diff
+--- a/django/db/migrations/serializer.py
++++ b/django/db/migrations/serializer.py
+@@ -163,16 +163,10 @@
+     def serialize(self):
+         enum_class = self.value.__class__
+         module = enum_class.__module__
+-        return (
+-            "%s.%s[%r]" % (module, enum_class.__qualname__, self.value.name),
+-            {"import %s" % module},
+-        )
+-
+-
+         try:
+             return (
+                 "%s.%s[%r]" % (module, enum_class.__qualname__, self.value.name),
+                 {"import %s" % module},
+             )
+         except AttributeError:
+-            # If the enum doesn't have a .name attribute, it's likely a combination
++            # If the enum doesn't have a `.name` attribute, it's likely a combination
+             # of flags. In that case, we can use enum._decompose to obtain a list
+             # of names, and create an expression to create the enum value by
+             # "ORing" the items together.
+```

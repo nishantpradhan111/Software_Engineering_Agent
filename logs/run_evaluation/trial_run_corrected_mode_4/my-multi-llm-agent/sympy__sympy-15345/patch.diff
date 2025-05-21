@@ -1,0 +1,22 @@
+```diff
+--- a/sympy/printing/mathematica.py
++++ b/sympy/printing/mathematica.py
+@@ -30,7 +30,7 @@
+ _known_functions = {
+     "Abs": [(lambda x: True, "Abs")],
+     "ceiling": [(lambda *x: True, "Ceiling")],
+-    "Chi": [(lambda x: True, "CoshIntegral")],
++    "Chi": [(lambda *x: True, "CoshIntegral")],
+     "conjugate": [(lambda x: True, "Conjugate")],
+     "cos": [(lambda x: True, "Cos")],
+     "cosh": [(lambda x: True, "Cosh")],
+@@ -49,7 +49,7 @@
+     "periodicgamma": [(lambda x, y: True, "Gamma[x, y]")],
+     "polar_lift": [(lambda x: True, "PolarLift")],
+     "re": [(lambda x: True, "Re")],
+-    "sec": [(lambda x: True, "Sec")],
++    "sec": [(lambda *x: True, "Sec")],
+     "Shi": [(lambda *x: True, "SinhIntegral")],
+     "sin": [(lambda x: True, "Sin")],
+     "sinh": [(lambda x: True, "Sinh")],
+```

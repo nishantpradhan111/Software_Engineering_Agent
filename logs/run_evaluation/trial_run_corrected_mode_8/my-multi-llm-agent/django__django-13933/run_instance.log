@@ -1,0 +1,26 @@
+2025-05-08 15:32:02,795 - INFO - Creating container for django__django-13933...
+2025-05-08 15:32:03,549 - INFO - Container for django__django-13933 created: 251d11077e82ef152ae45f5addc5419453f470e1c05678d2babc84a15268d44d
+2025-05-08 15:32:04,133 - INFO - Container for django__django-13933 started: 251d11077e82ef152ae45f5addc5419453f470e1c05678d2babc84a15268d44d
+2025-05-08 15:32:04,142 - INFO - Intermediate patch for django__django-13933 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-13933/patch.diff, now applying to container...
+2025-05-08 15:32:04,446 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-08 15:32:04,619 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-08 15:32:04,791 - INFO - >>>>> Applied Patch:
+patching file django/forms/fields.py
+Hunk #1 succeeded at 276 with fuzz 3.
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-08 15:32:06,326 - INFO - Git diff before:
+diff --git a/django/forms/fields.py b/django/forms/fields.py
+index daa65d61eb..c5b43e503f 100644
+--- a/django/forms/fields.py
++++ b/django/forms/fields.py
+@@ -277,6 +277,7 @@ class IntegerField(Field):
+             raise ValidationError(self.error_messages['invalid'], code='invalid')
+         return value
+ 
++
+     def widget_attrs(self, widget):
+         attrs = super().widget_attrs(widget)
+         if isinstance(widget, NumberInput):
+2025-05-08 15:32:06,332 - INFO - Eval script for django__django-13933 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-13933/eval.sh; copying to container...

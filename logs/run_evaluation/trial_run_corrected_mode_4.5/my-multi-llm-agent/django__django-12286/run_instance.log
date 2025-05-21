@@ -1,0 +1,55 @@
+2025-05-07 18:59:21,473 - INFO - Creating container for django__django-12286...
+2025-05-07 18:59:22,295 - INFO - Container for django__django-12286 created: 181cea9eb98b43f20224f89a1f046bd2e4b218d20b01c07ba063ed4b00b611a0
+2025-05-07 18:59:22,705 - INFO - Container for django__django-12286 started: 181cea9eb98b43f20224f89a1f046bd2e4b218d20b01c07ba063ed4b00b611a0
+2025-05-07 18:59:22,715 - INFO - Intermediate patch for django__django-12286 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-12286/patch.diff, now applying to container...
+2025-05-07 18:59:23,053 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-07 18:59:23,185 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-07 18:59:23,327 - INFO - >>>>> Applied Patch:
+patching file django/core/checks/translation.py
+Hunk #1 succeeded at 55 with fuzz 3.
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-07 18:59:25,556 - INFO - Git diff before:
+diff --git a/django/core/checks/translation.py b/django/core/checks/translation.py
+index 138ed07ff8..d1b2cdc033 100644
+--- a/django/core/checks/translation.py
++++ b/django/core/checks/translation.py
+@@ -55,7 +55,7 @@ def check_setting_languages_bidi(app_configs, **kwargs):
+ @register(Tags.translation)
+ def check_language_settings_consistent(app_configs, **kwargs):
+     """Error if language settings are not consistent with each other."""
+-    available_tags = {i for i, _ in settings.LANGUAGES} | {'en-us'}
+-    if settings.LANGUAGE_CODE not in available_tags:
++    try:
++        get_supported_language_variant(settings.LANGUAGE_CODE)
++    except LookupError:
+         return [E004]
+-    return []
+2025-05-07 18:59:25,564 - INFO - Eval script for django__django-12286 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-12286/eval.sh; copying to container...
+2025-05-07 18:59:43,830 - INFO - Test runtime: 18.09 seconds
+2025-05-07 18:59:43,838 - INFO - Test output for django__django-12286 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/django__django-12286/test_output.txt
+2025-05-07 18:59:43,996 - INFO - Git diff after:
+diff --git a/django/core/checks/translation.py b/django/core/checks/translation.py
+index 138ed07ff8..d1b2cdc033 100644
+--- a/django/core/checks/translation.py
++++ b/django/core/checks/translation.py
+@@ -55,7 +55,7 @@ def check_setting_languages_bidi(app_configs, **kwargs):
+ @register(Tags.translation)
+ def check_language_settings_consistent(app_configs, **kwargs):
+     """Error if language settings are not consistent with each other."""
+-    available_tags = {i for i, _ in settings.LANGUAGES} | {'en-us'}
+-    if settings.LANGUAGE_CODE not in available_tags:
++    try:
++        get_supported_language_variant(settings.LANGUAGE_CODE)
++    except LookupError:
+         return [E004]
+-    return []
+2025-05-07 18:59:43,997 - INFO - Grading answer for django__django-12286...
+2025-05-07 18:59:44,005 - INFO - report: {'django__django-12286': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_valid_variant_consistent_language_settings (check_framework.test_translation.TranslationCheckTests)']}, 'PASS_TO_PASS': {'success': [], 'failure': ['test_inconsistent_language_settings (check_framework.test_translation.TranslationCheckTests)', 'test_invalid_language_code (check_framework.test_translation.TranslationCheckTests)', 'test_invalid_languages (check_framework.test_translation.TranslationCheckTests)', 'test_invalid_languages_bidi (check_framework.test_translation.TranslationCheckTests)', 'test_valid_language_code (check_framework.test_translation.TranslationCheckTests)', 'test_valid_languages (check_framework.test_translation.TranslationCheckTests)', 'test_valid_languages_bidi (check_framework.test_translation.TranslationCheckTests)']}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-12286: resolved: False
+2025-05-07 18:59:44,012 - INFO - Attempting to stop container sweb.eval.django__django-12286.trial_run_corrected_mode_4.5...
+2025-05-07 18:59:59,734 - INFO - Attempting to remove container sweb.eval.django__django-12286.trial_run_corrected_mode_4.5...
+2025-05-07 18:59:59,892 - INFO - Container sweb.eval.django__django-12286.trial_run_corrected_mode_4.5 removed.
+2025-05-07 18:59:59,894 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-12286:latest...
+2025-05-07 19:00:01,213 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-12286:latest removed.

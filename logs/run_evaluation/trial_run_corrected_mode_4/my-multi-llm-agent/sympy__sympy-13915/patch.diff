@@ -1,0 +1,34 @@
+```diff
+--- a/sympy/core/mul.py
++++ b/sympy/core/mul.py
+@@ -423,6 +423,11 @@ def _gather(c_powers):
+             changed = False
+             for b, e in c_powers:
+                 if e.is_zero:
++                    # canceling out infinities yields NaN
++                    if (b.is_Add or b.is_Mul) and any(infty in b.args
++                        for infty in (S.ComplexInfinity, S.Infinity,
++                                      S.NegativeInfinity)):
++                        return [S.NaN], [], None
+                     continue
+                 if e is S.One:
+                     if b.is_Number:
+```diff
+--- a/sympy/core/tests/test_arit.py
++++ b/sympy/core/tests/test_arit.py
+@@ -1937,6 +1937,14 @@ def test_Mul_with_zero_infinite():
+     assert e.is_positive is None
+     assert e.is_hermitian is None
+ 
++def test_Mul_does_not_cancel_infinities():
++    a, b = symbols('a b')
++    assert ((zoo + 3*a)/(3*a + zoo)) is nan
++    assert ((b - oo)/(b - oo)) is nan
++    # issue 13904
++    expr = (1/(a+b) + 1/(a-b))/(1/(a+b) - 1/(a-b))
++    assert expr.subs(b, a) is nan
++
+ def test_issue_8247_8354():
+     from sympy import tan
+     z = sqrt(1 + sqrt(3)) + sqrt(3 + 3*sqrt(3)) - sqrt(10 + 6*sqrt(3))
+```

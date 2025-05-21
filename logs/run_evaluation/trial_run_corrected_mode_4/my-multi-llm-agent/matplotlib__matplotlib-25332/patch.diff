@@ -1,0 +1,27 @@
+```diff
+--- a/lib/matplotlib/cbook.py
++++ b/lib/matplotlib/cbook.py
+@@ -785,9 +785,9 @@
+ 
+ class Grouper:
+     """
+-    An utility class to group together instances of the same object.
++    An utility class to group together instances of the same object,
++    using weakrefs.
+     """
+-
+     def __init__(self, init=()):
+         self._mapping = {weakref.ref(x): [weakref.ref(x)] for x in init}
+ 
+@@ -796,8 +796,8 @@
+         return {
+             **vars(self),
+             # Convert weak refs to strong ones.
+-            "_mapping": {k(): [v() for v in vs] for k, vs in self._mapping.items() if k() is not None and all(x() is not None for x in vs)},
+-        }
++            "_mapping": {k(): [v() for v in vs]
++                         for k, vs in self._mapping.items() if k() is not None and all(x() is not None for x in vs)}}
+ 
+     def __setstate__(self, state):
+         vars(self).update(state)
+```

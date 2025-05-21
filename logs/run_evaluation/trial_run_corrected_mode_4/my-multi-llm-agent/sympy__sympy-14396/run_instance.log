@@ -1,0 +1,2467 @@
+2025-05-04 18:59:09,356 - INFO - Creating container for sympy__sympy-14396...
+2025-05-04 18:59:10,189 - INFO - Container for sympy__sympy-14396 created: 0ddb39f0b0f39898a8ec310106273e4dcc9a2d4951514db156a60c6cbf404108
+2025-05-04 18:59:10,547 - INFO - Container for sympy__sympy-14396 started: 0ddb39f0b0f39898a8ec310106273e4dcc9a2d4951514db156a60c6cbf404108
+2025-05-04 18:59:10,554 - INFO - Intermediate patch for sympy__sympy-14396 written to logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/patch.diff, now applying to container...
+2025-05-04 18:59:10,817 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 18:59:10,902 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 18:59:10,977 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-04 18:59:10,978 - INFO - >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+2025-05-04 18:59:11,412 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 18:59:11,413 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,413 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,413 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,414 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,414 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,414 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,415 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,415 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,415 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,416 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,416 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,417 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,417 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,418 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,418 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,418 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,419 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,419 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,420 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,420 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,420 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,421 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,421 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,421 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,422 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,422 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,422 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,423 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,423 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,423 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,424 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,424 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,424 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,424 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,425 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,426 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,426 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,426 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,427 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,427 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,428 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,428 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,428 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,429 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,429 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,429 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,429 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,430 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,430 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,430 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,431 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,431 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,431 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,432 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,432 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,433 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,433 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,433 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,434 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,434 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,434 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,435 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,435 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,435 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,436 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,436 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,437 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,437 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,437 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,437 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,438 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,438 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,438 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,439 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,439 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,439 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,440 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,440 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,440 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,441 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,441 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,441 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,442 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,442 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,443 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,443 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,443 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,444 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,444 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,444 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,445 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,445 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,445 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,445 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,446 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,446 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,446 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,447 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,447 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,448 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,448 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,448 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,449 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,449 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,449 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,450 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,450 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,450 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,451 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,451 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,452 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,452 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,452 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,453 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,453 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,454 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,455 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,456 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,456 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,457 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,457 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,458 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,841 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 18:59:11,842 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,843 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,843 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,844 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,844 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,844 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,845 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,845 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,845 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,846 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,846 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,846 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,847 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,847 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,848 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,848 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,848 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,849 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,849 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,850 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,850 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,850 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,851 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,851 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,852 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,852 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,852 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,853 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,853 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,853 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,854 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,854 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,854 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,855 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,855 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,855 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,856 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,856 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,856 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,857 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,857 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,857 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,858 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,858 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,858 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,859 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,859 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,860 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,860 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,861 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,861 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,862 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,862 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,863 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,863 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,864 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,864 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,864 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,865 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,866 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,866 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,866 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,867 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,867 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,867 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,868 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,868 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,869 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,869 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,869 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,870 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,870 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,871 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,871 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,872 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,872 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,873 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,873 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,873 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,874 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,874 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,874 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,875 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,876 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,876 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,877 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,877 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,877 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,878 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,878 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,878 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,879 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,879 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,880 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,880 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,880 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,880 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,881 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,881 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,881 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,882 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,882 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,883 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,883 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,884 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,884 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,885 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,885 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,885 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,886 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,887 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,887 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,887 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,888 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,888 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,889 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,889 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,889 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,890 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,890 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,891 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,891 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-14396: >>>>> Patch Apply Failed:
+patching file sympy/polys/polyoptions.py
+patch: **** malformed patch at line 7: @@ -459,10 +459,10 @@ def preprocess(cls, domain):\n \
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4/my-multi-llm-agent/sympy__sympy-14396/run_instance.log) for more information.
+
+2025-05-04 18:59:11,891 - INFO - Attempting to stop container sweb.eval.sympy__sympy-14396.trial_run_corrected_mode_4...
+2025-05-04 18:59:27,410 - INFO - Attempting to remove container sweb.eval.sympy__sympy-14396.trial_run_corrected_mode_4...
+2025-05-04 18:59:27,444 - INFO - Container sweb.eval.sympy__sympy-14396.trial_run_corrected_mode_4 removed.
+2025-05-04 18:59:27,445 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-14396:latest...
+2025-05-04 18:59:27,698 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-14396:latest removed.

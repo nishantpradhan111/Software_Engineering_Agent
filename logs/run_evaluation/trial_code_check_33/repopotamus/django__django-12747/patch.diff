@@ -1,0 +1,21 @@
+```
+--- a/django/db/models/deletion.py
++++ b/django/db/models/deletion.py
+@@ -406,9 +406,6 @@
+         # number of objects deleted for each model label
+         deleted_counter = Counter()
+ 
+-        if not self.data and not self.fast_deletes:
+-            return 0, {}
+-
+         # Optimize for the case with a single obj and no dependencies
+         if len(self.data) == 1 and len(instances) == 1:
+             instance = list(instances)[0]
+@@ -460,5 +457,4 @@
+         for model, instances in self.data.items():
+             for instance in instances:
+                 setattr(instance, model._meta.pk.attname, None)
+-
+         return sum(deleted_counter.values()), dict(deleted_counter)
+-
+```

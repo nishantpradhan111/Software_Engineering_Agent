@@ -1,0 +1,15 @@
+```diff
+--- a/django/core/management/commands/inspectdb.py
++++ b/django/core/management/commands/inspectdb.py
+@@ -182,8 +182,7 @@
+                             field_type = "%s(\'%s\'" % (rel_type, rel_to)
+                         if rel_to in used_relations and 'related_name' not in extra_params:
+                             extra_params["related_name"] = "%s_%s_set" % (
+-                                model_name.lower(),\
+-                                att_name,\
++                                model_name.lower(),
++                                column_to_field_name[att_name],
+                             )
+                     used_relations.add(rel_to)
+                     else:
+```

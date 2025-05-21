@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/printing/latex.py
++++ b/sympy/printing/latex.py
+@@ -609,7 +609,7 @@
+             args = [ str(self._print(arg)) for arg in expr.args ]
+             # How inverse trig functions should be displayed, formats are:
+             # abbreviated: asin,
+-Here is the original code which needs to be patched """
++
+ A Printer which converts an expression into its LaTeX equivalent.
+ """
+ 
+```

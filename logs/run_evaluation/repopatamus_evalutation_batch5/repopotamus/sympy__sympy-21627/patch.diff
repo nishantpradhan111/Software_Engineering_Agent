@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/core/function.py
++++ b/sympy/core/function.py
+@@ -290,7 +290,7 @@
+         return self.args[0].is_algebraic
+ 
+     def _eval_is_zero(self):
+-        # is_imaginary implies nonzero
++        # is_imaginary implies nonzero real part
+         return fuzzy_or([self.args[0].is_imaginary, self.args[0].is_zero])
+ 
+     def _eval_is_finite(self):
+```

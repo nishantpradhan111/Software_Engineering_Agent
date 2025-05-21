@@ -1,0 +1,32 @@
+```diff
+--- a/django/core/exceptions.py
++++ b/django/core/exceptions.py
+@@ -191,19 +191,19 @@
+ 
+     def __hash__(self):
+         # Ignore params and messages ordering.
+-        if hasattr(self, \'message\'):\n+        if hasattr(self, 'message'):
++        if hasattr(self, 'message'):
+             return hash((
+                 self.message,
+                 self.code,
+                 tuple(sorted(make_hashable(self.params))) if self.params else None,
+             ))
+-        if hasattr(self, \'error_dict\'):\n
++        if hasattr(self, 'error_list'):
+             return hash(tuple(sorted(
+                 (e.message, e.code, tuple(sorted(make_hashable(e.params))) if e.params else None)
+                 if isinstance(e, ValidationError) else e
+                 for e in self.error_list
+             )))
+         if hasattr(self, 'error_dict'):
+-            return hash(tuple(sorted((
+-                field,
+-                (e.message, e.code, tuple(sorted(make_hashable(self.params))) if self.params else None)
++            return hash(tuple(sorted(((
++                field, (e.message, e.code, tuple(sorted(make_hashable(self.params))) if self.params else None)
+                 if isinstance(e, ValidationError) else e
+-            ) for field, e in self.error_dict.items())))\n         return hash(tuple(sorted(self.error_list, key=operator.attrgetter(\'message\'))))\n\n \n
++            ) for field, e in self.error_dict.items())))
++        return hash(tuple(sorted(self.error_list, key=operator.attrgetter('message'))))
+```

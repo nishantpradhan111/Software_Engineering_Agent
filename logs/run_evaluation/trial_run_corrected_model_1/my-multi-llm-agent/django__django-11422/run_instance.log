@@ -1,0 +1,3202 @@
+2025-05-03 23:26:09,074 - INFO - Creating container for django__django-11422...
+2025-05-03 23:26:09,556 - INFO - Container for django__django-11422 created: aaa8a63d96d5930bd9d247c916dd00152d04a98825b065749c05670ce7a54a21
+2025-05-03 23:26:09,769 - INFO - Container for django__django-11422 started: aaa8a63d96d5930bd9d247c916dd00152d04a98825b065749c05670ce7a54a21
+2025-05-03 23:26:09,776 - INFO - Intermediate patch for django__django-11422 written to logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/patch.diff, now applying to container...
+2025-05-03 23:26:09,944 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-03 23:26:10,010 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-03 23:26:10,073 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-03 23:26:10,074 - INFO - >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+2025-05-03 23:26:10,370 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-03 23:26:10,370 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,371 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,371 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,371 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,372 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,372 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,372 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,373 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,373 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,373 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,374 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,374 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,375 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,375 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,375 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,376 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,376 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,376 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,376 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,377 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,377 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,377 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,378 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,378 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,378 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,378 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,379 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,379 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,379 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,379 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,380 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,380 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,380 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,380 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,381 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,381 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,381 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,381 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,382 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,382 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,382 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,382 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,383 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,383 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,383 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,383 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,384 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,384 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,384 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,385 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,385 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,385 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,386 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,386 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,386 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,387 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,387 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,387 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,388 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,388 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,388 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,389 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,389 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,389 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,390 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,390 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,390 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,390 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,391 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,391 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,391 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,391 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,392 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,392 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,393 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,393 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,393 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,394 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,394 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,394 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,395 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,395 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,395 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,395 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,396 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,396 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,397 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,397 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,397 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,397 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,398 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,398 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,398 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,399 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,399 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,399 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,400 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,400 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,400 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,400 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,401 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,401 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,401 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,402 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,402 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,402 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,403 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,403 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,403 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,403 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,404 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,404 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,404 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,405 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,405 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,405 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,405 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,406 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,406 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,406 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,407 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,407 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,715 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-03 23:26:10,715 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,716 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,716 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,716 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,717 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,717 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,718 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,718 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,718 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,719 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,719 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,719 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,720 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,720 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,720 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,721 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,721 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,721 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,721 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,722 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,722 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,722 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,723 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,723 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,723 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,723 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,724 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,724 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,724 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,724 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,725 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,725 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,725 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,725 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,725 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,726 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,726 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,726 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,727 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,727 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,727 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,728 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,728 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,728 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,729 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,729 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,730 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,730 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,730 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,730 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,731 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,731 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,731 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,732 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,732 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,732 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,732 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,733 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,733 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,733 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,733 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,734 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,734 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,734 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,735 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,735 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,735 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,736 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,736 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,736 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,736 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,737 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,737 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,738 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,738 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,739 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,739 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,739 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,740 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,740 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,740 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,740 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,740 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,741 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,741 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,741 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,742 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,742 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,742 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,743 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,743 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,743 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,744 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,744 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,744 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,745 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,745 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,745 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,745 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,746 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,746 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,746 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,747 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,747 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,747 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,748 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,748 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,748 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,748 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,749 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,749 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,749 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,750 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,750 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,750 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,750 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,751 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,751 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,751 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,751 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,752 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,752 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11422: >>>>> Patch Apply Failed:
+patching file django/utils/autoreload.py
+Hunk #1 FAILED at 114.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/autoreload.py.rej
+patching file tests/utils_tests/test_autoreload.py
+patch: **** malformed patch at line 32:      def test_common_roots(self):
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-11422/run_instance.log) for more information.
+
+2025-05-03 23:26:10,752 - INFO - Attempting to stop container sweb.eval.django__django-11422.trial_run_corrected_model_1...
+2025-05-03 23:26:26,313 - INFO - Attempting to remove container sweb.eval.django__django-11422.trial_run_corrected_model_1...
+2025-05-03 23:26:27,178 - INFO - Container sweb.eval.django__django-11422.trial_run_corrected_model_1 removed.
+2025-05-03 23:26:27,179 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-11422:latest...
+2025-05-03 23:26:27,621 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-11422:latest removed.

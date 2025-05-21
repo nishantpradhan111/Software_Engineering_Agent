@@ -1,0 +1,38 @@
+```diff
+--- a/_pytest/mark/evaluate.py
++++ b/_pytest/mark/evaluate.py
+@@ -7,30 +7,6 @@
+     return bool(obj)
+ 
+ 
+-def cached_eval(expression: str, globs: Dict[str, object]) -> Any:
+-    # Fast path
+-    if expression in (TRUE_STR, FALSE_STR):
+-        return expression == TRUE_STR
+-
+-    try:
+-        return globs["cached_eval"].get(expression)
+-    except KeyError:
+-        pass  # we have not seen this test item before
+-
+-    # eval in the given globals plus some convenience variables
+-    value = eval(expression, globs, {})
+-    # cache the expression value so we don't re-eval it
+-    # for each test item
+-    globs["cached_eval"][expression] = value
+-    return value
+-
+-
+ class MarkEvaluator:
+     def __init__(self, item: "pytest.Item", name: str) -> None:
+         self.item = item
+@@ -49,7 +25,7 @@
+         # string eval'd to True or a True value.
+         if isinstance(condition, str):
+             try:
+-                return cached_eval(condition, self.item.globals)
++                return eval(condition, self.item.globals, {})
+             except Exception:
+                 excinfo = ExceptionInfo.for_current()
+                 verbose = self.item.config.getoption("-v") > 0
+```

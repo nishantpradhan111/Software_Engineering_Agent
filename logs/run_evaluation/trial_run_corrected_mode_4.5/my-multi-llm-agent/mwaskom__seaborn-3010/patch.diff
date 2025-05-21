@@ -1,0 +1,12 @@
+```diff
+--- a/seaborn/_stats/regression.py
++++ b/seaborn/_stats/regression.py
+@@ -41,6 +41,6 @@
+ 
+         return (
+             groupby
+-            .apply(data.dropna(subset=["x", "y"]), self._fit_predict)
++            .apply(lambda x: self._fit_predict(x.dropna(subset=["x", "y"])))
+         )
+ 
+```

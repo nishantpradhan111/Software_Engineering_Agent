@@ -1,0 +1,26 @@
+```diff
+--- a/django/dispatch/dispatcher.py
++++ b/django/dispatch/dispatcher.py
+@@ -20,6 +20,7 @@
+ import weakref
+ 
+ from django.utils.deprecation import RemovedInDjango50Warning
++import logging
+ 
+ 
+ class Signal:
+@@ -117,12 +118,9 @@
+             for receiver in receivers:
+                 try:
+                     response = receiver(signal=self, sender=sender, **named)
+-                except Exception as err:
++                except Exception:
+                     logger = logging.getLogger('django.dispatch')
+                     logger.exception(
+                         'Error calling %s in Signal.send_robust()',
+                         receiver.__qualname__,
+                     )
+-                except Exception as err:
+-                    if logger is not None:
+-                        logger.exception(
+```

@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/physics/units/util.py
++++ b/sympy/physics/units/util.py
+@@ -83,7 +83,7 @@
+         return expr
+ 
+     depmat = _get_conversion_matrix_for_expr(expr, target_units, unit_system)
+-    if depmat is None:
++    if depmat is None or any(abs(x - round(x)) > 1e-9 for x in depmat):
+         return expr
+ 
+     expr_scale_factor = get_total_scale_factor(expr)
+```

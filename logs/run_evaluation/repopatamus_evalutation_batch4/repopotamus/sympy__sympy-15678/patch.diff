@@ -1,0 +1,37 @@
+```diff
+--- a/sympy/geometry/util.py
++++ b/sympy/geometry/util.py
+@@ -849,13 +849,12 @@
+     sympy.core.function.diff: explicitly differentiates wrt symbols
+ 
+     """
+-    from sympy import Eq
++    from sympy import Eq, Derivative
+     if is_sequence(y):
+         dep = set(y)
+         y = y[0]
+-    elif isinstance(y, Symbol):
++    else:
+         dep = {y}
+-    else:
+     if not isinstance(y, Symbol):
+         raise ValueError("expecting x-dependent symbol(s) but got: %s" % y)
+ 
+@@ -863,14 +862,13 @@
+         eq = eq.lhs - eq.rhs
+     f = dict([(s, Function(
+         s.name)(x)) for s in eq.free_symbols if s != x and s in dep])
+-    dydx = Function(y.name)(x).diff(x)
+-    derivs = {}
++    dydx = Derivative(y, x)
++    derivs = {dydx: 0}
+     for i in range(n):
+-        yp = solve(eq.diff(x), dydx)[0].subs(derivs)
++        yp = solve(eq.diff(x), dydx, dict=True)[0][dydx].subs(derivs)
+         if i == n - 1:
+             return yp.subs([(v, k) for k, v in f.items()])
+         derivs[dydx] = yp
+         eq = dydx - yp
+-
++        dydx = Derivative(y, x, i + 2)
+```

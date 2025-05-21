@@ -1,0 +1,83 @@
+2025-05-11 19:03:04,035 - INFO - Creating container for django__django-13447...
+2025-05-11 19:03:04,390 - INFO - Container for django__django-13447 created: cacec6c004fa643dabfbc9e621da3c21491d79b82d35fc358016287bae878c1d
+2025-05-11 19:03:04,705 - INFO - Container for django__django-13447 started: cacec6c004fa643dabfbc9e621da3c21491d79b82d35fc358016287bae878c1d
+2025-05-11 19:03:04,710 - INFO - Intermediate patch for django__django-13447 written to logs/run_evaluation/repopatamus_evalutation_group2/repopotamus/django__django-13447/patch.diff, now applying to container...
+2025-05-11 19:03:04,868 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-11 19:03:04,935 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-11 19:03:05,003 - INFO - >>>>> Applied Patch:
+patching file django/contrib/admin/sites.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 413 with fuzz 3.
+Hunk #2 succeeded at 437 with fuzz 3 (offset 8 lines).
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-11 19:03:05,903 - INFO - Git diff before:
+diff --git a/django/contrib/admin/sites.py b/django/contrib/admin/sites.py
+index 837dabfea8..481f5f21a5 100644
+--- a/django/contrib/admin/sites.py
++++ b/django/contrib/admin/sites.py
+@@ -413,6 +413,14 @@ class AdminSite:
+         request.current_app = self.name
+         return LoginView.as_view(**defaults)(request)
+ 
++
++
++        """
++        Return a sorted list of all the installed apps that have been
++        registered in this site.
++        """
++        app_dict = self._build_app_dict(request)
++
+     def autocomplete_view(self, request):
+         return AutocompleteJsonView.as_view(admin_site=self)(request)
+ 
+@@ -429,7 +437,7 @@ class AdminSite:
+                 if getattr(match.func, 'should_append_slash', True):
+                     return HttpResponsePermanentRedirect(path)
+         raise Http404
+-
++    
+     def _build_app_dict(self, request, label=None):
+         """
+         Build the app dictionary. The optional `label` parameter filters models
+2025-05-11 19:03:05,906 - INFO - Eval script for django__django-13447 written to logs/run_evaluation/repopatamus_evalutation_group2/repopotamus/django__django-13447/eval.sh; copying to container...
+2025-05-11 19:03:19,388 - INFO - Test runtime: 13.41 seconds
+2025-05-11 19:03:19,394 - INFO - Test output for django__django-13447 written to logs/run_evaluation/repopatamus_evalutation_group2/repopotamus/django__django-13447/test_output.txt
+2025-05-11 19:03:19,467 - INFO - Git diff after:
+diff --git a/django/contrib/admin/sites.py b/django/contrib/admin/sites.py
+index 837dabfea8..481f5f21a5 100644
+--- a/django/contrib/admin/sites.py
++++ b/django/contrib/admin/sites.py
+@@ -413,6 +413,14 @@ class AdminSite:
+         request.current_app = self.name
+         return LoginView.as_view(**defaults)(request)
+ 
++
++
++        """
++        Return a sorted list of all the installed apps that have been
++        registered in this site.
++        """
++        app_dict = self._build_app_dict(request)
++
+     def autocomplete_view(self, request):
+         return AutocompleteJsonView.as_view(admin_site=self)(request)
+ 
+@@ -429,7 +437,7 @@ class AdminSite:
+                 if getattr(match.func, 'should_append_slash', True):
+                     return HttpResponsePermanentRedirect(path)
+         raise Http404
+-
++    
+     def _build_app_dict(self, request, label=None):
+         """
+         Build the app dictionary. The optional `label` parameter filters models
+2025-05-11 19:03:19,468 - INFO - Grading answer for django__django-13447...
+2025-05-11 19:03:19,472 - INFO - report: {'django__django-13447': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_available_apps (admin_views.test_adminsite.SiteEachContextTest)']}, 'PASS_TO_PASS': {'success': ['test_add_action (admin_views.test_adminsite.SiteActionsTests)', 'test_disable_action (admin_views.test_adminsite.SiteActionsTests)', "AdminSite.get_action() returns an action even if it's disabled.", 'test_each_context (admin_views.test_adminsite.SiteEachContextTest)', 'test_each_context_site_url_with_script_name (admin_views.test_adminsite.SiteEachContextTest)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-13447: resolved: False
+2025-05-11 19:03:19,474 - INFO - Attempting to stop container sweb.eval.django__django-13447.repopatamus_evalutation_group2...
+2025-05-11 19:03:35,388 - INFO - Attempting to remove container sweb.eval.django__django-13447.repopatamus_evalutation_group2...
+2025-05-11 19:03:35,800 - INFO - Container sweb.eval.django__django-13447.repopatamus_evalutation_group2 removed.
+2025-05-11 19:03:35,800 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-13447:latest...
+2025-05-11 19:03:37,164 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-13447:latest removed.

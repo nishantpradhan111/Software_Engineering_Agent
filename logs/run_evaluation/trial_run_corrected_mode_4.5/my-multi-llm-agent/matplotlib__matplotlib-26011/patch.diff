@@ -1,0 +1,16 @@
+```diff
+--- a/lib/matplotlib/axis.py
++++ b/lib/matplotlib/axis.py
+@@ -1245,10 +1245,11 @@
+             for other in self._get_shared_axes():
+                 if other is self.axes:
+                     continue
+-                other._axis_map[name]._set_lim(v0, v1, emit=False, auto=auto)\n-                    if other.figure != self.figure:\n-                        other.figure.canvas.draw_idle()\n+                other._axis_map[name]._set_lim(v0, v1, emit=False, auto=auto)
++                if emit:
++                    other.callbacks.process(f"{name}lim_changed", other)
++                if other.figure != self.figure:
++                    other.figure.canvas.draw_idle()
+ 
+         self.stale = True
+         return v0, v1
+```

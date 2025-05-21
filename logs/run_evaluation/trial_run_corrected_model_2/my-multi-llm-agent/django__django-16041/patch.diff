@@ -1,0 +1,13 @@
+```diff
+--- a/django/forms/formsets.py
++++ b/django/forms/formsets.py
+@@ -263,7 +263,7 @@
+             "use_required_attribute": False,
+             "renderer": self.renderer,
+         }
+-        form_kwargs.pop("empty_permitted", None)
++        form_kwargs.pop("empty_permitted", None)
+         form = self.form(**form_kwargs)
+         self.add_fields(form, None)
+         return form
+```

@@ -1,0 +1,16 @@
+```diff
+--- a/django/forms/boundfield.py
++++ b/django/forms/boundfield.py
+@@ -81,9 +81,7 @@
+         attributes passed as attrs. If a widget isn't specified, use the
+         field's default widget.
+         """
+-        widget = widget or self.field.widget
+-        if self.field.localize:
+-            widget.is_localized = True
++        widget = widget or self.field.widget
+         attrs = attrs or {}
+         attrs = self.build_widget_attrs(attrs, widget)
+         if self.auto_id and "id" not in widget.attrs:
+
+```

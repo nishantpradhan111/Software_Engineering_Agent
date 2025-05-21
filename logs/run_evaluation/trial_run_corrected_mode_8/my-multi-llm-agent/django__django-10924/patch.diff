@@ -1,0 +1,14 @@
+```diff
+--- a/django/forms/fields.py
++++ b/django/forms/fields.py
+@@ -1074,6 +1074,9 @@
+         widget=widgets.Select,
+         **kwargs
+     ):
++        if callable(path):
++            path = path()
++
+         self.path = path
+         self.match = match
+         self.recursive = recursive
+```

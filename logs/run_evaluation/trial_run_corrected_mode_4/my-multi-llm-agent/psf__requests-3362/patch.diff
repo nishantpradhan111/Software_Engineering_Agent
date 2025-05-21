@@ -1,0 +1,34 @@
+```diff
+--- a/requests/utils.py
++++ b/requests/utils.py
+@@ -360,13 +360,13 @@
+ def stream_decode_response_unicode(iterator, r):
+     """Stream decodes a iterator."""
+     encoding = r.encoding
+-
++    
+     if encoding is None:
+         encoding = r.apparent_encoding
+-
++    
+     try:
+         decoder = codecs.getincrementaldecoder(encoding)(errors='replace')
+-    except (LookupError, TypeError):
++    except LookupError:
+         # A LookupError is raised if the encoding was not found which could
+         # indicate a misspelling or similar mistake.
+         #
+@@ -374,7 +374,6 @@
+         # raise UnicodeError("Unable to decode contents with encoding %s." % encoding)
+         raise UnicodeError("Unable to decode contents with encoding %s." % encoding)
+ 
+-    encoding = r.encoding
+-    if r.encoding is None:
+-        for item in iterator:
+-            yield item
+-        return
+-
+     decoder = codecs.getincrementaldecoder(r.encoding)(errors='replace')
+     for chunk in iterator:
+         rv = decoder.decode(chunk)
+```

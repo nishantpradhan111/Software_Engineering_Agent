@@ -1,0 +1,19 @@
+```diff
+--- a/sympy/printing/mathml.py
++++ b/sympy/printing/mathml.py
+@@ -746,10 +746,9 @@
+ 
+     def _print_Basic(self, e):
+         x = self.dom.createElement(self.mathml_tag(e))
+-        for arg in e.args:
+-            x.appendChild(self._print(arg))
+-        return x
+-
++        from sympy.tensor.indexed import Indexed
++        if not isinstance(e, Indexed):
++            for arg in e.args:
++                x.appendChild(self._print(arg))
++        return x
+     def _print_AssocOp(self, e):
+         x = self.dom.createElement('apply')
+```

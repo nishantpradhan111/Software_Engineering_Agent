@@ -1,0 +1,17 @@
+```diff
+--- a/sympy/ntheory/residue_ntheory.py
++++ b/sympy/ntheory/residue_ntheory.py
+@@ -774,10 +774,10 @@
+     if n == 2:
+         return sqrt_mod(a, p, all_roots)
+     # see Hackman "Elementary Number Theory" (2009), page 76
++    if a % p == 0:
++        return [0]
+     if not isprime(p):
+         return _nthroot_mod_composite(a, n, p)
+-    if a % p == 0:
+-        return [0]
+     if not is_nthpow_residue(a, n, p):
+         return None
+ 
+```

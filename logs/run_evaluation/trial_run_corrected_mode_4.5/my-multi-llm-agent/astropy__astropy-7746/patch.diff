@@ -1,0 +1,23 @@
+```diff
+--- a/astropy/wcs/wcs.py
++++ b/astropy/wcs/wcs.py
+@@ -1213,6 +1213,8 @@
+         """
+ 
+         def _return_list_of_arrays(axes, origin):
++            if any(len(x) == 0 for x in axes):
++                return axes
+             try:
+                 axes = np.broadcast_arrays(*axes)
+             except ValueError:
+@@ -1234,8 +1236,7 @@
+             else:
+                 xy = np.asarray(xy, dtype=np.float64)
+                 if xy.shape[-1] != self.naxis:
+-                    raise ValueError(
+-                        "When providing two arguments, the array must be "
++                    raise ValueError("When providing two arguments, the array must be "
+                     "of shape (N, {0})".format(self.naxis))
+             if ra_dec_order and sky == 'input':
+                 xy = self._denormalize_sky(xy)
+```

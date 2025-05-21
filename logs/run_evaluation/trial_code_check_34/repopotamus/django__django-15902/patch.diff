@@ -1,0 +1,12 @@
+```diff
+--- a/django/forms/formsets.py
++++ b/django/forms/formsets.py
+@@ -142,7 +142,6 @@
+                     MIN_NUM_FORM_COUNT: self.min_num,
+                     MAX_NUM_FORM_COUNT: self.max_num,
+                 },
+-
+                 renderer=self.renderer,
+             )
+         return form
+```

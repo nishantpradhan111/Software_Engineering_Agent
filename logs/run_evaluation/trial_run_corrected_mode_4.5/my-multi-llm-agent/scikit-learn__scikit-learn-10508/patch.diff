@@ -1,0 +1,20 @@
+```diff
+--- a/sklearn/preprocessing/label.py
++++ b/sklearn/preprocessing/label.py
+@@ -135,6 +135,7 @@ def transform(self, y):
+         """
+         check_is_fitted(self, 'classes_')
+         y = column_or_1d(y, warn=True)
++
+         # transform of empty array is empty array
+         if _num_samples(y) == 0:
+             return np.array([])
+@@ -152,6 +153,7 @@ def inverse_transform(self, y):
+         y : numpy array of shape [n_samples]\
+         """
+         check_is_fitted(self, 'classes_')
++
+         y = column_or_1d(y, warn=True)
+         # inverse transform of empty array is empty array
+         if _num_samples(y) == 0:
+```

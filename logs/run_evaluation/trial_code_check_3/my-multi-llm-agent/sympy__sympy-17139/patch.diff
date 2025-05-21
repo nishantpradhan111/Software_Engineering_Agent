@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/simplify/fu.py
++++ b/sympy/simplify/fu.py
+@@ -501,7 +501,7 @@
+ 
+     def _f(rv):
+         if rv.is_Pow:
+-            if (rv.exp < 0) == True:
++            if rv.exp.is_real and (rv.exp < 0) == True:
+                 rv = Pow(rv.base, -rv.exp)
+         return rv
+ 
+```

@@ -1,0 +1,13 @@
+```diff
+--- a/tests/expressions/tests.py
++++ b/tests/expressions/tests.py
+@@ -813,7 +814,7 @@
+         Company.objects.create(name='5040 Ltd', num_employees=50, num_chairs=40, ceo=ceo)
+         Company.objects.create(name='5050 Ltd', num_employees=50, num_chairs=50, ceo=ceo)
+         Company.objects.create(name='5060 Ltd', num_employees=50, num_chairs=60, ceo=ceo)
+-        Company.objects.create(name='99300 Ltd', num_employees=99, num_chairs=300, ceo=ceo)
++        cls.c5 = Company.objects.create(name='99300 Ltd', num_employees=99, num_chairs=300, ceo=ceo)
+ 
+     def test_in_lookup_allows_F_expressions_and_expressions_for_integers(self):
+         # __in lookups can use F() expressions for integers.
+```

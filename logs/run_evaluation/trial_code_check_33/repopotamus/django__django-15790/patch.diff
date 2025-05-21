@@ -1,0 +1,22 @@
+```diff
+--- a/django/core/checks/templates.py
++++ b/django/core/checks/templates.py
+@@ -51,7 +51,7 @@
+     libraries = defaultdict(list)
+ 
+     for conf in settings.TEMPLATES:
+-        custom_libraries = conf.get("OPTIONS", {}).get("libraries", {})
++        custom_libraries = conf.get("OPTIONS", {}).get("libraries", {}) or {}
+         for module_name, module_path in custom_libraries.items():
+             libraries[module_name].append((conf.get('NAME'), module_path))
+ 
+@@ -60,7 +60,7 @@
+         if len(items) > 1:
+             errors.append(
+                 Error(
+-                    E003.msg.format(
++                    E003.msg.format(
+                         repr(library_name),
+                         ", ".join(repr(item) for item in items),
+                     ),
+```

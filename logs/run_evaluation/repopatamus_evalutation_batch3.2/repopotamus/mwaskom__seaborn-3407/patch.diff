@@ -1,0 +1,14 @@
+```diff
+--- a/seaborn/axisgrid.py
++++ b/seaborn/axisgrid.py
+@@ -1491,9 +1491,7 @@
+         # Loop over diagonal variables and axes, making one plot in each
+         for var, ax in zip(self.diag_vars, self.diag_axes):
+ 
+-
+             plot_kwargs = kwargs.copy()
+-
+             if str(func.__module__).startswith("seaborn"):
+                 plot_kwargs["ax"] = ax
+             else:
+```

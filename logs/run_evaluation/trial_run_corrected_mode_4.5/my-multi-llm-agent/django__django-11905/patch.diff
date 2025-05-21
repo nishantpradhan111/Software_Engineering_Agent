@@ -1,0 +1,22 @@
+```diff
+--- a/django/db/models/lookups.py
++++ b/django/db/models/lookups.py
+@@ -466,6 +466,17 @@
+     prepare_rhs = False
+ 
+     def as_sql(self, compiler, connection):
++        if not isinstance(self.rhs, bool):
++            warnings.warn(
++                "Using a non-boolean value for an isnull lookup is "
++                "deprecated, use True or False instead.",
++                RemovedInDjango40Warning,
++                stacklevel=2,
++            )
++            # When the deprecation ends, replace with:
++            # raise ValueError(
++            #     "The QuerySet value for an isnull lookup must be True or False."
++            # )
+         sql, params = compiler.compile(self.lhs)
+         if self.rhs:
+             return "%s IS NULL" % sql, params
+```

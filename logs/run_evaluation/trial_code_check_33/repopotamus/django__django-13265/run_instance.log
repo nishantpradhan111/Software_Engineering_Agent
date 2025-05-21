@@ -1,0 +1,2712 @@
+2025-05-11 11:07:56,928 - INFO - Creating container for django__django-13265...
+2025-05-11 11:07:58,566 - INFO - Container for django__django-13265 created: 16598d1efb967919fe7c5750ba043ac1faa5caf03c6ba4fc1e3fc0d3c635f36b
+2025-05-11 11:07:59,792 - INFO - Container for django__django-13265 started: 16598d1efb967919fe7c5750ba043ac1faa5caf03c6ba4fc1e3fc0d3c635f36b
+2025-05-11 11:07:59,806 - INFO - Intermediate patch for django__django-13265 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/patch.diff, now applying to container...
+2025-05-11 11:08:00,109 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-11 11:08:00,215 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-11 11:08:00,298 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-11 11:08:00,298 - INFO - >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+2025-05-11 11:08:00,673 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-11 11:08:00,674 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,674 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,675 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,675 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,675 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,676 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,676 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,677 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,677 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,677 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,678 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,679 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,680 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,682 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,683 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,683 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,684 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,684 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,685 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,685 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,685 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,686 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,686 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,686 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,687 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,687 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,687 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,688 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,688 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,688 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,689 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,689 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,690 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,690 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,690 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,691 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,691 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,691 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,692 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,692 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,692 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,694 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,694 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,695 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,695 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,696 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,696 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,696 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,697 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,697 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,697 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,698 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,698 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,698 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,698 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,699 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,700 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,700 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,700 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,701 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,701 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,701 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,702 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,702 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,702 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,702 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,703 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,703 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,704 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,704 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,705 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,705 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,705 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,706 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,707 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,707 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,707 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,709 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,710 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,711 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,712 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,712 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,712 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,713 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,713 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,714 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,714 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,714 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,715 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,715 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,715 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,716 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,716 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,716 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,717 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,718 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,718 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,718 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,719 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,720 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,720 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,721 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,721 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,722 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,722 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,723 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,723 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,723 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,724 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,724 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,724 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,725 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,725 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,726 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,726 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,726 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,727 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,727 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,728 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,728 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,728 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:00,729 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,094 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-11 11:08:01,094 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,094 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,096 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,096 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,096 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,097 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,098 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,098 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,098 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,099 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,099 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,099 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,100 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,100 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,100 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,101 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,101 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,101 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,101 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,102 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,102 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,102 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,102 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,103 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,103 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,103 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,103 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,104 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,104 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,104 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,105 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,105 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,105 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,105 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,106 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,106 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,106 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,107 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,107 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,107 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,108 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,108 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,108 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,109 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,109 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,109 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,110 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,110 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,110 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,111 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,111 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,111 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,112 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,112 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,112 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,113 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,113 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,114 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,115 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,115 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,115 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,116 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,116 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,116 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,117 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,118 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,118 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,121 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,123 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,123 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,124 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,124 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,124 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,130 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,132 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,133 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,133 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,133 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,134 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,134 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,141 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,141 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,142 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,143 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,143 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,144 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,145 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,145 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,145 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,146 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,146 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,147 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,147 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,147 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,148 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,148 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,149 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,149 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,150 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,150 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,151 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,151 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,151 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,152 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,152 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,152 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,153 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,156 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+Hunk #1 FAILED at 406.
+patch: **** malformed patch at line 34: @@ -445,7 +441,6 @@
+
+
+Check (logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13265/run_instance.log) for more information.
+
+2025-05-11 11:08:01,158 - INFO - Attempting to stop container sweb.eval.django__django-13265.trial_code_check_33...
+2025-05-11 11:08:16,743 - INFO - Attempting to remove container sweb.eval.django__django-13265.trial_code_check_33...
+2025-05-11 11:08:16,800 - INFO - Container sweb.eval.django__django-13265.trial_code_check_33 removed.
+2025-05-11 11:08:16,801 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-13265:latest...
+2025-05-11 11:08:17,340 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-13265:latest removed.

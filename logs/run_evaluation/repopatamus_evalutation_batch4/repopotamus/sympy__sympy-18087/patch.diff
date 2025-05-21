@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/core/exprtools.py
++++ b/sympy/core/exprtools.py
+@@ -402,7 +402,7 @@
+                     i1 *= k**factors.pop(k)
+                 if i1 is not S.One:
+                     for a in i1.args if i1.is_Mul else [i1]:  # at worst, -1.0*I*(-1)**e
+-                        if a is S.NegativeOne:
++                        if a is S.NegativeOne:  # pragma: no cover
+                             factors[a] = S.One
+                         elif a is I:
+                             factors[I] = S.One
+
+```

@@ -1,0 +1,24 @@
+```diff
+--- a/django/views/debug.py
++++ b/django/views/debug.py
+@@ -466,9 +466,9 @@
+ 
+ def technical_404_response(request, exception):
+     """Create a technical 404 error response. `exception` is the Http404."""
+-    from django.conf import settings
+     try:
+         error_url = exception.args[0]['path']
++
+     except (IndexError, TypeError, KeyError):
+         error_url = request.path_info[1:]  # Trim leading slash
+ 
+@@ -499,7 +499,7 @@
+ 
+     caller = ''
+     try:
+-        resolver_match = resolve(request.path)
++        resolver_match = resolve(request.path_info)
+     except Resolver404:
+         pass
+     else:
+```

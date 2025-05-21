@@ -1,0 +1,16 @@
+```diff
+--- a/xarray/core/variable.py
++++ b/xarray/core/variable.py
+@@ -216,8 +216,8 @@ def as_compatible_data(data):
+     if isinstance(data, (np.ndarray, dask_array_type)):
+         return data
+     elif isinstance(data, DataArray):
+-        # TODO: remove this deprecation warning in v0.19
+-        return data.values
++        # Extract the underlying data array from DataArray
++        # TODO: remove this deprecation warning in v0.19
++        return data.data
+     elif isinstance(data, Variable):
+         return data.data
+     elif isinstance(data, Index):
+```

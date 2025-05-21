@@ -1,0 +1,14 @@
+```
+--- a/sympy/functions/elementary/trigonometric.py
++++ b/sympy/functions/elementary/trigonometric.py
+@@ -1800,8 +1800,7 @@
+         pi_coeff = _pi_coeff(arg)
+         if pi_coeff is not None:
+             if pi_coeff.is_integer:
+-                if fuzzy_not(arg.is_zero):
+-                    return S.Zero
++                return S.Zero
+             elif (2*pi_coeff).is_integer:
+                 if pi_coeff.is_even:
+                     return S.Zero
+```

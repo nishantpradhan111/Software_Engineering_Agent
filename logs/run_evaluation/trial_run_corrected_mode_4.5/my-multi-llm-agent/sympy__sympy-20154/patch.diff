@@ -1,0 +1,35 @@
+```diff
+--- a/sympy/utilities/iterables.py
++++ b/sympy/utilities/iterables.py
+@@ -1799,11 +1799,11 @@
+         keys.append(r)
+     room = m - q - bool(r)
+     if size:
+-        yield sum(ms.values()), ms
++        yield sum(ms.values()), ms.copy()
+     else:
+-        yield ms
++        yield ms.copy()
+ 
+-    while keys != [1]:
++    while True:
+         # Reuse any 1's.
+         if 1 in ms:
+             need = 1
+@@ -1820,11 +1820,11 @@
+             break
+         room -= need
+         if size:
+-            yield sum(ms.values()), ms
++            yield sum(ms.values()), ms.copy()
+         else:
+-            yield ms
++            yield ms.copy()
+ 
+-
++        if keys == [1]:
++            break
+ def ordered_partitions(n, m=None, sort=True):
+     """
+     Return all ordered integer partitions of n as tuples. If m is supplied,
+```

@@ -1,0 +1,22 @@
+```diff
+--- a/sympy/printing/latex.py
++++ b/sympy/printing/latex.py
+@@ -235,7 +235,7 @@ def _needs_mul_brackets(self, expr, first=False, last=False):
+         if any([expr.has(x) for x in (Mod,)]):\
+             return True
+         if (not last and
+-            any([expr.has(x) for x in (Integral, Piecewise, Product, Sum)])):\
++            any([expr.has(x) for x in (Integral, Product, Sum)])):
+             return True
+ 
+         return False
+--- a/sympy/printing/tests/test_latex.py
++++ b/sympy/printing/tests/test_latex.py
+@@ -867,5 +867,5 @@ def test_latex_Piecewise():
+     p = Piecewise((A**2, Eq(A, B)), (A*B, True))\
+     s = r"\\begin{cases} A^{2} & \\text{for}\\: A = B \\\\A B & \\text{otherwise} \\end{cases}"
+     assert latex(p) == s\
+-    assert latex(A*p) == r"A %s" % s\
++    assert latex(A*p) == r"A \left(%s\right)" % s\
+     assert latex(p*A) == r"\\left(%s\\right) A" % s
+```

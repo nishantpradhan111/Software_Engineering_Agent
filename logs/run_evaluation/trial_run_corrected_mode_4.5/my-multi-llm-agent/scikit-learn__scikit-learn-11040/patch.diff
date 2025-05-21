@@ -1,0 +1,43 @@
+```diff
+--- a/sklearn/neighbors/base.py
++++ b/sklearn/neighbors/base.py
+@@ -265,13 +265,11 @@ def _fit(self, X):
+                     "Expected n_neighbors > 0. Got %d" %\
+                     self.n_neighbors
+                 )
+-            else:
+-                if not np.issubdtype(type(self.n_neighbors), np.integer):\
+-                    raise TypeError(\
+-                        "n_neighbors does not take %s value, "\
+-                        "enter integer value" %\
+-                        type(self.n_neighbors))\
+ 
++        if not np.issubdtype(type(self.n_neighbors), np.integer):
++            raise TypeError("n_neighbors does not take %s value, "
++                            "enter integer value" % type(self.n_neighbors))
++
+         return self
+ 
+ 
+@@ -329,16 +327,10 @@
+ 
+         if n_neighbors is None:
+             n_neighbors = self.n_neighbors
+-        elif n_neighbors <= 0:\
++
++        if not np.issubdtype(type(n_neighbors), np.integer):
++            raise TypeError("n_neighbors does not take %s value, "
++                            "enter integer value" % type(n_neighbors))
++        if n_neighbors <= 0:
+             raise ValueError(\
+-                "Expected n_neighbors > 0. Got %d" %\
+-                n_neighbors\
+-            )\
+-        else:\
+-            if not np.issubdtype(type(n_neighbors), np.integer):\
+-                raise TypeError(\
+-                    "n_neighbors does not take %s value, "\
+-                    "enter integer value" %\
+-                    type(n_neighbors))\
++                "Expected n_neighbors > 0. Got %d" % n_neighbors)
+```

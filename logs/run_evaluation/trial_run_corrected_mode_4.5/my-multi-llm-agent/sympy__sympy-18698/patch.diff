@@ -1,0 +1,12 @@
+```diff
+--- a/sympy/polys/polytools.py
++++ b/sympy/polys/polytools.py
+@@ -5952,6 +5952,7 @@
+                         other.append((f, k))\
+ 
+                 factors.append((_factors_product(other), exp))\
++
+     if method == 'sqf':
+         factors = [(reduce(mul, (f for f, _ in factors if _ == k)), k)
+                    for k in sorted(set(i for _, i in factors))]
+```

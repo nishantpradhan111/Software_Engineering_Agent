@@ -1,0 +1,40 @@
+```diff
+--- a/django/db/backends/base/creation.py
++++ b/django/db/backends/base/creation.py
+@@ -61,15 +61,11 @@
+         self.connection.settings_dict["NAME"] = test_database_name
+ 
+         try:
+-            if self.connection.settings_dict['TEST']['MIGRATE'] is False:
++            if self.connection.settings_dict['TEST'].get('MIGRATE', True) is False:
+                 # Disable migrations for all apps.
+-                old_migration_modules = settings.MIGRATION_MODULES
+-                settings.MIGRATION_MODULES = {
+-                    app.label: None
+-                    for app in apps.get_app_configs()
+-                }
+                 try:
+                     old_migration_modules = settings.MIGRATION_MODULES
++
+                     settings.MIGRATION_MODULES = {
+                         app.label: None for app in apps.get_app_configs()
+                     }
+@@ -82,6 +78,7 @@
+                     )
+                 finally:
+                     settings.MIGRATION_MODULES = old_migration_modules
++
+             # We report migrate messages at one level lower than that
+             # requested. This ensures we don't get flooded with messages during
+             # testing (unless you really ask to be flooded).
+@@ -93,8 +90,6 @@
+                 database=self.connection.alias,
+                 run_syncdb=True,
+             )
+-        finally:
+-            if self.connection.settings_dict['TEST']['MIGRATE'] is False:
+-                settings.MIGRATION_MODULES = old_migration_modules
+ 
+         # We then serialize the current state of the database into a string
+         # and store it on the connection. This slightly horrific process is so people
+```

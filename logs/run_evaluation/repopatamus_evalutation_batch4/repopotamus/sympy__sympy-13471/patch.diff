@@ -1,0 +1,27 @@
+```diff
+--- a/sympy/core/numbers.py
++++ b/sympy/core/numbers.py
+@@ -1411,11 +1411,6 @@
+         elif isinstance(num, tuple) and len(num) in (3, 4):
+             if type(num[1]) is str:
+                 # it's a hexadecimal (coming from a pickled object)
+-                # assume that it is in standard form
+-                num = list(num)
+-                num[1] = long(num[1], 16)
+-                _mpf_ = tuple(num)
+-            else:
+                 if len(num) == 4:
+                     # handle normalization hack
+                     return Float._new(num, precision)
+@@ -1423,10 +1413,6 @@
+                     return (S.NegativeOne**num[0]*num[1]*S(2)**num[2]).evalf(precision)
+         else:
+             try:
+-                # it's a hexadecimal (coming from a pickled object)
+-                # assume that it is in standard form
+-                num = list(num)
+-                # If we're loading an object pickled in Python 2 into
+                 # Python 3, we may need to strip a tailing 'L' because
+                 _mpf_ = num._as_mpf_val(precision)
+             except (NotImplementedError, AttributeError):
+```

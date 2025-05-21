@@ -1,0 +1,13 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -877,7 +877,7 @@
+         # to the seen set.
+         for sql, params in order_by:
+             if sql in seen:
+-                continue
++                continue  # Skip duplicate order_by clauses.
+             seen.add(sql)
+             sql_with_ordering = sql
+             if self.ordering_parts:
+```

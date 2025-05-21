@@ -1,0 +1,15 @@
+```diff
+--- a/sympy/core/expr.py
++++ b/sympy/core/expr.py
+@@ -410,9 +410,8 @@
+             return False
+         # check number *in* an expression
+         for a, b in zip(a, b):
+-            if not isinstance(a, Expr):
++            if not (isinstance(a, Expr) and isinstance(b, Expr)):
+                 continue
+-            if a.is_Number and type(a) != type(b):
++            if a.is_Number and b.is_Number and type(a) != type(b):
+                 return False
+         return True
+```

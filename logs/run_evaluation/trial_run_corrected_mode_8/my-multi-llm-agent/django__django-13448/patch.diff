@@ -1,0 +1,13 @@
+```diff
+--- a/django/db/backends/base/creation.py
++++ b/django/db/backends/base/creation.py
+@@ -72,7 +72,7 @@
+             verbosity=max(verbosity - 1, 0),
+             interactive=False,
+             database=self.connection.alias,
+-            run_syncdb=True,
++            run_syncdb=True,  # Only creates tables for apps without migrations.
+         )
+     else:
+         try:
+```

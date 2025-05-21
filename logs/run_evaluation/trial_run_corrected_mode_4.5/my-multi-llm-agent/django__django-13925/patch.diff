@@ -1,0 +1,16 @@
+```diff
+--- a/django/db/models/base.py
++++ b/django/db/models/base.py
+@@ -1300,11 +1300,11 @@
+         if (
+             cls._meta.pk.auto_created and
+             not (
++                # Inherited PKs are checked in parents models.
+                 isinstance(cls._meta.pk, OneToOneField) and
+                 cls._meta.pk.remote_field.parent_link
+             ) and
+-            # Inherited PKs are checked in parents models.
+             not settings.is_overridden('DEFAULT_AUTO_FIELD') and
+             not cls._meta.app_config._is_default_auto_field_overridden
+         ):
+```

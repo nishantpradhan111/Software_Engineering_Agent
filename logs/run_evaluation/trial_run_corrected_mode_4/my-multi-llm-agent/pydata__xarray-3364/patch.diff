@@ -1,0 +1,40 @@
+```diff
+--- a/xarray/core/concat.py
++++ b/xarray/core/concat.py
+@@ -312,15 +312,9 @@ def _dataset_concat(
+         to_merge = {var: [] for var in variables_to_merge}
+ 
+         for ds in datasets:
+-            absent_merge_vars = variables_to_merge - set(ds.variables)
+-            if absent_merge_vars:
+-                raise ValueError(
+-                    "variables %r are present in some datasets but not others. "
+-                    % absent_merge_vars
+-                )
+-
+             for var in variables_to_merge:
+-                to_merge[var].append(ds.variables[var])
++                if var in ds:
++                    to_merge[var].append(ds.variables[var])
+ 
+         for var in variables_to_merge:
+             result_vars[var] = unique_variable(
+diff --git a/xarray/tests/test_combine.py
++++ b/xarray/tests/test_combine.py
+@@ -782,12 +782,11 @@ def test_auto_combine_previously_failed(self):
+         actual = auto_combine(datasets, concat_dim="t")
+         assert_identical(expected, actual)
+ 
+-    def test_auto_combine_still_fails(self):
+-        # concat can\'t handle new variables (yet):\n        # https://github.com/pydata/xarray/issues/508
++    def test_auto_combine_with_new_variables(self):
+         datasets = [Dataset({"x": 0}, {"y": 0}), Dataset({"x": 1}, {"y": 1, "z": 1})]
+-        with pytest.raises(ValueError):\n            auto_combine(datasets, "y")
++        actual = auto_combine(datasets, "y")
+         # z should be a coordinate
+         expected = Dataset({"x": ("y", [0, 1])}, {"y": [0, 1], "z": ("y", [np.nan, 1])})
+         assert_identical(expected, actual)
+-
+     def test_auto_combine_no_concat(self):
+         objs = [Dataset({"x": 0}), Dataset({"y": 1})]
+```

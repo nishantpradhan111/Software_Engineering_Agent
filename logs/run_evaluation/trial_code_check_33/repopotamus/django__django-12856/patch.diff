@@ -1,0 +1,17 @@
+```
+--- a/django/db/models/base.py
++++ b/django/db/models/base.py
+@@ -1109,10 +1109,10 @@
+         else:
+             errors = []
+             for fields in cls._meta.unique_together:
+-                errors.extend(cls._check_local_fields(fields, "unique_together"))
++                errors.extend(cls._check_local_fields(fields, 'unique_together'))
+             for constraint in cls._meta.constraints:
+                 if isinstance(constraint, UniqueConstraint):
+-                    errors.extend(cls._check_local_fields(constraint.fields, 'unique_constraint'))
++                    errors.extend(cls._check_local_fields(constraint.fields, 'unique_constraint'))
+         return errors
+ 
+     @classmethod
+```

@@ -1,0 +1,13 @@
+```diff
+--- a/astropy/wcs/wcs.py
++++ b/astropy/wcs/wcs.py
+@@ -1214,6 +1214,8 @@
+     def _return_list_of_arrays(self, axes, origin):
+         from astropy.utils.misc import isiterable
+ 
++        # The input axes are a list of lists, where each sublist
++        # corresponds to an axis.
+         # Return empty lists if any of the input axes are empty
+         # or if all axes are empty
+         if not any(axes) or all(len(ax) == 0 for ax in axes):
+```

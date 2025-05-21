@@ -1,0 +1,18 @@
+```
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -1704,10 +1704,10 @@
+                 setattr(from_obj, name, obj)
+ 
+             for name in list(requested):
+-                # Filtered relations work only on the topmost level.
++                # Filtered relations work only on the topmost level
+                 if cur_depth > 1:
+-                    break
+-                if name in self.query._filtered_relations:
++                    continue
++                if name in self.query._filtered_relations:
+                     fields_found.add(name)
+                     final_field, _, join_opts, joins, _, _ = self.query.setup_joins(
+                         [name], opts, root_alias
+```

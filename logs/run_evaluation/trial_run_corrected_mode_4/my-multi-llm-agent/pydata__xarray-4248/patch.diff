@@ -1,0 +1,16 @@
+```diff
+--- a/xarray/core/formatting.py
++++ b/xarray/core/formatting.py
+@@ -144,6 +144,12 @@ def summarize_variable(name, var, col_width, indent=DEFAULT_INDENT):
+     if hasattr(var, "encoding") and "source" in var.encoding:
+         if isinstance(var.encoding["source"], str):
+             name += f" @ {var.encoding['source']}"
++
++    if hasattr(var, "attrs") and "units" in var.attrs and var.attrs["units"]:
++        units = var.attrs["units"]
++        name += f" [{units}]"
++
+     first_line = f"{indent}{name:<{col_width}}"
+ 
+     if hasattr(var, "dtype"):
+```

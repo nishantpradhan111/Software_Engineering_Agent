@@ -1,0 +1,39 @@
+```diff
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -745,6 +745,7 @@ def deferred_to_data(self, target):
+                     cur_model = source.related_model
+                 else:
+                     cur_model = source.remote_field.model
++                cur_model = cur_model._meta.concrete_model
+                 opts = cur_model._meta
+                 # Even if we're "just passing through" this model, we must add
+                 # both the current model's pk and the related reference field
+--- a/tests/proxy_models/tests.py
++++ b/tests/proxy_models/tests.py
+@@ -392,15 +392,11 @@
+         self.assertEqual(resp, "<ProxyImprovement: ProxyImprovement:improve that>")
+     )
+ 
++    def test_proxy_load_from_fixture(self):
++       management.call_command("loaddata", "mypeople.json", verbosity=0)
++       p = MyPerson.objects.get(pk=100)
++       self.assertEqual(p.name, "Elvis Presley")
++
+     def test_select_related_only(self):
+         user = ProxyTrackerUser.objects.create(name="Joe Doe", status="test")
+         issue = Issue.objects.create(summary="New issue", assignee=user)
+         qs = Issue.objects.select_related("assignee").only("assignee__status")
+         self.assertEqual(qs.get(), issue)
+-
+-    def test_proxy_load_from_fixture(self):
+-        management.call_command("loaddata", "mypeople.json", verbosity=0)
+-        p = MyPerson.objects.get(pk=100)
+-        self.assertEqual(p.name, "Elvis Presley")
+-
+-    def test_select_related_only(self):
+-        user = ProxyTrackerUser.objects.create(name="Joe Doe", status="test")
+-        issue = Issue.objects.create(summary="New issue", assignee=user)
+-        qs = Issue.objects.select_related("assignee").only("assignee__status")
+-        self.assertEqual(qs.get(), issue)
+```

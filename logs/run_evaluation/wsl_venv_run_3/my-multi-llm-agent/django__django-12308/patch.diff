@@ -1,0 +1,35 @@
+```diff
+--- a/django/contrib/admin/utils.py
++++ b/django/contrib/admin/utils.py
+@@ -400,10 +400,7 @@
+     elif isinstance(field, models.FileField) and value:
+         return format_html('<a href="{}">{}</a>', value.url, value)
+     elif isinstance(field, models.JSONField) and value:
+-        try:
+-            return field.get_prep_value(value)
+-        except TypeError:
+-            return display_for_value(value, empty_value_display)
++        return display_for_value(value, empty_value_display)
+     else:
+         return display_for_value(value, empty_value_display)
+ 
+```diff
+--- a/tests/admin_utils/tests.py
++++ b/tests/admin_utils/tests.py
+@@ -176,6 +176,7 @@
+         display_value = display_for_field(None, models.FloatField(), self.empty_value)
+         self.assertEqual(display_value, self.empty_value)
+ 
++    @skipUnless(HAS_JSONFIELD, 'JSONField is required.')
+         display_value = display_for_field(None, models.JSONField(), self.empty_value)
+         self.assertEqual(display_value, self.empty_value)
+ 
+@@ -194,6 +195,7 @@
+                     display_value,
+                 )
+ 
++    @skipUnless(HAS_NUMBER_FORMAT, 'Number format is required.')
+     def test_number_formats_display_for_field(self):
+         display_value = display_for_field(12345.6789, models.FloatField(), self.empty_value)
+         self.assertEqual(display_value, '12345.6789')
+```

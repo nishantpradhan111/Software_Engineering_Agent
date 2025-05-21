@@ -1,0 +1,49 @@
+2025-05-11 17:59:26,896 - INFO - Creating container for django__django-10924...
+2025-05-11 17:59:27,466 - INFO - Container for django__django-10924 created: 5701dedefba4c3b599d4b62eace38fd9affbc0d2dbd0890502c7810c73d0c552
+2025-05-11 17:59:27,994 - INFO - Container for django__django-10924 started: 5701dedefba4c3b599d4b62eace38fd9affbc0d2dbd0890502c7810c73d0c552
+2025-05-11 17:59:28,007 - INFO - Intermediate patch for django__django-10924 written to logs/run_evaluation/repopatamus_evalutation_group1/repopotamus/django__django-10924/patch.diff, now applying to container...
+2025-05-11 17:59:28,263 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-11 17:59:28,395 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-11 17:59:28,511 - INFO - >>>>> Applied Patch:
+patching file django/db/models/fields/__init__.py
+Hunk #1 succeeded at 1003 with fuzz 3.
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-11 17:59:30,285 - INFO - Git diff before:
+diff --git a/django/db/models/fields/__init__.py b/django/db/models/fields/__init__.py
+index 0c64748ccd..d1da6a4e8e 100644
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -1003,6 +1003,7 @@ class BooleanField(Field):
+         if value in ('t', 'True', '1'):
+             return True
+         if value in ('f', 'False', '0'):
++                 **kwargs):
+             return False
+         raise exceptions.ValidationError(
+             self.error_messages['invalid_nullable' if self.null else 'invalid'],
+2025-05-11 17:59:30,292 - INFO - Eval script for django__django-10924 written to logs/run_evaluation/repopatamus_evalutation_group1/repopotamus/django__django-10924/eval.sh; copying to container...
+2025-05-11 17:59:40,599 - INFO - Test runtime: 10.17 seconds
+2025-05-11 17:59:40,603 - INFO - Test output for django__django-10924 written to logs/run_evaluation/repopatamus_evalutation_group1/repopotamus/django__django-10924/test_output.txt
+2025-05-11 17:59:40,685 - INFO - Git diff after:
+diff --git a/django/db/models/fields/__init__.py b/django/db/models/fields/__init__.py
+index 0c64748ccd..d1da6a4e8e 100644
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -1003,6 +1003,7 @@ class BooleanField(Field):
+         if value in ('t', 'True', '1'):
+             return True
+         if value in ('f', 'False', '0'):
++                 **kwargs):
+             return False
+         raise exceptions.ValidationError(
+             self.error_messages['invalid_nullable' if self.null else 'invalid'],
+2025-05-11 17:59:40,685 - INFO - Grading answer for django__django-10924...
+2025-05-11 17:59:40,689 - INFO - report: {'django__django-10924': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_callable_path (model_fields.test_filepathfield.FilePathFieldTests)']}, 'PASS_TO_PASS': {'success': [], 'failure': ['test_path (model_fields.test_filepathfield.FilePathFieldTests)']}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-10924: resolved: False
+2025-05-11 17:59:40,693 - INFO - Attempting to stop container sweb.eval.django__django-10924.repopatamus_evalutation_group1...
+2025-05-11 17:59:56,402 - INFO - Attempting to remove container sweb.eval.django__django-10924.repopatamus_evalutation_group1...
+2025-05-11 17:59:56,481 - INFO - Container sweb.eval.django__django-10924.repopatamus_evalutation_group1 removed.
+2025-05-11 17:59:56,482 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-10924:latest...
+2025-05-11 17:59:56,584 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-10924:latest removed.

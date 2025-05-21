@@ -1,0 +1,18 @@
+```diff
+--- a/src/_pytest/assertion/util.py
++++ b/src/_pytest/assertion/util.py
+@@ -275,11 +275,11 @@
+                 right_value = right[i]
+ 
+             explanation += [
+-                "At index {} diff: {!r} != {!r}".format(i, left[i], right[i])\
++                "At index {} diff: {!r} != {!r}".format(i, left_value, right_value)
+             ]
+             break
+-    len_diff = len_left - len_right\
+ 
++    len_diff = len_left - len_right
+     if comparing_bytes:
+         # when comparing bytes, it doesn't help to show the "sides contain one or more items"\
+         # longer explanation, so skip it
+```

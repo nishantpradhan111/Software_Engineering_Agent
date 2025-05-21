@@ -1,0 +1,21 @@
+```diff
+--- a/sphinx/ext/autodoc.py
++++ b/sphinx/ext/autodoc.py
+@@ -1078,7 +1078,7 @@
+                 annotations = {}
+ 
+             if self.objpath[-1] in annotations:
+-                typehint = annotations[self.objpath[-1]]
++                typehint = annotations[self.objpath[-1]]  # type: ignore
+                 if self.config.autodoc_type_aliases and typehint in self.config.autodoc_type_aliases:
+                     typehint = self.config.autodoc_type_aliases[typehint]
+ 
+@@ -1442,7 +1442,7 @@
+                 annotations = {}
+ 
+             if self.objpath[-1] in annotations:
+-                typehint = annotations[self.objpath[-1]]
++                typehint = annotations[self.objpath[-1]]  # type: ignore
+                 if self.config.autodoc_type_aliases and typehint in self.config.autodoc_type_aliases:
+                     typehint = self.config.autodoc_type_aliases[typehint]
+```

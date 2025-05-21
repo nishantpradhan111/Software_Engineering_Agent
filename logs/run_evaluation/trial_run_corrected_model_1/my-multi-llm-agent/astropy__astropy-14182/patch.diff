@@ -1,0 +1,13 @@
+```diff
+--- a/astropy/io/ascii/rst.py
++++ b/astropy/io/ascii/rst.py
+@@ -54,7 +54,7 @@
+     header_class = SimpleRSTHeader
+ 
+     def __init__(self, **kwargs):
+-        header_rows = kwargs.pop('header_rows', None)
++        header_rows = kwargs.get('header_rows', None)
+         super().__init__(delimiter_pad=None, bookend=False, header_rows=header_rows, **kwargs)
+ 
+     def write(self, lines):
+```

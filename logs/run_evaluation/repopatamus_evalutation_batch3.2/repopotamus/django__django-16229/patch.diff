@@ -1,0 +1,14 @@
+```diff
+--- a/django/forms/boundfield.py
++++ b/django/forms/boundfield.py
+@@ -81,7 +81,8 @@
+         if self.field.localize:
+             widget.is_localized = True
+         attrs = attrs or {}
+-        attrs = self.build_widget_attrs(attrs, widget)
++        attrs = self.build_widget_attrs(attrs, widget)        
++
+         if self.auto_id and "id" not in widget.attrs:
+             attrs.setdefault(
+                 "id", self.html_initial_id if only_initial else self.auto_id
+```

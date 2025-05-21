@@ -1,0 +1,13 @@
+```diff
+--- a/requests/models.py
++++ b/requests/models.py
+@@ -637,6 +637,8 @@
+                     raise ChunkedEncodingError(e)
+                 except DecodeError as e:
+                     raise ContentDecodingError(e)
++                except socket.error as e:
++                    raise ConnectionError(e)
+             except AttributeError:
+                 # Standard file-like object.
+                 while True:
+```

@@ -1,0 +1,62 @@
+2025-05-11 20:45:00,835 - INFO - Creating container for sympy__sympy-19254...
+2025-05-11 20:45:01,279 - INFO - Container for sympy__sympy-19254 created: c4fe65d5c96c6f047ed5519daacb504901bf2b0db736e93ec069320d8eb408fc
+2025-05-11 20:45:01,605 - INFO - Container for sympy__sympy-19254 started: c4fe65d5c96c6f047ed5519daacb504901bf2b0db736e93ec069320d8eb408fc
+2025-05-11 20:45:01,613 - INFO - Intermediate patch for sympy__sympy-19254 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-19254/patch.diff, now applying to container...
+2025-05-11 20:45:01,864 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-11 20:45:01,982 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-11 20:45:02,094 - INFO - >>>>> Applied Patch:
+patching file sympy/polys/factortools.py
+Hunk #1 succeeded at 124 with fuzz 3 (offset -11 lines).
+patch unexpectedly ends in middle of line
+
+2025-05-11 20:45:02,753 - INFO - Git diff before:
+diff --git a/sympy/polys/factortools.py b/sympy/polys/factortools.py
+index 93298f47e6..e059a04b59 100644
+--- a/sympy/polys/factortools.py
++++ b/sympy/polys/factortools.py
+@@ -124,12 +124,9 @@ def dmp_trial_division(f, factors, u, K):
+ 
+ 
+ def dup_zz_mignotte_bound(f, K):
+-    """Mignotte bound for univariate polynomials in `K[x]`. """
+-    a = dup_max_norm(f, K)
+-    b = abs(dup_LC(f, K))
+-    n = dup_degree(f)
++    """Mignotte bound for univariate polynomials in `K[x]`.
+ 
+-    return K.sqrt(K(n + 1))*2**n*a*b
++    """
+ 
+ 
+ def dmp_zz_mignotte_bound(f, u, K):
+2025-05-11 20:45:02,764 - INFO - Eval script for sympy__sympy-19254 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-19254/eval.sh; copying to container...
+2025-05-11 20:45:12,202 - INFO - Test runtime: 9.33 seconds
+2025-05-11 20:45:12,206 - INFO - Test output for sympy__sympy-19254 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-19254/test_output.txt
+2025-05-11 20:45:12,309 - INFO - Git diff after:
+diff --git a/sympy/polys/factortools.py b/sympy/polys/factortools.py
+index 93298f47e6..e059a04b59 100644
+--- a/sympy/polys/factortools.py
++++ b/sympy/polys/factortools.py
+@@ -124,12 +124,9 @@ def dmp_trial_division(f, factors, u, K):
+ 
+ 
+ def dup_zz_mignotte_bound(f, K):
+-    """Mignotte bound for univariate polynomials in `K[x]`. """
+-    a = dup_max_norm(f, K)
+-    b = abs(dup_LC(f, K))
+-    n = dup_degree(f)
++    """Mignotte bound for univariate polynomials in `K[x]`.
+ 
+-    return K.sqrt(K(n + 1))*2**n*a*b
++    """
+ 
+ 
+ def dmp_zz_mignotte_bound(f, u, K):
+2025-05-11 20:45:12,310 - INFO - Grading answer for sympy__sympy-19254...
+2025-05-11 20:45:12,315 - INFO - report: {'sympy__sympy-19254': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_dup_zz_mignotte_bound']}, 'PASS_TO_PASS': {'success': ['test_dup_trial_division', 'test_dmp_trial_division', 'test_dmp_zz_mignotte_bound', 'test_dup_zz_hensel_step', 'test_dup_zz_hensel_lift', 'test_dup_zz_irreducible_p', 'test_dup_cyclotomic_p', 'test_dup_zz_cyclotomic_poly', 'test_dup_zz_cyclotomic_factor', 'test_dup_zz_factor', 'test_dmp_zz_wang', 'test_issue_6355', 'test_dmp_zz_factor', 'test_dup_ext_factor', 'test_dmp_ext_factor', 'test_dup_factor_list', 'test_dmp_factor_list', 'test_dup_irreducible_p'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-19254: resolved: False
+2025-05-11 20:45:12,319 - INFO - Attempting to stop container sweb.eval.sympy__sympy-19254.repopatamus_evalutation_batch4...
+2025-05-11 20:45:27,936 - INFO - Attempting to remove container sweb.eval.sympy__sympy-19254.repopatamus_evalutation_batch4...
+2025-05-11 20:45:28,019 - INFO - Container sweb.eval.sympy__sympy-19254.repopatamus_evalutation_batch4 removed.
+2025-05-11 20:45:28,020 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-19254:latest...
+2025-05-11 20:45:28,369 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-19254:latest removed.

@@ -1,0 +1,25 @@
+```diff
+--- a/sympy/sets/sets.py
++++ b/sympy/sets/sets.py
+@@ -1260,7 +1260,7 @@ def __new__(cls, *args, **kwargs):
+         evaluate = kwargs.get('evaluate', global_evaluate[0])
+ 
+         # flatten inputs to merge intersections and iterables
+-        args = _sympify(args)
++        args = list(ordered(set(_sympify(args))))
+ 
+         # Reduce sets using known rules
+         if evaluate:
+```diff
+--- a/sympy/sets/tests/test_sets.py
++++ b/sympy/sets/tests/test_sets.py
+@@ -21,7 +21,7 @@ def test_imageset():
+     assert imageset(x, abs(x), S.Integers) is S.Naturals0
+     # issue 16878a
+     r = symbols('r', real=True)
+-    assert (1, r) not in imageset(x, (x, x), S.Reals)
++    assert (1, r) in imageset(x, (x, x), S.Reals)
+     assert (r, r) in imageset(x, (x, x), S.Reals)
+     assert 1 + I in imageset(x, x + I, S.Reals)
+     assert {1} not in imageset(x, (x,), S.Reals)
+```

@@ -1,0 +1,13 @@
+```diff
+--- a/django/core/management/templates.py
++++ b/django/core/management/templates.py
+@@ -74,7 +74,7 @@
+             if app_or_project == 'app':
+                 self.validate_name(os.path.basename(top_dir), 'directory')
+             if app_or_project == 'app':
+-                self.validate_name(os.path.basename(top_dir), 'directory')
++                self.validate_name(os.path.basename(top_dir.rstrip(os.sep)), 'directory')
+             if not os.path.exists(top_dir):
+                 raise CommandError("Destination directory '%s' does not "
+                                    "exist, please create it first." % top_dir)
+```

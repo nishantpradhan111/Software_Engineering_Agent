@@ -1,0 +1,16 @@
+```
+--- a/src/_pytest/assertion/util.py
++++ b/src/_pytest/assertion/util.py
+@@ -176,10 +176,7 @@
+     if isinstance(right, bytes):
+         right = escape_for_readable_diff(right)
+     if verbose < 1:
+-        # Avoid bytes warning in Python 3.
+-        if isinstance(left, str):
+-            left_len, right_len = len(left), len(right)
+-        else:
++
+         i = 0  # just in case left or right has zero length
+         for i in range(min(len(left), len(right))):
+             if left[i] != right[i]:
+```

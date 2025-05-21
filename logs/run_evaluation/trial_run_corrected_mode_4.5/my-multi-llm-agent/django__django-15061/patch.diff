@@ -1,0 +1,14 @@
+```diff
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -850,5 +850,7 @@
+     def id_for_label(self, id_):
+         if id_:
+             id_ += '_0'
+-        return ''
++        return id_
++    id_for_label.needs_auto_id = True
+ 
+     def value_from_datadict(self, data, files, name):
+         return [
+```

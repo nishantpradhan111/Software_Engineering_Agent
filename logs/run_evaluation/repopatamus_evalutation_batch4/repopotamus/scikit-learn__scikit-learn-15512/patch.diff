@@ -1,0 +1,13 @@
+```diff
+--- a/sklearn/cluster/_affinity_propagation.py
++++ b/sklearn/cluster/_affinity_propagation.py
+@@ -210,7 +210,7 @@
+         c[I] = np.arange(K)
+         labels = I[c]
+         # Reduce labels to a sorted, gapless, list
+-        cluster_centers_indices = np.unique(labels)
++        cluster_centers_indices = np.asarray(np.unique(labels))
+         labels = np.searchsorted(cluster_centers_indices, labels)
+     else:
+         warnings.warn("Affinity propagation did not converge, this model "
+```

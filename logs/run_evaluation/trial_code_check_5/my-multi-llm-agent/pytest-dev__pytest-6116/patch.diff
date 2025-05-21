@@ -1,0 +1,12 @@
+```diff
+--- a/src/_pytest/config/argparsing.py
++++ b/src/_pytest/config/argparsing.py
+@@ -96,6 +96,7 @@
+         group = parser.getgroup("general")
+         group.addoption(
+             "--collect-only",
++            "-c",
+             "--co",
+             dest="collectonly",
+             help="only collect tests, don't execute them.",
+```

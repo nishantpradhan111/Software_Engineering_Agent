@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/models/query_utils.py
++++ b/django/db/models/query_utils.py
+@@ -72,6 +72,9 @@
+         if not isinstance(other, Q):
+             raise TypeError(other)
+ 
++        if self.is_empty():
++            return other
++
+         if other.is_empty():
+             return self
+ 
+```

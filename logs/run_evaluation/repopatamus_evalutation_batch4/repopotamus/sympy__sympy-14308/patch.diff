@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/printing/pretty/pretty.py
++++ b/sympy/printing/pretty/pretty.py
+@@ -697,6 +697,9 @@
+         return pform
+ 
+     def _print_BasisDependent(self, expr):
++        if not hasattr(expr, 'components'):
++            # To catch some corner cases
++            return self.emptyPrinter(expr)
+         from sympy.vector import Vector
+ 
+         if not self._use_unicode:
+```

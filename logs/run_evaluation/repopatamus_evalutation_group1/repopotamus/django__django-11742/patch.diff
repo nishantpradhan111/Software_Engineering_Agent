@@ -1,0 +1,136 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -360,6 +360,7 @@
+         return [
+             *self._check_field_name(),
+             *self._check_choices(),
++            *self._check_max_length_and_choices(),
+             *self._check_db_index(),
+             *self._check_null_allowed_for_primary_keys(),
+             *self._check_backend_specific_checks(**kwargs),
+@@ -370,36 +371,35 @@
+     def _check_field_name(self):
+         """
+         Check if field name is valid, i.e. 1) does not end with an
+-        underscore, 2) does not contain "__" and 3) is not "pk".
++        underscore, 2) does not contain "__" and 3) is not "pk"
+         """
+         if self.name.endswith('_'):
+             return [
+                 checks.Error(
+                     'Field names must not end with an underscore.',
+                     obj=self,
+-                    id='fields.E001',
++                    id="fields.E001",
+                 )
+             ]
+         elif LOOKUP_SEP in self.name:
+             return [
+                 checks.Error(
+                     'Field names must not contain "%s".' % (LOOKUP_SEP,),
+-                    obj=self,
+-                    id='fields.E002',
++                    obj=self, id="fields.E002",
+                 )
+             ]
+         elif self.name == 'pk':
+             return [
+                 checks.Error(
+                     "'pk' is a reserved word that cannot be used as a field name.",
+-                    obj=self,
+-                    id='fields.E003',
++                    obj=self, id="fields.E003",
+                 )
+             ]
+         else:
+             return []
+ 
++
+     def _check_choices(self):
+         if not self.choices:
+             return []
+@@ -413,8 +413,7 @@
+             return [
+                 checks.Error(
+                     "'choices' must be an iterable (e.g., a list or tuple).",
+-                    obj=self,
+-                    id='fields.E004',
++                    obj=self, id="fields.E004",
+                 )
+             ]
+ 
+@@ -449,11 +448,50 @@
+         return [
+             checks.Error(
+                 "'choices' must be an iterable containing "
+-                "(actual value, human readable name) tuples.",
+-                obj=self,
+-                id='fields.E005',
++                "(actual value, human readable name) tuples.", obj=self, id="fields.E005",
+             )
+         ]
++
++    def _check_max_length_and_choices(self):
++        if self.choices and self.max_length:
++            choice_max_length = 0
++            for choices_group in self.choices:
++                try:
++                    group_name, group_choices = choices_group
++                except (TypeError, ValueError):
++                    # No groups, choices in the form [value, display]
++                    value, human_name = choices_group
++                    if isinstance(value, str):
++                        choice_max_length = max(choice_max_length, len(value))
++                else:
++                    if group_choices:
++                        choice_max_length = max(
++                            choice_max_length,
++                            *(
++                                len(value)
++                                for value, _ in group_choices
++                                if isinstance(value, str)
++                            ),
++                        )
++
++            if choice_max_length > self.max_length:
++                return [
++                    checks.Error(
++                        "'max_length' is too small to fit the longest value "
++                        "in 'choices' (%d characters)." % choice_max_length,
++                        obj=self,
++                        id="fields.E009",
++                    ),
++                ]
++            else:
++                return []
++
++        else:
++            return []
++
++
++
+ 
+     def _check_db_index(self):
+         if self.db_index not in (None, True, False):
+@@ -461,8 +499,7 @@
+                 checks.Error(
+                     "'db_index' must be None, True or False.",
+                     obj=self,
+-                    id='fields.E006',
+-                )
++                    id="fields.E006",                )
+             ]
+         else:
+             return []
+@@ -478,8 +515,7 @@
+                     hint=('Set null=False on the field, or '
+                           'remove primary_key=True argument.'),
+                     obj=self,
+-                    id='fields.E007',
+-                )
++                    id="fields.E007",                )
+             ]
+         else:
+             return []
+```

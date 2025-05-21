@@ -1,0 +1,48 @@
+2025-05-03 23:55:50,417 - INFO - Creating container for django__django-13448...
+2025-05-03 23:55:50,941 - INFO - Container for django__django-13448 created: fc95cf24f6a657dfbcc4ea803250ea3ff429f53dbbb2fdbbd70fe33f59bf27c0
+2025-05-03 23:55:51,171 - INFO - Container for django__django-13448 started: fc95cf24f6a657dfbcc4ea803250ea3ff429f53dbbb2fdbbd70fe33f59bf27c0
+2025-05-03 23:55:51,177 - INFO - Intermediate patch for django__django-13448 written to logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13448/patch.diff, now applying to container...
+2025-05-03 23:55:51,332 - INFO - >>>>> Applied Patch:
+Checking patch django/db/backends/base/creation.py...
+Hunk #1 succeeded at 58 (offset -3 lines).
+Applied patch django/db/backends/base/creation.py cleanly.
+
+2025-05-03 23:55:52,287 - INFO - Git diff before:
+diff --git a/django/db/backends/base/creation.py b/django/db/backends/base/creation.py
+index 503f7f56fd..002c92aee2 100644
+--- a/django/db/backends/base/creation.py
++++ b/django/db/backends/base/creation.py
+@@ -58,7 +58,7 @@ class BaseDatabaseCreation:
+         settings.DATABASES[self.connection.alias]["NAME"] = test_database_name
+         self.connection.settings_dict["NAME"] = test_database_name
+ 
+-        if self.connection.settings_dict['TEST']['MIGRATE']:
++        if self.connection.settings_dict['TEST'].get('MIGRATE', True):
+             # We report migrate messages at one level lower than that
+             # requested. This ensures we don't get flooded with messages during
+             # testing (unless you really ask to be flooded).
+2025-05-03 23:55:52,291 - INFO - Eval script for django__django-13448 written to logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13448/eval.sh; copying to container...
+2025-05-03 23:56:01,445 - INFO - Test runtime: 9.07 seconds
+2025-05-03 23:56:01,448 - INFO - Test output for django__django-13448 written to logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13448/test_output.txt
+2025-05-03 23:56:01,526 - INFO - Git diff after:
+diff --git a/django/db/backends/base/creation.py b/django/db/backends/base/creation.py
+index 503f7f56fd..002c92aee2 100644
+--- a/django/db/backends/base/creation.py
++++ b/django/db/backends/base/creation.py
+@@ -58,7 +58,7 @@ class BaseDatabaseCreation:
+         settings.DATABASES[self.connection.alias]["NAME"] = test_database_name
+         self.connection.settings_dict["NAME"] = test_database_name
+ 
+-        if self.connection.settings_dict['TEST']['MIGRATE']:
++        if self.connection.settings_dict['TEST'].get('MIGRATE', True):
+             # We report migrate messages at one level lower than that
+             # requested. This ensures we don't get flooded with messages during
+             # testing (unless you really ask to be flooded).
+2025-05-03 23:56:01,527 - INFO - Grading answer for django__django-13448...
+2025-05-03 23:56:01,531 - INFO - report: {'django__django-13448': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_migrate_test_setting_false (backends.base.test_creation.TestDbCreationTests)']}, 'PASS_TO_PASS': {'success': ['test_custom_test_name (backends.base.test_creation.TestDbSignatureTests)', 'test_custom_test_name_with_test_prefix (backends.base.test_creation.TestDbSignatureTests)', 'test_default_name (backends.base.test_creation.TestDbSignatureTests)', 'test_migrate_test_setting_true (backends.base.test_creation.TestDbCreationTests)', 'test_circular_reference (backends.base.test_creation.TestDeserializeDbFromString)', 'test_circular_reference_with_natural_key (backends.base.test_creation.TestDeserializeDbFromString)', 'test_self_reference (backends.base.test_creation.TestDeserializeDbFromString)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-13448: resolved: False
+2025-05-03 23:56:01,535 - INFO - Attempting to stop container sweb.eval.django__django-13448.trial_run_corrected_model_1...
+2025-05-03 23:56:17,090 - INFO - Attempting to remove container sweb.eval.django__django-13448.trial_run_corrected_model_1...
+2025-05-03 23:56:17,146 - INFO - Container sweb.eval.django__django-13448.trial_run_corrected_model_1 removed.
+2025-05-03 23:56:17,147 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-13448:latest...
+2025-05-03 23:56:17,645 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-13448:latest removed.

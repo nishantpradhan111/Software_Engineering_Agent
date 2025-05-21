@@ -1,0 +1,46 @@
+2025-05-11 11:19:41,912 - INFO - Creating container for django__django-15388...
+2025-05-11 11:19:42,147 - INFO - Container for django__django-15388 created: 147accaeaa5e2677739142325b6469b4886d2a5fcbd73f09e8f73bc0d55b8881
+2025-05-11 11:19:42,450 - INFO - Container for django__django-15388 started: 147accaeaa5e2677739142325b6469b4886d2a5fcbd73f09e8f73bc0d55b8881
+2025-05-11 11:19:42,457 - INFO - Intermediate patch for django__django-15388 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-15388/patch.diff, now applying to container...
+2025-05-11 11:19:42,740 - INFO - >>>>> Applied Patch:
+Checking patch django/template/autoreload.py...
+Hunk #1 succeeded at 49 (offset 4 lines).
+Applied patch django/template/autoreload.py cleanly.
+
+2025-05-11 11:19:43,946 - INFO - Git diff before:
+diff --git a/django/template/autoreload.py b/django/template/autoreload.py
+index cf1b20ba95..70f810556b 100644
+--- a/django/template/autoreload.py
++++ b/django/template/autoreload.py
+@@ -49,6 +49,6 @@ def watch_for_template_changes(sender, **kwargs):
+ @receiver(file_changed, dispatch_uid='template_loaders_file_changed')
+ def template_changed(sender, file_path, **kwargs):
+     for template_dir in get_template_directories():
+-        if template_dir in file_path.parents:
++        if str(template_dir) in str(file_path.resolve()):
+             reset_loaders()
+             return True
+2025-05-11 11:19:43,952 - INFO - Eval script for django__django-15388 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-15388/eval.sh; copying to container...
+2025-05-11 11:19:58,771 - INFO - Test runtime: 14.69 seconds
+2025-05-11 11:19:58,779 - INFO - Test output for django__django-15388 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-15388/test_output.txt
+2025-05-11 11:19:58,889 - INFO - Git diff after:
+diff --git a/django/template/autoreload.py b/django/template/autoreload.py
+index cf1b20ba95..70f810556b 100644
+--- a/django/template/autoreload.py
++++ b/django/template/autoreload.py
+@@ -49,6 +49,6 @@ def watch_for_template_changes(sender, **kwargs):
+ @receiver(file_changed, dispatch_uid='template_loaders_file_changed')
+ def template_changed(sender, file_path, **kwargs):
+     for template_dir in get_template_directories():
+-        if template_dir in file_path.parents:
++        if str(template_dir) in str(file_path.resolve()):
+             reset_loaders()
+             return True
+2025-05-11 11:19:58,890 - INFO - Grading answer for django__django-15388...
+2025-05-11 11:19:58,897 - INFO - report: {'django__django-15388': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_non_template_changed_in_template_directory (template_tests.test_autoreloader.TemplateReloadTests)']}, 'PASS_TO_PASS': {'success': ['test_get_template_directories (template_tests.test_autoreloader.Jinja2TemplateReloadTests)', 'test_reset_all_loaders (template_tests.test_autoreloader.Jinja2TemplateReloadTests)', 'test_watch_for_template_changes (template_tests.test_autoreloader.Jinja2TemplateReloadTests)', 'test_get_template_directories (template_tests.test_autoreloader.TemplateReloadTests)', 'test_non_template_changed (template_tests.test_autoreloader.TemplateReloadTests)', 'test_reset_all_loaders (template_tests.test_autoreloader.TemplateReloadTests)', 'test_template_changed (template_tests.test_autoreloader.TemplateReloadTests)', 'test_template_dirs_normalized_to_paths (template_tests.test_autoreloader.TemplateReloadTests)', 'test_watch_for_template_changes (template_tests.test_autoreloader.TemplateReloadTests)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-15388: resolved: False
+2025-05-11 11:19:58,902 - INFO - Attempting to stop container sweb.eval.django__django-15388.trial_code_check_33...
+2025-05-11 11:20:15,096 - INFO - Attempting to remove container sweb.eval.django__django-15388.trial_code_check_33...
+2025-05-11 11:20:15,193 - INFO - Container sweb.eval.django__django-15388.trial_code_check_33 removed.
+2025-05-11 11:20:15,195 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-15388:latest...
+2025-05-11 11:20:15,964 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-15388:latest removed.

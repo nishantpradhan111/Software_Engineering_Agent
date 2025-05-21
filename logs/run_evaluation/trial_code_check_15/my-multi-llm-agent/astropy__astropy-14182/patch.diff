@@ -1,0 +1,35 @@
+```diff
+--- a/astropy/io/ascii/rst.py
++++ b/astropy/io/ascii/rst.py
+@@ -63,7 +63,7 @@
+         Col1  Col2  Col3
+         ==== ===== ======
+           1    2.3  Hello
+-        2    4.5  Worlds
++          2    4.5  Worlds
+         ==== ===== ======
+ 
+     Currently there is no support for reading tables which utilize continuation lines
+@@ -76,15 +76,16 @@
+     _description = "reStructuredText simple table"
+     data_class = SimpleRSTData
+     header_class = SimpleRSTHeader
+-    _header_rows = None
+ 
+-    def __init__(self):
+-        super().__init__(delimiter_pad=None, bookend=False)
++    def __init__(self, header_rows=None):
++        super().__init__(delimiter_pad=None, bookend=False)
++        self._header_rows = header_rows
+ 
+     def write(self, lines):
+         lines = super().write(lines)
+-        lines = [lines[1]] + lines + [lines[1]]
+         if self._header_rows is not None:
+-            header_lines = [lines[0] if row == "name" else lines[2] for row in self._header_rows]
++            header_lines = [lines[0] if row == 'name' else lines[2]
++                            for row in self._header_rows]
+             lines = [lines[1]] + header_lines + [lines[1]] + lines[3:] + [lines[1]]
+         else:
+             lines = [lines[1]] + lines + [lines[1]]
+```

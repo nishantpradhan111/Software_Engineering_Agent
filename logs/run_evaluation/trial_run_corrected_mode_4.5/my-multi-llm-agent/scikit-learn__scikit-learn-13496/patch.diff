@@ -1,0 +1,21 @@
+```diff
+--- a/sklearn/ensemble/iforest.py
++++ b/sklearn/ensemble/iforest.py
+@@ -124,6 +124,8 @@
+         and add more estimators to the ensemble, otherwise, just fit a whole
+         new forest. See :term:`the Glossary <warm_start>`.
+ 
++
++
+         .. versionadded:: 0.21
+ 
+     Attributes
+@@ -185,6 +187,7 @@
+             n_estimators=n_estimators,
+             max_samples=max_samples,
+             max_features=max_features,
++            warm_start=warm_start,
+             n_jobs=n_jobs,
+             random_state=random_state,
+             verbose=verbose)
+```

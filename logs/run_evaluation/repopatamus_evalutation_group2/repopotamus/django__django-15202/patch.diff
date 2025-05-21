@@ -1,0 +1,13 @@
+```diff
+--- a/django/core/validators.py
++++ b/django/core/validators.py
+@@ -104,7 +104,7 @@
+             super().__call__(value)
+         except ValidationError as e:
+             # Trivial case failed. Try for possible IDN domain
+-        except ValidationError as e:
++
+             if value:
+                 try:
+                     scheme, netloc, path, query, fragment = urlsplit(value)
+```

@@ -1,0 +1,16 @@
+```diff
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -1079,10 +1079,7 @@
+         else:
+             # The row was returned as a tuple.
+             if self.select_fields:
+-            )\
+-            type_ = type(value)
+-            if hasattr(type_, '_make'):  # namedtuple
+-                return type_(*values)
++                type_ = type(value)
+             type_ = type(value)
+             if hasattr(type_, '_make'):  # namedtuple
+                 return type_(*values)
+```

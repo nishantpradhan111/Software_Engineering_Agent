@@ -1,0 +1,26 @@
+```diff
+--- a/django/db/models/fields/related.py
++++ b/django/db/models/fields/related.py
+@@ -1549,11 +1549,10 @@
+         # automatically. The funky name reduces the chance of an accidental
+         # clash.
+         if self.remote_field.symmetrical and (
+-            self.remote_field.model == RECURSIVE_RELATIONSHIP_CONSTANT or
+-            self.remote_field.model == cls._meta.object_name
++            self.remote_field.model == RECURSIVE_RELATIONSHIP_CONSTANT
+         ):
+-            self.remote_field.related_name = "%s_rel_+" % name
+-        elif self.remote_field.is_hidden():
++            self.remote_field.related_name = '%s_rel_+' % name
++        elif self._related_name is not None:
+             if self._related_name is not None:
+                 raise ValueError(
+                     "related_name should be None for symmetrical relations.")
+@@ -1577,7 +1576,6 @@
+         # Add the descriptor for the m2m relation.
+         setattr(cls, self.name, ManyToManyDescriptor(self.remote_field, reverse=False))
+ 
+-
+         # Set up the accessor for the m2m table name for the relation.
+         self.m2m_db_table = partial(self._get_m2m_db_table, cls._meta)
+```

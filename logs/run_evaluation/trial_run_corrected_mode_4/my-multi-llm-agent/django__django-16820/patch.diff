@@ -1,0 +1,17 @@
+```diff
+--- a/django/db/migrations/operations/models.py
++++ b/django/db/migrations/operations/models.py
+@@ -324,10 +324,10 @@
+                 ]
+             elif isinstance(operation, RenameIndex) and operation.old_fields:
+                 options_index_together = [
+-                    fields
+                     for fields in self.options.get("index_together", [])
+                     if fields != operation.old_fields
+-                ]
++                ]
++
+                 if options_index_together:
+                     self.options["index_together"] = options_index_together
+                 else:
+```

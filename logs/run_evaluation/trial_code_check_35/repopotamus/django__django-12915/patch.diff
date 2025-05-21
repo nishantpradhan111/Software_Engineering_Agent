@@ -1,0 +1,42 @@
+```diff
+--- a/django/contrib/staticfiles/handlers.py
++++ b/django/contrib/staticfiles/handlers.py
+@@ -43,16 +43,16 @@
+         except Http404 as e:
+             return response_for_exception(request, e)
+ 
+-    async def serve_async(self, request):
++    async def serve_async(self, request, path):
+         """Serve the request path."""
+-        return serve(request, self.file_path(request.path), insecure=True)
++        return serve(request, self.file_path(path), insecure=True)
+ 
+-    async def get_response_async(self, request):
++    async def get_response_async(self, request, path):
+         try:
+-            return self.serve(request)
++            return await self.serve_async(request, path)
+         except Http404 as e:
+             return response_for_exception(request, e)
+-
++            
+ 
+ class StaticFilesHandler(StaticFilesHandlerMixin, WSGIHandler):
+     """
+@@ -60,13 +60,6 @@
+     defined by the STATIC_URL setting, and serves those files.
+     """
+ 
+-    async def serve_async(self, request):
+-        """Serve the request path."""
+-        return serve(request, self.file_path(request.path), insecure=True)
+-
+-    async def get_response_async(self, request):
+-        try:
+-            return self.serve(request)
+-        except Http404 as e:
+-            return response_for_exception(request, e)
++
++
+     """
+```

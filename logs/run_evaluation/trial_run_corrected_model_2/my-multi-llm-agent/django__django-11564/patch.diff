@@ -1,0 +1,20 @@
+```diff
+--- a/django/conf/__init__.py
++++ b/django/conf/__init__.py
+@@ -120,7 +120,6 @@
+             )
+         return self.__getattr__('PASSWORD_RESET_TIMEOUT_DAYS')
+ 
+-
+     @property
+     def STATIC_URL(self):
+         return self._add_script_prefix(self.__getattr__('STATIC_URL'))
+@@ -128,6 +127,3 @@
+     @property
+     def MEDIA_URL(self):
+         return self._add_script_prefix(self.__getattr__('MEDIA_URL'))
+-
+-
+-class Settings:
+-    def __init__(self, settings_module):
+```

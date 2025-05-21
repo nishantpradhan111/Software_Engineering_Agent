@@ -1,0 +1,30 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -1277,19 +1277,11 @@
+             def local_setter_noop(obj, from_obj):
+                 pass
+ 
++
+             def remote_setter(name, obj, from_obj):
+                 setattr(from_obj, name, obj)
+ 
+-
+-
+-
+             return {
+                 "name": name,
+                 "model": model,
+                 "field": final_field,\
+                 "reverse": True,\
+-                "local_setter": partial(local_setter, final_field),\
+-                "remote_setter": partial(remote_setter, name),\
+-                "from_parent": from_parent,\
+-            }
+-
+-
++                "local_setter": partial(local_setter, final_field) if len(joins) <= 2 else local_setter_noop,
++                "remote_setter": partial(remote_setter, name),
++                "from_parent": from_parent,
++            }
+```

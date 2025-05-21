@@ -1,0 +1,18 @@
+```diff
+--- a/sklearn/mixture/base.py
++++ b/sklearn/mixture/base.py
+@@ -185,9 +185,8 @@
+         -------\n         self\n         """
++        self.fit_predict(X)
+         return self
+-\n+
+     def fit_predict(self, X, y=None):
+         """Estimate model parameters using X and predict the labels for X.
+ 
+@@ -240,4 +239,4 @@
+         self._set_parameters(best_params)
+         self.n_iter_ = best_n_iter
+ 
+-        return self
++        return log_resp.argmax(axis=1)
+```

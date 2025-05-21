@@ -1,0 +1,25 @@
+```diff
+--- a/sphinx/ext/autosummary/generate.py
++++ b/sphinx/ext/autosummary/generate.py
+@@ -320,12 +320,12 @@
+     ns.update(context)
+ 
+     if doc.objtype == 'module':
+-        ns['members'] = dir(obj)
++        if imported_members:
++            ns['members'] = dir(obj)
++        else:
++            ns['members'] = [x for x in dir(obj) if not (hasattr(getattr(obj, x), '__module__') and
++                                                          getattr(getattr(obj, x), '__module__') != obj.__name__)]
+         ns['functions'], ns['all_functions'] = \
+-            get_members(obj, {'function'}, imported=imported_members)
++            get_members(obj, {'function'}, imported=True)
+         ns['classes'], ns['all_classes'] = \
+-            get_members(obj, {'class'}, imported=imported_members)
+-        ns['exceptions'], ns['all_exceptions'] = \
+-            get_members(obj, {'exception'}, imported=imported_members)
+-        ns['attributes'], ns['all_attributes'] = \
+-
++            get_members(obj, {'class'}, imported=True)
+
+```

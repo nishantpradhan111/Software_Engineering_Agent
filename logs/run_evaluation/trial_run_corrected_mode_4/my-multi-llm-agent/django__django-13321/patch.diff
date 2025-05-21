@@ -1,0 +1,13 @@
+```diff
+--- a/django/contrib/sessions/backends/base.py
++++ b/django/contrib/sessions/backends/base.py
+@@ -127,7 +127,7 @@
+                 # format.
+                 return self._legacy_decode(session_data)
+             except Exception:
+-                logger = logging.getLogger('django.security.SuspiciousSession')
++                logger = logging.getLogger('django.security.sessions')
+                 logger.warning('Session data corrupted')
+                 return {}
+         except Exception:
+```

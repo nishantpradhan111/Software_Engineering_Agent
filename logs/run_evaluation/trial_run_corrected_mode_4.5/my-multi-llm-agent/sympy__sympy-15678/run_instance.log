@@ -1,0 +1,2467 @@
+2025-05-07 20:33:21,043 - INFO - Creating container for sympy__sympy-15678...
+2025-05-07 20:33:21,294 - INFO - Container for sympy__sympy-15678 created: 0e07dcb123c55720b323da13d5f06418f0b1cf8a17e1e847ea188f11a951f9c7
+2025-05-07 20:33:21,514 - INFO - Container for sympy__sympy-15678 started: 0e07dcb123c55720b323da13d5f06418f0b1cf8a17e1e847ea188f11a951f9c7
+2025-05-07 20:33:21,519 - INFO - Intermediate patch for sympy__sympy-15678 written to logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/patch.diff, now applying to container...
+2025-05-07 20:33:21,672 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-07 20:33:21,733 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-07 20:33:21,792 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-07 20:33:21,792 - INFO - >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+2025-05-07 20:33:22,055 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-07 20:33:22,056 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,056 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,056 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,056 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,057 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,057 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,057 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,058 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,058 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,058 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,058 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,059 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,059 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,059 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,060 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,061 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,061 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,061 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,061 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,062 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,062 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,062 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,063 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,064 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,064 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,065 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,065 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,065 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,066 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,067 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,067 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,067 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,068 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,068 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,070 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,070 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,071 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,071 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,071 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,072 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,072 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,072 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,072 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,073 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,073 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,073 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,074 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,074 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,074 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,074 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,075 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,075 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,075 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,076 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,076 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,076 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,076 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,077 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,077 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,077 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,078 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,078 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,078 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,078 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,079 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,079 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,079 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,079 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,079 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,080 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,080 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,080 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,080 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,081 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,081 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,081 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,081 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,082 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,082 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,082 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,082 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,083 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,083 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,083 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,083 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,084 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,084 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,084 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,084 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,085 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,085 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,085 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,086 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,086 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,086 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,086 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,087 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,087 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,087 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,087 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,088 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,088 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,088 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,088 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,089 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,089 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,089 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,089 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,090 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,090 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,090 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,090 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,091 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,091 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,091 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,091 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,092 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,092 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,092 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,093 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,093 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,093 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,356 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-07 20:33:22,356 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,357 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,357 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,357 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,358 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,358 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,358 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,358 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,359 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,359 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,359 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,359 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,360 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,360 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,360 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,361 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,361 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,361 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,361 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,362 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,362 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,362 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,362 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,362 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,363 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,363 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,363 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,363 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,364 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,364 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,364 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,364 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,365 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,365 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,365 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,366 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,366 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,366 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,366 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,367 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,367 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,367 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,368 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,368 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,368 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,368 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,369 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,369 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,369 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,369 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,369 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,370 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,370 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,370 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,370 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,371 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,371 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,371 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,371 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,371 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,372 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,372 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,372 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,373 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,373 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,373 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,374 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,374 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,374 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,374 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,374 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,375 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,375 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,375 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,375 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,376 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,376 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,376 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,376 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,377 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,377 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,377 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,377 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,378 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,378 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,378 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,379 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,379 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,380 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,380 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,380 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,380 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,381 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,381 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,381 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,381 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,382 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,382 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,382 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,382 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,383 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,383 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,383 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,384 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,384 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,384 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,385 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,385 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,385 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,386 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,386 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,386 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,386 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,387 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,387 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,387 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,387 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,388 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,388 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,388 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,388 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,389 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: sympy__sympy-15678: >>>>> Patch Apply Failed:
+patching file sympy/geometry/util.py
+patch: **** malformed patch at line 26: @@ -590,5 +589,4 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_4.5/my-multi-llm-agent/sympy__sympy-15678/run_instance.log) for more information.
+
+2025-05-07 20:33:22,389 - INFO - Attempting to stop container sweb.eval.sympy__sympy-15678.trial_run_corrected_mode_4.5...
+2025-05-07 20:33:37,896 - INFO - Attempting to remove container sweb.eval.sympy__sympy-15678.trial_run_corrected_mode_4.5...
+2025-05-07 20:33:37,929 - INFO - Container sweb.eval.sympy__sympy-15678.trial_run_corrected_mode_4.5 removed.
+2025-05-07 20:33:37,930 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-15678:latest...
+2025-05-07 20:33:38,128 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-15678:latest removed.

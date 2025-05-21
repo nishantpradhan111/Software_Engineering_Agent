@@ -1,0 +1,46 @@
+2025-05-11 20:42:46,302 - INFO - Creating container for sympy__sympy-17655...
+2025-05-11 20:42:46,508 - INFO - Container for sympy__sympy-17655 created: f9bc80a968a9caa91529485ffb41e2a3ce98011e53a072f7c4e4259b65af1587
+2025-05-11 20:42:46,880 - INFO - Container for sympy__sympy-17655 started: f9bc80a968a9caa91529485ffb41e2a3ce98011e53a072f7c4e4259b65af1587
+2025-05-11 20:42:46,889 - INFO - Intermediate patch for sympy__sympy-17655 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-17655/patch.diff, now applying to container...
+2025-05-11 20:42:47,171 - INFO - >>>>> Applied Patch:
+Checking patch sympy/geometry/point.py...
+Hunk #1 succeeded at 214 (offset 6 lines).
+Applied patch sympy/geometry/point.py cleanly.
+
+2025-05-11 20:42:48,001 - INFO - Git diff before:
+diff --git a/sympy/geometry/point.py b/sympy/geometry/point.py
+index 7c978c47be..7f2993867f 100644
+--- a/sympy/geometry/point.py
++++ b/sympy/geometry/point.py
+@@ -214,7 +214,7 @@ def __add__(self, other):
+ 
+         """
+         try:
+-            s, o = Point._normalize_dimension(self, Point(other, evaluate=False))
++            s, o = Point._normalize_dimension(self, Point(other))
+         except TypeError:
+             raise GeometryError("Don't know how to add {} and a Point object".format(other))
+2025-05-11 20:42:48,007 - INFO - Eval script for sympy__sympy-17655 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-17655/eval.sh; copying to container...
+2025-05-11 20:43:30,111 - INFO - Test runtime: 41.98 seconds
+2025-05-11 20:43:30,115 - INFO - Test output for sympy__sympy-17655 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-17655/test_output.txt
+2025-05-11 20:43:30,206 - INFO - Git diff after:
+diff --git a/sympy/geometry/point.py b/sympy/geometry/point.py
+index 7c978c47be..7f2993867f 100644
+--- a/sympy/geometry/point.py
++++ b/sympy/geometry/point.py
+@@ -214,7 +214,7 @@ def __add__(self, other):
+ 
+         """
+         try:
+-            s, o = Point._normalize_dimension(self, Point(other, evaluate=False))
++            s, o = Point._normalize_dimension(self, Point(other))
+         except TypeError:
+             raise GeometryError("Don't know how to add {} and a Point object".format(other))
+2025-05-11 20:43:30,207 - INFO - Grading answer for sympy__sympy-17655...
+2025-05-11 20:43:30,211 - INFO - report: {'sympy__sympy-17655': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_point', 'test_point3D']}, 'PASS_TO_PASS': {'success': ['test_Point2D', 'test_issue_9214', 'test_issue_11617', 'test_transform', 'test_concyclic_doctest_bug', 'test_unit', 'test_dot', 'test__normalize_dimension'], 'failure': ['test_arguments']}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-17655: resolved: False
+2025-05-11 20:43:30,215 - INFO - Attempting to stop container sweb.eval.sympy__sympy-17655.repopatamus_evalutation_batch4...
+2025-05-11 20:43:45,919 - INFO - Attempting to remove container sweb.eval.sympy__sympy-17655.repopatamus_evalutation_batch4...
+2025-05-11 20:43:45,985 - INFO - Container sweb.eval.sympy__sympy-17655.repopatamus_evalutation_batch4 removed.
+2025-05-11 20:43:45,986 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-17655:latest...
+2025-05-11 20:43:46,276 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-17655:latest removed.

@@ -1,0 +1,6 @@
+```diff
+--- a/sympy/assumptions/refine.py
++++ b/sympy/assumptions/refine.py
+@@ -315,7 +315,7 @@ def refine_arg(expr, assumptions):\n     """\n     rg = expr.args[0]\n     if ask(Q.positive(rg), assumptions):\n-        return S.Zero\n+        return S.Zero  # type: ignore[return-value]
+     if ask(Q.negative(rg), assumptions):\n         return S.Pi\n     return None
+```

@@ -1,0 +1,92 @@
+2025-05-11 11:11:36,309 - INFO - Creating container for django__django-13933...
+2025-05-11 11:11:37,544 - INFO - Container for django__django-13933 created: 8d4230d1f46bded328dbd4c2d8f3abdfd316b56650f695ffc8cd2185b2a39ef0
+2025-05-11 11:11:38,182 - INFO - Container for django__django-13933 started: 8d4230d1f46bded328dbd4c2d8f3abdfd316b56650f695ffc8cd2185b2a39ef0
+2025-05-11 11:11:38,193 - INFO - Intermediate patch for django__django-13933 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13933/patch.diff, now applying to container...
+2025-05-11 11:11:38,567 - INFO - >>>>> Applied Patch:
+Checking patch django/forms/models.py...
+Hunk #1 succeeded at 1188 (offset 323 lines).
+Hunk #2 succeeded at 1195 (offset 322 lines).
+Hunk #3 succeeded at 1282 (offset 332 lines).
+Applied patch django/forms/models.py cleanly.
+
+2025-05-11 11:11:40,024 - INFO - Git diff before:
+diff --git a/django/forms/models.py b/django/forms/models.py
+index 422bc5d178..0a5730c2a1 100644
+--- a/django/forms/models.py
++++ b/django/forms/models.py
+@@ -1188,14 +1188,14 @@ class ModelChoiceField(ChoiceField):
+     # This class is a subclass of ChoiceField for purity, but it doesn't
+     # actually use any of ChoiceField's implementation.
+     default_error_messages = {
+-        'invalid_choice': _('Select a valid choice. That choice is not one of'
++        'invalid_choice': _('Select a valid choice. %(value)s is not one of the'
+                             ' the available choices.'),
+     }
+     iterator = ModelChoiceIterator
+ 
+     def __init__(self, queryset, *, empty_label="---------",
+                  required=True, widget=None, label=None, initial=None,
+-                 help_text='', to_field_name=None, limit_choices_to=None,
++                 help_text="", to_field_name=None, limit_choices_to=None,
+                  blank=False, **kwargs):
+         # Call Field instead of ChoiceField __init__() because we don't need
+         # ChoiceField.__init__().
+@@ -1282,7 +1282,11 @@ class ModelChoiceField(ChoiceField):
+             key = self.to_field_name or 'pk'
+             if isinstance(value, self.queryset.model):
+                 value = getattr(value, key)
+-            value = self.queryset.get(**{key: value})
++            try:
++                value = self.queryset.get(**{key: value})
++            except self.queryset.model.DoesNotExist:
++                # self.queryset.get() raises its model's DoesNotExist exception
++                pass  # Invalid value will be raised in validation.
+         except (ValueError, TypeError, self.queryset.model.DoesNotExist):
+             raise ValidationError(self.error_messages['invalid_choice'], code='invalid_choice')
+         return value
+2025-05-11 11:11:40,030 - INFO - Eval script for django__django-13933 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13933/eval.sh; copying to container...
+2025-05-11 11:11:47,856 - INFO - Test runtime: 7.68 seconds
+2025-05-11 11:11:47,861 - INFO - Test output for django__django-13933 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-13933/test_output.txt
+2025-05-11 11:11:47,965 - INFO - Git diff after:
+diff --git a/django/forms/models.py b/django/forms/models.py
+index 422bc5d178..0a5730c2a1 100644
+--- a/django/forms/models.py
++++ b/django/forms/models.py
+@@ -1188,14 +1188,14 @@ class ModelChoiceField(ChoiceField):
+     # This class is a subclass of ChoiceField for purity, but it doesn't
+     # actually use any of ChoiceField's implementation.
+     default_error_messages = {
+-        'invalid_choice': _('Select a valid choice. That choice is not one of'
++        'invalid_choice': _('Select a valid choice. %(value)s is not one of the'
+                             ' the available choices.'),
+     }
+     iterator = ModelChoiceIterator
+ 
+     def __init__(self, queryset, *, empty_label="---------",
+                  required=True, widget=None, label=None, initial=None,
+-                 help_text='', to_field_name=None, limit_choices_to=None,
++                 help_text="", to_field_name=None, limit_choices_to=None,
+                  blank=False, **kwargs):
+         # Call Field instead of ChoiceField __init__() because we don't need
+         # ChoiceField.__init__().
+@@ -1282,7 +1282,11 @@ class ModelChoiceField(ChoiceField):
+             key = self.to_field_name or 'pk'
+             if isinstance(value, self.queryset.model):
+                 value = getattr(value, key)
+-            value = self.queryset.get(**{key: value})
++            try:
++                value = self.queryset.get(**{key: value})
++            except self.queryset.model.DoesNotExist:
++                # self.queryset.get() raises its model's DoesNotExist exception
++                pass  # Invalid value will be raised in validation.
+         except (ValueError, TypeError, self.queryset.model.DoesNotExist):
+             raise ValidationError(self.error_messages['invalid_choice'], code='invalid_choice')
+         return value
+2025-05-11 11:11:47,966 - INFO - Grading answer for django__django-13933...
+2025-05-11 11:11:47,972 - INFO - report: {'django__django-13933': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_modelchoicefield_value_placeholder (forms_tests.tests.test_error_messages.ModelChoiceFieldErrorMessagesTestCase)']}, 'PASS_TO_PASS': {'success': ['test_booleanfield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_charfield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_choicefield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_datefield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_datetimefield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_decimalfield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_emailfield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_error_messages_escaping (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_filefield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_floatfield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_generic_ipaddressfield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_integerfield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_multiplechoicefield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_regexfield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_splitdatetimefield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_subclassing_errorlist (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_timefield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)', 'test_urlfield (forms_tests.tests.test_error_messages.FormsErrorMessagesTestCase)'], 'failure': ['test_modelchoicefield (forms_tests.tests.test_error_messages.ModelChoiceFieldErrorMessagesTestCase)']}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-13933: resolved: False
+2025-05-11 11:11:47,979 - INFO - Attempting to stop container sweb.eval.django__django-13933.trial_code_check_33...
+2025-05-11 11:12:04,169 - INFO - Attempting to remove container sweb.eval.django__django-13933.trial_code_check_33...
+2025-05-11 11:12:04,264 - INFO - Container sweb.eval.django__django-13933.trial_code_check_33 removed.
+2025-05-11 11:12:04,264 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-13933:latest...
+2025-05-11 11:12:05,148 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-13933:latest removed.

@@ -1,0 +1,51 @@
+2025-05-11 19:34:47,955 - INFO - Creating container for django__django-15202...
+2025-05-11 19:34:48,443 - INFO - Container for django__django-15202 created: 6da944c0b79f4d8bea7f0c2b3a5ef6f47aa5ded133249466035a44e83afc120b
+2025-05-11 19:34:48,678 - INFO - Container for django__django-15202 started: 6da944c0b79f4d8bea7f0c2b3a5ef6f47aa5ded133249466035a44e83afc120b
+2025-05-11 19:34:48,682 - INFO - Intermediate patch for django__django-15202 written to logs/run_evaluation/repopatamus_evalutation_group2/repopotamus/django__django-15202/patch.diff, now applying to container...
+2025-05-11 19:34:48,846 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-11 19:34:48,917 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-11 19:34:48,997 - INFO - >>>>> Applied Patch:
+patching file django/core/validators.py
+Hunk #1 succeeded at 110 with fuzz 3 (offset 6 lines).
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-11 19:34:49,957 - INFO - Git diff before:
+diff --git a/django/core/validators.py b/django/core/validators.py
+index 72fbe15551..e2454ceaf5 100644
+--- a/django/core/validators.py
++++ b/django/core/validators.py
+@@ -110,7 +110,7 @@ class URLValidator(RegexValidator):
+         # Then check full URL
+         try:
+             super().__call__(value)
+-        except ValidationError as e:
++
+             # Trivial case failed. Try for possible IDN domain
+             if value:
+                 try:
+2025-05-11 19:34:49,960 - INFO - Eval script for django__django-15202 written to logs/run_evaluation/repopatamus_evalutation_group2/repopotamus/django__django-15202/eval.sh; copying to container...
+2025-05-11 19:35:04,566 - INFO - Test runtime: 14.50 seconds
+2025-05-11 19:35:04,570 - INFO - Test output for django__django-15202 written to logs/run_evaluation/repopatamus_evalutation_group2/repopotamus/django__django-15202/test_output.txt
+2025-05-11 19:35:04,670 - INFO - Git diff after:
+diff --git a/django/core/validators.py b/django/core/validators.py
+index 72fbe15551..e2454ceaf5 100644
+--- a/django/core/validators.py
++++ b/django/core/validators.py
+@@ -110,7 +110,7 @@ class URLValidator(RegexValidator):
+         # Then check full URL
+         try:
+             super().__call__(value)
+-        except ValidationError as e:
++
+             # Trivial case failed. Try for possible IDN domain
+             if value:
+                 try:
+2025-05-11 19:35:04,670 - INFO - Grading answer for django__django-15202...
+2025-05-11 19:35:04,674 - INFO - report: {'django__django-15202': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_urlfield_clean_invalid (forms_tests.field_tests.test_urlfield.URLFieldTest)', 'test_urlfield_clean_not_required (forms_tests.field_tests.test_urlfield.URLFieldTest)']}, 'PASS_TO_PASS': {'success': [], 'failure': ['test_urlfield_clean (forms_tests.field_tests.test_urlfield.URLFieldTest)', 'test_urlfield_clean_required (forms_tests.field_tests.test_urlfield.URLFieldTest)', 'test_urlfield_strip_on_none_value (forms_tests.field_tests.test_urlfield.URLFieldTest)', 'test_urlfield_unable_to_set_strip_kwarg (forms_tests.field_tests.test_urlfield.URLFieldTest)', 'test_urlfield_widget (forms_tests.field_tests.test_urlfield.URLFieldTest)', 'test_urlfield_widget_max_min_length (forms_tests.field_tests.test_urlfield.URLFieldTest)']}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-15202: resolved: False
+2025-05-11 19:35:04,677 - INFO - Attempting to stop container sweb.eval.django__django-15202.repopatamus_evalutation_group2...
+2025-05-11 19:35:20,231 - INFO - Attempting to remove container sweb.eval.django__django-15202.repopatamus_evalutation_group2...
+2025-05-11 19:35:20,288 - INFO - Container sweb.eval.django__django-15202.repopatamus_evalutation_group2 removed.
+2025-05-11 19:35:20,289 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-15202:latest...
+2025-05-11 19:35:20,945 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-15202:latest removed.

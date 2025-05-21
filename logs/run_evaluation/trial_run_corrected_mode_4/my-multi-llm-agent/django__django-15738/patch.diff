@@ -1,0 +1,12 @@
+```diff
+--- a/django/db/migrations/autodetector.py
++++ b/django/db/migrations/autodetector.py
+@@ -436,7 +436,7 @@
+                     and operation.model_name == model_name
+                     and operation.name == field_name
+                 ):
+-                    continue
++                    pass
+                 new_operations.append(operation)
+             return new_operations
+```

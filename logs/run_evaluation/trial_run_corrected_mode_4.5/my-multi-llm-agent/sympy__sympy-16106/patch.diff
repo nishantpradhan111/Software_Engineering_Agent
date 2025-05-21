@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/printing/mathml.py
++++ b/sympy/printing/mathml.py
+@@ -359,7 +359,7 @@
+         x = self.dom.createElement('msub')
+         x.appendChild(self._print(e.base))
+         if len(e.indices) == 1:
+-            x.appendChild(self._print(e.indices[0]))
++            x.appendChild(self._print(e.indices[0])) 
+             return x
+ 
+         x.appendChild(self._print(Tuple(*e.indices)))
+```

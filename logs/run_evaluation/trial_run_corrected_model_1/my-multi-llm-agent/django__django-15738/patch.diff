@@ -1,0 +1,28 @@
+```diff
+--- a/django/db/migrations/autodetector.py
++++ b/django/db/migrations/autodetector.py
+@@ -418,7 +418,7 @@
+                 # We need to operate on unique_together before the fields it uses.
+                 # However, AlterUniqueTogether must be placed before RemoveField
+                 # operations. The sorting key must be different in each case.
+-                if any(f in self.renamed_models for f in value):
++                if any(f in self.renamed_models for f in value[1]):
+                     yield (True, model_name, name, value)
+                 else:
+                     yield (False, model_name, name, value)
+@@ -904,13 +904,7 @@
+         # If there's a field with the same name as a removed field,
+         # generate_added_fields might not add the dependencies correctly.
+         removed_fields = {
+-            (
+-                app_label,
+-                model_name,
+-            )
+-            for app_label, model_name, name, _ in self.queue
+-            if name == "RemoveField"
+-        }
++            (app_label, model_name) for app_label, model_name, name, _ in self.queue if name == "RemoveField"
++        }
+         # Generate added fields.
+         for app_label, model_name, field_name in self.to_state.models:
+```

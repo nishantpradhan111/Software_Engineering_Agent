@@ -1,0 +1,22 @@
+```diff
+--- a/sympy/printing/pretty/pretty.py
++++ b/sympy/printing/pretty/pretty.py
+@@ -616,7 +616,7 @@ def adjust(s, wid=None, how='<^>\'):
+         first = True
+         for i, term in enumerate(s):
+             d = term.count('*')
+-            prettySign = prettyForm(str(sign[i]))
++            prettySign = prettyForm(sign[i])
+ 
+             # change F baseline so it centers on the sign
+             if first:
+@@ -636,7 +636,7 @@
+         ascii_adjustment = 0
+         if ascii_mode:
+             # adjust baseline of ascii mode sigma with an odd height so that it
+-            # is exactly through the center
++            # is exactly through the center.
+             ascii_adjustment = 1 if not adjustment else 0
+         prettyF.baseline = max_upper + sign_height//2 + ascii_adjustment
+ 
+```

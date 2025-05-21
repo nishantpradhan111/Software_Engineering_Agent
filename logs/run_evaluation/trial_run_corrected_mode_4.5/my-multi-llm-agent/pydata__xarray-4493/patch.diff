@@ -1,0 +1,15 @@
+```diff
+--- a/xarray/core/variable.py
++++ b/xarray/core/variable.py
+@@ -216,8 +216,8 @@ def as_compatible_data(data):
+     """
+     if isinstance(data, (np.ndarray, dask_array_type)):
+         return data
+-    elif hasattr(data, "values"):
+-        return data.values
++    elif isinstance(data, (DataArray, Variable)):
++        return data.data
+     else:
+         return np.asarray(data)
+ 
+```

@@ -1,0 +1,13 @@
+```diff
+--- a/django/core/management/commands/inspectdb.py
++++ b/django/core/management/commands/inspectdb.py
+@@ -189,7 +189,7 @@
+                         if rel_to in used_relations:
+                             extra_params["related_name"] = "%s_%s_set" % (
+                                 model_name.lower(),
+-                                att_name,
++                                column_to_field_name[name],
+                             )
+                         used_relations.add(rel_to)
+                     else:
+```

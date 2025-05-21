@@ -1,0 +1,27 @@
+```diff
+--- a/tests/admin_inlines/tests.py
++++ b/tests/admin_inlines/tests.py
+@@ -999,7 +999,7 @@
+         response = modeladmin.changeform_view(request)
+         self.assertNotContains(response, 'Add another Profile')
+         # Non-verbose model.
+-        self.assertContains(response, '<h2>Non-verbose childss</h2>')
++        self.assertContains(response, '<h2>Non-verbose childs</h2>')
+         self.assertContains(response, 'Add another Non-verbose child')
+         self.assertNotContains(response, '<h2>Profiles</h2>')
+         # Model with verbose name.
+@@ -1009,9 +1009,9 @@
+         self.assertNotContains(response, 'Add another Model with verbose name only')
+         # Model with verbose name plural.
+         self.assertContains(response, '<h2>Childs with verbose name plurals</h2>')
+-        self.assertContains(response, 'Add another Childs with verbose name plural')
+-        self.assertNotContains(response, '<h2>Model with verbose name plural only</h2>')
++        self.assertContains(response, 'Add another Childs with verbose name plural')
++        self.assertNotContains(response, '<h2>Model with verbose name plural</h2>')
+         # Model with both verbose names.
+-        self.assertContains(response, '<h2>Childs with both verbose namess</h2>')
++        self.assertContains(response, '<h2>Childs with both verbose names</h2>')
+         self.assertContains(response, 'Add another Childs with both verbose names')
+         self.assertNotContains(response, '<h2>Model with both - plural name</h2>')
+         self.assertNotContains(response, 'Add another Model with both - name')
+```

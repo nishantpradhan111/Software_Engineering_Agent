@@ -1,0 +1,16 @@
+```diff
+--- a/django/db/models/lookups.py
++++ b/django/db/models/lookups.py
+@@ -463,9 +463,9 @@
+ class IsNull(BuiltinLookup):
+     prepare_rhs = False
+ 
+-    def as_sql(self, compiler, connection):
++    def as_sql(self, compiler, connection, **kwargs):
+         if not isinstance(self.rhs, bool):
+-            raise ValueError(
++            raise TypeError(
+                 'The QuerySet value for an isnull lookup must be True or '
+                 'False.'
+             )
+```

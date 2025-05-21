@@ -1,0 +1,15 @@
+```diff
+--- a/sympy/geometry/util.py
++++ b/sympy/geometry/util.py
+@@ -573,10 +573,7 @@
+         for i in range(len(y)):
+             derivs[Derivative(y[i], x, evaluate=True)] = Symbol('D(%s)(x)' % y[i])
+     else:
+-        if not isinstance(y, Symbol):
+-            derivs[dydx] = Symbol('D(%s)(x)' % y)
+-        else:
+         derivs[dydx] = Symbol('D(%s)(x)' % y)
+ 
+     if not isinstance(y, (list, tuple)):
++        y = [y]
+```

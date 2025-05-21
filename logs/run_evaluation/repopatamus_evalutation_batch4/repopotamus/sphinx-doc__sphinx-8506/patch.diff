@@ -1,0 +1,20 @@
+```diff
+--- a/sphinx/domains/std.py
++++ b/sphinx/domains/std.py
+@@ -271,10 +271,10 @@
+             potential_option = potential_option.strip()
+             m = option_desc_re.match(potential_option)
+             if not m:
+-                logger.warning(__('Malformed option description %r, should '
+-                                  'look like "opt", "-opt args", "--opt args", '
+-                                  '"/opt args" or "+opt args"'), potential_option,
+-                               location=signode)
++                #logger.warning(__('Malformed option description %r, should '
++                #                  'look like "opt", "-opt args", "--opt args", '
++                #                  '"/opt args" or "+opt args"'), potential_option,
++                #               location=signode)
+                 continue
+             optname, args = m.groups()
+             if count:
+
+```

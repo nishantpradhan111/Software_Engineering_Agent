@@ -1,0 +1,23 @@
+```diff
+--- a/astropy/io/ascii/rst.py
++++ b/astropy/io/ascii/rst.py
+@@ -67,8 +67,16 @@
+     def __init__(self):
+         super().__init__(delimiter_pad=None, bookend=False)
+ 
+-    def write(self, lines):
+-        lines = super().write(lines)
++    def write(self, lines, header_rows=None):
++        """Write ``lines`` to file using the simple ReStructuredText table format.
++
++        Parameters
++        ----------
++        lines : list
++            List of string lines to write.
++        header_rows : list, optional
++            List of header rows to write at the top of the table.
++        """
++        lines = super().write(lines, header_rows=header_rows)
+         lines = [lines[1]] + lines + [lines[1]]
+         return lines
+```

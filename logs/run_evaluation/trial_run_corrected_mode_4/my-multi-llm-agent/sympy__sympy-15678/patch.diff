@@ -1,0 +1,27 @@
+```diff
+--- a/sympy/geometry/util.py
++++ b/sympy/geometry/util.py
+@@ -573,10 +573,9 @@
+     elif isinstance(y, Function):
+         pass
+     else:
+-        raise ValueError("expecting x-dependent symbol(s) but got: %s" % y)
++        raise ValueError("expecting x-dependent symbol(s) or function(s) but got: %s" % y)
+ 
+-    # if equation is an equality, shift to one side
+-    if isinstance(eq, Eq):
++    if isinstance(eq, Eq): # if equation is an equality, shift to one side
+         eq = eq.lhs - eq.rhs
+     # if equation is an equality, shift to one side
+     f = dict([(s, Function(
+@@ -584,7 +583,6 @@
+     if isinstance(y, Symbol):
+         dydx = Function(y.name)(x).diff(x)
+     else:
+-        dydx = y.diff(x)
+-
++        dydx = y.diff(x) 
+     derivs = {}
+     while eq.has(dydx):
+         yi = dydx
+```

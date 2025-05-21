@@ -1,0 +1,20 @@
+```diff
+--- a/sklearn/preprocessing/_encoders.py
++++ b/sklearn/preprocessing/_encoders.py
+@@ -151,12 +151,10 @@
+                     # Set the problematic rows to an acceptable value and
+                     # continue `The rows are marked `X_mask` and will be
+                     # removed later.
+-+
+                     X_mask[:, i] = valid_mask
+-                    Xi = Xi.copy()
+ 
+                     # cast Xi to object in case of string categories
+                     if self.categories_[i].dtype == object:
++                        Xi = Xi.copy()
+                         Xi = Xi.astype(object)
+-                    Xi = Xi.copy()  # modify a copy of Xi
+                     Xi[~valid_mask] = self.categories_[i][0]
+             _, encoded = _encode(Xi, self.categories_[i], encode=True)
+             X_int[:, i] = encoded
+```

@@ -1,0 +1,51 @@
+2025-05-08 15:22:30,821 - INFO - Creating container for django__django-11964...
+2025-05-08 15:22:32,040 - INFO - Container for django__django-11964 created: 78c244caa7c38d184c87645297a6db9565e6c8231987eb301e05fb64c9829173
+2025-05-08 15:22:32,693 - INFO - Container for django__django-11964 started: 78c244caa7c38d184c87645297a6db9565e6c8231987eb301e05fb64c9829173
+2025-05-08 15:22:32,701 - INFO - Intermediate patch for django__django-11964 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11964/patch.diff, now applying to container...
+2025-05-08 15:22:33,074 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-08 15:22:33,220 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-08 15:22:33,331 - INFO - >>>>> Applied Patch:
+patching file django/db/models/fields/__init__.py
+Hunk #1 succeeded at 1512 with fuzz 3.
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-08 15:22:34,505 - INFO - Git diff before:
+diff --git a/django/db/models/fields/__init__.py b/django/db/models/fields/__init__.py
+index d610dc86f0..fe2d46c88e 100644
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -1512,6 +1512,8 @@ class DecimalField(Field):
+ 
+ class DurationField(Field):
+     """
++        if hasattr(value, 'value'):
++            return value.value
+     Store timedelta objects.
+ 
+     Use interval on PostgreSQL, INTERVAL DAY TO SECOND on Oracle, and bigint
+2025-05-08 15:22:34,510 - INFO - Eval script for django__django-11964 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11964/eval.sh; copying to container...
+2025-05-08 15:22:42,993 - INFO - Test runtime: 8.36 seconds
+2025-05-08 15:22:42,996 - INFO - Test output for django__django-11964 written to logs/run_evaluation/trial_run_corrected_mode_8/my-multi-llm-agent/django__django-11964/test_output.txt
+2025-05-08 15:22:43,067 - INFO - Git diff after:
+diff --git a/django/db/models/fields/__init__.py b/django/db/models/fields/__init__.py
+index d610dc86f0..fe2d46c88e 100644
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -1512,6 +1512,8 @@ class DecimalField(Field):
+ 
+ class DurationField(Field):
+     """
++        if hasattr(value, 'value'):
++            return value.value
+     Store timedelta objects.
+ 
+     Use interval on PostgreSQL, INTERVAL DAY TO SECOND on Oracle, and bigint
+2025-05-08 15:22:43,067 - INFO - Grading answer for django__django-11964...
+2025-05-08 15:22:43,071 - INFO - report: {'django__django-11964': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_str (model_enums.tests.ChoicesTests)', 'test_textchoices (model_enums.tests.ChoicesTests)']}, 'PASS_TO_PASS': {'success': ['test_integerchoices (model_enums.tests.ChoicesTests)', 'test_integerchoices_auto_label (model_enums.tests.ChoicesTests)', 'test_integerchoices_containment (model_enums.tests.ChoicesTests)', 'test_integerchoices_empty_label (model_enums.tests.ChoicesTests)', 'test_integerchoices_functional_api (model_enums.tests.ChoicesTests)', 'test_invalid_definition (model_enums.tests.ChoicesTests)', 'test_textchoices_auto_label (model_enums.tests.ChoicesTests)', 'test_textchoices_blank_value (model_enums.tests.ChoicesTests)', 'test_textchoices_containment (model_enums.tests.ChoicesTests)', 'test_textchoices_empty_label (model_enums.tests.ChoicesTests)', 'test_textchoices_functional_api (model_enums.tests.ChoicesTests)', 'test_bool_unsupported (model_enums.tests.CustomChoicesTests)', 'test_labels_valid (model_enums.tests.CustomChoicesTests)', 'test_timezone_unsupported (model_enums.tests.CustomChoicesTests)', 'test_uuid_unsupported (model_enums.tests.CustomChoicesTests)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-11964: resolved: False
+2025-05-08 15:22:43,075 - INFO - Attempting to stop container sweb.eval.django__django-11964.trial_run_corrected_mode_8...
+2025-05-08 15:22:58,587 - INFO - Attempting to remove container sweb.eval.django__django-11964.trial_run_corrected_mode_8...
+2025-05-08 15:22:58,719 - INFO - Container sweb.eval.django__django-11964.trial_run_corrected_mode_8 removed.
+2025-05-08 15:22:58,719 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-11964:latest...
+2025-05-08 15:22:59,275 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-11964:latest removed.

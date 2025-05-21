@@ -1,0 +1,17 @@
+```diff
+--- a/lib/matplotlib/figure.py
++++ b/lib/matplotlib/figure.py
+@@ -2425,9 +2425,9 @@
+         if self._constrained_layout:
+             if (
+                     (self._layoutbox is not None or self.get_constrained_layout())
+-                    and (
+-                        kwargs.get("wspace") is not None
+-                        or kwargs.get("hspace") is not None
++                    and any(
++                        kwargs.get(k) is not None
++                        for k in ("wspace", "hspace", "left", "right", "top", "bottom")
+                     )
+             ):
+                 warn(
+```

@@ -1,0 +1,13 @@
+```diff
+--- a/sklearn/feature_selection/mutual_info_.py
++++ b/sklearn/feature_selection/mutual_info_.py
+@@ -254,7 +254,7 @@
+     n_samples, n_features = X.shape
+ 
+     if isinstance(discrete_features, (str, bool)):
+-        if isinstance(discrete_features, str):
++        if discrete_features == 'auto':
+             if discrete_features == 'auto':
+                 discrete_features = issparse(X)
+             else:
+```

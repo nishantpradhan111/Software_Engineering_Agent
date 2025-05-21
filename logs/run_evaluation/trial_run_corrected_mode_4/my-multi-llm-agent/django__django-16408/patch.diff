@@ -1,0 +1,37 @@
+```diff
+--- a/django/db/models/sql/compiler.py
++++ b/django/db/models/sql/compiler.py
+@@ -1274,16 +1274,12 @@ def local_setter(final_field, obj, from_obj):
+                 if from_obj:
+                     final_field.remote_field.set_cached_value(from_obj, obj)
+ 
++
+             def local_setter_noop(obj, from_obj):
+                 pass
+ 
+             def remote_setter(name, obj, from_obj):
+                 setattr(from_obj, name, obj)
+-
+-            def local_setter_noop(obj, from_obj):
+-                pass
+-
+-            def remote_setter(name, obj, from_obj):
+-                setattr(from_obj, name, obj)
+ 
+ 
+             name = final_field.name
+@@ -1292,13 +1288,11 @@ def remote_setter(name, obj, from_obj):
+                 "model": model,
+                 "field": final_field,
+                 "reverse": True,
+-                        "local_setter": partial(local_setter, final_field),\
++                "local_setter": (
++                    partial(local_setter, final_field)
++                    if len(joins) <= 2
++                    else local_setter_noop
++                ),
+                         "remote_setter": partial(remote_setter, name),
+                         "from_parent": from_parent,
+                     }
+-
+```

@@ -1,0 +1,22 @@
+```diff
+--- a/django/db/models/lookups.py
++++ b/django/db/models/lookups.py
+@@ -463,14 +463,11 @@
+ class IsNull(BuiltinLookup):
+     prepare_rhs = False
+ 
+-    def __init__(self, lhs, rhs):
+-        super().__init__(lhs, rhs)
+-        if not isinstance(self.rhs, bool):
+-            from django.utils.deprecation import RemovedInDjango40Warning
+-            self.rhs = bool(self.rhs)
+-
+     def as_sql(self, compiler, connection):
+         if not isinstance(self.rhs, bool):
++            from django.utils.deprecation import RemovedInDjango40Warning
++
++            self.rhs = bool(self.rhs)
+             raise RemovedInDjango40Warning(
+                 'The QuerySet value for an isnull lookup must be True or '
+                 'False.'
+```

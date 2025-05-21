@@ -1,0 +1,48 @@
+2025-05-11 20:43:12,815 - INFO - Creating container for sympy__sympy-18087...
+2025-05-11 20:43:13,218 - INFO - Container for sympy__sympy-18087 created: 7652b43d3faca44f5d13db4412aec60a730d1e65589c95a8f52c2562e5473e1f
+2025-05-11 20:43:13,543 - INFO - Container for sympy__sympy-18087 started: 7652b43d3faca44f5d13db4412aec60a730d1e65589c95a8f52c2562e5473e1f
+2025-05-11 20:43:13,548 - INFO - Intermediate patch for sympy__sympy-18087 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-18087/patch.diff, now applying to container...
+2025-05-11 20:43:13,866 - INFO - >>>>> Applied Patch:
+Checking patch sympy/core/exprtools.py...
+Hunk #1 succeeded at 382 (offset -20 lines).
+Applied patch sympy/core/exprtools.py cleanly.
+
+2025-05-11 20:43:14,563 - INFO - Git diff before:
+diff --git a/sympy/core/exprtools.py b/sympy/core/exprtools.py
+index 57fad70407..dfcfc00c96 100644
+--- a/sympy/core/exprtools.py
++++ b/sympy/core/exprtools.py
+@@ -382,7 +382,7 @@ def __init__(self, factors=None):  # Factors
+                     i1 *= k**factors.pop(k)
+                 if i1 is not S.One:
+                     for a in i1.args if i1.is_Mul else [i1]:  # at worst, -1.0*I*(-1)**e
+-                        if a is S.NegativeOne:
++                        if a is S.NegativeOne:  # pragma: no cover
+                             factors[a] = S.One
+                         elif a is I:
+                             factors[I] = S.One
+2025-05-11 20:43:14,574 - INFO - Eval script for sympy__sympy-18087 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-18087/eval.sh; copying to container...
+2025-05-11 20:44:14,401 - INFO - Test runtime: 59.70 seconds
+2025-05-11 20:44:14,406 - INFO - Test output for sympy__sympy-18087 written to logs/run_evaluation/repopatamus_evalutation_batch4/repopotamus/sympy__sympy-18087/test_output.txt
+2025-05-11 20:44:14,513 - INFO - Git diff after:
+diff --git a/sympy/core/exprtools.py b/sympy/core/exprtools.py
+index 57fad70407..dfcfc00c96 100644
+--- a/sympy/core/exprtools.py
++++ b/sympy/core/exprtools.py
+@@ -382,7 +382,7 @@ def __init__(self, factors=None):  # Factors
+                     i1 *= k**factors.pop(k)
+                 if i1 is not S.One:
+                     for a in i1.args if i1.is_Mul else [i1]:  # at worst, -1.0*I*(-1)**e
+-                        if a is S.NegativeOne:
++                        if a is S.NegativeOne:  # pragma: no cover
+                             factors[a] = S.One
+                         elif a is I:
+                             factors[I] = S.One
+2025-05-11 20:44:14,513 - INFO - Grading answer for sympy__sympy-18087...
+2025-05-11 20:44:14,519 - INFO - report: {'sympy__sympy-18087': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_Factors', 'test_fu']}, 'PASS_TO_PASS': {'success': ['test_decompose_power', 'test_Term', 'test_gcd_terms', 'test_factor_terms', 'test_xreplace', 'test_factor_nc', 'test_issue_6360', 'test_issue_7903', 'test_issue_8263', 'test_monotonic_sign', 'test_TR1', 'test_TR2', 'test_TR2i', 'test_TR3', 'test__TR56', 'test_TR5', 'test_TR6', 'test_TR7', 'test_TR8', 'test_TR9', 'test_TR10', 'test_TR10i', 'test_TR11', 'test_TR12', 'test_TR13', 'test_L', 'test_objective', 'test_process_common_addends', 'test_trig_split', 'test_TRmorrie', 'test_TRpower', 'test_hyper_as_trig', 'test_TR12i', 'test_TR14', 'test_TR15_16_17'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for sympy__sympy-18087: resolved: False
+2025-05-11 20:44:14,524 - INFO - Attempting to stop container sweb.eval.sympy__sympy-18087.repopatamus_evalutation_batch4...
+2025-05-11 20:44:30,038 - INFO - Attempting to remove container sweb.eval.sympy__sympy-18087.repopatamus_evalutation_batch4...
+2025-05-11 20:44:30,102 - INFO - Container sweb.eval.sympy__sympy-18087.repopatamus_evalutation_batch4 removed.
+2025-05-11 20:44:30,103 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.sympy_1776_sympy-18087:latest...
+2025-05-11 20:44:30,393 - INFO - Image swebench/sweb.eval.x86_64.sympy_1776_sympy-18087:latest removed.

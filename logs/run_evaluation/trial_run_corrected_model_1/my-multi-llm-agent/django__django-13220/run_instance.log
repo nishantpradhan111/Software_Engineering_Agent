@@ -1,0 +1,2957 @@
+2025-05-03 23:50:22,700 - INFO - Creating container for django__django-13220...
+2025-05-03 23:50:23,009 - INFO - Container for django__django-13220 created: 72c0caa1a95d427e8490c34f0632e5213cda8570fcabae25a7ab85db29f472e5
+2025-05-03 23:50:23,245 - INFO - Container for django__django-13220 started: 72c0caa1a95d427e8490c34f0632e5213cda8570fcabae25a7ab85db29f472e5
+2025-05-03 23:50:23,250 - INFO - Intermediate patch for django__django-13220 written to logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/patch.diff, now applying to container...
+2025-05-03 23:50:23,409 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-03 23:50:23,468 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-03 23:50:23,531 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-03 23:50:23,531 - INFO - >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+2025-05-03 23:50:23,825 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-03 23:50:23,826 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,826 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,826 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,827 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,827 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,827 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,827 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,828 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,828 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,828 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,829 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,829 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,829 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,830 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,830 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,830 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,830 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,831 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,831 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,831 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,831 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,831 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,832 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,832 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,832 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,833 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,833 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,833 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,834 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,834 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,834 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,834 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,835 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,835 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,835 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,835 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,836 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,836 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,836 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,836 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,837 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,837 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,837 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,837 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,838 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,838 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,838 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,839 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,839 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,839 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,839 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,840 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,840 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,840 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,840 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,841 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,841 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,841 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,841 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,842 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,842 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,842 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,842 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,843 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,843 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,843 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,844 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,844 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,844 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,844 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,845 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,845 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,845 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,845 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,846 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,846 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,846 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,847 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,847 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,847 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,848 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,848 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,848 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,848 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,849 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,849 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,849 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,849 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,850 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,850 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,850 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,850 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,851 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,851 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,851 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,852 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,852 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,852 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,853 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,853 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,853 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,854 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,854 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,854 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,855 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,855 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,855 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,855 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,856 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,856 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,856 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,856 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,857 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,857 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,857 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,858 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,858 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,858 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,858 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,859 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,859 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:23,860 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,171 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-03 23:50:24,171 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,172 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,172 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,172 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,173 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,173 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,173 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,173 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,174 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,174 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,174 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,175 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,175 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,175 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,175 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,176 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,176 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,176 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,176 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,177 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,177 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,177 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,177 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,178 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,178 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,178 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,179 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,179 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,179 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,179 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,180 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,180 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,180 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,181 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,181 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,181 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,182 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,182 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,183 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,183 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,183 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,184 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,184 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,184 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,185 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,185 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,185 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,185 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,186 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,186 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,186 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,187 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,187 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,187 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,188 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,188 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,188 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,189 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,189 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,190 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,190 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,190 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,191 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,191 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,191 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,191 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,192 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,192 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,192 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,193 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,193 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,193 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,194 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,194 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,194 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,194 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,195 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,195 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,195 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,196 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,196 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,197 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,197 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,198 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,198 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,199 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,199 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,199 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,200 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,200 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,200 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,200 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,201 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,201 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,201 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,201 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,202 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,202 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,202 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,202 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,203 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,203 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,203 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,204 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,204 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,204 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,204 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,205 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,205 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,205 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,206 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,206 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,206 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,206 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,207 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,207 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,207 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,207 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,208 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,208 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,208 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,209 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13220: >>>>> Patch Apply Failed:
+patching file django/core/exceptions.py
+Reversed (or previously applied) patch detected!  Assuming -R.
+Hunk #1 succeeded at 1 with fuzz 2.
+patch: **** malformed patch at line 28: +            return hash(tuple(sorted(make_hashable(self.error_dict))))
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_1/my-multi-llm-agent/django__django-13220/run_instance.log) for more information.
+
+2025-05-03 23:50:24,209 - INFO - Attempting to stop container sweb.eval.django__django-13220.trial_run_corrected_model_1...
+2025-05-03 23:50:39,679 - INFO - Attempting to remove container sweb.eval.django__django-13220.trial_run_corrected_model_1...
+2025-05-03 23:50:39,710 - INFO - Container sweb.eval.django__django-13220.trial_run_corrected_model_1 removed.
+2025-05-03 23:50:39,710 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-13220:latest...
+2025-05-03 23:50:40,191 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-13220:latest removed.

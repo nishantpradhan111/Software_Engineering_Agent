@@ -1,0 +1,13 @@
+```diff
+--- a/astropy/nddata/mixins/NDArithmeticMixin.py
++++ b/astropy/nddata/mixins/NDArithmeticMixin.py
+@@ -495,7 +495,7 @@
+             return deepcopy(operand.mask)
+ 
+         # Now the other way around
+-        elif operand is None:
++        elif operand.mask is None:
+             return deepcopy(self.mask)
+ 
+         # If we got here both have a mask and we need to propagate them
+```

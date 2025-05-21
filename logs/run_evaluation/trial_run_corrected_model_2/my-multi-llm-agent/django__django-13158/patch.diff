@@ -1,0 +1,13 @@
+```diff
+--- a/django/db/models/sql/query.py
++++ b/django/db/models/sql/query.py
+@@ -1777,6 +1777,5 @@
+ 
+     def set_empty(self):
+         self.where.add(NothingNode(), AND)
+-        for query in self.combined_queries:
+         for query in self.combined_queries:
+             query.set_empty()
+ 
+
+```

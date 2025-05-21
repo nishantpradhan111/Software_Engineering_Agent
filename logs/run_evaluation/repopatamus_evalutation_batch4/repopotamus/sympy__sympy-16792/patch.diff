@@ -1,0 +1,18 @@
+```diff
+--- a/sympy/utilities/codegen.py
++++ b/sympy/utilities/codegen.py
+@@ -609,10 +609,9 @@
+         type_args = []
+         for arg in routine.arguments:
+             name = self.printer.doprint(arg.name)
+-            if (arg.dimensions or isinstance(arg, ResultBase)) and \
+-               not (isinstance(arg, InputArgument) and not
+-                    isinstance(arg.name, (Symbol, MatrixSymbol)) and
+-                    len(routine.results) == 0):
++            if (arg.dimensions or isinstance(arg, ResultBase)) and not (
++                isinstance(arg, InputArgument) and not isinstance(arg.name, (Symbol, MatrixSymbol)) and
++                len(routine.results) == 0):
+                 type_args.append((arg.get_datatype('C'), "*%s" % name))
+             else:
+                 type_args.append((arg.get_datatype('C'), name))
+```

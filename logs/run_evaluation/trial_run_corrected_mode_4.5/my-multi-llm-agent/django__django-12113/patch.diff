@@ -1,0 +1,14 @@
+```diff
+--- a/django/db/backends/sqlite3/creation.py
++++ b/django/db/backends/sqlite3/creation.py
+@@ -101,9 +101,7 @@
+         sig = [self.connection.settings_dict['NAME']]
+         if self.is_in_memory_db(test_database_name):
+             sig.append(self.connection.alias)
+-        elif self.connection.settings_dict['TEST'].get('NAME'):
++        elif self.connection.settings_dict['TEST'] and self.connection.settings_dict['TEST'].get('NAME'):
+             sig.append(self.connection.settings_dict['TEST']['NAME'])
+-        else:
+-            sig.append(test_database_name)
+         return tuple(sig)
+```

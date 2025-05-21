@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/printing/latex.py
++++ b/sympy/printing/latex.py
+@@ -404,7 +404,7 @@
+         if hasattr(self, '_print_' + func) and \
+             not isinstance(expr.func, UndefinedFunction):
+             return getattr(self, '_print_' + func)(expr, exp)
+-        else:
++        else:
+             args = [ str(self._print(arg)) for arg in expr.args ]
+             # How inverse trig functions should be displayed, formats are:
+             # abbreviated: asin, full: arcsin, power: sin^-1
+```

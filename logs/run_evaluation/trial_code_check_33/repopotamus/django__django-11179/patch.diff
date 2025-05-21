@@ -1,0 +1,18 @@
+```diff
+--- a/django/db/models/deletion.py
++++ b/django/db/models/deletion.py
+@@ -327,9 +327,9 @@
+                 for obj in instances:
+                     setattr(obj, field.attname, value)
+         for model, instances in self.data.items():
+-            # update collected instances
+-            # update collected fast_delete instances
+-
++            # Update collected instances. We do this after the field updates
++            # to prevent the updates from clobbering the SET_NULL values.
++            # fast_delete instances don't have their PK cleared.
+             for instance in instances:
+-                setattr(instance, model._meta.pk.attname, None)
++                setattr(instance, model._meta.pk.attname, None)
+         return sum(deleted_counter.values()), dict(deleted_counter)
+```

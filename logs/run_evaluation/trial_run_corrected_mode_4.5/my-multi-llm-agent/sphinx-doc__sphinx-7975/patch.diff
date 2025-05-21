@@ -1,0 +1,35 @@
+```diff
+--- a/sphinx/environment/adapters/indexentries.py
++++ b/sphinx/environment/adapters/indexentries.py
+@@ -101,17 +101,17 @@
+                 subentry[0].sort(key=keyfunc0)  # type: ignore
+ 
+         # sort the index entries
+-        def keyfunc(entry: Tuple[str, List]) -> Tuple[str, str]:
++        def keyfunc(entry: Tuple[str, List]) -> Tuple[Tuple[int, str], str]:
+             key, (void, void, category_key) = entry
+             if category_key:
+                 # using specified category key to sort
+                 lckey = category_key.lower()
+             else:
+                 lckey = unicodedata.normalize('NFD', key.lower())\
+-            if lckey.startswith('\\N{RIGHT-TO-LEFT MARK}'):
+-                lckey = lckey[1:]
++                if lckey.startswith('\\N{RIGHT-TO-LEFT MARK}'):
++                    lckey = lckey[1:]
+             if lckey[0:1].isalpha() or lckey.startswith('_'):
+-                lckey = chr(127) + lckey
++                sortkey = (1, lckey)
+             else:
+                 # put symbols at the front of the index
+                 sortkey = (0, lckey)
+@@ -119,7 +119,7 @@
+             # the entry itself
+             return (sortkey, entry[0])
+         newlist = sorted(new.items(), key=keyfunc)
+-
++
+         if group_entries:
+             # now group the entries aphabetically
+             newlist2 = []
+```

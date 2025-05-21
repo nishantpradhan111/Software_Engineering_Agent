@@ -1,0 +1,13 @@
+```diff
+--- a/django/db/migrations/autodetector.py
++++ b/django/db/migrations/autodetector.py
+@@ -423,7 +423,7 @@
+         # AlterUniqueTogether must go before RemoveField.
+         for app_label, ops in list(self.arranged_operations.items()):
+             for i, op in enumerate(list(ops)):
+-                if isinstance(op, operations.RemoveField):
++                if isinstance(op, operations.RemoveField) and hasattr(op, 'model_name'):
+                     name = op.name
+                     model_name = op.model_name
+                     # unique_together
+```

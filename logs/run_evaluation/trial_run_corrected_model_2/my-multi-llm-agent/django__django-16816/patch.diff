@@ -1,0 +1,22 @@
+```diff
+--- a/django/contrib/admin/checks.py
++++ b/django/contrib/admin/checks.py
+@@ -900,10 +900,10 @@
+                         id="admin.E108",
+                     )
+                 ]
+-        if isinstance(field, models.ManyToManyField) or (
+-            getattr(field, "rel", None) and field.rel.field.many_to_one
+-        ):
++        if (
++            getattr(field, "is_relation", False)
++            and (field.many_to_many or field.one_to_many)
++        ) or (getattr(field, "rel", None) and field.rel.field.many_to_one):
+             return [
+                 checks.Error(
+-                    f"The value of '{label}' must not be a many-to-many field or a "
++                    f"The value of '{label}' must not be a many-to-many field or a reverse foreign key.",
+                     hint=(
+                         "If you want to display the number of related objects, "
+                         "define a function for that with @admin.display and set "
+```

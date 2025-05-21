@@ -1,0 +1,15 @@
+```diff
+--- a/sympy/polys/polytools.py
++++ b/sympy/polys/polytools.py
+@@ -5945,8 +5945,8 @@ def _symbolic_factor_list(expr, opt, method):
+                         other.append((f, k))\
+ 
+                 factors.append((_factors_product(other), exp))\
+-    if method == 'sqf':
+-        factors = [(reduce(mul, (f for f, _ in factors if _ == k)), k)\
++    if method == 'sqf':
++        factors = [(reduce(mul, (f for f, i in factors if i == k), S.One), k)
+                     for k in set(i for _, i in factors)]
+ 
+     return coeff, factors
+```

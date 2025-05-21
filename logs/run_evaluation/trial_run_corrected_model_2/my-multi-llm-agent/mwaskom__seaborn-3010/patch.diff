@@ -1,0 +1,13 @@
+```diff
+--- a/seaborn/_stats/regression.py
++++ b/seaborn/_stats/regression.py
+@@ -41,7 +41,7 @@
+     def __call__(self, data, groupby, orient, scales):
+ 
+         return (
+-            groupby
++            groupby  # pyright: ignore[reportGeneralTypeIssues]
+             .apply(data.dropna(subset=["x", "y"]), self._fit_predict)
+         )
+ 
+```

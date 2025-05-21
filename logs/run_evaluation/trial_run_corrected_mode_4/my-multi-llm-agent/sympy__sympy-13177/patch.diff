@@ -1,0 +1,24 @@
+```diff
+--- a/sympy/core/mod.py
++++ b/sympy/core/mod.py
+@@ -39,7 +39,7 @@ def doit(p, q):\
+             if p.is_infinite or q.is_infinite or p is nan or q is nan:\
+                 return nan\
+             if (p == q or p == -q or\
+-                    p.is_Pow and p.exp.is_Integer and p.base == q or\
++                    p.is_Pow and p.base == q and q.is_integer and p.exp.is_integer and p.exp.is_positive or\
+                     p.is_integer and q == 1):\
+                 return S.Zero\
+ 
+--- a/sympy/core/tests/test_numbers.py
++++ b/sympy/core/tests/test_numbers.py
+@@ -121,6 +122,6 @@
+     assert Integer(10) % 4 == Integer(2)\
+     assert 15 % Integer(4) == Integer(3)\
+ 
+-    h = Symbol('h')
++    h = Symbol('h', real=True)
+     m = h ** 2 % h
+     k = h ** -2 % h
+     l = Symbol('l', integer=True)
+```

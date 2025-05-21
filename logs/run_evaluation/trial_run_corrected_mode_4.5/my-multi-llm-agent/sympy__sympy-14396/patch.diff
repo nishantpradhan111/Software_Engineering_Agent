@@ -1,0 +1,47 @@
+```diff
+--- a/sympy/polys/polyoptions.py
++++ b/sympy/polys/polyoptions.py
+@@ -405,7 +405,7 @@ class Domain(with_metaclass(OptionType, Option)):\n     _re_realfield = re.compile(r"^(R|RR)(_(\\d+))?$")\n     _re_complexfield = re.compile(r"^(C|CC)(_(\\d+))?$")\n     _re_finitefield = re.compile(r"^(FF|GF)\\((\\d+)\\)$")\n-    _re_polynomial = re.compile(r"^(Z|ZZ|Q|QQ)\\[(.+)\\]$")\n+    _re_polynomial = re.compile(r"^(Z|ZZ|Q|QQ|R|RR|C|CC)\\[(.+)\\]$")
+     _re_fraction = re.compile(r"^(Z|ZZ|Q|QQ)\\((.+)\\)$")\n     _re_algebraic = re.compile(r"^(Q|QQ)\\<(.+)\\>$")\n 
+@@ -413,16 +413,6 @@
+     @classmethod
+     def preprocess(cls, domain):
+         import sympy.polys.domains
+-
+-        if domain is None:
+-            return None
+-
+-        if isinstance(domain, sympy.polys.domains.Domain):
+-            return domain
+-
+-        if type(domain) is type and issubclass(domain, sympy.polys.domains.Domain):
+-            return domain()
+-
+         r = cls._re_finitefield.match(domain)
+ 
+         if r is not None:
+@@ -458,11 +448,11 @@
+ 
+                 if ground in ['Z', 'ZZ']:
+                     return sympy.polys.domains.ZZ.poly_ring(*gens)
+-                elif ground in ['Q', 'QQ']:\
++                elif ground in ['Q', 'QQ']:
+                     return sympy.polys.domains.QQ.poly_ring(*gens)
+-                elif ground in ['R', 'RR']:\
++                elif ground in ['R', 'RR']:
+                     return sympy.polys.domains.RR.poly_ring(*gens)
+-                else:\
++                elif ground in ['C', 'CC']:
+                     return sympy.polys.domains.CC.poly_ring(*gens)
+ 
+             r = cls._re_fraction.match(domain)
+@@ -479,7 +469,7 @@
+                 return sympy.polys.domains.QQ.algebraic_field(*gens)
+             except ImportError:
+                 pass
+-        raise OptionError('expected a valid domain specification, got %s' % domain)
++        raise OptionError('Invalid domain specification: %s' % domain)
+ 
+     @classmethod
+     def postprocess(cls, value):
+```

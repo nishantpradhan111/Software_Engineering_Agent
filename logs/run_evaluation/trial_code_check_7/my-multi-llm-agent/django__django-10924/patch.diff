@@ -1,0 +1,13 @@
+```diff
+--- a/django/forms/fields.py
++++ b/django/forms/fields.py
+@@ -1100,6 +1100,8 @@
+         self.path = path
+         self.match = match
+         self.recursive = recursive
++        if callable(self.path):
++            self.path = self.path()
+         super().__init__(**kwargs)
+         self.choices = []
+         if self.path is not None:
+```

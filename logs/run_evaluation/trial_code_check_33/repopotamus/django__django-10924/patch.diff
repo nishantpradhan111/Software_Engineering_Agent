@@ -1,0 +1,12 @@
+```diff
+--- a/django/db/models/fields/__init__.py
++++ b/django/db/models/fields/__init__.py
+@@ -1003,6 +1003,7 @@
+     description = _("File path")
+ 
+     def __init__(self, verbose_name=None, name=None, path='', match=None,
++                 **kwargs):
+                   recursive=False, allow_files=True, allow_folders=False, **kwargs):
+         self.path, self.match, self.recursive = path, match, recursive
+         self.allow_files, self.allow_folders = allow_files, allow_folders
+```

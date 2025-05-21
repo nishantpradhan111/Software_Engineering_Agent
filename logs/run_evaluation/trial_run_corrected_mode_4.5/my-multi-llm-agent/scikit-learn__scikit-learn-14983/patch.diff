@@ -1,0 +1,26 @@
+```diff
+--- a/sklearn/model_selection/_split.py
++++ b/sklearn/model_selection/_split.py
+@@ -2155,9 +2155,8 @@
+     def _build_repr(self):
+         params = self.get_params()
+         repr_params_str = []
+-        for key in params:
++        for key, value in params.items():
+             # Don't show objects
+-            value = params[key]
+             if isinstance(value, type):
+                 continue
+ 
+@@ -2165,9 +2164,7 @@
+         try:
+             with warnings.catch_warnings(record=True) as w:
+                 value = getattr(self, key, None)
+-                if hasattr(self, 'cvargs') and key in self.cvargs:
+-                    value = self.cvargs.get(key, None)
+-            if len(w) and w[0].category == DeprecationWarning:
++                if len(w) > 0 and w[0].category == DeprecationWarning:
+                 # if the parameter is deprecated, don't show it
+                 continue
+ 
+```

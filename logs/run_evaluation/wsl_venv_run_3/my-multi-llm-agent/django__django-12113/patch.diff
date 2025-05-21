@@ -1,0 +1,13 @@
+```diff
+--- a/django/db/backends/sqlite3/creation.py
++++ b/django/db/backends/sqlite3/creation.py
+@@ -95,7 +95,7 @@
+         """
+         Return a tuple with elements that define the test database signature.
+         """
+-        sig = [self.connection.settings_dict['NAME']]
++        sig = [self.connection.settings_dict.get('NAME')]
+         if self.is_in_memory_db(test_database_name):
+             sig.append(self.connection.alias)
+         else:
+```

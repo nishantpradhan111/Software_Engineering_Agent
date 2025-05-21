@@ -1,0 +1,12 @@
+```diff
+--- a/django/forms/fields.py
++++ b/django/forms/fields.py
+@@ -276,6 +276,7 @@
+ 			key = self.to_python(value)
+ 			value = key
+ 			result = self._get_queryset().get(pk=key)
++
+ 		except (ValueError, self.queryset.model.DoesNotExist):
+ 			raise ValidationError(
+ 				self.error_messages["invalid_choice"], code="invalid_choice"
+```

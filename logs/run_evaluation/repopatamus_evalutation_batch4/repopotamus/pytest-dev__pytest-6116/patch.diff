@@ -1,0 +1,27 @@
+```diff
+--- a/src/_pytest/main.py
++++ b/src/_pytest/main.py
+@@ -101,11 +101,10 @@
+     )
+ 
+     group = parser.getgroup("collect", "collection")
+-    group.addoption(
+-        "-c",
++    group._addoption(
+         "--collectonly",
+         "--collect-only",
+-        action="store_true",
++        action="store_true",
+         help="only collect tests, don't execute them.",
+     ),
+     group.addoption(
+@@ -251,7 +250,7 @@
+ 
+ 
+ def pytest_cmdline_main(config):
+-    return wrap_session(config, _main)
++    return wrap_session(config, main)
+ 
+ 
+ def _main(config, session):
+```

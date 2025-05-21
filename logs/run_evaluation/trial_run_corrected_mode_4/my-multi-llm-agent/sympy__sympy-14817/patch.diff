@@ -1,0 +1,18 @@
+```diff
+--- a/sympy/printing/pretty/pretty.py
++++ b/sympy/printing/pretty/pretty.py
+@@ -822,11 +822,10 @@ def _print_MatAdd(self, expr):
+         # Handle the special case of a negative matrix
+         if len(args) == 1 and _coeff_isneg(args[0]):
+             return prettyForm(u'-') + self._print(-args[0])
+-
+         s = None
+         for i, item in enumerate(args):
+             if s is None:
+                 s = pform     # First element
+             else:
+-                if S(item.args[0]).is_negative:
+                 coeff = item.as_coeff_mmul()[0]
+                 if _coeff_isneg(coeff):
+                     s = prettyForm(*stringPict.next(s, ' '))\
+```

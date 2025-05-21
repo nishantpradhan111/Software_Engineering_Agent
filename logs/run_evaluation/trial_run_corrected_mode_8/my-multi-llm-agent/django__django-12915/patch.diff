@@ -1,0 +1,14 @@
+```diff
+--- a/django/contrib/staticfiles/handlers.py
++++ b/django/contrib/staticfiles/handlers.py
+@@ -27,6 +27,9 @@
+     def get_response(self, request):
+         return self.serve(request)
+ 
++    async def get_response_async(self, request):
++        return await self.serve(request)
++
+     def serve(self, request):
+         """Serve a static asset."""
+         if not self.is_serve_static(request):
+```

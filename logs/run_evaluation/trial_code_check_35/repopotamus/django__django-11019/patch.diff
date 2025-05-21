@@ -1,0 +1,28 @@
+```diff
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -112,19 +112,13 @@
+ 
+     @staticmethod
+     def merge(list_1, list_2):
+-        """
+-        Merge two lists while trying to keep the relative order of the elements.
+-        Warn if the lists have the same two elements in a different relative
+-        order.
+-
+-        For static assets it can be important to have them included in the DOM
+-        in a certain order. In JavaScript you may not be able to reference a
+-        global or in CSS you might want to override a style.
++        """Merge two lists while trying to keep the relative order of the
++        elements. Warn if the lists have the same two elements in a different
++        relative order.
+         """
+         # Start with a copy of list_1.
+         combined_list = list(list_1)
+         last_insert_index = len(list_1)
+-        # Walk list_2 in reverse, inserting each element into combined_list if
+-        # it doesn't already exist.
+         for path in reversed(list_2):
+             try:
+                 # Does path already exist in the list?
+```

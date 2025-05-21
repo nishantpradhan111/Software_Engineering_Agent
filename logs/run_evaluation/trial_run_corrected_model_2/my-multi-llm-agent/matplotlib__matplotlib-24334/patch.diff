@@ -1,0 +1,34 @@
+```diff
+--- a/lib/matplotlib/axis.py
++++ b/lib/matplotlib/axis.py
+@@ -2029,6 +2029,9 @@ def set_ticks(self, ticks, labels=None, *, minor=False, **kwargs):
+         other limits, you should set the limits explicitly after setting the
+         ticks.
+         """
++        if labels is None and kwargs:
++            raise ValueError('labels argument cannot be None when '
++                             'kwargs are passed')
+         result = self._set_tick_locations(ticks, minor=minor)
+         if labels is not None:
+             self.set_ticklabels(labels, minor=minor, **kwargs)
+--- a/lib/matplotlib/tests/test_axes.py
++++ b/lib/matplotlib/tests/test_axes.py
+@@ -5732,6 +5732,17 @@ def test_set_get_ticklabels():
+     ax[1].set_yticklabels(ax[0].get_yticklabels())
+ 
+ 
++def test_set_ticks_kwargs_raise_error_without_labels():
++    """
++    When labels=None and any kwarg is passed, axis.set_ticks() raises a
++    ValueError.
++    """
++    fig, ax = plt.subplots()
++    ticks = [1, 2, 3]
++    with pytest.raises(ValueError, match='labels argument cannot be None when kwargs are passed'):
++        ax.xaxis.set_ticks(ticks, alpha=0.5)
++
++
+ @check_figures_equal(extensions=["png"])\
+ def test_set_ticks_with_labels(fig_test, fig_ref):
+     """
+```

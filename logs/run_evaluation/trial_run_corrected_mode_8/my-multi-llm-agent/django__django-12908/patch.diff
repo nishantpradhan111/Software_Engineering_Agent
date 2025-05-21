@@ -1,0 +1,16 @@
+```diff
+--- a/django/db/models/query.py
++++ b/django/db/models/query.py
+@@ -215,11 +215,7 @@
+         )
+ 
+         if self.query.combinator is not None and (
+-            len(args) > 0
+-            or distinct is not False
+-            or self.query.distinct_fields
+-            or kwargs
++            args or kwargs or distinct is not False or self.query.distinct_fields
+         ):
+             raise NotImplementedError(
+                 "Calling distinct() after a queryset has been combined with another "
+```

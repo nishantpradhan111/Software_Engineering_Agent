@@ -1,0 +1,29 @@
+```diff
+--- a/src/flask/cli.py
++++ b/src/flask/cli.py
+@@ -9,7 +9,7 @@
+ import traceback
+ import typing as t
+ from functools import update_wrapper
+-from operator import attrgetter
++from operator import itemgetter
+ 
+ import click
+ from click.core import ParameterSource
+@@ -989,49 +989,41 @@ def shell_command() -> None:\
+ @click.option(\
+     "--sort",\
+     "-s",\
+-    type=click.Choice(("endpoint", "methods", "rule", "match")),\
++    type=click.Choice(("endpoint", "methods", "domain", "rule", "match")),
+     default="endpoint",\
+     help=(\
+-        \'Method to sort routes by. "match" is the order that Flask will match \'\n-        "routes when dispatching a request."\n+        "Method to sort routes by. 'match' is the order that Flask will match routes"\
++        " when dispatching a request."
+     ),\n )\n @click.option("--all-methods", is_flag=True, help="Show HEAD and OPTIONS methods.")\n @with_appcontext\n def routes_command(sort: str, all_methods: bool) -> None:\n     """Show all registered routes with endpoints and methods."""\n-\n     rules = list(current_app.url_map.iter_rules())\n+\n     if not rules:\n         click.echo("No routes were registered.")\n         return\n \n-    ignored_methods = set(() if all_methods else ("HEAD", "OPTIONS"))\n+    ignored_methods = set() if all_methods else {"HEAD", "OPTIONS"}\n     host_matching = current_app.url_map.host_matching\n     has_domain = any(rule.host if host_matching else rule.subdomain for rule in rules)\n     rows = []\n \n-    for rule in rules:\n-        row = [\n-            rule.endpoint,\n-            ", ".join(sorted((rule.methods or set()) - ignored_methods)),\n-        ]\n+    for rule in sorted(rules, key=lambda r: r.rule if sort == "match" else getattr(r, sort, r.methods)):\n+        methods = ", ".join(sorted((rule.methods or set()) - ignored_methods))\n+        if not methods:\n+            methods = "-"
++\n+        row = [rule.endpoint, methods]\n \n-        if has_domain:\n-            row.append((rule.host if host_matching else rule.subdomain) or "")\n+        if has_domain:\n+            row.append(rule.host if host_matching else rule.subdomain)\n \n         row.append(rule.rule)\n         rows.append(row)\n-\n-    headers = ["Endpoint", "Methods"]\n-    sorts = ["endpoint", "methods"]\n \n+    headers = ["Endpoint", "Methods"]\n     if has_domain:\n         headers.append("Host" if host_matching else "Subdomain")\n-        sorts.append("domain")\n \n     headers.append("Rule")\n-    sorts.append("rule")\n \n-    try:\n-        rows.sort(key=itemgetter(sorts.index(sort)))\n-    except ValueError:\n-        pass\n-\n     rows.insert(0, headers)\n     widths = [max(len(str(row[i])) for row in rows) for i in range(len(headers))]\n     rows.insert(1, ["-" * w for w in widths])\n     template = "  ".join(f"{{{i}:<{w}}}" for i, w in enumerate(widths))\
+ \
+     for row in rows:\n         click.echo(template.format(*row))\
+-
+ \n \n cli = FlaskGroup(\n
+```

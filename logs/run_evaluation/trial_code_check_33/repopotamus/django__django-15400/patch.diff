@@ -1,0 +1,12 @@
+```
+--- a/django/utils/functional.py
++++ b/django/utils/functional.py
+@@ -497,7 +497,7 @@
+         self.__dict__["_setupfunc"] = func
+         super().__init__()
+ 
+-    __add__ = new_method_proxy(operator.add)
+     def _setup(self):
+         self._wrapped = self._setupfunc()
+ 
+```

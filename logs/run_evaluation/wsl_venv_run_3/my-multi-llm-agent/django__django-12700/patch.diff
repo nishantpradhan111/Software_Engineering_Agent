@@ -1,0 +1,13 @@
+```diff
+--- a/django/views/debug.py
++++ b/django/views/debug.py
+@@ -92,7 +92,7 @@
+             elif isinstance(value, dict):
+                 cleansed = {k: self.cleanse_setting(k, v) for k, v in value.items()}
+             elif isinstance(value, list):
+-                cleansed = [self.cleanse_setting(key, v) for v in value]
++                cleansed = [self.cleanse_setting(key, v) for v in value]  # Pass key here
+             elif isinstance(value, tuple):
+                 cleansed = tuple([self.cleanse_setting(key, v) for v in value])
+             else:
+```

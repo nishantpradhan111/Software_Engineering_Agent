@@ -1,0 +1,13 @@
+```diff
+--- a/django/contrib/admin/templatetags/admin_modify.py
++++ b/django/contrib/admin/templatetags/admin_modify.py
+@@ -99,7 +99,7 @@
+         "show_save_and_add_another": has_add_permission and change,
+         "show_save_as_new": not is_popup
+         and has_change_permission
+-        and change
++        and change and has_add_permission
+         and save_as,
+     }
+     return mark_safe(json.dumps(result))
+```

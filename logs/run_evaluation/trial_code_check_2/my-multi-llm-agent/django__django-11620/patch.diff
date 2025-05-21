@@ -1,0 +1,34 @@
+```diff
+--- a/tests/view_tests/tests/test_debug.py
++++ b/tests/view_tests/tests/test_debug.py
+@@ -19,14 +19,11 @@
+ from django.utils.functional import SimpleLazyObject
+ from django.utils.safestring import mark_safe
+ from django.views.debug import (
+-
+-
+     technical_404_response,
+ )
+ from django.urls import path, register_converter
+ from django.http import HttpResponse
+ 
+-def path_post(request, int):
++def path_post(request, value):
+     return HttpResponse()
+ 
+ 
+@@ -34,7 +31,7 @@
+ 
+ 
+ urlpatterns = [
+-    path('path-post/<int:int>/', path_post),
++    path('path-post/<int:value>/', path_post),
+ ]
+ 
+ 
+@@ -250,4 +247,3 @@
+ 
+ class DebugViewQueriesAllowedTests(SimpleTestCase):
+     # May need a query to initialize MySQL connection
+-
+```

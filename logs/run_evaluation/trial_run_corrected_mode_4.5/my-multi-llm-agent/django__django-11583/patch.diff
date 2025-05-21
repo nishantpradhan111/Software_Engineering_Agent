@@ -1,0 +1,15 @@
+```diff
+--- a/django/utils/autoreload.py
++++ b/django/utils/autoreload.py
+@@ -143,6 +143,10 @@ def iter_modules_and_files(modules, extra_files):
+             # The module could have been removed, don't fail loudly if this
+             # is the case.
+             continue
++        except OSError as e:
++            # Network filesystems may return null bytes in file paths.
++            logger.debug('"OSError: %s" raised when resolving path: "%s"', e, path)
++            continue
+         results.add(resolved_path)
+     return frozenset(results)
+ 
+```

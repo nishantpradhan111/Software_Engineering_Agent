@@ -1,0 +1,14 @@
+```diff
+--- a/sympy/core/mul.py
++++ b/sympy/core/mul.py
+@@ -907,7 +907,7 @@
+         # 0
+         elif coeff is S.Zero:
+             # we know for sure the result will be 0 except the multiplicand
+-            # is infinity
++            # is infinity 
+             if any(c.is_finite == False for c in c_part):
+                 return [S.NaN], [], order_symbols
+             return [coeff], [], order_symbols
+
+```

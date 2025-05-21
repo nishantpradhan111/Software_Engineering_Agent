@@ -1,0 +1,26 @@
+```diff
+--- a/sympy/tensor/array/ndim_array.py
++++ b/sympy/tensor/array/ndim_array.py
+@@ -269,14 +269,13 @@
+                 return [pointer], ()
+ 
+             result = []
+-            elems, shapes = zip(*[f(i) for i in pointer])
+-            if len(set(shapes)) != 1:
+-                raise ValueError("could not determine shape unambiguously")
+-            for i in elems:
+-                result.extend(i)
+-            return result, (len(shapes),)+shapes[0]
+-        return f(iterable)
+-
++            if pointer:
++                elems_and_shapes = [f(i) for i in pointer]
++                elems, shapes = zip(*elems_and_shapes)
++                if len(set(shapes)) != 1:
++                    raise ValueError("could not determine shape unambiguously")
++                for i in elems:
++                    result.extend(i)
++                return result, (len(pointer),)+shapes[0]
++            return [], (0,)
+         return f(iterable)
+```

@@ -1,0 +1,13 @@
+```diff
+--- a/astropy/io/ascii/qdp.py
++++ b/astropy/io/ascii/qdp.py
+@@ -20,7 +20,7 @@
+ 
+     _command_re = re.compile(
+         r"""
+-        \s* ( [A-Z]+ )  # command
++        \s* ( [A-Za-z]+ )  # command
+         \s* (.*)        # arguments
+         """,
+         re.VERBOSE,
+```

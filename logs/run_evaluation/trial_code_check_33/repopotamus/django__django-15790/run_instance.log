@@ -1,0 +1,50 @@
+2025-05-11 11:21:48,655 - INFO - Creating container for django__django-15790...
+2025-05-11 11:21:49,027 - INFO - Container for django__django-15790 created: 2282c0351a8b47cc16e7670a8cd93980b416a994dcdf2f420fe17e415d94d53d
+2025-05-11 11:21:49,292 - INFO - Container for django__django-15790 started: 2282c0351a8b47cc16e7670a8cd93980b416a994dcdf2f420fe17e415d94d53d
+2025-05-11 11:21:49,299 - INFO - Intermediate patch for django__django-15790 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-15790/patch.diff, now applying to container...
+2025-05-11 11:21:49,461 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-11 11:21:49,530 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-11 11:21:49,596 - INFO - >>>>> Applied Patch:
+patching file django/core/checks/templates.py
+Hunk #1 succeeded at 53 with fuzz 2 (offset 2 lines).
+Hunk #2 succeeded at 64 (offset 4 lines).
+patch unexpectedly ends in middle of line
+patch unexpectedly ends in middle of line
+
+2025-05-11 11:21:50,370 - INFO - Git diff before:
+diff --git a/django/core/checks/templates.py b/django/core/checks/templates.py
+index 5214276987..60466dd57d 100644
+--- a/django/core/checks/templates.py
++++ b/django/core/checks/templates.py
+@@ -53,7 +53,7 @@ def check_for_template_tags_with_the_same_name(app_configs, **kwargs):
+     libraries = defaultdict(list)
+ 
+     for conf in settings.TEMPLATES:
+-        custom_libraries = conf.get("OPTIONS", {}).get("libraries", {})
++        custom_libraries = conf.get("OPTIONS", {}).get("libraries", {}) or {}
+         for module_name, module_path in custom_libraries.items():
+             libraries[module_name].append(module_path)
+2025-05-11 11:21:50,373 - INFO - Eval script for django__django-15790 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-15790/eval.sh; copying to container...
+2025-05-11 11:22:02,444 - INFO - Test runtime: 11.99 seconds
+2025-05-11 11:22:02,449 - INFO - Test output for django__django-15790 written to logs/run_evaluation/trial_code_check_33/repopotamus/django__django-15790/test_output.txt
+2025-05-11 11:22:02,524 - INFO - Git diff after:
+diff --git a/django/core/checks/templates.py b/django/core/checks/templates.py
+index 5214276987..60466dd57d 100644
+--- a/django/core/checks/templates.py
++++ b/django/core/checks/templates.py
+@@ -53,7 +53,7 @@ def check_for_template_tags_with_the_same_name(app_configs, **kwargs):
+     libraries = defaultdict(list)
+ 
+     for conf in settings.TEMPLATES:
+-        custom_libraries = conf.get("OPTIONS", {}).get("libraries", {})
++        custom_libraries = conf.get("OPTIONS", {}).get("libraries", {}) or {}
+         for module_name, module_path in custom_libraries.items():
+             libraries[module_name].append(module_path)
+2025-05-11 11:22:02,524 - INFO - Grading answer for django__django-15790...
+2025-05-11 11:22:02,527 - INFO - report: {'django__django-15790': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_template_tags_same_library_in_installed_apps_libraries (check_framework.test_templates.CheckTemplateTagLibrariesWithSameName)']}, 'PASS_TO_PASS': {'success': ['Error if template loaders are specified and APP_DIRS is True.', 'test_app_dirs_removed (check_framework.test_templates.CheckTemplateSettingsAppDirsTest)', 'test_loaders_removed (check_framework.test_templates.CheckTemplateSettingsAppDirsTest)', 'test_string_if_invalid_both_are_strings (check_framework.test_templates.CheckTemplateStringIfInvalidTest)', 'test_string_if_invalid_first_is_string (check_framework.test_templates.CheckTemplateStringIfInvalidTest)', 'test_string_if_invalid_not_specified (check_framework.test_templates.CheckTemplateStringIfInvalidTest)', 'test_string_if_invalid_not_string (check_framework.test_templates.CheckTemplateStringIfInvalidTest)', 'test_template_tags_with_different_library_name (check_framework.test_templates.CheckTemplateTagLibrariesWithSameName)', 'test_template_tags_with_different_name (check_framework.test_templates.CheckTemplateTagLibrariesWithSameName)', 'test_template_tags_with_same_library_name (check_framework.test_templates.CheckTemplateTagLibrariesWithSameName)', 'test_template_tags_with_same_library_name_and_module_name (check_framework.test_templates.CheckTemplateTagLibrariesWithSameName)', 'test_template_tags_with_same_name (check_framework.test_templates.CheckTemplateTagLibrariesWithSameName)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-15790: resolved: False
+2025-05-11 11:22:02,530 - INFO - Attempting to stop container sweb.eval.django__django-15790.trial_code_check_33...
+2025-05-11 11:22:18,364 - INFO - Attempting to remove container sweb.eval.django__django-15790.trial_code_check_33...
+2025-05-11 11:22:18,429 - INFO - Container sweb.eval.django__django-15790.trial_code_check_33 removed.
+2025-05-11 11:22:18,431 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-15790:latest...
+2025-05-11 11:22:22,939 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-15790:latest removed.

@@ -1,0 +1,26 @@
+```diff
+--- a/sympy/utilities/iterables.py
++++ b/sympy/utilities/iterables.py
+@@ -2101,6 +2101,7 @@
+     >>> list(uniq([[1], [2, 1], [1]]))
+     [[1], [2, 1]]
+     """
++    i = 0
+     try:
+         n = len(seq)
+     except TypeError:
+@@ -2116,10 +2117,10 @@
+                 yield s
+                 check()
+     except TypeError:
+-        if s not in result:
++        while i < len(seq):
++            s = seq[i]
++            i += 1
++            if s not in result:
+             yield s
+-            check()
+             result.append(s)
+-        if hasattr(seq, '__getitem__'):
+-            for s in uniq(seq[i + 1:], result):
+```

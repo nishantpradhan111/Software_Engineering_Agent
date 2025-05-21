@@ -1,0 +1,24 @@
+```diff
+--- a/django/db/models/query.py
++++ b/django/db/models/query.py
+@@ -1840,15 +1840,15 @@
+         for item in [objs[i : i + batch_size] for i in range(0, len(objs), batch_size)]:\
+             if bulk_return and (
+                 on_conflict is None
+-                or on_conflict == OnConflict.UPDATE
++                or on_conflict == OnConflict.UPDATE_FIELDS
+             ):
+                 inserted_rows.extend(
+                     self._insert(
+                         item,
+                         fields=fields,
+                         using=self.db,
++                        unique_fields=unique_fields,
++                        update_fields=update_fields,
+                         on_conflict=on_conflict,
+                         returning_fields=self.model._meta.db_returning_fields,
+-                        unique_fields=unique_fields,
+-                        update_fields=update_fields,
+                     )
+                 )
+```

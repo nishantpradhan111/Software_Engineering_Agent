@@ -1,0 +1,17 @@
+```
+--- a/sympy/printing/pretty/pretty.py
++++ b/sympy/printing/pretty/pretty.py
+@@ -899,11 +899,9 @@
+                 lines.append(vsum[8]*(w))
+                 return d, h + 2*more, lines, more
+ 
+-        # Handle the case when there is nothing to sum
+         if not expr.limits:
+             return self._print(expr.function)
+ 
+-
+-
+         f = expr.function
+ 
+         prettyF = self._print(f)
+```

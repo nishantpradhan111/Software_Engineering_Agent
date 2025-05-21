@@ -1,0 +1,23 @@
+```diff
+--- a/sympy/core/basic.py
++++ b/sympy/core/basic.py
+@@ -838,13 +838,11 @@
+         {f(x), sin(y + I*pi)}
+ 
+         """
+-        if types:
+-            types = tuple(
+-                [t if isinstance(t, type) else type(t) for t in types])
+-        else:
+-            types = (Atom,)
++
++        types = tuple(
++            [t if isinstance(t, type) else type(t) for t in types]) or (Atom,)
+         result = set()
++        is_atom = types == (Atom,)
+         for expr in preorder_traversal(self):
+-            if isinstance(expr, types):
++            if (is_atom and not expr.args) or isinstance(expr, types):
+                 result.add(expr)
+         return result
+```

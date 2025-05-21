@@ -1,0 +1,22 @@
+```diff
+--- a/src/flask/blueprints.py
++++ b/src/flask/blueprints.py
+@@ -503,7 +503,7 @@
+ 
+         .. versionadded:: 2.0
+         """
+-        self._blueprints.append((blueprint, options))
++        assert "." not in blueprint.name, "Blueprint names should not contain dots"
+ 
+     def register(self, app: "Flask", options: dict) -> None:
+         """Called by :meth:`Flask.register_blueprint` to register all
+@@ -709,7 +709,7 @@
+ 
+         for blueprint, bp_options in self._blueprints:
+             url_prefix = options.get("url_prefix", "")
+-            if "url_prefix" in bp_options:
++            if bp_options.get("url_prefix"):
+                 url_prefix = (
+                     url_prefix.rstrip("/") + "/" + bp_options["url_prefix"].lstrip("/")
+                 )
+```

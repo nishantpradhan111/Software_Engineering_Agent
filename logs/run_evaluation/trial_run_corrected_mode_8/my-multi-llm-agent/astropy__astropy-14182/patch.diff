@@ -1,0 +1,12 @@
+```diff
+--- a/astropy/io/ascii/core.py
++++ b/astropy/io/ascii/core.py
+@@ -1971,6 +1971,7 @@ class RST(BaseWriter):
+         self.table_sep = '='
+         self.data_sep = '-'
+         self.header_start = ''
++        self.header_rows = None
+ 
+     def write(self, lines):
+         """
+```

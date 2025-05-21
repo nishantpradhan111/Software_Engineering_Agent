@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/printing/mathematica.py
++++ b/sympy/printing/mathematica.py
+@@ -112,7 +112,7 @@
+         return "Hold[Sum[" + ', '.join(self.doprint(a) for a in expr.args) + "]]"
+ 
+     def _print_Derivative(self, expr):
+-        return "D[%s]" % (self.stringify(expr.args, ", "))
++        return "D[" + ', '.join(self.doprint(a) for a in expr.args) + "]"
+ 
+     def _print_Float(self, expr):
+         res = str(expr)
+```

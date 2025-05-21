@@ -1,0 +1,13 @@
+```diff
+--- a/sympy/matrices/expressions/blockmatrix.py
++++ b/sympy/matrices/expressions/blockmatrix.py
+@@ -245,7 +245,7 @@
+                 break
+             else:
+                 j -= numcols
+-        return self.blocks[row_block, col_block][i, j]
++        return self.blocks[row_block, col_block][int(i), int(j)]
+ 
+     @property
+     def is_Identity(self):
+```

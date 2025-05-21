@@ -1,0 +1,13 @@
+```diff
+--- a/astropy/io/ascii/qdp.py
++++ b/astropy/io/ascii/qdp.py
+@@ -31,7 +31,7 @@ class QDP(BaseReader):
+     """
+     qdp format table.
+     """
+-    comment = r'\!'
++    comment = r'!'
+     header_start = r'READ'
+     data_start = r'NO'
+     header_split = r'\s'
+```

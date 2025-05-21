@@ -1,0 +1,22 @@
+```diff
+--- a/sphinx/domains/std.py
++++ b/sphinx/domains/std.py
+@@ -43,7 +43,7 @@
+ 
+ 
+ # RE for option descriptions
+-option_desc_re = re.compile(r'((?:/|--|-|\\+)?[^\\s=[]+)(=?\\s*.*)')
++option_desc_re = re.compile(r'((?:/|--|-|\\+)?[^\\s=]+)(=?\\s*.*)')
+ # RE for grammar tokens
+ token_re = re.compile(r'`(\\w+)`', re.U)
+ 
+@@ -197,7 +197,7 @@ def handle_signature(self, sig: str, signode: desc_signature) -> str:
+                                 location=signode)
+                 continue
+             optname, args = m.groups()
+-            if optname.endswith('[') and args.endswith(']'):
++            if optname.endswith('[') and args.startswith('='):
+                 # optional value surrounded by brackets (ex. foo[=bar])
+                 optname = optname[:-1]
+                 args = '[' + args
+```

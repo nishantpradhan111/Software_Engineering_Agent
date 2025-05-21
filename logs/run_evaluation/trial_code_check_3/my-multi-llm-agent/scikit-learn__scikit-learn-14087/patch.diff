@@ -1,0 +1,18 @@
+```diff
+--- a/sklearn/linear_model/logistic.py
++++ b/sklearn/linear_model/logistic.py
+@@ -2190,8 +2190,11 @@
+                 else:
+                     w = np.mean([coefs_paths[:, i, best_indices[i], :]
+                                  for i in range(len(folds))], axis=0)
+-
+-                best_indices_C = best_indices % len(self.Cs_)
++                if coefs_paths.ndim == 3:
++                    # case when n_features == 1
++                    best_indices_C = best_indices % len(self.Cs_)
++                else:
++                    best_indices_C = best_indices % len(self.Cs_)
+                 if self.fit_intercept:
+                     self.intercept_ = np.mean(
+                         intercept_paths[np.arange(len(folds)),
+```

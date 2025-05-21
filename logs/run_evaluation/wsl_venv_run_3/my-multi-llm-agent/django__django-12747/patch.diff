@@ -1,0 +1,22 @@
+```diff
+--- a/django/db/models/deletion.py
++++ b/django/db/models/deletion.py
+@@ -408,7 +408,7 @@ def delete(self):
+             # fast deletes
+             for qs in self.fast_deletes:
+                 count = qs._raw_delete(using=self.using)
+-                deleted_counter[qs.model._meta.label] += count
++                deleted_counter[qs.model._meta.label] = deleted_counter.get(qs.model._meta.label, 0) + count
+ 
+             # update fields
+             for model, instances_for_fieldvalues in self.field_updates.items():
+@@ -422,7 +422,7 @@ def delete(self):
+             for model, instances in self.instances.items():
+                 query = sql.DeleteQuery(model)
+                 pk_list = [obj.pk for obj in instances]
+-                count = query.delete_batch(pk_list, self.using)
++                count = query.delete_batch(pk_list, self.using)
+                 deleted_counter[model._meta.label] = deleted_counter.get(model._meta.label, 0) + count
+ 
+                 if not model._meta.auto_created:
+```

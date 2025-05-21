@@ -1,0 +1,2467 @@
+2025-05-04 11:16:41,054 - INFO - Creating container for pydata__xarray-5131...
+2025-05-04 11:16:41,189 - INFO - Container for pydata__xarray-5131 created: faa6959c860f9f85c0ff0117912ccfe8388f071ca40258e05ca4bf10933b9e66
+2025-05-04 11:16:41,463 - INFO - Container for pydata__xarray-5131 started: faa6959c860f9f85c0ff0117912ccfe8388f071ca40258e05ca4bf10933b9e66
+2025-05-04 11:16:41,470 - INFO - Intermediate patch for pydata__xarray-5131 written to logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/patch.diff, now applying to container...
+2025-05-04 11:16:41,650 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-04 11:16:41,712 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-04 11:16:41,795 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-04 11:16:41,795 - INFO - >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+2025-05-04 11:16:42,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 11:16:42,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,125 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,126 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,126 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,126 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,127 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,127 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,128 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,128 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,128 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,129 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,129 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,129 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,130 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,130 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,130 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,131 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,131 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,131 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,131 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,132 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,132 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,132 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,133 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,133 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,133 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,134 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,134 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,134 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,134 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,135 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,136 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,137 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,138 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,139 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,140 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,140 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,140 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,140 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,141 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,141 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,141 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,142 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,142 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,142 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,143 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,143 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,143 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,144 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,144 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,144 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,144 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,145 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,145 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,145 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,146 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,146 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,146 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,147 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,147 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,147 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,147 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,148 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,148 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,148 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,148 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,149 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,149 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,149 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,149 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,150 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,150 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,150 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,151 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,151 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,151 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,152 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,152 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,152 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,153 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,153 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,153 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,153 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,154 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,154 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,154 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,154 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,155 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,155 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,155 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,155 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,156 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,156 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,157 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,157 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,158 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,158 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,158 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,159 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,159 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,159 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,160 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,160 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,160 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,161 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,161 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,161 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,162 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,162 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,162 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,163 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,509 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-04 11:16:42,509 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,509 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,511 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,511 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,511 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,512 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,512 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,512 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,512 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,513 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,513 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,513 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,513 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,515 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,515 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,515 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,515 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,516 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,516 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,516 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,517 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,517 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,517 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,518 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,518 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,518 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,518 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,519 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,519 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,519 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,519 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,520 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,521 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,521 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,521 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,522 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,522 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,522 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,522 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,525 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,525 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,525 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,526 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,526 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,526 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,527 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,527 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,527 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,528 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,528 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,529 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,529 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,529 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,530 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,530 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,530 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,531 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,531 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,531 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,532 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,532 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,532 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,533 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,533 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,533 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,534 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,534 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,535 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,535 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,535 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,536 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,536 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,536 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,537 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,537 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,537 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,538 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,538 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,539 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,539 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,539 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,539 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,540 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,540 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,540 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,540 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,541 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,541 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,541 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,542 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,542 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,542 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,542 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,543 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,543 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,543 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,543 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,544 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,544 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,544 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,545 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,545 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,545 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,546 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,546 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,546 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,546 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,547 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: pydata__xarray-5131: >>>>> Patch Apply Failed:
+patching file xarray/core/groupby.py
+patch: **** malformed patch at line 8: @@ -388,13 +388,13 @@
+
+
+Check (logs/run_evaluation/trial_run_corrected_model_2/my-multi-llm-agent/pydata__xarray-5131/run_instance.log) for more information.
+
+2025-05-04 11:16:42,547 - INFO - Attempting to stop container sweb.eval.pydata__xarray-5131.trial_run_corrected_model_2...
+2025-05-04 11:16:58,112 - INFO - Attempting to remove container sweb.eval.pydata__xarray-5131.trial_run_corrected_model_2...
+2025-05-04 11:16:58,142 - INFO - Container sweb.eval.pydata__xarray-5131.trial_run_corrected_model_2 removed.
+2025-05-04 11:16:58,143 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.pydata_1776_xarray-5131:latest...
+2025-05-04 11:17:03,053 - INFO - Image swebench/sweb.eval.x86_64.pydata_1776_xarray-5131:latest removed.

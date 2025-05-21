@@ -1,0 +1,2467 @@
+2025-05-08 10:13:59,256 - INFO - Creating container for django__django-13265...
+2025-05-08 10:14:01,104 - INFO - Container for django__django-13265 created: 7db0cdc99d9fa3781c6ef11244e7708b563bcf8d65a0cf23da0ba007b1de840c
+2025-05-08 10:14:02,417 - INFO - Container for django__django-13265 started: 7db0cdc99d9fa3781c6ef11244e7708b563bcf8d65a0cf23da0ba007b1de840c
+2025-05-08 10:14:02,440 - INFO - Intermediate patch for django__django-13265 written to logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/patch.diff, now applying to container...
+2025-05-08 10:14:02,890 - INFO - Failed to apply patch to container: git apply --verbose
+2025-05-08 10:14:03,027 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2025-05-08 10:14:03,140 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2025-05-08 10:14:03,142 - INFO - >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+2025-05-08 10:14:03,299 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-08 10:14:03,300 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,300 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,301 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,302 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,303 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,304 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,304 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,304 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,305 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,305 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,306 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,306 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,306 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,307 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,308 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,308 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,309 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,309 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,310 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,310 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,310 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,311 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,311 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,312 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,312 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,312 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,313 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,313 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,314 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,314 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,315 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,315 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,316 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,316 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,317 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,317 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,318 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,318 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,319 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,319 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,320 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,322 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,323 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,324 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,325 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,325 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,326 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,326 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,328 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,329 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,330 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,330 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,331 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,331 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,332 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,333 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,333 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,334 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,334 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,334 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,335 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,336 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,336 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,336 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,337 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,338 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,338 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,339 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,339 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,340 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,340 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,341 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,341 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,342 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,343 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,343 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,344 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,344 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,345 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,345 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,346 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,346 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,347 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,348 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,348 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,348 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,349 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,350 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,351 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,351 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,353 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,354 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,354 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,355 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,356 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,357 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,358 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,358 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,359 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,360 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,361 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,362 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,362 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,365 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,365 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,366 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,366 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,367 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,368 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,368 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,369 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,369 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,370 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,371 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,371 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,372 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,372 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,373 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,373 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,374 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,374 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,375 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,491 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <unprintable EvaluationError object>
+
+2025-05-08 10:14:03,492 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,492 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,493 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,493 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,493 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,494 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,494 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,495 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,496 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,496 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,497 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,498 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,498 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,499 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,499 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,499 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,500 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,500 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,501 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,501 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,501 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,502 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,502 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,503 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,503 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,504 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,504 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,505 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,505 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,507 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,510 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,511 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,511 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,512 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,512 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,513 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,514 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,515 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,516 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,517 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,517 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,518 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,518 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,519 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,519 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,520 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,520 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,521 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,521 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,522 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,522 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,522 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,523 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,524 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,525 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,525 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,525 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,526 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,526 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,527 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,527 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,527 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,528 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,529 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,529 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,529 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,530 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,530 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,530 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,531 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,532 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,533 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,534 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,534 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,535 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,535 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,536 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,536 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,537 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,537 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,538 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,538 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,539 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,539 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,540 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,540 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,540 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,540 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,541 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,541 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,541 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,542 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,542 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,542 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,543 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,543 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,543 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,544 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,544 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,545 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,545 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,546 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,546 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,547 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,547 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,548 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,549 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,549 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,550 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,551 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,552 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,552 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,553 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,553 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,554 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,554 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,555 - INFO - Traceback (most recent call last):
+  File "/mnt/c/Nishant/Work/BITS - Engineering/2-2/LLM/Proj/SWE-bench/swebench/harness/run_evaluation.py", line 170, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-13265: >>>>> Patch Apply Failed:
+patching file django/db/migrations/autodetector.py
+patch: **** malformed patch at line 12: @@ -190,7 +190,6 @@ def _detect_changes(self, convert_apps=None, graph=None):
+
+
+Check (logs/run_evaluation/trial_run_corrected_mode_5/my-multi-llm-agent/django__django-13265/run_instance.log) for more information.
+
+2025-05-08 10:14:03,556 - INFO - Attempting to stop container sweb.eval.django__django-13265.trial_run_corrected_mode_5...
+2025-05-08 10:14:20,291 - INFO - Attempting to remove container sweb.eval.django__django-13265.trial_run_corrected_mode_5...
+2025-05-08 10:14:20,634 - INFO - Container sweb.eval.django__django-13265.trial_run_corrected_mode_5 removed.
+2025-05-08 10:14:20,635 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-13265:latest...
+2025-05-08 10:14:24,833 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-13265:latest removed.

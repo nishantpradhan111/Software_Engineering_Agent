@@ -1,0 +1,20 @@
+```diff
+--- a/sklearn/decomposition/kernel_pca.py
++++ b/sklearn/decomposition/kernel_pca.py
+@@ -215,7 +215,6 @@
+         else:
+             eigen_solver = self.eigen_solver
+ 
+-
+         if eigen_solver == 'dense':
+             self.lambdas_, self.alphas_ = linalg.eigh(
+                 K, eigvals=(K.shape[0] - n_components, K.shape[0] - 1))
+@@ -227,7 +226,6 @@
+                                                 tol=self.tol,
+                                                 maxiter=self.max_iter,
+                                                 v0=v0)
+-
+ 
+         # sort eigenvectors in descending order
+         indices = self.lambdas_.argsort()[::-1]
+```

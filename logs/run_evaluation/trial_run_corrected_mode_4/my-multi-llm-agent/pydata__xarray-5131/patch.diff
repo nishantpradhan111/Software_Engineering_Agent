@@ -1,0 +1,13 @@
+```diff
+--- a/xarray/core/groupby.py
++++ b/xarray/core/groupby.py
+@@ -436,7 +436,7 @@ def __iter__(self):
+         return zip(self._unique_coord.values, self._iter_grouped())\n
+ \n    def __repr__(self):\n
+ -        return "{}, grouped over {!r} \\n{!r} groups with labels {}.".format(\n
+-+        return "{}, grouped over {!r}\\n{!r} groups with labels {}.".format(\n
+++        return "{}, grouped over {!r}\n{!r} groups with labels {}.".format(\n
+             self.__class__.__name__,\n
+             self._unique_coord.name,\n
+             self._unique_coord.size,\n
+```

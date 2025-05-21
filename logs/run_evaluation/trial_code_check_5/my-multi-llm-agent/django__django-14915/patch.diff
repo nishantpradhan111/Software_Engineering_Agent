@@ -1,0 +1,17 @@
+```diff
+--- a/django/forms/models.py
++++ b/django/forms/models.py
+@@ -18,6 +18,9 @@
+ 
+ 
+ class ModelChoiceIteratorValue:
++    def __init__(self, value, label):
++        self.value = value
++        self.label = label
+     def __hash__(self):
+         return hash(self.value)
+-
+-    def __init__(self, value, label):
+-        self.value = value
+-        self.label = label
+```

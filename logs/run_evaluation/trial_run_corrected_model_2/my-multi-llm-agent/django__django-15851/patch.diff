@@ -1,0 +1,15 @@
+```diff
+--- a/django/db/backends/postgresql/client.py
++++ b/django/db/backends/postgresql/client.py
+@@ -33,9 +33,7 @@
+         if port:
+             args += ["-p", str(port)]
+         args.extend(parameters)
+-        if dbname:
+-            args += [dbname]
+-        args.extend(parameters)
++        args += [dbname] if dbname else []
+ 
+         env = {}
+         if passwd:
+```

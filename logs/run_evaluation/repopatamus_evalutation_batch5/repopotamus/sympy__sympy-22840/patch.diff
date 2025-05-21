@@ -1,0 +1,40 @@
+```diff
+--- a/sympy/simplify/cse_main.py
++++ b/sympy/simplify/cse_main.py
+@@ -567,7 +567,9 @@
+         Substitutions containing any Symbol from ``ignore`` will be ignored.
+     """
+     from sympy.matrices.expressions import MatrixExpr, MatrixSymbol, MatMul, MatAdd
++    from sympy.core import Basic
+     from sympy.matrices.expressions.matexpr import MatrixElement
++
+     from sympy.polys.rootoftools import RootOf
+ 
+     if opt_subs is None:
+@@ -575,11 +577,11 @@
+ 
+     ## Find repeated sub-expressions
+ 
+-    to_eliminate = set()
++    to_eliminate = OrderedSet()
+ 
+     seen_subexp = set()
+     excluded_symbols = set()
+-
++    
+     def _find_repeated(expr):
+         if not isinstance(expr, (Basic, Unevaluated)):
+             return
+@@ -588,7 +590,10 @@
+             return
+ 
+         if isinstance(expr, Basic) and (expr.is_Atom or expr.is_Order):
+-            if expr.is_Symbol:
++            if (expr.is_Symbol or
++                isinstance(expr, (MatrixSymbol, MatrixElement))):
++
++
+                 excluded_symbols.add(expr)
+             return
+ 
+```

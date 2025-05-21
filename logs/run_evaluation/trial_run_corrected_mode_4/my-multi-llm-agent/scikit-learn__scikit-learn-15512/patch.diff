@@ -1,0 +1,58 @@
+```diff
+--- a/sklearn/cluster/_affinity_propagation.py
++++ b/sklearn/cluster/_affinity_propagation.py
+@@ -194,14 +194,14 @@ def affinity_propagation(S, preference=None, convergence_iter=15, max_iter=200,
+             unconverged = (np.sum((se == convergence_iter) + (se == 0))\
+                            != n_samples)
+             if (not unconverged and (K > 0)) or (it == max_iter):
+-                never_converged = False
++                never_converged = it == max_iter
+                 if verbose:
+                     print("Converged after %d iterations." % it)
+                 break
+-    else:
++    else:
++        never_converged = True
+         if verbose:
+             print("Did not converge")
+-
+ 
+     I = np.flatnonzero(E)
+     K = I.size  # Identify exemplars
+@@ -211,7 +211,6 @@
+         c = np.argmax(S[:, I], axis=1)
+         c[I] = np.arange(K)  # Identify clusters
+ 
+-
+         # Refine the final set of exemplars and clusters and return results
+         for k in range(K):
+             ii = np.flatnonzero(c == k)
+@@ -220,7 +219,6 @@
+         labels = -np.ones(n_samples)
+     else:
+         labels = -np.ones(n_samples)
+-        I = []
+ 
+     self.n_iter_ = it + 1
+     self.cluster_centers_indices_ = np.asarray(I)
+@@ -228,10 +226,6 @@
+     if copy:
+         return np.asarray(I), labels
+         return np.asarray(I), labels
+-    else:
+-        self.labels_ = labels
+-
+-    self.n_iter_ = it + 1
+-    self.cluster_centers_indices_ = np.asarray(I)
+     return self
+ 
+ 
+@@ -408,7 +402,6 @@ def predict(self, X):
+             Cluster labels.
+         """
+         check_is_fitted(self)
+-        X = check_array(X)
+         X = check_array(X)
+         if not hasattr(self, "cluster_centers_"):
+             raise ValueError("Predict method is not supported when "
+```

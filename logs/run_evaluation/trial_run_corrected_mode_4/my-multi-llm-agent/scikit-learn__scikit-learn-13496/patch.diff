@@ -1,0 +1,19 @@
+```diff
+--- a/sklearn/ensemble/iforest.py
++++ b/sklearn/ensemble/iforest.py
+@@ -126,6 +126,8 @@
+ 
+         .. versionadded:: 0.21
+ 
++
++
+     Attributes
+     ----------
+     estimators_ : list of DecisionTreeClassifier
+@@ -185,4 +187,4 @@
+             max_features=max_features,
+             warm_start=warm_start,
+             n_jobs=n_jobs,
+-            random_state=random_state,\n            verbose=verbose)
++            random_state=random_state, verbose=verbose)
+```

@@ -1,0 +1,20 @@
+```diff
+--- a/sklearn/utils/multiclass.py
++++ b/sklearn/utils/multiclass.py
+@@ -169,7 +169,7 @@
+ 
+                 # dtype=object should be provided explicitly for ragged arrays,
+                 # see NEP 34
+-                y = xp.asarray(y, dtype=object)\
++                y = check_array(y, dtype=object, **check_y_kwargs)
+ 
+     if not (hasattr(y, "shape") and y.ndim == 2 and y.shape[1] > 1):
+         return False
+@@ -318,5 +318,5 @@
+ 
+                 # dtype=object should be provided explicitly for ragged arrays,
+                 # see NEP 34
+-                y = xp.asarray(y, dtype=object)\
++                y = check_array(y, dtype=object, **check_y_kwargs)
+ 
+```
